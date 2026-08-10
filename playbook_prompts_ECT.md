@@ -3,6 +3,8 @@
 > Complemento da `base_conhecimento_juridico_ECT.md`.
 > Cole a base no Projeto; use os prompts abaixo no dia a dia.
 > Convenção: `<...>` = você preenche. `[REVISAR: ...]` = marcação que eu devo deixar no documento.
+> Ver também `banco_teses_jurisprudencia.md` (precedentes já usados e verificados)
+> e `checklist_formatacao_pecas.md` (formatação e conversão .odt/.docx).
 
 ---
 
@@ -198,6 +200,9 @@ Converta o arquivo anexado para .docx (ou .odt) mantendo integralmente a
 formatação. Confirme depois: paginação, margens, fontes, cabeçalho com logotipo,
 rodapé e numeração.
 ```
+> Ver `checklist_formatacao_pecas.md` para o passo a passo completo (inclusive a
+> limitação técnica de edição direta de .odt) e o checklist de verificação
+> pós-conversão.
 
 ### 3.4 Reaproveitamento de peça
 ```
