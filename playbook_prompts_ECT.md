@@ -3,8 +3,9 @@
 > Complemento da `base_conhecimento_juridico_ECT.md`.
 > Cole a base no Projeto; use os prompts abaixo no dia a dia.
 > Convenção: `<...>` = você preenche. `[REVISAR: ...]` = marcação que eu devo deixar no documento.
-> Ver também `banco_teses_jurisprudencia.md` (precedentes já usados e verificados)
-> e `checklist_formatacao_pecas.md` (formatação e conversão .odt/.docx).
+> Ver também `banco_teses_jurisprudencia.md` (precedentes já usados e verificados),
+> `checklist_formatacao_pecas.md` (formatação e conversão .odt/.docx) e
+> `banco_pecas_indice.md` (catálogo de peças já produzidas, usadas como modelo).
 
 ---
 
@@ -23,6 +24,28 @@ REGRAS FIXAS:
 - Se a defesa e a sentença divergirem quanto aos fatos, apoie-se na sentença e na
   capa do PJe.
 ```
+
+---
+
+## 0.1 Busca de peça-modelo equivalente (antes de redigir do zero)
+
+Se `banco_pecas_indice.md` estiver subido como conhecimento do Projeto, rode
+isto **antes** da etapa de análise, para checar se já existe peça parecida:
+
+```
+Consulte a tabela do banco de peças (banco_pecas_indice.md) e liste as
+entradas cujo Tipo, Tema/tese e Rito sejam iguais ou próximos ao caso que vou
+tratar: <tipo de peça>, tema <tema>, rito <rito>.
+Não sugira conteúdo das peças — apenas aponte ID, tema e onde o arquivo real
+está guardado, para eu localizar e anexar manualmente.
+```
+
+Se houver uma entrada equivalente, localize o arquivo no acervo (fora deste
+repositório — ver seção 2 de `banco_pecas_indice.md`) e anexe-o na conversa
+como `<MODELO>` nos prompts de redação (seção 2). Se não houver nada
+parecido, siga o fluxo normal abaixo e, depois de protocolada, cadastre a
+peça nova no índice usando o prompt de catalogação (seção 5 de
+`banco_pecas_indice.md`).
 
 ---
 
