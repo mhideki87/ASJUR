@@ -16,6 +16,7 @@ infraestrutura própria.
 | `checklist_formatacao_pecas.md` | Especificação do padrão formal (fonte, margens, cabeçalho etc.) e passo a passo para gerar/converter peças em .docx/.odt sem perder a formatação do modelo. |
 | `banco_pecas_indice.md` | Catálogo de peças já produzidas (só metadados — tipo, tema, rito, local do arquivo real) para localizar rapidamente uma peça-modelo equivalente antes de redigir do zero. **Os arquivos reais ficam fora deste repositório** (ver seção "Banco de peças" abaixo). |
 | `instrucoes_personalizadas_projeto.md` | Texto pronto para colar no campo "Instruções personalizadas" do Projeto Claude — amarra todos os arquivos acima em regras de comportamento. |
+| `melhoria_continua.md` | Protocolo e log de aprendizado: como um erro apontado, uma tese validada ou uma peça nova viram atualização permanente dos demais arquivos, em vez de se perderem ao fim da conversa. |
 
 ## Como montar o Projeto (uma vez)
 
@@ -28,6 +29,7 @@ infraestrutura própria.
    - `banco_teses_jurisprudencia.md`
    - `checklist_formatacao_pecas.md`
    - `banco_pecas_indice.md`
+   - `melhoria_continua.md`
 4. Pronto — toda conversa nova dentro do Projeto já herda essas regras e essa base.
 
 ## Banco de peças (modelos e busca primária)
@@ -63,6 +65,24 @@ antigas são importadas aos poucos com o **prompt de catalogação** (seção 5 
 7. Rode o **checklist de formatação** (`checklist_formatacao_pecas.md`, seções 4 e 5) antes de converter/salvar o arquivo final.
 8. Confira manualmente **tudo que foi listado como `[REVISAR]`** — isso nunca é opcional.
 9. Se usou jurisprudência nova, **atualize `banco_teses_jurisprudencia.md`**; cadastre a peça no `banco_pecas_indice.md` usando o prompt de catalogação — ambos depois de protocolar.
+10. Se algo deu errado, foi corrigido, ou virou padrão novo durante o processo, rode o **prompt de registro de aprendizado** (`melhoria_continua.md`, seção 5) antes de fechar a conversa.
+
+## Melhoria contínua (o sistema fica melhor a cada uso)
+
+O Claude não tem memória entre conversas — o que garante que um erro
+corrigido hoje não se repita amanhã é um protocolo, não mágica. Resumo (ver
+`melhoria_continua.md` para o detalhe):
+
+1. Durante o uso, ao notar um erro, validar uma tese nova ou concluir uma
+   peça, rode o **prompt de registro de aprendizado** — vira uma linha no
+   log de `melhoria_continua.md`.
+2. Periodicamente, numa sessão com acesso a este repositório (como uma
+   sessão de Claude Code — não o chat comum do Projeto), rode o **prompt de
+   consolidação** — as entradas pendentes viram edições reais nos arquivos
+   mestres (base de conhecimento, banco de teses, checklist, índice de
+   peças), commitadas no Git.
+3. Re-suba os arquivos mestres atualizados como Conhecimento do Projeto no
+   claude.ai. Só aí a melhoria chega às próximas conversas.
 
 ## O que este sistema não faz (por enquanto)
 
@@ -85,3 +105,4 @@ antigas são importadas aos poucos com o **prompt de catalogação** (seção 5 
 - [ ] Orientações da Consultoria Jurídica nacional da ECT que vinculam a defesa local
 - [ ] Teses que a ECT decidiu *não* sustentar
 - [ ] Importar retroativamente o acervo de peças antigas para `banco_pecas_indice.md` (ver seção "Banco de peças" acima)
+- [ ] Definir periodicidade de consolidação do aprendizado (ver `melhoria_continua.md`) e avaliar se compensa automatizar essa etapa com uma rotina agendada

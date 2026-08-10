@@ -4,8 +4,10 @@
 > Cole a base no Projeto; use os prompts abaixo no dia a dia.
 > Convenção: `<...>` = você preenche. `[REVISAR: ...]` = marcação que eu devo deixar no documento.
 > Ver também `banco_teses_jurisprudencia.md` (precedentes já usados e verificados),
-> `checklist_formatacao_pecas.md` (formatação e conversão .odt/.docx) e
-> `banco_pecas_indice.md` (catálogo de peças já produzidas, usadas como modelo).
+> `checklist_formatacao_pecas.md` (formatação e conversão .odt/.docx),
+> `banco_pecas_indice.md` (catálogo de peças já produzidas, usadas como modelo)
+> e `melhoria_continua.md` (registro de erros/correções/peças novas para
+> atualizar os demais arquivos).
 
 ---
 
