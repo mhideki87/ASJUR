@@ -39,6 +39,9 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
 - **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (CPC, art. 927).
 - Argumentos de apoio: art. 8º, §2º, CLT; *ratio decidendi* de precedentes do STF; **salário-condição**; legalidade administrativa.
 - Precedentes do TST sobre a própria ECT e os mesmos normativos: RR-10652-45.2019.5.03.0182 (2ª T., Min. Liana Chaib, DEJT 23/02/2024); RR-10662-35.2018.5.03.0179 (6ª T., Min. Kátia Magalhães Arruda, DEJT 13/06/2023); RRAg-0010959-96.2017.5.03.0140 (3ª T., Min. Mauricio Godinho Delgado, DEJT 26/05/2023); E-RR-1561-30.2015.5.10.0002 (SBDI-1, 06/12/2018).
+- Ver modelo completo em `modelos/trabalhista/contestacao__incorporacao_funcao.md` (+ `.docx` de
+  formatação) — modelo modular, com blocos condicionais (Motorizado, quebra de caixa, substituição, CIP,
+  POSTALIS etc.) a selecionar conforme o caso.
 
 ### 3.2 Prescrição
 - **Prescrição total** — Súmula 294 do TST e art. 11, §2º, da CLT, para alteração do pactuado com prestação sucessiva não assegurada por lei.
