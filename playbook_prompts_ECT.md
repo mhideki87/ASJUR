@@ -231,3 +231,30 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |
 | Embargos | decisão embargada · peça em que a tese omitida foi deduzida |
+
+---
+
+## 6. Protocolo de atualização da base (rodar ao FINAL de qualquer sessão de minuta)
+
+A base de conhecimento (`base_conhecimento_juridico_ECT.md` / `base_conhecimento_juridico_CIVEL.md`) só melhora
+se cada sessão real alimentar ela de volta. Antes de encerrar a conversa em que você minutou algo, cole:
+
+```
+Antes de encerrarmos: revise esta conversa e aponte, separadamente:
+1. TESE NOVA — algum argumento usado aqui não está na base de conhecimento anexada?
+2. CORREÇÃO — alguma tese da base se mostrou errada, incompleta ou foi contestada
+   com sucesso pela parte contrária neste processo?
+3. JURISPRUDÊNCIA NOVA — algum precedente citado aqui (dos autos ou anexado por mim)
+   ainda não consta da base?
+4. Para cada item acima, escreva o trecho EXATO a acrescentar/alterar no arquivo .md
+   correspondente, no formato de um diff (o que sai / o que entra), pronto para eu revisar
+   e commitar no GitHub.
+Se nada for novo, diga isso explicitamente — não force um "achado" apenas para preencher a resposta.
+```
+
+Regras deste protocolo:
+- Claude nunca commita sozinho sem eu revisar o diff proposto.
+- Toda tese nova entra como candidata — some à seção correspondente, não substitui o que já existe, a menos
+  que eu confirme que a tese antiga estava errada.
+- Se o commit for feito por mim direto no GitHub (app ou site), não precisa repetir o protocolo na mesma
+  conversa. Se for pedir para o Claude commitar via connector do GitHub, confirme o diff primeiro.
