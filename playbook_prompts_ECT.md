@@ -244,13 +244,19 @@ um **ao final** de cada sessão em que algo for minutado.
 ### 6.1 Antes de anexar uma peça-modelo antiga (passo novo)
 
 ```
-Antes de eu anexar um modelo antigo: verifique em modelos/<área>/ (via GitHub) se já existe um
-modelo salvo para <tipo de peça> + <tema>. Se existir, use-o diretamente e não peça o anexo.
-Se não existir, ou se o que existe estiver claramente desatualizado, me avise e eu anexo o modelo.
+Antes de eu anexar um modelo antigo: use modelos/_FORMATO_BASE.docx (via GitHub) como formatação
+geral desta peça — fonte, cabeçalho, rodapé, fecho e assinatura já vêm dali, para qualquer tipo de
+peça. Ajuste o bloco de qualificação (endereçamento, rótulos de polo, fundamentação legal de
+admissibilidade) conforme o tipo de peça desta sessão.
+Além disso, verifique em modelos/<área>/ se já existe o par <tipo_peca>__<tema>.md (+ .docx, se
+houver) para esta peça + tema. Se existir, use o .md como base de estrutura/tese — não peça o anexo
+de uma peça-modelo antiga. Se não existir, ou se estiver desatualizado, me avise e eu anexo o modelo.
 ```
 
-Isso evita reanexar o que já foi consolidado. Só volte a anexar quando o modelo não existir, estiver
-incompleto, ou o caso trouxer uma variação que o modelo salvo não cobre.
+Isso evita reanexar o que já foi consolidado — a formatação geral vem sempre de `_FORMATO_BASE.docx`;
+a tese/estrutura do tema vem do `.md` correspondente. Só volte a anexar uma peça antiga quando o tema for
+novo, o modelo salvo estiver incompleto, ou o caso trouxer uma variação de estrutura que valha preservar
+num `.docx` próprio do tema.
 
 ### 6.2 Ao final de qualquer sessão de minuta
 
@@ -261,19 +267,28 @@ Antes de encerrarmos: revise esta conversa e aponte, separadamente:
    com sucesso pela parte contrária neste processo?
 3. JURISPRUDÊNCIA NOVA — algum precedente citado aqui (dos autos ou anexado por mim)
    ainda não consta da base?
-4. MODELO — o modelo estrutural usado nesta sessão já está salvo em modelos/? Se não estiver,
-   ou se este caso revelou uma variação de estrutura relevante, proponha a criação/atualização
-   do arquivo em modelos/<área>/<tipo_peca>__<tema>.md (a partir de modelos/_TEMPLATE.md),
-   sem nenhum dado que identifique o cliente ou o processo.
-5. Para cada item acima, escreva o trecho EXATO a acrescentar/alterar, no formato de um diff
-   (o que sai / o que entra), pronto para eu revisar e commitar no GitHub.
+4. MODELO (estrutura) — o modelo estrutural usado nesta sessão já está salvo em modelos/*.md? Se não
+   estiver, ou se este caso revelou uma variação relevante, proponha a criação/atualização do arquivo
+   em modelos/<área>/<tipo_peca>__<tema>.md (a partir de modelos/_TEMPLATE.md), sem nenhum dado que
+   identifique o cliente ou o processo.
+5. MODELO (visual, .docx) — se eu anexei uma peça-modelo real nesta sessão e ainda não existe o
+   .docx correspondente em modelos/<área>/, produza uma cópia anonimizada preservando integralmente
+   fonte, margens, cabeçalho/logotipo, rodapé, numeração e bloco de assinatura, substituindo todo dado
+   identificável por placeholder. Aponte também se algum metadado do arquivo (autor, revisões,
+   comentários) precisa ser limpo antes do commit.
+6. Para cada item acima, escreva o trecho EXATO a acrescentar/alterar (ou o arquivo .docx anonimizado
+   a gerar), pronto para eu revisar e commitar no GitHub.
 Se nada for novo, diga isso explicitamente — não force um "achado" apenas para preencher a resposta.
 ```
 
 Regras deste protocolo:
-- Claude nunca commita sozinho sem eu revisar o diff proposto — teses e modelos entram só depois da minha aprovação.
+- Claude nunca commita sozinho sem eu revisar o resultado — teses, modelos estruturais e modelos
+  visuais (.docx) entram só depois da minha aprovação explícita.
 - Toda tese ou modelo novo entra como candidato — soma à seção/arquivo correspondente, não substitui o que já
   existe, a menos que eu confirme que o anterior estava errado ou desatualizado.
-- Modelo nunca leva nome de cliente, nº de processo ou qualquer dado identificável (ver `modelos/README.md`).
+- Modelo (estrutural ou .docx) nunca leva nome de cliente, nº de processo, CPF ou qualquer dado
+  identificável — nem no corpo, nem em metadados do arquivo (ver `modelos/README.md`).
 - Se o commit for feito por mim direto no GitHub (app ou site), não precisa repetir o protocolo na mesma
-  conversa. Se for pedir para o Claude commitar via connector do GitHub, confirme o diff primeiro.
+  conversa. Se for pedir para o Claude commitar via connector do GitHub, confirme o resultado primeiro —
+  e verifique se esse connector consegue mesmo subir arquivo binário (.docx); se não conseguir, essa etapa
+  precisa ser feita numa sessão com acesso a git (Claude Code).

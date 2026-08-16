@@ -56,6 +56,27 @@ Três frentes de defesa, sempre nesta ordem:
 ### 3.5 Temas acessórios que reapareceam *ad cautelam*
 Quebra de caixa · substituições · aplicação integral dos normativos internos · reajustes de ACT · CIP · POSTALIS · honorários advocatícios.
 
+### 3.6 Afastamentos (atestado médico / auxílio-doença) e limite de responsabilidade do empregador
+- **Limite de 15 dias** — art. 60, §3º, da Lei 8.213/91: a partir do 16º dia de afastamento por doença/acidente,
+  opera-se de pleno direito a **suspensão do contrato de trabalho** (art. 476 da CLT) e o encargo do pagamento
+  passa à Previdência Social. Atestados médicos sucessivos e intercalados no intervalo de 60 dias, uma vez
+  homologados pela Medicina do Trabalho da ECT, somam-se para fins de contagem desse limite.
+- **FGTS não incide** durante a suspensão contratual quando o benefício é de natureza previdenciária comum
+  (espécie 31) — a obrigação de recolhimento durante afastamento restringe-se a acidente de trabalho e
+  serviço militar (art. 15, §5º, da Lei 8.036/90 c/c art. 28 do Decreto 99.684/90).
+- **Lacuna previdenciária** (período entre o fim da responsabilidade da empregadora e a decisão do INSS): a
+  tese de defesa atribui a pendência a ato/omissão da própria empregada (atraso em protocolar o requerimento
+  do benefício, atraso em juntar a Comunicação de Decisão do INSS à empresa) — combinar com **vedação ao
+  comportamento contraditório** (art. 422 do Código Civil) e o brocardo de que ninguém pode beneficiar-se da
+  própria torpeza.
+- **Reajuste de ACT já pago / bis in idem** — quando a inicial calcula o período do afastamento usando valores
+  *já reajustados* de um Acordo Coletivo posterior, cabe demonstrar que o reajuste foi pago autonomamente,
+  evitando duplicidade.
+- **Férias**: o afastamento médico causa exclusão automática da programação de férias no sistema da ECT;
+  se a própria empregada assinar posteriormente formulário de reprogramação para período já vencido, isso
+  concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
+- Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
+
 ---
 
 ## 4. Padrão formal das peças

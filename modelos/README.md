@@ -1,37 +1,73 @@
-# Modelos estruturais
+# Modelos: estrutura + visual
 
-Esta pasta guarda o **esqueleto de cada tipo de peça**, por tema — a parte que a
-`base_conhecimento_juridico_*.md` não cobre. A base diz *o que* argumentar; aqui fica *como* montar a peça,
-para que uma peça-modelo antiga não precise ser reanexada toda vez que o tema se repetir.
+## Formatação geral — `_FORMATO_BASE.docx`
+
+Este arquivo é o template visual **de todas as peças**, qualquer tipo ou tema: fonte, margens, cabeçalho com
+logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Marcos Hideki Kamibayashi, OAB/MS
+14.580). Foi extraído de uma peça real aprovada e anonimizada, mantendo cabeçalho/rodapé/estilos **byte-
+idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
+tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
+
+Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
+tipo de peça** e precisam ser ajustados a cada uso:
+- Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de
+  polo (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargado, etc.).
+- `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
+  CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
+
+Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
+tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
+fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
+
+## Modelos por tipo de peça + tema
+
+Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:
+
+```
+modelos/<area>/<tipo_peca>__<tema>.md      → estrutura, teses, texto reaproveitável (o "o quê")
+modelos/<area>/<tipo_peca>__<tema>.docx    → formatação real: fonte, margens, cabeçalho com
+                                              logotipo, rodapé, bloco de assinatura (o "como fica")
+```
+
+O `.md` descreve em prosa para consulta rápida; o `.docx` é o arquivo literal que deve ser aberto e usado
+como base ao gerar a peça final — **não tente recriar a formatação a partir da descrição em texto**, use o
+arquivo binário como modelo.
+
+## Por que isso existe
+
+O objetivo é que, depois que um tipo de peça + tema já tiver um modelo salvo aqui, você **não precise mais
+anexar** a peça antiga de novo — nem para saber a tese, nem para saber a formatação.
 
 ## Convenção de nomes
 
-```
-modelos/<area>/<tipo_peca>__<tema_em_snake_case>.md
-```
-
 - `<area>` = `trabalhista` ou `civel`.
-- `<tipo_peca>` = mesma abreviação/nome usado na seção 6 de `playbook_prompts_ECT.md`
-  (ex.: `contestacao`, `contrarrazoes`, `recurso_revista`, `quesitos_pericia_medica`, `embargos_declaracao`).
-- `<tema>` = mesmo nome de tema da base de teses (ex.: `incorporacao_funcao`, `doenca_ocupacional`,
-  `extravio_sem_declaracao_valor`).
+- `<tipo_peca>` = mesmo nome/abreviação da seção 6 de `playbook_prompts_ECT.md`.
+- `<tema>` = mesmo tema da base de teses correspondente.
 
-Exemplos: `modelos/trabalhista/contestacao__incorporacao_funcao.md`,
-`modelos/civel/contestacao__extravio_sem_declaracao_valor.md`.
+Exemplos: `modelos/trabalhista/contestacao__incorporacao_funcao.md` +
+`modelos/trabalhista/contestacao__incorporacao_funcao.docx`.
 
-## Regra de conteúdo
+## Como o `.docx` é criado (só a partir de um arquivo real seu, aprovado por você)
 
-- **Nunca** incluir nome de cliente, número de processo, CPF, ou qualquer dado que identifique uma parte real.
-  Trechos reaproveitáveis devem ser genéricos o suficiente para servir a qualquer caso do mesmo tema.
-- Um modelo só é criado ou atualizado depois de **aprovação explícita do usuário** — nunca criado
-  proativamente ou "por completude".
-- Use `modelos/_TEMPLATE.md` como ponto de partida.
-- Se uma peça citar norma interna, súmula ou precedente, cite a fonte exata — nunca parafrasear como se
-  fosse citação literal.
+1. Você anexa uma peça sua real (um caso concreto, com nome de cliente/processo).
+2. O Claude produz uma **cópia anonimizada**, preservando integralmente fonte, espaçamento, margens,
+   cabeçalho/logotipo, rodapé, numeração de página e bloco de assinatura — só o conteúdo variável
+   (nome da parte, nº do processo, datas, valores, fatos do caso) é substituído por placeholders
+   (`[NOME DO RECLAMANTE]`, `[Nº PROCESSO]`, `[DATA]` etc.).
+3. Você confere o resultado (inclusive que nenhum dado real ficou para trás em texto oculto,
+   metadado do arquivo, ou propriedades do documento — nome de autor original, revisões, comentários).
+4. Só depois de aprovado, o `.docx` anonimizado entra no repositório.
+
+**Nunca** commitar um `.docx` com dado real de cliente — nem no corpo, nem nos metadados do arquivo.
+
+## Regra de conteúdo (vale para `.md` e `.docx`)
+
+- Nenhum nome de cliente, número de processo, CPF, ou dado que identifique uma parte real.
+- Um modelo só é criado ou atualizado depois de **aprovação explícita do usuário**.
+- Use `modelos/_TEMPLATE.md` como ponto de partida do arquivo de estrutura.
 
 ## Como isso é usado no dia a dia
 
-Ver seção 6 de `playbook_prompts_ECT.md` ("Protocolo de atualização da base"): ao final de uma sessão em que
-uma peça-modelo foi anexada, o Claude verifica se já existe modelo salvo para aquele tipo de peça + tema;
-se não existir (ou se o anexado revelar uma variação relevante), propõe a criação/atualização do arquivo aqui,
-para revisão do usuário antes do commit.
+Ver seção 6 de `playbook_prompts_ECT.md`. Resumo: antes de anexar peça antiga, o Claude verifica se já
+existe o par `.md` + `.docx` para aquele tipo de peça + tema; se existir, usa direto. Se não existir (ou
+estiver desatualizado), pede o anexo, minuta, e ao final propõe consolidar o par de arquivos aqui.

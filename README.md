@@ -9,7 +9,7 @@ minuta, não por processamento em massa das petições antigas.
 |---|---|
 | [base_conhecimento_juridico_ECT.md](base_conhecimento_juridico_ECT.md) | Teses recorrentes — contencioso **trabalhista** (validada, uso real) |
 | [base_conhecimento_juridico_CIVEL.md](base_conhecimento_juridico_CIVEL.md) | Teses recorrentes — contencioso **cível** (rascunho, itens `[REVISAR]` pendentes de validação) |
-| [modelos/](modelos/README.md) | Esqueleto estrutural de cada peça por tipo + tema — para não precisar reanexar peça-modelo antiga |
+| [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (formatação de qualquer peça) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga |
 | [playbook_prompts_ECT.md](playbook_prompts_ECT.md) | Prompts de uso diário + protocolo de atualização da base |
 
 ## Como usar (resumo)
