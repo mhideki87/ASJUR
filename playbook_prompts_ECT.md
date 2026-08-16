@@ -234,10 +234,25 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 ---
 
-## 6. Protocolo de atualização da base (rodar ao FINAL de qualquer sessão de minuta)
+## 6. Protocolo de atualização da base (teses + modelos)
 
-A base de conhecimento (`base_conhecimento_juridico_ECT.md` / `base_conhecimento_juridico_CIVEL.md`) só melhora
-se cada sessão real alimentar ela de volta. Antes de encerrar a conversa em que você minutou algo, cole:
+Objetivo: depois de algumas sessões sobre o mesmo tema, eu não deveria mais precisar anexar uma peça-modelo
+antiga — o esqueleto da peça já deve estar salvo em `modelos/`, e a tese já deve estar em
+`base_conhecimento_juridico_*.md`. Isso só acontece se dois passos forem seguidos: um **antes** de anexar, e
+um **ao final** de cada sessão em que algo for minutado.
+
+### 6.1 Antes de anexar uma peça-modelo antiga (passo novo)
+
+```
+Antes de eu anexar um modelo antigo: verifique em modelos/<área>/ (via GitHub) se já existe um
+modelo salvo para <tipo de peça> + <tema>. Se existir, use-o diretamente e não peça o anexo.
+Se não existir, ou se o que existe estiver claramente desatualizado, me avise e eu anexo o modelo.
+```
+
+Isso evita reanexar o que já foi consolidado. Só volte a anexar quando o modelo não existir, estiver
+incompleto, ou o caso trouxer uma variação que o modelo salvo não cobre.
+
+### 6.2 Ao final de qualquer sessão de minuta
 
 ```
 Antes de encerrarmos: revise esta conversa e aponte, separadamente:
@@ -246,15 +261,19 @@ Antes de encerrarmos: revise esta conversa e aponte, separadamente:
    com sucesso pela parte contrária neste processo?
 3. JURISPRUDÊNCIA NOVA — algum precedente citado aqui (dos autos ou anexado por mim)
    ainda não consta da base?
-4. Para cada item acima, escreva o trecho EXATO a acrescentar/alterar no arquivo .md
-   correspondente, no formato de um diff (o que sai / o que entra), pronto para eu revisar
-   e commitar no GitHub.
+4. MODELO — o modelo estrutural usado nesta sessão já está salvo em modelos/? Se não estiver,
+   ou se este caso revelou uma variação de estrutura relevante, proponha a criação/atualização
+   do arquivo em modelos/<área>/<tipo_peca>__<tema>.md (a partir de modelos/_TEMPLATE.md),
+   sem nenhum dado que identifique o cliente ou o processo.
+5. Para cada item acima, escreva o trecho EXATO a acrescentar/alterar, no formato de um diff
+   (o que sai / o que entra), pronto para eu revisar e commitar no GitHub.
 Se nada for novo, diga isso explicitamente — não force um "achado" apenas para preencher a resposta.
 ```
 
 Regras deste protocolo:
-- Claude nunca commita sozinho sem eu revisar o diff proposto.
-- Toda tese nova entra como candidata — some à seção correspondente, não substitui o que já existe, a menos
-  que eu confirme que a tese antiga estava errada.
+- Claude nunca commita sozinho sem eu revisar o diff proposto — teses e modelos entram só depois da minha aprovação.
+- Toda tese ou modelo novo entra como candidato — soma à seção/arquivo correspondente, não substitui o que já
+  existe, a menos que eu confirme que o anterior estava errado ou desatualizado.
+- Modelo nunca leva nome de cliente, nº de processo ou qualquer dado identificável (ver `modelos/README.md`).
 - Se o commit for feito por mim direto no GitHub (app ou site), não precisa repetir o protocolo na mesma
   conversa. Se for pedir para o Claude commitar via connector do GitHub, confirme o diff primeiro.
