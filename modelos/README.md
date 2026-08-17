@@ -15,6 +15,30 @@ tipo de peça** e precisam ser ajustados a cada uso:
 - `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
   CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
 
+### Estilos nomeados
+
+O template traz nove estilos de parágrafo prefixados com `ASJUR`, visíveis na galeria de estilos do
+Word. **Use os estilos, não formatação direta** — assim a peça inteira se ajusta ao alterar o estilo,
+e as peças ficam consistentes entre si.
+
+| Estilo | Uso | Formatação |
+|---|---|---|
+| `ASJUR Endereçamento` | linha de endereçamento ao juízo/tribunal | sem recuo, justificado, negrito, versal |
+| `ASJUR Qualificação` | autos, polos, "COLENDO TRIBUNAL..." | sem recuo, justificado; rótulo em negrito no run |
+| `ASJUR Corpo` | argumentação | recuo 1ª linha 1701 twips (3 cm), justificado, entrelinha exata 360 |
+| `ASJUR Título de Seção` | grandes divisões (síntese, preliminares, mérito, requerimentos) | moldura nos 4 lados, centralizado, negrito, versal, sem numeração |
+| `ASJUR Subtítulo` | tópicos dentro de uma seção | recuo esq. 1701, negrito + sublinhado, versal, numeração manual reiniciada a cada seção |
+| `ASJUR Citação` | transcrição de decisão, ementa ou peça adversária | recuo esq. 1701, itálico, corpo 10, entrelinha exata 240 |
+| `ASJUR Título de Parte` | peças que reúnem duas manifestações num arquivo | centralizado, negrito; precedido de quebra de página |
+| `ASJUR Vocativo` | "Egrégio Tribunal / Eminentes Ministros / Ínclitos Julgadores" | centralizado, negrito |
+| `ASJUR Assinatura` | nome e OAB | centralizado, negrito |
+
+Todos definem `w:next`, de modo que o Enter após um título já retorna ao corpo; os três estilos de
+título têm `keepNext`, impedindo título órfão no fim da página.
+
+A segunda página do `_FORMATO_BASE.docx` é uma paleta demonstrativa: cada estilo aparece aplicado,
+com nota em itálico sobre quando usá-lo. Apagar essa página ao começar uma peça real.
+
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.

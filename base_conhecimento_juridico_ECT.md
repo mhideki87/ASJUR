@@ -56,6 +56,38 @@ Três frentes de defesa, sempre nesta ordem:
 2. **Inexistência de nexo causal** — etiologia multifatorial, fatores extralaborais e familiares, antecedentes, espécie 31 x 91, NTEP/CNAE **5310-5/01**, art. 20, §1º, da Lei 8.213/91; eventual concausa deve ser quantificada.
 3. **Inexistência de culpa da empregadora** — exames admissional e periódicos, PCMSO e riscos psicossociais, ausência de comunicação prévia à empresa; exigir do perito a indicação da **norma específica** supostamente descumprida.
 
+### 3.4-A Acidente de trabalho típico — defesa do acórdão favorável em fase extraordinária
+- **Separação rígida dos três pressupostos** (dano · nexo causal · culpa): reconhecer acidente e nexo
+  não implica reconhecer responsabilidade. A defesa deve isolar a culpa como categoria autônoma e
+  exigir a indicação de **conduta ou omissão patronal concreta**.
+- **Teste da premissa fática** (o argumento mais eficaz em contrarrazões/contraminuta): confrontar,
+  linha a linha, o rol de "premissas do acórdão" apresentado pelo recorrente com o texto literal do
+  julgado. É recorrente o adversário converter "a prova não demonstrou X" em "a ré não comprovou X".
+  Demonstrada a substituição, a pretensão deixa de ser subsunção e passa a ser reexame → Súmula 126.
+- **Inversão do ônus da prova só com decisão prévia** — art. 818, §§ 1º e 2º, da CLT: a distribuição
+  diversa exige decisão fundamentada **antes da abertura da instrução** e oportunidade de a parte se
+  desincumbir. Inversão invocada pela primeira vez em recurso é vedada (c/c arts. 9º e 10 do CPC).
+  Tese aplicável sempre que o reclamante invocar "aptidão para a prova" em grau recursal.
+- **Contra a alegação de prova diabólica**: a prova exigida do autor é de fato positivo (dinâmica do
+  acidente, ordem insegura, ausência de sinalização, trânsito em zona de operação), demonstrável por
+  prova testemunhal. Insucesso probatório ≠ encargo impossível.
+- **CAT e benefício B-91 / art. 19, § 1º, da Lei 8.213/91** — comprovam o acidente, não a culpa; o
+  dispositivo enuncia dever genérico, sem presunção de culpa nem responsabilidade objetiva.
+- **NR (Norma Regulamentadora)** é ato administrativo do Executivo — não é "lei federal" para fins do
+  art. 896, "c", da CLT. Alegação genérica de violação a NR, sem indicação do item descumprido, é
+  raciocínio circular (extrai do acidente a prova de sua causa). [conferir jurisprudência atual]
+- **Súmulas de barragem em RR/AIRR**, sempre com conferência do teor vigente: 126 (reexame de fatos e
+  provas), 296, I (aresto inespecífico que parte de premissa fática diversa), 297, I e II
+  (prequestionamento), 337 (forma de comprovação da divergência — atenção quando o aresto vier de
+  plataforma privada, e não de repositório oficial).
+- Precedente adverso a antecipar (trazido pelo reclamante nos autos, TRT da 4ª Região):
+  ROT 0020210-77.2020.5.04.0861 (2ª T., Rel. Des. Marçal Henri dos Santos Figueiredo, DEJTRS
+  01/03/2023) e ROT 0020073-44.2021.5.04.0511 (5ª T., Relª Desª Rejane Souza Pedra, DEJTRS
+  06/09/2024) — sustentam culpa presumida do empregador a partir do art. 157 da CLT. Contraponto:
+  ambos partem de premissa de ato ilícito comprovado e/ou incapacidade permanente; inespecíficos
+  (Súmula 296, I) quando o acórdão local afastou expressamente a prova do ilícito.
+- Ver modelo completo em `modelos/trabalhista/contrarrazoes_rr_contraminuta_ai__acidente_trabalho.md`.
+
 ### 3.5 Temas acessórios que reapareceam *ad cautelam*
 Quebra de caixa · substituições · aplicação integral dos normativos internos · reajustes de ACT · CIP · POSTALIS · honorários advocatícios.
 
