@@ -1,0 +1,9 @@
+# Saida do ferramentas/converter_documentos.py — contem dados reais do processo.
+# Ver "Regra permanente" no README.
+_convertido/
+_CASO_COMPLETO.md
+_INDICE.md
+_MANIFESTO.json
+
+__pycache__/
+*.pyc
