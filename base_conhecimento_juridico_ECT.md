@@ -84,13 +84,27 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 
 ## 4. Padrão formal das peças
 
-- Formato: **.odt** (LibreOffice); conversão para .docx quando necessário.
-- Fonte **Arial 11**, **entrelinha 1,5**, parágrafos **justificados** com recuo de primeira linha.
-- Margens: esquerda 2 cm / direita ~1,25 cm.
-- **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica"; **rodapé** com endereço e numeração de páginas.
-- Citações de jurisprudência em bloco recuado (~3 cm).
-- Fecho: "N. Termos / P. Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
-- Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos com **prequestionamento**.
+> Fonte única da verdade: **`modelos/_FORMATO_BASE.docx`** — vale para **todo tipo de peça**. A tabela completa
+> de parágrafos e a receita OOXML estão em `modelos/README.md`. O resumo abaixo é só orientação rápida.
+
+- Formato: **.docx** (gerado a partir de `modelos/_FORMATO_BASE.docx`); .odt quando o fluxo exigir.
+- Página **A4**, margens 3,0 cm (esq.) × 2,0 cm (dir.) × 3,0 cm (sup.) × 2,0 cm (inf.).
+- Fonte **Arial 11** em todo o documento; **entrelinha exata de 18 pt**; parágrafos **justificados** com
+  **recuo de primeira linha de 3 cm**.
+- **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica MS/DEJUR/SEJUR"; **rodapé** com endereço e
+  numeração de páginas.
+- **Títulos de seção**: caixa alta, negrito, **centralizados dentro de quadro com borda**, sem numeração romana.
+- **Subtítulos de item**: caixa alta, negrito **e sublinhado**, numeração arábica (`1.`, `2.`…), em bloco
+  recuado 3 cm à esquerda.
+- **Enumerações** destacadas (`(i)`, `a)`) em bloco recuado 3 cm à esquerda, sem recuo de primeira linha.
+- **Citações** de lei, súmula, jurisprudência e doutrina em bloco recuado 3 cm, **Arial 10, itálico**,
+  entrelinha simples.
+- Tarja de urgência (`URGENTE…`, `SEGREDO DE JUSTIÇA`) em negrito **vermelho**, no topo, quando cabível.
+- Destaques em **negrito**; latinismos e títulos de obra em itálico; sublinhado só nos subtítulos.
+- Fecho: "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de
+  assinatura centralizado com nome e OAB.
+- Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos com
+  **prequestionamento**.
 
 ---
 
