@@ -82,6 +82,95 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 
 ---
 
+### 3.7 Responsabilidade subsidiária em terceirização (ECT como **tomadora**, 2ª Reclamada)
+
+Cenário: o Reclamante é empregado de prestadora de serviços (limpeza, conservação, vigilância etc.) que
+executa contrato administrativo em unidade da ECT; pede-se a condenação da prestadora e, subsidiariamente,
+da ECT. **Não é caso de defesa de empregadora** — nenhuma das obrigações discutidas é da ECT.
+
+- **Eixo legal (o mais forte):** **art. 77, §1º, da Lei 13.303/16** (Lei das Estatais) — reprodução integral
+  do art. 71, §1º, da Lei 8.666/93: a inadimplência do contratado quanto aos encargos trabalhistas não
+  transfere à empresa pública a responsabilidade pelo pagamento. Para a ECT é este o dispositivo aplicável,
+  e não o art. 121 da Lei 14.133/2021.
+- **Constitucionalidade e ônus da prova:** **ADC 16** (STF, Pleno, 24/11/2010) — constitucionalidade do
+  art. 71, §1º, sem ressalvas; **Tema 246 da repercussão geral** — vedada a transferência automática;
+  **Rcl 17.402/SP** (Min. Gilmar Mendes, 18/03/2014, envolvendo a própria ECT) e **Rcl 19.871**
+  (Min. Dias Toffoli, DJE 63, 31/03/2015) — fundamentação genérica sobre culpa *in vigilando* contraria
+  a ADC 16.
+- **Tema 1.118 da repercussão geral** (STF, Pleno, Rel. Min. Nunes Marques, julgamento iniciado em
+  13/02/2025): o voto do Relator, acompanhado pela maioria formada **até a suspensão do julgamento**,
+  propõe que (1) não há responsabilidade subsidiária amparada em inversão do ônus da prova, sendo
+  imprescindível a comprovação, pela parte autora, de comportamento negligente ou nexo causal; e (2) o
+  comportamento negligente se caracteriza quando a Administração permanece inerte **após notificação
+  formal** (do trabalhador, sindicato, MTE, MPT, Defensoria ou outro meio idôneo). Citar sempre como
+  julgamento em curso — **não** como tese fixada; conferir o andamento antes de cada protocolo.
+  - ⚠️ **Cautela ao transcrever:** o **item 3** da tese proposta atribui à Administração a
+    responsabilidade por garantir segurança, higiene e salubridade quando o trabalho se dá em suas
+    dependências (art. 5º-A, §3º, da Lei 6.019/74). Em casos de **insalubridade / SST**, transcrever a
+    tese integral entrega ao Juízo o melhor argumento do autor — transcrever apenas os itens 1 e 2, com
+    reticências. Em casos só de verbas contratuais, a transcrição integral é inofensiva.
+- **Ônus probatório:** art. 373, I, do CPC e art. 818, I, da CLT — cabe ao Reclamante descrever e provar a
+  falha concreta de fiscalização (quem era o gestor/fiscal, qual notificação foi desatendida, qual
+  irregularidade foi comunicada e não sanada). Não se exige da ECT prova de fato negativo absoluto (art. 5º,
+  LV, da CF).
+- **Culpa *in eligendo*:** inexistente — a contratação decorre de licitação regular (art. 37, XXI, da CF);
+  a escolha é ato vinculado, não discricionário.
+- **Culpa *in vigilando*:** Súmula 331, V, do TST é aplicada de forma indistinta na prática; sustentar que
+  isso equivale a responsabilidade objetiva pela teoria do risco integral, incompatível com o art. 37, §6º,
+  da CF e com a ADC 16. Somar: (i) ausência de poder de polícia da ECT sobre normas trabalhistas;
+  (ii) limite intrínseco da fiscalização, sob pena de configurar intermediação de mão de obra e burla ao
+  concurso público; (iii) juntada dos documentos de fiscalização efetivamente existentes.
+- **Vedação de vínculo direto:** art. 37, II e §2º, da CF; **Súmula 331, II** e **Súmula 363** do TST —
+  pedido de reconhecimento de vínculo "com as reclamadas" é juridicamente impossível quanto à ECT.
+- **Ilegitimidade passiva:** arguir como preliminar (art. 330, II, c/c art. 485, VI, do CPC), reforçada pelo
+  fato de todas as obrigações discutidas serem legalmente do empregador — CTPS (arts. 29 e 41 da CLT),
+  salário (art. 457), FGTS (art. 15 da Lei 8.036/90), verbas rescisórias e guias (art. 477), EPI (arts. 157,
+  158 e 166), PGR/PCMSO (arts. 157 e 168) e PPP (art. 58, §4º, da Lei 8.213/91).
+- **Base de execução da ECT:** DL 509/69, art. 12, e DL 779/69, art. 1º — prazo em dobro, isenção de custas
+  e depósito recursal, execução por precatório (STF, RE 220.906/DF e RE 220.699/SP), juros e correção pelo
+  art. 3º da EC 113/2021.
+- **Ponto processual que não pode ser esquecido:** havendo pluralidade de réus, a contestação de um deles
+  afasta os efeitos da revelia (**art. 345, I, do CPC**). Se a prestadora for revel, é a defesa da ECT que
+  segura toda a matéria de fato — por isso a peça deve impugnar **especificamente todos os fatos**, inclusive
+  os "exclusivos" da empregadora, e requerer ofício à 1ª Reclamada para juntada da documentação funcional.
+- **Ad cautelam, para eventual condenação:** benefício de ordem com esgotamento prévio contra a prestadora e
+  seus sócios; limitação ao período da efetiva prestação em favor da ECT (**Súmula 331, VI**); exclusão de
+  parcelas sancionatórias/personalíssimas (multas dos arts. 467 e 477 da CLT) e das obrigações de fazer
+  (anotação de CTPS, PPP, guias); compensação (art. 767 da CLT); limitação aos valores dos pedidos
+  (art. 840, §1º, da CLT).
+- Ver modelo completo em `modelos/trabalhista/contestacao__responsabilidade_subsidiaria_terceirizacao.md`
+  (+ `.docx`).
+
+### 3.8 Adicional de insalubridade — limpeza e higienização de sanitários
+
+Tema que aparece acoplado ao 3.7 (empregada de prestadora de limpeza que higieniza os banheiros da agência).
+
+- **Tese do autor:** NR-15, **Anexo 14** (agentes biológicos) e **Súmula 448, II, do TST** — a higienização
+  de instalações sanitárias de uso público ou coletivo **de grande circulação**, e a respectiva coleta de
+  lixo, rende adicional em **grau máximo (40%)**.
+- **Defesa:** o enquadramento não é automático — "uso público ou coletivo **de grande circulação**" é
+  requisito qualificado e é questão de fato. Fora dessa hipótese incide a **OJ 4, II, da SBDI-1 do TST**
+  (limpeza de residências e escritórios e respectiva coleta de lixo não são atividades insalubres).
+  Levantar com a área gestora, para o *distinguishing*: porte da unidade, número e destinação de cada
+  sanitário (uso restrito a empregados × aberto ao público) e média de atendimentos diários/mensais.
+- **Prova técnica é indispensável:** art. 195, §2º, da CLT; no rito sumaríssimo, art. 852-H, §4º, da CLT.
+  Requerer perícia, reservar quesitos e assistente técnico (usar os blocos do playbook, item 2.5).
+- **EPI:** **Súmula 289 do TST** — o simples fornecimento não exime; exige-se prova de entrega, CA,
+  substituição periódica, treinamento e fiscalização do uso. A documentação é da empregadora: requerer
+  ofício à 1ª Reclamada, não assumir o encargo.
+- **Base de cálculo:** salário mínimo (art. 192 da CLT), pois a **Súmula 228 do TST** teve a aplicação
+  suspensa pelo STF e a **Súmula Vinculante 4** não autoriza a substituição da base por decisão judicial.
+  Conferir se a CCT/ACT da categoria de asseio e conservação fixa base distinta.
+- **Reflexos:** o adicional **integra a base de cálculo** das horas extras, e não o contrário — pedido de
+  "reflexo em horas extras" é teratológico. Para mensalista, não há reflexo em RSR.
+- **Precedente que a parte autora costuma invocar** (tese adversa, registrar para *distinguishing*):
+  TST-RR 269-75.2011.5.04.0015, 3ª T., Rel. Min. Alberto Luiz Bresciani de Fontan Pereira, DEJT 24/05/2013 —
+  limpeza de banheiros **em agência dos Correios**, com enquadramento no Anexo 14 da NR-15 e afastamento da
+  OJ 4, II. A distinção se faz na moldura fática (grande circulação e ausência de registro de EPI foram
+  premissas fixadas em perícia naquele caso).
+
+---
+
 ## 4. Padrão formal das peças
 
 - Formato: **.odt** (LibreOffice); conversão para .docx quando necessário.
