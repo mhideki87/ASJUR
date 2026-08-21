@@ -80,6 +80,25 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 Base de cálculo do anuênio — reflexo de adicionais de atividade é indevido
+- Norma interna: **MANPES, Módulo 10, Capítulo 01, Anexo 04, item 1.1** — o anuênio corresponde a *1% do
+  salário-base do cargo efetivo e respectivo valor da gratificação de função gerencial, técnica ou de
+  atividade especial, ou o valor correspondente ao complemento da remuneração singular*, por ano de serviço
+  prestado, contado a partir de **20.03.1969**; devido ao empregado **admitido até 26.04.2024**.
+- Tese: a norma que institui a parcela **enumera taxativamente** a sua base de cálculo — salário-base +
+  gratificação de função (gerencial, técnica ou de atividade especial) ou complemento de remuneração
+  singular. **Adicionais de atividade não constam dessa lista**, de modo que não geram reflexo em anuênio.
+  Aplicação concreta já usada: **AAG — Adicional de Atendimento em Guichê** (instituído pelo PCCS/2008).
+- Vale como argumento *ad cautelam* autônomo: ainda que a parcela principal seja deferida, o reflexo em
+  anuênio cai por falta de previsão na norma que regulamenta o próprio anuênio.
+- **Não confundir com a ITF/GPTF**: o Módulo 36, item 3.2, previa expressamente que *“sobre os valores pagos
+  a título de Incorporação Administrativa por Tempo de Função e por Gratificação provisória por Tempo de
+  Função incidirão os anuênios a que o empregado faz jus”* — ali o reflexo era previsto. A distinção entre
+  gratificação de função (com reflexo) e adicional de atividade (sem reflexo) é o eixo do argumento.
+- Conferir sempre, antes de usar: se a inicial aplicou o **percentual correto de anuênio** (o da ficha
+  cadastral do empregado, campo `% Anuênio`) — divergência de um ponto percentual no demonstrativo é
+  impugnação de baixo custo e alta taxa de acolhimento.
+
 ---
 
 ## 4. Padrão formal das peças
