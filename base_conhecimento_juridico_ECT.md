@@ -20,7 +20,7 @@
 | Peça | Contexto típico |
 |---|---|
 | Contestação | Resposta à inicial trabalhista |
-| Contrarrazões de Recurso Ordinário | Defesa da sentença favorável, endereçada ao TRT24 |
+| Contrarrazões de Recurso Ordinário | Defesa da sentença favorável, endereçada ao TRT24 — formatação em `modelos/trabalhista/contrarrazoes_ro__FORMATO.docx` |
 | Recurso de Revista | Sentença/acórdão desfavorável |
 | Quesitos para perícia médica | Ações de doença ocupacional |
 | Manifestações | Sobre documentos do INSS, laudos, etc. |
@@ -80,6 +80,69 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 Multa do art. 477, §8º, da CLT — base de cálculo e limites do pedido
+
+- **Base de cálculo — tese adversa, e vinculante.** O Pleno do TST, no **Tema 142** da Tabela de Incidência
+  de Recursos Repetitivos (**RR-11070-70.2023.5.03.0043**, acórdão publicado no **DJEN em 22/05/2025**),
+  fixou: *"A multa prevista no art. 477, § 8º, da CLT incide sobre todas as parcelas de natureza salarial,
+  não se limitando ao salário-base"*. O TRT24 aplica a tese nas **duas Turmas**. Não há tese da ECT que
+  negue frontalmente o Tema 142 — e **não convém tentar**: desqualificar a eficácia de IRR do TST
+  contradiz o item 3.1 desta base, que depende do Tema 23 do Pleno.
+- **O que sobra de defesa, em ordem de força:**
+  1. **Limite do valor do pedido.** A multa do art. 477, §8º, é verba de valor **único, atual e
+     integralmente determinável no ajuizamento** — o Reclamante dispõe do próprio contracheque e apura ao
+     centavo. Valor atribuído ao pedido, portanto, **vincula** (arts. 141 e 492 do CPC; art. 840, §1º, da
+     CLT). Confrontar sempre o valor pedido na inicial com o valor deferido: a diferença é o **teto**
+     aritmético do recurso.
+     - Contra-argumento previsível: valores da inicial como meras estimativas (**art. 12, §2º, da IN
+       41/2018 do TST**). Responder que a orientação foi concebida para pedidos de quantificação futura
+       (horas extras, reflexos, diferenças ao longo do contrato), não para verba líquida e atual. Verificar
+       sempre se a inicial contém **ressalva expressa de estimativa** — a ausência reforça decisivamente.
+  2. **Inovação recursal.** Reconstituir a **memória de cálculo da inicial** por aritmética: se o valor
+     pedido equivale ao salário-base acrescido de um percentual identificável (ex.: anuênio), as demais
+     verbas que o recurso pretende agregar **não integraram o pedido** — inovação (art. 1.014 do CPC;
+     Súmula 393 do TST). Somar os pedidos e conferir contra o valor da causa confirma que o valor foi
+     apurado, e não arbitrado.
+  3. **A sentença já pode ter aplicado o critério certo.** Verificar se a decisão apurou a multa citando
+     o **art. 457, §1º, da CLT** — que é o próprio conceito de remuneração adotado pelo Tema 142. Se sim,
+     não há violação da tese: há divergência de *quantum*, que o recorrente tem o ônus de demonstrar.
+  4. **Ônus de demonstração.** Recurso que não reproduz as rubricas do contracheque, não indica valores,
+     não apresenta cálculo e não impugna a planilha da sentença líquida não demonstra o erro que alega. E
+     provimento em termos genéricos converteria sentença líquida em ilíquida.
+  5. **Natureza das verbas — subsidiário e frágil.** O Tema 142 dá o critério ("parcelas de natureza
+     salarial"), não a lista. Anuênio é salarial por força do art. 457, §1º — **não vale brigar**.
+     Gratificação de função é **salário-condição** (item 3.1); CIP exige conferir a cláusula do ACT.
+     Cuidado duplo: (a) se a contestação não impugnou a base de cálculo, a tese é atacável por preclusão
+     (art. 342 do CPC; art. 847 da CLT) e deve ser formulada como *ausência de demonstração pelo
+     recorrente*; (b) conferir se o contracheque/GFIP registra incidência de FGTS e contribuição
+     previdenciária sobre a verba — se registra, a natureza salarial é difícil de negar.
+- **Exceção do próprio §8º** — a multa não incide "quando, comprovadamente, o trabalhador der causa à
+  mora". Tese de fato, que exige prova robusta: alegação de alteração de conta bancária pelo empregado sem
+  comunicação **não se sustenta** se os extratos mostrarem que os salários já eram creditados na conta
+  "nova". Registrado como derrota real (ver item 8). Ainda que houvesse falha de comunicação, o juízo
+  tende a exigir da empregadora o **depósito em consignação** dentro do prazo do art. 477, §6º.
+- **Dano moral por atraso rescisório** — capítulo em que a ECT tende a vencer: a inadimplência de
+  obrigação sujeita-se ao art. 389 e seguintes do CC, não ao art. 186, e o art. 403 do CC limita a
+  reparação aos prejuízos diretos e imediatos (STF, **RE 130.764**, Rel. Min. Moreira Alves, DJ
+  07/08/1992). Precedente do TRT24 no mesmo sentido: **0024820-42.2021.5.24.0006**, 1ª Turma, Rel. Julio
+  Cesar Bebber, 28/11/2022 — sonegação de direito trabalhista, por si só, gera dano patrimonial, não
+  extrapatrimonial. Atenção à divergência interna do Regional: a 2ª Turma reconhece dano moral *in re
+  ipsa* em **inadimplemento salarial reiterado** (ROT 0024548-57.2024.5.24.0066, Rel. Des. Marco Antonio
+  de Freitas, 17/04/2026) — hipótese distinta do atraso rescisório único.
+- **Arestos do TRT24 sobre o Tema 142** (todos localizados em recurso adversário, conferir teor antes de
+  usar): ROT 0024548-57.2024.5.24.0066 (2ª T., Marco Antonio de Freitas, 17/04/2026); RORSum
+  0024741-54.2024.5.24.0072 (2ª T., João de Deus Gomes de Souza, 05/02/2025 — base ampliada por **horas
+  extras habituais deferidas na condenação**, bom material de *distinguishing*); ROT
+  0027436-37.2024.5.24.0021 (1ª T., André Luís Moraes de Oliveira, 17/12/2025); ROT
+  0024631-73.2024.5.24.0066 (1ª T., Nicanor de Araújo Lima, 29/07/2025); ROT 0024544-20.2024.5.24.0066
+  (1ª T., Marcio Vasques Thibau de Almeida, 29/07/2025).
+- **Rescisão por acordo (art. 484-A da CLT)** não afasta o prazo do art. 477, §6º, nem a multa do §8º.
+- **Licença para tratar de assuntos particulares (LTAP)** suspende o contrato sem remuneração — hipótese
+  **distinta** do afastamento previdenciário do item 3.6. Consequência prática: no período de LTAP não há
+  remuneração paga pela ECT, e o parâmetro do art. 477, §8º, é o último contracheque anterior à suspensão.
+- Formatação e estilística das contrarrazões: `modelos/trabalhista/contrarrazoes_ro__FORMATO.md`
+  (+ `.docx`).
+
 ---
 
 ## 4. Padrão formal das peças
@@ -124,3 +187,29 @@ Abreviações: `Cont` = contestação · `RR` = recurso de revista · `Inc Fun` 
 - [ ] Outras áreas além da trabalhista (cível, consumidor?)
 - [ ] Orientações da Consultoria Jurídica nacional da ECT que vinculam a defesa local
 - [ ] Teses que a ECT decidiu *não* sustentar
+
+---
+
+## 8. Lições de peças anteriores (conferir antes de protocolar a próxima)
+
+Registro de falhas reais detectadas em peças já protocoladas, para não se repetirem. Não são teses: são
+itens de checklist.
+
+- **Impugnar sempre o valor atribuído a cada pedido, e não só o do dano moral.** Numa contestação de multa
+  do art. 477, §8º, a omissão custou caro: sem impugnação ao valor do pedido nem à base de cálculo, a
+  defesa perdeu, em contrarrazões, a possibilidade de discutir a natureza das verbas sem incorrer em
+  preclusão (art. 342 do CPC; art. 847 da CLT). Ver item 3.7.
+- **Cuidado com a descrição do pedido alheio.** Descrever o pedido do autor como "multa no importe da
+  **última remuneração**" equivale a admitir a base remuneratória. Descrever o pedido pelos termos em que
+  a inicial o formulou, sem qualificá-lo.
+- **Não pedir correção monetária pela TR / OJ 300 da SDI-1.** Critério superado (ADIs 4357 e 4425; RE
+  870.947 – Tema 810; EC 113/2021 – SELIC). O pedido ainda aparece em contestações antigas e contradiz o
+  próprio requerimento de aplicação da EC 113/2021 feito na mesma peça.
+- **Incluir requerimento de prequestionamento na contestação**, e não só nos recursos (estrutura da seção
+  2.1 do playbook, bloco VI).
+- **Conferir endereçamento e data antes de assinar.** Já foram protocoladas peças com "Campo Grande/**SP**"
+  no endereçamento e com data anterior aos próprios fatos discutidos — resíduo de reaproveitamento.
+- **Varrer resíduo de peça reaproveitada.** Menções a "adicional", "descontos ilícitos" ou a temas de outro
+  processo (ex.: aresto sobre AADC em caso de atraso rescisório) enfraquecem a peça e sinalizam ao juízo
+  que ela não foi escrita para aqueles autos.
+- **Numeração de tópicos sem saltos** (já ocorreu "2." seguido de "3.1", sem item 3).

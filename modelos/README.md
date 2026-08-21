@@ -19,6 +19,26 @@ Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
 
+## Formatação por tipo de peça — `<tipo_peca>__FORMATO.docx`
+
+Nível intermediário entre o `_FORMATO_BASE.docx` (que vale para tudo) e os modelos de tema (que valem para
+um assunto só). Existe quando um **tipo de peça** tem particularidades de corpo estáveis, independentes do
+tema, que compensa preservar em arquivo próprio — hierarquia de títulos, blocos obrigatórios, peça dupla.
+
+```
+modelos/<area>/<tipo_peca>__FORMATO.docx   → esqueleto com placeholders, formatação real
+modelos/<area>/<tipo_peca>__FORMATO.md     → especificação da formatação + estrutura + trechos-padrão
+```
+
+Existentes:
+
+| Arquivo | Cobre |
+|---|---|
+| `trabalhista/contrarrazoes_ro__FORMATO` | Contrarrazões de RO (do Reclamante ou adesivo), TRT24 — peça dupla (juntada à Vara + razões ao Tribunal), dois níveis de título, blocos *ad cautelam* e prequestionamento |
+
+Ao redigir: comece pelo `__FORMATO.docx` do tipo de peça, se houver; só recorra ao `_FORMATO_BASE.docx`
+quando não existir um. O `.md` de tema (se existir) entra por cima, para a tese e a estrutura do mérito.
+
 ## Modelos por tipo de peça + tema
 
 Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:
