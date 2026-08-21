@@ -170,6 +170,15 @@ Não use os embargos para rediscutir mérito — se não houver vício real, dig
 em vez de redigir a peça.
 ```
 
+Para sentença de 1º grau existe modelo consolidado:
+`modelos/trabalhista/embargos_declaracao__sentenca_primeiro_grau.md` (+ `.docx`) — traz o padrão de cinco
+movimentos de cada tópico, o bloco recorrente da ECT (honorários de sucumbência recíproca, prerrogativas da
+Fazenda Pública, EC 113/2021, Súmula 439/TST, planilhas anexas) e o checklist de leitura da sentença. Duas
+observações do caso-fonte, a decidir a cada uso: (a) **prequestionamento** — no caso real optou-se por deixá-lo
+para o recurso ordinário, e não incluí-lo nos ED; (b) **economia de vícios** — a peça foi enxugada de 15 para 7
+tópicos, migrando para o RO tudo que dependia de requalificar o que o juízo decidiu ou que não havia sido
+deduzido especificamente na contestação.
+
 ---
 
 ## 3. Prompts de apoio

@@ -20,6 +20,7 @@
 | Peça | Contexto típico |
 |---|---|
 | Contestação | Resposta à inicial trabalhista |
+| Embargos de declaração | Sentença de 1º grau com omissão, contradição, obscuridade ou erro material |
 | Contrarrazões de Recurso Ordinário | Defesa da sentença favorável, endereçada ao TRT24 |
 | Recurso de Revista | Sentença/acórdão desfavorável |
 | Quesitos para perícia médica | Ações de doença ocupacional |
@@ -48,7 +49,19 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
 
 ### 3.3 Prerrogativas processuais da ECT
 - **Prazo em dobro** — art. 1º do Decreto-lei 779/69, combinado com a equiparação à Fazenda Pública do art. 12 do Decreto-lei 509/69, recepcionado pela CF/88 (STF, **RE 220.906/DF**).
-- **Dispensa de preparo/custas**.
+- **Dispensa de preparo/custas** e de **depósito recursal**.
+- **Atualização monetária e juros — art. 3º da EC 113/2021**: nas discussões e condenações que envolvam a
+  Fazenda Pública incide, uma única vez e até o efetivo pagamento, o índice da **SELIC** acumulado
+  mensalmente. É norma constitucional específica e superveniente; opor-se ao critério geral aplicado de
+  ofício pelo juízo (nos autos recentes, a decisão vinculante TST-E-ED-RR-713-03.2010.5.04.0029
+  `[REVISAR: conferir teor e se ressalva a Fazenda Pública]`) exige demonstrar por que o especial prevalece
+  sobre o geral.
+- **Pedir o pronunciamento é ato de admissibilidade, não formalidade.** A contestação deve consignar
+  expressamente que o pronunciamento sobre custas e depósito recursal "se faz necessário para o
+  preenchimento de todos os pressupostos extrínsecos para viabilização da admissibilidade de eventual
+  recurso". Se a sentença silenciar — o que ocorreu no caso-fonte de 08/2026, que dispensou apenas as custas
+  —, **cabem embargos de declaração**: a falta de pronunciamento sobre a isenção do depósito recursal é capaz
+  de comprometer a admissibilidade do recurso ordinário.
 
 ### 3.4 Doença ocupacional
 Três frentes de defesa, sempre nesta ordem:
@@ -78,7 +91,51 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 - **Férias**: o afastamento médico causa exclusão automática da programação de férias no sistema da ECT;
   se a própria empregada assinar posteriormente formulário de reprogramação para período já vencido, isso
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
+- **[CORREÇÃO — 08/2026, validada por sentença desfavorável]** A tese da *lacuna previdenciária imputável à
+  própria empregada* **não prevalece** quando a permanência em casa, no período controvertido, decorreu de
+  **ordem da própria chefia** — ainda que baseada em informação equivocada sobre a situação previdenciária. No
+  caso-fonte o juízo reconheceu correto o encaminhamento ao INSS e a superação dos 15 dias, mas condenou a ECT
+  a "responder pelo dano acarretado à autora ao prestar informação incorreta", com prova testemunhal do fato.
+  Consequência prática: antes de sustentar essa tese, **apurar com a área se houve dispensa do labor
+  determinada por gestor** no interregno pleiteado; havendo, a defesa deve migrar para a delimitação do
+  período e dos consectários, não para a negativa da obrigação.
+- **[CORREÇÃO — 08/2026]** A tese do **FGTS/espécie 31** (art. 15, §5º, da Lei 8.036/90) pressupõe que o
+  período seja reconhecido como de **suspensão contratual**. Se o juízo requalifica a parcela como
+  indenização por ato ilícito do empregador, a tese perde objeto — e o ponto a explorar passa a ser a
+  **contradição** entre a natureza indenizatória atribuída à verba e os consectários de natureza salarial
+  deferidos (FGTS, vale-alimentação, previdência complementar, retificação de CNIS, contribuição
+  previdenciária), que não podem coexistir sobre a mesma parcela.
+- **Retificação do CNIS**: o cadastro é mantido pelo INSS; ao empregador cabe apenas prestar informações pelos
+  sistemas de escrituração digital. Obrigação de fazer imposta sem indicação de *qual* informação, *por qual
+  via* e com que exigibilidade é obrigação de objeto indeterminado — impugnar por iliquidez (art. 492 do CPC).
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
+
+### 3.7 Dano moral (art. 223-G da CLT) — dois pontos que as sentenças costumam errar
+- **Gradação obrigatória** — o art. 223-G, §1º, da CLT instituiu sistema de **tarifação legal**: o valor
+  decorre do enquadramento da ofensa em um dos graus (leve, média, grave, gravíssima) e da aplicação do
+  multiplicador do salário contratual. Sentença que invoca o art. 223-G e, na mesma frase, arbitra "em juízo
+  de equidade" **sem declarar o grau** incorre em contradição, e impede a ECT de aferir o teto legal. Alegar
+  também, quando for o caso, que **a própria inicial não indicou o grau** — requisito legal de formulação do
+  pedido.
+- **Termo inicial da correção monetária — Súmula 439 do TST** `[REVISAR: conferir redação e vigência]`: nas
+  condenações por dano moral a atualização é devida da **data da decisão de arbitramento** (ou de alteração do
+  valor), incidindo os juros desde o ajuizamento (art. 883 da CLT). Sentenças frequentemente mandam corrigir
+  desde o ajuizamento — erro material de correção objetiva. Valor estratégico: sendo **contrariedade a súmula
+  do TST**, viabiliza recurso de revista **até no rito sumaríssimo** (art. 896, §9º, da CLT).
+- **Mérito**: mero inadimplemento contratual ou divergência sobre extensão de verbas não configura lesão a
+  direito da personalidade; existe um piso de inconvenientes tolerável sem dano moral autêntico.
+
+### 3.8 Honorários advocatícios — sucumbência recíproca em favor da ECT
+- Toda contestação deve requerer, em alínea própria, a condenação da parte autora em honorários de
+  sucumbência (**art. 791-A, §3º, da CLT**). Havendo **procedência parcial**, o juízo deve arbitrar
+  honorários recíprocos, **vedada a compensação** entre eles.
+- É pedido que as sentenças com frequência **deixam de apreciar**, tratando apenas dos honorários devidos
+  pela ECT — omissão a sanar por embargos de declaração.
+- O deferimento de **justiça gratuita** à parte autora **não afasta** a condenação: apenas **suspende a
+  exigibilidade** (art. 791-A, §4º, da CLT; STF-ADI 5766; Tema Repetitivo nº 21 do TST). Argumento reforçado
+  quando a própria sentença já cita esses precedentes ao deferir a gratuidade.
+- Ao dimensionar o pedido, medir a sucumbência da parte autora em valor: pedidos indeferidos + parcelas
+  reduzidas, contra o valor da causa.
 
 ---
 
@@ -91,6 +148,17 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 - Citações de jurisprudência em bloco recuado (~3 cm).
 - Fecho: "N. Termos / P. Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
 - Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos com **prequestionamento**.
+- **Peças incidentais (embargos de declaração, manifestações)**: o bloco de qualificação é **abreviado** —
+  "já qualificada nos autos da RECLAMAÇÃO TRABALHISTA em epígrafe" —, dispensando endereço, Decreto-Lei de
+  instituição e telefone, que só se repetem na peça inaugural de defesa. Os rótulos de polo mudam
+  (Embargante/Embargada) e a fundamentação legal de admissibilidade passa a ser o art. 897-A da CLT c/c os
+  arts. 1.022 e ss. do CPC.
+- **Registro de estilo** (validado na revisão final do usuário em 08/2026): abertura com *captatio
+  benevolentiae* ("Em que pese os usuais brilhantismo e clareza ínsitos às decisões proferidas por este d.
+  Juízo…"); uso de *data venia* / *data maxima venia* nos pontos de divergência frontal; "Aclaratórios" como
+  sinônimo de embargos; cada tópico fechado por "**Respeitosamente requer-se, pois,** …". Preferência por
+  peça **enxuta**: numeração corrida dos vícios, sem subdividir por espécie (omissão/contradição/erro
+  material), e descarte dos vícios de baixa convicção, que migram para o recurso.
 
 ---
 
