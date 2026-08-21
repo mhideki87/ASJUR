@@ -55,9 +55,9 @@ Analise a sentença anexada e estruture:
 3. CAPÍTULOS FAVORÁVEIS À ECT — e quais fundamentos sustentam cada um (servirão
    para contrarrazões).
 4. CAPÍTULOS DESFAVORÁVEIS — e se há tese da ECT que a sentença deixou de enfrentar
-   (relevante para embargos de declaração / prequestionamento).
+   (é o que gera tópico de embargos de declaração).
 5. PREQUESTIONAMENTO — dispositivos e súmulas expressamente enfrentados, e os que
-   ficaram de fora.
+   ficaram de fora (insumo do RECURSO, não dos embargos — ver 2.6).
 6. RECOMENDAÇÃO — embargos, recurso ordinário, ou aguardar. Justifique.
 ```
 
@@ -165,7 +165,15 @@ Redija embargos de declaração contra a decisão anexada, formatação do <MODE
 
 Aponte, um a um: omissão / contradição / obscuridade / erro material, indicando
 para cada vício o trecho exato da decisão e a tese ou dispositivo não enfrentado.
-Requeira o prequestionamento explícito (Súmula 297/TST).
+NÃO inclua seção de prequestionamento nem alínea de prequestionamento nos
+requerimentos — isso vai no recurso, não nos embargos. A única exceção é o
+pedido subsidiário DENTRO do tópico, quando a súmula ou o dispositivo é o
+próprio eixo do vício (ex.: "...e, subsidiariamente, o pronunciamento explícito
+sobre o verbete, para fins de prequestionamento").
+Seja econômico: só vícios de alta convicção. Migre para o recurso tudo que
+dependa de requalificar o que o juízo decidiu, que não tenha sido deduzido
+especificamente na defesa, que seja erro material de baixo impacto econômico,
+ou que seja objeção subsidiária de mérito.
 Não use os embargos para rediscutir mérito — se não houver vício real, diga isso
 em vez de redigir a peça.
 ```
@@ -173,11 +181,12 @@ em vez de redigir a peça.
 Para sentença de 1º grau existe modelo consolidado:
 `modelos/trabalhista/embargos_declaracao__sentenca_primeiro_grau.md` (+ `.docx`) — traz o padrão de cinco
 movimentos de cada tópico, o bloco recorrente da ECT (honorários de sucumbência recíproca, prerrogativas da
-Fazenda Pública, EC 113/2021, Súmula 439/TST, planilhas anexas) e o checklist de leitura da sentença. Duas
-observações do caso-fonte, a decidir a cada uso: (a) **prequestionamento** — no caso real optou-se por deixá-lo
-para o recurso ordinário, e não incluí-lo nos ED; (b) **economia de vícios** — a peça foi enxugada de 15 para 7
-tópicos, migrando para o RO tudo que dependia de requalificar o que o juízo decidiu ou que não havia sido
-deduzido especificamente na contestação.
+Fazenda Pública, EC 113/2021, Súmula 439/TST, planilhas anexas), o registro de estilo e o checklist de leitura
+da sentença.
+
+**Padrão confirmado (08/2026):** embargos **sem seção de prequestionamento** — ele é do recurso. E peça
+**enxuta**: no caso-fonte a minuta foi de 15 para 7 tópicos, com numeração corrida, sem subdividir por espécie
+de vício. Um ED com 15 tópicos lê-se como inconformismo; com 7, como apontamento técnico.
 
 ---
 
@@ -190,7 +199,8 @@ Revise a minuta anexada como se fosse conferi-la antes do protocolo. Verifique:
 - há contradição interna de datas, valores ou nomes?
 - há citação de jurisprudência sem fonte nos autos?
 - os requerimentos finais correspondem às teses desenvolvidas?
-- o prequestionamento cobre todos os dispositivos discutidos?
+- se a peça for recurso: o prequestionamento cobre todos os dispositivos
+  discutidos? (em embargos de declaração não se aplica — ver 2.6)
 Liste apenas os problemas, com a localização de cada um. Não reescreva a peça.
 ```
 

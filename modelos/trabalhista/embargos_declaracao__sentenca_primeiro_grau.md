@@ -95,12 +95,15 @@ explícito que o saneamento não é acadêmico.
 
 ## Pontos de decisão (variações observadas)
 
-- **Prequestionamento.** No caso-fonte optou-se por **não** incluir bloco de prequestionamento explícito nos
-  ED, deixando-o para o recurso ordinário — apesar de o art. 897-A da CLT e a Súmula 297 do TST o
-  autorizarem, e de a seção 2.6 do `playbook_prompts_ECT.md` recomendá-lo. Decidir caso a caso: em rito
-  sumaríssimo, onde a revista exige ofensa direta à CF ou contrariedade a súmula (art. 896, §9º, CLT), o
-  bloco tende a compensar quando já se antevê revista. `[REVISAR: confirmar se essa é a prática pretendida
-  como padrão ou se foi escolha deste caso]`
+- **Prequestionamento — não vai nos ED.** Padrão confirmado pelo usuário em 08/2026: **sem seção de
+  prequestionamento e sem alínea de prequestionamento nos requerimentos**; ele é matéria do recurso, não dos
+  embargos. Isso vale ainda que o art. 897-A da CLT e a Súmula 297 do TST o autorizem por esta via, e
+  inclusive no rito sumaríssimo, onde a revista exige ofensa direta à CF ou contrariedade a súmula (art. 896,
+  §9º, CLT).
+  **Única exceção:** o pedido subsidiário **dentro do tópico**, quando a súmula ou o dispositivo é o próprio
+  eixo do vício. É o caso do tópico 6, que fecha com "…e, subsidiariamente, o pronunciamento explícito sobre o
+  verbete, para fins de prequestionamento" — aí o prequestionamento é consequência do vício apontado, não um
+  bloco autônomo de reserva de teses.
 - **Tempestividade.** No caso-fonte o tópico foi suprimido. Incluir quando houver qualquer dúvida sobre a
   contagem — prazo de 5 dias (art. 897-A CLT), em dias úteis (art. 775 CLT), **em dobro** (art. 1º do
   DL 779/69), o que dá 10 dias úteis da intimação.
