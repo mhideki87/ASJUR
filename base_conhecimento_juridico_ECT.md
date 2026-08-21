@@ -88,12 +88,27 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 
 ### 3.7 Honorários advocatícios em execução individual de sentença coletiva (tese vencedora — TRT24)
 
-Cenário: ação coletiva com o sindicato como substituto processual, em que o título já fixou **honorários
-assistenciais de 15% sobre o valor da condenação** (Lei 5.584/70 c/c **Súmula 219, V, do TST**). Depois,
-nas execuções individuais, os **mesmos advogados** pedem nova verba **sucumbencial autônoma** para a fase
-executiva, invocando o art. 85, §1º, do CPC e, por analogia, a **Súmula 345 do STJ**.
+**Precedente principal.** TRT da 24ª Região, 2ª Turma — Agravo de Petição nº **0025655-03.2025.5.24.0002**,
+Rel. Des. **João de Deus Gomes de Souza**, julgado em **12/08/2026**, à unanimidade. Composição: Des. João de
+Deus Gomes de Souza (Presidente da 2ª Turma), Des. Francisco das C. Lima Filho e Des. César Palumbo Fernandes;
+presente o representante do MPT. Origem: **4ª Vara do Trabalho de Campo Grande/MS** (sentença de embargos à
+execução ID. c199b49 e decisão integrativa ID. 6eae8d6, Juiz Titular Christian Gonçalves Mendonça Estadulho).
+Acórdão ID. 06a38b8, assinado eletronicamente em 14/08/2026, documento nº 26072415302831000000014418343
+(https://pje.trt24.jus.br/segundograu/Processo/ConsultaDocumento/listView.seam?nd=26072415302831000000014418343).
+Autuação em 19/06/2026; valor da causa R$ 334.184,91. Agravos de petição recíprocos — **ambos desprovidos**.
 
-Argumentos da ECT (contraminuta ao agravo de petição dos exequentes), acolhidos em 1º grau e mantidos pelo TRT24:
+**Precedente-líder da tese**, mesma Turma, mesmo relator, mesma reclamada e mesmo título coletivo: TRT24, 2ª
+Turma, AP nº **0025022-77.2025.5.24.0006**, Rel. Des. João de Deus Gomes de Souza, julgado em **08/07/2026**,
+juntado aos autos em 10/07/2026 (ID. ca0b0eb) — https://link.jt.jus.br/RbdesH
+
+Cenário: ação coletiva com o sindicato como substituto processual, em que o título já fixou **honorários
+assistenciais de 15% sobre o valor da condenação** (Lei 5.584/70 c/c **Súmula 219, V, do TST** — Acórdão do
+TRT24 ID. e5566fb, f. 381). Depois, nas execuções individuais, os **mesmos advogados** pedem nova verba
+**sucumbencial autônoma** para a fase executiva, invocando o art. 85, §1º, do CPC e, por analogia, a
+**Súmula 345 do STJ**.
+
+Argumentos da ECT (contraminuta ao agravo de petição dos exequentes, ID. 7321a4e), acolhidos em 1º grau e
+mantidos pelo TRT24:
 - **Art. 791-A da CLT é regramento específico e exaustivo** — prevê a verba honorária apenas na fase de
   conhecimento; o silêncio quanto à execução é **escolha legislativa (silêncio eloquente)**, não lacuna a ser
   suprida pelo art. 85, §1º, do CPC.
@@ -108,7 +123,8 @@ Fundamentos que o TRT24 adotou — roteiro a reproduzir em caso análogo:
    individual**; logo, os 15% do título incidem exatamente sobre o proveito econômico que se liquida na
    execução. Não há trabalho advocatício sem remuneração.
 3. **Identidade de patronos** entre a fase coletiva e a execução individual é o fato decisivo — comprová-la
-   nos autos (procurações e substabelecimentos) é o passo prático mais importante da defesa.
+   nos autos (procurações e substabelecimentos) é o passo prático mais importante da defesa. No precedente,
+   a comprovação está nos ID. e530fa5, f0e96cc, 7568c8e, 05d12b7 e 71e461f.
 4. **Os próprios exequentes já lançam a verba assistencial da ação coletiva nas planilhas de cálculo da
    execução** — apontar isso na contraminuta demonstra materialmente o `bis in idem`.
 5. ***Distinguishing*** dos precedentes do TST invocados pelo exequente: eles partem da premissa de que
@@ -116,68 +132,101 @@ Fundamentos que o TRT24 adotou — roteiro a reproduzir em caso análogo:
    execução é completamente independente do da ação coletiva. Onde há honorários da Súmula 219 do TST em favor
    do sindicato **e** os mesmos patronos, a hipótese é distinta e o precedente não se aplica.
 
-Precedentes do próprio TRT24 (2ª Turma, Rel. Des. João de Deus Gomes de Souza), mesma reclamada e mesmo título
-coletivo — checar se seguem válidos antes de citar:
-- AP 0025022-77.2025.5.24.0006, j. 08/07/2026 (https://link.jt.jus.br/RbdesH) — precedente-líder da tese.
-- AP 0025655-03.2025.5.24.0002, j. 12/08/2026 — reafirma o entendimento e desenvolve o *distinguishing* acima.
+Trecho literal do precedente-líder, transcrito no acórdão de 12/08/2026 e reutilizável como citação:
+
+> HONORÁRIOS ADVOCATÍCIOS (RECURSO DOS EXEQUENTES). A pretensão dos exequentes de fixar novos honorários de
+> 15% sobre o crédito bruto liquidado configura, inequivocamente, `bis in idem`. Sendo os patronos da execução
+> os mesmos que atuaram na fase coletiva, a remuneração pelo trabalho — que compreende tanto a fase de
+> conhecimento quanto a de liquidação/execução — já foi devidamente arbitrada pelo Tribunal na ação matriz,
+> exatamente para incidir sobre o proveito econômico que agora se liquida. Ademais, constata-se da petição
+> inicial da presente execução que os patronos já incluem em suas planilhas de cálculo a verba honorária
+> assistencial decorrente da ação coletiva. Assim, não subsiste fundamento jurídico para o arbitramento de uma
+> segunda verba sucumbencial, sendo certo que a remuneração fixada no título exequendo já é integral e
+> suficiente para o patrocínio da causa até a satisfação final do crédito.
+> (TRT da 24ª Região, 2ª Turma, AP 0025022-77.2025.5.24.0006, Rel. João de Deus Gomes de Souza,
+> j. 08/07/2026, juntado em 10/07/2026 — https://link.jt.jus.br/RbdesH)
 
 ### 3.8 Liquidação e execução: teses da ECT já rejeitadas pelo TRT24 (usar com cautela)
 
-Registro dos capítulos em que o agravo de petição da ECT foi **integralmente desprovido** no mesmo julgamento
-citado na seção 3.7 (TRT24, 2ª Turma, AP, j. 12/08/2026). Serve para calibrar risco e não repetir tese perdida
-sem argumento novo.
+Capítulos em que o agravo de petição **da ECT** foi integralmente desprovido no mesmo julgamento da seção 3.7
+(TRT24, 2ª Turma, AP 0025655-03.2025.5.24.0002, Rel. Des. João de Deus Gomes de Souza, j. 12/08/2026; AP da
+executada ID. a6cec5f; contraminuta dos exequentes ID. 8f694c6). Serve para calibrar risco e não repetir tese
+perdida sem argumento novo.
 
-**(a) Compensação do AADC com o adicional de periculosidade pago a carteiro motorizado.**
+**(a) Compensação do AADC com o adicional de periculosidade pago a carteiro motorizado** (AP ID. a6cec5f,
+itens III, IV.1 e IV.2).
 Tese da ECT: a decisão do **TRF da 1ª Região** que suspendeu os efeitos da **Portaria MTE nº 1.565/2014**
-(tutela antecipada recursal na Ação Declaratória de Nulidade nº 1012413-52.2017.4.01.3400) seria fato
-superveniente a tornar indevido o adicional de periculosidade, autorizando a compensação (arts. 525, §1º, VII,
-e 535, VI, do CPC) e o sobrestamento da execução, sob pena de enriquecimento sem causa. Por que caiu:
-- **Coisa julgada** — o título declarou expressamente que o adicional de periculosidade e o AADC têm naturezas
-  diversas, que a cumulação não configura `bis in idem` e que não há falar em compensação; matéria imutável em
-  execução (art. 5º, XXXVI, da CF; art. 879, §1º, da CLT). A via adequada seria **ação rescisória**, não
-  embargos/impugnação à execução.
+— tutela antecipada recursal na **Ação Declaratória de Nulidade nº 1012413-52.2017.4.01.3400**, decisão de
+**22/01/2024** (ID. dc7ace4, fls. 558-563) — seria fato superveniente a tornar indevido o adicional de
+periculosidade, autorizando a compensação (arts. 525, §1º, VII, e 535, VI, do CPC) e o sobrestamento da
+execução, sob pena de enriquecimento sem causa, com afastamento da Súmula 48 do TST. Por que caiu:
+- **Coisa julgada** — o título (Acórdão do TRT24 ID. e5566fb, f. 380) consignou que "*o adicional de
+  periculosidade e o AADC possuem naturezas diversas e a cumulação de ambos não configura bis in idem, não
+  havendo falar em eventual compensação*"; matéria imutável em execução (art. 5º, XXXVI, da CF; art. 879, §1º,
+  da CLT). A via adequada seria **ação rescisória**, não embargos/impugnação à execução.
 - **Decisão precária não desconstitui título definitivo** — tutela antecipada de juízo diverso não tem esse efeito.
-- **A cronologia mata o "fato superveniente"** — a decisão do TRF1 era de 22/01/2024 e o trânsito em julgado do
-  título trabalhista, de 14/03/2024: sendo anterior ao trânsito, não é fato novo. *Lição prática: antes de
-  sustentar fato superveniente, conferir se a data é posterior ao trânsito em julgado.*
-- **Art. 193, §4º, da CLT é autoaplicável** — a suspensão da Portaria não retira o substrato legal do adicional
-  (TST, Ag-RRAg 0000061-45.2022.5.05.0511, 5ª T., Rel. Min. Breno Medeiros, j. 17/09/2025, DEJT 23/09/2025).
-  Sem "pagamento indevido" não há dívida recíproca a compensar.
-- **STF, SL 1574 MC-Ref** (Rel. Min. Rosa Weber, Tribunal Pleno, j. 04/09/2023) — o pedido de suspensão foi
-  formulado **pela própria ECT** e *denegado*, ratificando o **Tema Repetitivo nº 15 do TST**
-  (IRR/RR-1757-68.2015.5.06.0371, Rel. Min. Alberto Bresciani, j. 14/10/2021): o AADC é adicional de
-  **penosidade** (PCCS/2008, item 4.8), e o adicional do art. 193, §4º, da CLT remunera o **risco** em
-  motocicleta (Lei 12.997/2014) — fatos geradores distintos, cumulação possível, sem `bis in idem`, cuja vedação
-  só existe entre insalubridade e periculosidade (art. 193, §2º, da CLT).
-- A cláusula de supressão do AADC "em caso de concessão legal de qualquer mecanismo sob o mesmo título ou
-  idêntico fundamento/natureza" (PCCS/2008, itens 4.8.2 e 8.9.1; acordo homologado no DC
-  TST-1956566-24.2008.5.00.0000) **não** foi aceita como suporte da substituição do AADC pelo adicional de
-  periculosidade a partir de outubro/2014 — o TST viu nisso ofensa à isonomia frente aos carteiros não
-  motorizados. Tese praticamente encerrada em desfavor da ECT; sustentar apenas para prequestionamento.
+- **A cronologia mata o "fato superveniente"** — a decisão do TRF1 é de **22/01/2024** e o trânsito em julgado
+  do título trabalhista ocorreu em **14/03/2024** (ID. 74409ad, f. 445): sendo anterior ao trânsito, não é fato
+  novo. *Lição prática: antes de sustentar fato superveniente, conferir se a data é posterior ao trânsito.*
+- **Art. 193, §4º, da CLT é autoaplicável** — a suspensão da Portaria não retira o substrato legal do adicional.
+  TST, **Ag-RRAg 0000061-45.2022.5.05.0511**, 5ª Turma, Rel. Min. **Breno Medeiros**, j. **17/09/2025**, juntado
+  em 19/09/2025, DEJT 23/09/2025 (https://link.jt.jus.br/LqH8hr). O julgado registra que a 5ª Turma **revisitou
+  o tema**: antes negava o adicional aos trabalhadores atingidos pela suspensão (Portaria MTE nº 5/2015, quanto
+  aos associados da ABIR e confederados das Revendas AMBEV e Empresas de Logística da Distribuição), e passou a
+  reconhecê-lo por ser o §4º autoaplicável desde a Lei nº 12.997/2014. Sem "pagamento indevido" não há dívida
+  recíproca a compensar.
+- **STF, SL 1574 MC-Ref**, Rel. Min. **Rosa Weber** (Presidente), Tribunal Pleno, j. **04/09/2023**, DJe-s/n
+  divulgado em 11/09/2023 e publicado em 12/09/2023 — o pedido de suspensão foi formulado **pela própria ECT** e
+  *denegado*, ratificando o **Tema Repetitivo nº 15 do TST** (**IRR/RR-1757-68.2015.5.06.0371**, SBDI-1,
+  Rel. Min. **Alberto Luiz Bresciani de Fontan Pereira**, j. **14/10/2021**, juntado em 03/12/2021 —
+  https://link.jt.jus.br/9xwNHP). Razão de decidir: o AADC é adicional de **penosidade** (PCCS/2008, item 4.8),
+  e o adicional do art. 193, §4º, da CLT remunera o **risco** em motocicleta (Lei nº 12.997/2014) — fatos
+  geradores distintos, cumulação possível, sem `bis in idem`, cuja vedação só existe entre insalubridade e
+  periculosidade (art. 193, §2º, da CLT). A SL 1574 invoca ainda os monocráticos ARE 1.292.592 (Rel. Min. Gilmar
+  Mendes, j. 10/08/2021, DJe 16/08/2021) e ARE 1.377.959 (Rel. Min. Luiz Fux, j. 22/04/2022, DJe 25/04/2022).
+- A cláusula de supressão do AADC "*em caso de concessão legal de qualquer mecanismo sob o mesmo título ou
+  idêntico fundamento/natureza*" (PCCS/2008, itens 4.8.2 e 8.9.1; Termo de Compromisso ECT-FENTECT de
+  20/11/2007; acordo de 19/07/2008 homologado em 21/07/2008 no **DC TST-1956566-24.2008.5.00.0000**) **não** foi
+  aceita como suporte da substituição do AADC pelo adicional de periculosidade a partir de outubro/2014 — o TST
+  viu nisso ofensa à isonomia frente aos carteiros não motorizados (art. 7º, XXX, da CF). Tese praticamente
+  encerrada em desfavor da ECT; sustentar apenas para prequestionamento.
 
-**(b) Exclusão dos reflexos do AADC em horas extras (base de cálculo restrita ao salário-base, Cláusula 31 dos ACTs).**
-Rejeitada: o título determinou o cálculo "somente sobre o salário-base, com reflexos em horas extras, férias
-acrescidas do terço constitucional, gratificação natalina e FGTS". Norma coletiva e **teoria do conglobamento**
-(art. 7º, XXVI, da CF) não relativizam a coisa julgada em execução — a discussão devia ter sido exaurida na fase
-de conhecimento. O acórdão registrou ainda **inobservância da dialeticidade recursal**: reiterar argumentos sem
-atacar os fundamentos da decisão agravada foi expressamente usado contra a ECT.
+**(b) Exclusão dos reflexos do AADC em horas extras** — base de cálculo restrita ao salário-base, **Cláusula 31
+dos ACTs** (adicional de 70% sobre o salário-base), art. 7º, XXVI, da CF e **teoria do conglobamento**
+(AP ID. a6cec5f, item IV.3).
+Rejeitada: o título (Acórdão do TRT24 ID. e5566fb, f. 381) determinou que a devolução do AADC seria calculada
+"*somente sobre o salário-base, com reflexos em horas extras, férias acrescidas do terço constitucional,
+gratificação natalina e FGTS*". Norma coletiva e conglobamento não relativizam a coisa julgada em execução — a
+discussão devia ter sido exaurida na fase de conhecimento. O acórdão registrou ainda **inobservância da
+dialeticidade recursal**: reiterar argumentos sem atacar os fundamentos da decisão agravada foi expressamente
+usado contra a ECT.
 
-**(c) Exclusão de "reflexos sobre reflexos" (FGTS e 13º/férias sobre horas extras).**
-Rejeitada: o **FGTS** incide sobre parcelas de natureza salarial por imperativo legal (art. 15 da Lei
+**(c) Exclusão de "reflexos sobre reflexos"** — FGTS e 13º/férias sobre horas extras (AP ID. a6cec5f, item IV.4).
+Rejeitada: o **FGTS** incide sobre parcelas de natureza salarial por imperativo legal (art. 15 da Lei nº
 8.036/1990), independendo de menção expressa no título; **13º salário e férias sobre horas extras** são
-decorrência lógica da natureza salarial das verbas deferidas (art. 142, §5º, da CLT; art. 77 do Decreto
+decorrência lógica da natureza salarial das verbas deferidas (art. 142, §5º, da CLT; art. 77 do Decreto nº
 10.854/2021). Não é inovação do título, é sua aplicação.
 
-**(d) Juros e correção monetária pelo art. 1º-F da Lei 9.494/1997.**
-Rejeitada porque **o próprio título** (acórdão do TST de 13/12/2023) já havia fixado os critérios: **IPCA-E mais
-juros legais do art. 39, `caput`, da Lei 8.177/1991 na fase pré-judicial** e **SELIC a partir do ajuizamento**
-(ADCs 58 e 59 do STF; EC 113/2021; Tema 1191 do STF). Pedir poupança até 08/12/2021 com SELIC depois, ou afastar
-os juros da fase pré-judicial (art. 883 da CLT), é rediscutir o título. *Lição prática: em liquidação, conferir
-primeiro o que o título fixou sobre atualização — se fixou, a tese de índice mais favorável está barrada.*
+**(d) Juros e correção monetária pelo art. 1º-F da Lei nº 9.494/1997** (AP ID. a6cec5f, item IV.5) — poupança
+até 08/12/2021 e SELIC a partir de 09/12/2021, sem juros na fase pré-judicial (art. 883 da CLT; item 5 das
+ADCs 58 e 59).
+Rejeitada porque **o próprio título** — acórdão do TST de **13/12/2023** (ID. e96b6e2, f. 442) — já havia fixado
+os critérios: **IPCA-E mais juros legais do art. 39, `caput`, da Lei nº 8.177/1991 na fase pré-judicial** e
+**SELIC a partir do ajuizamento** (ADCs 58 e 59 do STF; EC 113/2021; Tema 1191 do STF). Rediscutir isso em
+execução é inovação. *Lição prática: em liquidação, conferir primeiro o que o título fixou sobre atualização —
+se fixou, a tese de índice mais favorável está barrada.*
 
-**Leitura de conjunto.** Nos quatro capítulos a razão de decidir foi a mesma: **art. 879, §1º, da CLT**. Em
-liquidação e execução, a defesa da ECT rende quando ataca *cálculo* (critério, período, base, duplicidade)
-dentro dos limites do título, e não quando tenta reabrir *tese* de mérito já decidida.
+**(e) Capítulo não apreciado — possível omissão.** A ECT também pediu, no agravo, a **exclusão dos honorários
+assistenciais fixados na ação coletiva**, ao argumento de se tratar de crédito único e indivisível
+(**Tema 1142/STF**). O relatório do acórdão registra o pedido, mas o voto se divide apenas em 2.1 a 2.4
+(recursos da executada) e 2.5 (recurso dos exequentes) — **nenhum capítulo aprecia esse pedido**. Em caso
+análogo, é matéria de **embargos de declaração** por omissão, indispensáveis ao prequestionamento
+(Súmula 297 do TST). *Alerta de conferência: confrontar sempre o rol de pedidos do agravo com os capítulos do
+voto antes de deixar precluir.*
+
+**Leitura de conjunto.** Nos quatro capítulos apreciados a razão de decidir foi a mesma: **art. 879, §1º, da
+CLT**. Em liquidação e execução, a defesa da ECT rende quando ataca *cálculo* (critério, período, base,
+duplicidade) dentro dos limites do título, e não quando tenta reabrir *tese* de mérito já decidida.
 [REVISAR: definir se a tese de compensação AADC × periculosidade se mantém apenas para prequestionamento, dado
 o desprovimento reiterado no TRT24, ou se passa a ser sustentada só em ações ainda na fase de conhecimento.]
 

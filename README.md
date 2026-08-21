@@ -24,6 +24,12 @@ minuta, não por processamento em massa das petições antigas.
 
 ## Regra permanente
 
-Nenhum arquivo aqui deve conter nome de cliente, número de processo, CPF ou qualquer dado que identifique
-uma parte real. Teses e modelos são generalizados; se precisar citar norma ou jurisprudência, cite a fonte
-exata — nunca invente.
+Nenhum arquivo aqui deve conter nome de cliente, CPF ou qualquer dado que identifique uma parte real. Teses e
+modelos são generalizados; se precisar citar norma ou jurisprudência, cite a fonte exata — nunca invente.
+
+**Exceção — citação de precedente.** Decisão que vá ser *citada como precedente* entra nas bases de teses com
+os dados completos de citação: número do processo, órgão e turma, relator, datas de julgamento e de
+disponibilização, Ids dos documentos relevantes e link público. Sem isso a citação não tem validade na peça.
+A vedação continua alcançando o **nome das partes** e demais dados pessoais — que nada acrescentam à citação —
+e os dados de processo em curso que não esteja sendo usado como precedente. Nos arquivos de `modelos/` a
+vedação permanece integral: modelo não leva número de processo.
