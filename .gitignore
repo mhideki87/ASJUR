@@ -1,0 +1,8 @@
+# Documentos reais de processo (nome de parte, nº de processo etc.) nunca entram no repositório —
+# ver "Regra permanente" no README.md. A pasta de trabalho do caso corrente e qualquer PDF/DOC/DOCX
+# solto na raiz ficam de fora por padrão; modelos anonimizados aprovados em modelos/ continuam versionados.
+/trabalhando/
+*.pdf
+*.doc
+*.docx
+!modelos/**/*.docx
