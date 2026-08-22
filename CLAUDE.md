@@ -1,8 +1,15 @@
 # Instruções de projeto — ASJUR (Claude Code)
 
-Este arquivo vale apenas para sessões do **Claude Code** (com acesso a Bash/arquivos locais). O fluxo via
-Project do claude.ai + GitHub connector (ver [README.md](README.md)) não tem acesso à pasta `D:\Claude\00
-caso_atual` nem pode rodar Python — a regra abaixo não se aplica lá.
+Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/desktop) e **cloud/web** —, porque
+é lido do próprio repositório. Cada seção indica onde se aplica:
+
+| Seção | Claude Code local | Claude Code cloud/web | Project do claude.ai |
+|---|---|---|---|
+| Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
+| Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
+
+Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
+usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
 
 ## Conversão automática de documentos da parte para Markdown
 
@@ -54,8 +61,9 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 acórdão, recurso, laudo etc.) **e** o nome do Reclamante/Autor já for conhecido — informado pelo usuário ou
 identificado por mim na leitura do documento.
 
-**Ação (antes de produzir a análise, não depois):** renomear a sessão com a ferramenta
-`mcp__ccd_session_mgmt__set_session_title`, passando `session_id: "self"` e um título no formato:
+**Ação (antes de produzir a análise, não depois):** renomear a sessão com a ferramenta de renomeação do
+ambiente — no Claude Code local e cloud/web é `mcp__ccd_session_mgmt__set_session_title`, com
+`session_id: "self"` — usando o formato:
 
 ```
 <NOME DO RECLAMANTE> — <o que estou fazendo>
@@ -71,3 +79,7 @@ Regras:
 - Se o processo tiver mais de um Reclamante, usar o primeiro nome + `e outros`.
 - Se o nome do Reclamante ainda não for conhecido, não inventar: analisar normalmente e renomear no momento
   em que o nome aparecer.
+- **Vale em qualquer ambiente**, inclusive nas sessões cloud/web. Se ali não existir ferramenta de
+  renomeação (ex.: Project do claude.ai), o fallback é abrir a resposta com a linha
+  `**<NOME DO RECLAMANTE> — <o que estou fazendo>**`, para o assunto ficar visível no histórico.
+- Não pedir que o usuário renomeie manualmente: havendo ferramenta, usar; não havendo, usar o fallback.

@@ -11,7 +11,7 @@ minuta, não por processamento em massa das petições antigas.
 | [base_conhecimento_juridico_CIVEL.md](base_conhecimento_juridico_CIVEL.md) | Teses recorrentes — contencioso **cível** (rascunho, itens `[REVISAR]` pendentes de validação) |
 | [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (formatação de qualquer peça) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga |
 | [playbook_prompts_ECT.md](playbook_prompts_ECT.md) | Prompts de uso diário + protocolo de atualização da base |
-| [CLAUDE.md](CLAUDE.md) | Instruções para sessões de **Claude Code**: conversão automática dos documentos da parte (PDF/DOC) para `.md` |
+| [CLAUDE.md](CLAUDE.md) | Instruções para sessões de **Claude Code** (local e cloud): conversão automática dos documentos da parte (PDF/DOC) para `.md` + título da sessão com o nome do Reclamante |
 | [scripts/converter_parte_para_md.py](scripts/converter_parte_para_md.py) | Script usado por essa automação — não roda no Project do claude.ai, só localmente |
 
 ## Como usar (resumo)
