@@ -33,6 +33,8 @@ class Config:
     # Quais jogos merecem detalhes da loja (categoria multiplayer/co-op)
     details_min_friends: int = 1         # jogos com >= N amigos donos entram na fila
     details_include_my_games: bool = True
+    # Busca no catalogo da loja
+    discover_enrich_limit: int = 60      # jogos que ganham preco/avaliacao por busca
 
     _sources: dict = field(default_factory=dict, repr=False, compare=False)
 

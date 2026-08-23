@@ -11,7 +11,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import db, queries, sync
+from . import db, discover, queries, sync
 from .config import WEB_DIR, load_config, save_config
 from .steam_api import SteamClient, SteamError, persona_state_label
 
@@ -195,6 +195,15 @@ async def get_games(
     unplayed_by_me: bool = False,
     played_recently_by_friends: bool = False,
     include_unknown_details: bool = True,
+    max_price: float | None = None,
+    only_discounted: bool = False,
+    min_discount: int = 0,
+    include_free: bool = True,
+    min_review_percent: int = 0,
+    min_reviews: int = 0,
+    include_unrated: bool = True,
+    tag: str = "",
+    genre: str = "",
     online: bool = False,
     sort: str = "friends",
     limit: int = Query(300, ge=1, le=2000),
@@ -218,6 +227,15 @@ async def get_games(
             unplayed_by_me=unplayed_by_me,
             played_recently_by_friends=played_recently_by_friends,
             include_unknown_details=include_unknown_details,
+            max_price=max_price,
+            only_discounted=only_discounted,
+            min_discount=min_discount,
+            include_free=include_free,
+            min_review_percent=min_review_percent,
+            min_reviews=min_reviews,
+            include_unrated=include_unrated,
+            tag=tag,
+            genre=genre,
             sort=sort,
             limit=limit,
             offset=offset,
@@ -245,6 +263,75 @@ async def get_game_friends(appid: int):
 def get_friends():
     with db.closing_conn() as conn:
         return {"friends": queries.friends_overview(conn)}
+
+
+# ------------------------------------------------------------------ descoberta
+
+_discover_task: asyncio.Task | None = None
+
+
+@app.post("/api/discover")
+async def post_discover(payload: dict | None = None):
+    """Dispara a busca no catalogo da Steam com os criterios da interface."""
+    global _discover_task
+    if _discover_task and not _discover_task.done():
+        raise HTTPException(409, "Ja existe uma busca em andamento.")
+    if sync.STATE.running:
+        raise HTTPException(409, "Espere a sincronizacao terminar para buscar no catalogo.")
+
+    cfg = load_config()
+    criteria = dict(payload or {})
+    criteria.setdefault("enrich_limit", cfg.discover_enrich_limit)
+
+    async def runner():
+        try:
+            await discover.run_discover(cfg, criteria)
+        except asyncio.CancelledError:
+            pass
+        except Exception:   # o estado ja carrega a mensagem para a interface
+            pass
+
+    _discover_task = asyncio.create_task(runner())
+    await asyncio.sleep(0.05)
+    return discover.STATE.snapshot()
+
+
+@app.get("/api/discover/status")
+def get_discover_status():
+    return discover.STATE.snapshot()
+
+
+@app.post("/api/discover/cancel")
+async def post_discover_cancel():
+    await discover.cancel_discover()
+    return discover.STATE.snapshot()
+
+
+@app.get("/api/tags")
+async def get_tags(q: str = "", refresh: bool = False):
+    """Etiquetas da Steam (roguelite, soulslike...) para o autocompletar."""
+    cfg = load_config()
+    db.init_db()
+    with db.closing_conn() as conn:
+        conhecidas = conn.execute("SELECT COUNT(*) AS n FROM tag").fetchone()["n"]
+    erro = ""
+    if refresh or not conhecidas:
+        try:
+            await discover.refresh_tags(cfg)
+        except SteamError as exc:
+            erro = str(exc)
+        except Exception as exc:  # noqa: BLE001
+            erro = f"Falha ao baixar as etiquetas: {exc}"
+    with db.closing_conn() as conn:
+        tags = db.find_tags(conn, q, limit=25)
+    return {"tags": tags, "error": erro}
+
+
+@app.get("/api/facets")
+def get_facets():
+    """Generos e etiquetas ja presentes no cache, para montar os seletores."""
+    with db.closing_conn() as conn:
+        return {"genres": queries.genres_in_db(conn), "tags": queries.tags_in_db(conn)}
 
 
 # ------------------------------------------------------------------- frontend

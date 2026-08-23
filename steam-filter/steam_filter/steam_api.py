@@ -11,7 +11,26 @@ from typing import Any
 import httpx
 
 WEB_API = "https://api.steampowered.com"
-STORE_API = "https://store.steampowered.com/api"
+STORE = "https://store.steampowered.com"
+STORE_API = f"{STORE}/api"
+STORE_SEARCH = f"{STORE}/search/results/"
+STORE_REVIEWS = f"{STORE}/appreviews"
+STORE_TAGS = f"{STORE}/tagdata/populartags"
+
+# A busca da loja devolve HTML. Extraimos apenas o identificador de cada linha —
+# "App_620" e inequivoco (pacotes viram "Sub_", bundles "Bundle_"), entao o resto
+# do layout pode mudar a vontade sem quebrar nada. Preco e avaliacao vem depois,
+# de endpoints JSON oficiais.
+APP_ROW_RE = re.compile(r'data-ds-itemkey="App_(\d+)"')
+
+SORTS = {
+    "relevancia": "",
+    "avaliacoes": "Reviews_DESC",
+    "lancamento": "Released_DESC",
+    "preco_asc": "Price_ASC",
+    "preco_desc": "Price_DESC",
+    "nome": "Name_ASC",
+}
 STEAMID64_RE = re.compile(r"^7656119\d{10}$")
 
 
@@ -71,6 +90,8 @@ class SteamClient:
         self.store_language = store_language
         self._api_limiter = RateLimiter(api_rate_per_sec)
         self._store_limiter = RateLimiter(store_rate_per_sec, burst=2)
+        # /appreviews e /search sao caminhos diferentes de /api e toleram um ritmo maior
+        self._reviews_limiter = RateLimiter(max(store_rate_per_sec, 1.5), burst=3)
         self._client = httpx.AsyncClient(
             transport=transport,
             timeout=timeout,
@@ -197,7 +218,7 @@ class SteamClient:
                     "appids": appid,
                     "cc": self.store_country,
                     "l": self.store_language,
-                    "filters": "basic,categories,genres,metacritic,release_date",
+                    "filters": "basic,price_overview,categories,genres,metacritic,release_date",
                 },
                 limiter=self._store_limiter,
             )
@@ -215,6 +236,108 @@ class SteamClient:
         if not entry.get("success"):
             return "missing", None
         return "ok", entry.get("data") or {}
+
+
+    async def search_store(
+        self,
+        *,
+        term: str = "",
+        tag_ids: list[int] | None = None,
+        maxprice: int | None = None,
+        specials: bool = False,
+        sort: str = "avaliacoes",
+        start: int = 0,
+        count: int = 50,
+        games_only: bool = True,
+    ) -> tuple[list[int], int]:
+        """Busca no catalogo da loja. Devolve (appids na ordem do resultado, total)."""
+        params: dict = {
+            "json": 1,
+            "infinite": 1,
+            "start": max(0, start),
+            "count": max(1, min(count, 100)),
+            "cc": self.store_country,
+            "l": self.store_language,
+        }
+        sort_by = SORTS.get(sort, SORTS["avaliacoes"])
+        if sort_by:
+            params["sort_by"] = sort_by
+        if term.strip():
+            params["term"] = term.strip()
+        if tag_ids:
+            params["tags"] = ",".join(str(int(t)) for t in tag_ids)
+        if maxprice is not None:
+            params["maxprice"] = "free" if maxprice <= 0 else int(maxprice)
+        if specials:
+            params["specials"] = 1
+        if games_only:
+            params["category1"] = 998   # 998 = Jogos (exclui DLC, trilhas sonoras, software)
+
+        resp = await self._get(STORE_SEARCH, params, limiter=self._reviews_limiter)
+        if resp.status_code != 200:
+            raise SteamError(f"A busca da loja respondeu HTTP {resp.status_code}.")
+        try:
+            data = resp.json()
+        except ValueError as exc:
+            raise SteamError(f"A busca da loja devolveu algo que nao e JSON: {exc}") from exc
+
+        html = data.get("results_html") or ""
+        seen: dict[int, None] = {}
+        for match in APP_ROW_RE.finditer(html):
+            seen.setdefault(int(match.group(1)), None)
+        total = int(data.get("total_count") or 0)
+        return list(seen), total
+
+    async def get_app_reviews(self, appid: int) -> tuple[str, dict | None]:
+        """Resumo das analises: ('ok', summary) | ('missing', None) | ('error', None)."""
+        try:
+            resp = await self._get(
+                f"{STORE_REVIEWS}/{appid}",
+                {
+                    "json": 1,
+                    "num_per_page": 0,
+                    "language": "all",
+                    "purchase_type": "all",
+                    "review_type": "all",
+                },
+                limiter=self._reviews_limiter,
+            )
+        except SteamError:
+            return "error", None
+        if resp.status_code != 200:
+            return "missing" if resp.status_code == 404 else "error", None
+        try:
+            payload = resp.json()
+        except ValueError:
+            return "error", None
+        if not payload.get("success"):
+            return "missing", None
+        summary = payload.get("query_summary") or {}
+        if not summary:
+            return "missing", None
+        return "ok", summary
+
+    async def get_popular_tags(self) -> list[dict]:
+        """Catalogo de etiquetas da Steam (roguelite, soulslike, etc.) com os ids da busca."""
+        for language in (self.store_language, "english"):
+            try:
+                resp = await self._get(f"{STORE_TAGS}/{language}", {}, limiter=self._reviews_limiter)
+            except SteamError:
+                continue
+            if resp.status_code != 200:
+                continue
+            try:
+                data = resp.json()
+            except ValueError:
+                continue
+            if isinstance(data, dict):           # algumas linguas devolvem {"tags": [...]}
+                data = data.get("tags") or []
+            if isinstance(data, list) and data:
+                return [t for t in data if isinstance(t, dict) and t.get("tagid")]
+        raise SteamError(
+            "Nao consegui baixar a lista de etiquetas da Steam. Sem ela, filtre por texto"
+            " (o campo 'busca') em vez de etiqueta."
+        )
 
 
 def persona_state_label(state: Any, game_extra: str | None = None) -> str:

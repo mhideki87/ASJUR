@@ -95,12 +95,37 @@ por semana já basta; jogos novos e amigos novos só aparecem depois de sincroni
 
 ## Como usar no dia a dia
 
+### Aba "Minha biblioteca" — o que jogar agora
+
 1. Duplo clique no `run.bat`.
 2. Arraste **"Mínimo de amigos com o jogo"** para o número que quiser.
 3. Marque **"Contar só amigos online agora"** se a ideia é jogar já.
 4. Em **Modo de jogo**, escolha *Co-op online* ou *PvP* conforme a vontade.
-5. Não conseguiu decidir? **🎲 Escolher por mim**.
+5. Não conseguiu decidir? **🎲 Escolher**.
 6. **Jogar** abre o jogo direto no cliente Steam.
+
+### Aba "Descobrir na Steam" — o que comprar
+
+1. Clique na aba **Descobrir na Steam**.
+2. Monte o pedido na barra da esquerda. Exemplo de um roguelite em promoção para jogar com amigos:
+   - *Estilo*: digite `Roguelite` e escolha na lista que aparece
+   - *Modo de jogo*: `Co-op online`
+   - *Preço*: arraste até `R$ 30` e marque **Só o que está em promoção**
+   - *Avaliações*: mínimo de positivas `90%`, mínimo de análises `1.000`
+   - *Ordenar por*: `Melhor avaliados (com peso)`
+3. Clique em **🔎 Procurar no catálogo** e acompanhe a barrinha. Os resultados vão aparecendo aos poucos:
+   o app pega a lista de jogos primeiro e depois busca preço e avaliação de um em um, no ritmo que a loja
+   da Steam permite (~200 consultas a cada 5 minutos).
+4. Cada card mostra o preço com desconto, o % de avaliações positivas **e quantos amigos seus já têm** —
+   clique em **Quem tem** para ver quem.
+
+Se o resultado for grande, o app avisa que alguns jogos ficaram sem preço/avaliação nesta rodada: é só
+clicar em **Procurar no catálogo** de novo, que ele continua de onde parou. O que já veio fica em cache e
+não é buscado outra vez.
+
+> **Sobre "para X jogadores":** a Steam não publica o número máximo de jogadores em lugar nenhum da API.
+> O que funciona é combinar *Modo de jogo* (co-op online, co-op local, PvP) com etiquetas — digite
+> `4 Player` no campo *Estilo* para ver as que existem — e o mínimo de amigos que já têm o jogo.
 
 Os filtros ficam salvos — na próxima vez o app abre do jeito que você deixou.
 
@@ -113,5 +138,7 @@ Os filtros ficam salvos — na próxima vez o app abre do jeito que você deixou
 | Chave inválida / 403 | A chave foi copiada pela metade, ou você revogou ela na Steam. |
 | Muitos jogos com a etiqueta `categoria ?` | Normal no começo: a loja da Steam limita ~200 consultas a cada 5 min. Clique em **continuar detalhes** no rodapé dos filtros, quantas vezes quiser. |
 | Amigos aparecem como "biblioteca privada" | É a privacidade **deles**. Não existe jeito de contornar; o app mostra quantos amigos são legíveis para você saber o tamanho do ponto cego. |
+| A busca no catálogo não traz nada | Rode o diagnóstico e me mande a saída: abra a pasta `steam-filter`, digite `cmd` na barra de endereço e rode `.venv\Scripts\python -m steam_filter doctor`. Ele testa cada endereço da Steam, um por um, e diz qual falhou. |
+| O campo *Estilo* não sugere nada | O app baixa a lista de etiquetas da Steam na primeira vez que você digita. Sem internet no momento, ele avisa embaixo do campo; nesse caso use o campo *Nome contém*. |
 
 Detalhes técnicos, opções avançadas e limitações estão no [README.md](README.md).

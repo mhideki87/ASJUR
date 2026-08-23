@@ -174,3 +174,49 @@ dialog details .field { margin-top: 10px; }
 .dot { width: 8px; height: 8px; border-radius: 50%; background: #4a5967; flex: none; }
 .dot.on { background: var(--green); }
 .dot.playing { background: var(--accent); }
+
+/* ------------------------------------------------------- abas e paineis (v2) */
+
+.tabs { display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+.tab {
+  background: none; border: none; border-bottom: 2px solid transparent; color: var(--fg-dim);
+  padding: 8px 14px; font-size: 14.5px; cursor: pointer; margin-bottom: -1px;
+}
+.tab:hover { color: var(--fg); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
+.filters {
+  gap: 0; padding: 0;
+  /* Com todos os painéis abertos a barra passa da altura da tela: ela rola sozinha,
+     sem levar a lista de jogos junto. */
+  max-height: calc(100vh - 96px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.filters::-webkit-scrollbar { width: 10px; }
+.filters::-webkit-scrollbar-thumb { background: #2b3a4a; border-radius: 6px; }
+.filters::-webkit-scrollbar-track { background: transparent; }
+@media (max-width: 900px) { .filters { max-height: none; overflow: visible; } }
+.panel { padding: 14px 16px; display: flex; flex-direction: column; gap: 12px; border-bottom: 1px solid var(--line); }
+.panel:last-child { border-bottom: none; }
+.panel-title { margin: 0; font-size: 12px; text-transform: uppercase; letter-spacing: .8px; color: #6f8496; font-weight: 700; }
+.panel-help { margin: -4px 0 0; font-size: 12.5px; color: var(--fg-dim); line-height: 1.4; }
+.panel .btn.wide { margin: 0; }
+
+.discover-status { background: #0e141b; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.discover-status .sync-head { margin-bottom: 6px; font-size: 12.5px; }
+
+/* etiquetas de preco e avaliacao no card */
+.badges { position: absolute; left: 8px; bottom: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  background: rgba(8, 14, 20, .88); border: 1px solid #35526b; color: #dbe7f1;
+  padding: 3px 8px; border-radius: 6px; font-size: 12px; font-weight: 600;
+}
+.badge.sale { background: #4c6b22; border-color: #6b9430; color: #eaffd6; }
+.badge.free { background: #1d4666; border-color: #2a6a9c; }
+.badge.good { border-color: #3f7a4a; color: #b7e6bd; }
+.badge.mixed { border-color: #7a6a2f; color: #e6d7a4; }
+.badge.bad { border-color: #7a3838; color: #edb4b4; }
+.price-old { text-decoration: line-through; opacity: .6; font-weight: 400; margin-right: 4px; }
+.tag-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag-chip { font-size: 10.5px; padding: 1px 6px; border-radius: 4px; background: #1c2836; color: #8fa6ba; border: 1px solid #27384a; }

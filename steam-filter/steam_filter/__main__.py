@@ -64,6 +64,12 @@ def _cmd_sync(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_doctor(args: argparse.Namespace) -> int:
+    from .doctor import main as doctor_main
+
+    return doctor_main()
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="steam_filter", description="Filtra jogos da Steam por quantos amigos os têm.")
     sub = parser.add_subparsers(dest="command")
@@ -79,13 +85,18 @@ def build_parser() -> argparse.ArgumentParser:
     syn.add_argument("--mode", choices=["full", "details"], default="full")
     syn.set_defaults(func=_cmd_sync)
 
+    doc = sub.add_parser("doctor", help="testa cada endpoint da Steam e diz o que esta quebrado")
+    doc.set_defaults(func=_cmd_doctor)
+
     return parser
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     argv = list(sys.argv[1:] if argv is None else argv)
-    if not argv or argv[0].startswith("-"):
+    # "python -m steam_filter" sem argumento sobe a interface; flags soltas tambem valem
+    # para o serve — menos -h/--help, que precisa listar todos os comandos.
+    if not argv or (argv[0].startswith("-") and argv[0] not in ("-h", "--help")):
         argv = ["serve", *argv]
     args = parser.parse_args(argv)
     return args.func(args)
