@@ -4,7 +4,7 @@ const $ = (sel) => document.querySelector(sel);
 const PAGE = 60;
 const STORAGE_KEY = 'steam-filter:filters';
 
-const state = { offset: 0, total: 0, loading: false, onlineCount: 0, lastGames: [] };
+const state = { offset: 0, total: 0, loading: false, onlineCount: 0, lastGames: [], overview: null };
 
 // ------------------------------------------------------------------ helpers
 
@@ -184,8 +184,12 @@ async function loadGames(reset = true) {
     $('#btn-more').classList.toggle('hidden', state.offset >= data.total);
     $('#empty').classList.toggle('hidden', data.total > 0);
     if (data.total === 0) {
-      $('#empty').innerHTML = 'Nenhum jogo com esses filtros.<br>Tente baixar o mínimo de amigos, ' +
-        'trocar para "Meus + dos amigos" ou sincronizar de novo.';
+      const nunca = !state.overview || !state.overview.last_sync_at;
+      $('#empty').innerHTML = nunca
+        ? 'Nada sincronizado ainda.<br>Clique em <b>Sincronizar</b>, no canto superior direito, ' +
+          'para baixar a sua biblioteca e a dos seus amigos.'
+        : 'Nenhum jogo com esses filtros.<br>Tente baixar o mínimo de amigos, ' +
+          'trocar para "Meus + dos amigos" ou sincronizar de novo.';
     }
   } catch (err) {
     banner(`Erro ao listar jogos: ${escapeHtml(err.message)}`, 'error');
@@ -199,6 +203,7 @@ async function loadGames(reset = true) {
 async function loadOverview() {
   try {
     const o = await api('/api/overview');
+    state.overview = o;
     $('#chip-games').textContent = `${o.my_games || 0} jogos meus`;
     $('#chip-friends').textContent = `${o.friends_public || 0}/${o.friends || 0} amigos legíveis`;
     $('#me-line').textContent = o.me_name
@@ -370,7 +375,13 @@ async function saveConfig(event) {
     $('#c-api-key').value = '';
     $('#config-msg').textContent = 'salvo';
     banner('');
-    await loadOverview();
+    const o = await loadOverview();
+    if (o && o.is_ready && !o.last_sync_at) {
+      $('#dlg-config').close();
+      banner('Configuração salva. Agora clique em <b>Sincronizar</b>, ali no canto superior direito, ' +
+             'para baixar a sua biblioteca e a dos seus amigos.', 'info');
+    }
+    await loadGames(true);
   } catch (err) {
     $('#config-msg').textContent = `erro: ${err.message}`;
   }

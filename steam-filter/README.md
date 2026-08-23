@@ -15,6 +15,8 @@ têm cada jogo** — inclusive só os que estão **online agora** — para você
 | **Python + FastAPI**, front-end em HTML/JS puro | Zero build step: `pip install` e roda. Você já usa Python 3.12 neste repositório. |
 | Categorias (co-op/PvP) vindas da **API pública da loja**, com cache permanente | É a única fonte que diz se o jogo é multiplayer. Ela limita ~200 consultas a cada 5 min, então o app busca em fila, prioriza os jogos com mais amigos e **nunca rebusca** o que já tem. |
 
+> **Primeira vez? Siga o [COMECE_AQUI.md](COMECE_AQUI.md)** — passo a passo, sem jargão.
+
 ## Requisitos
 
 - Python 3.10 ou superior
