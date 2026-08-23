@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steam Game Filter</title>
+<link rel="stylesheet" href="/static/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🎮</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">🎮</span>
+    <div>
+      <h1>Steam Game Filter</h1>
+      <p class="sub" id="me-line">Carregando…</p>
+    </div>
+  </div>
+  <div class="top-actions">
+    <span class="chip" id="chip-games">— jogos</span>
+    <span class="chip" id="chip-friends">— amigos</span>
+    <span class="chip" id="chip-online" title="Amigos online agora">— online</span>
+    <button class="btn" id="btn-friends-panel" title="Ver amigos e cobertura">Amigos</button>
+    <button class="btn" id="btn-config">Configurar</button>
+    <button class="btn primary" id="btn-sync">Sincronizar</button>
+  </div>
+</header>
+
+<div id="sync-bar" class="sync-bar hidden">
+  <div class="sync-head">
+    <strong id="sync-phase">…</strong>
+    <span id="sync-msg" class="muted"></span>
+    <button class="btn tiny" id="btn-cancel">Cancelar</button>
+  </div>
+  <div class="progress"><div class="progress-fill" id="sync-fill"></div></div>
+</div>
+
+<div id="banner" class="banner hidden"></div>
+
+<main>
+  <aside class="filters">
+    <label class="field">
+      <span>Buscar</span>
+      <input type="search" id="f-search" placeholder="nome do jogo…" autocomplete="off">
+    </label>
+
+    <label class="field">
+      <span>Biblioteca</span>
+      <select id="f-ownership">
+        <option value="mine">Jogos que eu tenho</option>
+        <option value="all">Meus + dos amigos</option>
+        <option value="not_mine">Só dos amigos (não tenho)</option>
+      </select>
+    </label>
+
+    <label class="field">
+      <span>Mínimo de amigos com o jogo: <b id="f-min-friends-out">1</b></span>
+      <input type="range" id="f-min-friends" min="0" max="20" step="1" value="1">
+    </label>
+
+    <label class="check">
+      <input type="checkbox" id="f-online">
+      <span>Contar só amigos <b>online agora</b></span>
+    </label>
+
+    <label class="field" id="f-min-online-wrap" hidden>
+      <span>Mínimo de amigos online: <b id="f-min-online-out">1</b></span>
+      <input type="range" id="f-min-online" min="0" max="10" step="1" value="1">
+    </label>
+
+    <label class="field">
+      <span>Modo de jogo</span>
+      <select id="f-multiplayer">
+        <option value="any">Qualquer um</option>
+        <option value="multiplayer">Multiplayer</option>
+        <option value="coop">Co-op (qualquer)</option>
+        <option value="online_coop">Co-op online</option>
+        <option value="local_coop">Co-op local / tela dividida</option>
+        <option value="pvp">PvP</option>
+        <option value="remote_together">Remote Play Together</option>
+      </select>
+    </label>
+
+    <label class="check">
+      <input type="checkbox" id="f-unknown" checked>
+      <span>Incluir jogos sem categoria baixada</span>
+    </label>
+
+    <label class="check">
+      <input type="checkbox" id="f-recent">
+      <span>Amigos jogaram nas últimas 2 semanas</span>
+    </label>
+
+    <label class="check">
+      <input type="checkbox" id="f-unplayed">
+      <span>Eu nunca joguei</span>
+    </label>
+
+    <label class="field">
+      <span>Ordenar por</span>
+      <select id="f-sort">
+        <option value="friends">Nº de amigos com o jogo</option>
+        <option value="friends_online">Nº de amigos online com o jogo</option>
+        <option value="friends_recent">Amigos jogando recentemente</option>
+        <option value="my_playtime">Minhas horas (mais jogadas)</option>
+        <option value="my_playtime_asc">Minhas horas (menos jogadas)</option>
+        <option value="last_played">Última vez que joguei</option>
+        <option value="metacritic">Metacritic</option>
+        <option value="name">Nome</option>
+      </select>
+    </label>
+
+    <div class="filter-actions">
+      <button class="btn" id="btn-reset">Limpar filtros</button>
+      <button class="btn accent" id="btn-random">🎲 Escolher por mim</button>
+    </div>
+
+    <p class="hint" id="coverage-hint"></p>
+  </aside>
+
+  <section class="results">
+    <div class="results-head">
+      <span id="results-count">—</span>
+      <span class="muted" id="results-note"></span>
+    </div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty hidden"></div>
+    <button class="btn wide hidden" id="btn-more">Carregar mais</button>
+  </section>
+</main>
+
+<dialog id="dlg-game">
+  <div class="dlg-head">
+    <h2 id="dlg-game-title">…</h2>
+    <button class="btn tiny" data-close>Fechar</button>
+  </div>
+  <div id="dlg-game-body" class="friend-list"></div>
+</dialog>
+
+<dialog id="dlg-friends">
+  <div class="dlg-head">
+    <h2>Amigos</h2>
+    <button class="btn tiny" data-close>Fechar</button>
+  </div>
+  <p class="muted small">Só entram na contagem os amigos com <b>Detalhes do jogo</b> públicos.</p>
+  <div id="dlg-friends-body" class="friend-list"></div>
+</dialog>
+
+<dialog id="dlg-config">
+  <div class="dlg-head">
+    <h2>Configuração</h2>
+    <button class="btn tiny" data-close>Fechar</button>
+  </div>
+  <form id="form-config">
+    <label class="field">
+      <span>Chave da Steam Web API</span>
+      <input type="password" id="c-api-key" placeholder="cole a chave aqui" autocomplete="off">
+      <small>Pegue em <a href="https://steamcommunity.com/dev/apikey" target="_blank" rel="noreferrer">steamcommunity.com/dev/apikey</a>. Fica só no seu computador (<code>data/config.json</code>).</small>
+    </label>
+    <label class="field">
+      <span>Seu SteamID64 ou URL do perfil</span>
+      <input type="text" id="c-steam-id" placeholder="7656119… ou steamcommunity.com/id/seunome" autocomplete="off">
+    </label>
+    <details>
+      <summary>Ajustes avançados</summary>
+      <label class="field"><span>Consultas/s na Web API</span><input type="number" id="c-api-rate" step="0.5" min="0.5" max="20"></label>
+      <label class="field"><span>Consultas/s na loja (limite ~200/5 min)</span><input type="number" id="c-store-rate" step="0.1" min="0.1" max="2"></label>
+      <label class="field"><span>Jogos por sincronização (detalhes da loja)</span><input type="number" id="c-store-budget" step="50" min="0" max="5000"></label>
+      <label class="field"><span>Buscar detalhes de jogos com pelo menos N amigos</span><input type="number" id="c-details-min" step="1" min="1" max="20"></label>
+      <label class="field"><span>Amigos consultados em paralelo</span><input type="number" id="c-concurrency" step="1" min="1" max="16"></label>
+    </details>
+    <div class="dlg-actions">
+      <button type="submit" class="btn primary">Salvar</button>
+      <span id="config-msg" class="muted small"></span>
+    </div>
+  </form>
+  <div class="privacy-note">
+    <b>Para funcionar, no seu perfil da Steam</b> (Editar perfil → Privacidade): <b>Lista de amigos</b> e
+    <b>Detalhes do jogo</b> em <i>Público</i>. Amigos com detalhes privados não podem ser contados — é
+    limite da Steam, não do app.
+  </div>
+</dialog>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

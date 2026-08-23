@@ -24,6 +24,12 @@ minuta, não por processamento em massa das petições antigas.
    aponta tese nova, correção, jurisprudência nova e atualização de modelo, em formato de diff para você
    revisar e commitar.
 
+## Fora do escopo jurídico
+
+| Pasta | Conteúdo |
+|---|---|
+| [steam-filter/](steam-filter/README.md) | App pessoal que sincroniza com a Steam e filtra os jogos pela quantidade de amigos que os têm. Não tem relação com o conteúdo jurídico deste repositório — mora aqui só por conveniência. |
+
 ## Regra permanente
 
 Nenhum arquivo aqui deve conter nome de cliente, número de processo, CPF ou qualquer dado que identifique
