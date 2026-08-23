@@ -6,14 +6,33 @@ Cinco minutos, uma vez só. Depois é sempre duplo clique no `run.bat`.
 
 ## 1. Traga o código para o seu PC
 
-No Claude Code local (ou no terminal, dentro da pasta do repositório):
+### Jeito A — sem git, só cliques (recomendado se você não mexe com git)
+
+1. Abra <https://github.com/mhideki87/ASJUR> logado na sua conta.
+2. Clique no botão cinza **Code** (fica acima da lista de arquivos, à direita) → **Download ZIP**.
+   - Se ainda não mesclou o pull request #2: antes de clicar em *Code*, clique no seletor de branch
+     (o botão à esquerda que escreve `main`) e escolha `claude/steam-game-filter-friends-rxo1an`.
+     Só então **Code → Download ZIP**.
+3. Na pasta Downloads, clique com o botão direito no arquivo `.zip` → **Extrair tudo…** → escolha um lugar
+   simples, como `C:\SteamFilter` (evite o Desktop se ele for sincronizado pelo OneDrive).
+4. Entre na pasta extraída (o nome é comprido, algo como `ASJUR-claude-steam-game-filter-friends-rxo1an`)
+   e depois na pasta **`steam-filter`**. É lá que está o `run.bat`.
+
+> Se ao rodar o `run.bat` o Windows mostrar "O Windows protegeu o seu computador", clique em
+> **Mais informações** → **Executar assim mesmo**. Isso aparece porque o arquivo veio da internet.
+
+### Jeito B — com git, mantendo o repositório atualizado
+
+Se você já tem o repositório clonado (é a pasta onde você abre o Claude Code local — a que contém
+`CLAUDE.md` e `README.md`), abra o **Prompt de Comando** nela: clique na barra de endereço do Explorador de
+Arquivos, escreva `cmd` e aperte Enter. Então:
 
 ```bash
 git checkout main
 git pull
 ```
 
-Isso só funciona depois que o **pull request #2** estiver aprovado e mesclado no GitHub. Se preferir testar
+Isso traz a pasta `steam-filter` depois que o **pull request #2** estiver mesclado no GitHub. Para testar
 antes de mesclar, use a branch direto:
 
 ```bash
@@ -21,7 +40,8 @@ git fetch origin
 git checkout claude/steam-game-filter-friends-rxo1an
 ```
 
-Você vai passar a ter a pasta `steam-filter` dentro do repositório.
+Mais simples ainda: abra o Claude Code local nessa pasta e peça *"atualize o repositório para a branch
+claude/steam-game-filter-friends-rxo1an"*.
 
 ## 2. Pegue a sua chave da Steam
 
