@@ -3,7 +3,8 @@
 **Consolidado de:** 1 caso-fonte (ED reais opostos contra sentença condenatória de Vara do Trabalho, rito
 sumaríssimo — versão final aprovada e protocolada pelo usuário, anonimizada em
 `embargos_declaracao__sentenca_primeiro_grau.docx` neste mesmo diretório).
-**Última atualização:** 2026-08-21 — criação inicial.
+**Última atualização:** 2026-08-24 — resultado do julgamento dos ED incorporado; tópico 6 marcado como
+superado (Súmula 439/TST cancelada); acrescentado o item 0 do checklist (conferir verbetes na fonte).
 
 ---
 
@@ -31,7 +32,7 @@ DOS MOTIVOS ENSEJADORES DOS PRESENTES EMBARGOS
   3 — omissão quanto às prerrogativas da Fazenda Pública (precatório, depósito recursal, prazo em dobro)
   4 — omissão quanto ao art. 3º da EC 113/2021 (SELIC)
   5 — contradição entre cumprimento em N dias e regime de precatório
-  6 — erro material no termo inicial da correção do dano moral (Súmula 439/TST)
+  6 — erro material [BLOCO SUPERADO no .docx — ver aviso na seção de trechos reaproveitáveis]
   7 — erro material na composição da condenação (planilhas anexas)
 DOS REQUERIMENTOS   (a: acolhimento; b: rol de pronunciamentos expressos; c: efeito modificativo;
                      d: interrupção do prazo)
@@ -84,9 +85,11 @@ explícito que o saneamento não é acadêmico.
 - **Bloco "EC 113/2021"** (tópico 4): reaproveitável literalmente, com a transcrição do art. 3º. Argumento:
   norma constitucional específica e superveniente, cogente às condenações que envolvam a Fazenda Pública; a
   sentença não a examinou nem explicou por que o critério geral prevaleceria sobre o especial.
-- **Bloco "Súmula 439/TST"** (tópico 6): reaproveitável literalmente. Sentenças costumam mandar corrigir o
-  dano moral desde o ajuizamento; a súmula manda desde o arbitramento. Vantagem adicional: sendo
-  contrariedade a súmula do TST, viabiliza recurso de revista até no rito sumaríssimo (art. 896, §9º, CLT).
+- **Tópico 6 do `.docx` — NÃO USAR como está.** O bloco foi redigido sobre a **Súmula 439 do TST, que está
+  CANCELADA** (Resolução nº 225, de 30/06/2025, do Pleno do TST). No caso-fonte o tópico foi rejeitado
+  exatamente por isso. O `.docx` conserva o bloco apenas como **exemplo da forma** de um tópico de erro
+  material (transcrição → norma → razão → pedido) — **substitua integralmente o conteúdo jurídico**. Ver
+  seção 3.7 de `base_conhecimento_juridico_ECT.md` para o que vale hoje em atualização do dano moral.
 - **Técnica "documento da própria parte adversa"** — a mesma de `contestacao__afastamentos.md`: rebater com
   prova que a parte autora trouxe aos autos. Em ED ela é ainda mais forte, porque torna a omissão
   indefensável: o juízo não pode dizer que faltava prova.
@@ -101,9 +104,9 @@ explícito que o saneamento não é acadêmico.
   inclusive no rito sumaríssimo, onde a revista exige ofensa direta à CF ou contrariedade a súmula (art. 896,
   §9º, CLT).
   **Única exceção:** o pedido subsidiário **dentro do tópico**, quando a súmula ou o dispositivo é o próprio
-  eixo do vício. É o caso do tópico 6, que fecha com "…e, subsidiariamente, o pronunciamento explícito sobre o
-  verbete, para fins de prequestionamento" — aí o prequestionamento é consequência do vício apontado, não um
-  bloco autônomo de reserva de teses.
+  eixo do vício — fecha-se o tópico com "…e, subsidiariamente, o pronunciamento explícito sobre o verbete, para
+  fins de prequestionamento". Aí o prequestionamento é consequência do vício apontado, não bloco autônomo de
+  reserva de teses. (A fórmula está no tópico 6 do `.docx`; aproveite a redação, não o conteúdo jurídico dele.)
 - **Tempestividade.** No caso-fonte o tópico foi suprimido. Incluir quando houver qualquer dúvida sobre a
   contagem — prazo de 5 dias (art. 897-A CLT), em dias úteis (art. 775 CLT), **em dobro** (art. 1º do
   DL 779/69), o que dá 10 dias úteis da intimação.
@@ -121,14 +124,16 @@ explícito que o saneamento não é acadêmico.
 
 ## Checklist de leitura da sentença (o que gera tópico)
 
+0. **Antes de tudo:** toda súmula, OJ ou precedente que for sustentar um tópico foi conferido na fonte
+   oficial? Verbete cancelado derruba o tópico e desgasta a peça (ver o tópico 6 deste modelo).
 1. Cada tópico do mérito da contestação encontrou resposta na fundamentação? O que ficou sem resposta é
    tópico de omissão.
 2. Cada alínea dos requerimentos da contestação foi apreciada? (a de honorários de sucumbência da ECT é a
    que mais escapa).
 3. O juízo se pronunciou sobre precatório, custas, **depósito recursal** e prazo em dobro?
 4. O critério de correção/juros considerou o art. 3º da EC 113/2021?
-5. Houve dano moral? Foi fixado o **grau** da ofensa (art. 223-G, §1º, CLT)? O termo inicial da correção
-   respeita a Súmula 439 do TST?
+5. Houve dano moral? Foi fixado o **grau** da ofensa (art. 223-G, §1º, CLT)? (O termo inicial da correção
+   **não** é mais capítulo útil — ver seção 3.7 da base.)
 6. O dispositivo remete a planilhas ou a documentos anexos? Eles existem nos autos?
 7. O prazo de cumprimento fixado é compatível com o regime de precatório?
 8. As obrigações de fazer têm objeto determinado e exigibilidade definida?
@@ -136,6 +141,6 @@ explícito que o saneamento não é acadêmico.
 
 ## Ligação com a base de teses
 
-Sustenta-se nas seções 3.3 (prerrogativas processuais e EC 113/2021), 3.7 (dano moral — gradação e
-Súmula 439) e 3.8 (honorários de sucumbência recíproca) de `base_conhecimento_juridico_ECT.md`. O tópico 1
+Sustenta-se nas seções 3.3 (prerrogativas processuais e EC 113/2021), 3.7 (dano moral — gradação do art.
+223-G, §1º) e 3.8 (honorários de sucumbência recíproca) de `base_conhecimento_juridico_ECT.md`. O tópico 1
 varia com o tema do processo e busca a tese na seção correspondente (3.1, 3.4, 3.6 etc.).

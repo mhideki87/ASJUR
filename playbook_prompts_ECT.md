@@ -181,8 +181,8 @@ em vez de redigir a peça.
 Para sentença de 1º grau existe modelo consolidado:
 `modelos/trabalhista/embargos_declaracao__sentenca_primeiro_grau.md` (+ `.docx`) — traz o padrão de cinco
 movimentos de cada tópico, o bloco recorrente da ECT (honorários de sucumbência recíproca, prerrogativas da
-Fazenda Pública, EC 113/2021, Súmula 439/TST, planilhas anexas), o registro de estilo e o checklist de leitura
-da sentença.
+Fazenda Pública, EC 113/2021, planilhas anexas), o registro de estilo e o checklist de leitura da sentença —
+cujo item 0 manda **conferir na fonte oficial** toda súmula que for sustentar um tópico.
 
 **Padrão confirmado (08/2026):** embargos **sem seção de prequestionamento** — ele é do recurso. E peça
 **enxuta**: no caso-fonte a minuta foi de 15 para 7 tópicos, com numeração corrida, sem subdividir por espécie

@@ -117,11 +117,20 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   de equidade" **sem declarar o grau** incorre em contradição, e impede a ECT de aferir o teto legal. Alegar
   também, quando for o caso, que **a própria inicial não indicou o grau** — requisito legal de formulação do
   pedido.
-- **Termo inicial da correção monetária — Súmula 439 do TST** `[REVISAR: conferir redação e vigência]`: nas
-  condenações por dano moral a atualização é devida da **data da decisão de arbitramento** (ou de alteração do
-  valor), incidindo os juros desde o ajuizamento (art. 883 da CLT). Sentenças frequentemente mandam corrigir
-  desde o ajuizamento — erro material de correção objetiva. Valor estratégico: sendo **contrariedade a súmula
-  do TST**, viabiliza recurso de revista **até no rito sumaríssimo** (art. 896, §9º, da CLT).
+- **[TESE ERRADA — NÃO USAR] Súmula 439 do TST: CANCELADA.** O verbete — que mandava corrigir o dano moral
+  da data do arbitramento — foi **cancelado pela Resolução nº 225, de 30/06/2025, do Pleno do TST**, que
+  revogou 36 enunciados por perda de eficácia diante das ADIs 5.867 e 6.021 e das ADCs 58 e 59 do STF, com
+  efeitos retroagindo a 09/12/2021. Esta base chegou a registrar a tese como válida em 08/2026, e ela foi
+  levada a embargos de declaração num caso real: **o juízo rejeitou apontando o cancelamento**. Fica o
+  registro do erro para que não se repita.
+  **O que vale hoje:** os critérios de juros e correção seguem a legislação vigente na liquidação — ADC 58,
+  Lei nº 14.905/2024 e, para a ECT, o art. 3º da EC nº 113/2021 (seção 3.3). Como a SELIC incide desde o
+  ajuizamento, **sentença que manda corrigir o dano moral do ajuizamento tende a estar correta** — não há
+  aqui capítulo recursal a explorar. `[REVISAR: há doutrina sustentando que a Lei nº 14.905/2024 reabilitaria
+  o critério cindido para o dano moral trabalhista (ConJur, 01/05/2026); é tese doutrinária, não vinculante —
+  conferir antes de eventual uso]`
+- **Lição de método:** verbete marcado `[REVISAR]` **não vai para peça sem conferência na fonte oficial**. O
+  custo aqui foi um tópico de embargos rejeitado e a credibilidade da peça.
 - **Mérito**: mero inadimplemento contratual ou divergência sobre extensão de verbas não configura lesão a
   direito da personalidade; existe um piso de inconvenientes tolerável sem dano moral autêntico.
 
