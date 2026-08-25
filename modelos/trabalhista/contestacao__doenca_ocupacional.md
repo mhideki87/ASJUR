@@ -4,7 +4,8 @@
 atendente comercial (fonte das ementas de prescrição); (ii) contestação minutada para empregado reabilitado de carteiro
 para auxiliar administrativo, com pedidos de dano moral, danos emergentes, pensão do art. 950 do CC e custeio de plano
 de saúde.
-**Última atualização:** 2026-08-25 — criação inicial.
+**Última atualização:** 2026-08-25 — criação inicial; no mesmo dia, acréscimo do bloco de **redução da parcela única
+ao valor presente (planilha do TRT24)** e da regra de que **não se impugna** o pagamento em parcela única.
 
 ---
 
@@ -40,7 +41,8 @@ DO MÉRITO
   5 — Inexistência de incapacidade e de perda patrimonial (reabilitado, em atividade, salário integral)
   6 — Improcedência do pedido declaratório e do art. 118 da Lei 8.213/91
   7 — Inexistência de dano moral + ad cautelam art. 223-G da CLT
-  8 — Pensão do art. 950 do CC: ausência de dano + incoerências do pedido + ad cautelam
+  8 — Pensão do art. 950 do CC: ausência de dano + incoerências do pedido + ad cautelam +
+      redução da parcela única ao valor presente (planilha do TRT24)
   9 — Danos emergentes (art. 949 do CC): ausência de prova de despesa
  10 — Custeio de plano de saúde: bis in idem e ausência de fundamento normativo
  11 — Pedidos mencionados na fundamentação e não deduzidos no rol (arts. 141 e 492 CPC)
@@ -79,8 +81,30 @@ Fecho + assinatura
   proporcional ao percentual de concausa apurado em perícia.
 - **Ad cautelam da pensão (art. 950 do CC):** percentual estrito da redução apurada; base de cálculo limitada à
   remuneração do cargo (excluídos FGTS, terço de férias e verbas indenizatórias); dedução da remuneração que o
-  empregado continua a receber; termo final pela expectativa de vida do IBGE; impugnação ao pagamento em parcela única
-  (faculdade do juízo — desproporcional diante de execução por precatório).
+  empregado continua a receber; termo final pela expectativa de vida do IBGE (tabela oficial).
+- **Parcela única — regra de conduta fixada pelo usuário (25/08/2026): NÃO impugnar o pagamento em parcela única.**
+  A conversão do art. 950, parágrafo único, do CC é faculdade do juízo e a impugnação pura e simples desgasta a defesa
+  sem retorno. O pedido a formular é o de **redução do valor**, isto é, de que a parcela única seja **limitada ao valor
+  presente** — e é isso que deve constar tanto do corpo do tópico da pensão quanto da alínea de eventualidade dos
+  requerimentos.
+- **Bloco da redução ao valor presente (reaproveitável quase literalmente):**
+  1. pedido de que, sendo deferido o pagamento em parcela única, o valor seja limitado ao **valor presente apurado pela
+     planilha oficial de cálculo do TRT da 24ª Região**, disponibilizada para esse fim em
+     `http://www.trt24.jus.br/calculo-do-valor-presente` (conferir o endereço antes de cada protocolo — a peça-fonte o
+     registrava como acessado em 22/02/2021);
+  2. transcrição da fórmula, centralizada, com expoente: `VA = V × [ (1 + i)ⁿ – 1 ] ÷ [ (1 + i)ⁿ × i ]`;
+  3. definição das variáveis em bloco recuado: **i** = taxa mensal de juros, sendo (a) 0,5% ao mês enquanto a meta da
+     taxa Selic ao ano for superior a 8,5%, ou (b) 70% da meta Selic anual, mensalizada, vigente na data de início do
+     período de rendimento, nos demais casos, conforme **art. 12, II, da Lei nº 8.177/91**; **V** = valor da prestação
+     mensal (salário da vítima); **n** = número de prestações mensais (período fixado na decisão); **VA** = valor atual
+     (parcela única a ser paga pelo causador do dano);
+  4. razão de ser: o pagamento de uma só vez é **antecipação** e, sem desconto a valor presente, gera desequilíbrio na
+     reparação e enriquecimento sem causa (art. 884 do CC) — a soma deve equivaler, no máximo, ao que a vítima obteria
+     com resgates mensais de aplicação hipotética, até esgotar juros e capital ao fim do prazo da decisão;
+  5. a aplicação hipotética é a **caderneta de poupança**, a mais conservadora, isenta de risco e de tributação e de
+     remuneração pré-fixada — critério da própria planilha do Tribunal e coerente com o art. 12, II, da Lei 8.177/91;
+  6. reforço institucional: sendo a ECT **empresa pública federal equiparada à Fazenda Pública**, com execução por
+     precatório e recursos públicos, antecipar vincendas sem desconto financeiro lesa o erário (arts. 884 e 944 do CC).
 - **Quesitos obrigatórios a exigir do laudo:** natureza degenerativa e etiologia de cada CID; grau e permanência de
   incapacidade **para a função efetivamente exercida**; data de consolidação de cada lesão (para a prescrição); nexo
   por período contratual, distinguindo o cargo anterior do atual; **quantificação percentual** da concausa e dos
@@ -96,6 +120,11 @@ Fecho + assinatura
   (pensão e lucros cessantes), mas não elimina o risco de dano moral por concausa — dosar a peça nesse sentido.
 - Quando a inicial pede custeio de plano de saúde **e** danos emergentes que já incluem "plano de saúde vitalício",
   suscitar o *bis in idem* explicitamente, com a citação literal das duas alíneas.
+- **Termo final do pensionamento — duas opções.** A peça-fonte deste tema sustentou, alternativamente à expectativa de
+  vida do IBGE, que o termo final deve ser, no máximo, a **idade de aposentadoria (65 anos)**, por ser a idade que
+  limitaria o pagamento de salário e benefícios caso o empregado permanecesse na ativa, com transcrição do **art. 37,
+  §14, da CF**. É o parâmetro mais favorável à ECT; no caso consolidado aqui, optou-se por manter a expectativa de vida
+  do IBGE. Avaliar caso a caso — e não usar as duas teses ao mesmo tempo, sob pena de contradição interna.
 
 ## Ligação com a base de teses
 

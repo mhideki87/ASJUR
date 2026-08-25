@@ -83,6 +83,28 @@ Depois da prejudicial, três frentes de defesa, sempre nesta ordem:
      expedido pela autarquia é prova documental de conduta diligente — e desmonta a alegação de "manutenção do
      empregado em função incompatível". Serve simultaneamente à frente 0 (marco prescricional) e a esta.
    - Emissão de **CAT** pela empregadora é cumprimento do dever do art. 22 da Lei 8.213/91 — não confissão de culpa.
+
+**Danos materiais — pensão do art. 950 do CC e parcela única:**
+- Cenário mais favorável: empregado **reabilitado, em atividade e com remuneração integral** → não há inabilitação nem
+  depreciação salarial, logo não há dano material (arts. 884 e 950 do CC). Atenção: há jurisprudência que defere pensão
+  mesmo com o vínculo mantido (a parte costuma citar o RR-Ag-10625-15.2019.5.03.0036, 3ª T.) — nesses casos a defesa
+  migra para a dosimetria.
+- *Ad cautelam*: percentual estrito da redução apurada em perícia (reduzido pela concausa); base de cálculo limitada à
+  remuneração do cargo (fora FGTS, terço de férias e verbas indenizatórias); dedução da remuneração que o empregado
+  segue recebendo; termo final pela expectativa de vida em tabela oficial do IBGE (alternativa: idade de aposentadoria,
+  65 anos, com o art. 37, §14, da CF — usar uma tese ou a outra, nunca as duas).
+- **Parcela única — não impugnar (regra fixada pelo usuário em 25/08/2026).** A conversão prevista no art. 950,
+  parágrafo único, do CC é faculdade do juízo; impugná-la desgasta a defesa sem retorno. O pedido correto é o de
+  **redução do valor**: que a parcela única seja **limitada ao valor presente**, apurado pela **planilha oficial de
+  cálculo do TRT da 24ª Região** (`http://www.trt24.jus.br/calculo-do-valor-presente` — conferir o endereço antes de
+  cada protocolo), pela fórmula `VA = V × [ (1 + i)ⁿ – 1 ] ÷ [ (1 + i)ⁿ × i ]`, em que **i** é a taxa mensal de juros do
+  **art. 12, II, da Lei nº 8.177/91** (0,5% ao mês enquanto a meta Selic anual superar 8,5%; ou 70% da meta Selic anual
+  mensalizada, nos demais casos), **V** a prestação mensal, **n** o número de prestações e **VA** o valor atual.
+  Fundamentos: o pagamento de uma só vez é antecipação e, sem desconto a valor presente, gera enriquecimento sem causa
+  (art. 884 do CC) e reparação com excesso (art. 944); a soma deve equivaler ao resgate mensal de aplicação hipotética
+  — **caderneta de poupança**, a mais conservadora, isenta de risco e tributação; e, tratando-se de empresa pública
+  federal equiparada à Fazenda Pública, com execução por precatório, a antecipação sem desconto lesa o erário.
+
 - Ver modelo completo em `modelos/trabalhista/contestacao__doenca_ocupacional.md` (formatação em `modelos/_FORMATO_BASE.docx`).
 
 ### 3.5 Temas acessórios que reapareceam *ad cautelam*
