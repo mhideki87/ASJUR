@@ -188,6 +188,37 @@ cujo item 0 manda **conferir na fonte oficial** toda súmula que for sustentar u
 **enxuta**: no caso-fonte a minuta foi de 15 para 7 tópicos, com numeração corrida, sem subdividir por espécie
 de vício. Um ED com 15 tópicos lê-se como inconformismo; com 7, como apontamento técnico.
 
+### 2.7 Recurso Ordinário
+```
+Redija recurso ordinário contra a sentença anexada, formatação do <MODELO.odt>.
+
+ESTRUTURA (duas peças no mesmo arquivo, com quebra de página entre elas):
+- Petição de juntada à <Nª> Vara do Trabalho de Campo Grande/MS — tempestividade
+  (8 dias em dobro, dias úteis, contados da publicação da decisão de embargos, que
+  interromperam o prazo) e preparo (isenção de custas e de depósito recursal)
+- Razões endereçadas ao TRT da 24ª Região:
+I   — Síntese da demanda e da decisão recorrida
+II  — Preliminar de nulidade por negativa de prestação jurisdicional (SÓ se houve
+      embargos apontando a omissão e a decisão integrativa não a sanou; sempre com
+      pedido subsidiário de julgamento imediato — art. 1.013, §3º, IV, do CPC)
+III — Mérito, capítulo a capítulo, do mais forte para o mais fraco
+IV  — Prequestionamento explícito (aqui sim — só do que foi debatido no corpo)
+V   — Requerimentos
+
+Cada capítulo de mérito em quatro movimentos: o que a sentença decidiu (transcrever)
+→ por que está errada (fato, prova e norma, nomeando o ônus da prova) → a
+consequência concreta se subsistir → o pedido de reforma, específico.
+
+Leia a decisão de embargos procurando material aproveitável CONTRA ela: prerrogativa
+processual reconhecida (blinda o preparo), erro material admitido (reforça iliquidez),
+contradição interna (sustenta a preliminar), qualificação branda do fato no dano moral.
+
+NÃO recorra do que está perdido nem do que já se ganhou nos embargos — diga isso
+expressamente em vez de incluir o capítulo.
+```
+
+Modelo consolidado: `modelos/trabalhista/recurso_ordinario__sentenca_primeiro_grau.md` (+ `.docx`).
+
 ---
 
 ## 3. Prompts de apoio
@@ -246,6 +277,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Peça | Anexar |
 |---|---|
 | Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
+| Recurso ordinário | sentença · decisão dos embargos · contestação · peça-modelo |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |

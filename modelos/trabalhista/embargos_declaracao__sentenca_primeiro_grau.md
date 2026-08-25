@@ -139,6 +139,13 @@ explícito que o saneamento não é acadêmico.
 8. As obrigações de fazer têm objeto determinado e exigibilidade definida?
 9. Há divergência de datas, valores ou extensão entre fundamentação e dispositivo?
 
+## Peça seguinte do fluxo
+
+Rejeitados os embargos no todo ou em parte, a omissão não sanada vira **preliminar de nulidade por negativa de
+prestação jurisdicional** no recurso ordinário — ver `recurso_ordinario__sentenca_primeiro_grau.md` neste
+mesmo diretório. É por isso que vale opor os embargos mesmo quando a chance de acolhimento é baixa: sem eles,
+a preliminar não existe.
+
 ## Ligação com a base de teses
 
 Sustenta-se nas seções 3.3 (prerrogativas processuais e EC 113/2021), 3.7 (dano moral — gradação do art.

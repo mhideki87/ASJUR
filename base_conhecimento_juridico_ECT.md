@@ -21,6 +21,7 @@
 |---|---|
 | Contestação | Resposta à inicial trabalhista |
 | Embargos de declaração | Sentença de 1º grau com omissão, contradição, obscuridade ou erro material |
+| Recurso Ordinário | Sentença de 1º grau desfavorável, após esgotados os embargos |
 | Contrarrazões de Recurso Ordinário | Defesa da sentença favorável, endereçada ao TRT24 |
 | Recurso de Revista | Sentença/acórdão desfavorável |
 | Quesitos para perícia médica | Ações de doença ocupacional |

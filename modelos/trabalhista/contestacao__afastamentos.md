@@ -87,8 +87,14 @@ ou se algum dos tópicos do mérito não se aplicar.
 ## Desdobramento recursal
 
 Sentença desfavorável neste tema tende a gerar embargos de declaração antes do recurso ordinário — ver
-`embargos_declaracao__sentenca_primeiro_grau.md` neste mesmo diretório, cujo caso-fonte é justamente o
-desdobramento deste modelo.
+`embargos_declaracao__sentenca_primeiro_grau.md` e `recurso_ordinario__sentenca_primeiro_grau.md` neste mesmo
+diretório, ambos consolidados a partir do desdobramento deste modelo no mesmo processo.
+
+No caso-fonte os embargos foram providos em parte (honorários de sucumbência da ECT e erro material das
+planilhas) e o recurso ordinário concentrou-se em: preliminar de nulidade quanto à tese de inexistência de
+desconto de vales; natureza jurídica da parcela e FGTS; obrigações de fazer indeterminadas; dano moral; e
+regime de execução. Ficou **fora** do recurso o capítulo dos dias de afastamento propriamente dito, por
+assentar-se em prova testemunhal.
 
 ## Ligação com a base de teses
 
