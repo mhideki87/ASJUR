@@ -1,2 +1,14 @@
+# Conversão dos documentos da parte (converter_parte_para_md.py)
 markitdown[pdf,docx]
 send2trash
+
+# Conversão das normas coletivas (converter_normas_coletivas.py)
+# Muitos PDFs de 1988-2011 são digitalizações sem camada de texto e exigem OCR.
+pypdfium2
+pytesseract
+pillow
+# Além destes, é preciso o binário do Tesseract e o idioma português:
+#   winget install --id UB-Mannheim.TesseractOCR
+#   curl -L -o "%LOCALAPPDATA%\tessdata\por.traineddata" ^
+#     https://github.com/tesseract-ocr/tessdata/raw/main/por.traineddata
+#   (copie também eng/osd.traineddata para %LOCALAPPDATA%\tessdata e aponte TESSDATA_PREFIX para lá)
