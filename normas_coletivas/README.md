@@ -30,6 +30,18 @@ original em comentários `<!-- página N -->`, para citação precisa.
 
 `python scripts/converter_normas_coletivas.py` (na raiz do repositório). Reconverte só o que mudou.
 
+## Um arquivo por norma (só local)
+
+`python scripts/separar_normas_coletivas.py` recorta esses mesmos `.md` em **um arquivo por
+instrumento** — `1988-1989 — ACT.md`, `2016-2017 — ACT.md`, `2019-2020 — Sentença Normativa
+(TST DC 1000662-58.2019).md` etc. — na subpasta local `Por norma/`. Arquivo já existente é
+mantido, nunca sobrescrito; rodar de novo não duplica nada.
+
+Essa subpasta **não é versionada**: no repositório fica a íntegra por volume de origem, que é a
+forma fiel ao PDF. Os cortes ficam na tabela `MAPA` do script, com a faixa de páginas de cada
+norma — é lá que se corrige uma fronteira ou se acrescenta um PDF novo (`--detectar` ajuda a
+localizar os inícios; `--listar` mostra o plano antes de gravar).
+
 ## Sobre a "Regra permanente" do repositório
 
 A regra do [README raiz](../README.md) veda dado que identifique **parte de processo do escritório**.
