@@ -90,7 +90,7 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 - Formato: **.odt** (LibreOffice); conversão para .docx quando necessário.
 - Fonte **Arial 11**, **entrelinha 1,5 exata**, parágrafos **justificados** com recuo de primeira linha de **3 cm**.
 - Margens: esquerda **3 cm** / direita **2 cm** / superior **3 cm** / inferior **2 cm**.
-- **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica MS/DEJUR/SEJUR"; **rodapé** com endereço e numeração de páginas.
+- **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica MS/DEJUR/SEJUR"; **rodapé** com endereço e numeração de páginas. Ambos a **0,7 cm** da borda da página.
 - **Títulos de seção** — vale para **todas as peças**, não só contestação: **CAIXA ALTA**, **negrito**,
   **centralizados** e **dentro de um quadro** (borda simples nos quatro lados), sem numeração romana.
   São só os blocos maiores: `DA EQUIPARAÇÃO À FAZENDA PÚBLICA`, `SÍNTESE DA DEMANDA`, `PRELIMINARMENTE`,
