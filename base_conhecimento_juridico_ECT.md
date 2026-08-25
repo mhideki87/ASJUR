@@ -80,6 +80,71 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 AADC — Adicional de Atividade de Distribuição e/ou Coleta Externa (carteiro motorizado)
+
+**Norma interna:** PCCS/2008, item **4.8** — 4.8.1 (atribuição), 4.8.1.1 (30% do salário-base), 4.8.1.2 (valor
+fixo), 4.8.1.3 (25% do valor fixo) e **4.8.2** (supressão); regulamentado pelo **Capítulo 6 do Módulo 8 do
+MANPES**. O item 8.9.1 do próprio PCCS/2008 registra que a parcela nasceu do Termo de Compromisso ECT/FENTECT.
+
+**Origem da parcela** (documentação: *histórico* — Termo de Compromisso, ata de reunião e petição de
+homologação): PL 82/2003 e PL 7362/2006, que criariam adicional de periculosidade para carteiros →
+**veto presidencial** (Mensagem nº 863, de 19/11/2007) → **Termo de Compromisso ECT/FENTECT de 20/11/2007**
+(abono emergencial de 30% do salário-base, a título de adicional de risco) → greve de 1º/7/2008 →
+**ata de 19/7/2008** (pagamento definitivo de 30%, com as hipóteses de supressão do subitem 2.1) →
+homologação no **TST-DC-195.656/2008-000-00-00.5**, em 21/7/2008. Daí a natureza de **adicional de risco**.
+
+**Tese 1 — impossibilidade de cumulação com o adicional de periculosidade do art. 193, §4º, da CLT**
+(incluído pela Lei 12.997/2014, regulamentado pelo **Anexo 5 da NR 16**, Portaria MTE 1.565/2014):
+- AADC e adicional legal têm **idêntica natureza, fundamento, base de cálculo e alíquota** (30% do salário-base,
+  art. 193, §1º, da CLT) — ambos remuneram a exposição a risco em via pública.
+- Autorizam a supressão: **item 4.8.2 do PCCS/2008**; **item 4.5 do Cap. 6 do Mód. 8 do MANPES**; **alínea "a"
+  do subitem 2.1 da ata de 19/7/2008**, homologada pelo TST; e a cláusula de **acumulação de vantagens** dos
+  ACTs (renumerada a cada acordo — conferir o número no ACT do período).
+- **Item 3.1.2 do Cap. 6 do Mód. 8 do MANPES**: é vedada a percepção simultânea dos adicionais.
+- Argumento *a fortiori*: se a lei veda cumular insalubridade com periculosidade (art. 193, §2º, da CLT), com
+  muito mais razão veda dois adicionais de periculosidade.
+
+**Tese 2 — o AADC é salário-condição** (serve mesmo quando a supressão não decorreu da periculosidade):
+- **Item 4.8.1 do PCCS/2008**: parcela atribuída "exclusivamente aos empregados que atuarem no **exercício
+  efetivo** da atividade postal externa de Distribuição e/ou Coleta em vias públicas".
+- **MANPES, Cap. 6 do Mód. 8**: item 4.2/4.2.1 (pagamento **proporcional aos dias em efetivo exercício**),
+  item 4.4 (desconto de **1/30 por dia de ausência** não equiparada a efetivo exercício, cf. Anexo 1) e
+  item 4.5 (**supressão** quando o empregado não mais desempenha a atividade).
+- **Alínea "b" do subitem 2.1 da ata de 19/7/2008**: supressão "quando o referido empregado não mais exercer a
+  atividade de distribuição e/ou coleta em vias públicas".
+- Consequência: cessada a condição, cessa a parcela — sem alteração contratual lesiva (art. 468 da CLT) nem
+  ofensa à irredutibilidade salarial (art. 7º, VI, da CF). O fato constitutivo (exercício efetivo no período)
+  é ônus do autor (art. 818, I, da CLT; art. 373, I, do CPC).
+
+**Prova técnica:** **Laudo Técnico Pericial do DESAU**, elaborado por Engenheiro de Segurança do Trabalho na
+forma do art. 195 da CLT e do item 16.3 da NR 16, que (i) enquadra as funções motorizadas "M" e "MV" no Anexo 5
+da NR 16 e (ii) conclui pela **substituição** do AADC pelo adicional de periculosidade, e não pela soma.
+
+**Contra-argumento de isonomia:** o carteiro motorizado percebe, além do adicional legal, a **gratificação de
+função convencional motorizada** ("M", "MV", "V"), não suprimida — critérios de acesso no **item 9 do
+Capítulo 2 do Módulo 1 do MANTRA**. Some-se a **Súmula 361 do TST**: o adicional de periculosidade não comporta
+proporcionalidade nem graduação por tipo de atividade.
+
+**Prescrição:** sendo a supressão **ato único** e a parcela decorrente de **norma interna** (não assegurada por
+preceito de lei), aplica-se a **prescrição total** — Súmula 294 do TST e art. 11, §2º, da CLT (ver seção 3.2).
+
+**Precedentes** (conferir a íntegra antes de transcrever): TST **RR-1254-27.2015.5.06.0313** (8ª Turma, Min.
+Dora Maria da Costa, julgado em 07/12/2016, DEJT 12/12/2016) — impossibilidade de cumulação, caso da própria
+ECT; TST **RR-122900-58.2008.5.02.0087** (7ª Turma, Min. Vieira de Mello Filho, 01/06/2016) — vedação de dois
+adicionais de periculosidade; TRT 1ª Região **RO 0010998-96.2015.5.01.0018** e **RO 0010294-22.2014.5.01.0082**;
+TRT 13ª Região **RO 0131247-94.2015.5.13.0001** e **RO 0131182-90.2015.5.13.0004**.
+
+**Documentos que instruem a defesa:** histórico da parcela (Termo de Compromisso, ata de 19/7/2008 e petição de
+homologação no TST), Laudo Técnico do DESAU, PCCS/2008, MANPES (Mód. 8, Cap. 6) e MANTRA (Mód. 1, Cap. 2),
+ACTs do período, ficha cadastral/funcional e ficha financeira.
+
+**Conferir sempre, antes de fechar a tese:**
+- O **motivo formal** da supressão na ficha cadastral/financeira — periculosidade, afastamento, restrição médica
+  ou remanejamento para atividade interna mudam qual das duas teses é a principal.
+- O enquadramento no item **4.8.1.1 (30% do salário-base)** ou **4.8.1.2 (valor fixo)**, conforme cargo e função.
+- Se houve pagamento simultâneo das duas parcelas no período (fundamenta compensação / *bis in idem*).
+- Existência de **ação coletiva do sindicato** sobre a mesma matéria — art. 104 do CDC.
+
 ---
 
 ## 4. Padrão formal das peças
