@@ -45,16 +45,45 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
 
 ### 3.2 Prescrição
 - **Prescrição total** — Súmula 294 do TST e art. 11, §2º, da CLT, para alteração do pactuado com prestação sucessiva não assegurada por lei.
+- **Doença ocupacional** — ver a frente 0 da seção 3.4: o marco não é a extinção do contrato, mas a **ciência inequívoca da lesão e a sua consolidação**.
 
 ### 3.3 Prerrogativas processuais da ECT
 - **Prazo em dobro** — art. 1º do Decreto-lei 779/69, combinado com a equiparação à Fazenda Pública do art. 12 do Decreto-lei 509/69, recepcionado pela CF/88 (STF, **RE 220.906/DF**).
 - **Dispensa de preparo/custas**.
 
 ### 3.4 Doença ocupacional
-Três frentes de defesa, sempre nesta ordem:
+**Frente 0 — prescrição (prejudicial, antes de qualquer discussão de mérito):**
+- Marco inicial = **ciência inequívoca da lesão e efetiva consolidação** (princípio da *actio nata*, art. 189 do CC;
+  **Súmulas 230 do STF e 278 do STJ**), e não a extinção do contrato nem o ajuizamento.
+- Ciência inequívoca **posterior à EC 45/2004** → incide o prazo trabalhista do art. 7º, XXIX, da CF (e não o civil);
+  fixado pela SBDI-1 do TST, em composição completa, no **E-RR-2700-23.2006.5.10.0005** (Rel. Min. Aloysio Corrêa da
+  Veiga, sessão de 22/05/2014).
+- **Tese mais forte quando houve reabilitação profissional do INSS:** a real extensão da doença só é conhecida em um de
+  dois resultados excludentes — aposentadoria por invalidez, ou cessação do benefício com retorno/readaptação. Logo, a
+  **data do certificado de reabilitação (ou da cessação do benefício com readaptação) é o marco prescricional**, e as
+  pretensões ligadas ao **cargo anterior** ficam atingidas por **prescrição total** (art. 487, II, do CPC), ainda que o
+  contrato siga em vigor. Pedir sempre, sucessivamente, a prescrição quinquenal das verbas anteriores ao quinquênio.
+- Não afasta a prejudicial a alegação de quadro "crônico e progressivo": o que se protrai é o *tratamento*, não o
+  nascimento da pretensão.
+- Precedentes (todos verificados em peça real aprovada): **TRT24 – ROT 0024198-95.2023.5.24.0004** (1ª Turma, Des.
+  Nicanor de Araujo Lima, j. 09/07/2024 — carteiro reabilitado; prescrição total reconhecida); **TST – E-ED-ED-RR-315-98.2011.5.06.0018**
+  (SBDI-1, Red. Min. Cláudio Mascarenhas Brandão, DEJT 16/08/2019); **TST – AIRR-620-92.2013.5.04.0204** (2ª T., Min.
+  José Roberto Freire Pimenta, j. 19/08/2015 — é dele o raciocínio dos "dois resultados excludentes"); **TST –
+  RR-92000-78.2009.5.04.0030** (2ª T., mesmo relator, j. 12/11/2014); **TST – RR-10165-68.2015.5.03.0165** (2ª T., mesmo
+  relator, j. 14/10/2015); **TST – RR-11817-09.2017.5.15.0039** (4ª T., Min. Caputo Bastos, DEJT 18/09/2020 — mera
+  exposição a agente nocivo, sem doença caracterizada, não atrai a Súmula 278 do STJ).
+
+Depois da prejudicial, três frentes de defesa, sempre nesta ordem:
 1. **Inexistência de incapacidade total e permanente** — incapacidade parcial/temporária, reversibilidade (sobretudo em quadros psiquiátricos), natureza temporária dos benefícios do INSS (DCB).
 2. **Inexistência de nexo causal** — etiologia multifatorial, fatores extralaborais e familiares, antecedentes, espécie 31 x 91, NTEP/CNAE **5310-5/01**, art. 20, §1º, da Lei 8.213/91; eventual concausa deve ser quantificada.
 3. **Inexistência de culpa da empregadora** — exames admissional e periódicos, PCMSO e riscos psicossociais, ausência de comunicação prévia à empresa; exigir do perito a indicação da **norma específica** supostamente descumprida.
+   - **Reabilitação profissional como prova de diligência:** quando a ECT encaminhou o empregado ao Programa de
+     Reabilitação Profissional do INSS (art. 89 e ss. da Lei 8.213/91; art. 140 do Decreto 3.048/99), ministrou o
+     curso/treinamento da nova função e o aproveitou em atividade compatível **sem redução salarial**, o certificado
+     expedido pela autarquia é prova documental de conduta diligente — e desmonta a alegação de "manutenção do
+     empregado em função incompatível". Serve simultaneamente à frente 0 (marco prescricional) e a esta.
+   - Emissão de **CAT** pela empregadora é cumprimento do dever do art. 22 da Lei 8.213/91 — não confissão de culpa.
+- Ver modelo completo em `modelos/trabalhista/contestacao__doenca_ocupacional.md` (formatação em `modelos/_FORMATO_BASE.docx`).
 
 ### 3.5 Temas acessórios que reapareceam *ad cautelam*
 Quebra de caixa · substituições · aplicação integral dos normativos internos · reajustes de ACT · CIP · POSTALIS · honorários advocatícios.
@@ -80,6 +109,31 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 Impugnação ao pedido de justiça gratuita
+- Base atual: **Súmula 463, I, do TST** (basta a declaração de hipossuficiência) e **Tema 21 do IRR do TST**
+  (0000277-83.2020.5.09.0084): item I — concessão de ofício a quem percebe até 40% do teto do RGPS; item II — acima
+  desse patamar, admite-se declaração particular (Lei 7.115/83); **item III — havendo impugnação da parte contrária
+  acompanhada de prova, abre-se vista e decide-se o incidente**. É por esse item III que a defesa entra: impugnar
+  sempre **com prova documental** (fichas financeiras e contracheques), nunca por simples negativa.
+- **ADC 80 (STF)** — proposta pela **CONSIF**, relator o Min. **Edson Fachin**, tem por objeto a constitucionalidade
+  dos **§§ 3º e 4º do art. 790 da CLT** (critérios da gratuidade na Justiça do Trabalho; suficiência ou não da simples
+  autodeclaração). Estado do julgamento e teses em construção:
+  - **Voto do relator:** constitucionalidade dos dispositivos, com interpretação conforme, admitindo a autodeclaração
+    como meio de prova e reputando constitucional a Súmula 463 do TST; a presunção é **relativa** e **cede diante de
+    impugnação fundamentada**; declaração falsa gera responsabilidade civil e penal.
+  - **Divergência do Min. Gilmar Mendes:** presunção de hipossuficiência limitada a quem percebe até cerca de
+    **R$ 5.000,00 mensais**; acima disso, incumbe ao interessado **comprovar concretamente** a insuficiência de
+    recursos. Acompanhada, até a última assentada, pelos Ministros Zanin, Alexandre de Moraes, Flávio Dino e Dias
+    Toffoli (placar de 5 x 1 antes do destaque).
+  - **Andamento:** julgamento iniciado em plenário virtual em 28/11/2025; **destaque pedido pelo próprio relator em
+    08/04/2026** (placar zerado); retomada em **sessão presencial de 21/05/2026**, com sustentações orais; **sem
+    proclamação de resultado** até 25/08/2026.
+  - **Uso na peça:** invocar como **reforço argumentativo** — as duas teses em disputa levam ao mesmo resultado quando
+    a impugnação vem instruída com prova e o salário supera os patamares (40% do teto / R$ 5.000,00). Nunca tratar como
+    precedente vinculante enquanto não houver trânsito.
+  - `[REVISAR]` Dados de andamento coletados em 25/08/2026 a partir de **notícias e publicações especializadas** (o
+    portal do STF não estava acessível na sessão). **Conferir o andamento no portal do STF antes de cada protocolo** —
+    e atualizar esta seção quando o julgamento se encerrar.
 ---
 
 ## 4. Padrão formal das peças
