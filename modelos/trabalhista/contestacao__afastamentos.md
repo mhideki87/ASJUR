@@ -41,6 +41,10 @@ DOS REQUERIMENTOS                        (a-e: extinção parcial se cabível; i
 Fecho + assinatura
 ```
 
+> **Formatação dos títulos:** os títulos de seção acima vão na peça em CAIXA ALTA, negrito, centralizados e
+> dentro de um quadro; os subtítulos, em CAIXA ALTA, negrito e sublinhado, com recuo de 3 cm. É o padrão de
+> `modelos/_FORMATO_BASE.docx`, válido para todas as peças.
+
 ## Linguagem / trechos-padrão reaproveitáveis
 
 - Bloco "DA EQUIPARAÇÃO À FAZENDA PÚBLICA": cita RE 220699/SP (Rel. Min. Moreira Alves, DJ 16/03/2001) e o rol

@@ -17,10 +17,15 @@ Reclamante pede incorporação de gratificação de função extinta pelo Módul
 
 ## Estrutura padrão
 
+Títulos de seção em CAIXA ALTA (na peça eles vão negritados, centralizados e dentro de um quadro — ver
+"Os quatro formatos de parágrafo do corpo" em `modelos/README.md`); subtítulos numerados, também em caixa
+alta, negrito e sublinhado.
+
 ```
-I   — <bloco>
-II  — <bloco>
-III — <bloco>
+<TÍTULO DE SEÇÃO EM CAIXA ALTA>
+  1 — <SUBTÍTULO>
+  2 — <SUBTÍTULO>
+<TÍTULO DE SEÇÃO EM CAIXA ALTA>
 ...
 ```
 

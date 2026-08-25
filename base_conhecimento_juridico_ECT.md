@@ -84,12 +84,21 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 
 ## 4. Padrão formal das peças
 
+> Fonte da verdade da formatação: **`modelos/_FORMATO_BASE.docx`**. A lista abaixo descreve o que o arquivo
+> contém — em caso de divergência, vale o arquivo. Toda peça nova, de qualquer tipo, começa por ele.
+
 - Formato: **.odt** (LibreOffice); conversão para .docx quando necessário.
-- Fonte **Arial 11**, **entrelinha 1,5**, parágrafos **justificados** com recuo de primeira linha.
-- Margens: esquerda 2 cm / direita ~1,25 cm.
-- **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica"; **rodapé** com endereço e numeração de páginas.
-- Citações de jurisprudência em bloco recuado (~3 cm).
-- Fecho: "N. Termos / P. Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
+- Fonte **Arial 11**, **entrelinha 1,5 exata**, parágrafos **justificados** com recuo de primeira linha de **3 cm**.
+- Margens: esquerda **3 cm** / direita **2 cm** / superior **3 cm** / inferior **2 cm**.
+- **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica MS/DEJUR/SEJUR"; **rodapé** com endereço e numeração de páginas.
+- **Títulos de seção** — vale para **todas as peças**, não só contestação: **CAIXA ALTA**, **negrito**,
+  **centralizados** e **dentro de um quadro** (borda simples nos quatro lados), sem numeração romana.
+  São só os blocos maiores: `DA EQUIPARAÇÃO À FAZENDA PÚBLICA`, `SÍNTESE DA DEMANDA`, `PRELIMINARMENTE`,
+  `PREJUDICIAL DE MÉRITO`, `DO MÉRITO`, `DOS PEDIDOS` — e os equivalentes de cada tipo de peça.
+- **Subtítulos** (dentro de uma seção): **CAIXA ALTA**, **negrito e sublinhado**, numerados (`1.`, `1.1.`),
+  justificados, com recuo de 3 cm à esquerda e sem recuo de primeira linha.
+- Citações de lei, norma interna e jurisprudência em bloco recuado de **3 cm**, sem recuo de primeira linha.
+- Fecho: "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
 - Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos com **prequestionamento**.
 
 ---

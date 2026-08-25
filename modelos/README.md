@@ -8,6 +8,22 @@ logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Ma
 idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
 tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
 
+### Os quatro formatos de parágrafo do corpo
+
+O template traz um exemplo de cada um dos quatro formatos que compõem o corpo de **qualquer peça** — copie o
+parágrafo correspondente em vez de recriar a formatação:
+
+| Formato | Como é | Onde usar |
+|---|---|---|
+| **Título de seção** | CAIXA ALTA, negrito, centralizado, **dentro de um quadro** (borda simples nos quatro lados) | Só os blocos maiores: `DA EQUIPARAÇÃO À FAZENDA PÚBLICA`, `SÍNTESE DA DEMANDA`, `PRELIMINARMENTE`, `PREJUDICIAL DE MÉRITO`, `DO MÉRITO`, `DOS PEDIDOS` — e os equivalentes de cada tipo de peça |
+| **Subtítulo** | CAIXA ALTA, negrito e sublinhado, numerado (`1.`, `1.1.`), recuo de 3 cm à esquerda | Divisões dentro de uma seção |
+| **Corpo** | Arial 11, entrelinha 1,5, justificado, recuo de 1ª linha de 3 cm | Texto corrido |
+| **Citação** | Bloco recuado de 3 cm, sem recuo de 1ª linha | Lei, norma interna, jurisprudência |
+
+Sem numeração romana nos títulos de seção — o quadro já os destaca. Essa convenção vale para **todos os tipos
+de peça** (contestação, contrarrazões, recurso de revista, embargos, quesitos, manifestações), e não só para
+as contestações de onde foi extraída.
+
 Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
 - Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de

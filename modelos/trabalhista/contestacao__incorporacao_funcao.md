@@ -81,6 +81,10 @@ DOS PEDIDOS                              (extinção parcial se cabível; prescr
 Fecho + assinatura
 ```
 
+> **Formatação dos títulos:** os títulos de seção acima vão na peça em CAIXA ALTA, negrito, centralizados e
+> dentro de um quadro; os subtítulos, em CAIXA ALTA, negrito e sublinhado, com recuo de 3 cm. É o padrão de
+> `modelos/_FORMATO_BASE.docx`, válido para todas as peças.
+
 ## Linguagem / trechos-padrão reaproveitáveis
 
 - **Tema 23 dos repetitivos (INCJULGRREMBREP 528-80.2018.5.14.0004)**: bloco de "Ausência de direito
