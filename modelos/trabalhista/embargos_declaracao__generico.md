@@ -93,6 +93,16 @@ Fecho + assinatura (vem de _FORMATO_BASE.docx)
 
 ## Par `.docx`
 
-Não há `.docx` próprio para este modelo, e não é necessário: o corpo não tem estrutura distinta (nem tabela,
-nem numeração especial), então a formatação vem integralmente de `_FORMATO_BASE.docx`, cujo placeholder já
-demonstra tópico em retângulo, subtópico e citação recuada.
+`embargos_declaracao__generico.docx`, ao lado deste arquivo. Gerado a partir de uma peça real aprovada e
+**anonimizado**: nome da parte, nº do processo, datas, fls. e todos os fatos do caso foram substituídos por
+placeholders entre `[...]`. Preserva integralmente a formatação — cabeçalho com logotipo, rodapé, margens,
+Arial 11, entrelinha 1,5, tópicos em retângulo, subtópicos em negrito e sublinhado, citações recuadas e bloco
+de assinatura.
+
+Como usar: abrir o `.docx`, substituir o texto entre `[...]` e replicar os blocos do tópico
+**DAS OMISSÕES E OBSCURIDADES** — um subtópico por vício. Os três parágrafos do item 1 estão marcados como
+`[1º movimento]`, `[2º movimento]` e `[3º movimento]` justamente para reproduzir a fórmula em cada vício
+novo; apagar essas marcações ao redigir.
+
+O que **não** deve ser apagado: o parágrafo de delimitação (tópico da síntese), o item condicional 4 enquanto
+a conferência nos autos não estiver feita, e a advertência do art. 1.026, § 2º, do CPC que o acompanha.
