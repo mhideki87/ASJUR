@@ -162,8 +162,9 @@ processo omitido por ser dado de caso real):
 - **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica"; **rodapé** com endereço e numeração de páginas.
 - **Tópicos principais dentro de retângulo**: cada tópico (ex.: `DA TEMPESTIVIDADE`, `DO MÉRITO`,
   `DOS REQUERIMENTOS`) é um parágrafo próprio, em **caixa alta, negrito, centralizado, com borda simples
-  nos quatro lados** (retângulo), sem recuo. Vale para qualquer tipo de peça — é o padrão visível nos
-  `.docx` de `modelos/`, e não aparece em `_FORMATO_BASE.docx` porque o corpo dele é placeholder.
+  nos quatro lados** (retângulo), sem recuo. Vale para qualquer tipo de peça — o corpo-placeholder de
+  `modelos/_FORMATO_BASE.docx` demonstra o padrão, e os `.docx` de tema em `modelos/<área>/` mostram-no
+  em uso.
 - **Subtópicos**: numerados (`1 – DO LIMITE LEGAL DE 15 DIAS...`), em caixa alta, **negrito e sublinhado**,
   justificados, **sem** retângulo.
 - Citações de jurisprudência em bloco recuado (~3 cm).

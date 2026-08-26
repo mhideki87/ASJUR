@@ -99,6 +99,8 @@ Padrão: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt` (regra completa e ab
 - Os campos (tópicos) do nome são separados por **` - `** (hífen entre espaços).
 - `Rito` é omitido quando não for relevante ou não estiver confirmado nos autos.
 - Underscore só é aceitável em arquivo baixado do PJe ou recebido de terceiro; arquivo que eu gerar, nunca.
+- **Exceção:** arquivos internos do repositório seguem a convenção própria de `modelos/README.md`
+  (`<tipo_peca>__<tema>.md`) e dos `.md` da raiz — esta regra vale para as **peças e entregáveis** do caso.
 - Exemplos: `ED - Reducao de Jornada - NOME DA PARTE.odt` · `Cont - Inc Fun - NOME DA PARTE.odt`.
 
 ### Formatação dos tópicos da peça
@@ -106,7 +108,9 @@ Padrão: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt` (regra completa e ab
 - **Tópico principal**: parágrafo próprio, em **caixa alta, negrito, centralizado e dentro de retângulo**
   (borda simples nos quatro lados), sem recuo. Ex.: `DA TEMPESTIVIDADE`, `DO MÉRITO`, `DOS REQUERIMENTOS`.
 - **Subtópico**: numerado (`1 – ...`), caixa alta, **negrito e sublinhado**, justificado, **sem** retângulo.
+- Corpo em Arial 11, entrelinha 1,5, justificado, recuo de primeira linha de 3 cm; citação em bloco
+  recuado ~3 cm, itálico, Arial 10.
 - Não usar numeração romana (`I –`, `II –`) nos tópicos principais: o padrão das peças é o retângulo.
-- Esse padrão **não** aparece em `modelos/_FORMATO_BASE.docx` (o corpo dele é placeholder). Antes de gerar
-  qualquer peça, abrir também um `.docx` de tema em `modelos/<área>/` para conferir o corpo — a formatação
-  geral (cabeçalho, rodapé, fonte, assinatura) continua vindo de `_FORMATO_BASE.docx`.
+- O corpo-placeholder de `modelos/_FORMATO_BASE.docx` **demonstra** esses quatro blocos (tópico,
+  subtópico, corpo, citação) — é de lá que a peça deve partir, substituindo o texto entre `[...]` e
+  preservando a formatação de cada bloco.

@@ -15,11 +15,16 @@ tipo de peça** e precisam ser ajustados a cada uso:
 - `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
   CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
 
-**Atenção — o que o placeholder do corpo não mostra:** os tópicos da peça são parágrafos em **retângulo**
-(caixa alta, negrito, centralizado, borda simples nos quatro lados) e os subtópicos vêm numerados, em
-negrito e sublinhado, sem retângulo. Isso **não** aparece em `_FORMATO_BASE.docx`, porque o corpo dele é
-placeholder — conferir num `.docx` de tema (ex.: `trabalhista/contestacao__afastamentos.docx`) antes de
-gerar a peça. Regra completa na seção 4 de `base_conhecimento_juridico_ECT.md`.
+**O placeholder do corpo demonstra a formatação dos tópicos.** Ele não é texto de peça: é a amostra do
+padrão a seguir dentro do corpo, qualquer que seja o tipo de peça —
+- **tópico principal** em **retângulo** (caixa alta, negrito, centralizado, borda simples nos quatro
+  lados, sem recuo);
+- **subtópico** numerado (`1 – ...`), caixa alta, **negrito e sublinhado**, justificado, sem retângulo;
+- **corpo** em Arial 11, entrelinha 1,5, justificado, recuo de primeira linha de 3 cm;
+- **citação** em bloco recuado ~3 cm, itálico, Arial 10, sem recuo de primeira linha.
+
+Substitua o texto entre `[...]`, mantendo a formatação de cada bloco. Regra escrita na seção 4 de
+`base_conhecimento_juridico_ECT.md`; exemplos em uso nos `.docx` de tema.
 
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
