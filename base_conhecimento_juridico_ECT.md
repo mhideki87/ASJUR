@@ -42,6 +42,8 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
 - Ver modelo completo em `modelos/trabalhista/contestacao__incorporacao_funcao.md` (+ `.docx` de
   formatação) — modelo modular, com blocos condicionais (Motorizado, quebra de caixa, substituição, CIP,
   POSTALIS etc.) a selecionar conforme o caso.
+- Peça recursal correspondente: `modelos/trabalhista/recurso_revista__incorporacao_funcao.md` (+ `.docx`) —
+  atenção à trava do art. 896, §9º, da CLT no rito sumaríssimo.
 
 ### 3.2 Prescrição
 - **Prescrição total** — Súmula 294 do TST e art. 11, §2º, da CLT, para alteração do pactuado com prestação sucessiva não assegurada por lei.

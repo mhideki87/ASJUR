@@ -15,6 +15,10 @@ tipo de peça** e precisam ser ajustados a cada uso:
 - `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
   CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
 
+O padrão de tópicos de nível 1 em **retângulo** (centralizados, maiúsculas, negrito) está nos `.docx` de
+tema, não no `_FORMATO_BASE.docx`, cujo corpo é apenas um placeholder. Ao gerar peça nova, abrir também um
+`.docx` de tema para copiar esse padrão.
+
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
