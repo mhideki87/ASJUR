@@ -7,6 +7,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 |---|---|---|---|
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
+| Padrões de saída (nome de arquivo + formatação de tópicos) | sim | sim | sim |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -83,3 +84,29 @@ Regras:
   renomeação (ex.: Project do claude.ai), o fallback é abrir a resposta com a linha
   `**<NOME DO RECLAMANTE> — <o que estou fazendo>**`, para o assunto ficar visível no histórico.
 - Não pedir que o usuário renomeie manualmente: havendo ferramenta, usar; não havendo, usar o fallback.
+
+## Padrões de saída — nome de arquivo e formatação de tópicos
+
+Valem em **qualquer sessão** (local, cloud/web, Project) e **sem pedir confirmação**, para todo arquivo que eu
+gerar e toda peça que eu minutar.
+
+### Nome de arquivo
+
+Padrão: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt` (regra completa e abreviações na seção 6 de
+[base_conhecimento_juridico_ECT.md](base_conhecimento_juridico_ECT.md)).
+
+- As palavras de cada campo são separadas por **espaço** — **nunca** por `_`.
+- Os campos (tópicos) do nome são separados por **` - `** (hífen entre espaços).
+- `Rito` é omitido quando não for relevante ou não estiver confirmado nos autos.
+- Underscore só é aceitável em arquivo baixado do PJe ou recebido de terceiro; arquivo que eu gerar, nunca.
+- Exemplos: `ED - Reducao de Jornada - NOME DA PARTE.odt` · `Cont - Inc Fun - NOME DA PARTE.odt`.
+
+### Formatação dos tópicos da peça
+
+- **Tópico principal**: parágrafo próprio, em **caixa alta, negrito, centralizado e dentro de retângulo**
+  (borda simples nos quatro lados), sem recuo. Ex.: `DA TEMPESTIVIDADE`, `DO MÉRITO`, `DOS REQUERIMENTOS`.
+- **Subtópico**: numerado (`1 – ...`), caixa alta, **negrito e sublinhado**, justificado, **sem** retângulo.
+- Não usar numeração romana (`I –`, `II –`) nos tópicos principais: o padrão das peças é o retângulo.
+- Esse padrão **não** aparece em `modelos/_FORMATO_BASE.docx` (o corpo dele é placeholder). Antes de gerar
+  qualquer peça, abrir também um `.docx` de tema em `modelos/<área>/` para conferir o corpo — a formatação
+  geral (cabeçalho, rodapé, fonte, assinatura) continua vindo de `_FORMATO_BASE.docx`.

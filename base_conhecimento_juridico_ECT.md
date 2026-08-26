@@ -160,6 +160,12 @@ processo omitido por ser dado de caso real):
 - Fonte **Arial 11**, **entrelinha 1,5**, parágrafos **justificados** com recuo de primeira linha.
 - Margens: esquerda 2 cm / direita ~1,25 cm.
 - **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica"; **rodapé** com endereço e numeração de páginas.
+- **Tópicos principais dentro de retângulo**: cada tópico (ex.: `DA TEMPESTIVIDADE`, `DO MÉRITO`,
+  `DOS REQUERIMENTOS`) é um parágrafo próprio, em **caixa alta, negrito, centralizado, com borda simples
+  nos quatro lados** (retângulo), sem recuo. Vale para qualquer tipo de peça — é o padrão visível nos
+  `.docx` de `modelos/`, e não aparece em `_FORMATO_BASE.docx` porque o corpo dele é placeholder.
+- **Subtópicos**: numerados (`1 – DO LIMITE LEGAL DE 15 DIAS...`), em caixa alta, **negrito e sublinhado**,
+  justificados, **sem** retângulo.
 - Citações de jurisprudência em bloco recuado (~3 cm).
 - Fecho: "N. Termos / P. Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
 - Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos com **prequestionamento**.
@@ -183,9 +189,16 @@ processo omitido por ser dado de caso real):
 
 `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt`
 
-Exemplos reais: `Cont_-_Inc_-_RONALDO_PEREIRA_DE_SOUZA.odt` · `RR_-_Inc_Fun_-_Sumula_51_-_Rito_Sumarissimo_-_ANTONIA_RAQUEL_TELES_GOMES_MEDEIROS.odt` · `Quesitos_-_Pericia_Medica_-_MARCIO_ALVES_DAS_NEVES.odt`
+**Separadores (regra fixa):** as palavras de cada campo vêm separadas por **espaço**, nunca por `_`; os campos
+(tópicos) entre si vêm separados por **` - `** (hífen entre espaços). Underscore só aparece em arquivo que eu
+baixei do PJe ou recebi de terceiro — nunca em arquivo que o Claude gerar. O campo `Rito` é omitido quando não
+for relevante ou não estiver confirmado.
 
-Abreviações: `Cont` = contestação · `RR` = recurso de revista · `Inc Fun` = incorporação de função · `Manifest` = manifestação.
+Exemplos: `Cont - Inc Fun - NOME DA PARTE.odt` · `RR - Inc Fun - Sumula 51 - Rito Sumarissimo - NOME DA
+PARTE.odt` · `Quesitos - Pericia Medica - NOME DA PARTE.odt` · `ED - Reducao de Jornada - NOME DA PARTE.odt`
+
+Abreviações: `Cont` = contestação · `RR` = recurso de revista · `RO` = recurso ordinário · `ED` = embargos de
+declaração · `Contrarrazões` · `Inc Fun` = incorporação de função · `Manifest` = manifestação.
 
 ---
 

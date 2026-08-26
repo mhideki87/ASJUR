@@ -15,6 +15,12 @@ tipo de peça** e precisam ser ajustados a cada uso:
 - `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
   CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
 
+**Atenção — o que o placeholder do corpo não mostra:** os tópicos da peça são parágrafos em **retângulo**
+(caixa alta, negrito, centralizado, borda simples nos quatro lados) e os subtópicos vêm numerados, em
+negrito e sublinhado, sem retângulo. Isso **não** aparece em `_FORMATO_BASE.docx`, porque o corpo dele é
+placeholder — conferir num `.docx` de tema (ex.: `trabalhista/contestacao__afastamentos.docx`) antes de
+gerar a peça. Regra completa na seção 4 de `base_conhecimento_juridico_ECT.md`.
+
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
