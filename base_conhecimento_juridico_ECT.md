@@ -80,6 +80,78 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 Redução de jornada de empregado público para acompanhamento de dependente com deficiência (Tema 138 do TST)
+Situação típica: empregado(a) público(a) celetista pede redução de jornada **sem redução remuneratória e sem
+compensação de horário**, para acompanhar filho com transtorno do espectro autista (TEA) ou outro dependente
+com deficiência. Tema em que a ECT hoje **perde o núcleo do pedido** — a defesa útil é de contenção, não de
+improcedência total.
+
+- **Tese vinculante contrária à ECT — Tema 138 dos recursos repetitivos do Tribunal Pleno do TST**: o
+  empregado público que possui filho com TEA tem direito à redução de jornada, sem diminuição proporcional
+  da remuneração e independentemente de compensação de horário, por **aplicação analógica do art. 98, §§ 2º
+  e 3º, da Lei nº 8.112/90**. `[REVISAR: conferir nº do IRR e o teor literal da tese no inteiro teor antes de
+  transcrever em peça]`
+
+**O que já não funciona** (teses rejeitadas, uma a uma, em acórdão de Turma do TRT24 de ago/2026 — nº do
+processo omitido por ser dado de caso real):
+- ausência de previsão na CLT / impossibilidade de analogia com a Lei nº 8.112/90 — superado pelo Tema 138;
+- violação dos arts. 5º, 37 e 173, § 1º, II, da CF/88: a analogia é pontual e não estatutariza o empregado
+  nem cria regime jurídico híbrido;
+- inaplicabilidade do **Tema 1.097 do STF**: ainda que trate de servidores estaduais/municipais, o Tema 138
+  enfrentou diretamente o empregado público celetista;
+- exigência de **junta médica oficial**: o art. 98 incide por analogia, não por transposição literal de todo
+  o regime estatutário — laudos e relatórios particulares bastam;
+- existência de **rede de apoio familiar**: o critério é a necessidade concreta de acompanhamento, não o
+  abandono familiar absoluto;
+- **padronização de jornada / isonomia**: isonomia não é tratamento uniforme para situações desiguais;
+- **norma coletiva** que prevê apenas ausências pontuais para acompanhamento de dependente — "disciplina
+  situação diversa e limitada", sem excluir as normas de proteção à criança e à pessoa com deficiência;
+- **interesse público** reduzido à organização do serviço: a proteção da criança, da pessoa com deficiência,
+  da saúde e da família integra o próprio interesse público;
+- **redução proporcional da remuneração**: esvaziaria a adaptação, transferindo ao empregado o custo do
+  cuidado (o Tema 138 assegura expressamente a integralidade).
+
+**Onde há espaço real de defesa** (por ordem de eficácia comprovada):
+1. **Extensão da redução** — o Tema 138 **não fixou percentual** mínimo ou máximo; a extensão é matéria de
+   prova e proporcionalidade. Pedido de redução a 50% foi **negado** quando a prova indicava TEA **nível 1**
+   de suporte e terapias semanais/quinzenais, sendo o caso paradigma do Tema 138 de **TEA grau 3** com apoio
+   substancial e equipe multidisciplinar diária. Fazer sempre o *distinguishing* pelo nível de suporte e pela
+   frequência dos atendimentos (semanal/quinzenal x diário); no TST, a **Súmula 126** barra o reexame.
+2. **Comprovação periódica** — pedido sucessivo **acolhível**: a manutenção da jornada especial pode ser
+   condicionada à apresentação de documentação médica atualizada. Pedido anual foi reduzido a **bienal**.
+   Pedir sempre — e pedir, no mesmo tópico, que se fixem **prazo, forma e consequência do descumprimento**,
+   sob pena de a condição nascer inexequível.
+3. **Ônus de demonstrar a inviabilidade operacional** — o acórdão consignou que a ECT *não demonstrou* que a
+   jornada reduzida inviabiliza o serviço ou impõe ônus desproporcional. Alegar não basta: **produzir prova**
+   (dimensionamento da unidade, escala, impacto na distribuição/atendimento).
+4. **Dependente sem deficiência reconhecida** — o Tema 138 trata de filho com **TEA** e o art. 98, §§ 2º e
+   3º, da Lei nº 8.112/90 refere dependente **com deficiência**. Quadro psiquiátrico (ex.: episódio
+   depressivo com sintomas ansiosos) não é automaticamente deficiência na acepção do art. 2º da Lei nº
+   13.146/2015 e do art. 1º da Convenção sobre os Direitos das Pessoas com Deficiência (Decreto nº
+   6.949/2009) — ponto **não coberto** por tese vinculante e, por isso, o de melhor perspectiva recursal.
+5. **Limite da integração analógica — art. 8º, § 2º, da CLT** — se a analogia é com o art. 98 da Lei nº
+   8.112/90, os requisitos de comprovação do próprio dispositivo não podem ser descartados ("analogia pela
+   metade": aproveita-se o efeito favorável e dispensa-se o requisito). Prequestionar sempre.
+6. **Delimitação da remuneração integral** — pedir que se esclareça se a integralidade alcança rubricas que
+   dependem da efetiva prestação (horas extras, adicional noturno, adicionais de atividade), sob pena de
+   nova controvérsia na execução.
+7. **Sanção pecuniária / obrigação de fazer** — pedir prazo de cumprimento, termo inicial e limite da multa
+   (arts. 536, § 1º, e 537, §§ 1º e 4º, do CPC); é comum a sentença fixar valor elevado sem parâmetro
+   temporal e o acórdão silenciar.
+
+**Cuidados processuais:**
+- **Rito** — conferir valor da causa x 40 salários mínimos **antes** de planejar recurso de revista: no
+  sumaríssimo, o art. 896, § 9º, da CLT limita o RR a ofensa direta à CF ou contrariedade a súmula do
+  TST/vinculante. A ECT, como empresa pública, **não** está excluída do sumaríssimo pelo parágrafo único do
+  art. 852-A da CLT.
+- **Acórdão em consonância com tese de IRR** tende a ter RR com seguimento denegado (art. 896-C, § 11, e
+  art. 896, § 7º, da CLT; Súmula 333 do TST) — recorrer *contra* o Tema 138 é desperdício de transcendência
+  (art. 896-A da CLT). Recorrer só nas margens que a tese não cobre (itens 4 e 5 acima).
+- **Ordem dos pedidos** em contestação e em recurso ordinário: (i) improcedência; (ii) sucessivamente,
+  redução proporcional da remuneração; (iii) sucessivamente, fixação da menor extensão de redução compatível
+  com a rotina terapêutica provada; (iv) sucessivamente, comprovação periódica com consequência expressa
+  para o descumprimento.
+
 ---
 
 ## 4. Padrão formal das peças
