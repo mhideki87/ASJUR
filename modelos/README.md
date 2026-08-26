@@ -19,6 +19,19 @@ Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
 
+### Títulos: retângulo + caixa alta (obrigatório em qualquer peça)
+
+Tópico de 1º nível vai **dentro de um retângulo**, centralizado, em **CAIXA ALTA** e negrito; subtópico vai
+numerado (`1 – `), em caixa alta, **negrito e sublinhado**, com recuo esquerdo de 3 cm; requerimentos finais
+em alíneas `a)`, `b)`, `c)`…
+
+O `_FORMATO_BASE.docx` já traz, no corpo, um exemplo de cada nível como placeholder — basta substituir o
+texto. Os atributos exatos (bordas, espaçamentos, recuos) estão em `CLAUDE.md`, seção "Formatação padrão de
+qualquer peça", e podem ser copiados literalmente de `trabalhista/contestacao__afastamentos.docx` ou
+`trabalhista/contestacao__incorporacao_funcao.docx`. **Não improvisar** e não usar numeração romana ou
+títulos só em negrito — nem quando a peça-modelo anexada pelo usuário divergir: ela vale pela tese, não pelo
+formato dos títulos.
+
 ## Modelos por tipo de peça + tema
 
 Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:

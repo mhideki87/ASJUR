@@ -7,6 +7,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 |---|---|---|---|
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
+| Formatação padrão de qualquer peça | sim | sim | sim |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -52,6 +53,41 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`D:\Claude\00 caso_atual`
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
+
+## Formatação padrão de qualquer peça — títulos em retângulo e caixa alta
+
+**Vale para toda peça produzida para o usuário — contestação, contrarrazões, recurso ordinário, recurso de
+revista, embargos, manifestações, quesitos de perícia, petições diversas — e em qualquer ambiente.**
+
+**Base visual:** sempre partir de [`modelos/_FORMATO_BASE.docx`](modelos/_FORMATO_BASE.docx) (Arial 11,
+entrelinha 1,5, margens, cabeçalho com logotipo, rodapé com endereço e numeração, fecho e bloco de
+assinatura). Nunca recriar a formatação a partir de descrição em texto — abrir o arquivo binário e usá-lo
+como base.
+
+**Hierarquia de títulos — dois níveis, sempre assim:**
+
+| Nível | Aparência | Atributos exatos (OOXML) |
+|---|---|---|
+| **1º — tópico** | **RETÂNGULO**, centralizado, **CAIXA ALTA**, negrito | `w:pBdr` nos quatro lados, `single sz="6" space="4" color="000000"`; `w:jc="center"`; `spacing lineRule="exact" line="240" before="320" after="260"`; `ind left=0 right=0 hanging=0`; run com `w:b` + `sz 22` |
+| **2º — subtópico** | Numerado `1 – `, **CAIXA ALTA**, negrito **e sublinhado**, recuo esquerdo de 3 cm | `spacing lineRule="exact" line="360" before="200" after="120"`; `ind left="1701" hanging="0"`; `w:jc="both"`; run com `w:b` + `w:u val="single"` + `sz 22` |
+
+Corpo: justificado, recuo de primeira linha de 3 cm (`ind firstLine="1701"`). Citações de jurisprudência,
+doutrina e lei: bloco recuado 3 cm à esquerda (`ind left="1701" firstLine="0"`), sem recuo de primeira linha.
+
+**Nomenclatura dos tópicos de 1º nível:** caixa alta, sem numeração romana. Padrão consolidado —
+`DA EQUIPARAÇÃO À FAZENDA PÚBLICA` · `RESUMO DA VESTIBULAR` (ou `RESUMO DA DEMANDA`) · `PRELIMINARMENTE` ·
+`PREJUDICIAL DE MÉRITO — <tema>` · `DO MÉRITO` · `DO PREQUESTIONAMENTO` · `DOS REQUERIMENTOS`. Em recursos e
+contrarrazões, adaptar mantendo o mesmo formato visual (ex.: `DA TEMPESTIVIDADE`, `DAS RAZÕES DE REFORMA`).
+
+Requerimentos finais em **alíneas `a)`, `b)`, `c)`…**, com rótulo em negrito e recuo esquerdo de 3 cm.
+
+**Referência literal:** os arquivos [`modelos/trabalhista/contestacao__afastamentos.docx`](modelos/trabalhista/contestacao__afastamentos.docx)
+e [`modelos/trabalhista/contestacao__incorporacao_funcao.docx`](modelos/trabalhista/contestacao__incorporacao_funcao.docx)
+já trazem esses atributos. Em caso de dúvida sobre o visual, **copiar o `pPr` desses arquivos**, não improvisar.
+
+**Nunca:** títulos apenas em negrito, apenas sublinhados, com numeração romana (`I.`, `II.`) ou em caixa
+baixa. Se uma peça-modelo anexada pelo usuário divergir deste padrão, **prevalece o padrão acima** — a peça
+anexada serve para a tese e a linguagem, não para o formato dos títulos.
 
 ## Título da sessão — identificação do caso na aba lateral
 

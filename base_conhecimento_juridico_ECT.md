@@ -85,10 +85,16 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 ## 4. Padrão formal das peças
 
 - Formato: **.odt** (LibreOffice); conversão para .docx quando necessário.
-- Fonte **Arial 11**, **entrelinha 1,5**, parágrafos **justificados** com recuo de primeira linha.
+- Fonte **Arial 11**, **entrelinha 1,5**, parágrafos **justificados** com recuo de primeira linha (3 cm).
 - Margens: esquerda 2 cm / direita ~1,25 cm.
 - **Cabeçalho** com logotipo dos Correios + "Assessoria Jurídica"; **rodapé** com endereço e numeração de páginas.
 - Citações de jurisprudência em bloco recuado (~3 cm).
+- **Títulos — regra que vale para toda peça** (contestação, contrarrazões, RO, RR, embargos, manifestações,
+  quesitos): tópico de 1º nível **dentro de retângulo**, centralizado, em **CAIXA ALTA** e negrito;
+  subtópico numerado (`1 – `), em caixa alta, **negrito e sublinhado**, com recuo esquerdo de 3 cm.
+  Requerimentos finais em alíneas `a)`, `b)`, `c)`… Atributos exatos e nomenclatura padronizada dos tópicos
+  em `CLAUDE.md`, seção "Formatação padrão de qualquer peça". Se uma peça-modelo anexada divergir disso,
+  prevalece este padrão.
 - Fecho: "N. Termos / P. Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
 - Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos com **prequestionamento**.
 
