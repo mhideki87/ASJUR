@@ -57,7 +57,10 @@ playbook), regenera o `INDICE.md` e apresenta o diff.
 Regras:
 - Rodar **depois** de entregar a peça/resposta, nunca no meio do trabalho.
 - Se nada de novo apareceu, dizer isso em uma linha e encerrar — não inventar achado para preencher.
-- As edições vão para o diretório de trabalho; **commit e push só com aprovação explícita** do usuário.
+- A skill **commita e faz push sozinha** na branch `claude/*` da sessão, depois de conferir branch, escopo
+  do diff e ausência de dado identificável. A revisão do usuário é no diff do commit, não antes dele.
+  Única exceção: `.docx` anonimizado, que espera aprovação (conferir texto oculto e metadados é
+  verificação humana, e o repositório é público).
 
 ## Conversão automática de documentos da parte para Markdown
 

@@ -89,18 +89,55 @@ O script recusa metadado faltando, `slug` diferente do nome do arquivo, `area` d
 inválido, data fora do formato e referência para arquivo inexistente. Se ele reclamar, corrija a ficha — não
 edite a tabela do `INDICE.md` à mão, ela é sobrescrita.
 
-## Passo 5 — Apresentar e esperar aprovação
+## Passo 5 — Commitar na branch da sessão
 
-Aplique as edições nos arquivos, rode o script, e então mostre ao usuário:
+Aplique as edições, rode o script do Passo 4 e **commite sozinho** — sem pedir autorização. A revisão do
+usuário acontece depois, no diff do commit ou no Pull Request; travar a consolidação esperando um "ok"
+é o que fazia o aprendizado da sessão se perder.
 
-1. o resumo por achado (o que entrou, em qual arquivo, e por quê);
-2. o `git diff` (é o que ele revisa de fato);
-3. o que ficou marcado `[REVISAR: ...]` e precisa de conferência humana.
+Antes de commitar, três conferências que existem porque o repositório é **público** e o erro aqui é
+irreversível:
 
-**Não commite nem faça push sem aprovação explícita nesta sessão** — a regra da casa é que nada entra no
-repositório sem o usuário ver. Aplicar no diretório de trabalho é seguro e reversível; commitar não é a
-mesma coisa. Se ele aprovar, commite na branch da sessão com mensagem que diga o **tema** consolidado, não
-"atualiza base".
+```bash
+git branch --show-current      # tem de ser uma branch claude/*, nunca main
+git diff --stat                # o que mudou
+git diff                       # leia de fato, procurando dado de parte real
+```
+
+1. **Branch.** Só commite em branch `claude/*`. Se estiver em `main`, crie a branch da sessão primeiro
+   (`git checkout -b claude/<assunto>`) — nunca commite direto na `main`.
+2. **Escopo.** Só entram no commit arquivos da base: `teses/`, `modelos/`, `CONTEXTO.md`, `INDICE.md`,
+   `playbook_prompts_ECT.md`, `CLAUDE.md`, `README.md`, `scripts/`, `.claude/`. Apareceu outro arquivo no
+   `git status`? Deixe fora e diga ao usuário o que ficou de fora e por quê — em especial qualquer
+   PDF/DOC/DOCX de processo, que **nunca** entra (`.gitignore` cobre o caso comum, não todos).
+3. **Dado identificável.** Releia o próprio diff procurando nome de parte, nº de processo, CPF, Id de
+   documento, nome de arquivo de caso concreto. Achou? Anonimize antes de commitar. Um commit já
+   publicado não se desfaz apagando a linha depois — fica no histórico de um repositório público.
+
+Commit e push:
+
+```bash
+git add <apenas os arquivos da base que você tocou>
+git commit -m "<Tema>: <o que foi consolidado>"
+git push -u origin <branch da sessão>
+```
+
+Mensagem que diga o **tema**, não "atualiza base": `Afastamentos: acrescenta tese de bis in idem do ACT` é
+útil daqui a seis meses; `Atualiza base de conhecimento` não é. Push falhando por rede: repetir com espera
+crescente (2s, 4s, 8s, 16s).
+
+Feito o commit, relate ao usuário:
+
+1. o resumo por achado — o que entrou, em qual arquivo, e por quê;
+2. o hash e a mensagem do commit;
+3. o que ficou marcado `[REVISAR: ...]` e depende de conferência humana;
+4. o que você deixou fora do commit, se algo ficou.
+
+**A única exceção que ainda espera aprovação: `.docx` anonimizado.** Modelo visual sai de uma peça real, e
+conferir que nada sobrou em texto oculto, propriedade do documento, comentário ou revisão é verificação
+humana — um `.docx` com nome de cliente num repositório público é vazamento. Produza o arquivo, diga
+exatamente o que precisa ser conferido, e deixe o commit dele para quando o usuário aprovar. Os `.md`
+seguem normalmente no commit automático.
 
 ## Tarefa que não é minuta
 

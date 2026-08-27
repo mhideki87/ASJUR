@@ -63,7 +63,9 @@ Exemplos: `modelos/trabalhista/contestacao__incorporacao_funcao.md` +
 ## Regra de conteúdo (vale para `.md` e `.docx`)
 
 - Nenhum nome de cliente, número de processo, CPF, ou dado que identifique uma parte real.
-- Um modelo só é criado ou atualizado depois de **aprovação explícita do usuário**.
+- O `.md` de estrutura é criado/atualizado e commitado pela skill `atualizar-base-conhecimento` na branch
+  da sessão. O **`.docx`** só entra depois de **aprovação explícita do usuário** — ver o fluxo de
+  anonimização acima.
 - Use `modelos/_TEMPLATE.md` como ponto de partida do arquivo de estrutura.
 
 ## Como isso é usado no dia a dia

@@ -298,8 +298,11 @@ Se nada for novo, diga isso explicitamente — não force um "achado" apenas par
 ```
 
 Regras deste protocolo:
-- Claude nunca commita sozinho sem eu revisar o resultado — teses, modelos estruturais e modelos
-  visuais (.docx) entram só depois da minha aprovação explícita.
+- Em sessão de Claude Code, a skill `atualizar-base-conhecimento` aplica as alterações de texto (fichas de
+  `teses/`, modelos estruturais `.md`, CONTEXTO, playbook) e **commita sozinha** na branch `claude/*` da
+  sessão — eu reviso no diff do commit ou no PR. Modelo visual (`.docx` anonimizado) continua entrando só
+  depois da minha aprovação explícita, porque conferir texto oculto e metadados do arquivo é verificação
+  minha e o repositório é público.
 - Toda tese ou modelo novo entra como candidato — soma à ficha/arquivo correspondente, não substitui o que já
   existe, a menos que eu confirme que o anterior estava errado ou desatualizado.
 - Ficha criada ou alterada exige regenerar a tabela do índice (`python scripts/atualizar_indice.py`); o

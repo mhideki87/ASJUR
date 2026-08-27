@@ -72,6 +72,7 @@ inexistente. Arquivos que começam com `_` e os `README.md` são ignorados.
 - **Nenhum dado que identifique parte real** — nome, nº de processo, CPF, Id de documento de caso concreto.
   Este repositório é **público**.
 - Nada inventado: norma, súmula e aresto só entram com a fonte exata; na dúvida, `[REVISAR: ...]`.
-- Ficha nova ou alterada entra **só depois de aprovação explícita do usuário** (protocolo da seção 6.2 de
+- Ficha nova ou alterada é consolidada e **commitada** pela skill `atualizar-base-conhecimento` na branch
+  `claude/*` da sessão; a revisão do usuário é no diff do commit (protocolo da seção 6.2 de
   [`playbook_prompts_ECT.md`](../playbook_prompts_ECT.md)). Tese nova **soma** à ficha, não substitui o que
   já está lá, a menos que o usuário confirme que o anterior estava errado.
