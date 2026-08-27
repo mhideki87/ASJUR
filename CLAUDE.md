@@ -5,11 +5,42 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 
 | Seção | Claude Code local | Claude Code cloud/web | Project do claude.ai |
 |---|---|---|---|
+| Consulta à base de conhecimento (índice → fichas) | sim | sim | sim |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
+
+## Consulta à base de conhecimento — ler o índice, não a base inteira
+
+**Objetivo:** não gastar contexto lendo teses que não têm nada a ver com o processo da sessão.
+
+A base é fatiada por tema em `teses/<área>/<tema>.md`, e o roteamento está em `INDICE.md`.
+
+**Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
+
+1. Ler `CONTEXTO.md` por inteiro (é curto: perfil, padrão formal, regras inegociáveis).
+2. Ler `INDICE.md` — só o protocolo do topo e a tabela de roteamento.
+3. Ler os documentos do processo e **listar os pedidos**.
+4. Para cada pedido, casar com um `gatilho` da tabela e abrir **somente** a ficha indicada. Abrir também as
+   fichas da seção "Sempre aplicável" do índice (prerrogativas processuais; prescrição, na trabalhista).
+5. Só então abrir o modelo estrutural (`modelos/<área>/…`) e a seção correspondente do
+   `playbook_prompts_ECT.md`.
+
+Regras:
+- **Nunca** ler `teses/` por inteiro, nem abrir ficha "por precaução" — cada ficha aberta custa contexto.
+- Nenhum gatilho bateu → dizer isso explicitamente e tratar como **tema novo**: analisar a partir dos
+  autos, sem forçar o encaixe numa ficha existente, e ao final propor a criação de ficha nova a partir de
+  `teses/_TEMPLATE_TESE.md`.
+- Ficha com `status: rascunho` é **candidata a tese**, não tese confirmada — validar contra o processo em
+  mãos e nunca citar como jurisprudência pronta.
+- Depois de criar ou alterar qualquer ficha, rodar `python scripts/atualizar_indice.py` (regenera a tabela
+  do `INDICE.md` e valida os metadados). Antes de commitar, conferir com
+  `python scripts/atualizar_indice.py --check`. Esse script é só stdlib — roda em qualquer ambiente com
+  Python 3, inclusive no cloud/web.
+- Ficha nova ou alterada só entra no repositório depois de **aprovação explícita do usuário** (protocolo da
+  seção 6.2 de `playbook_prompts_ECT.md`).
 
 ## Conversão automática de documentos da parte para Markdown
 

@@ -1,0 +1,49 @@
+---
+area: trabalhista
+tema: Temas acessórios (ad cautelam)
+slug: temas_acessorios
+status: validada
+gatilhos: [quebra de caixa, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, previdência privada, honorários advocatícios, art. 791-A, normativos internos, PLR]
+pecas: [contestação, contrarrazões, recurso de revista]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md]
+atualizado: 2026-08-27
+---
+
+# Tese — Temas acessórios que reaparecem *ad cautelam*
+
+## Quando esta ficha se aplica
+
+Pedidos secundários que costumam vir "de carona" no pedido principal (sobretudo no de incorporação de
+gratificação de função) e que precisam de impugnação própria — nenhum pedido pode ficar sem resposta.
+
+## Temas
+
+- **Quebra de caixa** — salário-condição que cobre prejuízo de caixa; não é gratificação de confiança
+  computável para o requisito temporal.
+- **Substituições** — só computa substituição contínua superior a 180 dias (Módulo 55, item 3.1.1).
+- **Aplicação integral dos normativos internos** — *ad cautelam*: se a norma interna for aplicada, que
+  seja por inteiro (dispensa, metodologia de cálculo, vedação de cumulação de duas funções gratificadas,
+  compensação).
+- **Reajustes de ACT** — as cláusulas de reajuste do Acordo Coletivo incidem sobre a **tabela salarial**,
+  não sobre a tabela de função.
+- **CIP** — só passou a ser paga a partir de outubro/2014; em geral não completa o requisito temporal.
+- **POSTALIS (previdência privada)** — incompetência da Justiça do Trabalho quanto às contribuições
+  (art. 114 da CF; art. 202, §2º, da CF; art. 68 da LC 109/2001; RE 569056-3/STF); no mérito, falta de
+  comprovação de adesão ao plano e vedação a julgamento extra/ultra petita (arts. 141 e 492 do CPC)
+  quando não há pedido de desconto da cota-parte do empregado.
+- **Honorários advocatícios** — art. 791-A, I, da CLT (percentual e base de cálculo: valor atualizado
+  da causa).
+- **Reflexos** — anuênio, férias + gratificação, 13º; impugnar reflexo em **PLR** sempre
+  (art. 3º da Lei 10.101/2000: não tem natureza salarial).
+
+## Ligações
+
+- Tema principal a que esses acessórios normalmente se somam:
+  [teses/trabalhista/incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md)
+- Blocos condicionais correspondentes: `modelos/trabalhista/contestacao__incorporacao_funcao.md`
+
+## Lacunas
+
+- [ ] Cada tema acima está em uma linha; conforme reaparecerem em casos reais, promover os mais
+      frequentes a ficha própria em vez de engordar esta.

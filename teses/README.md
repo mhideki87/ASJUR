@@ -1,0 +1,77 @@
+# Fichas de tese — como funcionam
+
+Cada arquivo `teses/<área>/<slug>.md` é uma **ficha de tese**: um tema autocontido, pequeno, pensado para
+ser lido isoladamente. A base não é mais um documento único — é um conjunto de fichas mais o
+[INDICE.md](../INDICE.md) que roteia até elas.
+
+Áreas: `trabalhista/` · `civel/` · `transversal/` (vale nas duas áreas).
+
+## Regra de ouro
+
+Uma ficha por tema, e o tema é a **unidade de leitura**: se para responder a um pedido da inicial é preciso
+abrir duas fichas, ou uma ficha grande da qual só 20% interessa, o recorte está errado. Ficha que passou de
+~150 linhas ou que virou "tema + apêndices" deve ser dividida.
+
+## Bloco de metadados (obrigatório no topo)
+
+```yaml
+---
+area: trabalhista            # trabalhista | civel | transversal — igual ao nome da pasta
+tema: Prescrição total       # como eu falaria do tema em voz alta
+slug: prescricao             # igual ao nome do arquivo, sem .md
+status: validada             # validada | rascunho | revisar
+gatilhos: [prescrição, Súmula 294, art. 11 CLT]
+pecas: [contestação, contrarrazões]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md]
+atualizado: 2026-08-27
+---
+```
+
+Formato de propósito restrito: uma chave por linha, listas em `[a, b, c]`. Não é YAML completo — é para ser
+óbvio de escrever à mão e trivial de conferir por script.
+
+**Os `gatilhos` são a parte que mais importa.** São as palavras que o Claude vai procurar no objeto da
+demanda para decidir se abre a ficha: termos que aparecem literalmente na inicial, sinônimos, números de
+norma e de súmula, nomes de parcela. Gatilho ruim = ficha invisível na hora certa, ou ficha aberta à toa.
+
+**`status`** indica o quanto se pode confiar na ficha:
+- `validada` — usada em peça real, conferida.
+- `rascunho` — candidata a tese (ex.: inferida de levantamento estatístico do acervo); validar contra o
+  processo antes de usar, nunca citar como jurisprudência pronta.
+- `revisar` — havia tese aqui e algo se mostrou errado/desatualizado; ler a seção "Lacunas" antes de usar.
+
+Independentemente do `status`, itens pontuais incertos ficam marcados com `[REVISAR: ...]` no corpo da ficha.
+
+## Seções do corpo
+
+Na ordem, conforme [`_TEMPLATE_TESE.md`](_TEMPLATE_TESE.md): **Quando esta ficha se aplica** ·
+**Tese central** · **Fundamentos** · **Jurisprudência (só o que já está confirmado)** ·
+**Pontos sensíveis / variações** · **Ligações** · **Lacunas**.
+
+"Quando esta ficha se aplica" é a primeira coisa lida depois do índice — precisa deixar claro, em duas ou
+três linhas, se a ficha serve para o caso em mãos.
+
+## Criar ou alterar uma ficha
+
+1. Copiar `_TEMPLATE_TESE.md` para `teses/<área>/<slug>.md` (ou editar a ficha existente).
+2. Atualizar o campo `atualizado`.
+3. Regenerar a tabela do índice e validar os metadados:
+
+```bash
+python scripts/atualizar_indice.py           # reescreve a tabela do INDICE.md
+python scripts/atualizar_indice.py --check    # só confere (útil antes de commitar)
+```
+
+O script recusa ficha com metadado faltando, `slug` diferente do nome do arquivo, `area` diferente da pasta,
+`status` inválido, data fora do formato `AAAA-MM-DD` ou referência (`modelos`/`ver_tambem`) para arquivo
+inexistente. Arquivos que começam com `_` e os `README.md` são ignorados.
+
+## Regras de conteúdo
+
+- **Nenhum dado que identifique parte real** — nome, nº de processo, CPF, Id de documento de caso concreto.
+  Este repositório é **público**.
+- Nada inventado: norma, súmula e aresto só entram com a fonte exata; na dúvida, `[REVISAR: ...]`.
+- Ficha nova ou alterada entra **só depois de aprovação explícita do usuário** (protocolo da seção 6.2 de
+  [`playbook_prompts_ECT.md`](../playbook_prompts_ECT.md)). Tese nova **soma** à ficha, não substitui o que
+  já está lá, a menos que o usuário confirme que o anterior estava errado.

@@ -1,17 +1,24 @@
 # Playbook de prompts — Contencioso Trabalhista ECT
 
-> Complemento da `base_conhecimento_juridico_ECT.md`.
-> Cole a base no Projeto; use os prompts abaixo no dia a dia.
+> Complemento de `CONTEXTO.md` + `INDICE.md` + fichas de `teses/`.
+> Cole o `CONTEXTO.md` e o protocolo de leitura do `INDICE.md` nas instruções do Projeto; use os prompts
+> abaixo no dia a dia. Este arquivo também é lido **por seção**, não inteiro: vá direto na seção do tipo
+> de peça da sessão.
 > Convenção: `<...>` = você preenche. `[REVISAR: ...]` = marcação que eu devo deixar no documento.
 
 ---
 
 ## 0. Regras que valem para todo prompt
 
-Se a base já estiver nas instruções do Projeto, não precisa repetir. Fora do Projeto, cole este bloco no fim de qualquer pedido:
+Se o `CONTEXTO.md` já estiver nas instruções do Projeto, não precisa repetir. Fora do Projeto, cole este bloco no fim de qualquer pedido:
 
 ```
 REGRAS FIXAS:
+- Antes de responder: leia CONTEXTO.md e a tabela de roteamento de INDICE.md, e
+  abra SÓ as fichas de teses/ cujo gatilho bater com os pedidos deste processo.
+  Não leia a base inteira. Se nenhum gatilho bater, diga isso e trate como tema novo.
+- Ficha com status: rascunho é candidata a tese, não tese confirmada — valide contra
+  os autos antes de usar e não cite como jurisprudência pronta.
 - Não invente jurisprudência, doutrina, número de processo, data, Id de documento
   ou cláusula de ACT. Use apenas o que consta dos autos anexados, da peça-modelo
   ou do recurso adversário.
@@ -36,8 +43,9 @@ Analise a petição inicial anexada (ECT no polo passivo) e estruture assim:
 3. CAUSA DE PEDIR — fatos e fundamentos por pedido.
 4. DOCUMENTOS JUNTADOS — quais são e o que provam de fato (não o que a inicial
    diz que provam).
-5. TESES DA ECT APLICÁVEIS — para cada pedido, indique qual das teses recorrentes
-   da base se aplica e com que força.
+5. TESES DA ECT APLICÁVEIS — para cada pedido, indique qual ficha de teses/ se
+   aplica (pelo gatilho do INDICE.md) e com que força. Liste também as fichas que
+   você NÃO abriu e por quê, para eu conferir se faltou alguma.
 6. PONTOS FRÁGEIS DA INICIAL — prescrição, ausência de prova, contradição de datas,
    pedido genérico, incompatibilidade com o rito.
 7. RISCOS — onde a ECT tende a sucumbir e por quê.
@@ -237,9 +245,9 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 ## 6. Protocolo de atualização da base (teses + modelos)
 
 Objetivo: depois de algumas sessões sobre o mesmo tema, eu não deveria mais precisar anexar uma peça-modelo
-antiga — o esqueleto da peça já deve estar salvo em `modelos/`, e a tese já deve estar em
-`base_conhecimento_juridico_*.md`. Isso só acontece se dois passos forem seguidos: um **antes** de anexar, e
-um **ao final** de cada sessão em que algo for minutado.
+antiga — o esqueleto da peça já deve estar salvo em `modelos/`, e a tese já deve estar numa ficha de
+`teses/<área>/`, roteada pelo `INDICE.md`. Isso só acontece se dois passos forem seguidos: um **antes** de
+anexar, e um **ao final** de cada sessão em que algo for minutado.
 
 ### 6.1 Antes de anexar uma peça-modelo antiga (passo novo)
 
@@ -262,11 +270,17 @@ num `.docx` próprio do tema.
 
 ```
 Antes de encerrarmos: revise esta conversa e aponte, separadamente:
-1. TESE NOVA — algum argumento usado aqui não está na base de conhecimento anexada?
-2. CORREÇÃO — alguma tese da base se mostrou errada, incompleta ou foi contestada
-   com sucesso pela parte contrária neste processo?
+1. TESE NOVA — algum argumento usado aqui não está nas fichas de teses/ que eu abri?
+   Se o tema não tem ficha, proponha uma nova a partir de teses/_TEMPLATE_TESE.md,
+   com o bloco de metadados preenchido (area, tema, slug, status, gatilhos, pecas,
+   modelos, ver_tambem, atualizado).
+2. CORREÇÃO — alguma tese das fichas se mostrou errada, incompleta ou foi contestada
+   com sucesso pela parte contrária neste processo? Se sim, proponha também mudar o
+   status da ficha para "revisar" e registrar o ponto na seção Lacunas dela.
 3. JURISPRUDÊNCIA NOVA — algum precedente citado aqui (dos autos ou anexado por mim)
-   ainda não consta da base?
+   ainda não consta da ficha do tema?
+3b. ROTEAMENTO — algum gatilho faltou? Se eu tive que dizer do que se tratava porque
+   o índice não levou até a ficha certa, proponha os gatilhos a acrescentar.
 4. MODELO (estrutura) — o modelo estrutural usado nesta sessão já está salvo em modelos/*.md? Se não
    estiver, ou se este caso revelou uma variação relevante, proponha a criação/atualização do arquivo
    em modelos/<área>/<tipo_peca>__<tema>.md (a partir de modelos/_TEMPLATE.md), sem nenhum dado que
@@ -277,15 +291,19 @@ Antes de encerrarmos: revise esta conversa e aponte, separadamente:
    identificável por placeholder. Aponte também se algum metadado do arquivo (autor, revisões,
    comentários) precisa ser limpo antes do commit.
 6. Para cada item acima, escreva o trecho EXATO a acrescentar/alterar (ou o arquivo .docx anonimizado
-   a gerar), pronto para eu revisar e commitar no GitHub.
+   a gerar), pronto para eu revisar e commitar no GitHub. Se alguma ficha foi criada
+   ou alterada, atualize o campo `atualizado` dela e lembre de rodar
+   `python scripts/atualizar_indice.py` antes do commit.
 Se nada for novo, diga isso explicitamente — não force um "achado" apenas para preencher a resposta.
 ```
 
 Regras deste protocolo:
 - Claude nunca commita sozinho sem eu revisar o resultado — teses, modelos estruturais e modelos
   visuais (.docx) entram só depois da minha aprovação explícita.
-- Toda tese ou modelo novo entra como candidato — soma à seção/arquivo correspondente, não substitui o que já
+- Toda tese ou modelo novo entra como candidato — soma à ficha/arquivo correspondente, não substitui o que já
   existe, a menos que eu confirme que o anterior estava errado ou desatualizado.
+- Ficha criada ou alterada exige regenerar a tabela do índice (`python scripts/atualizar_indice.py`); o
+  commit não deve ir com `INDICE.md` fora de sincronia (`--check` confere isso).
 - Modelo (estrutural ou .docx) nunca leva nome de cliente, nº de processo, CPF ou qualquer dado
   identificável — nem no corpo, nem em metadados do arquivo (ver `modelos/README.md`).
 - Se o commit for feito por mim direto no GitHub (app ou site), não precisa repetir o protocolo na mesma
