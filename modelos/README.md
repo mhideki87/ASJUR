@@ -8,6 +8,13 @@ logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Ma
 idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
 tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
 
+**O padrão visual, em detalhe, está na skill `minuta-peca`** — ver
+`.claude/skills/minuta-peca/SKILL.md` e `reference/formatacao.md`. Ponto que mais se erra:
+**todo tópico principal vai dentro de um retângulo** (borda simples nos quatro lados,
+centralizado, negrito). Em vez de montar o `.docx` na mão, use
+`.claude/skills/minuta-peca/scripts/montar_peca.py`, que aplica o padrão e o nome de arquivo
+corretos, e confira o resultado com `scripts/conferir_peca.py`.
+
 Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
 - Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de

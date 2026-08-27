@@ -7,6 +7,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 |---|---|---|---|
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
+| Nome do arquivo e formatação da minuta (skill `minuta-peca`) | sim | sim | descrever o padrão manualmente |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -52,6 +53,30 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`D:\Claude\00 caso_atual`
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
+
+## Nome do arquivo e formatação de toda minuta — skill `minuta-peca`
+
+**Duas diretrizes permanentes, já registradas, que valem para toda peça gerada (contestação,
+contrarrazões, recurso, quesitos, embargos, manifestação, parecer):**
+
+1. **Nome do arquivo** com espaços simples nas separações internas — **nunca `_`** — e ` - `
+   (espaço, hífen, espaço) entre as designações:
+   `Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx`.
+2. **Formatação** de `modelos/_FORMATO_BASE.docx`, com os **tópicos principais dentro de
+   retângulos** (borda simples nos quatro lados, centralizado, negrito), além do cabeçalho com
+   logotipo, rodapé, fonte Arial 11 e espaçamento do padrão MS/DEJUR/SEJUR.
+
+Antes de gerar ou entregar qualquer peça, **carregue a skill `minuta-peca`**
+(`.claude/skills/minuta-peca/SKILL.md`) e use o gerador
+`.claude/skills/minuta-peca/scripts/montar_peca.py`, que já aplica as duas diretrizes.
+Antes de entregar, rode o validador — ele reprova a peça fora do padrão:
+
+```bash
+python3 .claude/skills/minuta-peca/scripts/conferir_peca.py "<arquivo>.docx"
+```
+
+Nunca recrie a formatação a partir de descrição em texto e nunca entregue peça sem passar pelo
+validador.
 
 ## Título da sessão — identificação do caso na aba lateral
 

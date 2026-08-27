@@ -6,3 +6,5 @@
 *.doc
 *.docx
 !modelos/**/*.docx
+__pycache__/
+*.pyc

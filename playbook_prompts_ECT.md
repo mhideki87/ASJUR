@@ -133,7 +133,7 @@ de forçar o enquadramento.
 
 ### 2.4 Quesitos de perícia médica
 ```
-Formule quesitos para perícia médica judicial, com a formatação do <MODELO.odt>,
+Formule quesitos para perícia médica judicial, com a formatação da skill `minuta-peca`,
 organizados em blocos que sustentem as teses da ECT:
 
 I   — Metodologia e fontes (separar achado clínico objetivo de relato do periciando)
