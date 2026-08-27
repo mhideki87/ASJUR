@@ -1,15 +1,32 @@
 ---
 name: minuta-peca
-description: Padrão obrigatório de nome de arquivo e de formatação visual de toda minuta/petição gerada neste repositório (contestação, contrarrazões, recurso, quesitos de perícia, embargos, manifestação, parecer). Use SEMPRE que for produzir, editar ou entregar um arquivo de peça jurídica — inclusive quando o usuário só disser "faça a contestação", "elabore os quesitos", "minute o recurso" ou anexar uma peça para adaptar. Garante nome de arquivo com espaços e hífen (nunca "_") e tópicos em retângulo com o cabeçalho, fonte e espaçamento da Assessoria Jurídica MS/DEJUR/SEJUR.
+description: Padrão obrigatório de nome de arquivo e de formatação visual de toda minuta/petição gerada neste repositório (contestação, contrarrazões, recurso, quesitos de perícia, embargos, manifestação, parecer). Use SEMPRE que for produzir, editar ou entregar um arquivo de peça jurídica — inclusive quando o usuário só disser "faça a contestação", "elabore os quesitos", "minute o recurso" ou anexar uma peça para adaptar. Garante entrega sempre em .docx, nome de arquivo com espaços e hífen (nunca "_") e tópicos em retângulo com o cabeçalho, fonte e espaçamento da Assessoria Jurídica MS/DEJUR/SEJUR.
 ---
 
-# Minuta de peça jurídica — nome do arquivo e formatação
+# Minuta de peça jurídica — formato, nome do arquivo e formatação
 
-Duas diretrizes **permanentes** do usuário. Valem para **toda** peça, de qualquer tema e
+Três diretrizes **permanentes** do usuário. Valem para **toda** peça, de qualquer tema e
 em qualquer ambiente (local e cloud/web). Não são sugestões e não precisam ser reconfirmadas
 a cada sessão.
 
-## Diretriz 1 — nome do arquivo
+## Diretriz 1 — formato do arquivo: sempre `.docx`
+
+**Toda minuta é entregue como arquivo `.docx`.** Sem exceção por tipo de peça, por tamanho ou
+por pressa. Não entregue peça como `.md`, `.txt`, `.pdf`, `.odt`, artefato HTML, nem como texto
+colado na resposta do chat — o usuário protocola e edita a peça no Word, e qualquer outro
+formato quebra o fluxo.
+
+- O texto no chat serve para **explicar** a peça e destacar pontos a revisar, nunca para
+  substituir o arquivo.
+- Se o usuário anexar um `.odt`, `.pdf` ou `.doc` como modelo ou como peça a adaptar, leia dele
+  o que precisar, mas **entregue em `.docx`**.
+- `.md` só é usado para o esqueleto anonimizado em `modelos/` — que é material de reúso
+  interno, não é minuta.
+- Só use outro formato se o usuário pedir explicitamente naquela sessão.
+
+O gerador e o validador recusam qualquer extensão diferente de `.docx`.
+
+## Diretriz 2 — nome do arquivo
 
 - **Separação interna de palavras: espaço simples.** Nunca `_`, nunca `-` no lugar de espaço.
 - **Separação entre designações: ` - ` (espaço, hífen, espaço).**
@@ -37,7 +54,7 @@ nome_arquivo("Quesitos", "Perícia Médica", "JOÃO DA SILVA SANTOS")
 # 'Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx'
 ```
 
-## Diretriz 2 — formatação padrão
+## Diretriz 3 — formatação padrão
 
 Base visual: `modelos/_FORMATO_BASE.docx` (cabeçalho com logotipo dos Correios e
 "Assessoria Jurídica MS/DEJUR/SEJUR", rodapé com endereço e numeração, margens, bloco de
@@ -61,7 +78,7 @@ estão em `reference/formatacao.md` — consulte antes de escrever XML na mão.
 
 ## Como gerar a peça
 
-Use o gerador; ele já aplica as duas diretrizes.
+Use o gerador; ele já aplica as três diretrizes.
 
 ```python
 import sys; sys.path.insert(0, ".claude/skills/minuta-peca/scripts")
@@ -86,6 +103,8 @@ montar(
 )
 ```
 
+A saída **tem de terminar em `.docx`** — `montar()` recusa outra extensão.
+
 Tipos de parágrafo: `T` tópico em retângulo · `S` subtópico · `P` parágrafo · `C` citação ·
 `A` alínea · `M` marcador · `Q` quesito numerado · `B` linha em branco.
 Marcação inline: `**negrito**`, `*itálico*`, `***ambos***`.
@@ -96,10 +115,11 @@ permitidos — são os campos que o usuário preenche depois (ex.: nome do assis
 
 ## Conferência antes de entregar
 
-1. O nome do arquivo tem espaços e ` - `, e **nenhum** `_`.
-2. Todos os tópicos principais estão em retângulo.
-3. Cabeçalho com logotipo, rodapé e bloco de assinatura vieram do modelo.
-4. Sobrou algum `[...]` que não seja `[REVISAR]`? Então falta preencher.
+1. A entrega é um arquivo **`.docx`** — não `.md`, `.pdf`, `.odt` nem texto no chat.
+2. O nome do arquivo tem espaços e ` - `, e **nenhum** `_`.
+3. Todos os tópicos principais estão em retângulo.
+4. Cabeçalho com logotipo, rodapé e bloco de assinatura vieram do modelo.
+5. Sobrou algum `[...]` que não seja `[REVISAR]`? Então falta preencher.
 
 Validação rápida:
 

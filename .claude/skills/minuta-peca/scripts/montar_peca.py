@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 """Monta uma petição .docx no padrão visual da Assessoria Jurídica MS/DEJUR/SEJUR.
 
+Toda minuta é entregue em .docx — nunca .md, .txt, .pdf ou .odt. `nome_arquivo` e
+`montar` recusam qualquer outra extensão.
+
 Reaproveita cabeçalho (logotipo), rodapé, estilos e margens de modelos/_FORMATO_BASE.docx
 e escreve o corpo com os tipos de parágrafo do padrão aprovado — em especial os tópicos
 em RETÂNGULO (borda simples nos quatro lados, centralizados, negrito).
@@ -51,7 +54,12 @@ def nome_arquivo(*designacoes, ext=".docx"):
     Espaços simples nas separações internas (nunca "_") e " - " entre as designações:
         nome_arquivo("Quesitos", "Perícia Médica", "JOÃO DA SILVA SANTOS")
         -> "Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx"
+
+    Minuta é sempre .docx; outra extensão é recusada.
     """
+    if ext.lower() != ".docx":
+        raise ValueError(
+            "minuta é sempre entregue em .docx — extensão recusada: %r" % ext)
     partes = []
     for d in designacoes:
         if d is None:
@@ -206,6 +214,9 @@ def montar(saida, *, corpo, autos, reclamante, tipo_peca, admissibilidade,
     quando o juízo tiver designação própria (ex.: "JUIZ(A) FEDERAL DA 5ª VARA
     DO TRABALHO DE CAMPO GRANDE/MS"). Um dos dois é obrigatório.
     """
+    if not saida.lower().endswith(".docx"):
+        raise ValueError(
+            "minuta é sempre entregue em .docx — saída recusada: %r" % saida)
     if not (vara or enderecamento):
         raise ValueError("informe `vara` ou `enderecamento`")
     base = base or os.path.normpath(BASE_PADRAO)

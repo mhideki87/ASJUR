@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Confere se uma peça .docx cumpre as duas diretrizes permanentes do usuário.
+"""Confere se uma peça .docx cumpre as três diretrizes permanentes do usuário.
 
     python3 conferir_peca.py "Quesitos - Perícia Médica - FULANO DE TAL.docx"
 
@@ -21,9 +21,18 @@ def _texto(p):
 def conferir(caminho):
     falhas, avisos = [], []
     base = os.path.basename(caminho)
-    nome = os.path.splitext(base)[0]
+    nome, ext = os.path.splitext(base)
 
-    # --- diretriz 1: nome do arquivo -------------------------------------
+    # --- diretriz 1: formato do arquivo ----------------------------------
+    if ext.lower() != ".docx":
+        falhas.append("minuta tem de ser .docx — extensão encontrada: %r" % ext)
+        print("Arquivo : %s" % base)
+        for f in falhas:
+            print("FALHA : %s" % f)
+        print("\nREPROVADA — %d falha(s)." % len(falhas))
+        return 1
+
+    # --- diretriz 2: nome do arquivo -------------------------------------
     if "_" in nome:
         falhas.append('nome do arquivo contém "_" — use espaço simples: %r' % base)
     if re.search(r"\S-\S", nome):
@@ -32,7 +41,7 @@ def conferir(caminho):
         avisos.append('nome sem " - " entre designações; confira se é peça de uma só '
                       "designação: %r" % base)
 
-    # --- diretriz 2: formatação ------------------------------------------
+    # --- diretriz 3: formatação ------------------------------------------
     z = zipfile.ZipFile(caminho)
     nomes = z.namelist()
     doc = z.read("word/document.xml").decode("utf-8")
