@@ -23,10 +23,15 @@ Resultado agregado vai no stdout (JSON); o resumo linha a linha, no stderr.
 
 ## Como a detecção funciona
 
-Cada query roda em `claude -p --output-format stream-json`. A query **disparou** se, entre os primeiros
-tool_use da resposta, houver `Skill(atualizar-base-conhecimento)` ou um `Read` do `SKILL.md`. Depois do
-terceiro tool_use sem isso, conta como não disparou — skill invocada só no fim de uma investigação longa
-não é o comportamento que se quer.
+Cada query roda em `claude -p --output-format stream-json --max-turns 6`. A query **disparou** se em
+qualquer ponto da sessão houver `Skill(atualizar-base-conhecimento)` ou um `Read` do `SKILL.md`; o runner
+registra em que posição veio (`disparou no tool #3`), porque disparo tardio, depois de o Claude vasculhar
+o repositório, conta mas é pior que disparo imediato.
+
+Sessão que volta **vazia** — sem nenhum evento de assistente e sem `result: success` — não entra na conta:
+é falha de execução (contenção de API, erro do CLI), não ausência de gatilho. O runner repete a rodada até
+completar as válidas. Sem essa proteção uma corrida degradada vira "a skill parou de disparar", que foi
+exatamente o falso negativo que apareceu na primeira medição desta suíte.
 
 ## Por que não usar o `run_eval.py` do skill-creator
 
