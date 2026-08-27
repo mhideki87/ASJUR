@@ -1,16 +1,16 @@
 ---
 name: atualizar-base-conhecimento
 description: >-
-  Consolida na base de conhecimento do repositório ASJUR o que uma sessão produziu de novo — tese, correção
-  de tese, jurisprudência confirmada, gatilho de roteamento que faltou, estrutura de peça — gravando cada
-  achado na ficha/arquivo certo (teses/<área>/, modelos/, CONTEXTO.md, playbook, CLAUDE.md) e regenerando o
-  INDICE.md com scripts/atualizar_indice.py. Use ao FINAL de qualquer sessão em que uma peça foi analisada ou
-  minutada (contestação, contrarrazões, recurso, quesitos, manifestação, embargos), ou em que uma ficha,
-  modelo ou regra da base foi criada/alterada — mesmo que o usuário não peça: a consolidação é o passo que
-  faz a base crescer, e é justamente o que se perde quando a sessão termina. Use também quando o usuário
-  disser "atualize a base", "consolide isso", "o que aprendemos aqui", "pode encerrar", "rode o protocolo",
-  ou pedir para revisar o índice/os gatilhos. NÃO use no meio da análise ou da minuta: primeiro entrega a
-  peça, depois consolida.
+  Consolida na base do repositório ASJUR o que a sessão descobriu e commita na branch da sessão: tese nova,
+  tese que não foi aceita, jurisprudência dos autos ausente da base, gatilho de roteamento que faltou,
+  estrutura de peça — gravando cada achado no arquivo certo (teses/, modelos/, CONTEXTO.md, playbook) e
+  regenerando o INDICE.md. DISPARE ao final de qualquer sessão em que uma peça foi analisada ou minutada
+  (contestação, contrarrazões, recurso, quesitos, manifestação, embargos), mesmo sem o usuário pedir e mesmo
+  que ele só sinalize que acabou: "pode encerrar", "ficou boa assim", "minuta pronta", "é isso", "valeu",
+  "amanhã eu volto", "roda o protocolo", "atualize a base", "consolide isso". DISPARE também quando surgir
+  achado que a base deveria guardar: tese que o juiz não aceitou, precedente dos autos que não consta da base,
+  ficha errada aberta por gatilho faltando, peça sem modelo salvo, ficha ou índice mexido à mão. NÃO dispare
+  no meio da minuta, nem para pergunta de roteamento ou dúvida jurídica.
 ---
 
 # Atualizar a base de conhecimento (ASJUR)

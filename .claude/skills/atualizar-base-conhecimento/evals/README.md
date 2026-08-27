@@ -51,3 +51,29 @@ Negativa óbvia não testa nada; o valor está nas que um casamento por palavra-
 
 Ao mexer na `description` do `SKILL.md`, rode o teste antes e depois — o ganho numa ponta costuma custar
 na outra.
+
+## Resultado da última medição (2026-08-27)
+
+20 queries × 2 rodadas, descrição anterior contra a atual:
+
+| | descrição anterior | descrição atual |
+|---|---|---|
+| Positivas (deve disparar) | 4/10 | **6/10** |
+| Negativas (não deve disparar) | 10/10 | **10/10** |
+
+A descrição atual acrescentou as frases de fim de tarefa ("ficou boa assim", "minuta pronta", "valeu",
+"amanhã eu volto") e os sinais de achado (tese que o juiz não aceitou, precedente que não consta da base) —
+e não custou nenhuma negativa, que é o erro caro: skill que dispara sozinha no meio da minuta atrapalha.
+
+**Limite do método, importante ao ler esses números.** Cada query roda numa sessão nova de `claude -p`, sem
+histórico. As positivas que ainda falham são justamente as que pressupõem conversa anterior — "consolida o
+que a gente descobriu", "tive que te explicar que era doença ocupacional", "esse acórdão que eu anexei".
+Numa sessão fria não existe nada disso: o Claude vai investigar o repositório para descobrir do que se
+trata, e a rodada acaba antes de a skill ser chamada. Em produção a skill dispara no fim de uma sessão real,
+com o histórico à vista. O número de produção é melhor que 6/10 — só não dá para medi-lo com esta suíte.
+
+O que o teste mede bem é o outro lado: **nenhuma negativa disparou em nenhuma das 40 rodadas**. Não há
+excesso de gatilho.
+
+Para garantia determinística de acionamento, o caminho não é a descrição — é um hook `Stop` no
+`settings.json`, executado pelo harness em vez de depender do julgamento do modelo.
