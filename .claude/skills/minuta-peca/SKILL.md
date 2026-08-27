@@ -1,6 +1,6 @@
 ---
 name: minuta-peca
-description: Padrão obrigatório de nome de arquivo e de formatação visual de toda minuta/petição gerada neste repositório (contestação, contrarrazões, recurso, quesitos de perícia, embargos, manifestação, parecer). Use SEMPRE que for produzir, editar ou entregar um arquivo de peça jurídica — inclusive quando o usuário só disser "faça a contestação", "elabore os quesitos", "minute o recurso" ou anexar uma peça para adaptar. Garante entrega sempre em .docx, nome de arquivo com espaços e hífen (nunca "_") e tópicos em retângulo com o cabeçalho, fonte e espaçamento da Assessoria Jurídica MS/DEJUR/SEJUR.
+description: Padrão obrigatório de nome de arquivo e de formatação visual de toda minuta/petição gerada neste repositório (contestação, contrarrazões, recurso, quesitos de perícia, embargos, manifestação, parecer). Use SEMPRE que for produzir, editar ou entregar um arquivo de peça jurídica — inclusive quando o usuário só disser "faça a contestação", "elabore os quesitos", "minute o recurso" ou anexar uma peça para adaptar. Garante entrega sempre em .docx, nome de arquivo com espaços e " - " (nunca "_") e nome da parte em CAIXA ALTA, além dos tópicos em retângulo com o cabeçalho, fonte e espaçamento da Assessoria Jurídica MS/DEJUR/SEJUR.
 ---
 
 # Minuta de peça jurídica — formato, nome do arquivo e formatação
@@ -31,28 +31,35 @@ O gerador e o validador recusam qualquer extensão diferente de `.docx`.
 - **Separação interna de palavras: espaço simples.** Nunca `_`, nunca `-` no lugar de espaço.
 - **Separação entre designações: ` - ` (espaço, hífen, espaço).**
 - Ordem: `<Tipo de peça> - <Tema> - <NOME DA PARTE ADVERSA>.docx`
-- O nome da parte vai em **caixa alta**, como consta dos autos.
+- **O nome da parte vai sempre em CAIXA ALTA**, como consta dos autos — inclusive o
+  `e outros` de litisconsórcio, que vira `E OUTROS`.
 
 ```
 ✅ Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx
 ✅ Contestação - Doença Ocupacional - MARIA SOUZA LIMA.docx
-✅ Recurso Ordinário - Adicional de Periculosidade - MARIA SOUZA.docx
+✅ Recurso Ordinário - Adicional de Periculosidade - CARLOS PEREIRA E OUTROS.docx
 
-❌ Quesitos_Pericia_Medica_JOAO_DA_SILVA_SANTOS.docx
-❌ Quesitos-Pericia-Medica-JOÃO DA SILVA SANTOS.docx
-❌ quesitos pericia medica joão da silva.docx
+❌ Quesitos_Pericia_Medica_JOAO_DA_SILVA_SANTOS.docx      (usou "_")
+❌ Quesitos-Pericia-Medica-JOÃO DA SILVA SANTOS.docx      (hífen sem espaços)
+❌ Quesitos - Perícia Médica - João da Silva Santos.docx  (parte fora da caixa alta)
 ```
 
-Acentuação é preservada (`Perícia`, `Contestação`). Caracteres proibidos em nome de arquivo
-(`< > : " / \ | ? *`) viram espaço.
+Acentuação é preservada, tanto nas designações (`Perícia`, `Contestação`) quanto no nome da
+parte (`JOÃO`, não `JOAO`). Caracteres proibidos em nome de arquivo (`< > : " / \ | ? *`)
+viram espaço.
 
-Use sempre o helper, em vez de montar a string à mão:
+Use sempre o helper, em vez de montar a string à mão — ele já põe a **última** designação,
+que é o nome da parte, em caixa alta:
 
 ```python
 from montar_peca import nome_arquivo
-nome_arquivo("Quesitos", "Perícia Médica", "JOÃO DA SILVA SANTOS")
+nome_arquivo("Quesitos", "Perícia Médica", "João da Silva Santos")
 # 'Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx'
 ```
+
+A caixa alta vale também **dentro** da peça: `montar()` grava o nome da parte em caixa alta na
+epígrafe e no bloco de qualificação, qualquer que seja a grafia recebida. O validador reprova
+arquivo cuja última designação não esteja em caixa alta.
 
 ## Diretriz 3 — formatação padrão
 
@@ -116,7 +123,7 @@ permitidos — são os campos que o usuário preenche depois (ex.: nome do assis
 ## Conferência antes de entregar
 
 1. A entrega é um arquivo **`.docx`** — não `.md`, `.pdf`, `.odt` nem texto no chat.
-2. O nome do arquivo tem espaços e ` - `, e **nenhum** `_`.
+2. O nome do arquivo tem espaços e ` - `, **nenhum** `_`, e o nome da parte em CAIXA ALTA.
 3. Todos os tópicos principais estão em retângulo.
 4. Cabeçalho com logotipo, rodapé e bloco de assinatura vieram do modelo.
 5. Sobrou algum `[...]` que não seja `[REVISAR]`? Então falta preencher.

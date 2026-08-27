@@ -40,6 +40,12 @@ def conferir(caminho):
     if " - " not in nome:
         avisos.append('nome sem " - " entre designações; confira se é peça de uma só '
                       "designação: %r" % base)
+    else:
+        parte = nome.rsplit(" - ", 1)[1].strip()
+        if parte != parte.upper():
+            falhas.append(
+                "nome da parte deve estar em CAIXA ALTA: %r — use %r"
+                % (parte, parte.upper()))
 
     # --- diretriz 3: formatação ------------------------------------------
     z = zipfile.ZipFile(caminho)

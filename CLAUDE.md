@@ -63,8 +63,9 @@ contrarrazões, recurso, quesitos, embargos, manifestação, parecer):**
    artefato HTML ou texto colado no chat. O texto da resposta explica a peça; não a substitui.
    `.md` só serve para o esqueleto anonimizado em `modelos/`.
 2. **Nome do arquivo** com espaços simples nas separações internas — **nunca `_`** — e ` - `
-   (espaço, hífen, espaço) entre as designações:
-   `Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx`.
+   (espaço, hífen, espaço) entre as designações, com o **nome da parte em CAIXA ALTA**:
+   `Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx`. A caixa alta vale também dentro da
+   peça, na epígrafe e no bloco de qualificação.
 3. **Formatação** de `modelos/_FORMATO_BASE.docx`, com os **tópicos principais dentro de
    retângulos** (borda simples nos quatro lados, centralizado, negrito), além do cabeçalho com
    logotipo, rodapé, fonte Arial 11 e espaçamento do padrão MS/DEJUR/SEJUR.

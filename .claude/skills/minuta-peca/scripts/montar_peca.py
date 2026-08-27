@@ -48,11 +48,22 @@ BASE_PADRAO = os.path.join(
 _INVALIDOS = r'[<>:"/\\|?*]'
 
 
+def caixa_alta(nome):
+    """Devolve o nome da parte em caixa alta, preservando a acentuação.
+
+    "João da Silva Santos"   -> "JOÃO DA SILVA SANTOS"
+    "maria souza e outros"   -> "MARIA SOUZA E OUTROS"
+    """
+    return re.sub(r"\s+", " ", str(nome)).strip().upper()
+
+
 def nome_arquivo(*designacoes, ext=".docx"):
     """Monta o nome do arquivo no padrão do usuário.
 
-    Espaços simples nas separações internas (nunca "_") e " - " entre as designações:
-        nome_arquivo("Quesitos", "Perícia Médica", "JOÃO DA SILVA SANTOS")
+    Espaços simples nas separações internas (nunca "_") e " - " entre as designações.
+    A ÚLTIMA designação é o nome da parte e vai sempre em CAIXA ALTA:
+
+        nome_arquivo("Quesitos", "Perícia Médica", "João da Silva Santos")
         -> "Quesitos - Perícia Médica - JOÃO DA SILVA SANTOS.docx"
 
     Minuta é sempre .docx; outra extensão é recusada.
@@ -71,6 +82,7 @@ def nome_arquivo(*designacoes, ext=".docx"):
             partes.append(d)
     if not partes:
         raise ValueError("nome_arquivo exige ao menos uma designação")
+    partes[-1] = caixa_alta(partes[-1])   # nome da parte sempre em caixa alta
     return " - ".join(partes) + ext
 
 
@@ -231,7 +243,7 @@ def montar(saida, *, corpo, autos, reclamante, tipo_peca, admissibilidade,
     else:
         doc = doc.replace("DA [Nº]ª VARA DO TRABALHO DE CAMPO GRANDE/MS", "DA " + vara)
     doc = doc.replace("[Nº DO PROCESSO]", autos)
-    doc = doc.replace("[NOME DA RECLAMANTE]", reclamante)
+    doc = doc.replace("[NOME DA RECLAMANTE]", caixa_alta(reclamante))
     doc = doc.replace("RECLAMANTE:", rotulo_autor + ":")
     doc = doc.replace(
         "[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE — ex.: arts. 847 CLT c/c 336 CPC "
