@@ -16,6 +16,7 @@ A base é **fatiada por tema** e lida sob demanda: nenhuma sessão lê a base in
 | [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (formatação de qualquer peça) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga | Só o modelo do tipo de peça + tema da sessão |
 | [playbook_prompts_ECT.md](playbook_prompts_ECT.md) | Prompts de uso diário + protocolo de atualização da base | Só a seção do tipo de peça |
 | [CLAUDE.md](CLAUDE.md) | Instruções para sessões de **Claude Code** (local e cloud): protocolo de consulta à base, conversão automática dos documentos da parte (PDF/DOC) para `.md`, título da sessão com o nome do Reclamante | Automático |
+| [.claude/skills/atualizar-base-conhecimento/](.claude/skills/atualizar-base-conhecimento/SKILL.md) | Skill que consolida na base o que a sessão produziu de novo e regenera o índice | Ao final de cada tarefa |
 | [scripts/atualizar_indice.py](scripts/atualizar_indice.py) | Valida os metadados das fichas e regenera a tabela do `INDICE.md` | Ao criar/alterar ficha |
 | [scripts/converter_parte_para_md.py](scripts/converter_parte_para_md.py) | Conversão de PDF/DOC do processo para `.md` — não roda no Project do claude.ai, só localmente | Automático (local) |
 

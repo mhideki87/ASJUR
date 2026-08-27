@@ -6,6 +6,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Seção | Claude Code local | Claude Code cloud/web | Project do claude.ai |
 |---|---|---|---|
 | Consulta à base de conhecimento (índice → fichas) | sim | sim | sim |
+| Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 
@@ -41,6 +42,22 @@ Regras:
   Python 3, inclusive no cloud/web.
 - Ficha nova ou alterada só entra no repositório depois de **aprovação explícita do usuário** (protocolo da
   seção 6.2 de `playbook_prompts_ECT.md`).
+
+## Consolidação da base ao final da tarefa
+
+**Objetivo:** o que a sessão descobriu não pode morrer com a sessão.
+
+**Gatilho:** ao terminar a tarefa — peça analisada ou minutada, ficha/modelo criado ou alterado — e antes de
+encerrar a resposta final.
+
+**Ação:** invocar a skill **`atualizar-base-conhecimento`** (`.claude/skills/atualizar-base-conhecimento/`).
+Ela levanta os achados da sessão, grava cada um no arquivo certo (`teses/<área>/`, `modelos/`, `CONTEXTO.md`,
+playbook), regenera o `INDICE.md` e apresenta o diff.
+
+Regras:
+- Rodar **depois** de entregar a peça/resposta, nunca no meio do trabalho.
+- Se nada de novo apareceu, dizer isso em uma linha e encerrar — não inventar achado para preencher.
+- As edições vão para o diretório de trabalho; **commit e push só com aprovação explícita** do usuário.
 
 ## Conversão automática de documentos da parte para Markdown
 
