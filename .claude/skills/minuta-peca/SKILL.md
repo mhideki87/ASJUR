@@ -78,6 +78,7 @@ está fora do padrão, ainda que o texto esteja correto.
 | Parágrafo | justificado, recuo de 1ª linha, entrelinha 18pt |
 | Citação/ementa | bloco recuado, itálico, corpo 10, entrelinha 13pt |
 | Alínea/requerimento | bloco recuado, sem recuo de 1ª linha (`a) ...`) |
+| Quesito | bloco recuado, número em negrito (`1. `), texto normal |
 | Marcador | travessão com recuo deslocado |
 
 Fonte **Arial 11** em todo o corpo (Arial 10 nas citações). Os valores exatos em twips
@@ -115,6 +116,21 @@ A saída **tem de terminar em `.docx`** — `montar()` recusa outra extensão.
 Tipos de parágrafo: `T` tópico em retângulo · `S` subtópico · `P` parágrafo · `C` citação ·
 `A` alínea · `M` marcador · `Q` quesito numerado · `B` linha em branco.
 Marcação inline: `**negrito**`, `*itálico*`, `***ambos***`.
+
+### Qualificação: completa ou resumida
+
+`qualificacao="completa"` (padrão) usa o bloco longo do modelo — Empresa Pública Federal,
+Decreto-Lei nº 509/69, endereço — e exige `admissibilidade`. É o da contestação, primeira peça
+do processo.
+
+`qualificacao="resumida"` troca tudo por **"já qualificada nos autos"** e dispensa a
+fundamentação de admissibilidade. Use em toda peça posterior à contestação no mesmo processo —
+quesitos, manifestações, embargos —, em que repetir os dados de criação da empresa só ocupa
+espaço.
+
+Não inclua pedido de juntada de documento avulso (carta de preposição, procuração, substabelecimento)
+no parágrafo de qualificação: isso é circunstância de um processo específico, e entra só quando
+o usuário pedir naquele caso.
 
 O gerador **falha de propósito** se algum placeholder do modelo (`[Nº DO PROCESSO]`,
 `[TIPO DE PEÇA]` etc.) ficar por substituir. Placeholders marcados `[REVISAR]` são

@@ -55,6 +55,7 @@ Todos usam `<w:pStyle w:val="Normal"/>` e `<w:jc w:val="both"/>`, variando recuo
 | Subtópico | `line=360 before=200 after=120` | `left=1701 hanging=0` | negrito + `<w:u w:val="single"/>` |
 | Citação / ementa | `line=260 before=0 after=160` | `left=1701 hanging=0` | itálico, `sz=20` |
 | Alínea / requerimento | `line=360 before=0 after=160` | `left=1701 hanging=0` | Arial 11 (rótulo `a)` em negrito) |
+| Quesito numerado | `line=360 before=0 after=160` | `left=1701 hanging=0` | número `1. ` em negrito, texto Arial 11 |
 | Marcador (travessão) | `line=360 before=0 after=160` | `left=2041 hanging=340` | Arial 11, texto iniciado por `– ` |
 | Endereçamento / epígrafe | `line=360 before=0 after=160` | `left=0 hanging=0` | Arial 11 |
 | Linha em branco | `before=0 after=200` | — | — |
@@ -79,7 +80,7 @@ OAB/MS 14.580
 | Peça | Endereçamento | `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` |
 |---|---|---|
 | Contestação | Vara do Trabalho | arts. 847 da CLT c/c 336 do CPC |
-| Quesitos de perícia | Vara do Trabalho | art. 465, § 1º, II e III, do CPC c/c art. 769 da CLT |
+| Quesitos de perícia | Vara do Trabalho | — (usa qualificação resumida, sem declinar admissibilidade) |
 | Recurso ordinário | TRT da 24ª Região | art. 895 da CLT |
 | Contrarrazões | TRT da 24ª Região | art. 900 da CLT |
 | Recurso de revista | TRT da 24ª Região | art. 896 da CLT |

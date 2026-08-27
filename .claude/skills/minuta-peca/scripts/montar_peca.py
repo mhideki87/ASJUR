@@ -186,6 +186,33 @@ def _branco():                           # B
             '<w:spacing w:before="0" w:after="200"/></w:pPr></w:p>')
 
 
+def _qualificacao_resumida(doc, reclamante, tipo_peca):
+    """Troca a qualificação longa por "já qualificada nos autos".
+
+    Usada quando a Reclamada já está qualificada em peça anterior do mesmo processo —
+    é o caso de quesitos, manifestações e embargos, em que repetir CNPJ, endereço e
+    Decreto-Lei de criação só ocupa espaço.
+    """
+    runs = (
+        _runs("EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS – SUPERINTENDÊNCIA "
+              "ESTADUAL DE MATO GROSSO DO SUL", bold=True)
+        + _runs(", já qualificada nos autos da ")
+        + _runs("RECLAMAÇÃO TRABALHISTA", bold=True)
+        + _runs(", em epígrafe, que lhe move ")
+        + _runs(caixa_alta(reclamante), bold=True)
+        + _runs(", por meio do procurador que esta subscreve, vem, respeitosamente, "
+                "à presença de Vossa Excelência, apresentar ")
+        + _runs(tipo_peca, bold=True)
+        + _runs(", pelos motivos de fato e de direito que seguem.")
+    )
+    novo = _p(runs, first=1701, after=120)
+    paras = re.findall(r"<w:p[ >].*?</w:p>", doc, re.S)
+    alvo = next(p for p in paras
+                if "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS – SUPERINTENDÊNCIA"
+                in re.sub(r"<[^>]+>", "", p))
+    return doc.replace(alvo, novo)
+
+
 # ---------------------------------------------------------------- montagem
 
 def _corpo_xml(corpo):
@@ -209,14 +236,15 @@ def _corpo_xml(corpo):
             blocos.append(_branco())
         elif tipo == "Q":
             n += 1
-            blocos.append(_p(_runs("QUESITO %d. " % n, bold=True) + _runs(texto)))
+            blocos.append(_p(_runs("%d. " % n, bold=True) + _runs(texto),
+                             left=1701))
         else:
             raise ValueError("tipo de parágrafo desconhecido: %r" % tipo)
     return "".join(blocos), n
 
 
-def montar(saida, *, corpo, autos, reclamante, tipo_peca, admissibilidade,
-           vara=None, enderecamento=None,
+def montar(saida, *, corpo, autos, reclamante, tipo_peca, admissibilidade=None,
+           qualificacao="completa", vara=None, enderecamento=None,
            reclamada="EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS",
            rotulo_autor="RECLAMANTE", base=None):
     """Gera o .docx e devolve (caminho, nº de quesitos numerados).
@@ -226,6 +254,10 @@ def montar(saida, *, corpo, autos, reclamante, tipo_peca, admissibilidade,
     quando o juízo tiver designação própria (ex.: "JUIZ(A) FEDERAL DA 5ª VARA
     DO TRABALHO DE CAMPO GRANDE/MS"). Um dos dois é obrigatório.
     """
+    if qualificacao not in ("completa", "resumida"):
+        raise ValueError('qualificacao deve ser "completa" ou "resumida"')
+    if qualificacao == "completa" and not admissibilidade:
+        raise ValueError("qualificação completa exige `admissibilidade`")
     if not saida.lower().endswith(".docx"):
         raise ValueError(
             "minuta é sempre entregue em .docx — saída recusada: %r" % saida)
@@ -245,9 +277,12 @@ def montar(saida, *, corpo, autos, reclamante, tipo_peca, admissibilidade,
     doc = doc.replace("[Nº DO PROCESSO]", autos)
     doc = doc.replace("[NOME DA RECLAMANTE]", caixa_alta(reclamante))
     doc = doc.replace("RECLAMANTE:", rotulo_autor + ":")
-    doc = doc.replace(
-        "[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE — ex.: arts. 847 CLT c/c 336 CPC "
-        "para contestação]", admissibilidade)
+    if qualificacao == "resumida":
+        doc = _qualificacao_resumida(doc, reclamante, tipo_peca)
+    else:
+        doc = doc.replace(
+            "[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE — ex.: arts. 847 CLT c/c 336 CPC "
+            "para contestação]", admissibilidade)
     doc = doc.replace("[TIPO DE PEÇA]", tipo_peca)
     if reclamada != "EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS":
         doc = doc.replace("RECLAMADA: EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS.",

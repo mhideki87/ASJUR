@@ -70,6 +70,10 @@ contrarrazões, recurso, quesitos, embargos, manifestação, parecer):**
    retângulos** (borda simples nos quatro lados, centralizado, negrito), além do cabeçalho com
    logotipo, rodapé, fonte Arial 11 e espaçamento do padrão MS/DEJUR/SEJUR.
 
+Para **quesitos de perícia médica** há ainda a skill `quesitos-pericia-medica`, com a estrutura
+e o texto dos 12 quesitos já aprovados pelo usuário — carregue as duas juntas: `minuta-peca` dá o
+formato, `quesitos-pericia-medica` dá o conteúdo.
+
 Antes de gerar ou entregar qualquer peça, **carregue a skill `minuta-peca`**
 (`.claude/skills/minuta-peca/SKILL.md`) e use o gerador
 `.claude/skills/minuta-peca/scripts/montar_peca.py`, que já aplica as três diretrizes.
