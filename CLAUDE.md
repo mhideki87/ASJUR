@@ -21,7 +21,7 @@ A base é fatiada por tema em `teses/<área>/<tema>.md`, e o roteamento está em
 
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
-1. Ler `CONTEXTO.md` por inteiro (é curto: perfil, padrão formal, regras inegociáveis).
+1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
 2. Ler `INDICE.md` — só o protocolo do topo e a tabela de roteamento.
 3. Ler os documentos do processo e **listar os pedidos**.
 4. Para cada pedido, casar com um `gatilho` da tabela e abrir **somente** a ficha indicada. Abrir também as

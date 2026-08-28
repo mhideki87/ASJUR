@@ -33,11 +33,7 @@ ROTULO_AREA = {
     "civel": "Cível",
     "transversal": "Transversal",
 }
-ROTULO_STATUS = {
-    "validada": "validada",
-    "rascunho": "**rascunho**",
-    "revisar": "**revisar**",
-}
+ROTULO_STATUS = {"rascunho": "**rascunho**", "revisar": "**revisar**"}
 
 
 def ler_frontmatter(caminho: Path) -> tuple[dict, list[str]]:
@@ -132,28 +128,24 @@ def coletar() -> tuple[list[dict], list[str]]:
 
 
 def montar_tabela(fichas: list[dict]) -> str:
+    # Sem coluna de modelo: a ficha já lista o dela em `modelos:`, e o modelo só é aberto depois dela.
+    # Status só aparece quando não é `validada` — o silêncio é o caso comum e não precisa ocupar linha.
     linhas = [
         MARCA_INICIO,
         "",
-        "<!-- Gerado por scripts/atualizar_indice.py a partir dos metadados das fichas."
-        " Não editar à mão: edite a ficha e rode o script. -->",
+        "<!-- Gerado por scripts/atualizar_indice.py. Não editar à mão: edite a ficha e rode o script. -->",
         "",
-        "| Área | Tema | Gatilhos (o que procurar no objeto da demanda) | Ficha | Modelo de peça | Status |",
-        "|---|---|---|---|---|---|",
+        "| Área | Tema | Gatilhos | Ficha |",
+        "|---|---|---|---|",
     ]
     for f in fichas:
         gatilhos = " · ".join(f.get("gatilhos", []))
-        modelos = f.get("modelos", [])
-        coluna_modelo = (
-            "<br>".join(f"[`{Path(m).name}`]({m})" for m in modelos) if modelos else "—"
-        )
+        marca = "" if f["status"] == "validada" else f" ({ROTULO_STATUS[f['status']]})"
         linhas.append(
             f"| {ROTULO_AREA.get(f['area'], f['area'])} "
-            f"| **{f['tema']}** "
+            f"| {f['tema']}{marca} "
             f"| {gatilhos} "
-            f"| [`{Path(f['_caminho']).name}`]({f['_caminho']}) "
-            f"| {coluna_modelo} "
-            f"| {ROTULO_STATUS.get(f['status'], f['status'])} |"
+            f"| [{f['_caminho']}]({f['_caminho']}) |"
         )
     linhas += ["", MARCA_FIM]
     return "\n".join(linhas)

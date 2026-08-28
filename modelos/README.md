@@ -19,6 +19,22 @@ Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
 
+## Padrão formal, em texto
+
+O `.docx` acima é a fonte da verdade — isto aqui é só a descrição, para conferência.
+
+**Trabalhista** (validado, uso real): formato **.odt**, convertido para .docx quando necessário; fonte
+**Arial 11**, entrelinha **1,5**, parágrafos justificados com recuo de primeira linha; margens esquerda
+2 cm / direita ~1,25 cm; cabeçalho com logotipo dos Correios + "Assessoria Jurídica"; rodapé com endereço
+e numeração; citações de jurisprudência em bloco recuado (~3 cm); fecho "N. Termos / P. Deferimento. /
+Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
+Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos
+com **prequestionamento**.
+
+**Cível:** formato **.txt/.odt**; endereçamento a Juizado Especial Federal ou Vara Federal; mesmo fecho.
+`[REVISAR: confirmar se cabeçalho, fonte, espaçamento e demais regras da trabalhista também valem aqui,
+ou se cível tem modelo próprio]`
+
 ## Modelos por tipo de peça + tema
 
 Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:

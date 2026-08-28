@@ -242,6 +242,26 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 ---
 
+## 5.1 Peças que eu produzo, e como nomeio o arquivo
+
+| Peça | Contexto típico |
+|---|---|
+| Contestação / Defesa | Resposta à inicial (trabalhista e cível) |
+| Contrarrazões de recurso | Defesa da sentença favorável (TRT24 na trabalhista) |
+| Recurso de revista | Sentença/acórdão desfavorável (trabalhista) |
+| Quesitos para perícia | Médica (doença ocupacional) e técnica (insalubridade/periculosidade) |
+| Manifestações | Documentos do INSS, laudos, cálculos, RPV, audiência |
+| Embargos de declaração | Omissão/contradição + prequestionamento |
+| Impugnação aos cálculos · Embargos à execução | Fase de execução (sobretudo em cível) |
+
+Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
+
+Nome do arquivo final: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt`. Abreviações: `Cont` =
+contestação · `RR` = recurso de revista · `Inc Fun` = incorporação de função · `Manifest` = manifestação.
+Exemplo de padrão: `Cont_-_Inc_-_[NOME_DA_PARTE].odt` (nenhum nome real neste repositório).
+
+---
+
 ## 6. Protocolo de atualização da base (teses + modelos)
 
 Objetivo: depois de algumas sessões sobre o mesmo tema, eu não deveria mais precisar anexar uma peça-modelo

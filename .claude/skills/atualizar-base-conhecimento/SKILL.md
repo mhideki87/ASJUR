@@ -51,7 +51,10 @@ escreva "nada" e siga:
 | Tese que se mostrou errada | corrige o corpo da ficha, muda `status` para `revisar` e registra o motivo em `Lacunas` |
 | Gatilho que faltou / sobrou | metadado `gatilhos:` da ficha (é o que faz o roteamento funcionar na próxima vez) |
 | Estrutura de peça nova ou variação | `modelos/<área>/<tipo_peca>__<tema>.md` (+ `.docx` anonimizado, se houver peça real anexada) — e acrescente o caminho no metadado `modelos:` da ficha |
-| Regra de trabalho, padrão formal, perfil, nomenclatura | `CONTEXTO.md` |
+| Regra de trabalho ou perfil | `CONTEXTO.md` |
+| Padrão formal da peça | `modelos/README.md` |
+| Nomenclatura do arquivo final, tipo de peça novo | `playbook_prompts_ECT.md` (seção 5.1) |
+| Lacuna que não é de um tema | `LACUNAS.md` |
 | Prompt que funcionou bem / erro de pedido a evitar | `playbook_prompts_ECT.md` |
 | Rotina de sessão do Claude Code (automação, título, conversão) | `CLAUDE.md` |
 | Protocolo de leitura do índice (a prosa, não a tabela) | `INDICE.md` — a tabela é gerada, não se edita à mão |
