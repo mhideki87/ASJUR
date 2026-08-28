@@ -5,7 +5,7 @@ slug: prerrogativas_processuais_ect
 status: validada
 gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de custas, tempestividade, empresa pública, juros e correção contra a Fazenda, tutela antecipada contra a Fazenda]
 pecas: [contestação, contrarrazões, recurso de revista, embargos de declaração, manifestação]
-modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
+modelos: [modelos/trabalhista/contestacao - incorporacao funcao.md, modelos/trabalhista/contestacao - afastamentos.md]
 ver_tambem: []
 atualizado: 2026-08-27
 ---
@@ -29,7 +29,7 @@ art. 12 do Decreto-lei 509/69, recepcionado pela CF/88 (STF, **RE 220.906/DF**).
 
 **Bloco de equiparação à Fazenda Pública** (texto genérico, reaproveitável literalmente do modelo):
 cita **RE 220699/SP** (Rel. Min. Moreira Alves, DJ 16/03/2001) e o rol de acórdãos no mesmo sentido —
-ver `modelos/trabalhista/contestacao__afastamentos.md`.
+ver `modelos/trabalhista/contestacao - afastamentos.md`.
 
 **Desdobramentos na área cível** (vindos do levantamento estatístico do acervo, não de leitura de peça):
 - **Decreto-lei 509/69** é o normativo mais citado do acervo cível (~190 menções somando variantes)

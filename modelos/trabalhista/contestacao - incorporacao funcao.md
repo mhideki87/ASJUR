@@ -1,8 +1,9 @@
 # Modelo: Contestação — Incorporação de Gratificação de Função
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
-anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-08-15 — criação inicial.
+anonimizado — ver `contestacao - incorporacao funcao.docx` neste mesmo diretório).
+**Última atualização:** 2026-08-28 — acrescidos blocos novos usados em minuta real, advertência sobre erros
+de data no `.docx` e nota sobre como gerar a peça a partir de `_FORMATO_BASE.docx`.
 
 ---
 
@@ -102,6 +103,83 @@ Fecho + assinatura
   sempre que houver prova (ficha cadastral/financeira) de nova designação após a dispensa discutida na ação.
 - Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — igual ao de `_FORMATO_BASE.docx`.
 
+## ⚠ Erros conhecidos no `.docx` — corrigir a cada uso
+
+Achados em sessão real de minuta (28/08/2026). O `.docx` é peça-mestra multiuso e carrega duas trocas de data
+na **variante 2 do item 2.1** ("preencheu o requisito da FAT mas não o da ITF"):
+
+| Está escrito no `.docx` | Deveria ser |
+|---|---|
+| "quando da revogação do Módulo 36 do MANPES em **abril de 2014**" | Módulo 36 — **15/05/2014** |
+| "quando da revogação do Módulo 36 do MANPES em **30/04/2012**" | **Módulo 55** — **01/05/2012** |
+
+Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 15/05/2014**. Conferir sempre; o segundo
+erro troca o próprio módulo, e passar isso para a peça entrega ao adversário uma contradição de graça.
+
+Outros pontos do `.docx` a revisar antes de reaproveitar:
+- o endereçamento aparece como "JUIZ(A) **FEDERAL** DA [Nº] VARA DO TRABALHO" — corrigir para "JUIZ(A) DO
+  TRABALHO", como está em `_FORMATO_BASE.docx`;
+- há erros de digitação herdados ("emanta", "graficação", "ennvolvendo", "Reclamada" por "Reclamante" em
+  alguns blocos) — revisar o texto dos blocos aproveitados;
+- três acórdãos são transcritos **sem identificação completa** (o do TRT24 sobre inaplicabilidade da Súmula
+  372 por fato consumado após 11/11/2017; o do TST sobre expectativa de direito no Módulo 36; e o do Min.
+  Hugo Carlos Scheuermann sobre a GPTF). Não citar sem completar número, Turma, Relator e data.
+
+## Estrutura real da peça, conferida contra contestação aprovada (28/08/2026)
+
+O `.docx` deste tema é anterior à formatação atual. A peça-mestra aprovada do escritório usa **marcadores de
+seção em caixa** e **tópicos numerados sublinhados**, nesta ordem:
+
+```
+[caixa]  DA EQUIPARAÇÃO À FAZENDA PÚBLICA          (bloco padrão; fecha com a tempestividade)
+[caixa]  DA TRAMITAÇÃO PELO “JUÍZO 100% DIGITAL”
+[caixa]  RESUMO DA VESTIBULAR                       (é "VESTIBULAR", não "DEMANDA")
+[caixa]  DAS PRELIMINARES E DA PREJUDICIAL DE MÉRITO
+[caixa]  DO MÉRITO                                  (tópicos 1..N, numerados e sublinhados)
+[caixa]  DO PREQUESTIONAMENTO
+[caixa]  DOS REQUERIMENTOS                          (alíneas a), b), c)... com os AD CAUTELAM)
+```
+
+Blocos que **já existem na prática do escritório** (estavam na contestação aprovada de outro tema, não neste
+`.docx`) e devem entrar também aqui — reaproveitar a redação dela, não reinventar:
+
+- **Impugnação ao pedido de justiça gratuita** — art. 790, §3º (presunção só até 40% do teto do RGPS) e §4º
+  (comprovação); pedir o indeferimento **ou, sucessivamente, a intimação do autor para comprovar**.
+- **Impugnação ao valor da causa e limitação da condenação aos valores indicados** — a fundamentação usada é
+  o **art. 840, §1º, da CLT** (pedido certo, determinado e com valor). No rito **sumaríssimo**, somar a regra
+  especial do **art. 852-B, I, da CLT**, que o autor costuma tentar afastar invocando a IN 41/2018 do TST.
+- **Honorários** — além do art. 791-A, I: *ad cautelam*, honorários proporcionais à parcela de improcedência,
+  **vedada a compensação** (art. 791-A, §3º), e impugnação ao percentual e à base pedidos pelo autor.
+- **Prequestionamento** e **requerimentos em alíneas**, com pedido de **intimação exclusiva do procurador
+  que subscreve, sob pena de nulidade**.
+
+Blocos **efetivamente novos**, criados na minuta de 28/08/2026 e que valem ser reaproveitados:
+
+1. **"Da inexistência de supressão da gratificação de função — falsidade da premissa fática"** —
+   **primeiro tópico do mérito**, antes de qualquer tese jurídica. Confronta a alegação de supressão com o
+   campo "FUNÇÕES" da ficha cadastral (nova designação, vigência "31/12/9999") e com a rubrica de
+   Gratificação de Função Conv. das fichas financeiras, mês a mês. Quando os documentos permitem, é o bloco
+   mais forte da peça, porque é fato provado por documento do próprio autor.
+2. **FGTS e retificação do CNIS** — acessórios (art. 92 do CPC) e afastamento/redução da multa diária
+   (art. 537, §1º, do CPC).
+3. **Impugnação aos documentos, ampliada** — impugnação **nominal** à planilha de apuração de tempo de função
+   que a inicial insere no corpo, e à **incompletude das fichas financeiras** (identificar quais exercícios
+   faltam; costuma faltar justamente o do marco alegado pelo autor).
+4. **Contradição do autor quanto à equiparação à Fazenda Pública** — dentro do bloco de honorários: invoca a
+   equiparação para juros e para o art. 85, §3º, do CPC, e a repudia quando dela decorre a vedação de
+   incorporar gratificação.
+
+## Como gerar o arquivo final
+
+`_FORMATO_BASE.docx` é o template visual de toda peça. O caminho que funcionou: **abrir o `.docx` base,
+substituir os placeholders do bloco de qualificação** (`[Nº]ª VARA`, `[Nº DO PROCESSO]`,
+`[NOME DA RECLAMANTE]`, `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` → "arts. 847 da CLT e 336 do CPC",
+`[TIPO DE PEÇA]` → "CONTESTAÇÃO") **e trocar o parágrafo `[CORPO DA PEÇA ...]` pelo corpo redigido**,
+preservando cabeçalho, rodapé e estilos do arquivo original. Nunca recriar a formatação a partir da
+descrição em texto (regra do `modelos/README.md`).
+
+Nome do arquivo final, conforme a seção 5.1 do playbook: `Cont_-_Inc_Fun_-_<Rito>_-_[NOME_DA_PARTE]`.
+
 ## Variações observadas
 
 - Este modelo é, por natureza, mais modular que um esqueleto fixo: cada `- SE HOUVER ...` no `.docx` marca
@@ -121,4 +199,5 @@ Fecho + assinatura
 Sustenta a ficha `teses/trabalhista/incorporacao_gratificacao_funcao.md`, a tese recorrente mais frequente
 da ECT. Toca também `teses/trabalhista/prescricao.md`,
 `teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
-`teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios).
+`teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios, quebra de caixa, CIP, reflexos) e
+`teses/transversal/preliminares_processuais_defesa.md` (rito sumaríssimo, gratuidade, Juízo 100% Digital).

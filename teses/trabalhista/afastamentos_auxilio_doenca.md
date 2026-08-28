@@ -5,7 +5,7 @@ slug: afastamentos_auxilio_doenca
 status: validada
 gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha]
 pecas: [contestação, contrarrazões]
-modelos: [modelos/trabalhista/contestacao__afastamentos.md]
+modelos: [modelos/trabalhista/contestacao - afastamentos.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md]
 atualizado: 2026-08-27
 ---
@@ -53,7 +53,7 @@ o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 13
 
 ## Ligações
 
-- Estrutura completa da peça: `modelos/trabalhista/contestacao__afastamentos.md` + `.docx`
+- Estrutura completa da peça: `modelos/trabalhista/contestacao - afastamentos.md` + `.docx`
 - Se o pedido for indenizatório por doença do trabalho (e não pagamento de dias):
   [teses/trabalhista/doenca_ocupacional.md](doenca_ocupacional.md)
 

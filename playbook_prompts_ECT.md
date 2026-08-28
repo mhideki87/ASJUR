@@ -256,9 +256,28 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
-Nome do arquivo final: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt`. Abreviações: `Cont` =
-contestação · `RR` = recurso de revista · `Inc Fun` = incorporação de função · `Manifest` = manifestação.
-Exemplo de padrão: `Cont_-_Inc_-_[NOME_DA_PARTE].odt` (nenhum nome real neste repositório).
+**Nome do arquivo final — convenção obrigatória:**
+
+```
+<Tipo> - <Tema abreviado> - <Rito> - <NOME DA PARTE>.docx
+```
+
+- **Espaço simples entre as palavras.** `_` **nunca** é separador de palavras em nome de arquivo.
+- **` - ` (espaço-hífen-espaço) separa os tópicos** do nome.
+- Abreviações: `Cont` = contestação · `Contrarraz` = contrarrazões · `RR` = recurso de revista ·
+  `ED` = embargos de declaração · `Manifest` = manifestação · `Quesitos` = quesitos de perícia ·
+  `Inc Fun` = incorporação de função · `Afast` = afastamentos · `ATSum` = rito sumaríssimo ·
+  `Ord` = rito ordinário.
+
+Certo: `Cont - Inc Fun - ATSum - NOME DA PARTE.docx`
+Errado: `Cont_-_Inc_Fun_-_ATSum_-_NOME_DA_PARTE.docx`
+
+A mesma convenção vale para os arquivos de modelo do repositório
+(`modelos/<área>/<tipo peça> - <tema>.md` + `.docx`) — sem nome real de parte, nunca.
+
+O arquivo final é gerado pela skill **`formatar-peca`** (`.claude/skills/formatar-peca/`), que aplica a
+formatação oficial com `scripts/gerar_peca_docx.py` a partir de `modelos/_FORMATO_BASE.docx`. Não montar a
+formatação à mão nem recriá-la a partir de descrição em texto.
 
 ---
 

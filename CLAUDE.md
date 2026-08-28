@@ -9,6 +9,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
+| Geração do arquivo da peça (skill `formatar-peca`) e convenção de nomes | sim | sim | sem script — só a convenção de nomes se aplica |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -61,6 +62,40 @@ Regras:
   do diff e ausência de dado identificável. A revisão do usuário é no diff do commit, não antes dele.
   Única exceção: `.docx` anonimizado, que espera aprovação (conferir texto oculto e metadados é
   verificação humana, e o repositório é público).
+
+## Geração do arquivo da peça — formatação e nome do arquivo
+
+**Objetivo:** o arquivo entregue tem de sair com a formatação oficial do escritório e com o nome na
+convenção certa, sem depender de eu acertar isso "no olho" a cada sessão.
+
+**Gatilho:** sempre que for produzir o arquivo final de qualquer peça (contestação, contrarrazões, recurso,
+manifestação, quesitos, embargos) — e também quando o usuário disser que a formatação está errada ou
+reclamar do nome do arquivo.
+
+**Ação:** invocar a skill **`formatar-peca`** (`.claude/skills/formatar-peca/`). Ela escreve o corpo num
+arquivo de texto com marcas e roda `python scripts/gerar_peca_docx.py`, que aplica a formatação a partir de
+`modelos/_FORMATO_BASE.docx` preservando cabeçalho, logotipo, rodapé e estilos byte a byte.
+
+**Nome do arquivo — regra permanente:**
+
+```
+<Tipo> - <Tema abreviado> - <Rito> - <NOME DA PARTE>.docx
+```
+
+- **Espaço simples entre as palavras.** `_` **nunca** separa palavras em nome de arquivo — nem no arquivo
+  entregue, nem nos arquivos do repositório.
+- **` - ` (espaço-hífen-espaço) separa os tópicos** do nome.
+- Vale para todo arquivo que eu criar, em qualquer sessão. Abreviações e exemplos: seção 5.1 de
+  `playbook_prompts_ECT.md`.
+
+**Nunca:**
+- Montar a formatação parágrafo por parágrafo à mão, nem recriá-la a partir da descrição em texto do
+  `modelos/README.md` — usar o script.
+- Gravar no repositório a peça ou o arquivo de conteúdo com dado real de parte: ficam no diretório de
+  trabalho da sessão.
+- Substituir `modelos/_FORMATO_BASE.docx` sem **aprovação explícita** do usuário, mesmo que ele tenha
+  anexado a peça-modelo: conferir texto oculto, metadados e propriedades do documento é verificação humana,
+  e o repositório é público.
 
 ## Conversão automática de documentos da parte para Markdown
 
