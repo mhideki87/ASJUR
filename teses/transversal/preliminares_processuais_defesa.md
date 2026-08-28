@@ -3,7 +3,7 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, gratuidade, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, justiça gratuita, gratuidade de justiça, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, justiça gratuita, gratuidade de justiça, art. 790 §3º, art. 790 §4º, declaração de insuficiência, declaração de hipossuficiência, hipossuficiência, ADC 80, Súmula 463 do TST, CONSIF, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao - incorporacao funcao.md]
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
@@ -46,6 +46,7 @@ escritório, e o pedido sucessivo é o que sobrevive quando o juízo não indefe
 Onde buscar a prova contrária: remuneração na **ficha cadastral** ou no campo 17 da **CAT**; nas **fichas
 financeiras**, descontos de empréstimo consignado de valor expressivo; e, na própria inicial, afirmação de
 propriedade de bens de valor elevado. Conferir também se há declaração de insuficiência juntada.
+Somar sempre o **bloco da ADC 80**, abaixo — é o reforço constitucional da impugnação.
 
 **3. Juízo 100% Digital — a prática da ECT é NÃO SE OPOR.** Em contestação real do escritório, o bloco é de
 uma linha: *"a Reclamada não se opõe à tramitação pelo 'Juízo 100% Digital'"*. É o padrão a seguir, salvo
@@ -83,6 +84,64 @@ gratuidade — conferi-las é o caminho mais rápido para medir o risco.]`
 - Para o ponto 3, verificar se o prazo de 5 dias úteis ainda está aberto **antes** de redigir: vencido, o
   bloco sai da peça, e insistir nele só enfraquece a defesa.
 
+## Bloco pronto — ADC 80 (reforço constitucional da impugnação à gratuidade)
+
+**Origem:** redigido pelo usuário e inserido em contestação real (28/08/2026). Reaproveitar nas impugnações
+futuras à justiça gratuita, logo após a demonstração da capacidade econômica e antes do pedido sucessivo de
+intimação para comprovar.
+
+> ⚠ **Conferir o andamento da ADC 80 antes de cada uso.** O bloco descreve um julgamento **em curso** e uma
+> composição de votos apurada até a assentada de 21/05/2026. Se o julgamento tiver sido concluído, ou se a
+> composição tiver mudado, o texto fica factualmente errado — e a ressalva de lealdade processual, que é o
+> que sustenta a citação, passa a ser falsa. Atualizar os parágrafos ou suprimir o bloco.
+
+Texto (o valor da remuneração do autor é o único campo variável):
+
+> A questão, ademais, está sob exame do E. Supremo Tribunal Federal na Ação Declaratória de
+> Constitucionalidade nº 80 (ADC 80), proposta pela Confederação Nacional do Sistema Financeiro – CONSIF, de
+> relatoria do Ministro Edson Fachin, que tem por objeto precisamente a constitucionalidade dos §§ 3º e 4º do
+> art. 790 da CLT — vale dizer, os critérios de concessão da gratuidade na Justiça do Trabalho e a
+> suficiência, ou não, da simples declaração de hipossuficiência.
+>
+> E qualquer das teses em construção naquele julgamento conduz, no caso concreto, ao acolhimento desta
+> impugnação:
+>
+> (a) na linha do voto do relator, que reconhece a constitucionalidade dos dispositivos com interpretação
+> conforme — admitindo a autodeclaração como meio de prova e reputando constitucional a Súmula 463 do TST —,
+> a presunção de veracidade é relativa e cede diante de impugnação fundamentada, que é exatamente o que aqui
+> se faz, instruída com prova documental da capacidade econômica, anotando-se que a declaração falsa sujeita
+> o declarante a responsabilidade civil e penal;
+>
+> (b) na linha da divergência inaugurada pelo Ministro Gilmar Mendes — acompanhada, até a última assentada,
+> pelos Ministros Cristiano Zanin, Alexandre de Moraes, Flávio Dino e Dias Toffoli —, a presunção de
+> hipossuficiência fica restrita a quem percebe até cerca de R$ 5.000,00 mensais, incumbindo a quem supera
+> esse patamar comprovar concretamente a insuficiência de recursos; e a remuneração do Autor, de
+> R$ [VALOR DA REMUNERAÇÃO], excede esse valor.
+>
+> Registre-se, por dever de lealdade, que o julgamento da ADC 80 ainda não se concluiu: após o destaque
+> pedido pelo próprio relator em 08/04/2026, o feito foi retomado em sessão presencial de 21/05/2026, sem
+> proclamação de resultado. A ação é invocada, portanto, como reforço argumentativo e como sinalização do
+> estado atual da questão constitucional, e não como precedente vinculante.
+
+**Por que o bloco funciona:** ele é construído em *tese alternativa* — vale tanto se prevalecer o relator
+(presunção relativa, que cede à impugnação fundamentada) quanto se prevalecer a divergência (corte objetivo
+de renda). Não depende de adivinhar o resultado, e a ressalva final de lealdade processual protege a peça de
+ser lida como citação de precedente inexistente.
+
+**Antes de usar, checar dois pontos:**
+
+1. **O patamar da alínea (b) é apertado.** "Cerca de R$ 5.000,00" contra uma remuneração de pouco mais que
+   isso deixa margem estreita: se a divergência estiver expressa de outro modo (percentual do teto do RGPS,
+   número de salários mínimos, valor diverso), o argumento pode inverter. Conferir o valor e a remuneração do
+   autor no caso concreto antes de afirmar que "excede".
+2. **A alínea (a) sozinha basta** quando a remuneração do autor não supera com folga o patamar da
+   divergência — nesse caso, usar só a alínea (a) e a ressalva final, suprimindo a (b), em vez de sustentar
+   um cálculo frágil.
+
+`[REVISAR: os dados da ADC 80 — autoria da CONSIF, relatoria do Min. Edson Fachin, objeto, composição dos
+votos, destaque de 08/04/2026 e sessão de 21/05/2026 — vieram da peça do usuário e não foram conferidos por
+mim na fonte. Confirmar no andamento processual do STF antes do protocolo.]`
+
 ## Ligações
 
 - Prerrogativas de prazo, custas e execução:
@@ -94,6 +153,11 @@ gratuidade — conferi-las é o caminho mais rápido para medir o risco.]`
 
 - [ ] Teto do RGPS e o correspondente limite de 40% por ano — montar uma tabelinha aqui, para não recalcular
       a cada peça.
+- [ ] **Acompanhar a ADC 80 até a proclamação do resultado.** Concluído o julgamento, reescrever o bloco: se
+      a tese vencedora for a do relator, o argumento vira "presunção relativa que cede à impugnação
+      fundamentada"; se for a da divergência, vira corte objetivo de renda, e aí convém registrar aqui o
+      patamar exato fixado. Em qualquer cenário, a ressalva de "julgamento não concluído" tem de sair.
+- [ ] Conferir se a Súmula 463 do TST teve a redação ou a validade afetada pelo julgamento da ADC 80.
 - [x] Política da ECT quanto ao Juízo 100% Digital → **não se opor**, conforme contestação real aprovada.
       Registrado na Tese central, item 3.
 - [ ] Confirmar se o TRT24 aplica o art. 852-B, I, da CLT como limite da condenação no sumaríssimo.

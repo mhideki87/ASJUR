@@ -144,7 +144,9 @@ Blocos que **já existem na prática do escritório** (estavam na contestação 
 `.docx`) e devem entrar também aqui — reaproveitar a redação dela, não reinventar:
 
 - **Impugnação ao pedido de justiça gratuita** — art. 790, §3º (presunção só até 40% do teto do RGPS) e §4º
-  (comprovação); pedir o indeferimento **ou, sucessivamente, a intimação do autor para comprovar**.
+  (comprovação); pedir o indeferimento **ou, sucessivamente, a intimação do autor para comprovar**. Somar o
+  **bloco pronto da ADC 80**, transcrito em
+  `teses/transversal/preliminares_processuais_defesa.md` — conferir o andamento do julgamento antes de usar.
 - **Impugnação ao valor da causa e limitação da condenação aos valores indicados** — a fundamentação usada é
   o **art. 840, §1º, da CLT** (pedido certo, determinado e com valor). No rito **sumaríssimo**, somar a regra
   especial do **art. 852-B, I, da CLT**, que o autor costuma tentar afastar invocando a IN 41/2018 do TST.
