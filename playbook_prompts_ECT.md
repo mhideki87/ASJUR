@@ -226,6 +226,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | "Cite jurisprudência favorável" | convite à invenção | "use apenas ementas dos autos; se faltar, marque [REVISAR]" |
 | Dois processos na mesma conversa | contamina fatos e datas | uma conversa por processo |
 | Anexar só a inicial | defesa sem lastro | anexe também os documentos da ECT e a peça-modelo |
+| Juntar só a descrição do cargo do Reclamante | convida à alegação de juntada seletiva, e a tese do art. 461, §2º, da CLT se apoia no plano inteiro | junte o PCCS completo, na redação **vigente no período imprescrito**, com o ato normativo que o aprovou |
 | "Melhore isso" | vago | diga o que está errado ou peça a revisão do item 3.1 |
 
 ---
@@ -234,7 +235,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 | Peça | Anexar |
 |---|---|
-| Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
+| Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente · **PCCS vigente no período**, quando o pedido for de desvio de função, equiparação salarial ou enquadramento |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |
