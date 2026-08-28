@@ -170,6 +170,24 @@ Não use os embargos para rediscutir mérito — se não houver vício real, dig
 em vez de redigir a peça.
 ```
 
+### 2.7 Contraminuta a embargos de declaração do Reclamante
+```
+Redija contraminuta aos embargos de declaração anexados, com a formatação da skill peca-ect.
+
+Antes de redigir, decida e me diga: o vício alegado existe? Se existir, NÃO gaste a peça
+negando-o — concentre a defesa no que ainda está em disputa (critério de cálculo, alcance
+do suprimento, condicionalidade). Se não existir, diga isso e sustente a inexistência.
+
+ESTRUTURA:
+- Endereçamento com o fundamento da oitiva (art. 897-A, §2º, CLT; art. 1.023, §2º, CPC)
+I   — Delimitação do objeto dos embargos e limites do suprimento
+II  — Mérito, tópico a tópico
+III — Requerimentos, com prequestionamento
+
+Aponte também se o acolhimento abre prazo para complementar recurso já interposto
+(art. 1.024, §4º, CPC).
+```
+
 ---
 
 ## 3. Prompts de apoio
@@ -231,6 +249,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |
 | Embargos | decisão embargada · peça em que a tese omitida foi deduzida |
+| Contraminuta a embargos | embargos do Reclamante · decisão embargada · inicial (para o pedido tido por omitido) |
 
 ---
 

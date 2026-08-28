@@ -24,6 +24,7 @@
 | Recurso de Revista | Sentença/acórdão desfavorável |
 | Quesitos para perícia médica | Ações de doença ocupacional |
 | Manifestações | Sobre documentos do INSS, laudos, etc. |
+| Contraminuta a embargos de declaração | Reclamante embarga alegando omissão na sentença (art. 897-A, § 2º, CLT) |
 
 Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
@@ -79,6 +80,64 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   se a própria empregada assinar posteriormente formulário de reprogramação para período já vencido, isso
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
+
+### 3.7 Honorários de sucumbência — defesa do *quantum* quando a sentença é omissa
+
+Cenário: a ECT sucumbe, mas a sentença nada decide sobre os honorários pedidos pelo Reclamante, e este opõe
+embargos de declaração para suprir a omissão. A omissão costuma ser real — negá-la em bloco desgasta a defesa
+sem evitar a condenação. **A disputa útil é a do critério de cálculo, não a da existência da verba**: entre
+15% sobre o valor da causa e 5% sobre o valor arbitrado à condenação há, tipicamente, duas ordens de grandeza.
+
+**Regra estratégica anterior a tudo:** se a sentença é omissa quanto aos honorários do Reclamante, **a ECT não
+deve suscitar essa omissão** — nem em embargos próprios, nem "para organizar o julgado". O silêncio é um ativo.
+Suscitá-lo provoca a condenação que não existia. Espere os embargos da parte contrária, se vierem.
+
+Argumentos, na ordem em que se sustentam:
+
+1. **Norma de regência é o art. 791-A da CLT, não o art. 85 do CPC.** O art. 791-A é específico do processo do
+   trabalho e posterior, e disciplina exaustivamente limites percentuais (5% a 15%), base de cálculo e critérios
+   de arbitramento. Não havendo omissão a colmatar, não incide o processo comum (art. 769 da CLT e art. 15 do CPC).
+2. **O capítulo de direito intertemporal da própria sentença.** As sentenças em geral abrem com um tópico
+   fixando que a Lei 13.467/2017 rege honorários, custas e periciais, sendo a sentença o marco temporal. Esse
+   capítulo costuma **não ser embargado** — logo, pedir a aplicação do art. 85 do CPC é pedir que o juízo
+   contradiga parte não impugnada do próprio julgado que se quer apenas integrar. É o argumento mais forte,
+   porque não depende de tese controvertida: depende do texto da decisão.
+3. **Pinça sobre a Súmula 219 do TST.** O Reclamante invoca o verbete (Fazenda Pública → percentuais do CPC)
+   para elevar o percentual. Responder que (a) o verbete nasceu em contexto de honorários assistenciais,
+   anterior à sistematização da Lei 13.467/2017, e não prevalece sobre regra legal expressa e superveniente; e
+   (b) **se o CPC vier, vem inteiro** — inclusive o art. 85, § 8º, que impõe arbitramento por apreciação
+   equitativa quando o proveito econômico for inestimável ou irrisório. Não se invoca o Código só na parte que
+   amplia percentual.
+4. **Base de cálculo.** O art. 791-A, *caput*, ordena os critérios: liquidação da sentença → proveito econômico
+   → *residualmente* valor atualizado da causa. Havendo **valor arbitrado à condenação** na própria sentença
+   (comum em obrigação de fazer, ainda que arbitrado "para fins estatísticos"), é sobre ele que o percentual
+   incide. O valor da causa costuma ser convencional (ex.: 12 salários-base) e não traduzir proveito algum.
+   Cuidado: sustentar apenas "não há proveito mensurável" é contraproducente — a própria letra do *caput*
+   remete, nessa hipótese, ao valor da causa, que é o que a parte contrária quer.
+5. **Contradição do próprio pedido.** Quando o Reclamante pede percentual sobre o valor da causa "em razão de o
+   direito pleiteado não ter efeito pecuniário", ele afirma e nega o proveito na mesma frase. Usar a afirmação
+   dele para ancorar o arbitramento equitativo.
+6. **Percentual mínimo de 5%, pelos critérios do art. 791-A, § 2º** (zelo, lugar, natureza e importância,
+   trabalho realizado e tempo exigido): rito sumaríssimo, matéria exclusivamente de direito, tese já pacificada
+   em precedente vinculante — o que reduz o trabalho do causídico —, ausência de dilação probatória relevante,
+   tramitação célere, serviço prestado na comarca do domicílio dos patronos. Relevância social da causa não é
+   critério legal de majoração.
+7. **Repelir a majoração por "resistência" e por atos futuros.** É frequente o embargante sustentar que a ECT
+   não se curvou ao comando judicial e esgotará as instâncias. Responder com: (a) o **próprio julgado** que
+   reconhece o cumprimento da tutela e não aplica um dia de multa; (b) recorrer é exercício do art. 5º, LV, da
+   CF, não conduta apenável; (c) honorários não se arbitram sobre trabalho hipotético de instância superior,
+   que tem sede e momento próprios.
+8. **Destinação da verba — assistência sindical.** Se a inicial declara o Reclamante assistido por sindicato
+   nos termos da **Lei 5.584/70**, por advogada credenciada, a destinação de eventual verba segue o regime
+   próprio dessa assistência. Confirmar a credencial nos autos antes de suscitar.
+9. **Condicionalidade e art. 1.024, § 4º, do CPC.** Consignar que o arbitramento fica subordinado à manutenção
+   do capítulo principal (provido o recurso, inverte-se a sucumbência) e requerer o prazo para complementar as
+   razões do recurso já interposto, nos limites da modificação — art. 1.024, § 4º, do CPC c/c art. 769 da CLT.
+
+Fundamento da própria manifestação: **art. 897-A, § 2º, da CLT** e **art. 1.023, § 2º, do CPC** — a oitiva da
+parte contrária é obrigatória porque o acolhimento acrescenta capítulo condenatório, com efeito modificativo.
+
+Ver modelo completo em `modelos/trabalhista/contraminuta_ed__honorarios_sucumbenciais.md`.
 
 ---
 
