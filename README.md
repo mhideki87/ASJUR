@@ -11,6 +11,7 @@ minuta, não por processamento em massa das petições antigas.
 | [base_conhecimento_juridico_CIVEL.md](base_conhecimento_juridico_CIVEL.md) | Teses recorrentes — contencioso **cível** (rascunho, itens `[REVISAR]` pendentes de validação) |
 | [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (formatação de qualquer peça) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga |
 | [playbook_prompts_ECT.md](playbook_prompts_ECT.md) | Prompts de uso diário + protocolo de atualização da base |
+| [.claude/skills/peca-ect/](.claude/skills/peca-ect/SKILL.md) | Skill que gera as peças em .docx com a formatação da casa — carregada automaticamente pelo Claude Code neste repositório |
 
 ## Como usar (resumo)
 
@@ -21,6 +22,16 @@ minuta, não por processamento em massa das petições antigas.
 3. Ao final de cada sessão em que algo foi minutado, rode o protocolo da seção 6.2 do playbook — o Claude
    aponta tese nova, correção, jurisprudência nova e atualização de modelo, em formato de diff para você
    revisar e commitar.
+
+## Formatação das peças
+
+A formatação não é descrita em prosa: ela é **executável**. A skill `peca-ect` traz o módulo
+`peca_fmt.py`, que monta o `.docx` reaproveitando `modelos/_FORMATO_BASE.docx`, e o `conferir.py`, que
+valida a peça antes do protocolo. Trabalhando dentro deste repositório, o Claude Code carrega a skill
+sozinho — não é preciso pedir.
+
+No claude.ai, a pasta `.claude/skills/` não vira skill: lá os `.md` entram como Project knowledge. Para as
+peças em `.docx`, use o Claude Code.
 
 ## Regra permanente
 

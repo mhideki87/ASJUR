@@ -2,22 +2,43 @@
 
 ## Formatação geral — `_FORMATO_BASE.docx`
 
-Este arquivo é o template visual **de todas as peças**, qualquer tipo ou tema: fonte, margens, cabeçalho com
-logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Marcos Hideki Kamibayashi, OAB/MS
-14.580). Foi extraído de uma peça real aprovada e anonimizada, mantendo cabeçalho/rodapé/estilos **byte-
-idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
-tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
+Template visual **de todas as peças**, qualquer tipo ou tema: página, fonte, cabeçalho com logotipo, rodapé
+com endereço/numeração, bloco de fecho + assinatura — e, desde 08/2026, o **catálogo completo dos sete papéis
+de parágrafo**. Foi regerado a partir de uma peça real aprovada, mantendo cabeçalho, rodapé, estilos,
+logotipo e configuração de página **byte-idênticos** ao original.
 
-Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
-tipo de peça** e precisam ser ajustados a cada uso:
-- Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de
-  polo (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargado, etc.).
-- `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
-  CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
+O corpo do arquivo não é mais um placeholder solto: cada papel de parágrafo aparece uma vez, com texto que
+descreve a si mesmo. Isso existe por um motivo — enquanto o corpo era um placeholder, quem gerasse uma peça
+a partir dele não tinha como saber que existiam retângulo, citação de 10 pt ou alínea, e acabava inventando
+formatação.
 
-Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
-tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
-fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
+| Papel | Onde se usa | Geometria |
+|---|---|---|
+| Tópico principal | grandes divisões: PRELIMINARMENTE, DO MÉRITO, DOS REQUERIMENTOS | retângulo de 0,75 pt, centralizado, negrito, **sem** sublinhado |
+| Subtópico | `1 – TÍTULO` dentro de cada tópico | bloco de 3 cm, negrito **e sublinhado** |
+| Corpo | parágrafo padrão | recuo de 1ª linha de 3 cm, justificado, Arial 11 |
+| Citação em bloco | lei, súmula, ementa, trecho de decisão | bloco de 3 cm, **10 pt**, itálico, entrelinha menor |
+| Alínea | rol de requerimentos | bloco de 3 cm, rótulo `a)` em negrito |
+| Travessão | listas dentro do corpo | recuo 3,6 cm, pendente 0,6 cm |
+| Endereçamento | juízo, autos, rótulos de polo | sem recuo, justificado |
+
+Valores exatos em `.claude/skills/peca-ect/reference/catalogo_estilos.md`.
+
+**Não recrie essa formatação a partir da descrição acima.** Gere a peça com
+`.claude/skills/peca-ect/scripts/peca_fmt.py`, que é a fonte executável do padrão, e confira o resultado com
+`scripts/conferir.py`. A tabela serve para você entender o padrão, não para reimplementá-lo.
+
+Dois pontos do bloco de qualificação **mudam conforme o tipo de peça**:
+- Endereçamento (Vara para 1º grau; TRT24 para recursos/contrarrazões) e rótulos de polo
+  (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargada).
+- `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (art. 847 CLT c/c 336 CPC
+  para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista; art. 897-A,
+  § 2º, CLT c/c art. 1.023, § 2º, CPC para contraminuta de embargos).
+
+### Quando a peça real divergir do template
+
+A peça real vence. Extraia o catálogo dela, atualize `peca_fmt.py`, regere o `_FORMATO_BASE.docx` com
+`scripts/gerar_formato_base.py` e só então produza a peça nova — avisando o que mudou.
 
 ## Modelos por tipo de peça + tema
 
