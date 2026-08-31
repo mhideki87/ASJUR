@@ -3,7 +3,7 @@
 **Consolidado de:** 1 caso-fonte (RO da ECT contra sentença que reconheceu responsabilidade subsidiária por
 débitos de transportadora contratada, motorista de carreta, TRT24), mais 1 peça-modelo anterior do mesmo
 tipo fornecida pelo usuário.
-**Última atualização:** 2026-08-31 — criação.
+**Última atualização:** 2026-08-31 — criação do par `.md` + `.docx` anonimizado.
 
 ---
 
@@ -121,15 +121,54 @@ família de peças foi conferido em fonte primária** — conferir antes de cada
 
 ## Formatação
 
-Cabeçalho com logotipo, rodapé, margens e estilos vêm do `.docx`/`.odt` da peça-modelo — **abrir o binário
-e substituir o corpo**, nunca recriar a formatação a partir da descrição. Vocabulário de parágrafos do
-padrão em uso: corpo justificado com recuo de primeira linha de 3 cm, entrelinha exata de 18 pt, Arial 11;
-título de divisão em **caixa com borda**, centralizado e em negrito; subtítulo numerado em **negrito e
-sublinhado**, recuado a 3 cm; citação em Arial 10 com recuo de 4 cm e entrelinha simples; fecho "Nesses
-Termos, / Pede Deferimento." e assinatura centralizada.
+**Use o `.docx` deste diretório** — `recurso_ordinario__resp_subsidiaria_transporte.docx` —, abrindo o
+arquivo e substituindo os campos entre colchetes. Não recriar a formatação a partir desta descrição.
 
-`[REVISAR: o par .docx anonimizado deste modelo ainda não foi criado — depende de aprovação do usuário
-quanto a texto oculto e metadados, por ser repositório público.]`
+Padrão que o arquivo carrega: A4, margens 3 cm à esquerda e no topo, 2 cm à direita e embaixo; Arial 11;
+entrelinha **exata** de 18 pt; corpo justificado com recuo de primeira linha de 3 cm; título de divisão em
+**caixa com borda**, centralizado e em negrito; subtítulo numerado em **negrito e sublinhado**, recuado a
+3 cm; citação em Arial 10 com recuo de 4 cm e entrelinha simples; item alfabético recuado a 3 cm sem recuo
+de primeira linha; fecho "Nesses Termos, / Pede Deferimento." e bloco de assinatura centralizado.
+Cabeçalho com o logotipo e "Assessoria Jurídica MS/DEJUR/SEJUR" e rodapé com endereço e numeração vêm do
+próprio pacote.
+
+### Campos a preencher no `.docx`
+
+Identificação: `[Nº]ª VARA DO TRABALHO`, `[Nº DO PROCESSO]`, `[NOME DO RECLAMANTE]`,
+`[NOME DA 1ª RECLAMADA]`, `[Id DA SENTENÇA]`, `[fls./Id DA CONTESTAÇÃO]`.
+
+Contrato: `[Nº/ANO DO CONTRATO]`, `[GRUPO DE LINHAS]`,
+`[Id DO CONTRATO E DOS RESPECTIVOS TERMOS ADITIVOS]`,
+`[Ids DOS DOCUMENTOS DE FISCALIZAÇÃO JUNTADOS COM A CONTESTAÇÃO]`, e a escolha entre Lei 13.303/2016 e
+Lei 8.666/93 conforme o regime da licitação.
+
+Fatos da execução: `[DATA DE ADMISSÃO]`, `[DATA DA DISPENSA]`, `[ITINERÁRIO DA LINHA]`,
+`[DURAÇÃO DO PERÍODO DE RESERVA]`, `[SISTEMA DE CONTROLE ELETRÔNICO DE JORNADA UTILIZADO]`,
+`[RUBRICA DE DIÁRIA CONSTANTE DOS RECIBOS]`, `[RUBRICA DE TEMPO DE ESPERA CONSTANTE DOS RECIBOS]`.
+
+Sentença e CCT: `[RELACIONAR AS PARCELAS DEFERIDAS NA SENTENÇA, NA ORDEM DO DISPOSITIVO]`,
+`[Nº E TÍTULO DO CAPÍTULO DA SENTENÇA SOBRE A JORNADA]`,
+`[Nº E TÍTULO DO CAPÍTULO DA SENTENÇA SOBRE A EQUIPARAÇÃO]`, `[Nº]` do item do dispositivo,
+`[CLÁUSULAS APONTADAS NA SENTENÇA]`, `[VIGÊNCIAS]`, `[OBJETO DA CLÁUSULA]`, `[PERCENTUAL]` dos honorários.
+
+**Cinco transcrições da sentença** que sustentam a peça e precisam ser copiadas literalmente do caso:
+o trecho que afirma a insuficiência da fiscalização; o que atribui à ECT o ônus de demonstrá-la; o que
+enuncia a premissa correta; o que, na sequência, deduz a culpa das próprias irregularidades reconhecidas;
+e o que reconhece a validade formal dos controles de jornada. **A justaposição do terceiro com o quarto é
+o argumento** — sem as duas transcrições, o capítulo 3 perde a força.
+
+Permanecem no arquivo, de propósito, duas marcações de conferência: o `[REVISAR]` sobre o Tema 59 e o
+Tema 1.118, e o `[ATENÇÃO]` sobre a modulação da ADI 5322.
+
+### Anonimização — o que foi conferido
+
+O `.docx` foi montado sobre o pacote de uma peça real, com o corpo integralmente substituído. Auditoria
+executada antes do commit, parte por parte do pacote: nenhum nome de parte, número de processo, Id de
+documento, valor ou data de caso concreto em qualquer XML (inclusive cabeçalho, rodapé, `styles.xml`,
+`settings.xml` e relacionamentos); zero ocorrências de texto oculto (`vanish`, `webHidden`, texto branco);
+zero revisões controladas, comentários, campos, marcadores e notas; `docProps/core.xml` sem autor, título
+e assunto; `docProps/app.xml` sem empresa e sem as estatísticas herdadas do documento-fonte. A única mídia
+é o logotipo institucional da ECT.
 
 ## Ligação com a base de teses
 
