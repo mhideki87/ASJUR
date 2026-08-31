@@ -35,6 +35,19 @@ com **prequestionamento**.
 `[REVISAR: confirmar se cabeçalho, fonte, espaçamento e demais regras da trabalhista também valem aqui,
 ou se cível tem modelo próprio]`
 
+### Rodapé — texto confirmado
+
+O rodapé de todas as peças é, **confirmado pelo usuário em 31/08/2026**:
+
+```
+Avenida Calógeras nº 2309 – 2º andar – Centro – Campo Grande – MS – Fone 2109-1004.
+```
+
+Os quatro `.docx` deste diretório já o carregam. **Cuidado ao reaproveitar peça antiga:** circulam
+versões com telefone desatualizado — `3389-5104` (aparece em `.odt` de recurso de 2024/2025) e
+`3301-2004` (aparece em contestação protocolada em 2025). Ao montar peça nova sobre o pacote de um
+arquivo antigo, conferir o rodapé antes de entregar.
+
 ## Modelos por tipo de peça + tema
 
 Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:
