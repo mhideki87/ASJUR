@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, Tema 23]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, dispensa de função, rebaixamento de função, mudança de função, estabilidade financeira, irredutibilidade salarial, direito adquirido, Tema 23]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-27
+ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/remuneracao_singular.md]
+atualizado: 2026-08-31
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -18,6 +18,20 @@ atualizado: 2026-08-27
 
 Reclamante que exerceu função gratificada, foi revertido ao cargo efetivo e pede a incorporação da
 parcela ao salário — com base nas normas internas (Módulos 55 e 36 do MANPES) e/ou na Súmula 372, I, do TST.
+
+**Regra de leitura — conferir antes de seguir adiante.** A ficha cobre dois cenários que não se confundem:
+
+| Cenário | O que ler | O que **não** ler |
+|---|---|---|
+| A inicial invoca **norma interna** (Módulo 55/36, FAT/FAO/ITF/GPTF) | tudo | — |
+| A inicial invoca **só** a Súmula 372, I, e o direito adquirido pré-reforma | "Tese central" *só na parte de Súmula 372/Tema 23*, "Fundamentos de apoio", "Pontos sensíveis" | seções de **Normas internas**, **Módulos 55/36** e **Súmula 51** — e, na peça, todo o bloco 2 do modelo |
+
+Não abrir os blocos de norma interna "por precaução": se não há pedido fundado nelas, discuti-las só entrega
+ao juízo uma discussão que a inicial não deduziu. Menção a Módulo 36 **dentro de ementa transcrita** pela
+inicial não é causa de pedir.
+
+Se a parcela pedida é o **"Complemento Remun. Singular"**, abrir também
+[`remuneracao_singular.md`](remuneracao_singular.md) — é lá que está o *quanto* pode ser incorporado.
 
 ## Normas internas envolvidas
 
@@ -52,6 +66,18 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Pontos sensíveis / variações
 
+- **Conferir primeiro se houve reversão ao cargo efetivo — é a pergunta que antecede todo o resto.** A
+  Súmula 372, I, pressupõe que o empregador "*revert[a] o empregado a seu cargo efetivo*". Quando o
+  empregado passa de uma função gratificada para **outra função gratificada** (ex.: de Assistente Comercial
+  II para Assistente Comercial III), sem um dia de intervalo e seguindo a receber parcela de função, **não
+  há reversão e o item I sequer incide**. O item II também não, porque ele exige o empregado "*mantido no
+  exercício da função comissionada*" — e a função mudou. Não houve supressão: houve **mudança de função com
+  o valor de tabela correspondente**. É defesa mais forte que a discussão de direito adquirido, porque
+  independe do requisito temporal e da sorte do item I da súmula. Provar pela **ficha cadastral** (seção
+  FUNÇÕES) e pela **ficha financeira** (parcela de função que continua sendo paga).
+- **Conferir o tipo da função na ficha cadastral.** Iniciais descrevem como "gerencial", "de confiança" ou
+  "especial" função que a ficha classifica como **Técnica**. A qualificação errada é impugnável e enfraquece
+  a alegação de fidúcia especial.
 - A escolha da **variante correta da Súmula 51** depende do cruzamento de duas datas: quando o Reclamante
   completou o requisito temporal (5 anos FAT/FAO; 10 anos ITF/GPTF) e a data de revogação do módulo
   correspondente. Conferir sempre nos documentos antes de escolher — é o ponto mais sensível do tema.
@@ -65,6 +91,8 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 - Prescrição total do pedido: [teses/trabalhista/prescricao.md](../trabalhista/prescricao.md)
 - Preliminar padrão de equiparação à Fazenda Pública:
   [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
+- Quanto pode ser incorporado, quando a parcela é complemento de remuneração singular:
+  [teses/trabalhista/remuneracao_singular.md](remuneracao_singular.md)
 - POSTALIS, reajuste de ACT, honorários: [teses/trabalhista/temas_acessorios.md](temas_acessorios.md)
 - Estrutura completa da peça (modelo modular, com blocos condicionais):
   `modelos/trabalhista/contestacao__incorporacao_funcao.md` + `.docx`

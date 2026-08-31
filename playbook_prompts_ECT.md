@@ -235,6 +235,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Peça | Anexar |
 |---|---|
 | Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
+| Contestação — incorporação de função | acima **+ fichas financeiras de TODO o período contratual** (não só as juntadas pela inicial) · ficha cadastral · **Tabela de Funções vigente na data do fato** · portaria/processo administrativo da dispensa da função |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |
