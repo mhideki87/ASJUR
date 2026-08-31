@@ -13,9 +13,10 @@ A base é **fatiada por tema** e lida sob demanda: nenhuma sessão lê a base in
 | [CONTEXTO.md](CONTEXTO.md) | Perfil do usuário e regras inegociáveis | **Sempre**, por inteiro (é curto) |
 | [INDICE.md](INDICE.md) | Roteamento `gatilho → ficha de tese`; tabela gerada por script | Sempre, logo depois do CONTEXTO |
 | [teses/](teses/README.md) | Uma **ficha por tema**, em `trabalhista/`, `civel/` e `transversal/` | Só as fichas cujo gatilho bateu com o objeto da demanda |
-| [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (formatação de qualquer peça) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga | Só o modelo do tipo de peça + tema da sessão |
+| [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (arquivo base clonado pela skill `formatar-minuta`) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga | Só o modelo do tipo de peça + tema da sessão |
 | [playbook_prompts_ECT.md](playbook_prompts_ECT.md) | Prompts de uso diário + protocolo de atualização da base | Só a seção do tipo de peça |
 | [CLAUDE.md](CLAUDE.md) | Instruções para sessões de **Claude Code** (local e cloud): protocolo de consulta à base, conversão automática dos documentos da parte (PDF/DOC) para `.md`, título da sessão com o nome do Reclamante | Automático |
+| [.claude/skills/formatar-minuta/](.claude/skills/formatar-minuta/SKILL.md) | Skill com o **padrão único de formatação de toda peça** (fonte, margens, espaçamento, tópico em retângulo, numeração, cabeçalho, rodapé, assinatura) + gerador do `.docx` a partir de `_FORMATO_BASE.docx` | Sempre que uma peça for redigida ou formatada |
 | [.claude/skills/atualizar-base-conhecimento/](.claude/skills/atualizar-base-conhecimento/SKILL.md) | Skill que consolida na base o que a sessão produziu de novo e regenera o índice | Ao final de cada tarefa |
 | [LACUNAS.md](LACUNAS.md) | O que falta validar na base e não pertence a nenhum tema | Em sessão de manutenção |
 | [scripts/atualizar_indice.py](scripts/atualizar_indice.py) | Valida os metadados das fichas e regenera a tabela do `INDICE.md` | Ao criar/alterar ficha |

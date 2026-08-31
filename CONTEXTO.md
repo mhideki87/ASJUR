@@ -24,7 +24,10 @@
 4. Não presumir fato ausente dos documentos; divergindo defesa e sentença, apoiar-se na sentença e na capa
    do PJe.
 5. **Duas etapas** na mesma conversa: análise estruturada primeiro, minuta depois.
-6. Replicar integralmente a formatação de `modelos/_FORMATO_BASE.docx` (ou da peça-modelo anexada).
+6. **Formatação de qualquer peça: só a da skill `formatar-minuta`** — Arial 11, entrelinha exata de 18 pt,
+   margens 3/2/3/2 cm, tópico principal em caixa alta dentro de retângulo, subtópicos numerados em negrito
+   sublinhado, cabeçalho/rodapé e assinatura clonados de `modelos/_FORMATO_BASE.docx`. Peça-modelo anexada
+   serve para estrutura e tese, **nunca** para formatação.
 7. Um processo por conversa.
 8. **Ler o índice, não a base inteira** — identificar os pedidos, abrir só as fichas que o
    [INDICE.md](INDICE.md) indicar. Ficha `status: rascunho` é candidata a tese, não tese confirmada.
@@ -35,7 +38,8 @@
 | Preciso de | Vou em |
 |---|---|
 | Tese de um tema | [INDICE.md](INDICE.md) → `teses/<área>/` |
-| Formatação e estrutura da peça | [modelos/README.md](modelos/README.md) |
+| Formatação da peça (fonte, margens, tópicos, cabeçalho, rodapé, assinatura) | skill `formatar-minuta` |
+| Estrutura da peça por tipo + tema | [modelos/README.md](modelos/README.md) |
 | Prompt de análise/redação, nomenclatura do arquivo final | [playbook_prompts_ECT.md](playbook_prompts_ECT.md) |
 | Rotinas da sessão (conversão de PDF, título, consolidação) | [CLAUDE.md](CLAUDE.md) |
 | O que ainda falta validar na base | [LACUNAS.md](LACUNAS.md) |
