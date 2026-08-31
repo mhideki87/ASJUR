@@ -53,6 +53,20 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   financeiras — assim como "gratificação natalina" e "13º salário" pedidos em separado são **a mesma verba**,
   em duplicidade.
 
+- **Impugnação ao valor do pedido que é mero resíduo aritmético** — conferir se o valor atribuído ao pedido
+  principal não é apenas a diferença necessária para fechar o valor da causa (soma dos pedidos = valor da
+  causa, e honorários = percentual sobre ele). Quando é, não há liquidação nenhuma: impugnar por afronta ao
+  art. 840, §1º, da CLT e requerer a **limitação da condenação aos valores atribuídos** (art. 492 do CPC).
+- **Impugnação a ementa inverificável** — aresto transcrito sem número de processo, órgão julgador, relator e
+  data de julgamento é inservível como precedente; impugnar especificamente.
+- **Dispensa da audiência de conciliação** — a tentativa de conciliação é ato **imperativo** no processo do
+  trabalho (arts. 764 e 846 da CLT), fora da disponibilidade unilateral das partes; não há omissão que
+  autorize o art. 319, VII, do CPC (art. 769 da CLT).
+- **Inversão do ônus da prova** — o CDC não rege relação de emprego (impertinente o art. 6º, VIII); o art.
+  818, §1º, da CLT exige decisão fundamentada e **prévia**; e, nos temas de parcela de função, o Reclamante
+  **já detém e já juntou** ficha cadastral e fichas financeiras, o que afasta qualquer dificuldade
+  probatória.
+
 ## Ligações
 
 - Tema principal a que esses acessórios normalmente se somam:

@@ -22,7 +22,10 @@
 3. Listar ao final, separadamente, **o que precisa de conferência humana**: datas de intimação e contagem
    de prazo, cômputo de tempo em função gratificada, Ids e cláusulas, e toda a jurisprudência citada.
 4. Não presumir fato ausente dos documentos; divergindo defesa e sentença, apoiar-se na sentença e na capa
-   do PJe.
+   do PJe. **Não construir linha de defesa sobre a ausência de uma parcela, rubrica ou registro sem ter em
+   mãos o documento de todo o período** — ausência no recorte juntado pela inicial não é ausência no
+   contrato. Enquanto o documento completo não vier, a hipótese fica marcada `[REVISAR: ...]`, nunca
+   incorporada à peça como fato.
 5. **Duas etapas** na mesma conversa: análise estruturada primeiro, minuta depois.
 6. Replicar integralmente a formatação de `modelos/_FORMATO_BASE.docx` (ou da peça-modelo anexada).
 7. Um processo por conversa.

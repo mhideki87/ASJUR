@@ -2,10 +2,10 @@
 area: trabalhista
 tema: Remuneração singular e limite quantitativo da incorporação
 slug: remuneracao_singular
-status: rascunho
-gatilhos: [remuneração singular, complemento de remuneração singular, complemento remun. singular, valor singular, valor convencional, gratificação de função convencional, tabela de funções, tabela de função, rubrica 051106, rubrica 051003, valor a incorporar, base de cálculo da incorporação, redução do complemento, MANPES Módulo 1]
+status: validada
+gatilhos: [remuneração singular, complemento de remuneração singular, complemento remun. singular, valor singular, valor convencional, gratificação de função convencional, tabela de funções, tabela de função, rubrica 051106, rubrica 051003, rubrica 056106, valor a incorporar, base de cálculo da incorporação, redução do complemento, parcela mensal fixa, mudança de função, MANPES Módulo 1]
 pecas: [contestação, contrarrazões, recurso de revista]
-modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
+modelos: [modelos/trabalhista/contestacao__remuneracao_singular.md, modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/temas_acessorios.md]
 atualizado: 2026-08-31
 ---
@@ -97,10 +97,16 @@ Se o juízo deferir a incorporação, requerer que ela reproduza a metodologia d
 ## Como provar nos autos (roteiro de conferência aritmética)
 
 As próprias fichas financeiras do Reclamante provam a tese. Em caso real, todas as relações abaixo fecharam
-**com exatidão de centavos** em todas as competências examinadas (2022-2026):
+**com exatidão de centavos** em **21 anos** de série (2005-2026) — motivo pelo qual a primeira providência da
+defesa é **requisitar a ficha financeira de todo o período contratual**, e não trabalhar com o recorte que a
+inicial juntou.
 
 1. **`salário + complemento = valor de tabela da função`** — conferir mês a mês; a soma permanece constante
-   entre reajustes da tabela.
+   entre reajustes da tabela, alterando-se **apenas** quando a própria tabela é reajustada. Em caso real a
+   série exibiu blocos de 11, 12, 16, 20 e — o mais eloquente — **64 competências consecutivas** com soma
+   rigorosamente idêntica. Procurar o bloco mais longo e usá-lo: se ele coincidir com o período em que a
+   inicial alega ter consolidado o direito a uma "parcela mensal fixa", a contradição é fatal (no caso real,
+   nesses 64 meses o salário subiu R$ 875,81 e o complemento caiu **exatamente** R$ 875,81 — 44% da parcela).
 2. **Reduções do complemento compensando aumentos de salário, centavo por centavo** — procurar as
    competências de **promoção horizontal** (antiguidade/mérito) e de **reajuste de data-base em valor fixo**
    (ex.: cláusulas de ACT que concedem R$ X,00 em vez de percentual). Em cada uma delas o complemento cai
@@ -108,7 +114,9 @@ As próprias fichas financeiras do Reclamante provam a tese. Em caso real, todas
    e o reajuste percentual da tabela de função).
    **Esse é o achado mais forte:** são reduções do complemento operadas anos antes da ação e **nunca
    impugnadas pelo Reclamante** — sua própria folha desmente a premissa de "parcela mensal fixa incorporada
-   ao patrimônio".
+   ao patrimônio". Em caso real foram **20 reduções**, 17 delas com compensação exata centavo por centavo.
+   Montar o quadro mês a mês (competência · complemento antes → depois · variação · aumento do salário) e
+   levá-lo à peça em citação recuada: é o núcleo persuasivo da defesa.
 3. **Anuênio = `% de tempo de serviço × (salário + parcela de função)`** — confirma que a base é o
    salário somado à parcela, e permite checar a série.
 4. **CIP = percentual fixo do *valor de referência da função*** — no regime singular, percentual sobre o
@@ -116,26 +124,50 @@ As próprias fichas financeiras do Reclamante provam a tese. Em caso real, todas
    a folha da ECT trata o valor de tabela (e não o complemento) como o valor da função.
    `[REVISAR: o percentual observado em um caso concreto foi 4,797%; conferir a origem (cláusula de ACT) e se
    é uniforme antes de afirmar o número em peça]`
-5. **Rateio *pro rata*** no mês da troca de função (dias no regime antigo × dias no novo) confirma a
+5. **Rubricas de devolução e de diferença do complemento** — procurar **`056106` (Dev. Compl. Rem.
+   Singular)** e **`052106` (Dif. Complemento Rem. Singular)** em toda a série. A rubrica de devolução é
+   prova de conduta: significa que o Reclamante **restituiu à ECT** valores do complemento recebidos a maior
+   depois do recálculo, sem qualquer protesto. Em caso real houve devolução em **cinco exercícios seguidos**,
+   e os valores de dois deles coincidiam **exatamente** com as reduções do mesmo ano — eram a recuperação do
+   mês pago antes do recálculo. Quem devolve parcela recebida a maior reconhece, por comportamento
+   inequívoco, que a parcela é variável.
+6. **Rateio *pro rata*** no mês da troca de função (dias no regime antigo × dias no novo) confirma a
    metodologia.
-6. **Comparação singular × convencional na nova função** — calcular `valor singular da nova função − salário`
+7. **Comparação singular × convencional na nova função** — calcular `valor singular da nova função − salário`
    e comparar com o valor convencional da nova função: se a ECT pagou o convencional, foi porque era o mais
    vantajoso, exatamente como manda o item 2.171. Quantificar essa vantagem em reais é argumento forte
    contra a alegação de "redução arbitrária".
 
 ## Pontos sensíveis / variações
 
-- **Migração do regime convencional para o singular.** Há indício de que o regime de remuneração singular
-  para funções técnicas foi implantado por ACT, com **conversão retroativa** — em caso real, a folha de
-  janeiro/2022 registrou simultaneamente `052313 Dif. Compl. Rem. Singular ACT` (crédito) e
-  `056312 Dev. Gratificação de Função Conv. ACT` (estorno), sinal de que antes disso o empregado recebia
-  **gratificação de função convencional**, não complemento singular.
-  **Consequência:** se a rubrica cuja incorporação se pede não existia em 11/11/2017, não há como ter havido
-  aquisição de direito sobre ela — o marco temporal da tese adversa cai por falta de objeto.
-  `[REVISAR: confirmar a data e o ACT que instituiu o regime singular para funções técnicas]`
-- **Requisitar sempre as fichas financeiras de todo o período contratual**, não só as juntadas pela inicial.
-  É comum a inicial juntar apenas os últimos anos — justamente os do regime singular — omitindo o período em
-  que a parcela era convencional.
+- **⚠️ Hipótese que já caiu — não repetir.** Uma versão anterior desta ficha registrava que o regime
+  singular teria sido implantado por ACT em 2021/2022 e que, por isso, a rubrica 051106 poderia **não
+  existir** em 11/11/2017, fulminando o marco de direito adquirido. **A hipótese é falsa.** Confrontada com a
+  ficha financeira do período contratual inteiro, a rubrica 051106 aparece **desde o primeiro mês de exercício
+  da função, em 2005**, e de forma contínua.
+  A explicação correta dos estornos de janeiro/2022 (`052313` crédito + `056312` estorno) é outra:
+  **implementação atrasada do ACT**, que recalculou retroativamente o período em que se pagava o valor
+  convencional e devolveu o empregado ao regime singular — ver o ponto seguinte. Ou seja, o que parecia
+  "criação da rubrica" era, na verdade, prova da **alternância** entre os dois regimes.
+  **Lição de método:** estorno retroativo não prova inexistência de rubrica. Nunca construir linha de defesa
+  sobre a ausência de uma parcela sem a ficha financeira de **todo** o período contratual em mãos.
+- **Alternância entre o regime singular e o convencional na mesma função — a prova mais forte da defesa.**
+  Procurar na série as competências em que a rubrica **`051003` (Gratificação de Função Conv.) aparece no
+  lugar da `051106`**, sem que a função tenha mudado. Elas existem, e a razão é a regra dos itens 2.37 e
+  2.171 do MANPES: quando o salário sobe o suficiente para que o complemento singular resulte **inferior** ao
+  valor convencional da função, passa-se a pagar o convencional, porque é o mais vantajoso; reajustada a
+  tabela, retorna-se ao singular.
+  Em caso real isso ocorreu por **13 competências consecutivas**, e a ECT não apenas retornou de ofício ao
+  regime singular como **recalculou retroativamente** o período — estornando a gratificação convencional
+  (`056312`, valor que fechava em número exato de meses) e pagando a diferença do complemento (`052313`).
+  **Duplo valor defensivo:** (i) o Reclamante já experimentou, e não impugnou, exatamente a "substituição de
+  rubrica" que depois reputou supressão ilícita; (ii) prova-se que a ECT aplica a norma **nos dois sentidos**,
+  sempre no que favorece o empregado, inclusive com efeito retroativo e por iniciativa própria — o que destrói
+  a alegação de conduta arbitrária ou de represália.
+- **Requisitar sempre as fichas financeiras de todo o período contratual**, não só as juntadas pela inicial —
+  e não só para conferir a rubrica: é na série longa que estão os blocos de soma constante, as reduções, as
+  devoluções e a alternância de regime. Sem ela, a defesa trabalha às cegas (foi o que produziu a hipótese
+  falsa acima).
 - **Não confundir as rubricas.** `051106` = Complemento Remun. Singular; `051003` = Gratificação de Função
   Conv. Iniciais trocam os códigos com frequência, e a troca é impugnável.
 - A tabela de funções é reajustada pelo dissídio (ver [`temas_acessorios.md`](temas_acessorios.md)). Quando
@@ -146,9 +178,17 @@ As próprias fichas financeiras do Reclamante provam a tese. Em caso real, todas
 
 ## Jurisprudência (só o que já está confirmado)
 
-Nenhum aresto confirmado ainda. `[REVISAR: procurar precedente que tenha enfrentado especificamente a
-metodologia de cálculo da parcela incorporada em regime de remuneração singular — se houver decisão do TRT24
-ou do TST sobre o ponto, registrar aqui]`
+- **Ag-AIRR-24942-23.2019.5.24.0007** — 5ª Turma, Rel. Min. Douglas Alencar Rodrigues, DEJT 12/04/2024.
+  Aresto **transcrito pela própria inicial** em caso real, e que, no trecho colacionado, consigna que
+  *"a incorporação da gratificação ao seu salário deve ser feita com base no cálculo disposto no módulo 36,
+  item 2.4.1, documento interno elaborado pela própria recorrente, como bem determinado pela r. sentença de
+  origem"*. Vale dizer: **o precedente invocado pelo Reclamante determina que a incorporação siga a
+  metodologia de cálculo da norma interna da ECT** — exatamente o que sustenta o bloco *ad cautelam* acima.
+  Usar sempre que o autor transcrever este aresto (é frequente), virando-o contra a pretensão de incorporar
+  valor nominal congelado.
+
+`[REVISAR: ainda não há precedente conhecido que tenha enfrentado **especificamente** a metodologia da parcela
+em regime de remuneração singular; registrar aqui a primeira decisão do TRT24 ou do TST sobre o ponto]`
 
 ## Ligações
 
@@ -159,10 +199,11 @@ ou do TST sobre o ponto, registrar aqui]`
 
 ## Lacunas
 
-- [ ] Status `rascunho`: a **aritmética** está conferida contra documentos de caso real, mas a **tese
-      jurídica** do limite quantitativo ainda não foi testada em peça protocolada nem em decisão. Promover a
-      `validada` depois da primeira sentença que a enfrentar.
-- [ ] Data e ACT que instituíram o regime de remuneração singular para funções técnicas.
-- [ ] Origem normativa do percentual da CIP sobre o valor de referência da função.
+- [ ] Status promovido a `validada` (2026-08-31) porque a ficha foi **usada em contestação real** e a
+      aritmética está conferida em 21 anos de série. Ressalva: a **tese jurídica** do limite quantitativo
+      ainda não foi apreciada em sentença — registrar aqui o resultado da primeira decisão que a enfrentar.
+- [ ] Qual cláusula de ACT define o percentual da CIP sobre o valor de referência da função.
+- [ ] Identificar o ACT cuja implementação atrasada gerou o recálculo retroativo entre os regimes
+      (rubricas `052313` e `056312`).
 - [ ] Como o TRT24 tem quantificado a incorporação quando a parcela é complemento singular (valor nominal
       congelado ou metodologia da tabela).

@@ -50,6 +50,15 @@ direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da
 - **Súmula 372 do TST** — item I cancelado `[REVISAR: conferir data e teor exatos do cancelamento antes
   de citar]`.
 - **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (art. 927 do CPC).
+- **Distinção dos precedentes que o Reclamante transcreve — técnica que funciona e é barata.** As iniciais
+  deste tema colacionam sempre os mesmos arestos da SBDI-1 e de TRTs sobre irretroatividade da Lei
+  13.467/2017. Ler as ementas transcritas procurando **as datas que elas próprias declaram**: em caso real,
+  todas cuidavam de empregados dispensados da função **antes ou logo após 11/11/2017** (supressão "no início
+  de 2017"; exercício "de março de 2005 a janeiro de 2016"; gratificação "de 31/12/1993 a 2/8/2018";
+  supressão "em setembro de 2020"). Quando o fato gerador do caso em mãos é **muito posterior** à reforma, a
+  *ratio* da irretroatividade que o autor invoca é justamente o que **impede** a aplicação do precedente —
+  o aresto se volta contra quem o citou. Distinguir pela data declarada na própria ementa, sem precisar
+  discutir o mérito do precedente.
 - Art. 8º, §2º, da CLT; *ratio decidendi* de precedentes do STF; **salário-condição**;
   legalidade administrativa.
 
@@ -57,6 +66,13 @@ direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da
 
 Precedentes do TST sobre a própria ECT e os mesmos normativos:
 
+- **Ag-AIRR-24942-23.2019.5.24.0007** — 5ª Turma, Rel. Min. Douglas Alencar Rodrigues, DEJT 12/04/2024.
+  Aresto que as iniciais transcrevem **a favor** do Reclamante (reestruturação administrativa não é justo
+  motivo), mas cujo trecho colacionado também consigna que *"a incorporação da gratificação ao seu salário
+  deve ser feita com base no cálculo disposto no módulo 36, item 2.4.1, documento interno elaborado pela
+  própria recorrente"* — isto é, a incorporação segue a **metodologia de cálculo da norma interna da ECT**.
+  Aproveitar no bloco *ad cautelam* de limitação do valor. Ver
+  [remuneracao_singular.md](remuneracao_singular.md).
 - RR-10652-45.2019.5.03.0182 — 2ª Turma, Min. Liana Chaib, DEJT 23/02/2024
 - RR-10662-35.2018.5.03.0179 — 6ª Turma, Min. Kátia Magalhães Arruda, DEJT 13/06/2023
 - RRAg-0010959-96.2017.5.03.0140 — 3ª Turma, Min. Mauricio Godinho Delgado, DEJT 26/05/2023
