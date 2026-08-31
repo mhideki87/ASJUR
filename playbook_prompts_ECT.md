@@ -256,9 +256,19 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
-Nome do arquivo final: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt`. Abreviações: `Cont` =
-contestação · `RR` = recurso de revista · `Inc Fun` = incorporação de função · `Manifest` = manifestação.
-Exemplo de padrão: `Cont_-_Inc_-_[NOME_DA_PARTE].odt` (nenhum nome real neste repositório).
+Nome do arquivo final: `Tipo - Tema abreviado - Marcador - NOME DA PARTE.odt` — **sem `_`** (espaço
+simples no lugar) e com os tópicos separados por ` - ` (espaço, hífen, espaço). O marcador (rito, fase ou
+destino: `PRINT`, `Juntada`, `TRT24`) é opcional; o nome da parte vem por último, em caixa alta.
+Exemplo de padrão: `RO - Resp Subs - PRINT - NOME DA PARTE.odt` (nenhum nome real neste repositório).
+
+Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
+`RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração. Abreviações de tema:
+`Inc Fun` = incorporação de função · `Resp Subs` = responsabilidade subsidiária. Abreviação nova criada em
+sessão entra nesta lista.
+
+A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
+citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do
+repositório (`modelos/<área>/<tipo_peca>__<tema>.md`, em snake_case), que segue `modelos/README.md`.
 
 ---
 
