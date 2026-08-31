@@ -23,7 +23,7 @@ Tipo - Tema abreviado - Marcador - NOME DA PARTE.ext
 Exemplo do formato (nome de parte sempre fictício neste repositório, que é público):
 
 ```
-RO - Resp Subs - PRINT - NOME DA PARTE.odt
+RO - Resp Subs - EMPREGADORA - NOME DA PARTE.odt
 ```
 
 Quatro regras, nessa ordem de prioridade:
@@ -42,7 +42,7 @@ Quatro regras, nessa ordem de prioridade:
 |---|---|---|
 | Tipo | sim | abreviação da peça — ver tabela abaixo |
 | Tema abreviado | sim | do que trata (`Resp Subs`, `Inc Fun`, `Insalub`) — abreviado, não a ementa |
-| Marcador | não | rito, fase ou destino da peça (`PRINT`, `Juntada`, `TRT24`) |
+| Marcador | não | o que distingue este caso dos outros do mesmo tema — em geral a **empregadora principal** (tomadora/prestadora); também serve para rito ou fase |
 | NOME DA PARTE | sim | Reclamante/Autor; havendo mais de um, o primeiro + `e outros` |
 
 Abreviações de tipo já em uso (`playbook_prompts_ECT.md`, seção 5.1): `Cont` = contestação ·

@@ -257,9 +257,10 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
 Nome do arquivo final: `Tipo - Tema abreviado - Marcador - NOME DA PARTE.odt` — **sem `_`** (espaço
-simples no lugar) e com os tópicos separados por ` - ` (espaço, hífen, espaço). O marcador (rito, fase ou
-destino: `PRINT`, `Juntada`, `TRT24`) é opcional; o nome da parte vem por último, em caixa alta.
-Exemplo de padrão: `RO - Resp Subs - PRINT - NOME DA PARTE.odt` (nenhum nome real neste repositório).
+simples no lugar) e com os tópicos separados por ` - ` (espaço, hífen, espaço). O marcador (empregadora, rito, fase ou
+destino) é opcional e costuma ser a **empregadora principal**; o nome da parte vem por último, em caixa
+alta. Exemplo de padrão: `RO - Resp Subs - EMPREGADORA - NOME DA PARTE.odt` (nenhum nome real neste
+repositório).
 
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração. Abreviações de tema:
