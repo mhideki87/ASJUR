@@ -2,7 +2,7 @@
 name: nomear-minuta
 description: >-
   Define o nome do arquivo de toda minuta entregue ao usuário no padrão
-  "Tipo - Tema - Marcador - NOME DA PARTE": espaço no lugar de "_" e " - " entre os tópicos.
+  "Tipo - Tema - NOME DA PARTE": espaço no lugar de "_" e " - " entre os tópicos.
   DISPARE sempre que você for gerar, salvar, anexar, renomear ou apenas citar o nome de um arquivo de peça
   (contestação, contrarrazões, recurso ordinário, recurso de revista, quesitos, manifestação, embargos,
   impugnação aos cálculos, petição de juntada) — em .odt, .docx, .md, .txt ou .pdf —, e também quando o
@@ -17,13 +17,15 @@ description: >-
 ## Padrão
 
 ```
-Tipo - Tema abreviado - Marcador - NOME DA PARTE.ext
+Tipo - Tema abreviado - [bloco livre] - NOME DA PARTE.ext
 ```
 
-Exemplo do formato (nome de parte sempre fictício neste repositório, que é público):
+O bloco do meio é opcional e livre — entra quando o usuário indicar, com o conteúdo que ele indicar; não
+tente adivinhar o que colocar ali. Sem ele, o nome tem três blocos. Exemplo do formato (nome de parte
+sempre fictício neste repositório, que é público):
 
 ```
-RO - Resp Subs - EMPREGADORA - NOME DA PARTE.odt
+RO - Resp Subs - NOME DA PARTE.odt
 ```
 
 Quatro regras, nessa ordem de prioridade:
@@ -42,7 +44,7 @@ Quatro regras, nessa ordem de prioridade:
 |---|---|---|
 | Tipo | sim | abreviação da peça — ver tabela abaixo |
 | Tema abreviado | sim | do que trata (`Resp Subs`, `Inc Fun`, `Insalub`) — abreviado, não a ementa |
-| Marcador | não | o que distingue este caso dos outros do mesmo tema — em geral a **empregadora principal** (tomadora/prestadora); também serve para rito ou fase |
+| Bloco livre | não | qualquer complemento que o usuário indicar; um ou mais |
 | NOME DA PARTE | sim | Reclamante/Autor; havendo mais de um, o primeiro + `e outros` |
 
 Abreviações de tipo já em uso (`playbook_prompts_ECT.md`, seção 5.1): `Cont` = contestação ·

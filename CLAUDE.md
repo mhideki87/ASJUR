@@ -74,11 +74,11 @@ contrarrazões, RO, RR, quesitos, manifestação, embargos, impugnação, petiç
 **Ação:** invocar a skill **`nomear-minuta`** (`.claude/skills/nomear-minuta/`) e nomear no padrão:
 
 ```
-Tipo - Tema abreviado - Marcador - NOME DA PARTE.odt
+Tipo - Tema abreviado - NOME DA PARTE.odt
 ```
 
 Espaço simples no lugar de `_`; tópicos separados por ` - `; nome da parte por último, em caixa alta.
-Exemplo de formato: `RO - Resp Subs - EMPREGADORA - NOME DA PARTE.odt`.
+Exemplo de formato: `RO - Resp Subs - NOME DA PARTE.odt`.
 
 Regras:
 - Vale para o nome escrito **na resposta** tanto quanto para o arquivo salvo — os dois têm de ser idênticos.
