@@ -48,7 +48,9 @@ Entrega em **.docx** gerado a partir de `_FORMATO_BASE.docx` — pelo script da 
 próprio arquivo base. Se o usuário precisar de `.odt`, salve o `.docx` como `.odt` no LibreOffice; não monte
 a peça em documento em branco.
 
-`[REVISAR: confirmar se a área cível usa este mesmo padrão visual e a mesma assinatura — ver LACUNAS.md]`
+O padrão é o mesmo nas duas áreas: **cível usa a mesma formatação e a mesma assinatura da
+trabalhista** — muda só o endereçamento (Juizado Especial Federal ou Vara Federal, TRF3 em 2º grau)
+e os rótulos de polo.
 
 ## Modelos por tipo de peça + tema
 

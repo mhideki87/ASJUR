@@ -17,9 +17,11 @@ description: >-
 
 ## Regra de precedência
 
-Esta skill é a **fonte única** da formatação de qualquer peça da assessoria. Onde qualquer outro arquivo da
-base (playbook, `modelos/README.md`, prompt antigo, peça anexada pelo usuário) descrever fonte, margem,
-espaçamento, numeração, cabeçalho, rodapé ou assinatura de forma diferente, **vale esta skill**.
+Esta skill é a **fonte única** da formatação de qualquer peça da assessoria — **trabalhista e cível, sem
+distinção**: mesma fonte, mesmas margens, mesmo espaçamento, mesmo cabeçalho e rodapé, mesma assinatura.
+Onde qualquer outro arquivo da base (playbook, `modelos/README.md`, prompt antigo, peça anexada pelo usuário)
+descrever fonte, margem, espaçamento, numeração, cabeçalho, rodapé ou assinatura de forma diferente,
+**vale esta skill**.
 
 Peça-modelo anexada pelo usuário serve para **estrutura, tese e texto reaproveitável** — nunca para
 formatação. A formatação vem sempre de `modelos/_FORMATO_BASE.docx` + a especificação desta skill.
@@ -62,7 +64,7 @@ Se, por qualquer motivo, o arquivo tiver de ser montado à mão (LibreOffice/Wor
 | `- (a) texto da alínea` | Alínea do corpo: recuo 3 cm, sem recuo de 1ª linha |
 | `+ a) PRELIMINARMENTE, ...` | Alínea de requerimento: recuo 3 cm, espaçamento maior depois |
 | `@QUEBRA` | Quebra de página — separa a petição de juntada das razões, em recurso e contrarrazões |
-| `@ASSINATURA: Nome \| OAB/UF 00.000` | Troca a assinatura padrão (só em peça cível, confirmando com o usuário). Precisa vir **antes** do `@FECHO` |
+| `@ASSINATURA: Nome \| OAB/UF 00.000` | Troca a assinatura padrão — só quando o próprio usuário pedir, nunca por conta própria. Precisa vir **antes** do `@FECHO` |
 | `@FECHO` | Fecho ("Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica.") + assinatura |
 
 Ênfase dentro da linha: `**negrito**`, `*itálico*`, `__sublinhado__`. Combinam entre si
@@ -93,15 +95,15 @@ Comentário `<!-- ... -->`, de uma ou mais linhas, é ignorado e não vai para o
 5. **Nota de rodapé: o padrão não usa.** O rodapé da página é fixo (endereço + numeração) e vem do arquivo
    base. Referência a documento (SEI, Id do PJe, folha) vai **no corpo, entre parênteses** — nunca em nota
    de rodapé.
-6. **Assinatura invariável na trabalhista:** `Marcos Hideki Kamibayashi` / `OAB/MS 14.580`, centralizado, em
-   negrito. Em peça cível, confirmar com o usuário antes de trocar (ver `LACUNAS.md`).
+6. **Assinatura invariável, nas duas áreas:** `Marcos Hideki Kamibayashi` / `OAB/MS 14.580`, centralizado,
+   em negrito — vale igual em trabalhista e em cível. Só troque se o próprio usuário pedir, na sessão.
 7. **Marcações de conferência** (`[REVISAR: ...]`, `[INSERIR: ...]`) ficam no corpo, em texto normal, e são
    repetidas na lista de conferência humana ao final da resposta — não no arquivo.
 
 ## O que muda por tipo de peça (e o que nunca muda)
 
-Nunca muda: fonte, margens, espaçamento, cabeçalho, rodapé, retângulo do tópico, numeração, fecho,
-assinatura.
+Nunca muda — em nenhum tipo de peça, em nenhuma das duas áreas: fonte, margens, espaçamento, cabeçalho,
+rodapé, retângulo do tópico, numeração, fecho, assinatura.
 
 Muda, no bloco de qualificação:
 
@@ -113,6 +115,12 @@ Muda, no bloco de qualificação:
 | Recurso de revista | Presidência do TRT24 + razões ao TST | RECORRENTE / RECORRIDO | art. 896 da CLT |
 | Embargos de declaração | Juízo/órgão que decidiu | EMBARGANTE / EMBARGADO | art. 897-A da CLT c/c art. 1.022 do CPC |
 | Quesitos / manifestação | Juízo do processo | conforme os autos | — |
+| Contestação cível | Juizado Especial Federal ou Vara Federal | AUTOR / RÉ | `[REVISAR: dispositivo]` |
+| Recurso / contrarrazões em cível | Turma Recursal do JEF ou TRF3 | RECORRENTE / RECORRIDO | `[REVISAR: dispositivo]` |
+
+Nas linhas de cível, o endereçamento e os rótulos de polo estão confirmados; o dispositivo de
+admissibilidade de cada peça **ainda não** — confirme com o usuário na primeira peça cível da sessão e
+registre aqui pela skill `atualizar-base-conhecimento`. Não preencha por dedução.
 
 Recurso e contrarrazões são **dois blocos de qualificação no mesmo arquivo**: a petição de juntada (dirigida
 à Vara) e as razões (dirigidas ao Tribunal), cada uma com seu `@ENDERECAMENTO`.

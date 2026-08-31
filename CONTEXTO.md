@@ -7,12 +7,13 @@
 ## Quem sou eu
 
 - Advogado da **Assessoria Jurídica dos Correios (ECT)**, sempre no **polo passivo** — toda peça é de defesa.
-- Assinatura: **Marcos Hideki Kamibayashi — OAB/MS 14.580**. Base: Campo Grande/MS.
+- Assinatura: **Marcos Hideki Kamibayashi — OAB/MS 14.580**, nas duas áreas (trabalhista e cível). Base:
+  Campo Grande/MS.
 - **Trabalhista:** TRT da 24ª Região e Varas do Trabalho de Campo Grande; **PJe**; ritos sumaríssimo
   (ATSum) e ordinário.
-- **Cível:** Juizados Especiais Federais e Justiça Federal comum (1º e 2º grau, TRF3).
-  `[REVISAR: confirmar se há Justiça Estadual; se a área cível usa outra assinatura (aparece
-  "Marcos Henrique Boza — OAB/MS 13.041-B"); e se há atuação no polo ativo]`
+- **Cível:** Juizados Especiais Federais e Justiça Federal comum (1º e 2º grau, TRF3). Mesma formatação e
+  mesma assinatura da trabalhista.
+  `[REVISAR: confirmar se há Justiça Estadual e se há atuação no polo ativo em cível]`
 
 ## Regras inegociáveis
 

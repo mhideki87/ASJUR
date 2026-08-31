@@ -126,7 +126,8 @@ Campo Grande/MS, data de assinatura eletrônica.
 ```
 
 Depois: **2 parágrafos vazios** (`after=200`), e a assinatura centralizada em negrito, Arial 11:
-`Marcos Hideki Kamibayashi` (`jc=center`, `after=60`) e `OAB/MS 14.580` (`jc=center`, `after=200`).
+`Marcos Hideki Kamibayashi` (`jc=center`, `after=60`) e `OAB/MS 14.580` (`jc=center`, `after=200`) — a mesma
+em trabalhista e em cível. Em peça cível muda apenas o local no fecho, se for outra comarca.
 
 ## 5. Cabeçalho da página (`word/header1.xml`)
 
