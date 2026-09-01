@@ -8,6 +8,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Consulta à base de conhecimento (índice → fichas) | sim | sim | sim |
 | Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
+| Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 
@@ -93,6 +94,29 @@ Regras:
   do diff e ausência de dado identificável. A revisão do usuário é no diff do commit, não antes dele.
   Única exceção: `.docx` anonimizado, que espera aprovação (conferir texto oculto e metadados é
   verificação humana, e o repositório é público).
+
+## Nome do arquivo da minuta entregue
+
+**Objetivo:** o arquivo que chega ao usuário já vem com o nome que ele usaria — sem `_`, legível na pasta do
+caso.
+
+**Gatilho:** gerar, salvar, anexar, renomear ou citar o nome de qualquer arquivo de peça (contestação,
+contrarrazões, RO, RR, quesitos, manifestação, embargos, impugnação, petição de juntada).
+
+**Ação:** invocar a skill **`nomear-minuta`** (`.claude/skills/nomear-minuta/`) e nomear no padrão:
+
+```
+Tipo - Tema abreviado - NOME DA PARTE.odt
+```
+
+Espaço simples no lugar de `_`; tópicos separados por ` - `; nome da parte por último, em caixa alta.
+Exemplo de formato: `RO - Resp Subs - NOME DA PARTE.odt`.
+
+Regras:
+- Vale para o nome escrito **na resposta** tanto quanto para o arquivo salvo — os dois têm de ser idênticos.
+- Não se aplica aos arquivos internos do repositório (`teses/`, `modelos/`, `scripts/`), que seguem o
+  snake_case de `modelos/README.md`.
+- Nome de parte real nunca entra em arquivo deste repositório — nos exemplos, `NOME DA PARTE`.
 
 ## Conversão automática de documentos da parte para Markdown
 

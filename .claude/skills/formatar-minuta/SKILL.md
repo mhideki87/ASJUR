@@ -127,12 +127,13 @@ Recurso e contrarrazões são **dois blocos de qualificação no mesmo arquivo**
 
 ## Nome do arquivo entregue
 
-`Tipo - Tema abreviado - Rito - NOME DA PARTE.docx` — ex.: `Cont - Afastamentos - Ord - [NOME].docx`.
-Abreviações: `Cont` = contestação · `RO` = recurso ordinário · `CtzRO` = contrarrazões · `RR` = recurso de
-revista · `ED` = embargos de declaração · `Manifest` = manifestação · `Ques` = quesitos.
+**Não é desta skill.** O nome do arquivo é da skill **`nomear-minuta`** — invoque-a ao salvar ou citar o
+arquivo, e não repita a regra de nome aqui.
 
-Se o usuário precisar de `.odt`, entregue o `.docx` e salve como `.odt` no LibreOffice — a conversão
-preserva o padrão. Não monte a peça direto em `.odt` a partir de documento em branco.
+Esta skill decide só o **formato**: a peça é gerada em `.docx`, porque o padrão visual vem de clonar
+`modelos/_FORMATO_BASE.docx`. A extensão que chega ao usuário é a que a `nomear-minuta` fixar — sendo
+`.odt`, salve o `.docx` como `.odt` no LibreOffice, que preserva tudo. Nunca monte a peça direto em
+documento em branco.
 
 ## Antes de entregar, confira
 
@@ -147,6 +148,8 @@ preserva o padrão. Não monte a peça direto em `.odt` a partir de documento em
 - [ ] Nenhuma nota de rodapé no documento.
 - [ ] O arquivo **não** foi copiado para dentro deste repositório (dado real de parte fica em
       `D:\Claude\00 caso_atual`).
+- [ ] O nome do arquivo saiu da skill `nomear-minuta` — sem `_`, tópicos separados por ` - `, nome da parte
+      por último em caixa alta.
 
 ## Nunca
 
