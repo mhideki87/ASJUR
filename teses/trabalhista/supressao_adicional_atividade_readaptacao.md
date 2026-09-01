@@ -7,7 +7,7 @@ gatilhos: [adicional de atividade de tratamento, AAT, AADC, adicional de ativida
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-01
+atualizado: 2026-09-02
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional
@@ -77,11 +77,13 @@ A defesa se estrutura em quatro linhas, nesta ordem de eficácia:
 - **Art. 461, § 4º, da CLT não socorre o empregado**: o dispositivo apenas impede que o readaptado sirva de
   **paradigma para equiparação salarial**. É fato impeditivo da equiparação, não norma que assegure a
   manutenção do adicional.
-- **Súmula 372 do TST não se aplica**, por três razões autônomas: (a) adicional de atividade não é
-  gratificação de função; (b) o verbete exige percepção por **10 anos ou mais**; (c) exige reversão
-  "sem justo motivo", e a incapacidade atestada é justo motivo.
-  `[REVISAR: teor e situação atual do item I da Súmula 372 — lacuna aberta também em
-  incorporacao_gratificacao_funcao.md]`
+- **Súmula 372, I, do TST — cancelada** pela Resolução nº 225, de 30/06/2025, do Tribunal Pleno, por
+  perda de eficácia a partir de 11/11/2017 (art. 468, § 2º, da CLT). Detalhes e a ressalva do marco
+  temporal em [incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md). Some-se que o
+  verbete **nunca se aplicou** a este tema, por três razões autônomas: (a) adicional de atividade não é
+  gratificação de função; (b) exigia percepção por **10 anos ou mais**; (c) exigia reversão "sem justo
+  motivo", e a incapacidade atestada é justo motivo. Sendo a supressão **anterior** a 11/11/2017, apoiar-se
+  nas três razões e usar o cancelamento só como reforço.
 - **Parcelas vincendas** — condenação em prestações futuras de parcela condicionada depende de fato futuro
   e incerto; combinar com o **art. 892 da CLT**.
 - **Reflexo em anuênio é indevido** — ver "Reflexos", abaixo.
@@ -205,6 +207,8 @@ reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorio
 - [ ] Obter o PCCS/2008 íntegro (itens 4.8 e 4.10 e valor original do AAT) e as tabelas históricas do
       adicional por vigência.
 - [ ] Data de implantação do PCCS/2008, para fechar a contagem do tempo de percepção do AAT.
+- [ ] Verificar se algum dos acórdãos de TRT contrários à ECT listados acima se apoiou na Súmula 372, I,
+      depois de 30/06/2025 — o do TRT 13ª R. (29/08/2025) se apoiou, e isso já é impugnação pronta.
 - [ ] Registrar como o TRT24 decide **este** tema no mérito: os dois acórdãos de 2017 acima são de AADC e
       anteriores ao *leading case* da SBDI-1 de 2020 — verificar se a 1ª Turma manteve a orientação depois.
 - [ ] Registrar o resultado desta contestação quando houver sentença: é o primeiro caso de AAT da base.
