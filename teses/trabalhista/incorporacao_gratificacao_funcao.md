@@ -6,8 +6,8 @@ status: validada
 gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, Tema 23]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-27
+ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+atualizado: 2026-09-01
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -63,6 +63,9 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 ## Ligações
 
 - Prescrição total do pedido: [teses/trabalhista/prescricao.md](../trabalhista/prescricao.md)
+- **Não confundir com adicional de atividade** (AAT/AADC) suprimido na readaptação: lá a discussão é
+  salário-condição x irredutibilidade, não requisito temporal —
+  [supressao_adicional_atividade_readaptacao.md](supressao_adicional_atividade_readaptacao.md)
 - Preliminar padrão de equiparação à Fazenda Pública:
   [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
 - POSTALIS, reajuste de ACT, honorários: [teses/trabalhista/temas_acessorios.md](temas_acessorios.md)

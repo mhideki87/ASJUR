@@ -55,6 +55,11 @@ Analise a petição inicial anexada (ECT no polo passivo) e estruture assim:
    pedido genérico, incompatibilidade com o rito.
 7. RISCOS — onde a ECT tende a sucumbir e por quê.
 8. O QUE FALTA NOS AUTOS para montar a defesa (documentos a requisitar à área).
+9. PRAZOS AUTÔNOMOS que correm antes da contestação — em especial o pedido de
+   adesão ao "Juízo 100% Digital": pela RA TRT24 nº 40/2021, art. 4º, §§ 2º e 3º,
+   o silêncio da ECT por 5 dias úteis contados da primeira notificação vale como
+   ANUÊNCIA TÁCITA. Se houver interesse em audiência de instrução presencial, a
+   recusa é manifestação própria e não pode esperar o prazo da defesa.
 
 Ainda não redija a contestação.
 ```
@@ -235,6 +240,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Anexar só a inicial | defesa sem lastro | anexe também os documentos da ECT e a peça-modelo |
 | "Melhore isso" | vago | diga o que está errado ou peça a revisão do item 3.1 |
 | Reaproveitar peça-modelo sem conferir as datas do caso | argumento de modulação temporal vira autofágico (ex.: ADI 5322, efeitos _ex nunc_ de 12/07/2023, invocada em contrato posterior) | "confira as datas do contrato contra o marco temporal antes de repetir o argumento; se não servir, diga e proponha outro" |
+| Pedir honorários/impugnar honorários sem checar o dispositivo | a parte autora costuma pedir pelo art. 85, § 3º, do CPC "pela equiparação à Fazenda Pública"; no processo do trabalho é o art. 791-A da CLT | "confira o dispositivo dos honorários no pedido e impugne se vier pelo CPC" |
 | Aceitar a formatação "parecida" | cabeçalho, rodapé e estilos precisam ser os do arquivo real | anexe o `.docx`/`.odt` e peça: "reconstrua a peça sobre o pacote deste arquivo, substituindo só o corpo" |
 
 ---
