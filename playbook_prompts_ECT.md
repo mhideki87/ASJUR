@@ -234,6 +234,8 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Dois processos na mesma conversa | contamina fatos e datas | uma conversa por processo |
 | Anexar só a inicial | defesa sem lastro | anexe também os documentos da ECT e a peça-modelo |
 | "Melhore isso" | vago | diga o que está errado ou peça a revisão do item 3.1 |
+| Reaproveitar peça-modelo sem conferir as datas do caso | argumento de modulação temporal vira autofágico (ex.: ADI 5322, efeitos _ex nunc_ de 12/07/2023, invocada em contrato posterior) | "confira as datas do contrato contra o marco temporal antes de repetir o argumento; se não servir, diga e proponha outro" |
+| Aceitar a formatação "parecida" | cabeçalho, rodapé e estilos precisam ser os do arquivo real | anexe o `.docx`/`.odt` e peça: "reconstrua a peça sobre o pacote deste arquivo, substituindo só o corpo" |
 
 ---
 
@@ -243,6 +245,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 |---|---|
 | Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
+| Recurso Ordinário | sentença · contestação · peça-modelo do mesmo tema · contrato administrativo e documentos de fiscalização (quando o tema for responsabilidade subsidiária) |
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |
 | Embargos | decisão embargada · peça em que a tese omitida foi deduzida |
@@ -255,6 +258,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 |---|---|
 | Contestação / Defesa | Resposta à inicial (trabalhista e cível) |
 | Contrarrazões de recurso | Defesa da sentença favorável (TRT24 na trabalhista) |
+| Recurso Ordinário | Sentença desfavorável (trabalhista, ao TRT24) — petição de interposição à Vara + razões ao Tribunal |
 | Recurso de revista | Sentença/acórdão desfavorável (trabalhista) |
 | Quesitos para perícia | Médica (doença ocupacional) e técnica (insalubridade/periculosidade) |
 | Manifestações | Documentos do INSS, laudos, cálculos, RPV, audiência |
