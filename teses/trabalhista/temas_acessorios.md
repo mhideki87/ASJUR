@@ -45,6 +45,12 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   `[REVISAR: nunca foi testada em peça real — validar antes de usar]`
 - **Reflexos** — anuênio, férias + gratificação, 13º; impugnar reflexo em **PLR** sempre
   (art. 3º da Lei 10.101/2000: não tem natureza salarial).
+- **Base de cálculo do anuênio** — **MANPES, Módulo 10, Capítulo 01, Anexo 04, item 1.1**: 1% do
+  **salário-base do cargo efetivo** e respectivo valor da **gratificação de função** gerencial, técnica ou
+  de atividade especial (ou o complemento da remuneração singular), por ano de serviço, para o empregado
+  admitido até 26.04.2024. **Adicional de atividade não integra essa base** — impugnar sempre que a inicial
+  pedir reflexo de adicional em anuênio. Norma que concede benefício não previsto em lei interpreta-se
+  restritivamente.
 
 ## Ligações
 

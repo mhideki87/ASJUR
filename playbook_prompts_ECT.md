@@ -280,8 +280,10 @@ caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário
 
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração. Abreviações de tema:
-`Inc Fun` = incorporação de função · `Resp Subs` = responsabilidade subsidiária. Abreviação nova criada em
-sessão entra nesta lista.
+`Inc Fun` = incorporação de função · `Resp Subs` = responsabilidade subsidiária ·
+`Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
+`Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
+quando a prejudicial for o eixo da peça). Abreviação nova criada em sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do
