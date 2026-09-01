@@ -130,15 +130,17 @@ Recurso e contrarrazões são **dois blocos de qualificação no mesmo arquivo**
 **Não é desta skill.** O nome do arquivo é da skill **`nomear-minuta`** — invoque-a ao salvar ou citar o
 arquivo, e não repita a regra de nome aqui.
 
-Esta skill decide só o **formato**: a peça é gerada em `.docx`, porque o padrão visual vem de clonar
-`modelos/_FORMATO_BASE.docx`. A extensão que chega ao usuário é a que a `nomear-minuta` fixar — sendo
-`.odt`, salve o `.docx` como `.odt` no LibreOffice, que preserva tudo. Nunca monte a peça direto em
-documento em branco.
+Esta skill decide só o **formato**: a peça é gerada **e entregue** em `.docx`, porque o padrão visual vem
+de clonar `modelos/_FORMATO_BASE.docx`. Nunca entregue em `.odt` nem monte a peça em documento em branco —
+`.docx` é o formato de entrega nas duas áreas.
 
 ## Antes de entregar, confira
 
 - [ ] Cabeçalho com logotipo e rodapé com endereço + número de página aparecem em **todas** as páginas
       (vêm do arquivo base — se não aparecerem, o `.docx` não foi gerado a partir dele).
+- [ ] O telefone do rodapé é **2109-1004**. Peça antiga circula com `3389-5104` ou `3301-2004`
+      desatualizados — se você montou sobre o pacote de um arquivo antigo, confira (ver `modelos/README.md`,
+      "Rodapé — texto confirmado").
 - [ ] Todo tópico principal está em caixa alta, centralizado e dentro do retângulo.
 - [ ] Numeração dos subtópicos reinicia em cada tópico principal e não tem salto nem repetição.
 - [ ] Nenhum pedido da inicial/do recurso ficou sem subtópico.

@@ -267,10 +267,10 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
-Nome do arquivo final: `Tipo - Tema abreviado - NOME DA PARTE.odt` — **sem `_`** (espaço simples no
+Nome do arquivo final: `Tipo - Tema abreviado - NOME DA PARTE.docx` — **sem `_`** (espaço simples no
 lugar) e com os tópicos separados por ` - ` (espaço, hífen, espaço). O nome da parte vem por último, em
 caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário indicar. Exemplo de padrão:
-`RO - Resp Subs - NOME DA PARTE.odt` (nenhum nome real neste repositório).
+`RO - Resp Subs - NOME DA PARTE.docx` (nenhum nome real neste repositório).
 
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração. Abreviações de tema:
@@ -281,7 +281,7 @@ A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`)
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do
 repositório (`modelos/<área>/<tipo_peca>__<tema>.md`, em snake_case), que segue `modelos/README.md`.
 
-A peça é **gerada** em `.docx` pela skill `formatar-minuta` (a partir de `modelos/_FORMATO_BASE.docx`); a **extensão entregue** é a desta seção — precisando de `.odt`, salve o `.docx` como `.odt` no LibreOffice, que preserva o padrão visual. Nunca monte a peça em documento em branco.
+A peça é gerada **e entregue** em `.docx`, pela skill `formatar-minuta`, a partir de `modelos/_FORMATO_BASE.docx` — nunca em documento em branco e nunca em `.odt`.
 
 ---
 

@@ -124,13 +124,9 @@ família de peças foi conferido em fonte primária** — conferir antes de cada
 **Use o `.docx` deste diretório** — `recurso_ordinario__resp_subsidiaria_transporte.docx` —, abrindo o
 arquivo e substituindo os campos entre colchetes. Não recriar a formatação a partir desta descrição.
 
-Padrão que o arquivo carrega: A4, margens 3 cm à esquerda e no topo, 2 cm à direita e embaixo; Arial 11;
-entrelinha **exata** de 18 pt; corpo justificado com recuo de primeira linha de 3 cm; título de divisão em
-**caixa com borda**, centralizado e em negrito; subtítulo numerado em **negrito e sublinhado**, recuado a
-3 cm; citação em Arial 10 com recuo de 4 cm e entrelinha simples; item alfabético recuado a 3 cm sem recuo
-de primeira linha; fecho "Nesses Termos, / Pede Deferimento." e bloco de assinatura centralizado.
-Cabeçalho com o logotipo e "Assessoria Jurídica MS/DEJUR/SEJUR" e rodapé com endereço e numeração vêm do
-próprio pacote.
+A formatação que o arquivo carrega é a padrão de toda peça — especificada, com as medidas exatas, na skill
+`formatar-minuta` (`.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md`). Não repita a
+descrição aqui nem a recrie a partir de texto: ela vive num lugar só, para não divergir.
 
 ### Campos a preencher no `.docx`
 

@@ -2,7 +2,7 @@
 name: nomear-minuta
 description: >-
   Define o nome do arquivo de toda minuta entregue ao usuário no padrão
-  "Tipo - Tema - NOME DA PARTE": espaço no lugar de "_" e " - " entre os tópicos.
+  "Tipo - Tema - NOME DA PARTE.docx": espaço no lugar de "_", " - " entre os tópicos e extensão .docx.
   DISPARE sempre que você for gerar, salvar, anexar, renomear ou apenas citar o nome de um arquivo de peça
   (contestação, contrarrazões, recurso ordinário, recurso de revista, quesitos, manifestação, embargos,
   impugnação aos cálculos, petição de juntada) — em .odt, .docx, .md, .txt ou .pdf —, e também quando o
@@ -25,7 +25,7 @@ tente adivinhar o que colocar ali. Sem ele, o nome tem três blocos. Exemplo do 
 sempre fictício neste repositório, que é público):
 
 ```
-RO - Resp Subs - NOME DA PARTE.odt
+RO - Resp Subs - NOME DA PARTE.docx
 ```
 
 Quatro regras, nessa ordem de prioridade:
@@ -36,7 +36,9 @@ Quatro regras, nessa ordem de prioridade:
    nunca `–` (travessão) ou `—`.
 3. **Nome da parte por último, em CAIXA ALTA**, como o usuário escreveu. Hífen interno de nome próprio ou
    de sigla fica como está (`SANTA HELENA-MS` não vira `SANTA HELENA - MS`) — a regra 2 só separa blocos.
-4. **Extensão preservada**, sem espaço antes do ponto. Padrão da trabalhista: `.odt`.
+4. **Extensão `.docx`**, sem espaço antes do ponto — é o formato de entrega de **toda** peça, nas duas
+   áreas, porque o padrão visual vem de clonar `modelos/_FORMATO_BASE.docx` (skill `formatar-minuta`).
+   Nome antigo em `.odt` que o usuário mande corrigir vira `.docx` junto com o resto.
 
 ## Os blocos
 
@@ -61,11 +63,13 @@ Ao entregar a minuta, monte o nome pelos blocos acima e confira, antes de salvar
 - [ ] zero `_` no nome inteiro;
 - [ ] todo separador é exatamente ` - ` (um espaço de cada lado);
 - [ ] nenhum espaço duplo, nenhum espaço no começo/fim ou antes da extensão;
+- [ ] a extensão é `.docx`;
 - [ ] nome da parte em caixa alta, no último bloco;
 - [ ] o nome citado na resposta é **idêntico** ao do arquivo salvo.
 
 Recebendo um nome antigo para corrigir, a conversão é mecânica: `_-_` → ` - `, depois `_` → ` `, depois
-colapsar espaços repetidos. `Cont_-_Inc_Fun_-_NOME_DA_PARTE.odt` → `Cont - Inc Fun - NOME DA PARTE.odt`.
+colapsar espaços repetidos, e a extensão vira `.docx`.
+`Cont_-_Inc_Fun_-_NOME_DA_PARTE.odt` → `Cont - Inc Fun - NOME DA PARTE.docx`.
 
 Só renomeie arquivo em disco quando o usuário pedir; a regra é sobre o nome que **você** dá ao que entrega.
 
