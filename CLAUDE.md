@@ -6,6 +6,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Seção | Claude Code local | Claude Code cloud/web | Project do claude.ai |
 |---|---|---|---|
 | Consulta à base de conhecimento (índice → fichas) | sim | sim | sim |
+| Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
 | Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
@@ -43,6 +44,37 @@ Regras:
   Python 3, inclusive no cloud/web.
 - Ficha nova ou alterada só entra no repositório depois de **aprovação explícita do usuário** (protocolo da
   seção 6.2 de `playbook_prompts_ECT.md`).
+
+## Formatação de toda minuta — skill `formatar-minuta`
+
+**Objetivo:** toda peça sai no mesmo padrão visual, sem depender de o usuário anexar peça-modelo antiga.
+
+**Gatilho:** qualquer sessão em que uma peça vá ser redigida, montada, convertida, reformatada ou entregue
+como arquivo — contestação, recurso ordinário, recurso de revista, contrarrazões, embargos, quesitos,
+manifestação, impugnação, petição simples —, mesmo que o usuário não fale de formatação.
+
+**Ação:** invocar a skill **`formatar-minuta`** (`.claude/skills/formatar-minuta/`) **antes** de começar a
+escrever a peça, não depois. Ela traz a especificação completa (Arial 11, entrelinha exata de 18 pt, margens
+3/2/3/2 cm, tópico principal em caixa alta dentro de retângulo, subtópicos numerados em negrito sublinhado,
+citações em Arial 10 recuadas 4 cm, cabeçalho com logotipo, rodapé com endereço e numeração, fecho e
+assinatura) e o gerador:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Regras:
+- Essa skill é a **fonte única** da formatação. Onde qualquer outro arquivo da base, prompt antigo ou peça
+  anexada disser coisa diferente sobre fonte, margem, espaçamento, numeração, cabeçalho, rodapé ou
+  assinatura, **vale a skill**.
+- Peça-modelo anexada pelo usuário serve para **estrutura, tese e texto reaproveitável** — nunca para
+  formatação.
+- **Nunca** recriar cabeçalho, rodapé ou logotipo a partir de descrição em texto: clone
+  `modelos/_FORMATO_BASE.docx`.
+- O arquivo da peça, por conter dado real da parte, é gravado **fora deste repositório** (em
+  `D:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
+- O padrão **não usa nota de rodapé**: referência a documento (SEI, Id do PJe, folha) vai no corpo, entre
+  parênteses.
 
 ## Consolidação da base ao final da tarefa
 
