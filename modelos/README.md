@@ -8,7 +8,14 @@ logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Ma
 idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
 tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
 
-Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
+Ao gerar qualquer peça nova, comece por este arquivo — o caminho normal é a skill **`formatar-minuta`**, que
+clona este `.docx` e regrava só o corpo:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
 - Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de
   polo (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargado, etc.).
@@ -19,21 +26,31 @@ Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
 
-## Padrão formal, em texto
+## Padrão formal — onde está a especificação
 
-O `.docx` acima é a fonte da verdade — isto aqui é só a descrição, para conferência.
+A especificação da formatação **não fica mais aqui**: está na skill `formatar-minuta`
+([SKILL.md](../.claude/skills/formatar-minuta/SKILL.md) +
+[especificação com as medidas](../.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md)),
+que é a fonte única para qualquer tipo de peça, trabalhista ou cível. Resumo do que vale:
 
-**Trabalhista** (validado, uso real): formato **.odt**, convertido para .docx quando necessário; fonte
-**Arial 11**, entrelinha **1,5**, parágrafos justificados com recuo de primeira linha; margens esquerda
-2 cm / direita ~1,25 cm; cabeçalho com logotipo dos Correios + "Assessoria Jurídica"; rodapé com endereço
-e numeração; citações de jurisprudência em bloco recuado (~3 cm); fecho "N. Termos / P. Deferimento. /
-Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
-Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos
-com **prequestionamento**.
+- Arial 11 no corpo; Arial 10 nas citações e blocos de cálculo (recuo de 4 cm).
+- Entrelinha **exata de 18 pt** (não é "1,5 linha" múltipla), espaço de 6 pt depois do parágrafo.
+- Margens **3 cm** esquerda e superior, **2 cm** direita e inferior; A4.
+- Recuo de primeira linha de 3 cm no corpo; alíneas recuadas 3 cm sem recuo de primeira linha.
+- Tópico principal: caixa alta, negrito, centralizado, **dentro de retângulo**.
+- Subtópicos numerados à mão (`1 – `, `5.1 – `), negrito + sublinhado, caixa alta, recuo de 3 cm;
+  a numeração reinicia em cada tópico principal.
+- Cabeçalho com logotipo dos Correios; rodapé com endereço e numeração de página. **Sem nota de rodapé.**
+- Fecho "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + assinatura
+  centralizada (Marcos Hideki Kamibayashi — OAB/MS 14.580).
 
-**Cível:** formato **.txt/.odt**; endereçamento a Juizado Especial Federal ou Vara Federal; mesmo fecho.
-`[REVISAR: confirmar se cabeçalho, fonte, espaçamento e demais regras da trabalhista também valem aqui,
-ou se cível tem modelo próprio]`
+A peça é **gerada** em `.docx` a partir de `_FORMATO_BASE.docx` — pelo script da skill, ou escrevendo dentro
+do próprio arquivo base; nunca em documento em branco. O **nome e a extensão entregues** são da skill
+`nomear-minuta`; sendo `.odt`, salve o `.docx` como `.odt` no LibreOffice, que preserva o padrão.
+
+O padrão é o mesmo nas duas áreas: **cível usa a mesma formatação e a mesma assinatura da
+trabalhista** — muda só o endereçamento (Juizado Especial Federal ou Vara Federal, TRF3 em 2º grau)
+e os rótulos de polo.
 
 ### Rodapé — texto confirmado
 

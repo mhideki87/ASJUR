@@ -11,6 +11,7 @@ Este arquivo é lido em sessão de **manutenção da base**, não em sessão de 
 - [ ] Orientações da Consultoria Jurídica nacional da ECT que vinculam a defesa local
 - [ ] Teses que a ECT decidiu *não* sustentar (trabalhista e cível)
 - [ ] Outras matérias além de trabalhista e cível (consumidor? improbidade?)
-- [ ] Confirmar a assinatura usada nas peças cíveis (aparece também "Marcos Henrique Boza — OAB/MS
-      13.041-B") e se há atuação no polo ativo em cível
+- [x] ~~Confirmar a assinatura usada nas peças cíveis~~ — confirmado: cível usa a mesma assinatura
+      (Marcos Hideki Kamibayashi — OAB/MS 14.580) e o mesmo padrão visual da trabalhista
+- [ ] Confirmar se há atuação no polo ativo em cível
 - [ ] Confirmar se há atuação em Justiça Estadual / Juizados Estaduais, além do JEF e da Justiça Federal

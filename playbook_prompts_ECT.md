@@ -27,6 +27,11 @@ REGRAS FIXAS:
 - Ao final, liste separadamente tudo que exige conferência humana antes do protocolo.
 - Se a defesa e a sentença divergirem quanto aos fatos, apoie-se na sentença e na
   capa do PJe.
+- Formatação: use SEMPRE o padrão único da skill formatar-minuta (Arial 11,
+  entrelinha exata de 18 pt, margens 3/2/3/2 cm, tópico principal em caixa alta
+  dentro de retângulo, subtópicos numerados em negrito sublinhado, cabeçalho/rodapé
+  e assinatura de modelos/_FORMATO_BASE.docx). Peça-modelo anexada serve para
+  estrutura e tese, nunca para formatação. Sem nota de rodapé.
 ```
 
 ---
@@ -88,9 +93,8 @@ Analise o Recurso Ordinário anexado e estruture:
 
 ### 2.1 Contestação
 ```
-Com base na análise acima, redija a contestação da ECT em .odt, replicando
-integralmente a formatação (cabeçalho, fonte, espaçamento, rodapé, bloco de
-assinatura) do arquivo <MODELO.odt> anexado.
+Com base na análise acima, redija a contestação da ECT no padrão de formatação da
+skill formatar-minuta (entrega em .docx gerado de modelos/_FORMATO_BASE.docx).
 
 ESTRUTURA:
 I    — Endereçamento, qualificação e tempestividade (prazo em dobro, DL 779/69)
@@ -105,8 +109,7 @@ Impugne especificamente cada fato e cada pedido. Não deixe pedido sem resposta.
 
 ### 2.2 Contrarrazões de Recurso Ordinário
 ```
-Redija contrarrazões ao RO do Reclamante em .odt, com a formatação do
-<MODELO.odt> anexado.
+Redija contrarrazões ao RO do Reclamante no padrão da skill formatar-minuta.
 
 Conteúdo: defenda o acerto da sentença usando (a) os próprios fundamentos da
 decisão, (b) os argumentos da contestação anexada, (c) fundamentos jurídicos
@@ -125,7 +128,8 @@ VI   — Requerimentos com prequestionamento expresso
 
 ### 2.3 Recurso de Revista
 ```
-Redija recurso de revista contra o acórdão anexado, formatação do <MODELO.odt>.
+Redija recurso de revista contra o acórdão anexado, no padrão da skill
+formatar-minuta.
 
 Para cada tema, obedeça à estrutura de admissibilidade:
 - transcrição do trecho do acórdão que consubstancia o prequestionamento
@@ -141,7 +145,7 @@ de forçar o enquadramento.
 
 ### 2.4 Quesitos de perícia médica
 ```
-Formule quesitos para perícia médica judicial, com a formatação do <MODELO.odt>,
+Formule quesitos para perícia médica judicial, no padrão da skill formatar-minuta,
 organizados em blocos que sustentem as teses da ECT:
 
 I   — Metodologia e fontes (separar achado clínico objetivo de relato do periciando)
@@ -169,7 +173,8 @@ V — ad cautelam: grau e base de cálculo
 
 ### 2.6 Embargos de declaração
 ```
-Redija embargos de declaração contra a decisão anexada, formatação do <MODELO.odt>.
+Redija embargos de declaração contra a decisão anexada, no padrão da skill
+formatar-minuta.
 
 Aponte, um a um: omissão / contradição / obscuridade / erro material, indicando
 para cada vício o trecho exato da decisão e a tese ou dispositivo não enfrentado.
@@ -200,11 +205,13 @@ argumentos mais fortes contra ela e como o juízo provavelmente responderia?
 Depois indique o que eu deveria reforçar na peça.
 ```
 
-### 3.3 Conversão de formato
+### 3.3 Reformatação de peça fora do padrão
 ```
-Converta o arquivo anexado para .docx (ou .odt) mantendo integralmente a
-formatação. Confirme depois: paginação, margens, fontes, cabeçalho com logotipo,
-rodapé e numeração.
+Reformate o arquivo anexado no padrão da skill formatar-minuta, sem alterar o
+texto. Confirme depois, item por item: margens 3/2/3/2 cm, Arial 11, entrelinha
+exata de 18 pt, tópicos principais em caixa alta dentro de retângulo, numeração
+dos subtópicos reiniciando em cada tópico, cabeçalho com logotipo, rodapé com
+endereço e numeração, fecho e assinatura, ausência de nota de rodapé.
 ```
 
 ### 3.4 Reaproveitamento de peça
@@ -274,6 +281,8 @@ A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`)
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do
 repositório (`modelos/<área>/<tipo_peca>__<tema>.md`, em snake_case), que segue `modelos/README.md`.
 
+A peça é **gerada** em `.docx` pela skill `formatar-minuta` (a partir de `modelos/_FORMATO_BASE.docx`); a **extensão entregue** é a desta seção — precisando de `.odt`, salve o `.docx` como `.odt` no LibreOffice, que preserva o padrão visual. Nunca monte a peça em documento em branco.
+
 ---
 
 ## 6. Protocolo de atualização da base (teses + modelos)
@@ -286,16 +295,18 @@ anexar, e um **ao final** de cada sessão em que algo for minutado.
 ### 6.1 Antes de anexar uma peça-modelo antiga (passo novo)
 
 ```
-Antes de eu anexar um modelo antigo: use modelos/_FORMATO_BASE.docx (via GitHub) como formatação
-geral desta peça — fonte, cabeçalho, rodapé, fecho e assinatura já vêm dali, para qualquer tipo de
-peça. Ajuste o bloco de qualificação (endereçamento, rótulos de polo, fundamentação legal de
-admissibilidade) conforme o tipo de peça desta sessão.
+Antes de eu anexar um modelo antigo: a formatação desta peça vem da skill formatar-minuta, que
+clona modelos/_FORMATO_BASE.docx (fonte, cabeçalho, rodapé, fecho e assinatura), para qualquer tipo
+de peça — não peça modelo antigo por causa de formatação. Ajuste o bloco de qualificação
+(endereçamento, rótulos de polo, fundamentação legal de admissibilidade) conforme o tipo de peça
+desta sessão.
 Além disso, verifique em modelos/<área>/ se já existe o par <tipo_peca>__<tema>.md (+ .docx, se
 houver) para esta peça + tema. Se existir, use o .md como base de estrutura/tese — não peça o anexo
 de uma peça-modelo antiga. Se não existir, ou se estiver desatualizado, me avise e eu anexo o modelo.
 ```
 
-Isso evita reanexar o que já foi consolidado — a formatação geral vem sempre de `_FORMATO_BASE.docx`;
+Isso evita reanexar o que já foi consolidado — a formatação vem sempre da skill `formatar-minuta`, sobre
+`_FORMATO_BASE.docx`;
 a tese/estrutura do tema vem do `.md` correspondente. Só volte a anexar uma peça antiga quando o tema for
 novo, o modelo salvo estiver incompleto, ou o caso trouxer uma variação de estrutura que valha preservar
 num `.docx` próprio do tema.

@@ -100,7 +100,7 @@ Fecho + assinatura
 - **Bloco de compensação (item 6)**: pedido ad cautelam padrão para autorizar compensação de gratificação
   judicialmente incorporada com a paga por nova função gratificada posterior à destituição — reaproveitável
   sempre que houver prova (ficha cadastral/financeira) de nova designação após a dispensa discutida na ação.
-- Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — igual ao de `_FORMATO_BASE.docx`.
+- Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — vem da skill `formatar-minuta`.
 
 ## Variações observadas
 
