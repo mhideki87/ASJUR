@@ -32,14 +32,16 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
 ## 3. Teses recorrentes da ECT
 
 ### 3.1 Incorporação de gratificação de função (o tema mais frequente)
-- Normas internas: **Módulo 55** (revogado em **01/05/2012**) e **Módulo 36** (revogado em **15/05/2014**); substituição FAT/FAO por ITF/GPTF.
+- Normas internas: **Módulo 55** (revogado em **01/05/2012**) e **Módulo 36** (revogado a partir de
+  **05/05/2014**); substituição FAT/FAO por ITF/GPTF.
   - Documentos de revogação, para citar nas peças: **Mem. 03019/2012-GCRP/CEGEP-Circular** (Módulo 55) e
     **Mem. Circular 00676-VIGEP** (Módulo 36). Antecedentes da FAT/FAO: `RELATÓRIO/DIREC-029/2005` e
     `CIRCULAR/DIREC-682/2005` instituíram a Função de Apoio à Gestão – FAG, renomeada FAT/FAO em 2007 pela
     `CI/DCAR/DAREC-071100/2007-CIRCULAR`.
-  - **[CONFERIR — divergência de data recorrente]** para o Módulo 36 as peças da ECT indicam **15/05/2014**,
-    mas sentenças e acórdãos do TRT24 registram **5.5.2014**. Conferir no normativo e **uniformizar dentro de
-    cada peça**: incoerência interna de datas é fatal em recurso de revista.
+  - ⚠️ **A data do Módulo 36 é 05/05/2014 — questão encerrada.** Peças antigas da ECT (contestações e
+    recursos ordinários) indicam **15/05/2014**: é **erro**, e não deve ser replicado. Ao reaproveitar peça
+    anterior, corrigir a data; sentenças e acórdãos do TRT24 registram corretamente 5.5.2014, e incoerência
+    interna de datas é fatal em recurso de revista.
 - **Requisitos temporais de cada instituto** (transcrever do normativo, não de memória):
   - **ITF** — Módulo 36, Cap. 1, item 1.1, "a": no mínimo **10 anos** de exercício em função gerencial,
     técnica, de atividade especial, FAT/FAO ou de dirigente, contados da data da dispensa da função.
@@ -55,16 +57,23 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
   incorporada ao patrimônio jurídico pelo preenchimento das condições do regulamento, não a expectativa de
   vir a preenchê-las. Atenção a decisões que aplicam o verbete usando a data de **edição** do manual em vez da
   data da **revogação** — é inversão de premissa e rende tanto tese de mérito quanto preliminar de nulidade.
-- **Súmula 372 do TST** — **[CONFERIR]** a base registrava "item I cancelado", mas peças da ECT e decisões do
-  TRT24 e do TST de 2018 a 2024 tratam o item I como **vigente e superado pelo art. 468, §2º, da CLT**
-  (superação legislativa), não como cancelado. Verificar no site do TST antes de afirmar qualquer das duas
-  coisas em peça.
+- **Súmula 372 do TST — o item I está CANCELADO.** Consequências práticas, porque mudam a redação da peça:
+  - Não é mais necessário — nem correto — sustentar *overruling* ou "superação legislativa" do item I: não se
+    supera verbete que já não existe. O argumento passa a ser direto: **não há verbete que ampare a
+    incorporação**, e o art. 468, §2º, da CLT a veda expressamente.
+  - **O bloco de *overruling* dos modelos de contestação e de RR ficou obsoleto nessa parte.** Ao reaproveitar
+    esses modelos, substituir o bloco pela menção ao cancelamento. `[INSERIR: nº e data da Resolução do TST
+    que cancelou o item I]` — o número é necessário para citar em peça.
+  - Peças antigas da ECT e decisões do TRT24 e do TST de 2018 a 2024 transcrevem o item I como se vigente e
+    discutem sua superação. **Esperar que a parte adversa o invoque assim** e responder com o cancelamento,
+    não com a tese de superação.
 - **Tema 23 dos repetitivos do Pleno do TST** (INCJULGRREMBREP 528-80.2018.5.14.0004) — tese vinculante
   (CPC, art. 927). **Como vetor autônomo de recurso de revista em rito sumaríssimo é controvertido**, porque
   a letra do art. 896, §9º, da CLT só menciona súmula — conferir antes de apostar nele.
 - Argumentos de apoio: art. 8º, §2º, CLT; *ratio decidendi* de precedentes do STF; **salário-condição**; legalidade administrativa.
 - Precedentes do TST sobre a própria ECT e os mesmos normativos: RR-10652-45.2019.5.03.0182 (2ª T., Min. Liana Chaib, DEJT 23/02/2024); RR-10662-35.2018.5.03.0179 (6ª T., Min. Kátia Magalhães Arruda, DEJT 13/06/2023); RRAg-0010959-96.2017.5.03.0140 (3ª T., Min. Mauricio Godinho Delgado, DEJT 26/05/2023); E-RR-1561-30.2015.5.10.0002 (SBDI-1, 06/12/2018).
-- Precedentes adicionais colhidos dos autos (**todos conferir teor antes de reutilizar**):
+- Precedentes adicionais, **colhidos das peças destes autos** (atendem à regra 2 da seção 5 — só ementa que
+  consta dos autos, do modelo ou do recurso adversário):
   - **RRAg-21160-17.2016.5.04.0024** (TST, 8ª T., Min. Dora Maria da Costa, DEJT 11/02/2022) — ITF da própria
     ECT; norma extinta anos antes de o empregado reunir os requisitos, sem adesão ao contrato.
   - **RR-860-33.2020.5.10.0022** (TST, 1ª T., Min. Amaury Rodrigues Pinto Junior, 18/08/2022) — norma interna
@@ -85,7 +94,7 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
 ### 3.2 Prescrição
 - **Prescrição total** — Súmula 294 do TST e art. 11, §2º, da CLT, para alteração do pactuado com prestação sucessiva não assegurada por lei.
 - **Qual é o marco.** O ato único que dispara o quinquênio é a **revogação da norma interna** (01/05/2012 e
-  05 ou 15/05/2014), **não a destituição da função**. A destituição é alteração lícita do contrato
+  05/05/2014), **não a destituição da função**. A destituição é alteração lícita do contrato
   (art. 468, §1º, da CLT) e não constitui, por si, violação de direito — quem pede aplicação de norma
   revogada tem por lesão a revogação. Ancorar o pedido no Módulo correto: se o deferido foi a ITF, a âncora é
   a revogação do Módulo 36, não a do Módulo 55.
@@ -94,7 +103,7 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
   **contradição interna** da própria decisão: se ela excluiu a Súmula 372 e a Lei 13.467/2017 do horizonte da
   controvérsia sob o fundamento de que a questão é de *normas internas*, então o direito não está assegurado
   por preceito de lei e a parte final do verbete não incide — a prescrição só pode ser total.
-- Precedentes (**conferir teor antes de reutilizar**):
+- Precedentes, **colhidos das peças dos autos** (regra 2 da seção 5):
   - **RO 0024632-20.2019.5.24.0006** (TRT24, 1ª T., Rel. Des. Nery Sá e Silva de Azambuja, 30/06/2020) —
     mesmos normativos da ECT; prescrição total porque "a parcela decorre apenas de norma interna da empresa,
     unilateralmente suprimida"; registra que a designação para a função ocorreu após a revogação.
@@ -140,7 +149,7 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
 ### 3.7 Fase recursal — recurso de revista em rito sumaríssimo
 
 A maior parte da carteira de incorporação tramita em **sumaríssimo**, e é isso que governa o recurso, não o
-mérito. **[CONFERIR os dispositivos processuais abaixo antes de cada uso.]**
+mérito.
 
 - **Art. 896, §9º, da CLT** — no sumaríssimo o RR só cabe por: contrariedade a **súmula do TST**,
   contrariedade a **súmula vinculante do STF**, ou **violação direta da Constituição**. Consequências:
@@ -167,7 +176,8 @@ mérito. **[CONFERIR os dispositivos processuais abaixo antes de cada uso.]**
    Antes de opor ED, listar *todas* as teses do RO não enfrentadas e embargar **cada uma**.
 2. **Reframagem da controvérsia** — quando a sentença declara que "a controvérsia não compreende a Súmula 372
    nem a aplicação no tempo da Lei 13.467/2017, mas a incorporação de normas internas" e o acórdão endossa,
-   isso **neutraliza de uma só vez** Súmula 372, *overruling* e Tema 23. Essa reframagem tem de ser atacada
+   isso **neutraliza de uma só vez** Súmula 372, *overruling* e Tema 23 — hoje a perda relevante é o **Tema
+   23**, já que o item I da Súmula 372 está cancelado (ver 3.1). Essa reframagem tem de ser atacada
    nos ED **como omissão específica**, sob pena de perder os três temas. Ao mesmo tempo ela **abre** a via da
    Súmula 51, I, e a contradição da Súmula 294 (ver 3.2) — reconhecer isso e escolher o eixo.
 3. **Matéria não devolvida no RO não se recupera.** Teses deduzidas na contestação e ausentes do recurso
@@ -229,4 +239,3 @@ Abreviações: `Cont` = contestação · `RR` = recurso de revista · `Inc Fun` 
 - [ ] Critério interno para **recorrer ou não** em rito sumaríssimo com valor de causa baixo — a trava do
       art. 896, §9º, da CLT torna o RR de baixa probabilidade, e falta parâmetro de custo/benefício (e de
       efeito de precedente interno) para decidir sem consultar a chefia caso a caso
-- [ ] Data correta de revogação do Módulo 36 (05 ou 15/05/2014) fixada de uma vez, com o normativo à mão

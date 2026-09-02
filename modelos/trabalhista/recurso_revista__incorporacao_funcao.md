@@ -2,7 +2,8 @@
 
 **Consolidado de:** 1 caso-fonte (acórdão do TRT24 desfavorável + ED rejeitados; tema: ITF/Módulo 36 com
 requisito temporal não implementado até a revogação).
-**Última atualização:** 2026-08-26 — criação inicial.
+**Última atualização:** 2026-09-02 — Súmula 372, I, confirmada como cancelada (bloco de *overruling*
+obsoleto nessa parte); data de revogação do Módulo 36 fixada em 05/05/2014.
 
 ---
 
@@ -125,9 +126,9 @@ autos; não tendo, isso reforça a preliminar de nulidade.
 **7. Datas institucionais (não são dado de caso, podem ser usadas literalmente).**
 Módulo 55 (FAT/FAO) revogado a partir de **1º.5.2012** — Mem. 03019/2012-GCRP/CEGEP-Circular.
 Módulo 36 (ITF/GPTF) revogado a partir de **5.5.2014** — Mem. Circular 00676-VIGEP.
-Atenção: peças da ECT costumam indicar **15/05/2014** para o Módulo 36, enquanto decisões do TRT24 registram
-**5.5.2014**. Conferir o normativo dos autos e **uniformizar em toda a peça** — incoerência interna de datas
-em RR é convite a não conhecimento.
+Atenção: peças **antigas** da ECT indicam 15/05/2014 para o Módulo 36 — é erro. A data correta é
+**05/05/2014**, como registram as decisões do TRT24. Ao reaproveitar peça anterior, corrigir e
+**uniformizar em toda a peça**: incoerência interna de datas em RR é convite a não conhecimento.
 
 **8. Jurisprudência de reforço (só como reforço, nunca como vetor no sumaríssimo).**
 - TRT24, 0024704-62.2023.5.24.0007, 1ª Turma, Rel. Des. André Luís Moraes de Oliveira, 24.02.2024 (DEJT
@@ -142,8 +143,10 @@ em RR é convite a não conhecimento.
 ## Variações observadas
 
 - **Se o requisito temporal JÁ estava implementado antes da revogação**, este modelo não serve: a tese central
-  cai. O eixo passa a ser Súmula 372, I / art. 468, § 2º, da CLT / **Tema 23 dos repetitivos**
-  (INCJULGRREMBREP 528-80.2018.5.14.0004) — e é preciso conferir se esse vetor é admissível no rito.
+  cai. O eixo passa ao art. 468, § 2º, da CLT e ao **Tema 23 dos repetitivos** (INCJULGRREMBREP
+  528-80.2018.5.14.0004), sendo preciso conferir se esse vetor é admissível no rito. Não construir o eixo
+  sobre a Súmula 372: **o item I está cancelado** (ver seção 3.1 de `base_conhecimento_juridico_ECT.md`),
+  de modo que não há verbete a superar — o que favorece a ECT e encurta o argumento.
 - **Rito ordinário**: suprimir o subtópico 2 da admissibilidade e reescrever cada tema para incluir violação de
   lei e divergência jurisprudencial, que ali são vetores válidos.
 - **Sem ED opostos, ou com ED integralmente respondidos**: suprimir a preliminar de nulidade. Sem omissão

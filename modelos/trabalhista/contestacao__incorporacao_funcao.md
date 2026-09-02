@@ -2,7 +2,8 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-08-15 — criação inicial.
+**Última atualização:** 2026-09-02 — Súmula 372, I, confirmada como cancelada (bloco de *overruling*
+obsoleto nessa parte); data de revogação do Módulo 36 corrigida para 05/05/2014.
 
 ---
 
@@ -32,7 +33,7 @@ PRELIMINARMENTE
       [SE HOUVER pedido de recolhimento de cota patronal ao POSTALIS] — art. 114 CF; RE 569056-3/STF;
       art. 202, §2º, CF; art. 68 da LC 109/2001.
 PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL [SE HOUVER pedido de FAT/ITF]
-  Súmula 294/TST — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 15/05/2014) é o ato
+  Súmula 294/TST — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 05/05/2014) é o ato
   único que dispara o prazo prescricional de 5 anos; ação ajuizada depois disso está com a pretensão
   totalmente prescrita quanto a essas normas.
 MÉRITO
@@ -86,10 +87,13 @@ Fecho + assinatura
 - **Tema 23 dos repetitivos (INCJULGRREMBREP 528-80.2018.5.14.0004)**: bloco de "Ausência de direito
   adquirido" com a transcrição da tese fixada pelo Tribunal Pleno do TST — texto genérico, reaproveitável
   literalmente em qualquer caso cujo fato gerador (dispensa da função) seja posterior a 11/11/2017.
-- **Bloco "overruling" (item 1.2)**: cita o precedente do TRT24 (RO 0025161-88.2016.5.24.0056, Rel. Des.
-  Francisco das Limas Chagas Filho) sobre superação de precedentes, mais o contexto de crise financeira dos
-  Correios (reportagem G1 com base em relatório da CGU) — reaproveitável, mas revisar se o dado de crise
-  financeira ainda é atual antes de usar em processo novo.
+- **Bloco "overruling" (item 1.2) — OBSOLETO NESSA PARTE**: o **item I da Súmula 372 do TST está
+  cancelado** (ver seção 3.1 de `base_conhecimento_juridico_ECT.md`), e não se sustenta *overruling* de
+  verbete que já não existe. Substituir a tese de superação pela menção direta ao cancelamento, mantendo o
+  art. 468, §2º, da CLT como fundamento legal. O bloco cita ainda o precedente do TRT24 sobre superação de
+  precedentes (RO 0025161-88.2016.5.24.0056, Rel. Des. Francisco das Limas Chagas Filho) e o contexto de
+  crise financeira dos Correios (reportagem G1 com base em relatório da CGU) — se reaproveitar, revisar se o
+  dado de crise financeira ainda é atual.
 - **Bloco "Motorizado" / "Quebra de Caixa" (item 1.4)**: argumento de que a parcela é salário-condição /
   adicional de risco, não gratificação de confiança computável para os 10 anos da Súmula 372 — só usar
   quando o Reclamante de fato exerceu uma dessas funções específicas dentro do período computado.
@@ -111,10 +115,11 @@ Fecho + assinatura
   `- SE HOUVER ...`.
 - O item 2.1 (Súmula 51) precisa da variante certa conforme o cruzamento de duas datas: (a) quando o
   Reclamante completou os requisitos temporais da FAT/FAO (5 anos) e da ITF/GPTF (10 anos) e (b) as datas de
-  revogação dos Módulos 55 (01/05/2012) e 36 (15/05/2014) — sempre conferir isso nos documentos anexados
+  revogação dos Módulos 55 (01/05/2012) e 36 (05/05/2014) — sempre conferir isso nos documentos anexados
   antes de escolher a variante.
 - Se o caso disser respeito só à Súmula 372 (sem norma interna invocada pelo autor), o bloco 2 inteiro
-  (normas internas) pode ser suprimido.
+  (normas internas) pode ser suprimido — e, com o item I cancelado, a defesa fica mais curta: não há verbete
+  que ampare a incorporação, e o art. 468, §2º, da CLT a veda expressamente.
 
 ## Ligação com a base de teses
 
