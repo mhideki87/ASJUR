@@ -273,8 +273,9 @@ caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário
 `RO - Resp Subs - NOME DA PARTE.docx` (nenhum nome real neste repositório).
 
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
-`RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração. Abreviações de tema:
-`Inc Fun` = incorporação de função · `Resp Subs` = responsabilidade subsidiária. Abreviação nova criada em
+`RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração ·
+`Quesitos` = quesitos de perícia. Abreviações de tema: `Inc Fun` = incorporação de função ·
+`Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional. Abreviação nova criada em
 sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
