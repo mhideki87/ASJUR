@@ -35,7 +35,7 @@ vontade do empregador, mas **cumprimento de dever legal** de readaptação (art.
 
 A defesa se estrutura em quatro linhas, nesta ordem de eficácia:
 
-1. **Prescrição total (Súmula 294 do TST)** — a supressão é **ato único** de alteração do pactuado, e o
+1. **Prescrição total (art. 11, § 2º, da CLT)** — a supressão é **ato único** de alteração do pactuado, e o
    adicional decorre de **norma interna**, não de lei. Ajuizamento mais de 5 anos depois do corte fulmina
    a pretensão por inteiro, ainda que a inicial se limite ao quinquênio.
    Ver [prescricao.md](prescricao.md).
@@ -52,7 +52,9 @@ A defesa se estrutura em quatro linhas, nesta ordem de eficácia:
 
 ## Fundamentos
 
-- **Súmula 294 do TST** e **art. 11, § 2º, da CLT** — prescrição total do ato único.
+- **Art. 11, § 2º, da CLT** — prescrição total do ato único. **Não fundar mais na Súmula 294: ela foi
+  cancelada** pela Resolução nº 225/2025 (absorvida pela Lei 13.467/2017). Como redigir depois do
+  cancelamento: [prescricao.md](prescricao.md).
 - **Art. 468 da CLT** — não há alteração lesiva quando a realocação cumpre determinação médico-legal.
 - **Art. 89 da Lei 8.213/91** — a reabilitação profissional é dever legal, não liberalidade.
 - **Regulamento instituidor da parcela** — PCCS/2008: item **4.10** (AAT: cargo de Agente de Correios na
@@ -117,7 +119,7 @@ Todos os arestos abaixo vieram de peça-modelo real da própria ECT ou de inicia
   doença profissional; não há ofensa ao art. 7º, VI, quando o Regional evidencia ausência de redução
   salarial.
 
-### Favorável à ECT — prescrição total (Súmula 294)
+### Favorável à ECT — prescrição total (aplicam a Súmula 294; hoje o fundamento é o art. 11, § 2º, da CLT)
 
 - **TRT 24ª R., ROT 0024198-95.2023.5.24.0004**, 1ª Turma, Rel. Des. Nicanor de Araujo Lima, 09/07/2024 —
   o mais recente e o mais útil: a ciência inequívoca ocorre "na data do término do auxílio previdenciário e

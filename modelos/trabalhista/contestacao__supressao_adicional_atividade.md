@@ -2,7 +2,8 @@
 
 **Consolidado de:** 2 casos-fonte (um de AADC + prescrição total, com peça-modelo real anexada; um de AAT,
 minutado a partir dela).
-**Última atualização:** 2026-09-01 — criação.
+**Última atualização:** 2026-09-02 — prejudicial refundada no art. 11, § 2º, da CLT, depois do
+cancelamento da Súmula 294 pela Resolução nº 225/2025.
 
 ---
 
@@ -25,7 +26,7 @@ III  — PRELIMINARMENTE
        2 – Inépcia parcial: pedido genérico no rito sumaríssimo   [condicional]
        3 – Impugnação ao pedido de justiça gratuita               [condicional]
 IV   — DA PREJUDICIAL DE MÉRITO
-       1 – Prescrição total (Súmula 294)
+       1 – Prescrição total (art. 11, § 2º, da CLT)
        2 – Sucessivamente, prescrição quinquenal
 V    — DO MÉRITO
        1 – Natureza do adicional: salário-condição, requisitos cumulativos não preenchidos
@@ -53,7 +54,10 @@ Blocos marcados `[condicional]` só entram se houver o pedido correspondente na 
   art. 3º da EC 113/2021 —, porque o deferimento vem pela metade.
 - **II** lista os pedidos na ordem das alíneas da inicial e fecha antecipando as duas linhas de defesa.
 - **IV** é o bloco decisivo. Contém a data da supressão, a data do ajuizamento, a transcrição do item do
-  PCCS que institui a parcela, a Súmula 294 e a cadeia de arestos de prescrição total da ficha.
+  PCCS que institui a parcela, o **art. 11, § 2º, da CLT** e a cadeia de arestos de prescrição total da
+  ficha. **Não abrir pela Súmula 294 — ela foi cancelada** (Resolução nº 225/2025); antecipar o argumento
+  do cancelamento antes que a parte autora o levante, na forma da ficha
+  [`prescricao.md`](../../teses/trabalhista/prescricao.md).
 - **V.1 a V.4** são o núcleo do mérito e a ordem importa: primeiro a natureza da parcela, depois a
   licitude da conduta, depois a falta de prova, e só então o ataque aos precedentes do autor.
 - **VII** repete cada pedido da inicial na mesma ordem, para que nenhum fique sem resposta.
@@ -69,10 +73,10 @@ em relação aos adicionais de insalubridade e noturno — verbas remuneratória
 pode falar em incorporação quando não mais subsiste a situação fática que justificava o seu pagamento, que
 dirá quanto a adicional previsto em **norma interna** da Reclamada."
 
-**Resposta ao contra-argumento da irredutibilidade** (fecha a exceção da Súmula 294). "A garantia
+**Resposta ao contra-argumento da irredutibilidade** (fecha a exceção do art. 11, § 2º, da CLT). "A garantia
 constitucional da irredutibilidade (art. 7º, VI, da CF) protege o **salário** em abstrato; ela não institui,
 não nomeia e não assegura a parcela discutida. Fosse suficiente invocar um princípio constitucional genérico
-para escapar da Súmula 294, a exceção da parte final do verbete — '*exceto quando o direito à parcela esteja
+para escapar da regra, a exceção da parte final do art. 11, § 2º, da CLT — '*exceto quando o direito à parcela esteja
 também assegurado por preceito de lei*' — nunca teria aplicação alguma, pois toda parcela salarial encontra,
 em algum grau de abstração, apoio em princípio constitucional."
 

@@ -104,7 +104,7 @@ skill formatar-minuta (entrega em .docx gerado de modelos/_FORMATO_BASE.docx).
 ESTRUTURA:
 I    — Endereçamento, qualificação e tempestividade (prazo em dobro, DL 779/69)
 II   — Síntese da inicial sob a ótica da defesa
-III  — Preliminares e prejudiciais (prescrição total — Súmula 294/TST)
+III  — Preliminares e prejudiciais (prescrição total — art. 11, § 2º, da CLT; a Súmula 294 foi cancelada)
 IV   — Mérito, pedido a pedido, na ordem da inicial
 V    — Impugnação aos documentos e ao valor da causa
 VI   — Requerimentos, provas e prequestionamento

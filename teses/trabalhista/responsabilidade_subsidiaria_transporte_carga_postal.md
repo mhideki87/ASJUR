@@ -7,7 +7,7 @@ gatilhos: [responsabilidade subsidiária, terceirização, tomadora de serviços
 pecas: [contestação, recurso ordinário, recurso de revista, contrarrazões]
 modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/parcelas_cct_transporte.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-08-31
+atualizado: 2026-09-02
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em contrato de transporte de carga postal
@@ -30,6 +30,10 @@ São **duas linhas autônomas**, e a primeira é a mais forte porque dispensa di
 1. **Não há terceirização.** O contrato de transporte rodoviário de cargas é, por lei, de natureza
    comercial; não transfere ao contratado etapa alguma do processo produtivo do contratante e não há
    intermediação de mão de obra. Logo a Súmula 331 do TST não incide — nem o inciso IV, nem o V.
+   **Atenção:** o **item I** da Súmula 331 foi **cancelado** pela Resolução nº 225/2025 do Pleno do TST
+   (art. 1º, XIV: "item cancelado por perda de eficácia a partir de 11/11/2017, pela Lei 13.467/2017").
+   Os itens IV, V e VI, usados nesta ficha, **seguem em vigor** — mas nunca citar o item I, e conferir se
+   a sentença ou o recurso adversário se apoiou nele.
 2. **Ainda que houvesse terceirização, não há culpa.** A responsabilidade do ente público não decorre do
    inadimplemento da contratada; exige prova, a cargo do reclamante, de conduta negligente concreta e de
    nexo causal.
