@@ -27,12 +27,29 @@ sucessiva **não assegurada por lei** — tipicamente os pedidos fundados em nor
 > é entregar ao adversário uma resposta de uma linha.
 
 **Cancelada não quer dizer superada — quer dizer absorvida pela lei.** O motivo declarado na própria
-Resolução é a Lei 13.467/2017, que inseriu o **art. 11, § 2º, da CLT** com redação praticamente idêntica
-à do verbete: *tratando-se de pretensão que envolva pedido de prestações sucessivas decorrente de
-alteração ou descumprimento do pactuado, a prescrição é total, exceto quando o direito à parcela esteja
-também assegurado por preceito de lei*. `[REVISAR: conferir a redação literal do art. 11, § 2º]` A regra
-foi **promovida de súmula a preceito de lei** — e isso favorece a ECT: o que era entendimento
+Resolução é a Lei 13.467/2017, que inseriu o **art. 11, § 2º, da CLT**. Redação literal, conferida em
+fonte oficial:
+
+> **Art. 11.** A pretensão quanto a créditos resultantes das relações de trabalho prescreve em cinco anos
+> para os trabalhadores urbanos e rurais, até o limite de dois anos após a extinção do contrato de
+> trabalho. (Redação dada pela Lei nº 13.467/2017)
+> **§ 2º** Tratando-se de pretensão que envolva pedido de prestações sucessivas decorrente de alteração ou
+> descumprimento do pactuado, a prescrição é total, exceto quando o direito à parcela esteja também
+> assegurado por preceito de lei. (Incluído pela Lei nº 13.467/2017)
+
+Comparando com a Súmula 294 ("tratando-se de **ação** que envolva pedido de prestações sucessivas
+decorrente de alteração do pactuado..."), o § 2º **repete o verbete e ainda o amplia**: trocou "ação" por
+"pretensão" e acrescentou "**ou descumprimento**" ao lado de "alteração". A regra foi **promovida de
+súmula a preceito de lei**, com alcance maior — e isso favorece a ECT: o que era entendimento
 jurisprudencial passou a ser texto legal cogente.
+
+Transcrever sempre **o caput junto com o § 2º**: é o caput que dá o prazo de cinco anos que o argumento
+usa; sozinho, o § 2º só diz que a prescrição é "total", sem dizer de quanto.
+
+Úteis no mesmo artigo: o **§ 1º** (a prescrição não alcança ação de anotação para prova junto à
+Previdência Social) e o **§ 3º** (a interrupção só ocorre pelo ajuizamento de reclamação trabalhista,
+mesmo em juízo incompetente ou extinta sem resolução de mérito, e só quanto a **pedidos idênticos**) —
+este último serve contra alegação de interrupção por ação anterior.
 
 **Tese central.** Tratando-se de alteração do pactuado, o ato único (a revogação da norma interna, ou a
 supressão da rubrica em folha) é o marco inicial do prazo de 5 anos — decorrido esse prazo, a pretensão
@@ -82,6 +99,5 @@ rubrica.
 ## Lacunas
 
 - [ ] Registrar como o TRT24 tem decidido a prejudicial nesses casos (acolhe total, parcial ou rejeita).
-- [ ] Conferir a redação literal do art. 11, § 2º, da CLT em fonte oficial.
 - [ ] Verificar como os TRTs vêm reagindo ao cancelamento da Súmula 294 — se algum tem lido o cancelamento
       como enfraquecimento da tese, em vez de absorção pela lei.
