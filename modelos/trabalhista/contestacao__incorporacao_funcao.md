@@ -10,8 +10,8 @@ anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretór
 
 Contestação de reclamação trabalhista em que o(a) Reclamante pede a incorporação de gratificação de função
 (FAT/FAO — Módulo 55 do MANPES; ITF/GPTF — Módulo 36 do MANPES; ou o próprio entendimento da Súmula 372, I,
-do TST) após ser revertido(a) ao cargo efetivo. É o tema mais frequente da ECT (ver seção 3.1 de
-`base_conhecimento_juridico_ECT.md`).
+do TST) após ser revertido(a) ao cargo efetivo. É o tema mais frequente da ECT (ver ficha
+`teses/trabalhista/incorporacao_gratificacao_funcao.md`).
 
 Este arquivo-modelo é **modular**: o `.docx` original já traz, dentro de cada bloco, uma anotação
 `- SE HOUVER ...` indicando em que hipótese fática aquele trecho deve ser mantido. Ao gerar uma contestação
@@ -21,8 +21,8 @@ anotações `- SE HOUVER ...`, que não devem aparecer na peça protocolada).
 ## Estrutura padrão
 
 ```
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver seção 3.3
-                                          de base_conhecimento_juridico_ECT.md)
+DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver
+                                          teses/transversal/prerrogativas_processuais_ect.md)
 RESUMO DA DEMANDA
 PRELIMINARMENTE
   1 — Ausência de direito adquirido — Tema 23 dos repetitivos do TST (INCJULGRREMBREP
@@ -100,7 +100,7 @@ Fecho + assinatura
 - **Bloco de compensação (item 6)**: pedido ad cautelam padrão para autorizar compensação de gratificação
   judicialmente incorporada com a paga por nova função gratificada posterior à destituição — reaproveitável
   sempre que houver prova (ficha cadastral/financeira) de nova designação após a dispensa discutida na ação.
-- Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — igual ao de `_FORMATO_BASE.docx`.
+- Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — vem da skill `formatar-minuta`.
 
 ## Variações observadas
 
@@ -118,6 +118,7 @@ Fecho + assinatura
 
 ## Ligação com a base de teses
 
-Sustenta a seção 3.1 (`Incorporação de gratificação de função`) de `base_conhecimento_juridico_ECT.md`, que
-é a tese recorrente mais frequente da ECT. Toca também a seção 3.2 (prescrição), 3.3 (equiparação à Fazenda
-Pública) e 3.5 (temas acessórios: POSTALIS, honorários advocatícios).
+Sustenta a ficha `teses/trabalhista/incorporacao_gratificacao_funcao.md`, a tese recorrente mais frequente
+da ECT. Toca também `teses/trabalhista/prescricao.md`,
+`teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
+`teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios).

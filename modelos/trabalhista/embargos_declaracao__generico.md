@@ -11,7 +11,7 @@ empregado público (caso identificado só pelo tema; nenhum dado de parte ou pro
 Embargos de declaração contra **sentença ou acórdão** (art. 897-A da CLT), em qualquer tema. A estrutura
 abaixo é independente do tema: o que muda é o conteúdo dos subtópicos do bloco de vícios.
 
-Antes de redigir, aplicar o filtro do item 2.6 do `playbook_prompts_ECT.md`: **se não houver vício real, dizer
+Antes de redigir, aplicar o filtro dos embargos de declaração do `playbook_prompts_ECT.md`: **se não houver vício real, dizer
 isso em vez de redigir a peça**. Embargos que rediscutem mérito são protelatórios e custam credibilidade —
 e, no caso-fonte, o próprio acórdão havia enfrentado, um a um, todos os argumentos do recurso.
 
@@ -24,8 +24,9 @@ Situações que **justificam** a peça:
 
 ## Estrutura padrão
 
-Formatação: tópicos principais em **retângulo**, subtópicos numerados em **negrito e sublinhado** — ver seção
-4 de `base_conhecimento_juridico_ECT.md`; o corpo-placeholder de `_FORMATO_BASE.docx` já demonstra os dois.
+Formatação: não repetir medidas aqui — o padrão visual (tópico em retângulo, subtópico numerado em negrito
+e sublinhado, corpo, citação recuada) vem da skill `formatar-minuta`
+(`.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md`).
 
 ```
 Endereçamento — Relator/Turma do TRT24 (acórdão) ou Juízo da Vara (sentença)
@@ -40,7 +41,7 @@ Preâmbulo — qualificação da ECT + art. 897-A da CLT c/c arts. 1.022 e 1.025
              n – [BLOCO CONDICIONAL] <vício que depende de conferência nos autos>
 [RETÂNGULO] DO PREQUESTIONAMENTO
 [RETÂNGULO] DOS REQUERIMENTOS
-Fecho + assinatura (vem de _FORMATO_BASE.docx)
+Fecho + assinatura (vêm de modelos/_FORMATO_BASE.docx, clonado pela skill formatar-minuta)
 ```
 
 - **Tempestividade** — prazo de 5 dias (art. 897-A da CLT), em dias úteis (art. 775 da CLT) e **em dobro**
@@ -87,9 +88,11 @@ Fecho + assinatura (vem de _FORMATO_BASE.docx)
 
 ## Ligação com a base de teses
 
-- Seção 3.3 — prerrogativas processuais da ECT (prazo em dobro, dispensa de preparo), usada na tempestividade.
-- Seção 3.7 — tema em que este modelo nasceu (redução de jornada por dependente com deficiência).
-- Seção 4 — padrão formal das peças, inclusive tópicos em retângulo e subtópicos.
+- Prerrogativas de prazo e preparo, usadas na tempestividade de qualquer embargo:
+  [teses/transversal/prerrogativas_processuais_ect.md](../../teses/transversal/prerrogativas_processuais_ect.md)
+- Tema em que este modelo nasceu, e de onde saíram os quatro vícios-padrão:
+  [teses/trabalhista/reducao_jornada_dependente_deficiencia.md](../../teses/trabalhista/reducao_jornada_dependente_deficiencia.md)
+- Padrão visual: skill `formatar-minuta`; nome do arquivo entregue: skill `nomear-minuta`.
 
 ## Par `.docx`
 

@@ -5,12 +5,118 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 
 | Seção | Claude Code local | Claude Code cloud/web | Project do claude.ai |
 |---|---|---|---|
+| Consulta à base de conhecimento (índice → fichas) | sim | sim | sim |
+| Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
+| Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
+| Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
-| Padrões de saída (nome de arquivo + formatação de tópicos) | sim | sim | sim |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
+
+## Consulta à base de conhecimento — ler o índice, não a base inteira
+
+**Objetivo:** não gastar contexto lendo teses que não têm nada a ver com o processo da sessão.
+
+A base é fatiada por tema em `teses/<área>/<tema>.md`, e o roteamento está em `INDICE.md`.
+
+**Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
+
+1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
+2. Ler `INDICE.md` — só o protocolo do topo e a tabela de roteamento.
+3. Ler os documentos do processo e **listar os pedidos**.
+4. Para cada pedido, casar com um `gatilho` da tabela e abrir **somente** a ficha indicada. Abrir também as
+   fichas da seção "Sempre aplicável" do índice (prerrogativas processuais; prescrição, na trabalhista).
+5. Só então abrir o modelo estrutural (`modelos/<área>/…`) e a seção correspondente do
+   `playbook_prompts_ECT.md`.
+
+Regras:
+- **Nunca** ler `teses/` por inteiro, nem abrir ficha "por precaução" — cada ficha aberta custa contexto.
+- Nenhum gatilho bateu → dizer isso explicitamente e tratar como **tema novo**: analisar a partir dos
+  autos, sem forçar o encaixe numa ficha existente, e ao final propor a criação de ficha nova a partir de
+  `teses/_TEMPLATE_TESE.md`.
+- Ficha com `status: rascunho` é **candidata a tese**, não tese confirmada — validar contra o processo em
+  mãos e nunca citar como jurisprudência pronta.
+- Depois de criar ou alterar qualquer ficha, rodar `python scripts/atualizar_indice.py` (regenera a tabela
+  do `INDICE.md` e valida os metadados). Antes de commitar, conferir com
+  `python scripts/atualizar_indice.py --check`. Esse script é só stdlib — roda em qualquer ambiente com
+  Python 3, inclusive no cloud/web.
+- Ficha nova ou alterada só entra no repositório depois de **aprovação explícita do usuário** (protocolo da
+  seção 6.2 de `playbook_prompts_ECT.md`).
+
+## Formatação de toda minuta — skill `formatar-minuta`
+
+**Objetivo:** toda peça sai no mesmo padrão visual, sem depender de o usuário anexar peça-modelo antiga.
+
+**Gatilho:** qualquer sessão em que uma peça vá ser redigida, montada, convertida, reformatada ou entregue
+como arquivo — contestação, recurso ordinário, recurso de revista, contrarrazões, embargos, quesitos,
+manifestação, impugnação, petição simples —, mesmo que o usuário não fale de formatação.
+
+**Ação:** invocar a skill **`formatar-minuta`** (`.claude/skills/formatar-minuta/`) **antes** de começar a
+escrever a peça, não depois. Ela traz a especificação completa (Arial 11, entrelinha exata de 18 pt, margens
+3/2/3/2 cm, tópico principal em caixa alta dentro de retângulo, subtópicos numerados em negrito sublinhado,
+citações em Arial 10 recuadas 4 cm, cabeçalho com logotipo, rodapé com endereço e numeração, fecho e
+assinatura) e o gerador:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Regras:
+- Essa skill é a **fonte única** da formatação. Onde qualquer outro arquivo da base, prompt antigo ou peça
+  anexada disser coisa diferente sobre fonte, margem, espaçamento, numeração, cabeçalho, rodapé ou
+  assinatura, **vale a skill**.
+- Peça-modelo anexada pelo usuário serve para **estrutura, tese e texto reaproveitável** — nunca para
+  formatação.
+- **Nunca** recriar cabeçalho, rodapé ou logotipo a partir de descrição em texto: clone
+  `modelos/_FORMATO_BASE.docx`.
+- O arquivo da peça, por conter dado real da parte, é gravado **fora deste repositório** (em
+  `D:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
+- O padrão **não usa nota de rodapé**: referência a documento (SEI, Id do PJe, folha) vai no corpo, entre
+  parênteses.
+
+## Consolidação da base ao final da tarefa
+
+**Objetivo:** o que a sessão descobriu não pode morrer com a sessão.
+
+**Gatilho:** ao terminar a tarefa — peça analisada ou minutada, ficha/modelo criado ou alterado — e antes de
+encerrar a resposta final.
+
+**Ação:** invocar a skill **`atualizar-base-conhecimento`** (`.claude/skills/atualizar-base-conhecimento/`).
+Ela levanta os achados da sessão, grava cada um no arquivo certo (`teses/<área>/`, `modelos/`, `CONTEXTO.md`,
+playbook), regenera o `INDICE.md` e apresenta o diff.
+
+Regras:
+- Rodar **depois** de entregar a peça/resposta, nunca no meio do trabalho.
+- Se nada de novo apareceu, dizer isso em uma linha e encerrar — não inventar achado para preencher.
+- A skill **commita e faz push sozinha** na branch `claude/*` da sessão, depois de conferir branch, escopo
+  do diff e ausência de dado identificável. A revisão do usuário é no diff do commit, não antes dele.
+  Única exceção: `.docx` anonimizado, que espera aprovação (conferir texto oculto e metadados é
+  verificação humana, e o repositório é público).
+
+## Nome do arquivo da minuta entregue
+
+**Objetivo:** o arquivo que chega ao usuário já vem com o nome que ele usaria — sem `_`, legível na pasta do
+caso.
+
+**Gatilho:** gerar, salvar, anexar, renomear ou citar o nome de qualquer arquivo de peça (contestação,
+contrarrazões, RO, RR, quesitos, manifestação, embargos, impugnação, petição de juntada).
+
+**Ação:** invocar a skill **`nomear-minuta`** (`.claude/skills/nomear-minuta/`) e nomear no padrão:
+
+```
+Tipo - Tema abreviado - NOME DA PARTE.docx
+```
+
+Espaço simples no lugar de `_`; tópicos separados por ` - `; nome da parte por último, em caixa alta;
+extensão sempre `.docx`. Exemplo de formato: `RO - Resp Subs - NOME DA PARTE.docx`.
+
+Regras:
+- Vale para o nome escrito **na resposta** tanto quanto para o arquivo salvo — os dois têm de ser idênticos.
+- Não se aplica aos arquivos internos do repositório (`teses/`, `modelos/`, `scripts/`), que seguem o
+  snake_case de `modelos/README.md`.
+- Nome de parte real nunca entra em arquivo deste repositório — nos exemplos, `NOME DA PARTE`.
 
 ## Conversão automática de documentos da parte para Markdown
 
@@ -84,33 +190,3 @@ Regras:
   renomeação (ex.: Project do claude.ai), o fallback é abrir a resposta com a linha
   `**<NOME DO RECLAMANTE> — <o que estou fazendo>**`, para o assunto ficar visível no histórico.
 - Não pedir que o usuário renomeie manualmente: havendo ferramenta, usar; não havendo, usar o fallback.
-
-## Padrões de saída — nome de arquivo e formatação de tópicos
-
-Valem em **qualquer sessão** (local, cloud/web, Project) e **sem pedir confirmação**, para todo arquivo que eu
-gerar e toda peça que eu minutar.
-
-### Nome de arquivo
-
-Padrão: `Tipo - Tema abreviado - Rito - NOME DA PARTE.odt` (regra completa e abreviações na seção 6 de
-[base_conhecimento_juridico_ECT.md](base_conhecimento_juridico_ECT.md)).
-
-- As palavras de cada campo são separadas por **espaço** — **nunca** por `_`.
-- Os campos (tópicos) do nome são separados por **` - `** (hífen entre espaços).
-- `Rito` é omitido quando não for relevante ou não estiver confirmado nos autos.
-- Underscore só é aceitável em arquivo baixado do PJe ou recebido de terceiro; arquivo que eu gerar, nunca.
-- **Exceção:** arquivos internos do repositório seguem a convenção própria de `modelos/README.md`
-  (`<tipo_peca>__<tema>.md`) e dos `.md` da raiz — esta regra vale para as **peças e entregáveis** do caso.
-- Exemplos: `ED - Reducao de Jornada - NOME DA PARTE.odt` · `Cont - Inc Fun - NOME DA PARTE.odt`.
-
-### Formatação dos tópicos da peça
-
-- **Tópico principal**: parágrafo próprio, em **caixa alta, negrito, centralizado e dentro de retângulo**
-  (borda simples nos quatro lados), sem recuo. Ex.: `DA TEMPESTIVIDADE`, `DO MÉRITO`, `DOS REQUERIMENTOS`.
-- **Subtópico**: numerado (`1 – ...`), caixa alta, **negrito e sublinhado**, justificado, **sem** retângulo.
-- Corpo em Arial 11, entrelinha 1,5, justificado, recuo de primeira linha de 3 cm; citação em bloco
-  recuado ~3 cm, itálico, Arial 10.
-- Não usar numeração romana (`I –`, `II –`) nos tópicos principais: o padrão das peças é o retângulo.
-- O corpo-placeholder de `modelos/_FORMATO_BASE.docx` **demonstra** esses quatro blocos (tópico,
-  subtópico, corpo, citação) — é de lá que a peça deve partir, substituindo o texto entre `[...]` e
-  preservando a formatação de cada bloco.
