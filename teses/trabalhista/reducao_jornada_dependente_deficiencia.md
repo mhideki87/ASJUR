@@ -27,8 +27,14 @@ comprovação periódica e delimitação das verbas —, não de improcedência 
 tem direito à redução de jornada, **sem diminuição proporcional da remuneração e independentemente de
 compensação de horário**, por aplicação analógica do **art. 98, §§ 2º e 3º, da Lei nº 8.112/90**.
 
-`[REVISAR: conferir o nº do IRR e o teor literal da tese no inteiro teor antes de transcrever em peça — esta
-ficha registra a tese como descrita no acórdão-fonte, não como certidão do julgado.]`
+**Identificação do precedente** (por consulta pública, **sem** acesso ao inteiro teor — ver `Lacunas`):
+IRR em **RR-0000594-13.2023.5.20.0006**, Tribunal Pleno, Rel. Min. Aloysio Corrêa da Veiga, julgado em
+16/05/2025, acórdão publicado em 20/05/2025; tese reafirmada em 04/07/2025, ao rejeitar recurso de outra
+empresa pública contra a fixação.
+
+`[REVISAR: o parágrafo acima resume a tese como descrita no acórdão-fonte desta ficha e em consulta pública —
+não é transcrição conferida. Antes de transcrever em peça, e sobretudo para cumprir o art. 896, § 1º-A, I,
+da CLT, copiar o texto do inteiro teor do IRR.]`
 
 ## Fundamentos que já não funcionam
 
@@ -105,8 +111,16 @@ Por ordem de eficácia comprovada:
 
 ## Lacunas
 
-- [ ] Conferir o teor literal da tese do Tema 138 no inteiro teor do IRR e retirar o `[REVISAR]`.
-- [ ] Verificar se o Tema 138 diz algo sobre comprovação periódica e sobre percentual de redução.
+- [ ] **Conferir o teor literal da tese** no inteiro teor do IRR e retirar o `[REVISAR]` da seção
+      `Tese central`. Fonte: `tst.jus.br` → Temas de recursos repetitivos → Tema 138 (arquivo `IRR138.pdf`),
+      ou o acórdão em RR-0000594-13.2023.5.20.0006. Sessão de 02/09/2026 não conseguiu abrir: o ambiente
+      cloud bloqueia `tst.jus.br` por política de rede. Fazer numa sessão local, ou anexar o PDF.
+- [ ] Verificar no inteiro teor se a tese diz algo sobre **percentual de redução** e sobre **comprovação
+      periódica** — os dois pontos em que a defesa da ECT hoje ganha (itens 1 e 2 acima) dependem de a tese
+      ser silente a respeito.
+- [ ] Conferir se procede a notícia de que a tese foi fixada **nas premissas fáticas do caso concreto** e
+      **não** enfrentou questões de negociação coletiva. Se procede, é argumento direto contra o uso do
+      Tema 138 para afastar cláusula de ACT, e sobe para `Pontos sensíveis`.
 - [ ] Registrar se há decisão do TST sobre dependente com quadro psiquiátrico não enquadrado como deficiência.
 - [ ] Levantar que prova de inviabilidade operacional a ECT consegue produzir (item 3) — o que a área
       operacional tem disponível.
