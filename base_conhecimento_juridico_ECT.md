@@ -62,8 +62,15 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
     supera verbete que já não existe. O argumento passa a ser direto: **não há verbete que ampare a
     incorporação**, e o art. 468, §2º, da CLT a veda expressamente.
   - **O bloco de *overruling* dos modelos de contestação e de RR ficou obsoleto nessa parte.** Ao reaproveitar
-    esses modelos, substituir o bloco pela menção ao cancelamento. `[INSERIR: nº e data da Resolução do TST
-    que cancelou o item I]` — o número é necessário para citar em peça.
+    esses modelos, substituir o bloco pela menção ao cancelamento.
+  - ⚠️ **`[CONFERIR — apenas o nº da Resolução, antes de citá-lo em peça]`.** A referência informada foi
+    **Res. 121/2003**, mas há dois sinais em sentido contrário, colhidos dos próprios autos: (a) a Res.
+    121/2003 é a resolução que deu **nova redação à Súmula 297** e **manteve a Súmula 294** — é assim que
+    ela aparece, literalmente, nos embargos, na contestação e no recurso ordinário deste tema; (b) o item I
+    seguia sendo tratado como **texto vigente** em decisões de 2020 a 2024 transcritas nas peças, que
+    discutem sua *superação* pelo art. 468, §2º, e nunca o seu cancelamento — o que é incompatível com um
+    cancelamento em 2003. Confirmar o número no site do TST antes de levá-lo a uma peça; **o cancelamento em
+    si está assentado e não depende dessa conferência.**
   - Peças antigas da ECT e decisões do TRT24 e do TST de 2018 a 2024 transcrevem o item I como se vigente e
     discutem sua superação. **Esperar que a parte adversa o invoque assim** e responder com o cancelamento,
     não com a tese de superação.
