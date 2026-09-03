@@ -98,9 +98,10 @@ Fecho + assinatura (vêm de modelos/_FORMATO_BASE.docx, clonado pela skill forma
 
 `embargos_declaracao__generico.docx`, ao lado deste arquivo. Gerado a partir de uma peça real aprovada e
 **anonimizado**: nome da parte, nº do processo, datas, fls. e todos os fatos do caso foram substituídos por
-placeholders entre `[...]`. Preserva integralmente a formatação — cabeçalho com logotipo, rodapé, margens,
-Arial 11, entrelinha 1,5, tópicos em retângulo, subtópicos em negrito e sublinhado, citações recuadas e bloco
-de assinatura.
+placeholders entre `[...]`. Preserva integralmente a formatação padrão — a especificada, com as medidas
+exatas, na skill `formatar-minuta`
+(`.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md`). Não redescreva as medidas aqui:
+elas vivem num lugar só, para não divergir.
 
 Como usar: abrir o `.docx`, substituir o texto entre `[...]` e replicar os blocos do tópico
 **DAS OMISSÕES E OBSCURIDADES** — um subtópico por vício. Os três parágrafos do item 1 estão marcados como
