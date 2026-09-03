@@ -11,6 +11,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
+| Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -159,6 +160,36 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`D:\Claude\00 caso_atual`
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
+
+## Conferência de texto legal — o cloud/web não alcança as fontes oficiais
+
+**Objetivo:** não repetir, a cada sessão, uma tentativa de conferência que o ambiente não permite concluir —
+e, principalmente, não deixar que resultado de busca vire citação de norma.
+
+**O que foi constatado (03/09/2026, sessão cloud/web):** a política de rede do ambiente bloqueia o acesso
+externo do `WebFetch` e do `curl`. Ficaram inacessíveis, entre outros, `planalto.gov.br`, `in.gov.br`
+(Diário Oficial), `bvsms.saude.gov.br`, `renastonline.ensp.fiocruz.br` e repositórios de universidades. O
+`noProxy` do ambiente libera só registros de pacote (npm, PyPI, crates), as APIs da Anthropic e o acesso git
+ao GitHub. O `WebSearch` funciona, porque não é egresso direto — mas devolve **resumo de terceiros, não o
+texto da norma**.
+
+**Regra:** resumo de busca **não** confere norma. Ele serve para descobrir que existe uma questão; nunca
+para afirmar o conteúdo de artigo, anexo, lista, súmula ou portaria. Duas buscas que se contradizem são
+sinal de que a questão é real e precisa de leitura humana — não de uma terceira busca.
+
+**Como proceder ao esbarrar num `[REVISAR]` de texto legal em sessão cloud/web:**
+
+1. Tentar o `WebFetch` **uma vez**. Bloqueou, não insistir com outro domínio atrás do mesmo texto.
+2. Usar o `WebSearch` para mapear **o que está em jogo** — qual norma, qual dispositivo, se há divergência,
+   qual o impacto na tese se a resposta for num sentido ou noutro.
+3. Registrar na ficha como **não confirmado**, com as leituras concorrentes e a linha de resposta para cada
+   uma — nunca como tese fechada.
+4. Dizer ao usuário, na resposta, que a conferência ficou pendente, por quê, e **em que ordem** conferir.
+5. Diagnóstico do bloqueio, se necessário: `curl -sS "$HTTPS_PROXY/__agentproxy/status"`.
+
+A política de rede é escolhida na criação do ambiente e pode mudar; o que está acima é o comportamento
+observado, não uma garantia permanente. Em sessão local (CLI/desktop), a conferência costuma ser possível —
+é o caminho preferível para fechar pendência de texto legal.
 
 ## Título da sessão — identificação do caso na aba lateral
 
