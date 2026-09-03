@@ -125,9 +125,16 @@ Outros pontos do `.docx` a revisar antes de reaproveitar:
 - três acórdãos transcritos **sem identificação completa** (o do TRT24 sobre inaplicabilidade da Súmula 372
   por fato consumado após 11/11/2017; o do TST sobre expectativa de direito no Módulo 36; e o do Min. Hugo
   Carlos Scheuermann sobre a GPTF). Não citar sem completar número, Turma, Relator e data;
-- o bloco 1.2 trata a Súmula 372, I, como verbete a ser **superado**. Depois da **Resolução nº 225/2025** do
-  Pleno do TST ela está **cancelada** — reescrever o bloco nessa chave (ver a ficha de teses), que é
-  argumento mais forte e mais curto.
+- o bloco 1.2 trata a Súmula 372, I, como verbete a ser **superado** por *overruling*. Depois da
+  **Resolução nº 225/2025** do Pleno do TST ela está **cancelada** — reescrever nessa chave, que é argumento
+  mais forte e mais curto. Reformulação já validada em minuta real (03/09/2026), como tópico próprio do
+  mérito, nesta ordem: (i) o verbete não existe mais — Resolução nº 225/2025, cancelamento do item I por
+  perda de eficácia a partir de 11/11/2017, com a ressalva de que o **item II não foi cancelado**;
+  (ii) a data da dispensa da função no caso, para mostrar que nem a aplicação residual do item I é cogitável;
+  (iii) o alerta de que acórdão posterior a 30/06/2025 que ainda o invoque aplica verbete cancelado — serve
+  contra os precedentes transcritos na inicial; (iv) só então, como reforço, o art. 8º, §2º, da CLT e o
+  precedente da 4ª Turma sobre jurisprudência sem base legal (RR 305-75.2015.5.05.0492). Manter o
+  `[REVISAR]` da conferência da Resolução na fonte oficial.
 
 ## Blocos acrescidos em minuta real (28/08/2026)
 
