@@ -7,7 +7,7 @@ gatilhos: [câncer de pele, carcinoma, carcinoma basocelular, carcinoma espinoce
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md]
-atualizado: 2026-09-02
+atualizado: 2026-09-03
 ---
 
 # Tese — Câncer de pele e exposição solar ocupacional
@@ -42,7 +42,53 @@ proteção, some também o elemento culpa.
   o CID da neoplasia e o CNAE da ECT.
 - **Anexo II do Decreto nº 3.048/99** — não afirmar o conteúdo de cabeça: formular como **quesito**, pedindo
   ao perito que informe se o CID consta da lista e **a que agente etiológico** está ali vinculado.
-  `[REVISAR: conferir o texto vigente do Anexo II para as neoplasias cutâneas antes de afirmar em peça]`
+  Ver, abaixo, "Alerta de risco".
+
+## Alerta de risco — as duas listas, e por que isso pode virar contra a defesa
+
+**Ponto ainda NÃO confirmado contra fonte oficial** — a consulta de 2026-09-03 não conseguiu abrir o texto
+do Planalto, do DOU nem da BVS/MS, e os resultados de busca **se contradizem** justamente no ponto decisivo.
+Nada daqui entra em peça antes de conferência humana no texto oficial.
+
+São **três** instrumentos distintos, e confundi-los é o erro que custa o caso:
+
+| Instrumento | Para que serve | Efeito |
+|---|---|---|
+| **Anexo II do Decreto 3.048/99** (Listas A e B) | doenças profissionais e do trabalho, no regime previdenciário | enquadramento pelo art. 20 da Lei 8.213/91 |
+| **Lista C do Decreto 3.048/99** (CID × CNAE) | **NTEP** | **presunção de nexo** — art. 21-A da Lei 8.213/91, com o ônus de afastá-la transferido à empresa |
+| **LDRT do Ministério da Saúde** (Portaria de Consolidação GM/MS nº 5/2017, atualizada pela Portaria GM/MS nº 1.999/2023) | vigilância em saúde do trabalhador / notificação | **não** é norma previdenciária nem trabalhista; não cria, por si, nexo nem culpa |
+
+**O que a busca indicou, sem confirmação:**
+
+1. Na Lista B do Anexo II, a entrada de "Outras neoplasias malignas da pele (C44)" traria como agentes
+   **arsênio e compostos arsenicais**, **alcatrão/breu/betume/hulha mineral/parafina** e **radiações
+   ionizantes** — nenhum deles presente na atividade de carteiro. Uma das buscas, porém, acrescentou
+   "radiações ultravioletas" à mesma entrada, **sem indicar o item**. É exatamente aqui que as fontes
+   divergem, e é o que precisa ser lido no texto oficial.
+2. A **Portaria GM/MS nº 1.999/2023** teria incluído o C44 sob "radiações não ionizantes (ultravioleta) em
+   atividades de trabalho", e o material de divulgação da atualização **cita trabalhadores dos Correios**
+   entre os grupos expostos. Se confirmado, a parte contrária vai invocá-la.
+
+**Como responder, se a inclusão na LDRT do MS se confirmar** (a tese não cai, muda de eixo):
+
+- A LDRT do MS é lista de **vigilância epidemiológica**, editada para notificação compulsória e política
+  pública de saúde. Não é o Anexo II do Decreto 3.048/99, não foi por ele incorporada, e **não** gera
+  presunção de nexo previdenciário nem, muito menos, culpa civil do empregador.
+- Ainda que a doença seja **listada**, permanecem íntegras as frentes 1 e 3: listagem não prova
+  incapacidade, não prova nexo no caso concreto e **não prova culpa**. A responsabilidade continua
+  subjetiva (art. 7º, XXVIII, da CF).
+- A listagem genérica não dispensa a **individualização**: continua sendo necessário demonstrar dose,
+  latência e a exclusão dos fatores pessoais e extralaborais — que é o que os quesitos dos blocos III e IV
+  fazem.
+
+**Cuidado ao redigir quesito sobre o tema.** Perguntar ao perito se o CID "consta do Anexo II" é seguro
+enquanto a resposta for negativa; sendo positiva, o quesito entrega ao laudo um reforço da tese autoral.
+Conferir o texto **antes** de manter esse quesito na peça.
+
+**Prioridade máxima: conferir a Lista C (NTEP) para C44 × CNAE 5310-5/01.** É a única das três que inverte
+o ônus da prova (art. 21-A da Lei 8.213/91). Havendo NTEP, a estratégia deixa de ser negar o nexo e passa a
+ser **afastar a presunção** com a prova dos fatores pessoais — e a confissão do fototipo em depoimento
+pessoal ganha peso decisivo.
 
 ## Os cinco argumentos técnicos que sustentam a ausência de nexo
 
@@ -145,8 +191,13 @@ citar em peça nova.
 
 ## Lacunas
 
-- [ ] Confirmar o texto vigente do Anexo II do Decreto 3.048/99 quanto às neoplasias cutâneas (C44) e o
-      agente etiológico ali vinculado.
+- [ ] **Prioritário.** Ler no texto oficial (Planalto) o Anexo II do Decreto 3.048/99 e confirmar se
+      "radiações ultravioletas" figura ou não entre os agentes do C44 na Lista B. As buscas de 2026-09-03
+      se contradizem nesse ponto e o acesso à fonte oficial estava bloqueado — ver "Alerta de risco".
+- [ ] **Prioritário.** Conferir a **Lista C** (NTEP) do Decreto 3.048/99 para o par C44 × CNAE 5310-5/01.
+      É a única lista que inverte o ônus da prova (art. 21-A da Lei 8.213/91) e muda a estratégia da peça.
+- [ ] Confirmar o teor da Portaria GM/MS nº 1.999/2023 quanto ao C44 e à radiação ultravioleta, e levantar
+      como a Justiça do Trabalho vem tratando a invocação da LDRT do MS como prova de nexo.
 - [ ] Confirmar se alguma NR fixa parâmetro objetivo de proteção solar (FPS mínimo, reaplicação, vestimenta)
       para trabalho a céu aberto.
 - [ ] Não há ainda decisão conhecida, favorável ou desfavorável, sobre câncer de pele **em carteiro da ECT**
