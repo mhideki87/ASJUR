@@ -188,23 +188,3 @@ print('entrelinha exata 18pt:', d.count('w:lineRule="exact" w:line="360"'))
 print('notas de rodapé (deve ser 0):', d.count('footnoteReference'))
 PY
 ```
-
----
-
-## ⚠ Divergência a resolver — medição de peça aprovada de 26/08/2026
-
-Em 28/08/2026 o usuário indicou como referência de formatação uma contestação sua (tema assalto em agência,
-`docProps` com 39 revisões, modificada em 26/08/2026). A medição do XML desse arquivo **divergiu desta
-especificação em quatro pontos**:
-
-| Item | Esta especificação | Medido no arquivo de 26/08/2026 |
-|---|---|---|
-| Corpo — `after` | `120` (6 pt) | **`160`** (8 pt) — 147 parágrafos contra 11 com `120` |
-| Citação — recuo | `left="2268"` (4 cm) | **`left="1701"`** (3 cm) — nenhuma ocorrência de `2268` no arquivo |
-| Citação — espaçamento | `exact 240, before 100, after 160` | **`exact 260, before 0, after 160`** |
-| Citação — itálico | sem itálico (`<w:i w:val="false"/>`) | **com itálico** (`<w:i/>` + `sz 20`) em 23 parágrafos |
-
-`[REVISAR: qual das duas é a referência atual? Esta especificação pode ter saído de uma peça anterior, ou o
-arquivo de 26/08/2026 pode conter desvio pontual. Enquanto não houver definição do usuário, seguir esta
-especificação — é a que está versionada e foi aprovada —, mas não tratar como erro a peça que estiver no
-outro padrão. Definido, corrigir a tabela acima e as seções 4.3 e 4.7, e apagar esta nota.]`
