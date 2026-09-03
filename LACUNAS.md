@@ -15,11 +15,23 @@ Este arquivo é lido em sessão de **manutenção da base**, não em sessão de 
       (Marcos Hideki Kamibayashi — OAB/MS 14.580) e o mesmo padrão visual da trabalhista
 - [ ] Confirmar se há atuação no polo ativo em cível
 - [ ] Confirmar se há atuação em Justiça Estadual / Juizados Estaduais, além do JEF e da Justiça Federal
-- [ ] **Tema sem ficha: AADC (Adicional de Atividade de Distribuição e/ou Coleta Externa).** A tese está
-      desenvolvida em contestação anexada em sessão — salário-condição, item 4.8 do PCCS/2008, Súmulas 248
-      e 265 do TST, doutrina de Maurício Godinho Delgado, e julgados dos TRTs da 2ª e da 4ª Regiões —, mas
-      não foi validada nem tem ficha. Criar em `teses/trabalhista/` na próxima sessão que trate de
-      supressão de adicional condicionado por readaptação, conferindo antes o inteiro teor dos arestos.
-      Gatilhos a prever: AADC · adicional de distribuição · adicional de coleta · salário-condição ·
-      adicional condicionado · irredutibilidade salarial · readaptação · PCCS 2008 · Súmula 248 ·
-      Súmula 265 · AAT · adicional de atividade de tratamento.
+- [x] ~~**Tema sem ficha: AADC (Adicional de Atividade de Distribuição e/ou Coleta Externa).**~~ —
+      fechada: a ficha `teses/trabalhista/supressao_adicional_atividade_readaptacao.md` cobre AAT e AADC
+      (salário-condição, itens 4.8 e 4.10 do PCCS/2008, Súmulas 248 e 265 do TST, readaptação), com os
+      gatilhos previstos aqui. A conferência do inteiro teor dos arestos segue pendente, marcada
+      `[REVISAR]` na própria ficha.
+
+## Resolução nº 225/2025 do Pleno do TST — enunciados cancelados
+
+Conferida contra a base inteira em 02/09/2026 (PDF oficial: DEJT, caderno administrativo, nº 4253,
+p. 2-3, 30/06/2025). Cancelou as Súmulas 6 (itens I, II, VI "b" e X), 90, 114, 152, 219, 228, 268, 277,
+**294**, 307, 311, 320, 329, **331 item I**, 366, **372 item I**, 375, 377, 423, 426, 429, 437, 439, 444,
+449, 450 e 452; as OJs 14, 270, 355, 383 e 418 da SBDI-I; a OJ Transitória 36 da SBDI-I; a OJ 16 da SDC;
+a OJ 13 do Pleno/Órgão Especial; e o Precedente Normativo 100.
+
+Três atingiam a base e já foram corrigidos: **294** (prescrição total → art. 11, § 2º, da CLT),
+**331, I** (a ficha usa os itens IV, V e VI, que sobreviveram) e **372, I**. Nenhuma OJ cancelada nem o
+PN 100 aparecem na base.
+
+- [ ] Reconferir esta lista sempre que uma ficha nova citar súmula do TST.
+- [ ] Vale a mesma varredura para peças antigas reaproveitadas: modelo de 2018 pode citar verbete morto.

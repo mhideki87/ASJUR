@@ -32,7 +32,8 @@ PRELIMINARMENTE
       [SE HOUVER pedido de recolhimento de cota patronal ao POSTALIS] — art. 114 CF; RE 569056-3/STF;
       art. 202, §2º, CF; art. 68 da LC 109/2001.
 PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL [SE HOUVER pedido de FAT/ITF]
-  Súmula 294/TST — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 15/05/2014) é o ato
+  art. 11, § 2º, da CLT (**a Súmula 294 foi cancelada** pela Resolução nº 225/2025 — ver
+  [`teses/trabalhista/prescricao.md`](../../teses/trabalhista/prescricao.md)) — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 15/05/2014) é o ato
   único que dispara o prazo prescricional de 5 anos; ação ajuizada depois disso está com a pretensão
   totalmente prescrita quanto a essas normas.
 MÉRITO

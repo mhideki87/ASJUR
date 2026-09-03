@@ -55,6 +55,11 @@ Analise a petição inicial anexada (ECT no polo passivo) e estruture assim:
    pedido genérico, incompatibilidade com o rito.
 7. RISCOS — onde a ECT tende a sucumbir e por quê.
 8. O QUE FALTA NOS AUTOS para montar a defesa (documentos a requisitar à área).
+9. PRAZOS AUTÔNOMOS que correm antes da contestação — em especial o pedido de
+   adesão ao "Juízo 100% Digital": pela RA TRT24 nº 40/2021, art. 4º, §§ 2º e 3º,
+   o silêncio da ECT por 5 dias úteis contados da primeira notificação vale como
+   ANUÊNCIA TÁCITA. Se houver interesse em audiência de instrução presencial, a
+   recusa é manifestação própria e não pode esperar o prazo da defesa.
 
 Ainda não redija a contestação.
 ```
@@ -99,7 +104,7 @@ skill formatar-minuta (entrega em .docx gerado de modelos/_FORMATO_BASE.docx).
 ESTRUTURA:
 I    — Endereçamento, qualificação e tempestividade (prazo em dobro, DL 779/69)
 II   — Síntese da inicial sob a ótica da defesa
-III  — Preliminares e prejudiciais (prescrição total — Súmula 294/TST)
+III  — Preliminares e prejudiciais (prescrição total — art. 11, § 2º, da CLT; a Súmula 294 foi cancelada)
 IV   — Mérito, pedido a pedido, na ordem da inicial
 V    — Impugnação aos documentos e ao valor da causa
 VI   — Requerimentos, provas e prequestionamento
@@ -235,6 +240,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Anexar só a inicial | defesa sem lastro | anexe também os documentos da ECT e a peça-modelo |
 | "Melhore isso" | vago | diga o que está errado ou peça a revisão do item 3.1 |
 | Reaproveitar peça-modelo sem conferir as datas do caso | argumento de modulação temporal vira autofágico (ex.: ADI 5322, efeitos _ex nunc_ de 12/07/2023, invocada em contrato posterior) | "confira as datas do contrato contra o marco temporal antes de repetir o argumento; se não servir, diga e proponha outro" |
+| Pedir honorários/impugnar honorários sem checar o dispositivo | a parte autora costuma pedir pelo art. 85, § 3º, do CPC "pela equiparação à Fazenda Pública"; no processo do trabalho é o art. 791-A da CLT | "confira o dispositivo dos honorários no pedido e impugne se vier pelo CPC" |
 | Aceitar a formatação "parecida" | cabeçalho, rodapé e estilos precisam ser os do arquivo real | anexe o `.docx`/`.odt` e peça: "reconstrua a peça sobre o pacote deste arquivo, substituindo só o corpo" |
 
 ---
@@ -275,8 +281,10 @@ caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração ·
 `Quesitos` = quesitos de perícia. Abreviações de tema: `Inc Fun` = incorporação de função ·
-`Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional. Abreviação nova criada em
-sessão entra nesta lista.
+`Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
+`Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
+`Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
+quando a prejudicial for o eixo da peça). Abreviação nova criada em sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do

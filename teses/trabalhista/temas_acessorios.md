@@ -3,11 +3,11 @@ area: trabalhista
 tema: Temas acessórios (ad cautelam)
 slug: temas_acessorios
 status: validada
-gatilhos: [quebra de caixa, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, previdência privada, honorários advocatícios, art. 791-A, normativos internos, PLR]
+gatilhos: [quebra de caixa, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, cota da patrocinadora, honorários advocatícios, art. 791-A, art. 85 § 3º CPC, normativos internos, PLR, retificação do CNIS, salários de contribuição, multa diária]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md]
-atualizado: 2026-08-27
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+atualizado: 2026-09-03
 ---
 
 # Tese — Temas acessórios que reaparecem *ad cautelam*
@@ -33,9 +33,29 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   comprovação de adesão ao plano e vedação a julgamento extra/ultra petita (arts. 141 e 492 do CPC)
   quando não há pedido de desconto da cota-parte do empregado.
 - **Honorários advocatícios** — art. 791-A, I, da CLT (percentual e base de cálculo: valor atualizado
-  da causa).
+  da causa). **Erro recorrente da parte autora:** pedir honorários pelo **art. 85, § 3º, do CPC**
+  "em razão da equiparação da reclamada à Fazenda Pública". A equiparação é **prerrogativa processual**
+  da ECT (prazo, custas, depósito, precatório); não desloca o arbitramento de honorários trabalhistas
+  para o CPC. Impugnar sempre e requerer honorários em favor da ECT sobre os pedidos rejeitados.
+- **Retificação do CNIS com multa diária** — pedido acessório frequente. A retificação de salários de
+  contribuição é ato do **INSS**, terceiro estranho à lide; a ECT cumpre suas obrigações por
+  eSocial/GFIP. A competência do art. 114, VIII, da CF alcança a execução das contribuições, não a
+  determinação de retificação cadastral. A astreinte é descabida sobre obrigação ainda inexistente
+  (art. 537 do CPC) e costuma vir desproporcional ao valor mensal discutido.
+  `[REVISAR: nunca foi testada em peça real — validar antes de usar]`
 - **Reflexos** — anuênio, férias + gratificação, 13º; impugnar reflexo em **PLR** sempre
   (art. 3º da Lei 10.101/2000: não tem natureza salarial).
+- **Base de cálculo do anuênio — invocar a NORMA COLETIVA.** A cláusula de anuênio dos **Acordos Coletivos
+  de Trabalho** da ECT garante "1% (um por cento) aplicado ao seu **salário-base** e respectivo valor da
+  **gratificação de função ou complementação de remuneração singular**, quando houver, por ano de serviço
+  prestado", com **§2º — teto de 35%** e **§3º — as vantagens não geram direitos em relação a pagamentos
+  pretéritos** (este §3º é útil contra pedido retroativo). Juntar a norma coletiva do período.
+  Cláusula já identificada e usada em peça: **Cláusula 58 da ACT Sentença Normativa 2021/2022** — conferir a cláusula
+  correspondente nos ACTs das demais vigências do período pedido.
+  O **MANPES, Mód. 10, Cap. 01, Anexo 04, item 1.1** traz redação equivalente ("empregado admitido até
+  26.04.2024") e serve de reforço — mas a fonte a citar em peça é a **norma coletiva**.
+  **Adicional de atividade não integra essa base**: impugnar sempre que a inicial pedir reflexo de adicional
+  em anuênio, e demonstrar aritmeticamente com o percentual da ficha cadastral x salário-base.
 
 ## Ligações
 
