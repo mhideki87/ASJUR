@@ -7,7 +7,7 @@ gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
 ver_tambem: []
-atualizado: 2026-08-31
+atualizado: 2026-09-03
 ---
 
 # Tese — Prerrogativas processuais da ECT
@@ -60,6 +60,14 @@ ver `modelos/trabalhista/contestacao__afastamentos.md`.
   um** — sem isso não há prequestionamento para a execução; (c) na petição de interposição de recurso,
   invocar o próprio capítulo da sentença que reconheceu a equiparação como fundamento da dispensa de custas
   e de depósito.
+- **Recurso interposto antes do julgamento de embargos de declaração é tempestivo.** Em acórdão de Turma
+  do TRT24 (ago/2026) o recurso ordinário da ECT, protocolado 3 dias após a ciência da sentença e portanto
+  **antes** da decisão dos embargos opostos pela parte contrária, foi conhecido sem exigência de ratificação
+  posterior (art. 218, § 4º, do CPC; a Súmula 434 do TST, que exigia a ratificação, está cancelada)
+  `[REVISAR: confirmar a data e o teor do cancelamento da Súmula 434 antes de citá-lo em peça]`. Consequência
+  prática inversa, e essa é a que morde: **o que os embargos acrescentarem à decisão não fica devolvido pelo
+  recurso já interposto** — conferir se a decisão integrativa ampliou a condenação e, se ampliou, complementar
+  as razões, sob pena de a matéria chegar ao TST sem prequestionamento.
 - Datas de intimação e a contagem do prazo em dobro **sempre** vão para a lista de conferência humana.
 
 ## Lacunas
