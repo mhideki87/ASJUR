@@ -35,6 +35,17 @@ ROTULO_AREA = {
 }
 ROTULO_STATUS = {"rascunho": "**rascunho**", "revisar": "**revisar**"}
 
+# --- Orçamento do pedágio ------------------------------------------------------------------------
+# `CONTEXTO.md` + `INDICE.md` são lidos por inteiro em toda sessão, antes de abrir qualquer ficha:
+# é o pedágio do roteamento. Ele cresce por linha da tabela, enquanto o conteúdo útil (as fichas
+# abertas) não cresce junto — cada tema novo encarece todas as sessões, inclusive as que nada têm a
+# ver com ele. O que mede o incômodo não é o tamanho absoluto e sim a **fração da sessão gasta em
+# navegação em vez de conteúdo**: em 50% metade do que se carrega é índice.
+FICHAS_POR_SESSAO = 3        # roteamento típico: o tema do pedido + as duas de "sempre aplicável"
+FRACAO_ALERTA = 0.40         # avisa: dá para enxugar sem pressa
+FRACAO_CORTE = 0.50          # enxugar agora
+GATILHOS_CONFORTAVEIS = 12   # acima disso a ficha costuma ter sinônimo redundante a cortar
+
 
 def ler_frontmatter(caminho: Path) -> tuple[dict, list[str]]:
     """Lê o bloco entre as duas linhas `---` no topo do arquivo.
@@ -151,6 +162,49 @@ def montar_tabela(fichas: list[dict]) -> str:
     return "\n".join(linhas)
 
 
+def medir_pedagio(fichas: list[dict], indice_novo: str) -> dict:
+    """Mede o custo fixo do roteamento contra o de uma sessão típica.
+
+    Usa o INDICE.md que *vai* existir (não o do disco), para o aviso valer já nesta execução.
+    """
+    tamanhos = sorted((RAIZ / f["_caminho"]).stat().st_size for f in fichas)
+    meio = len(tamanhos) // 2
+    mediana = tamanhos[meio] if len(tamanhos) % 2 else (tamanhos[meio - 1] + tamanhos[meio]) // 2
+
+    pedagio = (RAIZ / "CONTEXTO.md").stat().st_size + len(indice_novo.encode("utf-8"))
+    sessao = pedagio + mediana * FICHAS_POR_SESSAO
+    return {"pedagio": pedagio, "mediana": mediana, "sessao": sessao,
+            "fracao": pedagio / sessao if sessao else 0.0}
+
+
+def relatar_pedagio(fichas: list[dict], indice_novo: str) -> list[str]:
+    """Uma linha de status sempre; o chamado ao enxugamento só quando passa do orçamento."""
+    m = medir_pedagio(fichas, indice_novo)
+    pct = 100 * m["fracao"]
+    linhas = [f"Pedágio: {m['pedagio'] / 1024:.1f} KB = {pct:.0f}% de uma sessão típica "
+              f"({FICHAS_POR_SESSAO} fichas) — alerta em {FRACAO_ALERTA:.0%}."]
+    if m["fracao"] < FRACAO_ALERTA:
+        return linhas
+
+    urgencia = "PASSOU DO CORTE" if m["fracao"] >= FRACAO_CORTE else "ALERTA"
+    linhas += [
+        "",
+        f"{urgencia}: {pct:.0f}% de cada sessão é índice, não conteúdo.",
+        "Enxugue os gatilhos das fichas abaixo — critério em teses/README.md, seção",
+        '"Gatilho é chave de busca, não resumo". Cortar gatilho custa recall: tire só o redundante.',
+    ]
+    gordas = sorted(((len(f.get("gatilhos", [])), f["_caminho"]) for f in fichas), reverse=True)
+    gordas = [(n, c) for n, c in gordas if n > GATILHOS_CONFORTAVEIS]
+    if gordas:
+        linhas.append("")
+        linhas += [f"  {n:>3} gatilhos  {c}" for n, c in gordas]
+    else:
+        linhas += ["", "  Nenhuma ficha acima de "
+                   f"{GATILHOS_CONFORTAVEIS} gatilhos: o peso está no número de fichas, não nas",
+                   "  listas. Reveja a prosa do INDICE.md e do CONTEXTO.md em vez dos gatilhos."]
+    return linhas
+
+
 def aplicar(tabela: str) -> tuple[str, str]:
     texto = INDICE.read_text(encoding="utf-8")
     inicio = texto.find(MARCA_INICIO)
@@ -184,14 +238,17 @@ def main() -> int:
             print("INDICE.md está desatualizado — rode: python scripts/atualizar_indice.py")
             return 1
         print(f"OK: {len(fichas)} fichas válidas e INDICE.md em sincronia.")
+        print("\n".join(relatar_pedagio(fichas, novo)))
         return 0
 
     if antigo == novo:
         print(f"OK: {len(fichas)} fichas válidas; INDICE.md já estava em sincronia.")
+        print("\n".join(relatar_pedagio(fichas, novo)))
         return 0
 
     INDICE.write_text(novo, encoding="utf-8")
     print(f"INDICE.md atualizado com {len(fichas)} fichas.")
+    print("\n".join(relatar_pedagio(fichas, novo)))
     return 0
 
 

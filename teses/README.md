@@ -35,6 +35,37 @@ Formato de propósito restrito: uma chave por linha, listas em `[a, b, c]`. Não
 demanda para decidir se abre a ficha: termos que aparecem literalmente na inicial, sinônimos, números de
 norma e de súmula, nomes de parcela. Gatilho ruim = ficha invisível na hora certa, ou ficha aberta à toa.
 
+### Gatilho é chave de busca, não resumo
+
+Gatilho existe para uma coisa só: casar com o que aparece no **objeto da demanda** e levar à ficha certa.
+Não é ementa, não é lista de tudo que a ficha discute. Cada gatilho é lido em toda sessão, de todo
+processo — inclusive nos que não têm nada a ver com aquele tema.
+
+O que **mantém**:
+- o termo que o autor usa na inicial (`incorporação de gratificação`, `extravio`, `readaptação`);
+- número de norma, súmula ou tema que identifica o assunto (`Súmula 51`, `Módulo 55`, `Tema 138`);
+- nome da parcela ou do instituto (`FAT`, `ITF`, `quebra de caixa`, `NTEP`);
+- o sinônimo que muda a palavra de verdade, não a flexão (`doença ocupacional` / `acidente de trabalho`).
+
+O que **corta primeiro**, quando o pedágio apertar:
+- flexão ou quase-repetição do vizinho (`prescrição` + `prescrição total`; `afastamento` + `afastamentos`);
+- termo já contido no campo `tema`, que o roteamento lê junto (a ficha "Prescrição total" não precisa do
+  gatilho `prescrição total`);
+- palavra genérica demais para discriminar (`dano moral`, `honorários`, `desconto em folha` aparecem em
+  metade dos processos e não apontam para ficha nenhuma);
+- detalhe interno da tese, que só faz sentido depois de a ficha estar aberta (`art. 476 CLT`,
+  `divisor mensal`) — isso é conteúdo, e o lugar dele é o corpo.
+
+Alvo de **6 a 10 gatilhos** por ficha. Acima de 12 quase sempre há redundância.
+
+**Cortar gatilho custa recall.** Um termo a menos é um caminho a menos até a ficha; se o roteamento
+deixar de achá-la, a tese não entra na peça — prejuízo muito maior que o do pedágio. Na dúvida sobre um
+termo específico, mantenha. Corte o que é claramente redundante, não o que é apenas raro.
+
+**Quando enxugar:** `python scripts/atualizar_indice.py` mede o pedágio a cada execução e avisa ao passar
+de 40% da sessão típica, listando as fichas com mais gatilhos. Não corte por antecipação — enquanto o
+script não reclamar, gatilho a mais é barato.
+
 **`status`** indica o quanto se pode confiar na ficha:
 - `validada` — usada em peça real, conferida.
 - `rascunho` — candidata a tese (ex.: inferida de levantamento estatístico do acervo); validar contra o
