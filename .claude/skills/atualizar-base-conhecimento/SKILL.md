@@ -52,7 +52,7 @@ escreva "nada" e siga:
 | Gatilho que faltou / sobrou | metadado `gatilhos:` da ficha (é o que faz o roteamento funcionar na próxima vez) |
 | Estrutura de peça nova ou variação | `modelos/<área>/<tipo_peca>__<tema>.md` (+ `.docx` anonimizado, se houver peça real anexada) — e acrescente o caminho no metadado `modelos:` da ficha |
 | Regra de trabalho ou perfil | `CONTEXTO.md` |
-| Padrão formal da peça | `modelos/README.md` |
+| Padrão formal da peça (fonte, margens, espaçamento, tópico em retângulo, numeração, cabeçalho, rodapé, assinatura) | `.claude/skills/formatar-minuta/` — SKILL.md e `referencia/especificacao_formatacao.md`. **Não** descreva formatação em `modelos/README.md`, que só aponta para a skill |
 | Nomenclatura do arquivo final, tipo de peça novo | `playbook_prompts_ECT.md` (seção 5.1) |
 | Lacuna que não é de um tema | `LACUNAS.md` |
 | Prompt que funcionou bem / erro de pedido a evitar | `playbook_prompts_ECT.md` |

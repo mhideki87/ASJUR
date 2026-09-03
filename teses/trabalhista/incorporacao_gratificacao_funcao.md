@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, Tema 23, estabilidade financeira, estabilidade econômica, média ponderada, 120 meses, Encarregado de Tesouraria]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria]
 pecas: [contestação, contrarrazões, recurso de revista]
-modelos: [modelos/trabalhista/contestacao - incorporacao funcao.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-28
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
+ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+atualizado: 2026-09-03
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -33,8 +33,18 @@ direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da
 ## Fundamentos de apoio
 
 - **Súmula 51, I, do TST** — afastada quando os requisitos do regulamento não foram preenchidos na vigência.
-- **Súmula 372 do TST** — item I cancelado `[REVISAR: conferir data e teor exatos do cancelamento antes
-  de citar]`.
+- **Súmula 372, I, do TST — CANCELADA.** O **Tribunal Pleno do TST**, pela **Resolução nº 225, de
+  30/06/2025** (DEJT de 30/06, 01/07 e 02/07/2025), cancelou 36 enunciados superados pela Reforma
+  Trabalhista ou por decisões do STF, entre eles o **item I** da Súmula 372 — "percebida a gratificação de
+  função por dez ou mais anos pelo empregado, se o empregador, sem justo motivo, revertê-lo a seu cargo
+  efetivo, não poderá retirar-lhe a gratificação tendo em vista o princípio da estabilidade financeira".
+  Cancelamento **por perda de eficácia a partir de 11/11/2017**, em razão do **art. 468, § 2º, da CLT**
+  (Lei 13.467/2017), que afastou expressamente o direito à incorporação.
+  **O item II não foi cancelado** — segue vedada a redução do valor da gratificação de quem permanece na
+  função comissionada.
+  `[REVISAR: os termos exatos vieram de resumo de busca na web; o tst.jus.br e o juslaboris estão
+  bloqueados pelo proxy do ambiente cloud — conferir o texto da Resolução nº 225/2025 na fonte oficial
+  antes de citar em peça protocolada]`
 - **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (art. 927 do CPC).
   Teor literal, conforme transcrito no modelo institucional (INCJULGRREMBREP-528-80.2018.5.14.0004):
   *"A Lei nº 13.467/2017 possui aplicação imediata aos contratos de trabalho em curso, passando a regular os
@@ -66,12 +76,22 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Pontos sensíveis / variações
 
+- **O cancelamento da Súmula 372, I, não é bala de prata — atenção ao marco de 11/11/2017.** O
+  cancelamento se deu por *perda de eficácia a partir* dessa data, e não com efeito retroativo pleno. Para
+  **reversão ocorrida antes de 11/11/2017**, a parte autora sustenta a aplicação residual do item I, por
+  direito adquirido e segurança jurídica (art. 5º, XXXVI, e art. 7º, VI, da CF) — tese que circula. Então:
+  usar o cancelamento como **reforço**, sempre acompanhado dos fundamentos que independem dele (requisito
+  temporal não implementado, justo motivo, natureza da parcela); e, sendo a reversão **posterior** a
+  11/11/2017, aí sim o art. 468, § 2º, da CLT resolve por si.
+- **Acórdão regional que ainda invoca a Súmula 372, I, depois de 30/06/2025 aplica verbete cancelado** —
+  é impugnação específica pronta contra precedente juntado pela parte autora. Já se viu acórdão de TRT de
+  agosto/2025 nessa situação.
 - A escolha da **variante correta da Súmula 51** depende do cruzamento de duas datas: quando o Reclamante
   completou o requisito temporal (5 anos FAT/FAO; 10 anos ITF/GPTF) e a data de revogação do módulo
   correspondente. Conferir sempre nos documentos antes de escolher — é o ponto mais sensível do tema.
 - Períodos de **Motorizado** e **Quebra de Caixa** não contam como gratificação de confiança
   (salário-condição / adicional de risco) — **mas separe os dois planos, sob pena de contradição na peça**:
-  ver a seção "Quebra de caixa: usar em qual plano" abaixo.
+  ver a seção "Quebra de caixa: usar o argumento em qual plano" abaixo.
 - **Substituição** só computa se contínua e superior a 180 dias (Módulo 55, item 3.1.1).
 - **CIP** só passou a ser paga a partir de outubro/2014 — em geral não completa o requisito temporal.
 
@@ -82,21 +102,22 @@ indistintamente**, porque tem um flanco documental aberto:
 
 - a **própria ECT** classifica a função (ex.: "QUEBRA DE CAIXA C/ GRAT ATEND BP") como
   **"Atividade Especial"** no campo "FUNÇÕES" da ficha cadastral; e
-- o item 1.1, "a", do Capítulo 2 do **Módulo 36** conta o tempo em função *"gerencial, técnica, **de atividade
-  especial**, FAT/FAO, ou dirigente"*; e
+- o item 1.1, "a", do Capítulo 2 do **Módulo 36** conta o tempo em função *"gerencial, técnica, de atividade
+  especial, FAT/FAO, ou dirigente"*; e
 - a parcela é paga sob a **mesma rubrica** da função técnica ("Gratificação de Função Conv.").
 
-Ou seja: no plano da **norma interna**, a parte autora pode responder com documento da própria Empresa.
+Ou seja: no plano da **norma interna**, a parte autora responde com documento da própria Empresa.
 Regra de uso, então:
 
 | Plano | Argumento a usar | Argumento a **evitar** |
 |---|---|---|
-| **Súmula 372, I** (decênio) | natureza da parcela — salário-condição, ausência de fidúcia especial, atividade própria do cargo de Atendente Comercial prevista no PCCS/edital; E-ARR-8-98.2011.5.15.0114 | — |
+| **Decênio** (Súmula 372, I, quando o autor sustenta aplicação residual a reversão anterior a 11/11/2017) | natureza da parcela — salário-condição, ausência de fidúcia especial, atividade própria do cargo de Atendente Comercial prevista no PCCS/edital; E-ARR-8-98.2011.5.15.0114 | — |
 | **Módulo 36** (ITF) | **exclusivamente o temporal**: requisito não implementado até a revogação, e dispensa pela Empresa posterior a ela | não discutir a natureza da parcela aqui — o Módulo 36 conta "atividade especial" no seu próprio texto |
 
-Efeito prático quando a exclusão é aceita no plano da Súmula 372: descontados os períodos de quebra de caixa,
-frequentemente o empregado tem **zero** tempo de função de confiança em 11/11/2017 — o que derruba a alegação
-de "decênio completado antes da Reforma", que é o argumento mais forte da inicial.
+Efeito prático quando a exclusão é aceita no plano do decênio: descontados os períodos de quebra de caixa,
+frequentemente o empregado tem **zero** tempo de função de confiança em 11/11/2017 — o que derruba a
+alegação de "decênio completado antes da Reforma", com que o autor tenta sustentar a aplicação residual do
+item I já cancelado.
 
 ## Cruzamento de datas — exemplo trabalhado (sessão real)
 
@@ -134,17 +155,22 @@ eram de função técnica — o restante, quebra de caixa.
 ## Ligações
 
 - Prescrição total do pedido: [teses/trabalhista/prescricao.md](../trabalhista/prescricao.md)
+- **Não confundir com adicional de atividade** (AAT/AADC) suprimido na readaptação: lá a discussão é
+  salário-condição x irredutibilidade, não requisito temporal —
+  [supressao_adicional_atividade_readaptacao.md](supressao_adicional_atividade_readaptacao.md)
 - Preliminar padrão de equiparação à Fazenda Pública:
   [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
 - POSTALIS, reajuste de ACT, honorários: [teses/trabalhista/temas_acessorios.md](temas_acessorios.md)
 - Estrutura completa da peça (modelo modular, com blocos condicionais):
-  `modelos/trabalhista/contestacao - incorporacao funcao.md` + `.docx`
+  `modelos/trabalhista/contestacao__incorporacao_funcao.md` + `.docx`
 
 ## Lacunas
 
-- [ ] Data e teor exatos do cancelamento da Súmula 372, I.
-- [ ] Teor literal da tese do Tema 23 já registrado nesta ficha (extraído do modelo institucional); **falta
-      confirmar** número do processo, data de julgamento e publicação na fonte oficial.
+- [ ] Conferir a Resolução nº 225/2025 na fonte oficial do TST (não foi possível abrir do ambiente cloud).
+- [ ] Levantar como o TRT24 vem tratando a aplicação residual da Súmula 372, I, a reversões anteriores a
+      11/11/2017.
+- [ ] Teor literal da tese do Tema 23 já registrado nesta ficha (extraído do modelo institucional);
+      **falta confirmar** número do processo, data de julgamento e publicação na fonte oficial.
 - [ ] Como o TRT24 e o C. TST tratam a exclusão do período de quebra de caixa **quando a própria ECT o
       classifica como "Atividade Especial"** — é o contra-argumento documental mais forte do autor e a base
       ainda não tem decisão registrada sobre ele.

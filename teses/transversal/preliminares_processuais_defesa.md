@@ -5,7 +5,7 @@ slug: preliminares_processuais_defesa
 status: validada
 gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, justiça gratuita, gratuidade de justiça, art. 790 §3º, art. 790 §4º, declaração de insuficiência, declaração de hipossuficiência, hipossuficiência, ADC 80, Súmula 463 do TST, CONSIF, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
 pecas: [contestação, contrarrazões]
-modelos: [modelos/trabalhista/contestacao - incorporacao funcao.md]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
 atualizado: 2026-08-28
 ---
@@ -147,7 +147,7 @@ mim na fonte. Confirmar no andamento processual do STF antes do protocolo.]`
 - Prerrogativas de prazo, custas e execução:
   [teses/transversal/prerrogativas_processuais_ect.md](prerrogativas_processuais_ect.md)
 - Blocos correspondentes na peça (preliminares 3 e 4 e bloco de abertura):
-  `modelos/trabalhista/contestacao - incorporacao funcao.md`
+  `modelos/trabalhista/contestacao__incorporacao_funcao.md`
 
 ## Lacunas
 

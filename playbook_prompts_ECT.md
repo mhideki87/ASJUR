@@ -27,6 +27,11 @@ REGRAS FIXAS:
 - Ao final, liste separadamente tudo que exige conferência humana antes do protocolo.
 - Se a defesa e a sentença divergirem quanto aos fatos, apoie-se na sentença e na
   capa do PJe.
+- Formatação: use SEMPRE o padrão único da skill formatar-minuta (Arial 11,
+  entrelinha exata de 18 pt, margens 3/2/3/2 cm, tópico principal em caixa alta
+  dentro de retângulo, subtópicos numerados em negrito sublinhado, cabeçalho/rodapé
+  e assinatura de modelos/_FORMATO_BASE.docx). Peça-modelo anexada serve para
+  estrutura e tese, nunca para formatação. Sem nota de rodapé.
 ```
 
 ---
@@ -50,6 +55,11 @@ Analise a petição inicial anexada (ECT no polo passivo) e estruture assim:
    pedido genérico, incompatibilidade com o rito.
 7. RISCOS — onde a ECT tende a sucumbir e por quê.
 8. O QUE FALTA NOS AUTOS para montar a defesa (documentos a requisitar à área).
+9. PRAZOS AUTÔNOMOS que correm antes da contestação — em especial o pedido de
+   adesão ao "Juízo 100% Digital": pela RA TRT24 nº 40/2021, art. 4º, §§ 2º e 3º,
+   o silêncio da ECT por 5 dias úteis contados da primeira notificação vale como
+   ANUÊNCIA TÁCITA. Se houver interesse em audiência de instrução presencial, a
+   recusa é manifestação própria e não pode esperar o prazo da defesa.
 
 Ainda não redija a contestação.
 ```
@@ -88,14 +98,13 @@ Analise o Recurso Ordinário anexado e estruture:
 
 ### 2.1 Contestação
 ```
-Com base na análise acima, redija a contestação da ECT em .odt, replicando
-integralmente a formatação (cabeçalho, fonte, espaçamento, rodapé, bloco de
-assinatura) do arquivo <MODELO.odt> anexado.
+Com base na análise acima, redija a contestação da ECT no padrão de formatação da
+skill formatar-minuta (entrega em .docx gerado de modelos/_FORMATO_BASE.docx).
 
 ESTRUTURA:
 I    — Endereçamento, qualificação e tempestividade (prazo em dobro, DL 779/69)
 II   — Síntese da inicial sob a ótica da defesa
-III  — Preliminares e prejudiciais (prescrição total — Súmula 294/TST)
+III  — Preliminares e prejudiciais (prescrição total — art. 11, § 2º, da CLT; a Súmula 294 foi cancelada)
 IV   — Mérito, pedido a pedido, na ordem da inicial
 V    — Impugnação aos documentos e ao valor da causa
 VI   — Requerimentos, provas e prequestionamento
@@ -105,8 +114,7 @@ Impugne especificamente cada fato e cada pedido. Não deixe pedido sem resposta.
 
 ### 2.2 Contrarrazões de Recurso Ordinário
 ```
-Redija contrarrazões ao RO do Reclamante em .odt, com a formatação do
-<MODELO.odt> anexado.
+Redija contrarrazões ao RO do Reclamante no padrão da skill formatar-minuta.
 
 Conteúdo: defenda o acerto da sentença usando (a) os próprios fundamentos da
 decisão, (b) os argumentos da contestação anexada, (c) fundamentos jurídicos
@@ -125,7 +133,8 @@ VI   — Requerimentos com prequestionamento expresso
 
 ### 2.3 Recurso de Revista
 ```
-Redija recurso de revista contra o acórdão anexado, formatação do <MODELO.odt>.
+Redija recurso de revista contra o acórdão anexado, no padrão da skill
+formatar-minuta.
 
 Para cada tema, obedeça à estrutura de admissibilidade:
 - transcrição do trecho do acórdão que consubstancia o prequestionamento
@@ -141,7 +150,7 @@ de forçar o enquadramento.
 
 ### 2.4 Quesitos de perícia médica
 ```
-Formule quesitos para perícia médica judicial, com a formatação do <MODELO.odt>,
+Formule quesitos para perícia médica judicial, no padrão da skill formatar-minuta,
 organizados em blocos que sustentem as teses da ECT:
 
 I   — Metodologia e fontes (separar achado clínico objetivo de relato do periciando)
@@ -169,7 +178,8 @@ V — ad cautelam: grau e base de cálculo
 
 ### 2.6 Embargos de declaração
 ```
-Redija embargos de declaração contra a decisão anexada, formatação do <MODELO.odt>.
+Redija embargos de declaração contra a decisão anexada, no padrão da skill
+formatar-minuta.
 
 Aponte, um a um: omissão / contradição / obscuridade / erro material, indicando
 para cada vício o trecho exato da decisão e a tese ou dispositivo não enfrentado.
@@ -200,11 +210,13 @@ argumentos mais fortes contra ela e como o juízo provavelmente responderia?
 Depois indique o que eu deveria reforçar na peça.
 ```
 
-### 3.3 Conversão de formato
+### 3.3 Reformatação de peça fora do padrão
 ```
-Converta o arquivo anexado para .docx (ou .odt) mantendo integralmente a
-formatação. Confirme depois: paginação, margens, fontes, cabeçalho com logotipo,
-rodapé e numeração.
+Reformate o arquivo anexado no padrão da skill formatar-minuta, sem alterar o
+texto. Confirme depois, item por item: margens 3/2/3/2 cm, Arial 11, entrelinha
+exata de 18 pt, tópicos principais em caixa alta dentro de retângulo, numeração
+dos subtópicos reiniciando em cada tópico, cabeçalho com logotipo, rodapé com
+endereço e numeração, fecho e assinatura, ausência de nota de rodapé.
 ```
 
 ### 3.4 Reaproveitamento de peça
@@ -227,6 +239,9 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Dois processos na mesma conversa | contamina fatos e datas | uma conversa por processo |
 | Anexar só a inicial | defesa sem lastro | anexe também os documentos da ECT e a peça-modelo |
 | "Melhore isso" | vago | diga o que está errado ou peça a revisão do item 3.1 |
+| Reaproveitar peça-modelo sem conferir as datas do caso | argumento de modulação temporal vira autofágico (ex.: ADI 5322, efeitos _ex nunc_ de 12/07/2023, invocada em contrato posterior) | "confira as datas do contrato contra o marco temporal antes de repetir o argumento; se não servir, diga e proponha outro" |
+| Pedir honorários/impugnar honorários sem checar o dispositivo | a parte autora costuma pedir pelo art. 85, § 3º, do CPC "pela equiparação à Fazenda Pública"; no processo do trabalho é o art. 791-A da CLT | "confira o dispositivo dos honorários no pedido e impugne se vier pelo CPC" |
+| Aceitar a formatação "parecida" | cabeçalho, rodapé e estilos precisam ser os do arquivo real | anexe o `.docx`/`.odt` e peça: "reconstrua a peça sobre o pacote deste arquivo, substituindo só o corpo" |
 
 ---
 
@@ -236,6 +251,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 |---|---|
 | Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
+| Recurso Ordinário | sentença · contestação · peça-modelo do mesmo tema · contrato administrativo e documentos de fiscalização (quando o tema for responsabilidade subsidiária) |
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
 | Quesitos | contestação · laudos e documentos do INSS · peça-modelo |
 | Embargos | decisão embargada · peça em que a tese omitida foi deduzida |
@@ -248,6 +264,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 |---|---|
 | Contestação / Defesa | Resposta à inicial (trabalhista e cível) |
 | Contrarrazões de recurso | Defesa da sentença favorável (TRT24 na trabalhista) |
+| Recurso Ordinário | Sentença desfavorável (trabalhista, ao TRT24) — petição de interposição à Vara + razões ao Tribunal |
 | Recurso de revista | Sentença/acórdão desfavorável (trabalhista) |
 | Quesitos para perícia | Médica (doença ocupacional) e técnica (insalubridade/periculosidade) |
 | Manifestações | Documentos do INSS, laudos, cálculos, RPV, audiência |
@@ -256,28 +273,24 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
-**Nome do arquivo final — convenção obrigatória:**
+Nome do arquivo final: `Tipo - Tema abreviado - NOME DA PARTE.docx` — **sem `_`** (espaço simples no
+lugar) e com os tópicos separados por ` - ` (espaço, hífen, espaço). O nome da parte vem por último, em
+caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário indicar. Exemplo de padrão:
+`RO - Resp Subs - NOME DA PARTE.docx` (nenhum nome real neste repositório).
 
-```
-<Tipo> - <Tema abreviado> - <Rito> - <NOME DA PARTE>.docx
-```
+Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
+`RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração ·
+`Quesitos` = quesitos de perícia. Abreviações de tema: `Inc Fun` = incorporação de função ·
+`Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
+`Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
+`Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
+quando a prejudicial for o eixo da peça). Abreviação nova criada em sessão entra nesta lista.
 
-- **Espaço simples entre as palavras.** `_` **nunca** é separador de palavras em nome de arquivo.
-- **` - ` (espaço-hífen-espaço) separa os tópicos** do nome.
-- Abreviações: `Cont` = contestação · `Contrarraz` = contrarrazões · `RR` = recurso de revista ·
-  `ED` = embargos de declaração · `Manifest` = manifestação · `Quesitos` = quesitos de perícia ·
-  `Inc Fun` = incorporação de função · `Afast` = afastamentos · `ATSum` = rito sumaríssimo ·
-  `Ord` = rito ordinário.
+A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
+citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do
+repositório (`modelos/<área>/<tipo_peca>__<tema>.md`, em snake_case), que segue `modelos/README.md`.
 
-Certo: `Cont - Inc Fun - ATSum - NOME DA PARTE.docx`
-Errado: `Cont_-_Inc_Fun_-_ATSum_-_NOME_DA_PARTE.docx`
-
-A mesma convenção vale para os arquivos de modelo do repositório
-(`modelos/<área>/<tipo peça> - <tema>.md` + `.docx`) — sem nome real de parte, nunca.
-
-O arquivo final é gerado pela skill **`formatar-peca`** (`.claude/skills/formatar-peca/`), que aplica a
-formatação oficial com `scripts/gerar_peca_docx.py` a partir de `modelos/_FORMATO_BASE.docx`. Não montar a
-formatação à mão nem recriá-la a partir de descrição em texto.
+A peça é gerada **e entregue** em `.docx`, pela skill `formatar-minuta`, a partir de `modelos/_FORMATO_BASE.docx` — nunca em documento em branco e nunca em `.odt`.
 
 ---
 
@@ -291,16 +304,18 @@ anexar, e um **ao final** de cada sessão em que algo for minutado.
 ### 6.1 Antes de anexar uma peça-modelo antiga (passo novo)
 
 ```
-Antes de eu anexar um modelo antigo: use modelos/_FORMATO_BASE.docx (via GitHub) como formatação
-geral desta peça — fonte, cabeçalho, rodapé, fecho e assinatura já vêm dali, para qualquer tipo de
-peça. Ajuste o bloco de qualificação (endereçamento, rótulos de polo, fundamentação legal de
-admissibilidade) conforme o tipo de peça desta sessão.
+Antes de eu anexar um modelo antigo: a formatação desta peça vem da skill formatar-minuta, que
+clona modelos/_FORMATO_BASE.docx (fonte, cabeçalho, rodapé, fecho e assinatura), para qualquer tipo
+de peça — não peça modelo antigo por causa de formatação. Ajuste o bloco de qualificação
+(endereçamento, rótulos de polo, fundamentação legal de admissibilidade) conforme o tipo de peça
+desta sessão.
 Além disso, verifique em modelos/<área>/ se já existe o par <tipo_peca>__<tema>.md (+ .docx, se
 houver) para esta peça + tema. Se existir, use o .md como base de estrutura/tese — não peça o anexo
 de uma peça-modelo antiga. Se não existir, ou se estiver desatualizado, me avise e eu anexo o modelo.
 ```
 
-Isso evita reanexar o que já foi consolidado — a formatação geral vem sempre de `_FORMATO_BASE.docx`;
+Isso evita reanexar o que já foi consolidado — a formatação vem sempre da skill `formatar-minuta`, sobre
+`_FORMATO_BASE.docx`;
 a tese/estrutura do tema vem do `.md` correspondente. Só volte a anexar uma peça antiga quando o tema for
 novo, o modelo salvo estiver incompleto, ou o caso trouxer uma variação de estrutura que valha preservar
 num `.docx` próprio do tema.

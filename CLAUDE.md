@@ -6,10 +6,12 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Seção | Claude Code local | Claude Code cloud/web | Project do claude.ai |
 |---|---|---|---|
 | Consulta à base de conhecimento (índice → fichas) | sim | sim | sim |
+| Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
+| Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
-| Geração do arquivo da peça (skill `formatar-peca`) e convenção de nomes | sim | sim | sem script — só a convenção de nomes se aplica |
+| Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -44,6 +46,37 @@ Regras:
 - Ficha nova ou alterada só entra no repositório depois de **aprovação explícita do usuário** (protocolo da
   seção 6.2 de `playbook_prompts_ECT.md`).
 
+## Formatação de toda minuta — skill `formatar-minuta`
+
+**Objetivo:** toda peça sai no mesmo padrão visual, sem depender de o usuário anexar peça-modelo antiga.
+
+**Gatilho:** qualquer sessão em que uma peça vá ser redigida, montada, convertida, reformatada ou entregue
+como arquivo — contestação, recurso ordinário, recurso de revista, contrarrazões, embargos, quesitos,
+manifestação, impugnação, petição simples —, mesmo que o usuário não fale de formatação.
+
+**Ação:** invocar a skill **`formatar-minuta`** (`.claude/skills/formatar-minuta/`) **antes** de começar a
+escrever a peça, não depois. Ela traz a especificação completa (Arial 11, entrelinha exata de 18 pt, margens
+3/2/3/2 cm, tópico principal em caixa alta dentro de retângulo, subtópicos numerados em negrito sublinhado,
+citações em Arial 10 recuadas 4 cm, cabeçalho com logotipo, rodapé com endereço e numeração, fecho e
+assinatura) e o gerador:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Regras:
+- Essa skill é a **fonte única** da formatação. Onde qualquer outro arquivo da base, prompt antigo ou peça
+  anexada disser coisa diferente sobre fonte, margem, espaçamento, numeração, cabeçalho, rodapé ou
+  assinatura, **vale a skill**.
+- Peça-modelo anexada pelo usuário serve para **estrutura, tese e texto reaproveitável** — nunca para
+  formatação.
+- **Nunca** recriar cabeçalho, rodapé ou logotipo a partir de descrição em texto: clone
+  `modelos/_FORMATO_BASE.docx`.
+- O arquivo da peça, por conter dado real da parte, é gravado **fora deste repositório** (em
+  `D:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
+- O padrão **não usa nota de rodapé**: referência a documento (SEI, Id do PJe, folha) vai no corpo, entre
+  parênteses.
+
 ## Consolidação da base ao final da tarefa
 
 **Objetivo:** o que a sessão descobriu não pode morrer com a sessão.
@@ -63,39 +96,28 @@ Regras:
   Única exceção: `.docx` anonimizado, que espera aprovação (conferir texto oculto e metadados é
   verificação humana, e o repositório é público).
 
-## Geração do arquivo da peça — formatação e nome do arquivo
+## Nome do arquivo da minuta entregue
 
-**Objetivo:** o arquivo entregue tem de sair com a formatação oficial do escritório e com o nome na
-convenção certa, sem depender de eu acertar isso "no olho" a cada sessão.
+**Objetivo:** o arquivo que chega ao usuário já vem com o nome que ele usaria — sem `_`, legível na pasta do
+caso.
 
-**Gatilho:** sempre que for produzir o arquivo final de qualquer peça (contestação, contrarrazões, recurso,
-manifestação, quesitos, embargos) — e também quando o usuário disser que a formatação está errada ou
-reclamar do nome do arquivo.
+**Gatilho:** gerar, salvar, anexar, renomear ou citar o nome de qualquer arquivo de peça (contestação,
+contrarrazões, RO, RR, quesitos, manifestação, embargos, impugnação, petição de juntada).
 
-**Ação:** invocar a skill **`formatar-peca`** (`.claude/skills/formatar-peca/`). Ela escreve o corpo num
-arquivo de texto com marcas e roda `python scripts/gerar_peca_docx.py`, que aplica a formatação a partir de
-`modelos/_FORMATO_BASE.docx` preservando cabeçalho, logotipo, rodapé e estilos byte a byte.
-
-**Nome do arquivo — regra permanente:**
+**Ação:** invocar a skill **`nomear-minuta`** (`.claude/skills/nomear-minuta/`) e nomear no padrão:
 
 ```
-<Tipo> - <Tema abreviado> - <Rito> - <NOME DA PARTE>.docx
+Tipo - Tema abreviado - NOME DA PARTE.docx
 ```
 
-- **Espaço simples entre as palavras.** `_` **nunca** separa palavras em nome de arquivo — nem no arquivo
-  entregue, nem nos arquivos do repositório.
-- **` - ` (espaço-hífen-espaço) separa os tópicos** do nome.
-- Vale para todo arquivo que eu criar, em qualquer sessão. Abreviações e exemplos: seção 5.1 de
-  `playbook_prompts_ECT.md`.
+Espaço simples no lugar de `_`; tópicos separados por ` - `; nome da parte por último, em caixa alta;
+extensão sempre `.docx`. Exemplo de formato: `RO - Resp Subs - NOME DA PARTE.docx`.
 
-**Nunca:**
-- Montar a formatação parágrafo por parágrafo à mão, nem recriá-la a partir da descrição em texto do
-  `modelos/README.md` — usar o script.
-- Gravar no repositório a peça ou o arquivo de conteúdo com dado real de parte: ficam no diretório de
-  trabalho da sessão.
-- Substituir `modelos/_FORMATO_BASE.docx` sem **aprovação explícita** do usuário, mesmo que ele tenha
-  anexado a peça-modelo: conferir texto oculto, metadados e propriedades do documento é verificação humana,
-  e o repositório é público.
+Regras:
+- Vale para o nome escrito **na resposta** tanto quanto para o arquivo salvo — os dois têm de ser idênticos.
+- Não se aplica aos arquivos internos do repositório (`teses/`, `modelos/`, `scripts/`), que seguem o
+  snake_case de `modelos/README.md`.
+- Nome de parte real nunca entra em arquivo deste repositório — nos exemplos, `NOME DA PARTE`.
 
 ## Conversão automática de documentos da parte para Markdown
 
@@ -138,6 +160,36 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`D:\Claude\00 caso_atual`
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
+
+## Conferência de texto legal — o cloud/web não alcança as fontes oficiais
+
+**Objetivo:** não repetir, a cada sessão, uma tentativa de conferência que o ambiente não permite concluir —
+e, principalmente, não deixar que resultado de busca vire citação de norma.
+
+**O que foi constatado (03/09/2026, sessão cloud/web):** a política de rede do ambiente bloqueia o acesso
+externo do `WebFetch` e do `curl`. Ficaram inacessíveis, entre outros, `planalto.gov.br`, `in.gov.br`
+(Diário Oficial), `bvsms.saude.gov.br`, `renastonline.ensp.fiocruz.br` e repositórios de universidades. O
+`noProxy` do ambiente libera só registros de pacote (npm, PyPI, crates), as APIs da Anthropic e o acesso git
+ao GitHub. O `WebSearch` funciona, porque não é egresso direto — mas devolve **resumo de terceiros, não o
+texto da norma**.
+
+**Regra:** resumo de busca **não** confere norma. Ele serve para descobrir que existe uma questão; nunca
+para afirmar o conteúdo de artigo, anexo, lista, súmula ou portaria. Duas buscas que se contradizem são
+sinal de que a questão é real e precisa de leitura humana — não de uma terceira busca.
+
+**Como proceder ao esbarrar num `[REVISAR]` de texto legal em sessão cloud/web:**
+
+1. Tentar o `WebFetch` **uma vez**. Bloqueou, não insistir com outro domínio atrás do mesmo texto.
+2. Usar o `WebSearch` para mapear **o que está em jogo** — qual norma, qual dispositivo, se há divergência,
+   qual o impacto na tese se a resposta for num sentido ou noutro.
+3. Registrar na ficha como **não confirmado**, com as leituras concorrentes e a linha de resposta para cada
+   uma — nunca como tese fechada.
+4. Dizer ao usuário, na resposta, que a conferência ficou pendente, por quê, e **em que ordem** conferir.
+5. Diagnóstico do bloqueio, se necessário: `curl -sS "$HTTPS_PROXY/__agentproxy/status"`.
+
+A política de rede é escolhida na criação do ambiente e pode mudar; o que está acima é o comportamento
+observado, não uma garantia permanente. Em sessão local (CLI/desktop), a conferência costuma ser possível —
+é o caminho preferível para fechar pendência de texto legal.
 
 ## Título da sessão — identificação do caso na aba lateral
 

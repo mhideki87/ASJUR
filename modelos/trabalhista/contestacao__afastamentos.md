@@ -1,6 +1,6 @@
 # Modelo: Contestação — Afastamentos (atestado médico / auxílio-doença)
 
-**Consolidado de:** 1 caso-fonte (contestação real, anonimizada — ver `contestacao - afastamentos.docx` neste
+**Consolidado de:** 1 caso-fonte (contestação real, anonimizada — ver `contestacao__afastamentos.docx` neste
 mesmo diretório).
 **Última atualização:** 2026-08-15 — criação inicial.
 

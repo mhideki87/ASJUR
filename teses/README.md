@@ -22,7 +22,7 @@ slug: prescricao             # igual ao nome do arquivo, sem .md
 status: validada             # validada | rascunho | revisar
 gatilhos: [prescrição, Súmula 294, art. 11 CLT]
 pecas: [contestação, contrarrazões]
-modelos: [modelos/trabalhista/contestacao - incorporacao funcao.md]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md]
 atualizado: 2026-08-27
 ---

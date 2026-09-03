@@ -8,7 +8,14 @@ logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Ma
 idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
 tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
 
-Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
+Ao gerar qualquer peça nova, comece por este arquivo — o caminho normal é a skill **`formatar-minuta`**, que
+clona este `.docx` e regrava só o corpo:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
 - Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de
   polo (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargado, etc.).
@@ -19,51 +26,54 @@ Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
 
-## Padrão formal, em texto
+## Padrão formal — onde está a especificação
 
-O `.docx` acima é a fonte da verdade — isto aqui é só a descrição, para conferência.
+A especificação da formatação **não fica mais aqui**: está na skill `formatar-minuta`
+([SKILL.md](../.claude/skills/formatar-minuta/SKILL.md) +
+[especificação com as medidas](../.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md)),
+que é a fonte única para qualquer tipo de peça, trabalhista ou cível. Resumo do que vale:
 
-**Trabalhista** (validado contra peça real aprovada, 28/08/2026). Página A4, margens: esquerda 3 cm
-(1701 twips), direita 2 cm (1134), superior 3 cm (1701), inferior 2 cm (1134); cabeçalho/rodapé a 0,7 cm.
-Fonte **Arial**; corpo **11 pt** (sz 22); citações **10 pt** (sz 20). Cabeçalho com logotipo dos Correios +
-"EMPRESA BRASILEIRA DE CORREIOS E TELÉGRAFOS / Assessoria Jurídica / MS/DEJUR/SEJUR"; rodapé com linha,
-endereço da Superintendência e número de página.
+- Arial 11 no corpo; Arial 10 nas citações e blocos de cálculo (recuo de 4 cm).
+- Entrelinha **exata de 18 pt** (não é "1,5 linha" múltipla), espaço de 6 pt depois do parágrafo.
+- Margens **3 cm** esquerda e superior, **2 cm** direita e inferior; A4.
+- Recuo de primeira linha de 3 cm no corpo; alíneas recuadas 3 cm sem recuo de primeira linha.
+- Tópico principal: caixa alta, negrito, centralizado, **dentro de retângulo**.
+- Subtópicos numerados à mão (`1 – `, `5.1 – `), negrito + sublinhado, caixa alta, recuo de 3 cm;
+  a numeração reinicia em cada tópico principal.
+- Cabeçalho com logotipo dos Correios; rodapé com endereço e numeração de página. **Sem nota de rodapé.**
+- Fecho "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + assinatura
+  centralizada (Marcos Hideki Kamibayashi — OAB/MS 14.580).
 
-Tipos de parágrafo — os valores exatos estão em `scripts/gerar_peca_docx.py` (dicionário `ESTILOS`), que é a
-fonte executável desta especificação:
+A peça é gerada **e entregue** em `.docx`, a partir de `_FORMATO_BASE.docx` — pelo script da skill, ou
+escrevendo dentro do próprio arquivo base; nunca em documento em branco e nunca em `.odt`. O **nome** do
+arquivo é da skill `nomear-minuta`.
 
-| Tipo | Formatação |
-|---|---|
-| **Corpo** | justificado, entrelinha exata 18 pt (line 360), espaço depois 8 pt (after 160), recuo de 1ª linha 3 cm (firstLine 1701) |
-| **Marcador de seção** | centralizado, negrito, **dentro de caixa com borda** simples nos quatro lados; entrelinha 12 pt, antes 16 pt / depois 13 pt |
-| **Título de tópico** | negrito **+ sublinhado**, numerado (`1 – DA ...`), recuo esquerdo 3 cm, justificado; antes 10 pt / depois 6 pt |
-| **Citação** | itálico 10 pt, bloco recuado 3 cm à esquerda, justificado, entrelinha exata 13 pt |
-| **Lista** | recuo esquerdo 3,6 cm (2041) com pendente de 0,6 cm (340), itens iniciados por "–" |
-| **Assinatura** | centralizado, negrito |
+O padrão é o mesmo nas duas áreas: **cível usa a mesma formatação e a mesma assinatura da
+trabalhista** — muda só o endereçamento (Juizado Especial Federal ou Vara Federal, TRF3 em 2º grau)
+e os rótulos de polo.
 
-Estrutura usual das razões: equiparação à Fazenda Pública (com a tempestividade) → manifestação sobre o
-Juízo 100% Digital → resumo da vestibular → preliminares e prejudicial → mérito em tópicos numerados →
-prequestionamento → requerimentos em alíneas. O fecho — protesto por provas, declaração de autenticidade
-das fotocópias, "Nesses Termos / Pede Deferimento / Campo Grande/MS, data de assinatura eletrônica" e o
-bloco de assinatura — já vem do `_FORMATO_BASE.docx` e **não** se redige de novo.
+### Rodapé — texto confirmado
 
-**Cível:** formato **.txt/.odt**; endereçamento a Juizado Especial Federal ou Vara Federal; mesmo fecho.
-`[REVISAR: confirmar se cabeçalho, fonte, espaçamento e demais regras da trabalhista também valem aqui,
-ou se cível tem modelo próprio]`
+O rodapé de todas as peças é, **confirmado pelo usuário em 31/08/2026**:
+
+```
+Avenida Calógeras nº 2309 – 2º andar – Centro – Campo Grande – MS – Fone 2109-1004.
+```
+
+Os quatro `.docx` deste diretório já o carregam. **Cuidado ao reaproveitar peça antiga:** circulam
+versões com telefone desatualizado — `3389-5104` (aparece em `.odt` de recurso de 2024/2025) e
+`3301-2004` (aparece em contestação protocolada em 2025). Ao montar peça nova sobre o pacote de um
+arquivo antigo, conferir o rodapé antes de entregar.
 
 ## Modelos por tipo de peça + tema
 
 Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:
 
 ```
-modelos/<área>/<tipo peça> - <tema>.md      → estrutura, teses, texto reaproveitável (o "o quê")
-modelos/<área>/<tipo peça> - <tema>.docx    → formatação real: fonte, margens, cabeçalho com
-                                               logotipo, rodapé, bloco de assinatura (o "como fica")
+modelos/<area>/<tipo_peca>__<tema>.md      → estrutura, teses, texto reaproveitável (o "o quê")
+modelos/<area>/<tipo_peca>__<tema>.docx    → formatação real: fonte, margens, cabeçalho com
+                                              logotipo, rodapé, bloco de assinatura (o "como fica")
 ```
-
-**Nomes de arquivo:** espaço simples entre as palavras e ` - ` (espaço-hífen-espaço) entre os tópicos.
-`_` **não** é separador de palavras — nem aqui, nem no arquivo final da peça (ver seção 5.1 do
-`playbook_prompts_ECT.md`).
 
 O `.md` descreve em prosa para consulta rápida; o `.docx` é o arquivo literal que deve ser aberto e usado
 como base ao gerar a peça final — **não tente recriar a formatação a partir da descrição em texto**, use o
@@ -80,16 +90,8 @@ anexar** a peça antiga de novo — nem para saber a tese, nem para saber a form
 - `<tipo_peca>` = mesmo nome/abreviação da seção 6 de `playbook_prompts_ECT.md`.
 - `<tema>` = mesmo tema da base de teses correspondente.
 
-Exemplos: `modelos/trabalhista/contestacao - incorporacao funcao.md` +
-`modelos/trabalhista/contestacao - incorporacao funcao.docx`.
-
-## Como gerar o arquivo final
-
-Pela skill **`formatar-peca`** (`.claude/skills/formatar-peca/`), que roda
-`python scripts/gerar_peca_docx.py <conteudo.txt> -o "<nome>.docx"`. O script parte do `.docx` modelo,
-preserva cabeçalho, logotipo, rodapé e estilos **byte a byte**, e escreve só o corpo, com o recuo, a
-entrelinha e o realce exatos de cada tipo de parágrafo. **Nunca** recriar a formatação a partir da descrição
-em texto acima — ela existe para conferência, não para reconstrução.
+Exemplos: `modelos/trabalhista/contestacao__incorporacao_funcao.md` +
+`modelos/trabalhista/contestacao__incorporacao_funcao.docx`.
 
 ## Como o `.docx` é criado (só a partir de um arquivo real seu, aprovado por você)
 
