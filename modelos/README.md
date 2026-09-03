@@ -44,9 +44,9 @@ que é a fonte única para qualquer tipo de peça, trabalhista ou cível. Resumo
 - Fecho "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + assinatura
   centralizada (Marcos Hideki Kamibayashi — OAB/MS 14.580).
 
-A peça é **gerada** em `.docx` a partir de `_FORMATO_BASE.docx` — pelo script da skill, ou escrevendo dentro
-do próprio arquivo base; nunca em documento em branco. O **nome e a extensão entregues** são da skill
-`nomear-minuta`; sendo `.odt`, salve o `.docx` como `.odt` no LibreOffice, que preserva o padrão.
+A peça é gerada **e entregue** em `.docx`, a partir de `_FORMATO_BASE.docx` — pelo script da skill, ou
+escrevendo dentro do próprio arquivo base; nunca em documento em branco e nunca em `.odt`. O **nome** do
+arquivo é da skill `nomear-minuta`.
 
 O padrão é o mesmo nas duas áreas: **cível usa a mesma formatação e a mesma assinatura da
 trabalhista** — muda só o endereçamento (Juizado Especial Federal ou Vara Federal, TRF3 em 2º grau)

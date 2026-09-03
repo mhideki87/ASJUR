@@ -15,6 +15,11 @@ Este arquivo é lido em sessão de **manutenção da base**, não em sessão de 
       (Marcos Hideki Kamibayashi — OAB/MS 14.580) e o mesmo padrão visual da trabalhista
 - [ ] Confirmar se há atuação no polo ativo em cível
 - [ ] Confirmar se há atuação em Justiça Estadual / Juizados Estaduais, além do JEF e da Justiça Federal
+- [x] ~~**Tema sem ficha: AADC (Adicional de Atividade de Distribuição e/ou Coleta Externa).**~~ —
+      fechada: a ficha `teses/trabalhista/supressao_adicional_atividade_readaptacao.md` cobre AAT e AADC
+      (salário-condição, itens 4.8 e 4.10 do PCCS/2008, Súmulas 248 e 265 do TST, readaptação), com os
+      gatilhos previstos aqui. A conferência do inteiro teor dos arestos segue pendente, marcada
+      `[REVISAR]` na própria ficha.
 
 ## Resolução nº 225/2025 do Pleno do TST — enunciados cancelados
 
