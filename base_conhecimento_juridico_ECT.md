@@ -57,23 +57,21 @@ Fluxo padrão: **petição de juntada à Vara → razões/contrarrazões ao TRT2
   incorporada ao patrimônio jurídico pelo preenchimento das condições do regulamento, não a expectativa de
   vir a preenchê-las. Atenção a decisões que aplicam o verbete usando a data de **edição** do manual em vez da
   data da **revogação** — é inversão de premissa e rende tanto tese de mérito quanto preliminar de nulidade.
-- **Súmula 372 do TST — o item I está CANCELADO.** Consequências práticas, porque mudam a redação da peça:
+- **Súmula 372 do TST — o item I foi CANCELADO pela Resolução nº 225/2025 do TST.** Consequências práticas,
+  porque mudam a redação da peça:
   - Não é mais necessário — nem correto — sustentar *overruling* ou "superação legislativa" do item I: não se
     supera verbete que já não existe. O argumento passa a ser direto: **não há verbete que ampare a
     incorporação**, e o art. 468, §2º, da CLT a veda expressamente.
   - **O bloco de *overruling* dos modelos de contestação e de RR ficou obsoleto nessa parte.** Ao reaproveitar
-    esses modelos, substituir o bloco pela menção ao cancelamento.
-  - ⚠️ **`[CONFERIR — apenas o nº da Resolução, antes de citá-lo em peça]`.** A referência informada foi
-    **Res. 121/2003**, mas há dois sinais em sentido contrário, colhidos dos próprios autos: (a) a Res.
-    121/2003 é a resolução que deu **nova redação à Súmula 297** e **manteve a Súmula 294** — é assim que
-    ela aparece, literalmente, nos embargos, na contestação e no recurso ordinário deste tema; (b) o item I
-    seguia sendo tratado como **texto vigente** em decisões de 2020 a 2024 transcritas nas peças, que
-    discutem sua *superação* pelo art. 468, §2º, e nunca o seu cancelamento — o que é incompatível com um
-    cancelamento em 2003. Confirmar o número no site do TST antes de levá-lo a uma peça; **o cancelamento em
-    si está assentado e não depende dessa conferência.**
-  - Peças antigas da ECT e decisões do TRT24 e do TST de 2018 a 2024 transcrevem o item I como se vigente e
-    discutem sua superação. **Esperar que a parte adversa o invoque assim** e responder com o cancelamento,
-    não com a tese de superação.
+    esses modelos, substituir o bloco pela citação da Res. 225/2025.
+  - ⚠️ **Atenção ao corte temporal de 2025.** Decisões anteriores ao cancelamento — inclusive os precedentes
+    do TRT24 e do TST de 2018 a 2024 citados nesta seção — aplicam ou afastam o item I pelo mérito, e **não
+    estavam erradas**: eram corretas ao seu tempo. O que ficou desatualizado são as **peças da ECT posteriores
+    a 2025 que ainda argumentam superação** em vez de cancelamento — situação já verificada em recurso
+    ordinário deste tema protocolado em maio de 2026. Conferir sempre a data da peça-modelo antes de
+    reaproveitar esse bloco.
+  - **Esperar que a parte adversa transcreva o item I como se vigente** e responder com o cancelamento, não
+    com a tese de superação.
 - **Tema 23 dos repetitivos do Pleno do TST** (INCJULGRREMBREP 528-80.2018.5.14.0004) — tese vinculante
   (CPC, art. 927). **Como vetor autônomo de recurso de revista em rito sumaríssimo é controvertido**, porque
   a letra do art. 896, §9º, da CLT só menciona súmula — conferir antes de apostar nele.

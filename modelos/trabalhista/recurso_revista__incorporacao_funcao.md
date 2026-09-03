@@ -2,8 +2,8 @@
 
 **Consolidado de:** 1 caso-fonte (acórdão do TRT24 desfavorável + ED rejeitados; tema: ITF/Módulo 36 com
 requisito temporal não implementado até a revogação).
-**Última atualização:** 2026-09-02 — Súmula 372, I, confirmada como cancelada (bloco de *overruling*
-obsoleto nessa parte); data de revogação do Módulo 36 fixada em 05/05/2014.
+**Última atualização:** 2026-09-03 — Súmula 372, I, cancelada pela Res. nº 225/2025 do TST (bloco de
+*overruling* obsoleto nessa parte); data de revogação do Módulo 36 fixada em 05/05/2014.
 
 ---
 
@@ -145,7 +145,8 @@ Atenção: peças **antigas** da ECT indicam 15/05/2014 para o Módulo 36 — é
 - **Se o requisito temporal JÁ estava implementado antes da revogação**, este modelo não serve: a tese central
   cai. O eixo passa ao art. 468, § 2º, da CLT e ao **Tema 23 dos repetitivos** (INCJULGRREMBREP
   528-80.2018.5.14.0004), sendo preciso conferir se esse vetor é admissível no rito. Não construir o eixo
-  sobre a Súmula 372: **o item I está cancelado** (ver seção 3.1 de `base_conhecimento_juridico_ECT.md`),
+  sobre a Súmula 372: **o item I foi cancelado pela Res. nº 225/2025 do TST** (ver seção 3.1 de
+  `base_conhecimento_juridico_ECT.md`),
   de modo que não há verbete a superar — o que favorece a ECT e encurta o argumento.
 - **Rito ordinário**: suprimir o subtópico 2 da admissibilidade e reescrever cada tema para incluir violação de
   lei e divergência jurisprudencial, que ali são vetores válidos.

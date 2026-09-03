@@ -2,8 +2,8 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-09-02 — Súmula 372, I, confirmada como cancelada (bloco de *overruling*
-obsoleto nessa parte); data de revogação do Módulo 36 corrigida para 05/05/2014.
+**Última atualização:** 2026-09-03 — Súmula 372, I, cancelada pela Res. nº 225/2025 do TST (bloco de
+*overruling* obsoleto nessa parte); data de revogação do Módulo 36 corrigida para 05/05/2014.
 
 ---
 
@@ -88,7 +88,8 @@ Fecho + assinatura
   adquirido" com a transcrição da tese fixada pelo Tribunal Pleno do TST — texto genérico, reaproveitável
   literalmente em qualquer caso cujo fato gerador (dispensa da função) seja posterior a 11/11/2017.
 - **Bloco "overruling" (item 1.2) — OBSOLETO NESSA PARTE**: o **item I da Súmula 372 do TST está
-  cancelado** (ver seção 3.1 de `base_conhecimento_juridico_ECT.md`), e não se sustenta *overruling* de
+  cancelado pela Res. nº 225/2025 do TST** (ver seção 3.1 de `base_conhecimento_juridico_ECT.md`), e não
+  se sustenta *overruling* de
   verbete que já não existe. Substituir a tese de superação pela menção direta ao cancelamento, mantendo o
   art. 468, §2º, da CLT como fundamento legal. O bloco cita ainda o precedente do TRT24 sobre superação de
   precedentes (RO 0025161-88.2016.5.24.0056, Rel. Des. Francisco das Limas Chagas Filho) e o contexto de
