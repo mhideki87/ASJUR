@@ -7,7 +7,8 @@ candidata a tese: validar contra os autos, nunca citar como jurisprudência pron
 
 **Sempre aplicável:** [prerrogativas processuais](teses/transversal/prerrogativas_processuais_ect.md)
 (prazo em dobro, preparo, equiparação à Fazenda Pública — conferir tempestividade antes de tudo) e, na
-trabalhista com parcela de norma interna revogada, [prescrição](teses/trabalhista/prescricao.md).
+trabalhista com parcela de norma interna — revogada **ou** cuja condição de pagamento deixou de ser
+preenchida por ato único do empregador —, [prescrição](teses/trabalhista/prescricao.md).
 
 <!-- TABELA-GERADA:INICIO -->
 
