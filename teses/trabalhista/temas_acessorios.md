@@ -7,7 +7,7 @@ gatilhos: [quebra de caixa, substituição, reajuste de ACT, acordo coletivo, CI
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-01
+atualizado: 2026-09-03
 ---
 
 # Tese — Temas acessórios que reaparecem *ad cautelam*
@@ -45,12 +45,16 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   `[REVISAR: nunca foi testada em peça real — validar antes de usar]`
 - **Reflexos** — anuênio, férias + gratificação, 13º; impugnar reflexo em **PLR** sempre
   (art. 3º da Lei 10.101/2000: não tem natureza salarial).
-- **Base de cálculo do anuênio** — **MANPES, Módulo 10, Capítulo 01, Anexo 04, item 1.1**: 1% do
-  **salário-base do cargo efetivo** e respectivo valor da **gratificação de função** gerencial, técnica ou
-  de atividade especial (ou o complemento da remuneração singular), por ano de serviço, para o empregado
-  admitido até 26.04.2024. **Adicional de atividade não integra essa base** — impugnar sempre que a inicial
-  pedir reflexo de adicional em anuênio. Norma que concede benefício não previsto em lei interpreta-se
-  restritivamente.
+- **Base de cálculo do anuênio — invocar a NORMA COLETIVA.** A cláusula de anuênio dos **Acordos Coletivos
+  de Trabalho** da ECT garante "1% (um por cento) aplicado ao seu **salário-base** e respectivo valor da
+  **gratificação de função ou complementação de remuneração singular**, quando houver, por ano de serviço
+  prestado", com **§2º — teto de 35%** e **§3º — as vantagens não geram direitos em relação a pagamentos
+  pretéritos** (este §3º é útil contra pedido retroativo). Juntar a norma coletiva do período.
+  `[REVISAR: identificar cláusula e ACT/vigência exatos ao juntar]`
+  O **MANPES, Mód. 10, Cap. 01, Anexo 04, item 1.1** traz redação equivalente ("empregado admitido até
+  26.04.2024") e serve de reforço — mas a fonte a citar em peça é a **norma coletiva**.
+  **Adicional de atividade não integra essa base**: impugnar sempre que a inicial pedir reflexo de adicional
+  em anuênio, e demonstrar aritmeticamente com o percentual da ficha cadastral x salário-base.
 
 ## Ligações
 

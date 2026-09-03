@@ -7,7 +7,7 @@ gatilhos: [adicional de atividade de tratamento, AAT, AADC, adicional de ativida
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-02
+atualizado: 2026-09-03
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional
@@ -42,7 +42,15 @@ A defesa se estrutura em quatro linhas, nesta ordem de eficácia:
 2. **Natureza do afastamento** — todo o precedente favorável ao empregado repousa em **acidente do
    trabalho ou doença ocupacional** (reparação integral, art. 944 do CC). Se a readaptação decorreu de
    **doença comum** (benefício espécie 31, sem CAT e sem nexo), a *ratio* não incide e o adicional cai
-   como puro salário-condição. Exigir CAT, espécie do benefício, laudo e processo de reabilitação.
+   como puro salário-condição.
+   **Conferir a ficha cadastral ANTES de usar esta linha.** Já se perdeu o argumento por sustentá-lo sobre
+   uma contradição da inicial ("acidente" numa folha, "doença" em outra) quando a **própria ficha cadastral
+   da ECT** registrava, no período imediatamente anterior à readaptação, licença classificada como
+   "LIC ACIDENTE TRABALHO". Negar o que o documento da empregadora afirma destrói a credibilidade do resto
+   da peça. Sendo acidentária a origem, **abandonar esta linha** e migrar para o precedente que resolve o
+   ponto: "a ocorrência de acidente de trabalho/doença ocupacional, **por si só, não enseja o direito à
+   manutenção do salário-condição** (...) a reabilitação funcional é imposição legal"
+   (TST, RR-76-70.2015.5.02.0049).
 3. ***Distinguishing* AADC x AAT** — a jurisprudência de uniformização é de **AADC**, construída sobre a
    ideia de que a **atividade externa de risco** do carteiro foi a causa do próprio acidente. A atividade
    de tratamento em unidade operacional tem fato gerador e *ratio* normativa distintos, e o TST ainda não
@@ -57,14 +65,25 @@ A defesa se estrutura em quatro linhas, nesta ordem de eficácia:
   cancelamento: [prescricao.md](prescricao.md).
 - **Art. 468 da CLT** — não há alteração lesiva quando a realocação cumpre determinação médico-legal.
 - **Art. 89 da Lei 8.213/91** — a reabilitação profissional é dever legal, não liberalidade.
-- **Regulamento instituidor da parcela** — PCCS/2008: item **4.10** (AAT: cargo de Agente de Correios na
-  atividade de OTT, ou OTT I/II/III em extinção + **exercício efetivo** da atividade de tratamento +
-  **unidade operacional**); item **4.8** (AADC: exercício efetivo da atividade postal externa de
-  distribuição e/ou coleta em vias públicas; 30% do salário-base para o carteiro, valor fixo para os
-  demais, 25% do fixo para atendente comercial de agência de pequeno porte). Ambos usam "exclusivamente".
-  Regulamentação do AADC no **Manual de Pessoal, Módulo 08, Capítulo 06, item 3.1**.
-  `[REVISAR: obter o PCCS/2008 íntegro e autêntico — iniciais transcrevem o item 4.10 de segunda mão, e já
-  se viu transcrição com valor em algarismo (R$ 157,12) divergente do valor por extenso (R$ 148,57)]`
+- **Regulamento instituidor da parcela — texto autêntico conferido no PCCS/2008** (versão consolidada de
+  agosto/2010):
+  - **4.10.1** — o AAT "será atribuído, **exclusivamente**, aos empregados ocupantes do cargo de Agente de
+    Correios na Atividade de Operador de Triagem e Transbordo e do cargo de Operador de Triagem e
+    Transbordo I, II, III, na situação de extinção, que atuarem no **exercício efetivo** da atividade de
+    tratamento nas **unidades operacionais**";
+  - **4.10.2** — valor de **R$ 100,00 (cem reais)**, reajustado na data-base pelo percentual linear do ACT;
+  - **4.10.3** — o AAT "**será suprimido** em caso de concessão legal de qualquer mecanismo, sob o mesmo
+    título ou idêntico fundamento/natureza (...), a fim de evitar a configuração de acumulação de
+    vantagens". **As iniciais omitem este item** — ele demonstra que o regulamento concebeu a parcela como
+    transitória.
+  - item **4.8** (AADC: exercício efetivo da atividade postal externa de distribuição e/ou coleta em vias
+    públicas; 30% do salário-base para o carteiro, valor fixo para os demais, 25% do fixo para atendente
+    comercial de agência de pequeno porte). Regulamentação do AADC no **Manual de Pessoal, Módulo 08,
+    Capítulo 06, item 3.1**.
+
+  **Armadilha de transcrição:** já se viu inicial transcrever o item 4.10.2 como "R$ 157,12 (cento e
+  quarenta e oito reais e cinquenta e sete centavos)" — algarismo e extenso divergem entre si **e ambos
+  divergem do texto autêntico (R$ 100,00)**. Sempre juntar o PCCS e confrontar.
 - **Art. 194 da CLT, de aplicação analógica** — o direito ao adicional cessa com a eliminação da
   circunstância que o justificava. Reforçado pelas **Súmulas 248** (reclassificação/descaracterização da
   insalubridade não ofende direito adquirido nem a irredutibilidade) e **265** (transferência para o
@@ -161,12 +180,24 @@ histórico.
 
 ## Reflexos
 
-**Anuênio — reflexo indevido.** O **MANPES, Módulo 10, Capítulo 01, Anexo 04, item 1.1** fixa a base de
-cálculo: "1% do **salário-base do cargo efetivo** e respectivo valor da **gratificação de função** gerencial,
-técnica ou de atividade especial, ou o valor correspondente ao complemento da remuneração singular, para
-cada ano de serviço", para o empregado admitido até 26.04.2024. **Adicional de atividade não integra essa
-base** — e as iniciais costumam calcular 1% ao ano sobre o próprio adicional. Norma que concede benefício
-não previsto em lei interpreta-se restritivamente.
+**Anuênio — reflexo indevido. Citar a NORMA COLETIVA, não o MANPES.** A base de cálculo do anuênio está na
+cláusula de anuênio dos **Acordos Coletivos de Trabalho** da ECT: "1% (um por cento) aplicado ao seu
+**salário-base** e respectivo valor da **gratificação de função ou complementação de remuneração singular**,
+quando houver, por ano de serviço prestado", com **§2º — teto de 35%** e **§3º — as vantagens não geram
+direitos em relação a pagamentos pretéritos**. Juntar a norma coletiva do período.
+`[REVISAR: identificar a cláusula e o ACT/vigência exatos ao juntar]`
+
+O **MANPES, Mód. 10, Cap. 01, Anexo 04, item 1.1** traz redação equivalente, com o recorte "empregado
+admitido até 26.04.2024" — serve de reforço, mas **a fonte primária a invocar é a norma coletiva**.
+
+**Adicional de atividade não integra essa base**, e as iniciais costumam calcular 1% ao ano sobre o próprio
+adicional. Norma que concede benefício não previsto em lei interpreta-se restritivamente.
+
+**Prova aritmética a fazer sempre**, a partir da ficha cadastral e do contracheque: multiplicar o percentual
+de anuênio registrado na ficha pelo salário-base e conferir que bate exatamente com o anuênio pago; depois
+refazer a conta incluindo os adicionais e mostrar que **não** bate. Num caso real, 19% x salário-base fechou
+ao centavo, enquanto a inclusão do adicional de periculosidade divergia em mais de R$ 140 — demonstração
+documental de que a ECT não computa adicional algum naquela base.
 
 Demais reflexos (férias + gratificação, 13º, FGTS) seguem a sorte do principal; **PLR** nunca recebe
 reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorios.md).

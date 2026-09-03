@@ -2,8 +2,9 @@
 
 **Consolidado de:** 2 casos-fonte (um de AADC + prescrição total, com peça-modelo real anexada; um de AAT,
 minutado a partir dela).
-**Última atualização:** 2026-09-02 — prejudicial refundada no art. 11, § 2º, da CLT, depois do
-cancelamento da Súmula 294 pela Resolução nº 225/2025.
+**Última atualização:** 2026-09-03 — estrutura conferida contra a versão revisada pelo usuário: entra o
+*bis in idem*, saem os tópicos de gratuidade e de parcelas vincendas, e o anuênio passa a ser fundamentado
+na norma coletiva.
 
 ---
 
@@ -24,16 +25,16 @@ II   — RESUMO DA VESTIBULAR
 III  — PRELIMINARMENTE
        1 – Incompetência absoluta quanto às contribuições à previdência complementar
        2 – Inépcia parcial: pedido genérico no rito sumaríssimo   [condicional]
-       3 – Impugnação ao pedido de justiça gratuita               [condicional]
 IV   — DA PREJUDICIAL DE MÉRITO
        1 – Prescrição total (art. 11, § 2º, da CLT)
        2 – Sucessivamente, prescrição quinquenal
 V    — DO MÉRITO
        1 – Natureza do adicional: salário-condição, requisitos cumulativos não preenchidos
        2 – Readaptação como imposição legal: inexistência de alteração contratual lesiva
-       3 – Ausência de prova do fato constitutivo e contradições da inicial
-       4 – Inaplicabilidade dos precedentes invocados (distinguishing + Súmula 372)
-       5 – Impossibilidade de condenação em parcelas vincendas    [condicional]
+       3 – O que os documentos efetivamente demonstram: nenhuma redução remuneratória
+       4 – Reparação já exaurida em ação anterior: bis in idem      [condicional]
+           4.1 – Subsidiariamente, da dedução
+       5 – Inaplicabilidade dos precedentes invocados (distinguishing + Súmula 372)
        6 – Dos reflexos
            6.1 – Impossibilidade de reflexo em anuênios
            6.2 – Demais reflexos e FGTS
@@ -48,6 +49,14 @@ VII  — DOS REQUERIMENTOS
 
 Blocos marcados `[condicional]` só entram se houver o pedido correspondente na inicial. Os demais são fixos.
 
+**Dois tópicos que o usuário cortou da minuta na revisão — não reintroduzir sem que ele peça:**
+- **impugnação ao pedido de justiça gratuita** como tópico do corpo (a Súmula 463, I, do TST torna a briga
+  cara e de baixo retorno). O **requerimento** correspondente pode continuar nas alíneas;
+- **impossibilidade de condenação em parcelas vincendas** (art. 323 do CPC / art. 892 da CLT) — o argumento
+  não compensava o espaço.
+Mantendo o requerimento de gratuidade sem o tópico no corpo, **conferir a coerência**: pedido sem
+fundamentação é convite a ser ignorado.
+
 - **I** é o bloco padrão de equiparação, reaproveitável literalmente de
   [`teses/transversal/prerrogativas_processuais_ect.md`](../../teses/transversal/prerrogativas_processuais_ect.md).
   Pedir os **quatro itens numerados um a um** — prazo em dobro, custas, depósito recursal, precatório +
@@ -58,8 +67,17 @@ Blocos marcados `[condicional]` só entram se houver o pedido correspondente na 
   ficha. **Não abrir pela Súmula 294 — ela foi cancelada** (Resolução nº 225/2025); antecipar o argumento
   do cancelamento antes que a parte autora o levante, na forma da ficha
   [`prescricao.md`](../../teses/trabalhista/prescricao.md).
-- **V.1 a V.4** são o núcleo do mérito e a ordem importa: primeiro a natureza da parcela, depois a
-  licitude da conduta, depois a falta de prova, e só então o ataque aos precedentes do autor.
+- **V.1 a V.5** são o núcleo do mérito e a ordem importa: primeiro a natureza da parcela, depois a
+  licitude da conduta, depois o que os documentos provam, depois o *bis in idem* (havendo ação anterior) e
+  só então o ataque aos precedentes do autor.
+- **V.3 — atenção a quem juntou os documentos.** A ficha cadastral e as fichas financeiras costumam vir
+  **juntadas pela própria parte autora**. Nesse caso, escrever "das fichas juntadas **pelo próprio
+  Reclamante** extrai-se quadro inteiramente diverso do narrado" — muito mais forte do que a ECT juntar e
+  bem mais seguro do que afirmar que a inicial "não veio acompanhada de documento algum". **Conferir a capa
+  e a assinatura eletrônica de cada PDF antes de escrever a frase.**
+- **V.4** só entra quando houver ação indenizatória anterior transitada em julgado — ver
+  [`bis_in_idem_reparacao_ja_deferida.md`](../../teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md).
+  Pesquisar sempre: a inicial não menciona.
 - **VII** repete cada pedido da inicial na mesma ordem, para que nenhum fique sem resposta.
 
 ## Linguagem / trechos-padrão reaproveitáveis
