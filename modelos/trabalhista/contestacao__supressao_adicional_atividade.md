@@ -54,8 +54,14 @@ Blocos marcados `[condicional]` só entram se houver o pedido correspondente na 
   cara e de baixo retorno). O **requerimento** correspondente pode continuar nas alíneas;
 - **impossibilidade de condenação em parcelas vincendas** (art. 323 do CPC / art. 892 da CLT) — o argumento
   não compensava o espaço.
-Mantendo o requerimento de gratuidade sem o tópico no corpo, **conferir a coerência**: pedido sem
-fundamentação é convite a ser ignorado.
+Mantendo o requerimento de gratuidade sem o tópico no corpo, **escrever a alínea de forma
+autossuficiente** — com a remuneração da ficha cadastral e o art. 790, §§ 3º e 4º, da CLT dentro da própria
+alínea. Pedido sem fundamentação é convite a ser ignorado.
+
+**Ao cortar um tópico, varrer os requerimentos.** Cortes no corpo deixam alíneas órfãs ou desatualizadas —
+já aconteceu de a alínea seguir citando o MANPES depois de o corpo passar à norma coletiva, e de pedir
+"cópia integral dos autos" depois de o corpo passar a pedir só as decisões. Conferir uma a uma antes de
+fechar.
 
 - **I** é o bloco padrão de equiparação, reaproveitável literalmente de
   [`teses/transversal/prerrogativas_processuais_ect.md`](../../teses/transversal/prerrogativas_processuais_ect.md).

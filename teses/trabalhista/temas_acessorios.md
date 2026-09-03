@@ -50,7 +50,8 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   **gratificação de função ou complementação de remuneração singular**, quando houver, por ano de serviço
   prestado", com **§2º — teto de 35%** e **§3º — as vantagens não geram direitos em relação a pagamentos
   pretéritos** (este §3º é útil contra pedido retroativo). Juntar a norma coletiva do período.
-  `[REVISAR: identificar cláusula e ACT/vigência exatos ao juntar]`
+  Cláusula já identificada e usada em peça: **Cláusula 58 da ACT Sentença Normativa 2021/2022** — conferir a cláusula
+  correspondente nos ACTs das demais vigências do período pedido.
   O **MANPES, Mód. 10, Cap. 01, Anexo 04, item 1.1** traz redação equivalente ("empregado admitido até
   26.04.2024") e serve de reforço — mas a fonte a citar em peça é a **norma coletiva**.
   **Adicional de atividade não integra essa base**: impugnar sempre que a inicial pedir reflexo de adicional

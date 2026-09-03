@@ -184,8 +184,9 @@ histórico.
 cláusula de anuênio dos **Acordos Coletivos de Trabalho** da ECT: "1% (um por cento) aplicado ao seu
 **salário-base** e respectivo valor da **gratificação de função ou complementação de remuneração singular**,
 quando houver, por ano de serviço prestado", com **§2º — teto de 35%** e **§3º — as vantagens não geram
-direitos em relação a pagamentos pretéritos**. Juntar a norma coletiva do período.
-`[REVISAR: identificar a cláusula e o ACT/vigência exatos ao juntar]`
+direitos em relação a pagamentos pretéritos**. Cláusula já identificada e usada em peça:
+**Cláusula 58 da ACT Sentença Normativa 2021/2022**. Juntar a norma coletiva do período e conferir a cláusula
+correspondente nos ACTs das demais vigências.
 
 O **MANPES, Mód. 10, Cap. 01, Anexo 04, item 1.1** traz redação equivalente, com o recorte "empregado
 admitido até 26.04.2024" — serve de reforço, mas **a fonte primária a invocar é a norma coletiva**.
