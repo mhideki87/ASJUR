@@ -306,9 +306,10 @@ anexar, e um **ao final** de cada sessão em que algo for minutado.
 ```
 Antes de eu anexar um modelo antigo: a formatação desta peça vem da skill formatar-minuta, que
 clona modelos/_FORMATO_BASE.docx (fonte, cabeçalho, rodapé, fecho e assinatura), para qualquer tipo
-de peça — não peça modelo antigo por causa de formatação. Ajuste o bloco de qualificação
-(endereçamento, rótulos de polo, fundamentação legal de admissibilidade) conforme o tipo de peça
-desta sessão.
+de peça — não peça modelo antigo por causa de formatação. Siga também a tabela de parágrafos de
+modelos/README.md (títulos de seção em quadro centralizado, subtítulos sublinhados recuados,
+enumerações e citações em bloco de 3 cm). Ajuste o bloco de qualificação (endereçamento, rótulos de
+polo, fundamentação legal de admissibilidade) conforme o tipo de peça desta sessão.
 Além disso, verifique em modelos/<área>/ se já existe o par <tipo_peca>__<tema>.md (+ .docx, se
 houver) para esta peça + tema. Se existir, use o .md como base de estrutura/tese — não peça o anexo
 de uma peça-modelo antiga. Se não existir, ou se estiver desatualizado, me avise e eu anexo o modelo.

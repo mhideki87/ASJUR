@@ -6,7 +6,7 @@ status: validada
 gatilhos: [estabilidade acidentária, estabilidade provisória, garantia provisória de emprego, art. 118 da Lei 8.213/91, Súmula 378, indenização substitutiva do período estabilitário, OJ 399 da SBDI-1, Súmula 396, reintegração, CAT, Comunicação de Acidente de Trabalho, art. 22 da Lei 8.213/91, auxílio-doença acidentário, espécie 91, B-91, auxílio-acidente, art. 86 da Lei 8.213/91, indeferimento do INSS, dano moral por omissão de CAT, art. 336 do Decreto 3.048/99]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_trabalho_temporario.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md]
+ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md]
 atualizado: 2026-09-04
 ---
 
@@ -95,6 +95,10 @@ a tese adversária. `[REVISAR: não lido em fonte primária; conferir antes de c
   trabalho temporário isso precisa ser enfrentado, não ignorado — ver
   [responsabilidade_subsidiaria_trabalho_temporario.md](responsabilidade_subsidiaria_trabalho_temporario.md).
   `[REVISAR: verificar se o TST aplica o item III especificamente ao regime da Lei 6.019/74]`
+- **A estabilidade não é imunidade disciplinar.** A garantia do art. 118 protege contra a despedida
+  arbitrária; não impede a resolução por falta grave comprovada — orientação reiterada da SbDI-2 do TST.
+  Quando a dispensa foi por justa causa no curso do benefício, o tema é outro: ver
+  [justa_causa_durante_suspensao_contratual.md](justa_causa_durante_suspensao_contratual.md).
 - **Afastamento superior a 15 dias não é, por si, prova de acidente do trabalho** — é requisito temporal.
   O caráter acidentário depende de enquadramento previdenciário ou de reconhecimento em juízo.
 - **Recuperação admitida na própria inicial** enfraquece simultaneamente o dano material, o pedido de
@@ -103,6 +107,8 @@ a tese adversária. `[REVISAR: não lido em fonte primária; conferir antes de c
 
 ## Ligações
 
+- [justa_causa_durante_suspensao_contratual.md](justa_causa_durante_suspensao_contratual.md) — dispensa
+  motivada durante o afastamento previdenciário.
 - [doenca_ocupacional.md](doenca_ocupacional.md) — nexo causal, incapacidade, culpa e valor do dano moral.
 - [afastamentos_auxilio_doenca.md](afastamentos_auxilio_doenca.md) — suspensão contratual, limite de 15
   dias e lacuna previdenciária.
