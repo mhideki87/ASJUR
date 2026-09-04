@@ -33,6 +33,12 @@
 8. **Ler o índice, não a base inteira** — identificar os pedidos, abrir só as fichas que o
    [INDICE.md](INDICE.md) indicar. Ficha `status: rascunho` é candidata a tese, não tese confirmada.
 9. Impugnar especificamente cada fato e cada pedido; nenhum pedido fica sem resposta.
+10. **Nunca negar fato que a própria ECT já reconheceu na via administrativa.** Antes de montar defesa sobre
+    fato que só a Empresa pode confirmar — se houve atraso em ato interno, se a verba foi ou não paga, quantos
+    vales foram creditados —, perguntar à área (Pessoal, Saúde, Benefícios, folha). Havendo reconhecimento
+    administrativo, a defesa desloca-se do **fato** para a sua **qualificação jurídica** e para o **quantum**:
+    reconhecimento parcial do pedido, com dedução do que for pago (art. 767 da CLT). Negar o que a Empresa
+    admitiu destrói a credibilidade da peça inteira e enfraquece justamente o capítulo disputável.
 
 ## Onde está o resto
 

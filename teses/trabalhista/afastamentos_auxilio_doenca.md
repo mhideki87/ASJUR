@@ -3,11 +3,11 @@ area: trabalhista
 tema: Afastamentos (atestado médico / auxílio-doença)
 slug: afastamentos_auxilio_doenca
 status: validada
-gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha]
+gatilhos: [afastamento, atestado médico, auxílio-doença, auxílio por incapacidade temporária, benefício por incapacidade, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, Comunicação de Decisão do INSS, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__afastamentos.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-27
+ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/limbo_previdenciario.md]
+atualizado: 2026-09-04
 ---
 
 # Tese — Afastamentos (atestado médico / auxílio-doença) e limite de responsabilidade do empregador
@@ -46,6 +46,13 @@ o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 13
 
 ## Pontos sensíveis
 
+- **A tese da lacuna previdenciária tem limite: ela é concausa, não excludente.** Imputar a pendência a
+  ato/omissão da parte autora só resolve o caso quando a Empresa nada tem a ver com o atraso. Se houver
+  **atraso da própria ECT** em algum ato seu (agendamento de exame de retorno, processamento de folha) — e,
+  sobretudo, se a área de Pessoal já tiver **reconhecido diferenças** na via administrativa —, a tese não
+  exclui o débito: serve para repartir a censurabilidade (art. 945 do Código Civil) e dimensionar o dano
+  moral. Conferir com a área antes de montar a defesa sobre ela. Situação típica em
+  [limbo_previdenciario.md](limbo_previdenciario.md).
 - Quando parte do período já foi paga espontaneamente em folha, cabe **carência parcial de ação** —
   demonstrar com aritmética exata de avos/dias (divisor mensal do art. 64 da CLT) e citar as rubricas
   exatas do contracheque juntado pela própria parte autora.
@@ -56,6 +63,8 @@ o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 13
 - Estrutura completa da peça: `modelos/trabalhista/contestacao__afastamentos.md` + `.docx`
 - Se o pedido for indenizatório por doença do trabalho (e não pagamento de dias):
   [teses/trabalhista/doenca_ocupacional.md](doenca_ocupacional.md)
+- Se o pedido for sobre o intervalo **posterior à alta** do INSS (cessação do benefício × exame de
+  retorno): [limbo_previdenciario.md](limbo_previdenciario.md)
 
 ## Lacunas
 

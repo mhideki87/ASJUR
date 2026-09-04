@@ -54,7 +54,11 @@ Analise a petição inicial anexada (ECT no polo passivo) e estruture assim:
 6. PONTOS FRÁGEIS DA INICIAL — prescrição, ausência de prova, contradição de datas,
    pedido genérico, incompatibilidade com o rito.
 7. RISCOS — onde a ECT tende a sucumbir e por quê.
-8. O QUE FALTA NOS AUTOS para montar a defesa (documentos a requisitar à área).
+8. O QUE FALTA NOS AUTOS para montar a defesa (documentos a requisitar à área)
+   — e, separadamente, O QUE PERGUNTAR À ÁREA antes de escolher a tese: se houve
+   atraso ou falha em ato interno da ECT, se alguma verba pedida já foi reconhecida
+   ou paga administrativamente, e em que folha. A resposta muda a peça de
+   improcedência total para reconhecimento parcial.
 9. PRAZOS AUTÔNOMOS que correm antes da contestação — em especial o pedido de
    adesão ao "Juízo 100% Digital": pela RA TRT24 nº 40/2021, art. 4º, §§ 2º e 3º,
    o silêncio da ECT por 5 dias úteis contados da primeira notificação vale como
