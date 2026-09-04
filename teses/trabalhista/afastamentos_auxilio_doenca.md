@@ -6,7 +6,7 @@ status: validada
 gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha, adicional de atividade em afastamento, AAG, adicional de atendimento em guichê, salário-condição, supressão de rubrica em folha, restabelecimento de adicional]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__afastamentos.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
 atualizado: 2026-09-04
 ---
 
