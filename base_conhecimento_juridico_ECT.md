@@ -80,6 +80,52 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 Progressão horizontal por antiguidade — PCCS/2008
+- Tema de **ajuizamento em massa**: a inicial alega que a Promoção Horizontal por Antiguidade (PHA) seria
+  bienal e que a ECT a concede, "na prática", a cada 36 meses, qualificando a diferença como **ato
+  potestativo** (arts. 122 e 129 do Código Civil).
+- **Tese central — a norma se aplica inteira.** Os itens 5.2.3.3.2 e 5.2.3.3.3 do PCCS/2008 formam uma
+  unidade: são 24 meses de efetivo exercício **aferidos em data de corte fixa (31 de agosto)**, com
+  aplicação **no mês de outubro**. Como a concessão anterior também se dá em 1º de outubro, na data de corte
+  seguinte o empregado tem apenas **22 meses e 30 dias** — falta um mês e um dia —, tornando-se elegível só
+  na apuração do ano seguinte. O intervalo de 36 meses é **consequência aritmética da norma**, não prática
+  paralela da Empresa. Demonstrar ciclo a ciclo, com a ficha cadastral que o próprio autor juntou.
+- **A concessão não é automática**: o item 5.2.3.3.3 exige critérios propostos pela Diretoria de Gestão de
+  Pessoas, em consonância com o item 5.4.4, e **aprovação prévia da Diretoria Colegiada**. O item 5.4.4
+  submete a promoção ao planejamento orçamentário, limitado ao percentual definido pelos órgãos de controle
+  — 1% da folha, na Resolução nº 9, de 03/10/96, do antigo CCE (atual DEST). Isso afasta a alegação de que
+  "o único requisito é o decurso do tempo".
+- **Limites do PCCS**: item 8.5.1 (vedada a extrapolação da faixa de referências salariais do cargo) e itens
+  5.2.3.2.4 / 5.2.3.3.4 (**alternância** — antiguidade e mérito não podem ser concedidas ao mesmo empregado
+  no mesmo ano). Este último costuma ser violado pela própria tabela "pleiteada" da inicial.
+- **Inexistência de condição potestativa**: data de corte e mês de aplicação são critérios objetivos,
+  prévios, públicos e uniformes, não evento sujeito ao arbítrio da Empresa (art. 121 do CC); e o art. 129 do
+  CC exige implemento *maliciosamente* obstado — o que a ficha cadastral desmente, já que a primeira PHA
+  costuma vir em 26 a 28 meses da admissão, e não em 36.
+- **Prescrição**: deduzir a total (Súmula 294 do TST e art. 11, §2º, da CLT, aplicável às lesões posteriores
+  a 11/11/2017), mas contar com o cenário de prescrição **parcial** — a **Súmula 452 do TST** é frontalmente
+  contrária e específica para inobservância de critérios de promoção de PCS. Pedido sucessivo: quinquênio
+  contado do ajuizamento. O art. 3º da Lei 14.010/2020, quando invocado, suspende prazos apenas da entrada
+  em vigor da lei até 30/10/2020 — não permite recuo do marco para datas anteriores.
+- **Correção monetária**: o Tema 810 do STF (art. 1º-F da Lei 9.494/97) não rege crédito trabalhista;
+  sustentar a SELIC do art. 3º da EC 113/2021, dada a equiparação da ECT à Fazenda Pública. `[REVISAR: o
+  critério atualmente adotado pelo TST, à vista das ADCs 58 e 59 e da Lei 14.905/2024.]`
+- **Ausência de prejuízo (quando houver função gerencial com CRS)**: nas fichas financeiras, o Complemento
+  de Remuneração Singular (rubrica 051106) é reduzido no mesmo centavo em que o salário-base sobe por
+  promoção horizontal, mantendo constante a soma "salário-base + CRS" — base de cálculo do anuênio e da CIP.
+  No período de exercício da função, o reenquadramento não gera diferença alguma. `[REVISAR: obter o
+  normativo interno do CRS junto à área de Gestão de Pessoas.]`
+- **Reflexos**: o adicional de férias de 70% foi **excluído** pelo acórdão da SDC no processo
+  1001203-57.2020.5.00.0000 (cláusula 59 — gratificação de férias), tendo sido mantido antes disso na
+  sentença coletiva DCG-1000662-58.2019.5.00.0000, vigente até julho/2020. O "reflexo em anuênio" é *bis in
+  idem*, pois o anuênio já é percentual incidente sobre a base salarial.
+- Precedentes do TRT da 24ª Região sobre o próprio PCCS/2008: **ACP 0024181-70.2020.5.24.0002** (Tribunal
+  Pleno, Rel. Des. Marcio Vasques Thibau de Almeida, j. 26/11/2020) — o mais forte, e que também sustenta a
+  preliminar do art. 104 do CDC; **RO 0025003-89.2016.5.24.0005** (2ª Turma, Rel. Des. Amaury Rodrigues
+  Pinto Junior, j. 22/08/2018); **RO.1 001285/2001-001-24-00-0** (Rel. Juiz Nicanor de Araújo Lima), sobre
+  discricionariedade na concessão de promoções.
+- Ver modelo completo em `modelos/trabalhista/contestacao__progressao_horizontal_pccs2008.md`.
+
 ---
 
 ## 4. Padrão formal das peças
