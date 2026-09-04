@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, interstício 180 dias, média ponderada, somatório dividido por 120, memória de cálculo, tabela de funções]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-02
+atualizado: 2026-09-04
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -24,6 +24,38 @@ parcela ao salário — com base nas normas internas (Módulos 55 e 36 do MANPES
 - **Módulo 55** do MANPES — revogado em **01/05/2012** (parcelas FAT/FAO; requisito temporal de **5 anos**).
 - **Módulo 36** do MANPES — revogado em **15/05/2014** (parcelas ITF/GPTF; requisito temporal de **10 anos**).
 - Substituição das parcelas **FAT/FAO por ITF/GPTF**.
+
+## Requisitos e metodologia de cálculo — o texto do Módulo 36
+
+Transcrições colhidas de inicial que reproduziu o normativo (Cap. 2, item 1; Cap. 3, item 2).
+`[REVISAR: conferir na íntegra do Módulo 36 obtida com a Gestão de Pessoas antes de citar em peça]`
+
+- **Requisitos cumulativos (Cap. 2, item 1.1)**: (a) "possuir no mínimo 10 anos de exercício em função
+  gerencial, técnica, de atividade especial, FAT/FAO, ou dirigente da ECT, **contados a partir da data da
+  dispensa da função**"; (b) "ter sido dispensado ou exonerado da função por iniciativa da Empresa".
+  **O decênio isolado não gera direito**: a contagem é retroativa à dispensa, e a dispensa é a segunda
+  condição. Quem só foi destituído depois de 15/05/2014 tinha expectativa, não direito adquirido, ainda que
+  já somasse dez anos antes da revogação — é a resposta direta à autora que alega ter completado o
+  requisito temporal na vigência da norma.
+- **Interstício máximo (Cap. 2, item 1.2)**: "O exercício da função poderá conter um interstício de até
+  **180 dias**, ininterruptos ou não, no período de 10 anos." Somar, no decênio, os dias de **suspensão do
+  contrato** (licença INSS, greve): passando de 180 dias, o requisito não se preenche nem pelo critério do
+  próprio regulamento invocado. As fichas financeiras provam o ponto — mês sem pagamento da rubrica de
+  gratificação de função é prova direta de que não houve exercício.
+  `[REVISAR: confirmar com a Gestão de Pessoas como a ECT computa afastamento previdenciário nesse
+  interstício — o argumento ainda não foi testado em peça julgada]`
+- **Metodologia de cálculo (Cap. 3, item 2.4)**: "será calculado o **somatório dos valores atuais das
+  funções ocupadas e dividido por 120** para se encontrar o valor da GPTF ou ITF. Esse levantamento deverá
+  ser efetuado no período dos **últimos 10 anos a partir da data da dispensa da função**." Daí saem três
+  impugnações de quantum:
+  1. a **janela é de 120 meses anteriores à dispensa** — função exercida fora dela não entra no cálculo, e
+     é comum a inicial somar todo o contrato, arrastando para dentro da média a função mais valiosa,
+     exercida muitos anos antes;
+  2. o **divisor é fixo em 120** — mês sem exercício entra como zero e reduz o resultado;
+  3. o valor é o da **tabela de funções** — média ponderada e valor integral da gratificação vigente na
+     destituição são coisas distintas, e a inicial costuma pedir uma na fundamentação e outra no pedido.
+  Requerer a **exibição da memória de cálculo** (art. 400 do CPC) e a tabela de funções das datas
+  relevantes: sem elas o valor pedido não é reproduzível, o que sustenta a impugnação e a inépcia parcial.
 
 ## Tese central
 
@@ -69,6 +101,19 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
   usar o cancelamento como **reforço**, sempre acompanhado dos fundamentos que independem dele (requisito
   temporal não implementado, justo motivo, natureza da parcela); e, sendo a reversão **posterior** a
   11/11/2017, aí sim o art. 468, § 2º, da CLT resolve por si.
+- **Conferir se a destituição alegada realmente aconteceu, antes de discutir direito.** Já houve caso em que
+  a ficha cadastral registrava **nova designação como titular no dia seguinte** à data que a inicial aponta
+  como a da dispensa, com a rubrica de gratificação de função seguindo em folha por mais de quatro anos:
+  houve troca de função com redução de valor, não supressão. A checagem é mecânica — quadro "FUNÇÕES" da
+  ficha cadastral contra a rubrica de gratificação nas fichas financeiras, mês a mês. Quando é esse o
+  quadro, o pedido cai por ausência de fato constitutivo (art. 818, I, da CLT) antes de qualquer tese, e o
+  pedido de diferenças relativo ao período em que a parcela foi paga é bis in idem. Vale também comparar o
+  valor pedido com a **diferença efetivamente verificada** entre a função antiga e a nova.
+- **Distinguishing de paradigma frequente**: o TST-E-RR-25186-20.2017.5.24.0007 (SBDI-1) é juntado como
+  acórdão líder pela parte autora, mas sua ementa é expressa quanto a "reversão ao cargo efetivo **antes**
+  da vigência da Lei nº 13.467/2017" — premissa ausente quando a destituição é posterior. Conferir a data
+  de reversão de cada aresto juntado antes de responder ao mérito; boa parte dos precedentes que circulam
+  no tema é de bancários, com base normativa própria (cláusula de ACT bancário, IN interna do banco).
 - **Acórdão regional que ainda invoca a Súmula 372, I, depois de 30/06/2025 aplica verbete cancelado** —
   é impugnação específica pronta contra precedente juntado pela parte autora. Já se viu acórdão de TRT de
   agosto/2025 nessa situação.
