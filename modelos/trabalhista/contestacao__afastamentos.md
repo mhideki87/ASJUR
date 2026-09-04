@@ -56,10 +56,15 @@ Fecho + assinatura
 
 ## Variações observadas
 
-Nenhuma ainda — primeiro caso consolidado neste modelo. Ao usar de novo em outro processo, anotar aqui se a
-sequência fática (atestado → homologação → INSS) variar, ou se algum dos 9 tópicos do mérito não se aplicar.
+- **Litígio sobre a fase posterior à alta.** Quando o pedido não é sobre os dias descontados durante o
+  afastamento, mas sobre o intervalo entre a cessação do benefício e o exame médico de retorno, o tema é
+  outro: usar `contestacao__limbo_previdenciario.md`. Se as duas fases estiverem em litígio no mesmo
+  processo, combinar os dois modelos — este para o enquadramento do afastamento e o limite de 15 dias,
+  aquele para a lacuna posterior à alta.
+- Ao usar de novo em outro processo, anotar aqui se a sequência fática (atestado → homologação → INSS)
+  variar, ou se algum dos 9 tópicos do mérito não se aplicar.
 
 ## Ligação com a base de teses
 
-Tema "Afastamentos" ainda não constava em `base_conhecimento_juridico_ECT.md` — proposta de nova seção 3.6
-enviada junto com este modelo para aprovação.
+Seção 3.6 de `base_conhecimento_juridico_ECT.md` (afastamentos e limite de responsabilidade do empregador).
+A fase posterior à alta previdenciária está na seção 3.7.

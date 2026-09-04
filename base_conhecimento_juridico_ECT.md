@@ -80,6 +80,65 @@ Quebra de caixa · substituições · aplicação integral dos normativos intern
   concorre para o deslocamento da data de início do gozo — reduz ou afasta a dobra do art. 137 da CLT.
 - Ver modelo completo em `modelos/trabalhista/contestacao__afastamentos.md` (+ `.docx` de formatação).
 
+### 3.7 Limbo previdenciário-trabalhista (alta do INSS × exame de retorno)
+Situação-tipo: o benefício por incapacidade cessa (alta programada/DCB), mas o empregado só é recebido de
+volta depois do exame médico de retorno; o intervalo fica sem salário e sem benefício. Pedidos típicos:
+salários do intervalo, vale-alimentação/vale-cesta, FGTS, recolhimento à previdência complementar,
+retificação do CNIS sob multa diária e dano moral.
+
+- **Tema 088 dos IRR do TST** — tese vinculante (CPC, art. 927) no sentido de que a conduta do empregador que
+  impede o retorno do empregado após a alta previdenciária e inviabiliza o percebimento da sua remuneração é
+  ilícita e configura dano moral *in re ipsa*. `[REVISAR: confirmar o teor oficial — o texto de que dispomos
+  foi transcrito pela parte adversa; processo indicado na inicial: RR-1000988-62.2023.5.02.0601.]`
+  A tese exige **dois elementos cumulativos**, e o *distinguishing* ataca cada um:
+  1. *impedimento do retorno* — o exame de retorno ao trabalho é **dever legal** (NR-07/PCMSO) quando o
+     afastamento por doença alcança 30 dias; exigi-lo não é recusar trabalho. `[REVISAR: item exato da NR-07
+     vigente.]`
+  2. *inviabilização do percebimento da remuneração* — não se verifica quando o empregado recebeu créditos do
+     INSS no mesmo intervalo (ver item seguinte).
+  3. acresce, quando for o caso, o **reconhecimento e pagamento administrativo espontâneo antes da citação**,
+     que afasta a recalcitrância patronal que a tese sanciona.
+- **Datas de emissão dos documentos do INSS** — conferir sempre a data de emissão da *Comunicação de Decisão*
+  e da *Carta de Concessão*, além da data do "COMPAREÇA A PARTIR DE". É recorrente a inicial alegar entrega do
+  documento à chefia em data **anterior à própria emissão** do documento juntado. Serve para negar a *ciência
+  formal* e o dolo — não o atraso, se este de fato ocorreu.
+- **Créditos pagos pelo INSS no período** — o discriminativo de créditos da Carta de Concessão costuma
+  demonstrar que o segurado recebeu valores no exato intervalo em que alega ter ficado "sem qualquer
+  rendimento". Desmonta o dano moral e o *periculum in mora* da tutela de urgência do art. 300 do CPC.
+- **Concausa (art. 945 do Código Civil)** — verificar na Carta de Concessão a data do requerimento (DER), e na
+  Comunicação de Decisão os prazos de **pedido de prorrogação** (até 15 dias antes da DCB) e de **recurso**
+  (30 dias da ciência). Requerimento tardio e ausência de prorrogação/recurso concorrem para a lacuna e servem
+  à dosimetria do dano moral — não à exclusão do débito.
+- **Cláusula normativa "Empregado(a) inapto(a) para retorno ao trabalho"** — quando a inicial a invoca, checar
+  os requisitos **cumulativos** do inciso II: requerimento à Empresa + cópia de recurso/pedido de
+  reconsideração **protocolizado no INSS** + laudo médico ratificando a inaptidão. Sem eles a cláusula não
+  socorre o autor. Frisar que eventual reconhecimento se dá pelo **art. 4º da CLT** (tempo à disposição), e
+  não pela cláusula — que traria efeitos próprios (até 90 dias de remuneração, devolução em caso de
+  deferimento de recurso previdenciário, pagamento na folha subsequente).
+- **Contradição apto × inapto** — é comum a inicial sustentar, a um só tempo, aptidão desde a alta (art. 4º da
+  CLT) e atestado de longa duração ainda em curso, além da cláusula destinada aos **inaptos**. As teses se
+  excluem.
+- **Salário-condição na base de cálculo** — a inicial projeta para o período *todas* as rubricas do
+  contracheque. Adicional de periculosidade e complementos de produtividade (CIP) remuneram exposição e
+  produção efetivas, inexigíveis em período de inatividade. A depuração costuma reduzir sensivelmente o
+  principal.
+- **Vale-alimentação/vale-cesta** — conferir o número de **dias úteis** do intervalo e os **feriados** (1º de
+  maio: art. 1º da Lei nº 662/1949), além da cláusula de **compartilhamento** do ACT. São verbas
+  indenizatórias: não geram reflexo em FGTS, INSS ou previdência complementar.
+- **Rito sumaríssimo** — art. 852-B, I e § 1º, da CLT: pedidos de obrigação de fazer e multa diária costumam
+  vir **sem valor individualizado**, e a planilha de valor da causa não supre a exigência.
+- **Justiça gratuita** — empregado em atividade com remuneração documentada nos próprios autos: a presunção da
+  declaração de hipossuficiência cede à prova em sentido contrário (art. 99, § 2º, do CPC).
+- **Honorários** — a inicial costuma pedir o art. 85, § 3º, do CPC "pela equiparação à Fazenda Pública";
+  aplica-se o **art. 791-A da CLT**, norma especial. A equiparação alcança prazo, custas, depósito recursal e
+  precatório — não a verba honorária.
+- **Quando a própria área reconhece o débito** — a defesa muda de eixo: passa a ser contestação de
+  **reconhecimento parcial** (art. 487, III, "a", do CPC), com dedução do que for pago na via administrativa
+  (art. 767 da CLT) e modulação de honorários (art. 791-A, § 2º, da CLT; subsidiariamente art. 90, § 4º, do
+  CPC). O reconhecimento administrativo espontâneo anterior à citação vira o **melhor argumento** contra o
+  dano moral. Fórmula útil: *reconhecer o débito não é reconhecer o ilícito*.
+- Ver modelo completo em `modelos/trabalhista/contestacao__limbo_previdenciario.md`.
+
 ---
 
 ## 4. Padrão formal das peças
