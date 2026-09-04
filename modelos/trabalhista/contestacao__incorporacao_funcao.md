@@ -37,6 +37,11 @@ PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL [SE HOUVER pedido de FAT/ITF]
   único que dispara o prazo prescricional de 5 anos; ação ajuizada depois disso está com a pretensão
   totalmente prescrita quanto a essas normas.
 MÉRITO
+  0 — Inexistência da supressão alegada [SE a ficha cadastral registrar nova designação, ou a ficha
+      financeira mostrar a rubrica de gratificação seguindo em folha depois da data apontada na inicial]
+      — abre o mérito, antes de qualquer tese: sem o fato constitutivo (art. 818, I, CLT), o pedido cai
+      sem discussão de direito. Comparar o valor pedido com a diferença realmente verificada entre a
+      função antiga e a nova, e apontar bis in idem no período em que a parcela foi paga
   1 — Incorporação de gratificação de função — Súmula 372 do TST
     1.1 — Inexistência de ofensa à irredutibilidade salarial (arts. 450, 468, 499 da CLT — gratificação de
           função é salário-condição, não parcela autônoma)
@@ -73,6 +78,12 @@ MÉRITO
       mérito, além da preliminar de incompetência] — falta de comprovação de adesão ao plano; arts. 141 e
       492 do CPC (vedação a julgamento extra/ultra petita) quando não há pedido de desconto da cota-parte do
       empregado
+  8.1 — Adicional de atividade cumulado no mesmo processo, p. ex. o AAG de atendimento em guichê
+        [SE HOUVER pedido de restabelecimento de adicional] — salário-condição, e a cessação por
+        afastamento previdenciário não é supressão; tese e checagens documentais em
+        [`teses/trabalhista/afastamentos_auxilio_doenca.md`](../../teses/trabalhista/afastamentos_auxilio_doenca.md).
+        Impugnar à parte o reflexo em anuênio (a base de cálculo não alcança adicional de atividade —
+        [`teses/trabalhista/temas_acessorios.md`](../../teses/trabalhista/temas_acessorios.md))
   9 — Impugnação aos documentos colacionados à inicial
   10 — Honorários advocatícios (art. 791-A, I, CLT — 15% sobre o valor atualizado da causa)
 V — Comprovação do cumprimento de decisão de antecipação de tutela [SE NÃO tiver sido comprovada ainda]

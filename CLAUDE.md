@@ -22,6 +22,22 @@ usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a
 
 A base é fatiada por tema em `teses/<área>/<tema>.md`, e o roteamento está em `INDICE.md`.
 
+### Passo 0 — confirmar que a branch está atualizada
+
+**Por que existe:** a sessão cloud/web pode nascer de uma branch criada semanas antes, e as fichas lidas
+ali são as **daquela** branch, não as do `main`. A base é justamente o que envelhece. Já aconteceu de uma
+contestação ser minutada sobre a **Súmula 294** e a **Súmula 372, I** como se vigentes — as duas canceladas
+pela Resolução 225/2025, com os cancelamentos já registrados nas fichas do `main` —, e a peça foi
+protocolada assim.
+
+```bash
+git fetch origin main && git log --oneline HEAD..origin/main
+```
+
+Saiu commit na lista? A branch está atrás: rebasear (ou ler as fichas de `origin/main`) **antes** de usar a
+base. Um sinal rápido do mesmo problema: se `git ls-files` ainda mostrar `base_conhecimento_juridico_*.md`,
+a branch é anterior ao fatiamento em `teses/` e a base que ela carrega está superada.
+
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
