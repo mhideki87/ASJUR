@@ -17,8 +17,8 @@ Medicina do Trabalho da ECT → encaminhamento ao INSS → decisão do INSS (def
 ## Estrutura padrão
 
 ```
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver seção 3.3
-                                          de base_conhecimento_juridico_ECT.md)
+DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver
+                                          teses/transversal/prerrogativas_processuais_ect.md)
 RESUMO DA VESTIBULAR
 PRELIMINARMENTE
   1 — DA CARÊNCIA PARCIAL DE AÇÃO       (quando parte do período pleiteado já foi paga espontaneamente
@@ -66,5 +66,7 @@ Fecho + assinatura
 
 ## Ligação com a base de teses
 
-Seção 3.6 de `base_conhecimento_juridico_ECT.md` (afastamentos e limite de responsabilidade do empregador).
-A fase posterior à alta previdenciária está na seção 3.7.
+Sustenta a ficha `teses/trabalhista/afastamentos_auxilio_doenca.md`. Toca também
+`teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
+`teses/trabalhista/temas_acessorios.md` (honorários advocatícios). A fase posterior à alta previdenciária
+está em `teses/trabalhista/limbo_previdenciario.md`.

@@ -14,6 +14,8 @@ só é recebido de volta ao trabalho depois do exame médico de retorno, ficando
 benefício**. Pedidos típicos: salários do intervalo, vale-alimentação/vale-cesta, FGTS, recolhimento à
 previdência complementar, retificação do CNIS sob multa diária, dano moral, justiça gratuita e honorários.
 
+Tese e jurisprudência: [`teses/trabalhista/limbo_previdenciario.md`](../../teses/trabalhista/limbo_previdenciario.md).
+
 Distingue-se de `contestacao__afastamentos.md`, que trata da fase **anterior** — atestado, homologação pela
 Medicina do Trabalho, encaminhamento ao INSS e limite de 15 dias. Aqui o tema é o que acontece **depois da
 alta**. Nos casos em que as duas fases estão em litígio, combinar os dois modelos.
@@ -33,7 +35,7 @@ exame de retorno, e a área já reconheceu diferenças a pagar?**
 ## Estrutura padrão (variante com reconhecimento parcial)
 
 ```
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA          (preliminar padrão — seção 3.3 da base ECT)
+DA EQUIPARAÇÃO À FAZENDA PÚBLICA          (preliminar padrão — ficha prerrogativas_processuais_ect)
 RESUMO DA VESTIBULAR E DELIMITAÇÃO DA CONTROVÉRSIA
                                            (lista os pedidos; declara o que se reconhece;
                                             declara os três eixos do que se contesta)
@@ -109,9 +111,12 @@ Fecho + assinatura
 
 ## Ligação com a base de teses
 
-Seção 3.7 de `base_conhecimento_juridico_ECT.md` (limbo previdenciário-trabalhista), que se apoia na seção
-3.6 (limite de 15 dias, suspensão contratual, FGTS na espécie 31, lacuna previdenciária) e na 3.3
-(prerrogativas processuais da ECT). Temas acessórios — CIP, POSTALIS, honorários — na seção 3.5.
+Sustenta a ficha [`teses/trabalhista/limbo_previdenciario.md`](../../teses/trabalhista/limbo_previdenciario.md),
+que se apoia em [`afastamentos_auxilio_doenca.md`](../../teses/trabalhista/afastamentos_auxilio_doenca.md)
+(limite de 15 dias, suspensão contratual, FGTS na espécie 31, lacuna previdenciária) e em
+[`prerrogativas_processuais_ect.md`](../../teses/transversal/prerrogativas_processuais_ect.md). Temas
+acessórios — CIP, POSTALIS, honorários — em
+[`temas_acessorios.md`](../../teses/trabalhista/temas_acessorios.md).
 
 ## Pontos que sempre exigem conferência humana antes do protocolo
 
