@@ -33,6 +33,10 @@
 8. **Ler o índice, não a base inteira** — identificar os pedidos, abrir só as fichas que o
    [INDICE.md](INDICE.md) indicar. Ficha `status: rascunho` é candidata a tese, não tese confirmada.
 9. Impugnar especificamente cada fato e cada pedido; nenhum pedido fica sem resposta.
+10. **Registro deferente com o Judiciário.** A crítica é sempre à decisão, nunca ao juízo: "data venia",
+    "com o devido acatamento", "s.m.j.". Não usar "arbitrário", "flagrante", "teratológico", "órfão de
+    fundamentação". Em peça dirigida ao relator, não citar o art. 489, § 1º, VI, do CPC no pedido — soa
+    como advertência.
 
 ## Onde está o resto
 
