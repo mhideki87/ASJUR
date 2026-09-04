@@ -6,8 +6,8 @@ status: validada
 gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__afastamentos.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-27
+ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md]
+atualizado: 2026-09-04
 ---
 
 # Tese — Afastamentos (atestado médico / auxílio-doença) e limite de responsabilidade do empregador
