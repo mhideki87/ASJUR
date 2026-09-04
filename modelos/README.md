@@ -8,7 +8,14 @@ logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Ma
 idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
 tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
 
-Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
+Ao gerar qualquer peça nova, comece por este arquivo — o caminho normal é a skill **`formatar-minuta`**, que
+clona este `.docx` e regrava só o corpo:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
 - Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões e mandado de
   segurança) e os rótulos de polo (Reclamante/Reclamada; Recorrente/Recorrido; Impetrante/Autoridade
@@ -17,57 +24,48 @@ tipo de peça** e precisam ser ajustados a cada uso:
   CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista; art. 897-A
   CLT para embargos de declaração; art. 5º, LXIX, da CF e Lei 12.016/2009 para mandado de segurança).
 
-### Padrão de parágrafos (obrigatório em qualquer peça)
-
-O corpo do `_FORMATO_BASE.docx` traz **um exemplo de cada tipo de parágrafo**. Use exatamente esses formatos —
-não invente variações. Página A4, margens 3,0 cm (esq.) × 2,0 cm (dir.) × 3,0 cm (sup.) × 2,0 cm (inf.),
-Arial em todo o documento.
-
-| Tipo | Uso | Formato |
-|---|---|---|
-| Endereçamento / rótulos | destinatário, nº dos autos, partes | Arial 11 **negrito**, justificado, sem recuo, entrelinha exata 18 pt |
-| Tarja de urgência | `URGENTE…`, `SEGREDO DE JUSTIÇA` | igual ao anterior, **em vermelho** (`FF0000`) — só quando houver |
-| Título da peça | `MANDADO DE SEGURANÇA…`, `CONTESTAÇÃO` | Arial 11 negrito, **centralizado**, sem recuo |
-| **Título de seção** | seções principais | Arial 11 negrito, **CAIXA ALTA, centralizado, dentro de quadro** (borda simples 0,5 pt nos 4 lados, espaçamento 4 pt), entrelinha simples, 16 pt antes / 13 pt depois — **sem numeração romana** |
-| **Subtítulo de item** | subdivisões da seção | Arial 11 negrito **e sublinhado**, CAIXA ALTA, numeração arábica (`1.`, `2.`…), **bloco recuado 3 cm à esquerda**, justificado |
-| Texto corrido | regra geral | Arial 11, justificado, **recuo de primeira linha de 3 cm**, entrelinha exata 18 pt, 8 pt depois |
-| Enumeração | `(i)…`, `a)…` quando destacados do texto | Arial 11, **bloco recuado 3 cm à esquerda**, sem recuo de primeira linha, justificado |
-| Citação | lei, súmula, jurisprudência, doutrina | Arial **10, itálico**, bloco recuado 3 cm à esquerda, justificado, entrelinha simples |
-| Fecho | `Nesses Termos,` / `Pede Deferimento.` / `Campo Grande/MS, data de assinatura eletrônica.` | mesmo formato do texto corrido |
-| Assinatura | nome + OAB | Arial 11 negrito, centralizado |
-
-Regras de estilística que acompanham o padrão:
-- Destaques no texto em **negrito**; expressões latinas (*data venia*, *fumus boni iuris*) e títulos de obra em
-  itálico. Sublinhado é reservado aos subtítulos de item.
-- Cada título de seção é **um único parágrafo** — não quebrar o título em dois parágrafos, senão o quadro se
-  parte em duas caixas.
-- Marcações `[REVISAR: ...]` ficam no corpo do texto durante a minuta e **devem sair antes do protocolo**;
-  vermelho é usado só na tarja de urgência.
-
-### Receita OOXML (para gerar o `.docx` sem abrir o Word)
-
-Ao montar a peça programaticamente, reaproveite **todas** as partes do pacote `_FORMATO_BASE.docx`
-(`styles.xml`, `header*.xml`, `footer*.xml`, `theme/`, `settings.xml`, `fontTable.xml`, `media/`) e substitua
-apenas o conteúdo de `<w:body>`, mantendo o `<w:sectPr>` final. Os `w:pPr` de cada tipo:
-
-```
-texto corrido : <w:spacing w:lineRule="exact" w:line="360" w:after="160"/><w:ind w:firstLine="1701"/><w:jc w:val="both"/>
-título seção  : <w:pBdr>(single sz=6 space=4 nos 4 lados)</w:pBdr>
-                <w:spacing w:lineRule="exact" w:line="240" w:before="320" w:after="260"/><w:ind w:start="0"/><w:jc w:val="center"/>
-subtítulo     : <w:spacing w:lineRule="exact" w:line="360" w:after="160"/><w:ind w:start="1701" w:hanging="0"/><w:jc w:val="both"/>  + run <w:b/><w:u w:val="single"/>
-enumeração    : idem subtítulo, run sem negrito/sublinhado
-citação       : <w:spacing w:lineRule="exact" w:line="240" w:after="160"/><w:ind w:start="1701" w:hanging="0"/><w:jc w:val="both"/>  + run <w:i/> sz 20
-cabeçalho/rótulo: <w:spacing w:lineRule="exact" w:line="360" w:after="160"/><w:ind w:hanging="0"/><w:jc w:val="both"/>  + run <w:b/>
-centralizado  : <w:spacing w:after="60"/><w:jc w:val="center"/>  + run <w:b/>
-linha em branco: <w:spacing w:after="200"/>
-```
-
-Runs: `<w:rFonts w:eastAsia="Arial" w:cs="Arial"/>` + `<w:sz w:val="22"/>` (11 pt) — ou `20` (10 pt) nas
-citações. Tarja de urgência acrescenta `<w:color w:val="FF0000"/>`.
-
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
+
+## Padrão formal — onde está a especificação
+
+A especificação da formatação **não fica mais aqui**: está na skill `formatar-minuta`
+([SKILL.md](../.claude/skills/formatar-minuta/SKILL.md) +
+[especificação com as medidas](../.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md)),
+que é a fonte única para qualquer tipo de peça, trabalhista ou cível. Resumo do que vale:
+
+- Arial 11 no corpo; Arial 10 nas citações e blocos de cálculo (recuo de 4 cm).
+- Entrelinha **exata de 18 pt** (não é "1,5 linha" múltipla), espaço de 6 pt depois do parágrafo.
+- Margens **3 cm** esquerda e superior, **2 cm** direita e inferior; A4.
+- Recuo de primeira linha de 3 cm no corpo; alíneas recuadas 3 cm sem recuo de primeira linha.
+- Tópico principal: caixa alta, negrito, centralizado, **dentro de retângulo**.
+- Subtópicos numerados à mão (`1 – `, `5.1 – `), negrito + sublinhado, caixa alta, recuo de 3 cm;
+  a numeração reinicia em cada tópico principal.
+- Cabeçalho com logotipo dos Correios; rodapé com endereço e numeração de página. **Sem nota de rodapé.**
+- Fecho "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + assinatura
+  centralizada (Marcos Hideki Kamibayashi — OAB/MS 14.580).
+
+A peça é gerada **e entregue** em `.docx`, a partir de `_FORMATO_BASE.docx` — pelo script da skill, ou
+escrevendo dentro do próprio arquivo base; nunca em documento em branco e nunca em `.odt`. O **nome** do
+arquivo é da skill `nomear-minuta`.
+
+O padrão é o mesmo nas duas áreas: **cível usa a mesma formatação e a mesma assinatura da
+trabalhista** — muda só o endereçamento (Juizado Especial Federal ou Vara Federal, TRF3 em 2º grau)
+e os rótulos de polo.
+
+### Rodapé — texto confirmado
+
+O rodapé de todas as peças é, **confirmado pelo usuário em 31/08/2026**:
+
+```
+Avenida Calógeras nº 2309 – 2º andar – Centro – Campo Grande – MS – Fone 2109-1004.
+```
+
+Os quatro `.docx` deste diretório já o carregam. **Cuidado ao reaproveitar peça antiga:** circulam
+versões com telefone desatualizado — `3389-5104` (aparece em `.odt` de recurso de 2024/2025) e
+`3301-2004` (aparece em contestação protocolada em 2025). Ao montar peça nova sobre o pacote de um
+arquivo antigo, conferir o rodapé antes de entregar.
 
 ## Modelos por tipo de peça + tema
 
@@ -118,7 +116,9 @@ Exemplos: `modelos/trabalhista/contestacao__incorporacao_funcao.md` +
 ## Regra de conteúdo (vale para `.md` e `.docx`)
 
 - Nenhum nome de cliente, número de processo, CPF, ou dado que identifique uma parte real.
-- Um modelo só é criado ou atualizado depois de **aprovação explícita do usuário**.
+- O `.md` de estrutura é criado/atualizado e commitado pela skill `atualizar-base-conhecimento` na branch
+  da sessão. O **`.docx`** só entra depois de **aprovação explícita do usuário** — ver o fluxo de
+  anonimização acima.
 - Use `modelos/_TEMPLATE.md` como ponto de partida do arquivo de estrutura.
 
 ## Como isso é usado no dia a dia
