@@ -3,11 +3,11 @@ area: trabalhista
 tema: Afastamentos (atestado médico / auxílio-doença)
 slug: afastamentos_auxilio_doenca
 status: validada
-gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha]
+gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contrato, 15 dias, art. 476 CLT, FGTS em afastamento, lacuna previdenciária, CNIS, vale-alimentação descontado, dobra de férias, art. 137 CLT, Medicina do Trabalho, desconto em folha, adicional de atividade em afastamento, AAG, adicional de atendimento em guichê, salário-condição, supressão de rubrica em folha, restabelecimento de adicional]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__afastamentos.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-27
+ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+atualizado: 2026-09-04
 ---
 
 # Tese — Afastamentos (atestado médico / auxílio-doença) e limite de responsabilidade do empregador
@@ -39,6 +39,24 @@ da própria torpeza.
 **Reajuste de ACT já pago / bis in idem.** Quando a inicial calcula o período do afastamento usando
 valores *já reajustados* por ACT posterior, demonstrar que o reajuste foi pago autonomamente,
 evitando duplicidade.
+
+**Parcela condicional cessada no afastamento não é supressão.** Adicional de atividade — o **AAG,
+Adicional de Atendimento em Guichê** (PCCS/2008), por exemplo — remunera o efetivo exercício da atividade e
+é **salário-condição**: cessa com a suspensão do contrato, porque não há trabalho a remunerar, e volta com o
+retorno. A inicial costuma apresentar isso como retirada arbitrária de rubrica da folha, escolhendo como
+marco um mês qualquer de dentro do afastamento. Três checagens desmontam a narrativa, todas no que a própria
+parte juntou:
+
+1. o quadro "AFASTAMENTOS" da ficha cadastral, para datar a suspensão;
+2. a linha do **salário** na ficha financeira — meses zerados provam que não houve contraprestação alguma,
+   e não que uma rubrica específica foi suprimida;
+3. o comportamento da **rubrica do adicional**, que acompanha os dias de efetivo exercício. Já se viu
+   pagamento proporcional a cinco dias de substituição num mês de retorno — é a melhor prova da natureza
+   condicional da parcela, e vem do documento da própria parte autora.
+
+Pedir à área o registro de lotação/atividade do período e eventual **restrição médica** que tenha afastado a
+parte da atividade que gera o adicional. Não confundir com a supressão do adicional na **readaptação**, cuja
+discussão é outra ([supressao_adicional_atividade_readaptacao.md](supressao_adicional_atividade_readaptacao.md)).
 
 **Férias.** O afastamento médico causa exclusão automática da programação de férias no sistema da ECT;
 se a própria parte assinar depois formulário de reprogramação para período já vencido, isso concorre para

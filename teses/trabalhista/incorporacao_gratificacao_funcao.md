@@ -56,6 +56,14 @@ Transcrições colhidas de inicial que reproduziu o normativo (Cap. 2, item 1; C
      destituição são coisas distintas, e a inicial costuma pedir uma na fundamentação e outra no pedido.
   Requerer a **exibição da memória de cálculo** (art. 400 do CPC) e a tabela de funções das datas
   relevantes: sem elas o valor pedido não é reproduzível, o que sustenta a impugnação e a inépcia parcial.
+- **Regra de transição da revogação — o corte de 02/05/2014.** O ato que extinguiu a parcela
+  (**Mem. Circular 00676-VIGEP**) resguardou o direito apenas aos empregados "cujas portarias de dispensa
+  das funções já houvessem sido emitidas, assinadas e tivessem data de vigência até o dia 02/05/2014"
+  (item 2.1). É um corte objetivo: destituição posterior a essa data não alcança a parcela, ainda que o
+  decênio estivesse completo antes da revogação.
+  `[REVISAR: a redação acima vem da transcrição feita no acórdão do TRT8 citado na seção de
+  jurisprudência — juntar a íntegra do Mem. Circular 00676-VIGEP e do Mem. 03019/2012-GCRP/CEGEP-Circular
+  antes de citar em peça]`
 
 ## Tese central
 
@@ -89,6 +97,17 @@ Precedentes do TST sobre a própria ECT e os mesmos normativos:
 - RR-10662-35.2018.5.03.0179 — 6ª Turma, Min. Kátia Magalhães Arruda, DEJT 13/06/2023
 - RRAg-0010959-96.2017.5.03.0140 — 3ª Turma, Min. Mauricio Godinho Delgado, DEJT 26/05/2023
 - E-RR-1561-30.2015.5.10.0002 — SBDI-1, 06/12/2018
+
+Precedente sobre o **Módulo 36 e a hipótese exata de norma revogada durante o exercício da função**
+(o mais próximo do caso quando a parte autora alega ter completado o decênio antes da revogação):
+
+- **TRT8 – RO 0000682-41.2015.5.08.0014** — 3ª Turma, Des. Luis J. J. Ribeiro, publicado em 29/03/2016:
+  a GPTF do Módulo 36 "foi revogada enquanto a reclamante ainda exercia função de confiança (maio/2014), e
+  não estava mais vigente à época em que a reclamante foi exonerada da função (janeiro/2015)", de modo que
+  havia "mera expectativa de direito". Mantido em **recurso de revista** (Min. Hugo Carlos Scheuermann):
+  quanto à Súmula 51, I, "esta não se configura, porquanto não cumpridos os requisitos da norma no decorrer
+  da sua vigência". Colhido da peça-modelo do repositório
+  (`modelos/trabalhista/contestacao__incorporacao_funcao.docx`).
 
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
