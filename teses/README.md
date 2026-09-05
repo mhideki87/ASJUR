@@ -31,8 +31,8 @@ atualizado: 2026-08-27
 Formato de propósito restrito: uma chave por linha, listas em `[a, b, c]`. Não é YAML completo — é para ser
 óbvio de escrever à mão e trivial de conferir por script.
 
-**Os `gatilhos` são a parte que mais importa.** São as palavras que o Claude vai procurar no objeto da
-demanda para decidir se abre a ficha: termos que aparecem literalmente na inicial, sinônimos, números de
+**Os `gatilhos` são a parte que mais importa.** São as palavras procuradas no objeto da demanda
+(por `scripts/rotear.py`, ou à mão pela tabela do `INDICE.md`) para decidir se a ficha é aberta: termos que aparecem literalmente na inicial, sinônimos, números de
 norma e de súmula, nomes de parcela. Gatilho ruim = ficha invisível na hora certa, ou ficha aberta à toa.
 
 ### Gatilho é chave de busca, não resumo
@@ -48,7 +48,8 @@ O que **mantém**:
 - o sinônimo que muda a palavra de verdade, não a flexão (`doença ocupacional` / `acidente de trabalho`).
 
 O que **corta primeiro**, quando o pedágio apertar:
-- flexão ou quase-repetição do vizinho (`prescrição` + `prescrição total`; `afastamento` + `afastamentos`);
+- flexão ou quase-repetição do vizinho (`prescrição` + `prescrição total`; `afastamento` + `afastamentos`)
+  — o `rotear.py` já casa o plural sozinho, inclusive `postal`/`postais` e `indenização`/`indenizações`;
 - termo já contido no campo `tema`, que o roteamento lê junto (a ficha "Prescrição total" não precisa do
   gatilho `prescrição total`);
 - palavra genérica demais para discriminar (`dano moral`, `honorários`, `desconto em folha` aparecem em
