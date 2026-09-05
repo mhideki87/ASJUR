@@ -2,7 +2,9 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-08-15 — criação inicial.
+**Última atualização:** 2026-09-05 — três armadilhas de uso automático dos blocos condicionais (Tema 23,
+FAT/FAO, tabela de funções), blocos novos de auditoria da média e de recomissionamento, e alerta sobre os
+verbetes cancelados.
 
 ---
 
@@ -17,6 +19,37 @@ Este arquivo-modelo é **modular**: o `.docx` original já traz, dentro de cada 
 `- SE HOUVER ...` indicando em que hipótese fática aquele trecho deve ser mantido. Ao gerar uma contestação
 nova, **selecione apenas os blocos aplicáveis ao caso concreto** e apague o restante (inclusive as próprias
 anotações `- SE HOUVER ...`, que não devem aparecer na peça protocolada).
+
+
+## ⚠️ Antes de usar: três blocos do `.docx` que saem ERRADOS se copiados sem conferir
+
+O `.docx` foi consolidado antes dos cancelamentos de 2025 e traz blocos condicionais cuja condição é fácil
+de não checar. Cada um destes já teria produzido erro numa peça real:
+
+1. **Preliminar "Ausência de direito adquirido — Tema 23"** só entra se o **fato gerador (a dispensa da
+   função) for POSTERIOR a 11/11/2017**. Sendo anterior, o bloco **reforça a tese do adversário** e deve
+   sair. O que se pode aproveitar, aí, é apenas a *ratio* da ementa ("só há direito adquirido quando
+   completados **todos os pressupostos fáticos**", LINDB art. 6º, §§ 1º e 2º), citada dentro do bloco de
+   normas internas e **dizendo expressamente que não se postula retroação da Lei 13.467/2017**.
+2. **O bloco que afirma que o autor "não preencheu os 5 anos da FAT/FAO"** exige contagem própria: com
+   admissão antiga, o requisito de **5 anos do Módulo 55 pode estar cumprido** em 01/05/2012 mesmo quando o
+   de 10 anos do Módulo 36 não está em 15/05/2014. Afirmar o contrário é alegar fato falso. Se a inicial
+   não pede FAT/FAO, **não abrir a discussão** (arts. 141 e 492 do CPC).
+3. **O bloco que afirma que "a última tabela de gratificações de função é a vigente a partir de
+   01/05/2015, não tendo havido reajuste desde então"** precisa ser conferido nas fichas financeiras do
+   caso. Em caso real de 2026 a gratificação evoluiu de R$ 719,15 (2017) para R$ 1.225,68 (2025) —
+   a afirmação seria desmentida pelo documento juntado pela própria parte autora.
+
+E dois **verbetes cancelados** pela Resolução nº 225/2025 do Pleno do TST atravessam o modelo inteiro:
+
+- **Súmula 294** — a prejudicial de prescrição deve ser **refundada no art. 11, *caput* e § 2º, da CLT**,
+  antecipando o argumento do cancelamento (absorção pela lei, não repúdio). Ver
+  [`teses/trabalhista/prescricao.md`](../../teses/trabalhista/prescricao.md).
+- **Súmula 372, I** — deixa de ser o alvo a abater e vira **argumento a favor da ECT**, com a ressalva do
+  marco de 11/11/2017. Rende bloco próprio de mérito: **precedente que aplica o item I depois de
+  30/06/2025 aplica verbete cancelado**, o que é impugnação específica pronta contra a coletânea de
+  arestos que a inicial costuma transcrever. Ver
+  [`teses/trabalhista/incorporacao_gratificacao_funcao.md`](../../teses/trabalhista/incorporacao_gratificacao_funcao.md).
 
 ## Estrutura padrão
 
@@ -74,8 +107,23 @@ MÉRITO
       492 do CPC (vedação a julgamento extra/ultra petita) quando não há pedido de desconto da cota-parte do
       empregado
   9 — Impugnação aos documentos colacionados à inicial
-  10 — Honorários advocatícios (art. 791-A, I, CLT — 15% sobre o valor atualizado da causa)
+  10 — Impugnação ao valor da causa [SE HOUVER excesso aritmético ou pedido sem valor individualizado]
+  11 — Honorários advocatícios (art. 791-A, I, CLT — 15% sobre o valor atualizado da causa)
 V — Comprovação do cumprimento de decisão de antecipação de tutela [SE NÃO tiver sido comprovada ainda]
+
+Blocos que o `.docx` ainda NÃO tem e que a prática mostrou necessários (redigir a partir das fichas):
+  · Oposição ao "Juízo 100% Digital" [SE HOUVER adesão na inicial] — prazo de 5 dias úteis da primeira
+    notificação (art. 3º, § 1º, da Res. CNJ 345/2020; art. 4º, §§ 2º e 3º, da RA TRT24 40/2021); o silêncio
+    é anuência tácita, então conferir a data ANTES de redigir — vencido o prazo, o bloco sai.
+  · Impugnação à justiça gratuita [SE a ficha cadastral provar remuneração incompatível] — afasta a
+    presunção do art. 790, § 3º, e joga a exigência para o § 4º (comprovação).
+  · Cancelamento do item I da Súmula 372 (ver alerta acima) — logo no início do mérito.
+  · Inexistência de prejuízo por recomissionamento posterior [SE a ficha cadastral registrar nova função].
+  · Auditoria da média ponderada — subtópico desdobrado (erro material, valores sem lastro, CIP,
+    titularidade, reajustes, anuênio, requerimento ad cautelam de metodologia).
+  · Ausência de prova de destituição "sem justo motivo" — ônus do autor (art. 818, I, da CLT).
+  · Retificação do CNIS e multa diária [SE HOUVER esse pedido] — a retificação depende de eSocial/RFB/INSS,
+    fora do controle exclusivo da empregadora; art. 537, § 1º, do CPC para a multa.
 DOS PEDIDOS                              (extinção parcial se cabível; prescrição total; improcedência
                                           total; compensação eventual; equiparação à Fazenda Pública;
                                           honorários de sucumbência; protesto por provas)
@@ -101,6 +149,14 @@ Fecho + assinatura
 - **Bloco de compensação (item 6)**: pedido ad cautelam padrão para autorizar compensação de gratificação
   judicialmente incorporada com a paga por nova função gratificada posterior à destituição — reaproveitável
   sempre que houver prova (ficha cadastral/financeira) de nova designação após a dispensa discutida na ação.
+  **Reforço que dobra a força do bloco:** quando a inicial transcrever o acórdão TRT24 ROT
+  0024529-34.2024.5.24.0007 como paradigma de procedência, apontar que o mesmo julgado **autorizou a
+  compensação** pelo item 4.3 — o precedente do adversário é, ele mesmo, precedente de compensação.
+- **Ordem de força dos argumentos, quando a reversão é anterior a 11/11/2017**: (1) requisito temporal não
+  implementado na vigência da norma interna; (2) exclusão de quebra de caixa/atividade especial com a
+  contagem refeita em número de meses; (3) ausência de prova do "sem justo motivo"; (4) inexistência de
+  prejuízo por recomissionamento. O cancelamento da Súmula 372, I, e o overruling entram como **reforço**,
+  nunca como fundamento único — o cancelamento se deu por perda de eficácia *a partir* de 11/11/2017.
 - Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — vem da skill `formatar-minuta`.
 
 ## Variações observadas

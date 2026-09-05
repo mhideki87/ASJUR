@@ -7,7 +7,7 @@ gatilhos: [prescrição, prescrição total, Súmula 294, art. 11 CLT, art. 11 �
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-02
+atualizado: 2026-09-05
 ---
 
 # Tese — Prescrição total
@@ -96,8 +96,32 @@ rubrica.
 - Tema em que essa prejudicial mais aparece:
   [teses/trabalhista/incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md)
 
-## Lacunas
+## Como o TRT24 vem decidindo — desfavorável, e a inicial já se antecipa
 
-- [ ] Registrar como o TRT24 tem decidido a prejudicial nesses casos (acolhe total, parcial ou rejeita).
+Registro parcial da lacuna abaixo, colhido da transcrição feita por petição inicial de caso concreto:
+
+- **TRT24, 2ª Turma, RORSum 0025211-32.2023.5.24.0004** (Rel. Des. Francisco das C. Lima Filho, DEJT
+  11/02/2025) — prescrição **parcial**, não total, no tema da incorporação de gratificação de função. O
+  fundamento é que "norma", na parte final do art. 11, § 2º, da CLT (e da antiga Súmula 294), deve
+  compreender **qualquer ato normativo** de quem tenha competência para editá-lo — inclusive norma interna
+  da empresa. O acórdão cita como precedentes os processos 0024296-85.2023.5.24.0003-ROT (2ª T., Rel. Des.
+  João de Deus Gomes de Souza, jul. 20/09/2023) e 0024256-73.2022.5.24.0056-RORSUM (2ª T., Rel. Des.
+  Francisco das C. Lima Filho, jul. 24/05/2023).
+
+**Consequência prática:** a prejudicial vem sendo deduzida contra corrente local firmada. Deduzi-la assim
+mesmo — é matéria de ordem pública, sustenta o prequestionamento e a leitura do TRT24 é atacável —, mas
+**sempre acompanhada do pedido sucessivo de prescrição parcial quinquenal**, que é o que efetivamente
+limita a condenação nesse cenário.
+
+**Duas contra-alegações que aproveitam à ECT nesse contexto:**
+
+1. A leitura do TRT24 esvazia a exceção legal: o art. 11, § 2º, exige que **a própria parcela** esteja
+   assegurada por preceito **de lei**. Ler "norma" como "qualquer ato normativo, inclusive interno" faz a
+   exceção engolir a regra, já que toda parcela de norma interna decorre, por definição, de norma interna.
+2. **A própria inicial costuma confessar o quinquênio**: pede efeitos financeiros desde a destituição, mas
+   compõe o valor da causa contando parcelas vencidas só dos últimos 60 meses. Ou é confissão quanto às
+   parcelas anteriores, ou o valor não corresponde ao pedido — e serve à impugnação ao valor da causa.
+
+## Lacunas
 - [ ] Verificar como os TRTs vêm reagindo ao cancelamento da Súmula 294 — se algum tem lido o cancelamento
       como enfraquecimento da tese, em vez de absorção pela lei.
