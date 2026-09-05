@@ -5,9 +5,9 @@ slug: doenca_ocupacional
 status: validada
 gatilhos: [doença ocupacional, acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, quesitos de perícia, NTEP, CNAE, espécie 91, espécie 31, PCMSO, CAT, Comunicação de Acidente de Trabalho, riscos psicossociais, danos morais por doença, pensionamento, readaptação, LER, DORT, transtorno psiquiátrico, acidente de trajeto, fortuito externo, fato da natureza, força maior]
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
-modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md]
-ver_tambem: [teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md]
-atualizado: 2026-09-04
+modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md, modelos/trabalhista/contestacao__doenca_ocupacional.md]
+ver_tambem: [teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md]
+atualizado: 2026-09-05
 ---
 
 # Tese — Doença ocupacional
@@ -17,6 +17,11 @@ atualizado: 2026-09-04
 Ação em que o Reclamante atribui doença/incapacidade ao trabalho na ECT e pede indenização
 (dano moral, material, estética), pensionamento, estabilidade ou reintegração. Vale também para a
 formulação de **quesitos de perícia médica** e para manifestação sobre laudo.
+
+**Acidente típico com CAT emitida** (queda em serviço, esforço ao erguer carga) tem ficha própria para o
+regime de responsabilidade — objetiva x subjetiva, Tema 932 do STF — e para a quantificação de pensão e
+lucros cessantes: [responsabilidade_civil_acidente_tipico.md](responsabilidade_civil_acidente_tipico.md).
+As três frentes abaixo continuam valendo; ali fica o que é próprio do evento datado.
 
 ## Três frentes de defesa — sempre nesta ordem
 
@@ -90,6 +95,8 @@ RO 0025132-77.2014.5.24.0001 (casos de carteiro da ECT). Não duplicados aqui pa
   e seção 2.4 de [playbook_prompts_ECT.md](../../playbook_prompts_ECT.md)
 - Doença dermatológica por exposição solar em trabalho a céu aberto:
   [cancer_pele_exposicao_solar.md](cancer_pele_exposicao_solar.md)
+- Estrutura da contestação:
+  [modelos/trabalhista/contestacao__doenca_ocupacional.md](../../modelos/trabalhista/contestacao__doenca_ocupacional.md)
 - Quando o pedido é de pagamento de dias de afastamento (e não de indenização):
   [teses/trabalhista/afastamentos_auxilio_doenca.md](afastamentos_auxilio_doenca.md)
 
@@ -97,8 +104,8 @@ RO 0025132-77.2014.5.24.0001 (casos de carteiro da ECT). Não duplicados aqui pa
 
 - [x] ~~Modelo estrutural para quesitos de perícia~~ — criado em 2026-09-02:
       `modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md`.
-- [ ] Falta o modelo estrutural da **contestação** de doença ocupacional
-      (`modelos/trabalhista/contestacao__doenca_ocupacional.md`) — criar na próxima sessão do tema.
+- [x] ~~Falta o modelo estrutural da **contestação** de doença ocupacional~~ — criado em 2026-09-05:
+      `modelos/trabalhista/contestacao__doenca_ocupacional.md`, cobrindo também o acidente típico com CAT.
 - [x] ~~Teses de insalubridade/periculosidade (perícia técnica) ainda não têm ficha própria~~ — parcialmente
       resolvido: `teses/trabalhista/periculosidade_tanque_suplementar.md` e, em 2026-09-04,
       `teses/trabalhista/insalubridade_limpeza_sanitarios.md` (limpeza de sanitários). Outros agentes
