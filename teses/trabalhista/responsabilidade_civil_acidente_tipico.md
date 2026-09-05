@@ -99,9 +99,18 @@ previdenciária), e não do ajuizamento da ação.
 - **Férias + 1/3, 13º e FGTS não incidem sobre pensão civil.** A pensão do art. 950 do CC é indenização, não
   contraprestação salarial. O art. 15, §5º, da Lei 8.036/90 trata de FGTS **durante contrato suspenso**, com
   vínculo mantido — hipótese distinta de indenização por ato ilícito.
-- **Parcela única (art. 950, § único).** Requerer abatimento de **50%** pela antecipação e apuração do
-  **valor presente** pela planilha do TRT24 (`http://www.trt24.jus.br/calculo-do-valor-presente`),
-  parâmetro de rendimento equivalente à caderneta de poupança (art. 12, II, da Lei 8.177/91).
+- **Parcela única (art. 950, § único) — não impugnar o pagamento; pedir a redução do valor.** Regra fixada
+  pelo usuário em 25/08/2026: a conversão é faculdade do juízo e impugná-la desgasta a defesa sem retorno.
+  Requerer o abatimento de **50%** pela antecipação e a apuração do **valor presente** pela planilha do
+  TRT24 (`http://www.trt24.jus.br/calculo-do-valor-presente` — conferir o endereço antes do protocolo),
+  pela fórmula `VA = V × [ (1 + i)ⁿ – 1 ] ÷ [ (1 + i)ⁿ × i ]`, em que **V** é a prestação mensal (salário
+  da vítima), **n** o número de prestações fixado na decisão, **VA** o valor atual e **i** a taxa mensal de
+  juros do **art. 12, II, da Lei 8.177/91** — 0,5% ao mês enquanto a meta Selic anual superar 8,5%, ou 70%
+  da meta Selic anual mensalizada nos demais casos. Razão de ser a explicitar na peça: pagar de uma só vez
+  é antecipação, e sem desconto financeiro a soma excede o que a vítima obteria com resgates mensais de
+  aplicação conservadora (**caderneta de poupança**, isenta de risco e tributação) até esgotar juros e
+  capital — enriquecimento sem causa (art. 884 do CC) e reparação com excesso (art. 944), agravados por se
+  tratar de empresa pública federal paga por precatório.
 - **Constituição de capital (art. 533 do CPC)** — desnecessária: satisfação por precatório e solvência
   notória; no máximo, inclusão em folha.
 - **Despesas médicas.** Pedido de reembolso do que a perícia "vier a recomendar" é **dano futuro e
