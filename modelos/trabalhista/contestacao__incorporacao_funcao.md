@@ -2,8 +2,9 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-09-03 — Súmula 372, I, cancelada pela Res. nº 225/2025 do TST (bloco de
-*overruling* obsoleto nessa parte); data de revogação do Módulo 36 corrigida para 05/05/2014.
+**Última atualização:** 2026-09-05 — advertência sobre erros de data no `.docx`, estrutura real conferida
+contra contestação aprovada, blocos acrescidos em minuta real, e Súmula 372, I, cancelada pela Res. nº
+225/2025 do TST (bloco de *overruling* obsoleto nessa parte).
 
 ---
 
@@ -11,8 +12,8 @@ anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretór
 
 Contestação de reclamação trabalhista em que o(a) Reclamante pede a incorporação de gratificação de função
 (FAT/FAO — Módulo 55 do MANPES; ITF/GPTF — Módulo 36 do MANPES; ou o próprio entendimento da Súmula 372, I,
-do TST) após ser revertido(a) ao cargo efetivo. É o tema mais frequente da ECT (ver seção 3.1 de
-`base_conhecimento_juridico_ECT.md`).
+do TST) após ser revertido(a) ao cargo efetivo. É o tema mais frequente da ECT (ver ficha
+`teses/trabalhista/incorporacao_gratificacao_funcao.md`).
 
 Este arquivo-modelo é **modular**: o `.docx` original já traz, dentro de cada bloco, uma anotação
 `- SE HOUVER ...` indicando em que hipótese fática aquele trecho deve ser mantido. Ao gerar uma contestação
@@ -22,8 +23,8 @@ anotações `- SE HOUVER ...`, que não devem aparecer na peça protocolada).
 ## Estrutura padrão
 
 ```
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver seção 3.3
-                                          de base_conhecimento_juridico_ECT.md)
+DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver
+                                          teses/transversal/prerrogativas_processuais_ect.md)
 RESUMO DA DEMANDA
 PRELIMINARMENTE
   1 — Ausência de direito adquirido — Tema 23 dos repetitivos do TST (INCJULGRREMBREP
@@ -33,10 +34,16 @@ PRELIMINARMENTE
       [SE HOUVER pedido de recolhimento de cota patronal ao POSTALIS] — art. 114 CF; RE 569056-3/STF;
       art. 202, §2º, CF; art. 68 da LC 109/2001.
 PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL [SE HOUVER pedido de FAT/ITF]
-  Súmula 294/TST — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 05/05/2014) é o ato
+  art. 11, § 2º, da CLT (**a Súmula 294 foi cancelada** pela Resolução nº 225/2025 — ver
+  [`teses/trabalhista/prescricao.md`](../../teses/trabalhista/prescricao.md)) — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 15/05/2014) é o ato
   único que dispara o prazo prescricional de 5 anos; ação ajuizada depois disso está com a pretensão
   totalmente prescrita quanto a essas normas.
 MÉRITO
+  0 — Inexistência da supressão alegada [SE a ficha cadastral registrar nova designação, ou a ficha
+      financeira mostrar a rubrica de gratificação seguindo em folha depois da data apontada na inicial]
+      — abre o mérito, antes de qualquer tese: sem o fato constitutivo (art. 818, I, CLT), o pedido cai
+      sem discussão de direito. Comparar o valor pedido com a diferença realmente verificada entre a
+      função antiga e a nova, e apontar bis in idem no período em que a parcela foi paga
   1 — Incorporação de gratificação de função — Súmula 372 do TST
     1.1 — Inexistência de ofensa à irredutibilidade salarial (arts. 450, 468, 499 da CLT — gratificação de
           função é salário-condição, não parcela autônoma)
@@ -73,6 +80,12 @@ MÉRITO
       mérito, além da preliminar de incompetência] — falta de comprovação de adesão ao plano; arts. 141 e
       492 do CPC (vedação a julgamento extra/ultra petita) quando não há pedido de desconto da cota-parte do
       empregado
+  8.1 — Adicional de atividade cumulado no mesmo processo, p. ex. o AAG de atendimento em guichê
+        [SE HOUVER pedido de restabelecimento de adicional] — salário-condição, e a cessação por
+        afastamento previdenciário não é supressão; tese e checagens documentais em
+        [`teses/trabalhista/afastamentos_auxilio_doenca.md`](../../teses/trabalhista/afastamentos_auxilio_doenca.md).
+        Impugnar à parte o reflexo em anuênio (a base de cálculo não alcança adicional de atividade —
+        [`teses/trabalhista/temas_acessorios.md`](../../teses/trabalhista/temas_acessorios.md))
   9 — Impugnação aos documentos colacionados à inicial
   10 — Honorários advocatícios (art. 791-A, I, CLT — 15% sobre o valor atualizado da causa)
 V — Comprovação do cumprimento de decisão de antecipação de tutela [SE NÃO tiver sido comprovada ainda]
@@ -105,7 +118,64 @@ Fecho + assinatura
 - **Bloco de compensação (item 6)**: pedido ad cautelam padrão para autorizar compensação de gratificação
   judicialmente incorporada com a paga por nova função gratificada posterior à destituição — reaproveitável
   sempre que houver prova (ficha cadastral/financeira) de nova designação após a dispensa discutida na ação.
-- Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — igual ao de `_FORMATO_BASE.docx`.
+- Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — vem da skill `formatar-minuta`.
+
+## ⚠ Erros conhecidos no `.docx` — corrigir a cada uso
+
+Achados em sessão real de minuta (28/08/2026). O `.docx` é peça-mestra multiuso e carrega duas trocas de data
+na **variante 2 do item 2.1** ("preencheu o requisito da FAT mas não o da ITF"):
+
+| Está escrito no `.docx` | Deveria ser |
+|---|---|
+| "quando da revogação do Módulo 36 do MANPES em **abril de 2014**" | Módulo 36 — **15/05/2014** |
+| "quando da revogação do Módulo 36 do MANPES em **30/04/2012**" | **Módulo 55** — **01/05/2012** |
+
+Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 15/05/2014**. Conferir sempre; o
+segundo erro troca o próprio módulo, e passar isso para a peça entrega ao adversário uma contradição de
+graça.
+
+`[REVISAR: em 09/2026 uma sessão sustentou que a revogação do Módulo 36 seria 05/05/2014, e não 15/05/2014.
+Prevaleceu a data das fichas (15/05/2014), mas conferir no MANPES antes de usar em peça — dela depende o
+cômputo do decênio.]`
+
+Outros pontos do `.docx` a revisar antes de reaproveitar:
+- o endereçamento aparece como "JUIZ(A) **FEDERAL** DA [Nº] VARA DO TRABALHO" — corrigir para "JUIZ(A) DO
+  TRABALHO";
+- erros de digitação herdados ("emanta", "graficação", "ennvolvendo", "Reclamada" por "Reclamante" em alguns
+  blocos);
+- três acórdãos transcritos **sem identificação completa** (o do TRT24 sobre inaplicabilidade da Súmula 372
+  por fato consumado após 11/11/2017; o do TST sobre expectativa de direito no Módulo 36; e o do Min. Hugo
+  Carlos Scheuermann sobre a GPTF). Não citar sem completar número, Turma, Relator e data;
+- o bloco 1.2 trata a Súmula 372, I, como verbete a ser **superado** por *overruling*. Depois da
+  **Resolução nº 225/2025** do Pleno do TST ela está **cancelada** — reescrever nessa chave, que é argumento
+  mais forte e mais curto. Reformulação já validada em minuta real (03/09/2026), como tópico próprio do
+  mérito, nesta ordem: (i) o verbete não existe mais — Resolução nº 225/2025, cancelamento do item I por
+  perda de eficácia a partir de 11/11/2017, com a ressalva de que o **item II não foi cancelado**;
+  (ii) a data da dispensa da função no caso, para mostrar que nem a aplicação residual do item I é cogitável;
+  (iii) o alerta de que acórdão posterior a 30/06/2025 que ainda o invoque aplica verbete cancelado — serve
+  contra os precedentes transcritos na inicial; (iv) só então, como reforço, o art. 8º, §2º, da CLT e o
+  precedente da 4ª Turma sobre jurisprudência sem base legal (RR 305-75.2015.5.05.0492). Manter o
+  `[REVISAR]` da conferência da Resolução na fonte oficial.
+
+## Blocos acrescidos em minuta real (28/08/2026)
+
+Caso concreto: Reclamante redesignado para outra função gratificada **no dia seguinte** à destituição, com a
+gratificação de função **nunca suprimida**, e requisito temporal do Módulo 36 não implementado até a
+revogação.
+
+1. **"Da inexistência de supressão da gratificação de função — falsidade da premissa fática"** —
+   **primeiro tópico do mérito**, antes de qualquer tese jurídica. Confronta a alegação de supressão com o
+   campo "FUNÇÕES" da ficha cadastral (nova designação, vigência "31/12/9999") e com a rubrica de
+   Gratificação de Função Conv. das fichas financeiras, mês a mês. Quando os documentos permitem, é o bloco
+   mais forte da peça, porque é fato provado por documento do próprio autor.
+2. **Impugnação aos documentos, ampliada** — impugnação **nominal** à planilha de apuração de tempo de função
+   que a inicial insere no corpo, e à **incompletude das fichas financeiras** (identificar quais exercícios
+   faltam; costuma faltar justamente o do marco alegado pelo autor).
+3. **Contradição do autor quanto à equiparação à Fazenda Pública** — dentro do bloco de honorários: invoca a
+   equiparação para juros e para o art. 85, §3º, do CPC, e a repudia quando dela decorre a vedação de
+   incorporar gratificação.
+4. **Bloco da ADC 80** na impugnação à justiça gratuita — texto pronto em
+   `teses/transversal/preliminares_processuais_defesa.md`; conferir o andamento do julgamento antes de usar.
 
 ## Variações observadas
 
@@ -116,7 +186,7 @@ Fecho + assinatura
   `- SE HOUVER ...`.
 - O item 2.1 (Súmula 51) precisa da variante certa conforme o cruzamento de duas datas: (a) quando o
   Reclamante completou os requisitos temporais da FAT/FAO (5 anos) e da ITF/GPTF (10 anos) e (b) as datas de
-  revogação dos Módulos 55 (01/05/2012) e 36 (05/05/2014) — sempre conferir isso nos documentos anexados
+  revogação dos Módulos 55 (01/05/2012) e 36 (15/05/2014) — sempre conferir isso nos documentos anexados
   antes de escolher a variante.
 - Se o caso disser respeito só à Súmula 372 (sem norma interna invocada pelo autor), o bloco 2 inteiro
   (normas internas) pode ser suprimido — e, com o item I cancelado, a defesa fica mais curta: não há verbete
@@ -124,6 +194,9 @@ Fecho + assinatura
 
 ## Ligação com a base de teses
 
-Sustenta a seção 3.1 (`Incorporação de gratificação de função`) de `base_conhecimento_juridico_ECT.md`, que
-é a tese recorrente mais frequente da ECT. Toca também a seção 3.2 (prescrição), 3.3 (equiparação à Fazenda
-Pública) e 3.5 (temas acessórios: POSTALIS, honorários advocatícios).
+Sustenta a ficha `teses/trabalhista/incorporacao_gratificacao_funcao.md`, a tese recorrente mais frequente
+da ECT. Toca também `teses/trabalhista/prescricao.md`,
+`teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
+`teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios, quebra de caixa, CIP, reflexos) e
+`teses/transversal/preliminares_processuais_defesa.md` (rito sumaríssimo, gratuidade com o bloco da ADC 80,
+Juízo 100% Digital).
