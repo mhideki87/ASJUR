@@ -3,11 +3,11 @@ area: trabalhista
 tema: Adicional de insalubridade — limpeza e higienização de sanitários
 slug: insalubridade_limpeza_sanitarios
 status: rascunho
-gatilhos: [adicional de insalubridade, insalubridade em grau máximo, grau máximo, 40%, agentes biológicos, agentes químicos, limpeza de banheiros, higienização de sanitários, coleta de lixo, lixo sanitário, servente de limpeza, asseio e conservação, saneantes, NR-15, Anexo 14, Súmula 448, OJ 4 da SBDI-1, Súmula 289, Súmula Vinculante 4, Súmula 228, art. 192 CLT, art. 195 § 2º CLT, perícia técnica, EPI, luvas, botas, PPP, uso público ou coletivo de grande circulação]
+gatilhos: [grau máximo, agentes biológicos, agentes químicos, limpeza de banheiros, coleta de lixo, NR-15, Anexo 14, Súmula 448, OJ 4 da SBDI-1, uso público ou coletivo de grande circulação]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_terceirizacao.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/trabalhista/periculosidade_tanque_suplementar.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-05
 ---
 
 # Tese — Adicional de insalubridade em limpeza e higienização de sanitários

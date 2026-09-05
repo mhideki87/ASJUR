@@ -3,11 +3,11 @@ area: trabalhista
 tema: Responsabilidade subsidiária da ECT em terceirização de serviços comuns (limpeza, conservação, portaria)
 slug: responsabilidade_subsidiaria_terceirizacao_servicos
 status: validada
-gatilhos: [terceirização de serviços, prestadora de serviços, servente de limpeza, auxiliar de limpeza, asseio e conservação, limpeza predial, conservação, portaria, vigilância, empresa interposta, subordinação estrutural, culpa in eligendo, culpa in vigilando, responsabilidade subsidiária, tomadora de serviços, Súmula 331, ADC 16, Tema 246, Tema 1.118, art. 77 da Lei 13.303/2016, art. 5º-A da Lei 6.019/74, vínculo com a tomadora, período sem registro, CTPS não anotada, pagamento por fora, extrafolha, diárias via Pix, guias rescisórias, PPP, revelia da prestadora]
+gatilhos: [servente de limpeza, asseio e conservação, empresa interposta, vigilância, período sem registro, pagamento por fora, extrafolha, PPP, revelia da prestadora]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_terceirizacao.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/insalubridade_limpeza_sanitarios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-05
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em terceirização de serviços comuns
