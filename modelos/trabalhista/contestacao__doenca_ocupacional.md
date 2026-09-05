@@ -1,138 +1,139 @@
-# Modelo: Contestação — Doença ocupacional (com prescrição total por reabilitação profissional)
+# Modelo: Contestação — Doença ocupacional e acidente de trabalho típico (responsabilidade civil)
 
-**Consolidado de:** 2 casos-fonte — (i) contestação real aprovada, de empregada reabilitada do cargo de carteiro para
-atendente comercial (fonte das ementas de prescrição); (ii) contestação minutada para empregado reabilitado de carteiro
-para auxiliar administrativo, com pedidos de dano moral, danos emergentes, pensão do art. 950 do CC e custeio de plano
-de saúde.
-**Última atualização:** 2026-08-25 — criação inicial; no mesmo dia, acréscimo do bloco de **redução da parcela única
-ao valor presente (planilha do TRT24)** e da regra de que **não se impugna** o pagamento em parcela única.
+**Consolidado de:** 1 caso-fonte (rito ordinário, TRT24 — três acidentes típicos de carteiro motorizado com
+CAT emitida, mais alegação de doença ocupacional por agravamento; pedidos de pensão vitalícia, lucros
+cessantes, despesas médicas e dano moral).
+**Última atualização:** 2026-09-05 — criação inicial.
+**Formatação:** vem da skill `formatar-minuta` (`modelos/_FORMATO_BASE.docx`). Este tema não tem `.docx`
+próprio — o corpo não traz nada estruturalmente distinto que justifique arquivo binário separado.
 
 ---
 
 ## Quando usar este modelo
 
-Contestação de ação em que o empregado atribui ao trabalho patologias osteomusculares (tipicamente CID M65 —
-sinovite/tenossinovite; M47 — espondiloartrose; M77 — entesopatias; ombros, coluna, joelhos, tornozelos) e pede
-declaração de doença ocupacional, dano moral, danos materiais (pensão do art. 950 do CC, danos emergentes do art. 949)
-e custeio de tratamento/plano de saúde. Aplica-se **com força máxima** quando houver, na história funcional, **mudança
-de cargo por reabilitação profissional do INSS** — situação em que a defesa ganha uma prejudicial de prescrição total
-e, ao mesmo tempo, a prova documental da diligência da empregadora.
+Contestação de reclamação em que o Reclamante atribui ao trabalho lesão ou doença e pede indenização por
+dano moral e material. Cobre os dois cenários, que costumam vir somados na mesma inicial:
+
+- **acidente típico** — evento datado, com CAT emitida (queda de motocicleta, esforço ao erguer carga);
+- **doença ocupacional por agravamento** — retorno às mesmas atividades depois da alta, sem readaptação.
+
+Teses: [`teses/trabalhista/doenca_ocupacional.md`](../../teses/trabalhista/doenca_ocupacional.md) (três
+frentes: incapacidade, nexo, culpa) e
+[`teses/trabalhista/responsabilidade_civil_acidente_tipico.md`](../../teses/trabalhista/responsabilidade_civil_acidente_tipico.md)
+(regime de responsabilidade e quantificação).
+
+Não confundir com `contestacao__afastamentos.md` (pagamento de dias de afastamento) nem com
+`contestacao__limbo_previdenciario.md` (intervalo entre alta e exame de retorno): ali se discute verba do
+período; aqui, reparação civil.
+
+## A decisão que define a peça
+
+**Há CAT emitida?** É a bifurcação, e ela define onde a defesa gasta energia:
+
+- **Sem CAT / doença insidiosa** → cabe disputar a própria existência do acidente e o nexo; as frentes 1 e 2
+  da ficha de doença ocupacional carregam a peça.
+- **Com CAT e exame de imagem contemporâneo ao trauma** → o reconhecimento do evento é praticamente
+  inevitável. Insistir na negativa queima credibilidade. A peça se reorganiza em torno de **regime de
+  responsabilidade (subjetiva), culpa, incapacidade e quantificação** — e a prescrição ganha peso, porque a
+  ciência inequívoca é contemporânea ao sinistro.
 
 ## Estrutura padrão
 
 ```
-DA TEMPESTIVIDADE                        (prazo em dobro, art. 1º do DL 779/69)
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA         (bloco padrão — ver contestacao__afastamentos.md)
-RESUMO DA VESTIBULAR                     (síntese sob a ótica da defesa + impugnação especificada, art. 341 CPC)
-PRELIMINARMENTE
-  1 — Inépcia de pedido formulado sem indicação de valor (art. 840, §§1º e 3º, CLT)
-  2 — Inépcia/ausência de interesse no pedido declaratório e nos "direitos decorrentes" do art. 118 da Lei 8.213/91
-  3 — Impugnação ao valor da causa e limitação da condenação aos valores indicados
-  4 — Impugnação à justiça gratuita                     (Tema 21 do IRR + ADC 80 — ver base, seção 3.7)
-  5 — Rejeição da inversão do ônus da prova e da exibição genérica de documentos
-  6 — Impugnação aos documentos do autor
-  7 — Posição sobre o "Juízo 100% Digital", se requerido
-DA PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL            (frente 0 da seção 3.4 da base)
-DO MÉRITO
-  1 — O fato omitido: a mudança de função decorreu de reabilitação profissional do INSS
-  2 — Inexistência de nexo causal (art. 20, §1º, Lei 8.213/91; afastamento da atividade nociva)
-  3 — Inexistência de culpa (ASO, PCMSO, PGR, AET, CATs; exigir do perito a norma violada)
-  4 — Inaplicabilidade da responsabilidade objetiva + distinguishing dos precedentes do autor
-  5 — Inexistência de incapacidade e de perda patrimonial (reabilitado, em atividade, salário integral)
-  6 — Improcedência do pedido declaratório e do art. 118 da Lei 8.213/91
-  7 — Inexistência de dano moral + ad cautelam art. 223-G da CLT
-  8 — Pensão do art. 950 do CC: ausência de dano + incoerências do pedido + ad cautelam +
-      redução da parcela única ao valor presente (planilha do TRT24)
-  9 — Danos emergentes (art. 949 do CC): ausência de prova de despesa
- 10 — Custeio de plano de saúde: bis in idem e ausência de fundamento normativo
- 11 — Pedidos mencionados na fundamentação e não deduzidos no rol (arts. 141 e 492 CPC)
- 12 — Prova técnica: perícia médica e quesitos obrigatórios
- 13 — Juros, correção monetária (art. 3º da EC 113/2021) e descontos fiscais/previdenciários
- 14 — Honorários advocatícios (base de cálculo do art. 791-A)
-DOS REQUERIMENTOS                        (extinções parciais · prescrição · improcedência · valor da causa ·
-                                          gratuidade · provas · perícia · eventualidade · equiparação · honorários)
+EQUIPARAÇÃO À FAZENDA PÚBLICA E TEMPESTIVIDADE   (ficha de prerrogativas; SELIC do art. 3º da EC 113/2021
+                                                   já aqui, para reaproveitar no capítulo de juros)
+RESUMO DA DEMANDA                                (síntese sob a ótica da defesa + transcrição do rol
+                                                   de pedidos, com os valores de cada um)
+PRELIMINARMENTE                                  (ficha de preliminares processuais)
+  1 — Contradição entre valor da causa e soma dos pedidos; limitação da condenação
+  2 — Inépcia de pedido genérico ("haveres trabalhistas de todo o período contratual")
+  3 — Inépcia do pedido de despesas médicas (dano futuro, sem comprovante)
+  4 — Impugnação à justiça gratuita (autor empregado, remuneração acima de 40% do teto do RGPS)
+  5 — Impugnação à presunção de "atividade de risco" pela não exibição de documentos (art. 400 do CPC)
+PREJUDICIAL DE MÉRITO
+  1 — Prescrição: actio nata na ciência inequívoca (CAT, exames, alta previdenciária)
+  2 — Ad cautelam: prescrição quinquenal, computada a suspensão da Lei 14.010/2020
+MÉRITO
+  1 — Inaplicabilidade da responsabilidade objetiva (Tema 932 pelos requisitos cumulativos)
+  1.1 — Adicional de periculosidade não é confissão de risco especial
+  2 — Ausência de culpa: alegações hipotéticas da inicial, fortuito externo, NR citada em bloco
+  2.1 — Emissão espontânea da CAT: diligência, não confissão — e pedido de emissão sem objeto
+  3 — Inexistência de doença ocupacional: patologias degenerativas (art. 20, §1º, "a", Lei 8.213/91)
+  3.1 — Ausência de prova da espécie do benefício (31 x 91) e limites do NTEP
+  4 — Inexistência de incapacidade, menos ainda total e permanente
+  5 — Ad cautelam: quantificação da concausa e culpa concorrente (art. 945 do CC)
+  6 — Danos materiais: cumulação vedada, ausência de perda salarial, base, marcos, parcela única
+  7 — Despesas médicas: assistência já prestada pelo plano de saúde corporativo
+  8 — Dano moral: inexistência + impugnação ao quantum (art. 223-G, §1º, da CLT)
+  9 — Impugnação aos documentos juntados com a inicial
+ 10 — Juros e correção: SELIC exclusiva, afastada a Súmula 54 do STJ
+ 11 — Honorários: sucumbência recíproca é norma cogente (art. 791-A, §3º, da CLT)
+DOS PEDIDOS E DAS PROVAS                         (improcedência + rol ad cautelam sucessivo +
+                                                   prequestionamento expresso)
 Fecho + assinatura
 ```
 
+## Técnicas de defesa que este tema exige
+
+**Rebater com o documento que a própria parte juntou.** É a técnica mais produtiva aqui, porque a inicial de
+acidente vem sempre com exames, e exame de imagem é descritivo — não atesta nexo, incapacidade nem culpa.
+Padrões que se repetem e que valem procurar em cada laudo anexado:
+
+- laudo **contemporâneo ao acidente** que já registra alteração degenerativa (ex.: "alterações degenerativas
+  grau II" no dia seguinte ao trauma) — degeneração preexistente não decorre do sinistro;
+- laudo **recente de pós-operatório** com enxerto/síntese **íntegros** e estruturas preservadas — prova de
+  tratamento bem-sucedido, contra a tese de sequela incapacitante;
+- **atestado de poucos dias** diante de narrativa de lesão gravíssima e permanente;
+- **convênio do exame em nome da empresa ou do plano de saúde corporativo** — prova de que a empregadora
+  custeou o tratamento que a inicial diz não ter recebido;
+- pedido de **cópia de prontuário para "perícia médica"** anos antes do ajuizamento — reforça a ciência
+  inequívoca na prejudicial de prescrição, e sugere conferir se há ação anterior sobre os mesmos fatos.
+
+**Ler o Tema 932 até o fim.** A inicial transcreve a primeira metade; o requisito do *ônus maior do que aos
+demais membros da coletividade* é o que derruba a responsabilidade objetiva no caso do carteiro.
+
+**Aritmética do valor da causa.** Somar os pedidos líquidos e comparar com o valor atribuído no fechamento
+da peça e com o da autuação no PJe — a divergência é frequente e sustenta a limitação da condenação.
+
+**Varredura de pedidos.** Antes de fechar, conferir alínea por alínea (inclusive as que a inicial pula na
+numeração) para que nenhum pedido fique sem impugnação específica — regra 9 do `CONTEXTO.md`.
+
 ## Linguagem / trechos-padrão reaproveitáveis
 
-- **Prejudicial de prescrição total — encadeamento que funciona:** (1) a inicial descreve fatores de risco de um cargo
-  que o autor deixou de exercer em data certa; (2) a própria inicial reconhece a mudança de cargo; (3) logo, a ciência
-  inequívoca da lesão e da sua extensão se deu na data da reabilitação; (4) *actio nata* (art. 189 do CC) + Súmulas 230
-  do STF e 278 do STJ; (5) ciência posterior à EC 45/2004 → prazo do art. 7º, XXIX, da CF (E-RR-2700-23.2006.5.10.0005,
-  SBDI-1, j. 22/05/2014); (6) prescrição **total** das pretensões ligadas ao cargo anterior (art. 487, II, do CPC);
-  (7) sucessivamente, prescrição quinquenal das verbas anteriores ao quinquênio.
-- **Ementas de prescrição** (transcritas de peça real aprovada; conferir inteiro teor antes de reutilizar):
-  TRT24 – ROT 0024198-95.2023.5.24.0004 (1ª Turma, Des. Nicanor de Araujo Lima, j. 09/07/2024) — o mais aderente, pois
-  trata de carteiro reabilitado; TST – E-ED-ED-RR-315-98.2011.5.06.0018 (SBDI-1, Red. Min. Cláudio Mascarenhas Brandão,
-  DEJT 16/08/2019); TST – AIRR-620-92.2013.5.04.0204 (2ª T., Min. José Roberto Freire Pimenta, j. 19/08/2015), de onde
-  se extrai o raciocínio dos "dois resultados possíveis e excludentes" (aposentadoria por invalidez *ou* cessação do
-  benefício com retorno/readaptação); TST – RR-92000-78.2009.5.04.0030 (2ª T., j. 12/11/2014); TST –
-  RR-10165-68.2015.5.03.0165 (2ª T., j. 14/10/2015).
-- **Técnica "documento da própria parte":** quando a inicial junta o certificado de reabilitação profissional do INSS,
-  usá-lo três vezes — como marco prescricional, como prova da diligência da empregadora e como prova da aptidão para a
-  função atual. É o eixo da peça.
-- **Técnica "peça de formulário":** apontar as marcas de reaproveitamento indevido da exordial (gênero trocado na
-  qualificação, referências à parte no gênero oposto, valor por extenso divergente do numérico, descrição de atividade
-  de outro ramo — ex.: "movimentação de pacientes" em caso de empresa postal). Serve para sustentar a impugnação
-  especificada e para desqualificar a causa de pedir do pedido de pensão.
-- **Ad cautelam do dano moral:** quando a inicial ancora o pedido no inciso do grau **leve** do art. 223-G, §1º, da CLT
-  (até 3× o último salário contratual), tratar o valor postulado como **teto**, não como piso, e pedir redução
-  proporcional ao percentual de concausa apurado em perícia.
-- **Ad cautelam da pensão (art. 950 do CC):** percentual estrito da redução apurada; base de cálculo limitada à
-  remuneração do cargo (excluídos FGTS, terço de férias e verbas indenizatórias); dedução da remuneração que o
-  empregado continua a receber; termo final pela expectativa de vida do IBGE (tabela oficial).
-- **Parcela única — regra de conduta fixada pelo usuário (25/08/2026): NÃO impugnar o pagamento em parcela única.**
-  A conversão do art. 950, parágrafo único, do CC é faculdade do juízo e a impugnação pura e simples desgasta a defesa
-  sem retorno. O pedido a formular é o de **redução do valor**, isto é, de que a parcela única seja **limitada ao valor
-  presente** — e é isso que deve constar tanto do corpo do tópico da pensão quanto da alínea de eventualidade dos
-  requerimentos.
-- **Bloco da redução ao valor presente (reaproveitável quase literalmente):**
-  1. pedido de que, sendo deferido o pagamento em parcela única, o valor seja limitado ao **valor presente apurado pela
-     planilha oficial de cálculo do TRT da 24ª Região**, disponibilizada para esse fim em
-     `http://www.trt24.jus.br/calculo-do-valor-presente` (conferir o endereço antes de cada protocolo — a peça-fonte o
-     registrava como acessado em 22/02/2021);
-  2. transcrição da fórmula, centralizada, com expoente: `VA = V × [ (1 + i)ⁿ – 1 ] ÷ [ (1 + i)ⁿ × i ]`;
-  3. definição das variáveis em bloco recuado: **i** = taxa mensal de juros, sendo (a) 0,5% ao mês enquanto a meta da
-     taxa Selic ao ano for superior a 8,5%, ou (b) 70% da meta Selic anual, mensalizada, vigente na data de início do
-     período de rendimento, nos demais casos, conforme **art. 12, II, da Lei nº 8.177/91**; **V** = valor da prestação
-     mensal (salário da vítima); **n** = número de prestações mensais (período fixado na decisão); **VA** = valor atual
-     (parcela única a ser paga pelo causador do dano);
-  4. razão de ser: o pagamento de uma só vez é **antecipação** e, sem desconto a valor presente, gera desequilíbrio na
-     reparação e enriquecimento sem causa (art. 884 do CC) — a soma deve equivaler, no máximo, ao que a vítima obteria
-     com resgates mensais de aplicação hipotética, até esgotar juros e capital ao fim do prazo da decisão;
-  5. a aplicação hipotética é a **caderneta de poupança**, a mais conservadora, isenta de risco e de tributação e de
-     remuneração pré-fixada — critério da própria planilha do Tribunal e coerente com o art. 12, II, da Lei 8.177/91;
-  6. reforço institucional: sendo a ECT **empresa pública federal equiparada à Fazenda Pública**, com execução por
-     precatório e recursos públicos, antecipar vincendas sem desconto financeiro lesa o erário (arts. 884 e 944 do CC).
-- **Quesitos obrigatórios a exigir do laudo:** natureza degenerativa e etiologia de cada CID; grau e permanência de
-  incapacidade **para a função efetivamente exercida**; data de consolidação de cada lesão (para a prescrição); nexo
-  por período contratual, distinguindo o cargo anterior do atual; **quantificação percentual** da concausa e dos
-  fatores extralaborais/etários; **norma específica** de SST supostamente descumprida.
+- Bloco de equiparação à Fazenda Pública, com RE 220699/SP e o art. 3º da EC 113/2021 — reaproveitável
+  literalmente (ver ficha de prerrogativas).
+- Bloco "não houve prova de ato ilícito": política de exames admissional/periódicos, respeito aos
+  afastamentos, custeio do tratamento pelo plano, recolhimento do seguro acidentário na alíquota máxima
+  (art. 22, II, "c", da Lei 8.212/91; CNAE 5310-5/01) e a pergunta retórica "qual ilicitude, então, cometeu
+  a Reclamada?".
+- Bloco de quantificação (cumulação vedada → ausência de perda salarial → base de cálculo → marcos →
+  parcela única com valor presente → constituição de capital): texto genérico, reaproveitável quase
+  literalmente entre casos.
+- Rol *ad cautelam* sucessivo nos requerimentos finais, encerrado por prequestionamento expresso dos
+  dispositivos discutidos.
 
 ## Variações observadas
 
-- Sem reabilitação profissional no histórico, a frente 0 (prescrição total) perde o marco documental — nesse caso
-  ancorar a prejudicial na data da CAT, do diagnóstico ou da cessação do benefício, e assumir que a discussão migra
-  para o mérito do nexo.
-- Contrato **extinto**: acrescer a prescrição bienal do art. 7º, XXIX, da CF, contada da ciência inequívoca.
-- Empregado ainda em atividade e com salário integral: é o cenário mais favorável para derrubar **danos materiais**
-  (pensão e lucros cessantes), mas não elimina o risco de dano moral por concausa — dosar a peça nesse sentido.
-- Quando a inicial pede custeio de plano de saúde **e** danos emergentes que já incluem "plano de saúde vitalício",
-  suscitar o *bis in idem* explicitamente, com a citação literal das duas alíneas.
-- **Termo final do pensionamento — duas opções.** A peça-fonte deste tema sustentou, alternativamente à expectativa de
-  vida do IBGE, que o termo final deve ser, no máximo, a **idade de aposentadoria (65 anos)**, por ser a idade que
-  limitaria o pagamento de salário e benefícios caso o empregado permanecesse na ativa, com transcrição do **art. 37,
-  §14, da CF**. É o parâmetro mais favorável à ECT; no caso consolidado aqui, optou-se por manter a expectativa de vida
-  do IBGE. Avaliar caso a caso — e não usar as duas teses ao mesmo tempo, sob pena de contradição interna.
+- **Contrato ainda vigente** (autor trabalhando) — usar como argumento central contra pensão vitalícia
+  integral e contra a agravante de desamparo material no arbitramento do dano moral.
+- **Readaptação já concedida** administrativamente — acrescentar bloco de ausência de perda salarial e de
+  prejuízo de carreira (PCCS; art. 104, §4º, do Decreto 3.048/99).
+- **Reconhecimento parcial** — se a área confirmar falha concreta (equipamento sem manutenção comprovada,
+  medida preventiva implantada só depois do primeiro sintoma), migrar para a estrutura de reconhecimento
+  parcial de `contestacao__limbo_previdenciario.md`: negar o que é negável e reconhecer o que é documentado
+  preserva a credibilidade do resto da peça.
+- **Doença insidiosa sem CAT** — inverter o peso: frentes 1 e 2 primeiro, prescrição só quinquenal.
 
 ## Ligação com a base de teses
 
-Seção **3.4** de `base_conhecimento_juridico_ECT.md` (frente 0 — prescrição; frentes 1 a 3 — incapacidade, nexo e
-culpa, esta última com a reabilitação profissional como prova de diligência), seção **3.2** (prescrição), seção **3.3**
-(prerrogativas processuais / equiparação à Fazenda Pública) e seção **3.7** (impugnação à justiça gratuita — Tema 21 do
-IRR e ADC 80).
-
-> Formatação: vem de `modelos/_FORMATO_BASE.docx`. Não há `.docx` próprio para este tema — o corpo não tem estrutura
-> visual distinta (sem tabelas ou numeração especial), apenas títulos, tópicos e citações recuadas, todos já previstos
-> no arquivo de formatação base.
+- [`teses/trabalhista/doenca_ocupacional.md`](../../teses/trabalhista/doenca_ocupacional.md) — três frentes.
+- [`teses/trabalhista/responsabilidade_civil_acidente_tipico.md`](../../teses/trabalhista/responsabilidade_civil_acidente_tipico.md)
+  — regime de responsabilidade, prescrição e quantificação.
+- [`teses/transversal/preliminares_processuais_defesa.md`](../../teses/transversal/preliminares_processuais_defesa.md)
+  — valor da causa, limitação da condenação, gratuidade.
+- [`teses/transversal/prerrogativas_processuais_ect.md`](../../teses/transversal/prerrogativas_processuais_ect.md)
+  — prazo em dobro, precatório, SELIC.
+- [`teses/trabalhista/estabilidade_acidentaria_e_cat.md`](../../teses/trabalhista/estabilidade_acidentaria_e_cat.md)
+  — CAT e estabilidade, quando também houver pedido de reintegração.
+- Quesitos de perícia, na sequência da contestação:
+  [`modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md`](quesitos_pericia_medica__doenca_ocupacional.md)

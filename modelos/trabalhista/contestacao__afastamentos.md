@@ -17,8 +17,8 @@ Medicina do Trabalho da ECT → encaminhamento ao INSS → decisão do INSS (def
 ## Estrutura padrão
 
 ```
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver seção 3.3
-                                          de base_conhecimento_juridico_ECT.md)
+DA EQUIPARAÇÃO À FAZENDA PÚBLICA        (preliminar padrão de toda contestação da ECT — ver
+                                          teses/transversal/prerrogativas_processuais_ect.md)
 RESUMO DA VESTIBULAR
 PRELIMINARMENTE
   1 — DA CARÊNCIA PARCIAL DE AÇÃO       (quando parte do período pleiteado já foi paga espontaneamente
@@ -56,10 +56,54 @@ Fecho + assinatura
 
 ## Variações observadas
 
-Nenhuma ainda — primeiro caso consolidado neste modelo. Ao usar de novo em outro processo, anotar aqui se a
-sequência fática (atestado → homologação → INSS) variar, ou se algum dos 9 tópicos do mérito não se aplicar.
+- **Litígio sobre a fase posterior à alta.** Quando o pedido não é sobre os dias descontados durante o
+  afastamento, mas sobre o intervalo entre a cessação do benefício e o exame médico de retorno, o tema é
+  outro: usar `contestacao__limbo_previdenciario.md`. Se as duas fases estiverem em litígio no mesmo
+  processo, combinar os dois modelos — este para o enquadramento do afastamento e o limite de 15 dias,
+  aquele para a lacuna posterior à alta.
+- Ao usar de novo em outro processo, anotar aqui se a sequência fática (atestado →
+  homologação → INSS) variar, ou se algum dos 9 tópicos do mérito não se aplicar.
+
+**Resultado do caso-fonte (sentença de 08/2026 — parcialmente desfavorável).** Vale registrar o que a
+sentença fez com cada tópico, porque é o único teste real que este modelo já sofreu:
+
+| Tópico do mérito | Resultado |
+|---|---|
+| Carência parcial (dias já pagos) | **acolhida na prática** — a sentença reconheceu o pagamento e limitou a condenação, embora tenha rejeitado a preliminar por fórmula genérica |
+| 1 — limite de 15 dias / suspensão do contrato | **não rejeitado** — a sentença reconheceu correto o encaminhamento ao INSS |
+| 2 — lacuna previdenciária imputável à autora | **rejeitado** — havia ordem da chefia dispensando do labor, confirmada por testemunha (ver correção na seção 3.6 da base) |
+| 3 — inexistência de desconto de vales | **não enfrentado** — omissão; gerou tópico 1 dos embargos |
+| 4 — reajuste do ACT / *bis in idem* | **não enfrentado** |
+| 5 — férias / exclusão automática | **acolhido** — dobra indeferida |
+| 6 — FGTS espécie 31 | **não enfrentado**, e prejudicado pela requalificação da parcela como indenização |
+| 7 — CNIS / astreintes | **astreinte não fixada** (impugnação acolhida por via oblíqua); obrigação de fazer deferida sem delimitação |
+| 8 — danos morais | **rejeitado no fundamento** — houve condenação, mas em fração pequena do valor pleiteado, e **sem fixação do grau da ofensa** (art. 223-G, §1º, CLT) |
+| 9 — honorários | pedido de sucumbência recíproca em favor da ECT **não apreciado** |
+
+**Lacuna do modelo detectada neste caso — corrigir no próximo uso:** a estrutura de 9 tópicos **não prevê
+tópico de mérito sobre previdência complementar (POSTALPREV/POSTALIS)**, embora o pedido de recolhimento da
+cota patronal acompanhe rotineiramente os pedidos de diferenças salariais do período de afastamento. No
+caso-fonte o pedido foi deferido sem fundamentação alguma, e a ausência de impugnação específica na
+contestação restringiu o ataque recursal à nulidade por falta de fundamentação (art. 489, §1º, do CPC) e à
+iliquidez do título (art. 492 do CPC), impedindo a discussão de fundo — entidade que não integra a lide,
+regulamento do plano, base de cálculo e contribuição correspondente do participante. **Incluir tópico próprio
+sempre que a inicial postular recolhimento a plano de previdência complementar.**
+
+## Desdobramento recursal
+
+Sentença desfavorável neste tema tende a gerar embargos de declaração antes do recurso ordinário — ver
+`embargos_declaracao__sentenca_primeiro_grau.md` e `recurso_ordinario__sentenca_primeiro_grau.md` neste mesmo
+diretório, ambos consolidados a partir do desdobramento deste modelo no mesmo processo.
+
+No caso-fonte os embargos foram providos em parte (honorários de sucumbência da ECT e erro material das
+planilhas) e o recurso ordinário concentrou-se em: preliminar de nulidade quanto à tese de inexistência de
+desconto de vales; natureza jurídica da parcela e FGTS; obrigações de fazer indeterminadas; dano moral; e
+regime de execução. Ficou **fora** do recurso o capítulo dos dias de afastamento propriamente dito, por
+assentar-se em prova testemunhal.
 
 ## Ligação com a base de teses
 
-Tema "Afastamentos" ainda não constava em `base_conhecimento_juridico_ECT.md` — proposta de nova seção 3.6
-enviada junto com este modelo para aprovação.
+Sustenta a ficha `teses/trabalhista/afastamentos_auxilio_doenca.md`. Toca também
+`teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
+`teses/trabalhista/temas_acessorios.md` (honorários advocatícios). A fase posterior à alta previdenciária
+está em `teses/trabalhista/limbo_previdenciario.md`.

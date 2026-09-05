@@ -6,3 +6,12 @@
 *.doc
 *.docx
 !modelos/**/*.docx
+
+# App Steam (steam-filter/): ambiente virtual, cache local e credenciais ficam fora do repositório
+steam-filter/.venv/
+steam-filter/data/
+steam-filter/.env
+
+# Cache do Python gerado ao importar os scripts (ex.: em teste do atualizar_indice)
+__pycache__/
+*.pyc
