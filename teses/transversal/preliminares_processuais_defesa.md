@@ -3,11 +3,11 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, gratuidade, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, justiça gratuita, gratuidade de justiça, art. 790 §3º, art. 790 §4º, declaração de insuficiência, declaração de hipossuficiência, hipossuficiência, ADC 80, Súmula 463 do TST, CONSIF, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, justiça gratuita, gratuidade de justiça, art. 790 §3º, art. 790 §4º, declaração de insuficiência, declaração de hipossuficiência, hipossuficiência, ADC 80, Súmula 463 do TST, CONSIF, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-08-28
+atualizado: 2026-09-05
 ---
 
 # Tese — Preliminares processuais recorrentes da defesa
@@ -47,6 +47,32 @@ Onde buscar a prova contrária: remuneração na **ficha cadastral** ou no campo
 financeiras**, descontos de empréstimo consignado de valor expressivo; e, na própria inicial, afirmação de
 propriedade de bens de valor elevado. Conferir também se há declaração de insuficiência juntada.
 Somar sempre o **bloco da ADC 80**, abaixo — é o reforço constitucional da impugnação.
+
+**2.1. Pedido formulado sem valor algum — é inépcia, não discussão de valor estimativo.** Não confundir com
+o item 1: ali se discute se o valor indicado limita a condenação; aqui **não há valor nenhum** no pedido
+(típico do pedido de "custeio de plano de saúde em percentual a ser arbitrado" ou de obrigação de fazer
+sem liquidação). O art. 840, §1º, da CLT exige pedido certo, determinado **e com indicação de valor**, e o
+**§3º** comina a extinção sem resolução do mérito (c/c art. 485, I, do CPC). A ressalva genérica de que "os
+valores são meramente estimativos" **não supre a ausência total de valor** — a controvérsia sobre estimativa
+pressupõe que algum valor tenha sido indicado. Prejuízo concreto a alegar: sem valor, a ré não afere a
+extensão econômica da pretensão, não a impugna e não apura repercussão em custas e honorários.
+`[REVISAR: construção de 25/08/2026, ainda não testada em decisão.]`
+
+**2.2. Pretensão que aparece só na fundamentação e não consta do rol de pedidos.** A inicial narra o direito
+no corpo (ex.: "lucros cessantes dos períodos de afastamento") e esquece de deduzi-lo no rol. Não integra o
+objeto litigioso e **não pode ser deferida** (arts. 141 e 492 do CPC). Registrar expressamente na defesa —
+serve de barreira contra a tentativa de incluí-la em réplica, em liquidação ou por "interpretação lógica do
+pedido" (art. 322, §2º, do CPC), e é gratuito: impugna-se por eventualidade, sem alongar a peça.
+
+**2.3. Inversão do ônus da prova e exibição genérica de documentos — o que responder.** Três respostas, na
+ordem: (i) o **CDC não se aplica** à relação de emprego — invocar o art. 6º, VIII, do CDC em reclamação
+trabalhista é impropriedade; (ii) o art. 818, §1º, da CLT exige **decisão fundamentada antes da instrução**
+(§2º) e não dispensa o autor de provar os fatos constitutivos — dano, nexo e culpa são dele (art. 818, I, da
+CLT; art. 373, I, do CPC), e não se transfere à ré prova de fato negativo; (iii) requerimento para a ré
+exibir "toda a documentação em seu poder" é genérico — o **art. 397 do CPC** exige individualizar o
+documento, a finalidade da prova e as circunstâncias que indicam que ele existe e está com a parte
+contrária; sem isso não incide a sanção do art. 400. Fechar juntando espontaneamente a documentação
+pertinente: esvazia o pedido e reforça a boa-fé.
 
 **3. Juízo 100% Digital — a prática da ECT é NÃO SE OPOR.** Em contestação real do escritório, o bloco é de
 uma linha: *"a Reclamada não se opõe à tramitação pelo 'Juízo 100% Digital'"*. É o padrão a seguir, salvo
