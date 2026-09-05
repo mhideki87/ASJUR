@@ -3,7 +3,7 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, ultratividade, Súmula 333, art. 896 § 7º CLT, INFRAERO, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
@@ -191,6 +191,42 @@ Ou seja: **as duas Turmas do TRT24 já decidiram contra a ECT no tema.** Não pr
 `[REVISAR: os dois acórdãos foram lidos na transcrição feita pela petição inicial de um caso concreto, não
 na fonte — conferir teor e dispositivo no PJe/TRT24 antes de citar em peça protocolada.]`
 
+**Precedentes ADVERSOS do C. TST — a tese central tem contraditório firme, e convém conhecê-lo**
+
+Colhidos das transcrições de uma petição inicial. Registrados **não para citar**, mas porque atacam de
+frente o argumento de que o requisito temporal precisa estar implementado antes da revogação — quem sustenta
+a tese sem saber que existe essa linha é surpreendido na impugnação ou no acórdão:
+
+- **Ag-RR 0000151-80.2023.5.19.0009** — 8ª Turma, Red. Min. Sergio Pinto Martins, DEJT 11/11/2024. É o mais
+  perigoso: diz expressamente ser "**inexigível a implementação do requisito temporal de 10 (dez) anos antes
+  da revogação**, pois referido verbete sumular não versa sobre o direito adquirido no âmbito concreto (...)
+  mas sob o ponto de vista contratual", enunciando "a **ultratividade** dessas cláusulas frente a alterações
+  prejudiciais, **independentemente da implementação das condições** necessárias à aquisição do direito".
+- **Ag-AIRR 0000917-33.2019.5.10.0007** — 2ª Turma, Rel. Min. Liana Chaib, DEJT 20/03/2025: aplica a Súmula
+  51, I, na mesma chave, com o óbice do art. 896, § 7º, da CLT e da Súmula 333.
+- **RRAg 0000551-05.2020.5.19.0008** — 7ª Turma, Rel. Min. Cláudio Mascarenhas Brandão, DEJT 07/10/2024:
+  reconhece a incorporação a quem **não** tinha o decênio na vigência da Lei 13.467/2017, por haver previsão
+  em norma interna vigente na contratação.
+- **E-ED-RR 43-82.2019.5.11.0019** — SBDI-1, Rel. Min. Alexandre de Souza Agra Belmonte, DEJT 22/10/2021:
+  Súmula 372, I, para quem completou o decênio antes de 11/11/2017.
+
+**A resposta a essa linha — e é a peça-chave do contraditório:**
+
+- **E-ED-RR 130825-22.2015.5.13.0001** — SBDI-1 em composição plena, Rel. Min. Márcio Eurico Vitral Amaro,
+  DEJT 08/03/2019. É o acórdão que o próprio Ag-RR 0000151-80 tenta afastar, e o distinguishing que ele
+  propõe (caso da INFRAERO, em que a norma teria sido anulada por ilegalidade, e não simplesmente revogada)
+  **não se transporta para o Módulo 36**, revogado no exercício regular do poder diretivo (art. 456,
+  parágrafo único, da CLT) e sem qualquer vício. Sustentar isso expressamente na peça, em vez de ignorar o
+  ponto: a distinção que o adversário usa para neutralizar o precedente é justamente o que não existe aqui.
+- Somar os precedentes **favoráveis** já listados acima (RRAg-21160-17.2016.5.04.0024,
+  RR-860-33.2020.5.10.0022, ARR-20074-35.2016.5.04.0016 e o TRT8 RO 0000682-41.2015.5.08.0014), que decidem
+  a hipótese **exata** do Módulo 36 e da própria ECT — o que os distingue dos arestos adversos, em boa parte
+  de bancários e da INFRAERO, com base normativa própria.
+
+`[REVISAR: os cinco arestos acima vieram da transcrição feita por petição inicial adversa, não da fonte.
+Conferir número, órgão, relator, data e teor antes de citar — em especial o E-ED-RR 130825-22.2015.5.13.0001,
+que é o que a defesa vai querer usar.]`
+
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Pontos sensíveis / variações
@@ -316,6 +352,10 @@ eram de função técnica — o restante, quebra de caixa.
 ## Lacunas
 
 - [ ] Conferir a Resolução nº 225/2025 na fonte oficial do TST (não foi possível abrir do ambiente cloud).
+- [ ] Verificar se há, depois de 30/06/2025, decisão do C. TST que reveja a linha da 8ª Turma
+      (Ag-RR 0000151-80.2023.5.19.0009) sobre a ultratividade da Súmula 51, I, independentemente do
+      implemento do requisito temporal — é o contraditório mais forte à tese central da ECT, e a base ainda
+      não tem resposta jurisprudencial a ele além do distinguishing do E-ED-RR 130825-22.2015.5.13.0001.
 - [ ] Levantar como o TRT24 vem tratando a aplicação residual da Súmula 372, I, a reversões anteriores a
       11/11/2017. **Parcialmente respondido**: os dois acórdãos adversos registrados na seção de
       jurisprudência mostram as duas Turmas deferindo a incorporação — falta identificar decisão que
