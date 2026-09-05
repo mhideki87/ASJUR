@@ -1,0 +1,165 @@
+---
+area: trabalhista
+tema: Incorporação de gratificação de função
+slug: incorporacao_gratificacao_funcao
+status: validada
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, interstício 180 dias, média ponderada, somatório dividido por 120, memória de cálculo, tabela de funções]
+pecas: [contestação, contrarrazões, recurso de revista]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
+ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+atualizado: 2026-09-04
+---
+
+# Tese — Incorporação de gratificação de função
+
+**É o tema mais frequente da ECT na trabalhista.**
+
+## Quando esta ficha se aplica
+
+Reclamante que exerceu função gratificada, foi revertido ao cargo efetivo e pede a incorporação da
+parcela ao salário — com base nas normas internas (Módulos 55 e 36 do MANPES) e/ou na Súmula 372, I, do TST.
+
+## Normas internas envolvidas
+
+- **Módulo 55** do MANPES — revogado em **01/05/2012** (parcelas FAT/FAO; requisito temporal de **5 anos**).
+- **Módulo 36** do MANPES — revogado em **15/05/2014** (parcelas ITF/GPTF; requisito temporal de **10 anos**).
+- Substituição das parcelas **FAT/FAO por ITF/GPTF**.
+
+## Requisitos e metodologia de cálculo — o texto do Módulo 36
+
+Transcrições colhidas de inicial que reproduziu o normativo (Cap. 2, item 1; Cap. 3, item 2).
+`[REVISAR: conferir na íntegra do Módulo 36 obtida com a Gestão de Pessoas antes de citar em peça]`
+
+- **Requisitos cumulativos (Cap. 2, item 1.1)**: (a) "possuir no mínimo 10 anos de exercício em função
+  gerencial, técnica, de atividade especial, FAT/FAO, ou dirigente da ECT, **contados a partir da data da
+  dispensa da função**"; (b) "ter sido dispensado ou exonerado da função por iniciativa da Empresa".
+  **O decênio isolado não gera direito**: a contagem é retroativa à dispensa, e a dispensa é a segunda
+  condição. Quem só foi destituído depois de 15/05/2014 tinha expectativa, não direito adquirido, ainda que
+  já somasse dez anos antes da revogação — é a resposta direta à autora que alega ter completado o
+  requisito temporal na vigência da norma.
+- **Interstício máximo (Cap. 2, item 1.2)**: "O exercício da função poderá conter um interstício de até
+  **180 dias**, ininterruptos ou não, no período de 10 anos." Somar, no decênio, os dias de **suspensão do
+  contrato** (licença INSS, greve): passando de 180 dias, o requisito não se preenche nem pelo critério do
+  próprio regulamento invocado. As fichas financeiras provam o ponto — mês sem pagamento da rubrica de
+  gratificação de função é prova direta de que não houve exercício.
+  `[REVISAR: confirmar com a Gestão de Pessoas como a ECT computa afastamento previdenciário nesse
+  interstício — o argumento ainda não foi testado em peça julgada]`
+- **Metodologia de cálculo (Cap. 3, item 2.4)**: "será calculado o **somatório dos valores atuais das
+  funções ocupadas e dividido por 120** para se encontrar o valor da GPTF ou ITF. Esse levantamento deverá
+  ser efetuado no período dos **últimos 10 anos a partir da data da dispensa da função**." Daí saem três
+  impugnações de quantum:
+  1. a **janela é de 120 meses anteriores à dispensa** — função exercida fora dela não entra no cálculo, e
+     é comum a inicial somar todo o contrato, arrastando para dentro da média a função mais valiosa,
+     exercida muitos anos antes;
+  2. o **divisor é fixo em 120** — mês sem exercício entra como zero e reduz o resultado;
+  3. o valor é o da **tabela de funções** — média ponderada e valor integral da gratificação vigente na
+     destituição são coisas distintas, e a inicial costuma pedir uma na fundamentação e outra no pedido.
+  Requerer a **exibição da memória de cálculo** (art. 400 do CPC) e a tabela de funções das datas
+  relevantes: sem elas o valor pedido não é reproduzível, o que sustenta a impugnação e a inépcia parcial.
+- **Regra de transição da revogação — o corte de 02/05/2014.** O ato que extinguiu a parcela
+  (**Mem. Circular 00676-VIGEP**) resguardou o direito apenas aos empregados "cujas portarias de dispensa
+  das funções já houvessem sido emitidas, assinadas e tivessem data de vigência até o dia 02/05/2014"
+  (item 2.1). É um corte objetivo: destituição posterior a essa data não alcança a parcela, ainda que o
+  decênio estivesse completo antes da revogação.
+  `[REVISAR: a redação acima vem da transcrição feita no acórdão do TRT8 citado na seção de
+  jurisprudência — juntar a íntegra do Mem. Circular 00676-VIGEP e do Mem. 03019/2012-GCRP/CEGEP-Circular
+  antes de citar em peça]`
+
+## Tese central
+
+**Requisito temporal não implementado até a revogação** da norma interna → havia mera *expectativa de
+direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da CLT).
+
+## Fundamentos de apoio
+
+- **Súmula 51, I, do TST** — afastada quando os requisitos do regulamento não foram preenchidos na vigência.
+- **Súmula 372, I, do TST — CANCELADA.** O **Tribunal Pleno do TST**, pela **Resolução nº 225, de
+  30/06/2025** (DEJT de 30/06, 01/07 e 02/07/2025), cancelou 36 enunciados superados pela Reforma
+  Trabalhista ou por decisões do STF, entre eles o **item I** da Súmula 372 — "percebida a gratificação de
+  função por dez ou mais anos pelo empregado, se o empregador, sem justo motivo, revertê-lo a seu cargo
+  efetivo, não poderá retirar-lhe a gratificação tendo em vista o princípio da estabilidade financeira".
+  Cancelamento **por perda de eficácia a partir de 11/11/2017**, em razão do **art. 468, § 2º, da CLT**
+  (Lei 13.467/2017), que afastou expressamente o direito à incorporação.
+  **O item II não foi cancelado** — segue vedada a redução do valor da gratificação de quem permanece na
+  função comissionada.
+  `[REVISAR: os termos exatos vieram de resumo de busca na web; o tst.jus.br e o juslaboris estão
+  bloqueados pelo proxy do ambiente cloud — conferir o texto da Resolução nº 225/2025 na fonte oficial
+  antes de citar em peça protocolada]`
+- **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (art. 927 do CPC).
+- Art. 8º, §2º, da CLT; *ratio decidendi* de precedentes do STF; **salário-condição**;
+  legalidade administrativa.
+
+## Jurisprudência (só o que já está confirmado)
+
+Precedentes do TST sobre a própria ECT e os mesmos normativos:
+
+- RR-10652-45.2019.5.03.0182 — 2ª Turma, Min. Liana Chaib, DEJT 23/02/2024
+- RR-10662-35.2018.5.03.0179 — 6ª Turma, Min. Kátia Magalhães Arruda, DEJT 13/06/2023
+- RRAg-0010959-96.2017.5.03.0140 — 3ª Turma, Min. Mauricio Godinho Delgado, DEJT 26/05/2023
+- E-RR-1561-30.2015.5.10.0002 — SBDI-1, 06/12/2018
+
+Precedente sobre o **Módulo 36 e a hipótese exata de norma revogada durante o exercício da função**
+(o mais próximo do caso quando a parte autora alega ter completado o decênio antes da revogação):
+
+- **TRT8 – RO 0000682-41.2015.5.08.0014** — 3ª Turma, Des. Luis J. J. Ribeiro, publicado em 29/03/2016:
+  a GPTF do Módulo 36 "foi revogada enquanto a reclamante ainda exercia função de confiança (maio/2014), e
+  não estava mais vigente à época em que a reclamante foi exonerada da função (janeiro/2015)", de modo que
+  havia "mera expectativa de direito". Mantido em **recurso de revista** (Min. Hugo Carlos Scheuermann):
+  quanto à Súmula 51, I, "esta não se configura, porquanto não cumpridos os requisitos da norma no decorrer
+  da sua vigência". Colhido da peça-modelo do repositório
+  (`modelos/trabalhista/contestacao__incorporacao_funcao.docx`).
+
+Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
+
+## Pontos sensíveis / variações
+
+- **O cancelamento da Súmula 372, I, não é bala de prata — atenção ao marco de 11/11/2017.** O
+  cancelamento se deu por *perda de eficácia a partir* dessa data, e não com efeito retroativo pleno. Para
+  **reversão ocorrida antes de 11/11/2017**, a parte autora sustenta a aplicação residual do item I, por
+  direito adquirido e segurança jurídica (art. 5º, XXXVI, e art. 7º, VI, da CF) — tese que circula. Então:
+  usar o cancelamento como **reforço**, sempre acompanhado dos fundamentos que independem dele (requisito
+  temporal não implementado, justo motivo, natureza da parcela); e, sendo a reversão **posterior** a
+  11/11/2017, aí sim o art. 468, § 2º, da CLT resolve por si.
+- **Conferir se a destituição alegada realmente aconteceu, antes de discutir direito.** Já houve caso em que
+  a ficha cadastral registrava **nova designação como titular no dia seguinte** à data que a inicial aponta
+  como a da dispensa, com a rubrica de gratificação de função seguindo em folha por mais de quatro anos:
+  houve troca de função com redução de valor, não supressão. A checagem é mecânica — quadro "FUNÇÕES" da
+  ficha cadastral contra a rubrica de gratificação nas fichas financeiras, mês a mês. Quando é esse o
+  quadro, o pedido cai por ausência de fato constitutivo (art. 818, I, da CLT) antes de qualquer tese, e o
+  pedido de diferenças relativo ao período em que a parcela foi paga é bis in idem. Vale também comparar o
+  valor pedido com a **diferença efetivamente verificada** entre a função antiga e a nova.
+- **Distinguishing de paradigma frequente**: o TST-E-RR-25186-20.2017.5.24.0007 (SBDI-1) é juntado como
+  acórdão líder pela parte autora, mas sua ementa é expressa quanto a "reversão ao cargo efetivo **antes**
+  da vigência da Lei nº 13.467/2017" — premissa ausente quando a destituição é posterior. Conferir a data
+  de reversão de cada aresto juntado antes de responder ao mérito; boa parte dos precedentes que circulam
+  no tema é de bancários, com base normativa própria (cláusula de ACT bancário, IN interna do banco).
+- **Acórdão regional que ainda invoca a Súmula 372, I, depois de 30/06/2025 aplica verbete cancelado** —
+  é impugnação específica pronta contra precedente juntado pela parte autora. Já se viu acórdão de TRT de
+  agosto/2025 nessa situação.
+- A escolha da **variante correta da Súmula 51** depende do cruzamento de duas datas: quando o Reclamante
+  completou o requisito temporal (5 anos FAT/FAO; 10 anos ITF/GPTF) e a data de revogação do módulo
+  correspondente. Conferir sempre nos documentos antes de escolher — é o ponto mais sensível do tema.
+- Períodos de **Motorizado** e **Quebra de Caixa** não contam como gratificação de confiança
+  (salário-condição / adicional de risco).
+- **Substituição** só computa se contínua e superior a 180 dias (Módulo 55, item 3.1.1).
+- **CIP** só passou a ser paga a partir de outubro/2014 — em geral não completa o requisito temporal.
+
+## Ligações
+
+- Prescrição total do pedido: [teses/trabalhista/prescricao.md](../trabalhista/prescricao.md)
+- **Não confundir com adicional de atividade** (AAT/AADC) suprimido na readaptação: lá a discussão é
+  salário-condição x irredutibilidade, não requisito temporal —
+  [supressao_adicional_atividade_readaptacao.md](supressao_adicional_atividade_readaptacao.md)
+- Preliminar padrão de equiparação à Fazenda Pública:
+  [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
+- POSTALIS, reajuste de ACT, honorários: [teses/trabalhista/temas_acessorios.md](temas_acessorios.md)
+- Estrutura completa da peça (modelo modular, com blocos condicionais):
+  `modelos/trabalhista/contestacao__incorporacao_funcao.md` + `.docx`
+
+## Lacunas
+
+- [ ] Conferir a Resolução nº 225/2025 na fonte oficial do TST (não foi possível abrir do ambiente cloud).
+- [ ] Levantar como o TRT24 vem tratando a aplicação residual da Súmula 372, I, a reversões anteriores a
+      11/11/2017.
+- [ ] Número/identificação completa do Tema 23 conforme citado no modelo (INCJULGRREMBREP
+      528-80.2018.5.14.0004) — confirmar antes de usar como citação isolada desta ficha.
