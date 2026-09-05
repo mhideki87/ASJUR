@@ -3,11 +3,11 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, prescrição total, prescrição parcial, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Resolução 225/2025]
+gatilhos: [prescrição, prescrição total, prescrição parcial, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-03
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md]
+atualizado: 2026-09-05
 ---
 
 # Tese — Prescrição total
@@ -121,6 +121,15 @@ sucessivamente, a prescrição parcial quinquenal.
 - A prescrição é **total** (não parcial) justamente porque a parcela não é assegurada por lei, e sim por
   norma interna — se o caso envolver parcela com previsão legal, a tese muda.
 - Conferir a data de ajuizamento na capa do PJe antes de arguir.
+- **Pedido de promoção de plano de cargos: existe verbete específico e contrário — Súmula 452 do TST.**
+  "Tratando-se de pedido de pagamento de diferenças salariais decorrentes da inobservância dos critérios de
+  promoção estabelecidos em Plano de Cargos e Salários criado pela empresa, a prescrição aplicável é a
+  parcial, pois a lesão é sucessiva e se renova mês a mês." É a súmula que as iniciais de PCCS transcrevem.
+  Nesses casos, deduzir a total pelo art. 11, § 2º, da CLT, mas **com pedido sucessivo de quinquenal** e
+  expectativa realista de acolhimento apenas deste. Ver
+  [progressao_horizontal_pccs2008.md](progressao_horizontal_pccs2008.md).
+  `[REVISAR: verificar se a Súmula 452 sobreviveu à Resolução nº 225/2025 — se também foi cancelada por
+  absorção pelo art. 11, § 2º, a prejudicial fica muito mais forte nesses casos.]`
 
 ## Ligações
 

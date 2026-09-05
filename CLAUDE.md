@@ -40,6 +40,9 @@ a branch é anterior ao fatiamento em `teses/` e a base que ela carrega está su
 
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
+0. **Conferir que a base em disco está atualizada** (só em sessão de Claude Code):
+   `git fetch origin main && git log --oneline HEAD..origin/main`. Havendo commits atrás, integrar
+   (`git merge origin/main`) **antes** de ler qualquer ficha.
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
 2. Ler `INDICE.md` — só o protocolo do topo e a tabela de roteamento.
 3. Ler os documentos do processo e **listar os pedidos**.
@@ -61,6 +64,11 @@ Regras:
   Python 3, inclusive no cloud/web.
 - Ficha nova ou alterada só entra no repositório depois de **aprovação explícita do usuário** (protocolo da
   seção 6.2 de `playbook_prompts_ECT.md`).
+- **A branch da sessão cloud pode estar velha.** O ambiente clona a branch, não a `main`: se a branch foi
+  criada semanas antes, a base em disco é a daquela data. Já aconteceu de uma sessão analisar a inicial e
+  minutar a contestação inteira sobre a base antiga — inclusive fundando a prejudicial numa súmula que a
+  base atual já registrava como cancelada — e o desencontro só aparecer na hora do merge, com a peça já
+  protocolada. Daí o passo 0 acima: é barato e evita retrabalho caro.
 
 ## Formatação de toda minuta — skill `formatar-minuta`
 

@@ -123,6 +123,28 @@ Precedente sobre o **Módulo 36 e a hipótese exata de norma revogada durante o 
   da sua vigência". Colhido da peça-modelo do repositório
   (`modelos/trabalhista/contestacao__incorporacao_funcao.docx`).
 
+### Contrário à ECT — a enfrentar, nunca a citar
+
+- **TRT 24ª R., RO 0025003-89.2016.5.24.0005** — 2ª Turma, Rel. Des. Amaury Rodrigues Pinto Junior,
+  j. 22/08/2018. Acórdão **conferido no inteiro teor** (anexado em sessão). Deu provimento ao empregado:
+  as normas internas vigentes ao tempo da admissão (RELATÓRIO/DIREC-029/2005, CIRCULAR/DIREC-682/2005,
+  Módulos 36 e 55 do MANPES) **aderiram ao contrato**, e a revogação posterior por norma mais gravosa não
+  as alcança — "na forma do art. 5º, XXXVI, CR (direito adquirido), da condição mais benéfica e da S. 51 do
+  C. TST". Condenou a integrar 60% da média ponderada, com reflexos em anuênios, férias, gratificação de
+  férias de 70%, 13º, abonos, PLR e cota da patrocinadora no POSTALPREV.
+
+  Dois pontos do voto importam porque **deslocam o ônus da prova para a ECT**: (a) o período de cedência a
+  outra empresa do grupo contou como efetivo tempo de serviço, porque a **própria ECT o reconhecera** no
+  processo administrativo de realocação; (b) quanto ao conceito mínimo no GCR, o Relator entendeu que
+  caberia à ECT demonstrar a má avaliação, **como fato impeditivo do direito** — e a ficha cadastral
+  registrava desempenho "qualificado ou altamente qualificado".
+
+  **Lição para a defesa:** quando a admissão for anterior à revogação, o eixo não pode ser a revogação em
+  si — o Regional a trata como inoponível pela condição mais benéfica. Tem de ser a **não implementação do
+  requisito temporal na vigência da norma** (ver "Tese central"), e cada requisito do regulamento precisa
+  vir **provado por documento juntado pela Reclamada**: negativa genérica sobre GCR ou sobre contagem de
+  tempo vira fato impeditivo não demonstrado, e o capítulo se perde.
+
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Pontos sensíveis / variações
