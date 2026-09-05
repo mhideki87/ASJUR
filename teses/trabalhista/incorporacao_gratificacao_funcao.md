@@ -3,7 +3,7 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
@@ -23,7 +23,7 @@ parcela ao salário — com base nas normas internas (Módulos 55 e 36 do MANPES
 
 - **Módulo 55** do MANPES — revogado em **01/05/2012** (parcelas FAT/FAO; requisito temporal de **5 anos**).
 - **Módulo 36** do MANPES — revogado em **05/05/2014** (Mem. Circular 00676-VIGEP; parcelas ITF/GPTF;
-  requisito temporal de **10 anos**). Peças antigas da ECT trazem 15/05/2014 — é erro; ao reaproveitar peça
+  requisito temporal de **10 anos**). Peças antigas da ECT trazem 05/05/2014 — é erro; ao reaproveitar peça
   anterior, corrigir e uniformizar em todo o texto.
 - Substituição das parcelas **FAT/FAO por ITF/GPTF**.
 
@@ -66,6 +66,54 @@ Transcrições colhidas de inicial que reproduziu o normativo (Cap. 2, item 1; C
   `[REVISAR: a redação acima vem da transcrição feita no acórdão do TRT8 citado na seção de
   jurisprudência — juntar a íntegra do Mem. Circular 00676-VIGEP e do Mem. 03019/2012-GCRP/CEGEP-Circular
   antes de citar em peça]`
+
+## Auditar a planilha da inicial — os quatro erros que a seção acima não pega
+
+A seção anterior resolve *o método*. Falta conferir *a conta*, e é aqui que costuma haver dinheiro: numa
+sessão real, quatro achados aritméticos derrubaram o valor pedido sem tocar na tese.
+
+1. **Fechar a soma das linhas.** Somar os acumulados linha a linha e conferir contra o "acumulado" que a
+   planilha declara, e depois conferir se a média declarada é mesmo esse total ÷ 120. Num caso concreto o
+   total declarado excluía silenciosamente a primeira linha: a planilha somava R$ 81.887,04 e declarava
+   R$ 79.635,15 (diferença de R$ 2.251,89, exatamente a linha de quebra de caixa), enquanto a média
+   apresentada correspondia à soma cheia. Pela base que a própria autora declara, a média cairia de
+   R$ 682,39 para R$ 663,63. **Planilha que não fecha consigo mesma não sustenta condenação vincenda.**
+2. **Conferir a cadeia de reajustes contra o quadro "EVOLUÇÕES SALARIAL" da ficha cadastral.** É prova que a
+   parte autora mesma junta. Dois cuidados: (a) o item 3.3 do Módulo 36 só prevê reajuste por "percentuais
+   aplicados **linearmente** sobre a tabela de salário" — e há datas-base concedidas em **valor fixo**
+   (ACT-23/24, R$ 250,00; ACT-24/25, R$ 260,00), sobre as quais o mecanismo não incide; (b) **impugnar por
+   falta de prova documental dos índices, não pedir a substituição pelos percentuais salariais** — em caso
+   real os da ficha eram *maiores* que os da planilha, e a troca teria elevado a condenação.
+3. **Anuênio: percentual e base.** Conferir o percentual contra o campo "% Anuênio" da ficha cadastral e
+   lembrar que ele **muda ano a ano** — projetar o percentual atual sobre todo o quinquênio infla a conta
+   (caso real: 22% pedido, 20% na ficha, e 15% a 19% ao longo do período cobrado). A base, reconstituída da
+   folha, é **(salário-base + gratificação de função convencional), com o CIP FORA** — a conferência fecha
+   ao centavo em qualquer competência, o que torna a impugnação verificável pelo juízo.
+4. **Recalcular as parcelas vencidas pelos próprios valores da planilha.** Se o total das vencidas superar
+   (nº de meses × subtotal mensal **atual**), há excesso aritmético certo: numa cadeia de reajustes
+   progressivos as parcelas passadas são sempre menores que a atual. Caso real: R$ 102.731,06 declarados
+   contra ≈ R$ 84.894,00 recalculados — ~R$ 17,8 mil de excesso, e acima até do teto de 60 × o subtotal
+   atual.
+
+**Requerimento *ad cautelam* que fecha o tópico:** vindo condenação com base em norma revogada, a apuração
+deve considerar **apenas o período até a data da revogação** (05/05/2014), não os 120 meses anteriores à
+dispensa — o direito não pode ser maior do que aquele que a norma conferiria no momento em que deixou de
+existir. E qualquer apuração deve ser precedida de levantamento pela Área de Gestão de Pessoas, na forma do
+Capítulo 3.
+
+## CIP na base de cálculo — atacar pela data, não pela natureza
+
+O **CIP passou a ser pago em outubro/2014** (rubrica 051119 na ficha financeira, com a rubrica 052119 de
+diferença cobrindo ago/set do mesmo ano). Como o **Módulo 36 foi revogado em 05/05/2014**, o CIP **não
+existia enquanto a norma vigia** — é logicamente impossível apurar "nos termos do regulamento revogado" uma
+verba posterior a ele. Reforço: os itens 2.2 e 2.4 falam em "tabela de função", e o CIP tem **tabela
+própria**, o que a própria inicial costuma admitir ao mencionar a "Tabela CIP".
+
+**Flanco a conhecer antes de apostar no tópico** — mesmo padrão da quebra de caixa: as fichas financeiras
+podem provar que, quando a gratificação de função sobe, o CIP cai no mesmo valor, mantendo a soma constante
+(caso real: R$ 753,65 antes e depois do reajuste), o que sustenta a leitura de que o CIP é parte do valor da
+função. Some-se o precedente adverso do TRT24 abaixo, que lhe reconheceu natureza de gratificação de função
+pelo **Módulo 34 do MANPES**. Sustentar pela data, e não depender do tópico.
 
 ## Tese central
 
@@ -125,6 +173,24 @@ Precedente sobre o **Módulo 36 e a hipótese exata de norma revogada durante o 
   da sua vigência". Colhido da peça-modelo do repositório
   (`modelos/trabalhista/contestacao__incorporacao_funcao.docx`).
 
+**Precedentes ADVERSOS do TRT24 no tema** — registrar para dimensionar risco, não para citar:
+
+- **TRT24 – ROT 0024529-34.2024.5.24.0007** — 1ª Turma, Des. Nicanor de Araújo Lima, DEJT 31/03/2025:
+  deferiu a ITF a empregada da ECT **pela média ponderada informada na petição inicial**, reconhecendo
+  natureza de gratificação de função às rubricas "gratificação de função convencionada", "complemento de
+  remuneração singular" e "complemento de incentivo à produtividade" (CIP), pelo Módulo 34 do MANPES.
+  **Duas partes do mesmo acórdão servem à defesa** e costumam ser omitidas quando a inicial o transcreve
+  como paradigma: autorizou expressamente **a compensação** "com a gratificação de eventual função de
+  confiança que vier a ser exercida pela obreira, nos termos do item 4.3, do capítulo 2, do Módulo 36", e
+  fixou os efeitos financeiros a partir do **quinquênio anterior ao ajuizamento**, não da destituição.
+- **TRT24 – RORSum 0025211-32.2023.5.24.0004** — 2ª Turma, Des. Francisco das C. Lima Filho, DEJT
+  11/02/2025: prescrição **parcial**, não total (ver `teses/trabalhista/prescricao.md`).
+
+Ou seja: **as duas Turmas do TRT24 já decidiram contra a ECT no tema.** Não prometer improcedência total.
+
+`[REVISAR: os dois acórdãos foram lidos na transcrição feita pela petição inicial de um caso concreto, não
+na fonte — conferir teor e dispositivo no PJe/TRT24 antes de citar em peça protocolada.]`
+
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Pontos sensíveis / variações
@@ -158,8 +224,25 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 - Períodos de **Motorizado** e **Quebra de Caixa** não contam como gratificação de confiança
   (salário-condição / adicional de risco) — **mas separe os dois planos, sob pena de contradição na peça**:
   ver a seção "Quebra de caixa: usar o argumento em qual plano" abaixo.
-- **Substituição** só computa se contínua e superior a 180 dias (Módulo 55, item 3.1.1).
-- **CIP** só passou a ser paga a partir de outubro/2014 — em geral não completa o requisito temporal.
+- **A mesma checagem vale para o OUTRO extremo do contrato: recomissionamento anos depois.** Além de
+  conferir se a destituição aconteceu, conferir se a parte autora **voltou a ocupar função gratificada** —
+  quadro "FUNÇÕES" da ficha cadastral na competência mais recente (linha com fim "31/12/9999" = designação
+  vigente) e rubricas 051003, **051108 – Substituição** e **051120 – CIP-Substituição** nas fichas
+  financeiras. Em caso real a inicial cobrava vincendas e silenciava que a autora era **titular de nova
+  função desde 01/05/2024**, recebendo R$ 1.225,68 — mais que a parcela pleiteada (R$ 1.026,80) e que a de
+  que fora destituída (R$ 719,15): 25 dos 60 meses cobrados sem redução alguma. Três consequências
+  cumulativas: esvazia a estabilidade financeira no período, **aciona a compensação** do item 4.3 do
+  Capítulo 2 do Módulo 36 e **limita a condenação** ao período anterior à nova designação. Vale invocar
+  também o dever de exposição leal dos fatos (art. 77, I, do CPC).
+- **"Sem justo motivo" é fato constitutivo do autor** (art. 818, I, da CLT, e art. 373, I, do CPC). A
+  inicial costuma apenas afirmá-lo, sem juntar o ato de destituição. Impugnar por ausência de prova e
+  **pedir à área o ato de destituição e eventual apuração disciplinar** — o quadro "FREQUÊNCIAS" da ficha
+  cadastral registra suspensões disciplinares e pode indicar que houve justo motivo.
+- **Ler o quadro "GCR" da ficha cadastral.** A inicial costuma afirmar desempenho sempre acima da média; a
+  ficha que ela mesma junta pode registrar avaliação "Tende à Qualificação", contradizendo a alegação.
+- **Substituição** só computa se contínua e superior a 180 dias (Módulo 55, item 3.1.1). Conferir também a
+  qualificação da designação: mês registrado como "**RESPONSÁVEL**" não é titularidade.
+- **CIP** só passou a ser paga a partir de outubro/2014 — ver a seção própria acima.
 
 ## Quebra de caixa: usar o argumento em qual plano — e em qual não usar
 
@@ -234,7 +317,9 @@ eram de função técnica — o restante, quebra de caixa.
 
 - [ ] Conferir a Resolução nº 225/2025 na fonte oficial do TST (não foi possível abrir do ambiente cloud).
 - [ ] Levantar como o TRT24 vem tratando a aplicação residual da Súmula 372, I, a reversões anteriores a
-      11/11/2017.
+      11/11/2017. **Parcialmente respondido**: os dois acórdãos adversos registrados na seção de
+      jurisprudência mostram as duas Turmas deferindo a incorporação — falta identificar decisão que
+      enfrente diretamente o cancelamento de 30/06/2025.
 - [ ] Teor literal da tese do Tema 23 já registrado nesta ficha (extraído do modelo institucional);
       **falta confirmar** número do processo, data de julgamento e publicação na fonte oficial.
 - [ ] Como o TRT24 e o C. TST tratam a exclusão do período de quebra de caixa **quando a própria ECT o

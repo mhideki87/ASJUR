@@ -110,6 +110,18 @@ fundamentação inteira (útil para citar):
 
 - RO 0024632-20.2019.5.24.0006 — 1ª Turma, Des. Nery Sá e Silva de Azambuja, jul. 30/06/2020
 
+**Duas contra-alegações para rebater o fundamento 1 acima, quando ele vier na impugnação:**
+
+1. A leitura esvazia a exceção legal. O art. 11, § 2º, exige que **a própria parcela** esteja assegurada por
+   preceito **de lei**. Ler "norma" como "qualquer ato normativo, inclusive interno" faz a exceção engolir a
+   regra: toda parcela de norma interna decorre, por definição, de norma interna, e nenhuma prescrição
+   jamais seria total. Some-se que, no tema da incorporação, o art. 468, § 2º, da CLT não assegura a
+   parcela — **expressamente a veda**, o que torna de todo inviável o enquadramento na exceção.
+2. **A própria inicial costuma confessar o quinquênio.** É frequente que peça efeitos financeiros desde a
+   destituição mas componha o valor da causa contando parcelas vencidas só dos últimos 60 meses. Ou é
+   confissão quanto às parcelas anteriores, ou o valor não corresponde ao pedido — e, nos dois casos,
+   aproveita: no primeiro à prejudicial, no segundo à impugnação ao valor da causa.
+
 **Consequência prática para a estratégia da peça:** arguir sempre a prescrição total — é pressuposto do
 recurso de revista e há o Tema 23 a invocar —, mas **não fazer dela o eixo da defesa** no TRT24. O peso deve
 ficar em argumentos de **fato provado por documento**, que escapam dessa controvérsia jurídica: inexistência
