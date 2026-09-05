@@ -1,108 +1,58 @@
-# ASJUR — Sistema de automação para a Assessoria Jurídica
+# ASJUR — Assessoria Jurídica
 
-Sistema de apoio à redação, formatação e organização jurisprudencial para o
-contencioso trabalhista da Assessoria Jurídica da ECT, construído como um
-**Projeto Claude**: um conjunto de arquivos de conhecimento + prompts padronizados
-que você usa dentro do claude.ai (ou app Claude), sem necessidade de código ou
-infraestrutura própria.
+Base de conhecimento jurídico da assessoria (ECT), construída por demanda: cresce a cada sessão real de
+minuta, não por processamento em massa das petições antigas.
 
-## Mapa dos arquivos
+## Estrutura
 
-| Arquivo | Para que serve |
-|---|---|
-| `base_conhecimento_juridico_ECT.md` | Quem você é, o que produz, teses recorrentes da ECT, padrão formal das peças e regras de trabalho. É a espinha dorsal do sistema. |
-| `playbook_prompts_ECT.md` | Prompts prontos: análise de inicial/sentença/RO, redação de cada tipo de peça, revisão pré-protocolo, teste da tese adversa, checklist de anexos. |
-| `banco_teses_jurisprudencia.md` | Registro vivo dos precedentes e súmulas já usados e verificados, com status de vigência — evita repetir jurisprudência desatualizada ou já superada. |
-| `checklist_formatacao_pecas.md` | Especificação do padrão formal (fonte, margens, cabeçalho etc.) e passo a passo para gerar/converter peças em .docx/.odt sem perder a formatação do modelo. |
-| `banco_pecas_indice.md` | Catálogo de peças já produzidas (só metadados — tipo, tema, rito, local do arquivo real) para localizar rapidamente uma peça-modelo equivalente antes de redigir do zero. **Os arquivos reais ficam fora deste repositório** (ver seção "Banco de peças" abaixo). |
-| `instrucoes_personalizadas_projeto.md` | Texto pronto para colar no campo "Instruções personalizadas" do Projeto Claude — amarra todos os arquivos acima em regras de comportamento. |
-| `melhoria_continua.md` | Protocolo e log de aprendizado: como um erro apontado, uma tese validada ou uma peça nova viram atualização permanente dos demais arquivos, em vez de se perderem ao fim da conversa. |
+A base é **fatiada por tema** e lida sob demanda: nenhuma sessão lê a base inteira. O caminho é sempre
+`CONTEXTO.md` → `INDICE.md` → só as fichas que o índice indicar.
 
-## Como montar o Projeto (uma vez)
+| Arquivo/pasta | Conteúdo | Quando é lido |
+|---|---|---|
+| [CONTEXTO.md](CONTEXTO.md) | Perfil do usuário e regras inegociáveis | **Sempre**, por inteiro (é curto) |
+| [INDICE.md](INDICE.md) | Roteamento `gatilho → ficha de tese`; tabela gerada por script | Sempre, logo depois do CONTEXTO |
+| [teses/](teses/README.md) | Uma **ficha por tema**, em `trabalhista/`, `civel/` e `transversal/` | Só as fichas cujo gatilho bateu com o objeto da demanda |
+| [modelos/](modelos/README.md) | `_FORMATO_BASE.docx` (arquivo base clonado pela skill `formatar-minuta`) + esqueleto estrutural por tipo + tema — para não precisar reanexar peça-modelo antiga | Só o modelo do tipo de peça + tema da sessão |
+| [playbook_prompts_ECT.md](playbook_prompts_ECT.md) | Prompts de uso diário + protocolo de atualização da base | Só a seção do tipo de peça |
+| [CLAUDE.md](CLAUDE.md) | Instruções para sessões de **Claude Code** (local e cloud): protocolo de consulta à base, conversão automática dos documentos da parte (PDF/DOC) para `.md`, título da sessão com o nome do Reclamante | Automático |
+| [.claude/skills/formatar-minuta/](.claude/skills/formatar-minuta/SKILL.md) | Skill com o **padrão único de formatação de toda peça** (fonte, margens, espaçamento, tópico em retângulo, numeração, cabeçalho, rodapé, assinatura) + gerador do `.docx` a partir de `_FORMATO_BASE.docx` | Sempre que uma peça for redigida ou formatada |
+| [.claude/skills/atualizar-base-conhecimento/](.claude/skills/atualizar-base-conhecimento/SKILL.md) | Skill que consolida na base o que a sessão produziu de novo e regenera o índice | Ao final de cada tarefa |
+| [.claude/skills/nomear-minuta/](.claude/skills/nomear-minuta/SKILL.md) | Skill que nomeia o arquivo da minuta entregue — sem `_`, tópicos separados por ` - `, nome da parte por último | Ao gerar, salvar ou citar o nome de uma peça |
+| [LACUNAS.md](LACUNAS.md) | O que falta validar na base e não pertence a nenhum tema | Em sessão de manutenção |
+| [scripts/atualizar_indice.py](scripts/atualizar_indice.py) | Valida os metadados das fichas e regenera a tabela do `INDICE.md` | Ao criar/alterar ficha |
+| [scripts/converter_parte_para_md.py](scripts/converter_parte_para_md.py) | Conversão de PDF/DOC do processo para `.md` — não roda no Project do claude.ai, só localmente | Automático (local) |
 
-1. Crie um Projeto no claude.ai (ou app), por exemplo **"Contencioso Trabalhista ECT"**.
-2. Cole o conteúdo de `instrucoes_personalizadas_projeto.md` no campo
-   **"Instruções personalizadas"** do Projeto.
-3. Suba como **"Conhecimento do projeto"**:
-   - `base_conhecimento_juridico_ECT.md`
-   - `playbook_prompts_ECT.md`
-   - `banco_teses_jurisprudencia.md`
-   - `checklist_formatacao_pecas.md`
-   - `banco_pecas_indice.md`
-   - `melhoria_continua.md`
-4. Pronto — toda conversa nova dentro do Projeto já herda essas regras e essa base.
+As fichas de tese substituíram os antigos `base_conhecimento_juridico_ECT.md` e
+`base_conhecimento_juridico_CIVEL.md` (conteúdo migrado para `teses/`, histórico no Git).
 
-## Banco de peças (modelos e busca primária)
+## Como usar (resumo)
 
-Além da base de conhecimento e do banco de teses, o sistema mantém um
-**catálogo de peças já produzidas**, para servir de modelo de formatação e de
-busca primária ("já fiz algo parecido com isso?") antes de redigir do zero.
+1. Crie um Projeto no claude.ai e conecte este repositório via GitHub connector — os `.md` viram
+   Project knowledge, buscados sob demanda. Nas **instruções personalizadas** do Projeto, cole apenas o
+   [CONTEXTO.md](CONTEXTO.md) (não a base inteira) e o protocolo de leitura do topo do
+   [INDICE.md](INDICE.md).
+2. No dia a dia: anexe os documentos do processo (inicial, sentença, laudos etc.). O Claude identifica os
+   pedidos, casa cada um com um gatilho do índice e abre **só** as fichas correspondentes. Peça-modelo
+   antiga só é necessária se ainda não existir modelo salvo para aquele tipo de peça + tema (seção 6.1 do
+   playbook).
+3. Ao final de cada sessão em que algo foi minutado, rode o protocolo da seção 6.2 do playbook — o Claude
+   aponta tese nova, correção, jurisprudência nova, ficha a criar/atualizar e modelo a consolidar, em
+   formato de diff para você revisar e commitar.
+4. Depois de criar ou editar qualquer ficha: `python scripts/atualizar_indice.py` (regenera a tabela do
+   índice e valida os metadados).
 
-Por conter dado de parte, número de processo e, em doença ocupacional, dado
-de saúde (LGPD), **os arquivos reais das peças não entram neste repositório
-Git** — só o índice de metadados (`banco_pecas_indice.md`) fica aqui. Os
-arquivos reais ficam:
+## Regra permanente
 
-- no acervo local do escritório, organizado por tipo de peça (estrutura de
-  pastas sugerida na seção 2 de `banco_pecas_indice.md`); e/ou
-- subidos diretamente como "Conhecimento do Projeto" no claude.ai (fora do
-  Git, mas dentro do ambiente do Projeto).
+Nenhum arquivo aqui deve conter nome de cliente, número de processo, CPF ou qualquer dado que identifique
+uma parte real. Teses e modelos são generalizados; se precisar citar norma ou jurisprudência, cite a fonte
+exata — nunca invente.
 
-Fluxo: antes de redigir, você (ou o Claude, se o índice estiver subido)
-consulta o catálogo por tipo/tema/rito; se existir peça equivalente, você
-localiza o arquivo real no acervo e anexa na conversa como modelo. Peças
-antigas são importadas aos poucos com o **prompt de catalogação** (seção 5 de
-`banco_pecas_indice.md`), que extrai só os metadados sem expor dado sensível.
+## Automação local (Claude Code): conversão de PDF/DOC para .md
 
-## Fluxo de trabalho por processo (repita a cada caso)
-
-1. Abra uma **conversa nova dentro do Projeto** (um processo por conversa — nunca misture autos).
-2. Rode a **busca de peça-modelo equivalente** (prompt 0.1 do playbook) no `banco_pecas_indice.md` — se existir peça parecida, localize-a no acervo.
-3. Anexe os documentos do processo conforme o checklist de anexos (seção 5 do playbook): inicial, sentença, contestação anterior, laudos, peça-modelo (a localizada no passo 2, ou outra), ACT vigente, conforme o tipo de peça.
-4. Rode o prompt de **análise** correspondente (1.1, 1.2 ou 1.3 do playbook). Não pule esta etapa.
-5. Rode o prompt de **redação** (2.1 a 2.6), citando o `<MODELO.odt/.docx>` anexado.
-6. Rode a **revisão pré-protocolo** (prompt 3.1) e, se quiser, o **teste da tese adversa** (3.2).
-7. Rode o **checklist de formatação** (`checklist_formatacao_pecas.md`, seções 4 e 5) antes de converter/salvar o arquivo final.
-8. Confira manualmente **tudo que foi listado como `[REVISAR]`** — isso nunca é opcional.
-9. Se usou jurisprudência nova, **atualize `banco_teses_jurisprudencia.md`**; cadastre a peça no `banco_pecas_indice.md` usando o prompt de catalogação — ambos depois de protocolar.
-10. Se algo deu errado, foi corrigido, ou virou padrão novo durante o processo, rode o **prompt de registro de aprendizado** (`melhoria_continua.md`, seção 5) antes de fechar a conversa.
-
-## Melhoria contínua (o sistema fica melhor a cada uso)
-
-O Claude não tem memória entre conversas — o que garante que um erro
-corrigido hoje não se repita amanhã é um protocolo, não mágica. Resumo (ver
-`melhoria_continua.md` para o detalhe):
-
-1. Durante o uso, ao notar um erro, validar uma tese nova ou concluir uma
-   peça, rode o **prompt de registro de aprendizado** — vira uma linha no
-   log de `melhoria_continua.md`.
-2. Periodicamente, numa sessão com acesso a este repositório (como uma
-   sessão de Claude Code — não o chat comum do Projeto), rode o **prompt de
-   consolidação** — as entradas pendentes viram edições reais nos arquivos
-   mestres (base de conhecimento, banco de teses, checklist, índice de
-   peças), commitadas no Git.
-3. Re-suba os arquivos mestres atualizados como Conhecimento do Projeto no
-   claude.ai. Só aí a melhoria chega às próximas conversas.
-
-## O que este sistema não faz (por enquanto)
-
-- Não integra com o PJe (sem robô de peticionamento nem leitura automática de intimações).
-- Não controla prazos automaticamente — é preciso um sistema de agenda/prazos à parte.
-- Não gera .odt diretamente a partir de uma conversa comum — ver a limitação técnica descrita em `checklist_formatacao_pecas.md` (seção 1) e o caminho de contorno (gerar em .docx e converter).
-- Depende de você anexar os documentos certos em cada conversa — não há leitura automática de processo.
-
-## Possíveis evoluções futuras
-
-- Automação real (script/serviço) para monitorar publicações/intimações e alertar prazos.
-- Extração automática de dados estruturados de PDFs de inicial/sentença.
-- Geração de minutas em lote via API, para processos com o mesmo padrão fático (ex.: mesma tese, múltiplos reclamantes).
-
-## Lacunas a preencher (ver também a seção 7 da base de conhecimento)
-
-- [ ] Estrutura da equipe e distribuição de processos
-- [ ] Volume mensal e prazos internos de entrega
-- [ ] Outras áreas além da trabalhista (cível, consumidor?)
-- [ ] Orientações da Consultoria Jurídica nacional da ECT que vinculam a defesa local
-- [ ] Teses que a ECT decidiu *não* sustentar
-- [ ] Importar retroativamente o acervo de peças antigas para `banco_pecas_indice.md` (ver seção "Banco de peças" acima)
-- [ ] Definir periodicidade de consolidação do aprendizado (ver `melhoria_continua.md`) e avaliar se compensa automatizar essa etapa com uma rotina agendada
+Os documentos reais de cada processo (inicial, sentença, laudos etc.) ficam **fora deste repositório**, em
+`D:\Claude\00 caso_atual\<nome da parte>`. Numa sessão de Claude Code, assim que o nome da parte adversa é
+informado ou identificado num documento, o Claude roda `scripts/converter_parte_para_md.py` para gerar um
+`.md` de cada PDF/DOC daquela pasta e passa a ler o `.md` em vez do original — poupa tokens e evita reler o
+mesmo PDF em várias mensagens. Detalhes e gatilho exato em [CLAUDE.md](CLAUDE.md). Pré-requisito:
+`pip install -r scripts/requirements.txt`.
