@@ -88,6 +88,11 @@ python scripts/atualizar_indice.py           # revalida os metadados e reescreve
 python scripts/atualizar_indice.py --check   # confere sincronia — rode antes de propor o commit
 ```
 
+O script também mede o **pedágio** (`CONTEXTO.md` + `INDICE.md`, lidos em toda sessão) e avisa quando
+ele passa de 40% de uma sessão típica, listando as fichas com mais gatilhos. Se esse aviso aparecer,
+**repasse-o ao usuário** no relatório do Passo 5 — não enxugue por conta própria no meio de uma
+consolidação: cortar gatilho custa recall e é decisão à parte, com o critério de `teses/README.md`.
+
 O script recusa metadado faltando, `slug` diferente do nome do arquivo, `area` diferente da pasta, `status`
 inválido, data fora do formato e referência para arquivo inexistente. Se ele reclamar, corrija a ficha — não
 edite a tabela do `INDICE.md` à mão, ela é sobrescrita.
