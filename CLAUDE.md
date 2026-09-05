@@ -39,6 +39,13 @@ Saiu commit na lista? A branch está atrás: rebasear (ou ler as fichas de `orig
 base. Um sinal rápido do mesmo problema: se `git ls-files` ainda mostrar `base_conhecimento_juridico_*.md`,
 a branch é anterior ao fatiamento em `teses/` e a base que ela carrega está superada.
 
+**Branch atrasada também não tem as skills.** `.claude/skills/` é lido do repositório: numa branch anterior
+à criação das skills, `formatar-minuta` e `nomear-minuta` simplesmente não existem na sessão — e o padrão
+visual e o nome do arquivo passam a sair da peça-modelo que o usuário anexou, que é justamente o que a
+regra proíbe. Já aconteceu: peça entregue em `.odt`, com underscores no nome e entrelinha 1,5 herdada do
+modelo anexado, e a divergência só apareceu depois do rebase. Por isso o Passo 0 vem **antes** de minutar,
+não depois: rebasear é o que faz as skills existirem na sessão.
+
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
