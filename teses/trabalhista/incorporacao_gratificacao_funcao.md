@@ -22,7 +22,9 @@ parcela ao salário — com base nas normas internas (Módulos 55 e 36 do MANPES
 ## Normas internas envolvidas
 
 - **Módulo 55** do MANPES — revogado em **01/05/2012** (parcelas FAT/FAO; requisito temporal de **5 anos**).
-- **Módulo 36** do MANPES — revogado em **15/05/2014** (parcelas ITF/GPTF; requisito temporal de **10 anos**).
+- **Módulo 36** do MANPES — revogado em **05/05/2014** (Mem. Circular 00676-VIGEP; parcelas ITF/GPTF;
+  requisito temporal de **10 anos**). Peças antigas da ECT trazem 05/05/2014 — é erro; ao reaproveitar peça
+  anterior, corrigir e uniformizar em todo o texto.
 - Substituição das parcelas **FAT/FAO por ITF/GPTF**.
 
 ## Requisitos e metodologia de cálculo — o texto do Módulo 36
@@ -34,7 +36,7 @@ Transcrições colhidas de inicial que reproduziu o normativo (Cap. 2, item 1; C
   gerencial, técnica, de atividade especial, FAT/FAO, ou dirigente da ECT, **contados a partir da data da
   dispensa da função**"; (b) "ter sido dispensado ou exonerado da função por iniciativa da Empresa".
   **O decênio isolado não gera direito**: a contagem é retroativa à dispensa, e a dispensa é a segunda
-  condição. Quem só foi destituído depois de 15/05/2014 tinha expectativa, não direito adquirido, ainda que
+  condição. Quem só foi destituído depois de 05/05/2014 tinha expectativa, não direito adquirido, ainda que
   já somasse dez anos antes da revogação — é a resposta direta à autora que alega ter completado o
   requisito temporal na vigência da norma.
 - **Interstício máximo (Cap. 2, item 1.2)**: "O exercício da função poderá conter um interstício de até
@@ -94,7 +96,7 @@ sessão real, quatro achados aritméticos derrubaram o valor pedido sem tocar na
    atual.
 
 **Requerimento *ad cautelam* que fecha o tópico:** vindo condenação com base em norma revogada, a apuração
-deve considerar **apenas o período até a data da revogação** (15/05/2014), não os 120 meses anteriores à
+deve considerar **apenas o período até a data da revogação** (05/05/2014), não os 120 meses anteriores à
 dispensa — o direito não pode ser maior do que aquele que a norma conferiria no momento em que deixou de
 existir. E qualquer apuração deve ser precedida de levantamento pela Área de Gestão de Pessoas, na forma do
 Capítulo 3.
@@ -102,7 +104,7 @@ Capítulo 3.
 ## CIP na base de cálculo — atacar pela data, não pela natureza
 
 O **CIP passou a ser pago em outubro/2014** (rubrica 051119 na ficha financeira, com a rubrica 052119 de
-diferença cobrindo ago/set do mesmo ano). Como o **Módulo 36 foi revogado em 15/05/2014**, o CIP **não
+diferença cobrindo ago/set do mesmo ano). Como o **Módulo 36 foi revogado em 05/05/2014**, o CIP **não
 existia enquanto a norma vigia** — é logicamente impossível apurar "nos termos do regulamento revogado" uma
 verba posterior a ele. Reforço: os itens 2.2 e 2.4 falam em "tabela de função", e o CIP tem **tabela
 própria**, o que a própria inicial costuma admitir ao mencionar a "Tabela CIP".
@@ -274,10 +276,10 @@ partir de **01/10/2004**:
 | Marco | Tempo acumulado | Requisito |
 |---|---|---|
 | Revogação do Módulo 55 — 01/05/2012 (5 anos, FAT/FAO) | 91 meses (7a 7m) | **preenchido** (5 anos em 01/10/2009) |
-| Revogação do Módulo 36 — 15/05/2014 (10 anos, ITF/GPTF) | 115 meses (9a 7m 14d) | **não preenchido** |
+| Revogação do Módulo 36 — 05/05/2014 (10 anos, ITF/GPTF) | 115 meses (9a 7m 4d) | **não preenchido** |
 | Reforma Trabalhista — 11/11/2017 | 157 meses (13a 1m) | — |
 
-Os 10 anos só se completariam em **01/10/2014** — 4 meses e 16 dias **após** a revogação. Variante correta do
+Os 10 anos só se completariam em **01/10/2014** — 4 meses e 26 dias **após** a revogação. Variante correta do
 item 2.1 do modelo: a **segunda** ("preencheu o requisito da FAT/FAO, não o da ITF"). Dois reforços que
 costumam existir nos autos e valem levantar: (a) o segundo requisito cumulativo (dispensa da função por
 iniciativa da Empresa) normalmente só ocorre anos depois da revogação — nenhum dos dois coexistiu na vigência

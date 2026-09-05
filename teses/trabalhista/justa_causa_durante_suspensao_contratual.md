@@ -3,11 +3,11 @@ area: trabalhista
 tema: Justa causa aplicada durante suspensão do contrato por benefício previdenciário
 slug: justa_causa_durante_suspensao_contratual
 status: validada
-gatilhos: [justa causa durante afastamento, dispensa durante auxílio-doença, suspensão do contrato de trabalho, art. 476 CLT, vínculo hígido, art. 482 CLT, nulidade da dispensa, reintegração liminar, tutela de urgência de reintegração, suspensão dos efeitos da rescisão, restabelecimento do plano de saúde, Postal Saúde, Súmula 440, art. 30 da Lei 9.656/98, mandado de segurança contra liminar, Súmula 414, OJ 142 da SBDI-2, Súmula 371, art. 300 do CPC, irreversibilidade, art. 2º-B da Lei 9.494/97]
+gatilhos: [justa causa durante afastamento, art. 482 CLT, reintegração liminar, suspensão dos efeitos da rescisão, Postal Saúde, Súmula 440, art. 30 da Lei 9.656/98, Súmula 414, OJ 142 da SBDI-2]
 pecas: [contestação, mandado de segurança, memoriais, petição de juntada]
 modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md]
 ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-05
 ---
 
 # Tese — Justa causa aplicada durante suspensão do contrato por benefício previdenciário
