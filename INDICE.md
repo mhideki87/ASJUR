@@ -1,5 +1,9 @@
 # Índice — roteamento por tema
 
+**Atalho (preferível):** `python scripts/rotear.py --por-pedido "<um pedido por linha>"` faz esse
+casamento fora do contexto e devolve só os caminhos das fichas — a tabela abaixo não precisa ser lida.
+Use a tabela à mão quando não houver Python no ambiente, ou para conferir/ajustar gatilho.
+
 **Como usar:** listar os pedidos do processo → casar cada um com um `gatilho` da tabela → abrir **só** a
 ficha indicada, mais as de "Sempre aplicável". Nenhum gatilho bateu: dizer isso e tratar como tema novo
 (`teses/README.md`), sem forçar encaixe. Não abrir ficha por precaução. Ficha marcada **rascunho** é

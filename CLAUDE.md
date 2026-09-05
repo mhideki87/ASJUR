@@ -42,12 +42,26 @@ a branch é anterior ao fatiamento em `teses/` e a base que ela carrega está su
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
-2. Ler `INDICE.md` — só o protocolo do topo e a tabela de roteamento.
-3. Ler os documentos do processo e **listar os pedidos**.
-4. Para cada pedido, casar com um `gatilho` da tabela e abrir **somente** a ficha indicada. Abrir também as
-   fichas da seção "Sempre aplicável" do índice (prerrogativas processuais; prescrição, na trabalhista).
+2. Ler os documentos do processo e **listar os pedidos**.
+3. Rotear com o script, que faz a busca **fora** do contexto — nenhuma linha da tabela do índice entra na
+   conversa:
+
+   ```bash
+   python scripts/rotear.py --por-pedido "<um pedido por linha>"
+   ```
+
+   Ele devolve só os caminhos das fichas que casaram, já com as de "Sempre aplicável". Aceita também
+   `--arquivo <caminho>` (inclusive fora do repositório) e `--area trabalhista|civel`. Alimente-o com a
+   **lista de pedidos**, não com a inicial inteira: a inicial menciona de passagem temas que não são
+   pedido nenhum, e cada um vira ficha aberta à toa.
+4. Abrir **somente** as fichas que o script apontou. Casamento marcado "fraco" (um gatilho só) é
+   candidato, não resposta: conferir se o tema é mesmo aquele antes de abrir.
 5. Só então abrir o modelo estrutural (`modelos/<área>/…`) e a seção correspondente do
    `playbook_prompts_ECT.md`.
+
+Sem Python no ambiente, ou o script falhando: aí sim ler o `INDICE.md` (protocolo do topo + tabela) e casar
+os gatilhos à mão. O índice continua sendo a fonte legível para humano e a rede de segurança — o script só
+evita pagá-lo em contexto a cada sessão.
 
 Regras:
 - **Nunca** ler `teses/` por inteiro, nem abrir ficha "por precaução" — cada ficha aberta custa contexto.
