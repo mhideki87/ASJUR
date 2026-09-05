@@ -3,11 +3,11 @@ area: trabalhista
 tema: Justa causa apurada em PAD — assédio sexual e condutas de conotação sexual
 slug: justa_causa_pad_assedio
 status: validada
-gatilhos: [processo administrativo disciplinar, PAD, MANCOD, Manual de Controle Disciplinar, CODIS, COPAS, Regulamento de Pessoal, art. 29 do Regulamento de Pessoal, apuração direta, assédio sexual, assédio moral, importunação sexual, conduta de conotação sexual, jovem aprendiz, art. 482 CLT, mau procedimento, incontinência de conduta, indisciplina, quebra de fidúcia, perdão tácito, imediatidade, proporcionalidade da penalidade, dosimetria, cerceamento de defesa, cadeia de custódia, prova digital, CFTV, acareação, afastamento cautelar, reversão da justa causa]
+gatilhos: [processo administrativo disciplinar, MANCOD, Regulamento de Pessoal, assédio sexual, jovem aprendiz, art. 482 CLT, reversão da justa causa, perdão tácito, dosimetria, prova digital, CFTV, afastamento cautelar]
 pecas: [contestação, contrarrazões, recurso ordinário, mandado de segurança]
 modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md]
 ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-05
 ---
 
 # Tese — Justa causa apurada em PAD (assédio sexual e condutas de conotação sexual)
