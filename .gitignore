@@ -11,5 +11,7 @@
 steam-filter/.venv/
 steam-filter/data/
 steam-filter/.env
+
+# Cache do Python gerado ao importar os scripts (ex.: em teste do atualizar_indice)
 __pycache__/
 *.pyc

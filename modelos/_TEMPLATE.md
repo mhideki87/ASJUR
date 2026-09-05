@@ -39,4 +39,6 @@ o requisito temporal implementado antes da revogação, este bloco de defesa mud
 
 ## Ligação com a base de teses
 
-<Qual(is) tese(s) de `base_conhecimento_juridico_*.md` este modelo normalmente sustenta.>
+<Qual(is) ficha(s) de `teses/<área>/<tema>.md` este modelo normalmente sustenta. Confira também se a
+ficha lista este modelo no metadado `modelos:` — se não listar, acrescente e rode
+`python scripts/atualizar_indice.py`.>
