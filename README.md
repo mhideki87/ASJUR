@@ -42,6 +42,12 @@ As fichas de tese substituíram os antigos `base_conhecimento_juridico_ECT.md` e
 4. Depois de criar ou editar qualquer ficha: `python scripts/atualizar_indice.py` (regenera a tabela do
    índice e valida os metadados).
 
+## Fora do escopo jurídico
+
+| Pasta | Conteúdo |
+|---|---|
+| [steam-filter/](steam-filter/README.md) | App pessoal que sincroniza com a Steam e filtra os jogos pela quantidade de amigos que os têm. Não tem relação com o conteúdo jurídico deste repositório — mora aqui só por conveniência. |
+
 ## Regra permanente
 
 Nenhum arquivo aqui deve conter nome de cliente, número de processo, CPF ou qualquer dado que identifique

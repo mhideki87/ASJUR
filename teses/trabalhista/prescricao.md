@@ -3,7 +3,7 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, prescrição total, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, Resolução 225/2025]
+gatilhos: [prescrição, prescrição total, prescrição parcial, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Resolução 225/2025]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
@@ -85,6 +85,49 @@ parcial. Resposta: o art. 11, § 2º, da CLT exige que **a própria parcela** es
 de lei — nenhuma lei institui o AAT ou o AADC; a lei assegura a irredutibilidade em abstrato, não a
 rubrica.
 
+## Como o TRT24 tem decidido — atenção antes de apoiar a defesa nesta prejudicial
+
+**A prejudicial é sólida na tese e frágil no 2º grau desta Região.** As duas Turmas do TRT24 vêm
+**rejeitando a prescrição total** neste tema, com fundamento duplo e articulado:
+
+1. estando o direito previsto em **norma interna**, a prescrição seria apenas **parcial**, pela parte final
+   da Súmula 294 e do art. 11, §2º, da CLT — interpretando "norma" como qualquer ato normativo de quem tem
+   competência para editá-lo, e não só a lei em sentido estrito;
+2. prevendo a norma interna a incorporação após 10 anos, **presume-se a despesa autorizada no orçamento**,
+   sendo devida a ITF **independentemente da Súmula 372**, sem ofensa ao art. 167, II, da CF; e a Lei
+   13.467/2017 não retroagiria sobre direito adquirido (art. 5º, XXXVI, da CF).
+
+Precedentes **contrários à ECT** (extraídos das transcrições de petição inicial adversa — conferir teor nos
+originais antes de rebater):
+
+- ROT 0024529-34.2024.5.24.0007 — 1ª Turma, Des. Nicanor de Araújo Lima, DEJT 31/03/2025
+- RORSum 0025211-32.2023.5.24.0004 — 2ª Turma, Des. Francisco das C. Lima Filho, DEJT 11/02/2025
+- ROT 0024296-85.2023.5.24.0003 — 2ª Turma, Des. João de Deus Gomes de Souza, jul. 20/09/2023
+- RORSum 0024256-73.2022.5.24.0056 — 2ª Turma, Des. Francisco das C. Lima Filho, jul. 24/05/2023
+
+Precedente **favorável** do próprio TRT24, mais antigo, que consta do modelo institucional e transcreve a
+fundamentação inteira (útil para citar):
+
+- RO 0024632-20.2019.5.24.0006 — 1ª Turma, Des. Nery Sá e Silva de Azambuja, jul. 30/06/2020
+
+**Duas contra-alegações para rebater o fundamento 1 acima, quando ele vier na impugnação:**
+
+1. A leitura esvazia a exceção legal. O art. 11, § 2º, exige que **a própria parcela** esteja assegurada por
+   preceito **de lei**. Ler "norma" como "qualquer ato normativo, inclusive interno" faz a exceção engolir a
+   regra: toda parcela de norma interna decorre, por definição, de norma interna, e nenhuma prescrição
+   jamais seria total. Some-se que, no tema da incorporação, o art. 468, § 2º, da CLT não assegura a
+   parcela — **expressamente a veda**, o que torna de todo inviável o enquadramento na exceção.
+2. **A própria inicial costuma confessar o quinquênio.** É frequente que peça efeitos financeiros desde a
+   destituição mas componha o valor da causa contando parcelas vencidas só dos últimos 60 meses. Ou é
+   confissão quanto às parcelas anteriores, ou o valor não corresponde ao pedido — e, nos dois casos,
+   aproveita: no primeiro à prejudicial, no segundo à impugnação ao valor da causa.
+
+**Consequência prática para a estratégia da peça:** arguir sempre a prescrição total — é pressuposto do
+recurso de revista e há o Tema 23 a invocar —, mas **não fazer dela o eixo da defesa** no TRT24. O peso deve
+ficar em argumentos de **fato provado por documento**, que escapam dessa controvérsia jurídica: inexistência
+de supressão da parcela e não implementação do requisito temporal na vigência da norma interna. Pedir sempre,
+sucessivamente, a prescrição parcial quinquenal.
+
 ## Pontos sensíveis
 
 - A prescrição é **total** (não parcial) justamente porque a parcela não é assegurada por lei, e sim por
@@ -96,32 +139,15 @@ rubrica.
 - Tema em que essa prejudicial mais aparece:
   [teses/trabalhista/incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md)
 
-## Como o TRT24 vem decidindo — desfavorável, e a inicial já se antecipa
-
-Registro parcial da lacuna abaixo, colhido da transcrição feita por petição inicial de caso concreto:
-
-- **TRT24, 2ª Turma, RORSum 0025211-32.2023.5.24.0004** (Rel. Des. Francisco das C. Lima Filho, DEJT
-  11/02/2025) — prescrição **parcial**, não total, no tema da incorporação de gratificação de função. O
-  fundamento é que "norma", na parte final do art. 11, § 2º, da CLT (e da antiga Súmula 294), deve
-  compreender **qualquer ato normativo** de quem tenha competência para editá-lo — inclusive norma interna
-  da empresa. O acórdão cita como precedentes os processos 0024296-85.2023.5.24.0003-ROT (2ª T., Rel. Des.
-  João de Deus Gomes de Souza, jul. 20/09/2023) e 0024256-73.2022.5.24.0056-RORSUM (2ª T., Rel. Des.
-  Francisco das C. Lima Filho, jul. 24/05/2023).
-
-**Consequência prática:** a prejudicial vem sendo deduzida contra corrente local firmada. Deduzi-la assim
-mesmo — é matéria de ordem pública, sustenta o prequestionamento e a leitura do TRT24 é atacável —, mas
-**sempre acompanhada do pedido sucessivo de prescrição parcial quinquenal**, que é o que efetivamente
-limita a condenação nesse cenário.
-
-**Duas contra-alegações que aproveitam à ECT nesse contexto:**
-
-1. A leitura do TRT24 esvazia a exceção legal: o art. 11, § 2º, exige que **a própria parcela** esteja
-   assegurada por preceito **de lei**. Ler "norma" como "qualquer ato normativo, inclusive interno" faz a
-   exceção engolir a regra, já que toda parcela de norma interna decorre, por definição, de norma interna.
-2. **A própria inicial costuma confessar o quinquênio**: pede efeitos financeiros desde a destituição, mas
-   compõe o valor da causa contando parcelas vencidas só dos últimos 60 meses. Ou é confissão quanto às
-   parcelas anteriores, ou o valor não corresponde ao pedido — e serve à impugnação ao valor da causa.
-
 ## Lacunas
+
+- [x] Registrar como o TRT24 tem decidido a prejudicial nesses casos (acolhe total, parcial ou rejeita).
+      → registrado na seção "Como o TRT24 tem decidido": a linha recente das duas Turmas **rejeita** a
+      prescrição total e reconhece apenas a parcial.
+- [ ] Conferir nos originais o teor dos quatro acórdãos contrários listados (vieram de transcrição em
+      inicial adversa) e verificar se há decisão posterior a 31/03/2025 que altere a orientação — em
+      especial se o cancelamento da Súmula 372, I, pela Resolução 225/2025 mudou esse entendimento regional.
+- [ ] Verificar se existe recurso de revista da ECT admitido contra essa linha do TRT24 e qual o resultado
+      no C. TST.
 - [ ] Verificar como os TRTs vêm reagindo ao cancelamento da Súmula 294 — se algum tem lido o cancelamento
       como enfraquecimento da tese, em vez de absorção pela lei.
