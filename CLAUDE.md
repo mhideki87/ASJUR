@@ -12,6 +12,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 | Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
+| Autonomia em PR e merge (sem perguntar, sem relatório longo) | sim | sim | não se aplica — não há Git |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -206,6 +207,33 @@ sinal de que a questão é real e precisa de leitura humana — não de uma terc
 A política de rede é escolhida na criação do ambiente e pode mudar; o que está acima é o comportamento
 observado, não uma garantia permanente. Em sessão local (CLI/desktop), a conferência costuma ser possível —
 é o caminho preferível para fechar pendência de texto legal.
+
+## Autonomia em PR e merge — executar, não narrar
+
+**Objetivo:** o usuário não quer ser consultado nem receber relatório detalhado a cada etapa de Git. Ele
+quer o problema resolvido e uma confirmação curta no final.
+
+**Gatilho:** qualquer sessão que envolva commit, push, abertura de pull request, resolução de conflito,
+correção de CI ou merge neste repositório.
+
+**Ação:** executar o ciclo inteiro por conta própria — commit, push, abrir o PR, corrigir o que estiver
+vermelho e fazer o merge —, e só então responder, em **até três linhas**, o que ficou pronto e o link do PR.
+
+Regras:
+- **Não perguntar** se pode commitar, se pode abrir PR, se pode fazer merge, qual mensagem de commit usar,
+  qual método de merge, se pode apagar a branch. É tudo autorizado por padrão nesta base.
+- **Não explicar** passo a passo o que o Git fez: nada de listar arquivo por arquivo, colar diff, narrar
+  tentativa de push, descrever a resolução de conflito ou o motivo de cada falha de CI. O diff do commit é o
+  registro; quem quiser o detalhe abre o PR.
+- **Falar apenas quando houver decisão jurídica em jogo** (duas teses possíveis, risco de perder argumento,
+  dado do processo faltando) ou quando algo travar de fato e não houver caminho — aí sim, dizer em uma linha
+  o que trava e o que falta.
+- Problema no meio do caminho (push recusado, conflito, CI vermelho, lint) se **resolve na própria sessão**,
+  sem avisar antes nem pedir permissão; a resposta final menciona no máximo que houve correção, sem o
+  histórico.
+- Continua valendo o que é proibido em qualquer sessão: nunca reescrever histórico de branch de outra
+  pessoa, nunca desativar ou pular teste para ficar verde, nunca subir dado real de parte para o
+  repositório.
 
 ## Título da sessão — identificação do caso na aba lateral
 
