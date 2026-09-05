@@ -2,8 +2,9 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-09-03 — advertência sobre erros de data no `.docx`, estrutura real conferida
-contra contestação aprovada e blocos acrescidos em minuta real.
+**Última atualização:** 2026-09-05 — advertência sobre erros de data no `.docx`, estrutura real conferida
+contra contestação aprovada, blocos acrescidos em minuta real, e Súmula 372, I, cancelada pela Res. nº
+225/2025 do TST (bloco de *overruling* obsoleto nessa parte).
 
 ---
 
@@ -99,10 +100,14 @@ Fecho + assinatura
 - **Tema 23 dos repetitivos (INCJULGRREMBREP 528-80.2018.5.14.0004)**: bloco de "Ausência de direito
   adquirido" com a transcrição da tese fixada pelo Tribunal Pleno do TST — texto genérico, reaproveitável
   literalmente em qualquer caso cujo fato gerador (dispensa da função) seja posterior a 11/11/2017.
-- **Bloco "overruling" (item 1.2)**: cita o precedente do TRT24 (RO 0025161-88.2016.5.24.0056, Rel. Des.
-  Francisco das Limas Chagas Filho) sobre superação de precedentes, mais o contexto de crise financeira dos
-  Correios (reportagem G1 com base em relatório da CGU) — reaproveitável, mas revisar se o dado de crise
-  financeira ainda é atual antes de usar em processo novo.
+- **Bloco "overruling" (item 1.2) — OBSOLETO NESSA PARTE**: o **item I da Súmula 372 do TST está
+  cancelado pela Res. nº 225/2025 do TST** (ver seção 3.1 de `base_conhecimento_juridico_ECT.md`), e não
+  se sustenta *overruling* de
+  verbete que já não existe. Substituir a tese de superação pela menção direta ao cancelamento, mantendo o
+  art. 468, §2º, da CLT como fundamento legal. O bloco cita ainda o precedente do TRT24 sobre superação de
+  precedentes (RO 0025161-88.2016.5.24.0056, Rel. Des. Francisco das Limas Chagas Filho) e o contexto de
+  crise financeira dos Correios (reportagem G1 com base em relatório da CGU) — se reaproveitar, revisar se o
+  dado de crise financeira ainda é atual.
 - **Bloco "Motorizado" / "Quebra de Caixa" (item 1.4)**: argumento de que a parcela é salário-condição /
   adicional de risco, não gratificação de confiança computável para os 10 anos da Súmula 372 — só usar
   quando o Reclamante de fato exerceu uma dessas funções específicas dentro do período computado.
@@ -125,8 +130,13 @@ na **variante 2 do item 2.1** ("preencheu o requisito da FAT mas não o da ITF")
 | "quando da revogação do Módulo 36 do MANPES em **abril de 2014**" | Módulo 36 — **15/05/2014** |
 | "quando da revogação do Módulo 36 do MANPES em **30/04/2012**" | **Módulo 55** — **01/05/2012** |
 
-Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 15/05/2014**. Conferir sempre; o segundo
-erro troca o próprio módulo, e passar isso para a peça entrega ao adversário uma contradição de graça.
+Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 15/05/2014**. Conferir sempre; o
+segundo erro troca o próprio módulo, e passar isso para a peça entrega ao adversário uma contradição de
+graça.
+
+`[REVISAR: em 09/2026 uma sessão sustentou que a revogação do Módulo 36 seria 05/05/2014, e não 15/05/2014.
+Prevaleceu a data das fichas (15/05/2014), mas conferir no MANPES antes de usar em peça — dela depende o
+cômputo do decênio.]`
 
 Outros pontos do `.docx` a revisar antes de reaproveitar:
 - o endereçamento aparece como "JUIZ(A) **FEDERAL** DA [Nº] VARA DO TRABALHO" — corrigir para "JUIZ(A) DO
@@ -179,7 +189,8 @@ revogação.
   revogação dos Módulos 55 (01/05/2012) e 36 (15/05/2014) — sempre conferir isso nos documentos anexados
   antes de escolher a variante.
 - Se o caso disser respeito só à Súmula 372 (sem norma interna invocada pelo autor), o bloco 2 inteiro
-  (normas internas) pode ser suprimido.
+  (normas internas) pode ser suprimido — e, com o item I cancelado, a defesa fica mais curta: não há verbete
+  que ampare a incorporação, e o art. 468, §2º, da CLT a veda expressamente.
 
 ## Ligação com a base de teses
 
