@@ -3,11 +3,11 @@ area: trabalhista
 tema: Progressão horizontal por antiguidade (PCCS/2008)
 slug: progressao_horizontal_pccs2008
 status: validada
-gatilhos: [progressão horizontal, promoção horizontal, progressão por antiguidade, promoção por antiguidade, PHA, progressão por mérito, PHM, PCCS 2008, PCCS/2008, plano de cargos carreiras e salários, interstício de 24 meses, a cada 24 meses, a cada dois anos, referência salarial, reenquadramento, evolução salarial, trajetória funcional, estagnação na carreira, ato potestativo, art. 122 do CC, art. 129 do CC, item 5.2.3.3, data de apuração 31 de agosto, Súmula 452, Diretoria Colegiada, Resolução CCE 9/96]
+gatilhos: [progressão horizontal, promoção horizontal, progressão por antiguidade, PHA, progressão por mérito, PCCS 2008, plano de cargos, interstício de 24 meses, a cada 24 meses, referência salarial, reenquadramento, trajetória funcional, ato potestativo, art. 122 do CC, art. 129 do CC, item 5.2.3.3, Súmula 452]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__progressao_horizontal_pccs2008.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-05
 ---
 
 # Tese — Progressão horizontal por antiguidade (PCCS/2008)

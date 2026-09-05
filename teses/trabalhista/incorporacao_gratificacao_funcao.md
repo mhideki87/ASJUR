@@ -23,7 +23,7 @@ parcela ao salário — com base nas normas internas (Módulos 55 e 36 do MANPES
 
 - **Módulo 55** do MANPES — revogado em **01/05/2012** (parcelas FAT/FAO; requisito temporal de **5 anos**).
 - **Módulo 36** do MANPES — revogado em **05/05/2014** (Mem. Circular 00676-VIGEP; parcelas ITF/GPTF;
-  requisito temporal de **10 anos**). Peças antigas da ECT trazem 05/05/2014 — é erro; ao reaproveitar peça
+  requisito temporal de **10 anos**). Peças antigas da ECT trazem 15/05/2014 — é erro; ao reaproveitar peça
   anterior, corrigir e uniformizar em todo o texto.
 - Substituição das parcelas **FAT/FAO por ITF/GPTF**.
 
@@ -175,6 +175,21 @@ Precedente sobre o **Módulo 36 e a hipótese exata de norma revogada durante o 
 
 **Precedentes ADVERSOS do TRT24 no tema** — registrar para dimensionar risco, não para citar:
 
+- **TRT24 – RO 0025003-89.2016.5.24.0005** — 2ª Turma, Des. Amaury Rodrigues Pinto Junior, j. 22/08/2018.
+  **Acórdão conferido no inteiro teor** (anexado em sessão) — provenência melhor que a dos dois abaixo. Deu
+  provimento ao empregado: as normas internas vigentes ao tempo da admissão (RELATÓRIO/DIREC-029/2005,
+  CIRCULAR/DIREC-682/2005, Módulos 36 e 55) **aderiram ao contrato**, e a revogação posterior por norma mais
+  gravosa não as alcança — "na forma do art. 5º, XXXVI, CR (direito adquirido), da condição mais benéfica e
+  da S. 51 do C. TST". Condenou a integrar 60% da média ponderada, com reflexos em anuênios, férias,
+  gratificação de férias de 70%, 13º, abonos, PLR e cota da patrocinadora no POSTALPREV.
+  Dois pontos do voto **deslocam o ônus da prova para a ECT**: (a) o período de cedência a outra empresa do
+  grupo contou como efetivo tempo de serviço, porque a **própria ECT o reconhecera** no processo
+  administrativo de realocação; (b) quanto ao conceito mínimo no GCR, caberia à ECT demonstrar a má
+  avaliação, **como fato impeditivo do direito** — e a ficha cadastral registrava desempenho "qualificado ou
+  altamente qualificado". **Lição:** com admissão anterior à revogação, o eixo não pode ser a revogação em
+  si — o Regional a trata como inoponível pela condição mais benéfica. Tem de ser a não implementação do
+  requisito temporal na vigência da norma, e cada requisito precisa vir **provado por documento juntado pela
+  Reclamada**; negativa genérica sobre GCR ou contagem de tempo vira fato impeditivo não demonstrado.
 - **TRT24 – ROT 0024529-34.2024.5.24.0007** — 1ª Turma, Des. Nicanor de Araújo Lima, DEJT 31/03/2025:
   deferiu a ITF a empregada da ECT **pela média ponderada informada na petição inicial**, reconhecendo
   natureza de gratificação de função às rubricas "gratificação de função convencionada", "complemento de
