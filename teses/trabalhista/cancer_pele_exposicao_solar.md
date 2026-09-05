@@ -7,7 +7,7 @@ gatilhos: [câncer de pele, carcinoma, carcinoma basocelular, carcinoma espinoce
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md]
-atualizado: 2026-09-03
+atualizado: 2026-09-04
 ---
 
 # Tese — Câncer de pele e exposição solar ocupacional
@@ -186,8 +186,9 @@ citar em peça nova.
 - Estrutura dos quesitos:
   [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md](../../modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md)
   e seção 2.4 do [playbook_prompts_ECT.md](../../playbook_prompts_ECT.md)
-- Eficácia de EPI e Súmula 289/TST: hoje só tratada no bloco de **perícia técnica** (playbook, seção 2.5) —
-  ver Lacunas.
+- Eficácia de EPI e Súmula 289/TST: tratada no bloco de **perícia técnica** (playbook, seção 2.5) e, quanto
+  ao ônus da prova de entrega, CA, treinamento e fiscalização do uso, em
+  [insalubridade_limpeza_sanitarios.md](insalubridade_limpeza_sanitarios.md) — ver Lacunas.
 
 ## Lacunas
 

@@ -99,4 +99,7 @@ RO 0025132-77.2014.5.24.0001 (casos de carteiro da ECT). Não duplicados aqui pa
       `modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md`.
 - [ ] Falta o modelo estrutural da **contestação** de doença ocupacional
       (`modelos/trabalhista/contestacao__doenca_ocupacional.md`) — criar na próxima sessão do tema.
-- [ ] Teses de insalubridade/periculosidade (perícia técnica) ainda não têm ficha própria.
+- [x] ~~Teses de insalubridade/periculosidade (perícia técnica) ainda não têm ficha própria~~ — parcialmente
+      resolvido: `teses/trabalhista/periculosidade_tanque_suplementar.md` e, em 2026-09-04,
+      `teses/trabalhista/insalubridade_limpeza_sanitarios.md` (limpeza de sanitários). Outros agentes
+      insalubres seguem sem ficha.

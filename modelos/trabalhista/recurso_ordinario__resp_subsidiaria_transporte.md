@@ -13,7 +13,8 @@ Sentença reconheceu a responsabilidade subsidiária da ECT por verbas deferidas
 transportadora** contratada para transporte de carga postal, e o recurso será **restrito a esse capítulo**
 (não se devolve o mérito das parcelas, próprio da empregadora).
 
-Serve também, com a supressão do bloco 1, para terceirização de serviços comuns — ali só a linha de
+Para contestação em terceirização de serviços comuns, ver
+`contestacao__resp_subsidiaria_terceirizacao.md`. Serve também aqui, com a supressão do bloco 1 — ali só a linha de
 ausência de culpa se aproveita.
 
 ## Estrutura padrão

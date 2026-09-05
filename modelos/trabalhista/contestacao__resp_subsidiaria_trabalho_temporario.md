@@ -19,8 +19,8 @@ Contestação em que a ECT é **2ª Reclamada** e o Reclamante é empregado de *
 (Lei 6.019/74) contratada por licitação, pedindo responsabilidade subsidiária pelas verbas e — quando houve
 acidente nas instalações da ECT — responsabilidade solidária pelo dano.
 
-Para terceirização de serviços comuns, aproveita-se tudo menos o bloco IV.3 (limite do art. 10, § 7º, da Lei
-6.019/74). Para transporte de carga postal, usar o modelo próprio
+Para terceirização de serviços comuns, usar `contestacao__resp_subsidiaria_terceirizacao.md` (deste modelo
+aproveita-se tudo menos o bloco IV.3, limite do art. 10, § 7º, da Lei 6.019/74). Para transporte de carga postal, usar o modelo próprio
 (`recurso_ordinario__resp_subsidiaria_transporte.md`), cuja linha 1 é específica daquele tipo contratual.
 
 ## Estrutura padrão

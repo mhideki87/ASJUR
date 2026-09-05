@@ -6,7 +6,7 @@ status: validada
 gatilhos: [trabalho temporário, empresa de trabalho temporário, mão de obra temporária, Lei 6.019/74, art. 10 da Lei 6.019/74, art. 16 da Lei 6.019/74, Lei 13.429/2017, contrato a termo, contrato por prazo determinado, auxiliar de logística, separação de encomendas, carência transitória de pessoal, demanda complementar de serviços, responsabilidade subsidiária, tomadora de serviços, Súmula 331, acidente em instalação da ECT, art. 942 do Código Civil]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_trabalho_temporario.md]
-ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/transversal/prerrogativas_processuais_ect.md]
+ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/transversal/prerrogativas_processuais_ect.md]
 atualizado: 2026-09-04
 ---
 
@@ -23,6 +23,9 @@ art. 77, § 1º, da Lei 13.303/2016, ADC 16, Tema 246, ausência de culpa *in el
 da prova da fiscalização, precedentes do STF e do TRT24) está na ficha de
 [responsabilidade subsidiária em transporte de carga postal](responsabilidade_subsidiaria_transporte_carga_postal.md)
 e **aproveita-se integralmente aqui** — não está repetida.
+
+Terceirização de **serviços comuns** (limpeza, conservação, portaria) tem ficha própria:
+[responsabilidade_subsidiaria_terceirizacao_servicos.md](responsabilidade_subsidiaria_terceirizacao_servicos.md).
 
 O que **não** se aproveita de lá: a linha 1 daquela ficha (natureza comercial do contrato de transporte,
 Lei 11.442/2007, Tema 59 do TST) é específica de transporte de cargas e **não** serve para trabalho
