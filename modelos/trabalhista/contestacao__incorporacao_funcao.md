@@ -4,7 +4,8 @@
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
 **Última atualização:** 2026-09-05 — advertência sobre erros de data no `.docx`, estrutura real conferida
 contra contestação aprovada, blocos acrescidos em minuta real, e Súmula 372, I, cancelada pela Res. nº
-225/2025 do TST (bloco de *overruling* obsoleto nessa parte).
+225/2025 do TST (bloco de *overruling* obsoleto nessa parte); data de revogação do Módulo 36 fixada em
+05/05/2014.
 
 ---
 
@@ -35,7 +36,7 @@ PRELIMINARMENTE
       art. 202, §2º, CF; art. 68 da LC 109/2001.
 PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL [SE HOUVER pedido de FAT/ITF]
   art. 11, § 2º, da CLT (**a Súmula 294 foi cancelada** pela Resolução nº 225/2025 — ver
-  [`teses/trabalhista/prescricao.md`](../../teses/trabalhista/prescricao.md)) — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 15/05/2014) é o ato
+  [`teses/trabalhista/prescricao.md`](../../teses/trabalhista/prescricao.md)) — a revogação da norma interna (Módulo 55 em 01/05/2012; Módulo 36 em 05/05/2014) é o ato
   único que dispara o prazo prescricional de 5 anos; ação ajuizada depois disso está com a pretensão
   totalmente prescrita quanto a essas normas.
 MÉRITO
@@ -127,16 +128,13 @@ na **variante 2 do item 2.1** ("preencheu o requisito da FAT mas não o da ITF")
 
 | Está escrito no `.docx` | Deveria ser |
 |---|---|
-| "quando da revogação do Módulo 36 do MANPES em **abril de 2014**" | Módulo 36 — **15/05/2014** |
+| "quando da revogação do Módulo 36 do MANPES em **abril de 2014**" | Módulo 36 — **05/05/2014** |
 | "quando da revogação do Módulo 36 do MANPES em **30/04/2012**" | **Módulo 55** — **01/05/2012** |
 
-Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 15/05/2014**. Conferir sempre; o
-segundo erro troca o próprio módulo, e passar isso para a peça entrega ao adversário uma contradição de
-graça.
+Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 05/05/2014** (Mem. Circular
+00676-VIGEP). Conferir sempre; o segundo erro troca o próprio módulo, e passar isso para a peça entrega ao
+adversário uma contradição de graça.
 
-`[REVISAR: em 09/2026 uma sessão sustentou que a revogação do Módulo 36 seria 05/05/2014, e não 15/05/2014.
-Prevaleceu a data das fichas (15/05/2014), mas conferir no MANPES antes de usar em peça — dela depende o
-cômputo do decênio.]`
 
 Outros pontos do `.docx` a revisar antes de reaproveitar:
 - o endereçamento aparece como "JUIZ(A) **FEDERAL** DA [Nº] VARA DO TRABALHO" — corrigir para "JUIZ(A) DO
@@ -186,7 +184,7 @@ revogação.
   `- SE HOUVER ...`.
 - O item 2.1 (Súmula 51) precisa da variante certa conforme o cruzamento de duas datas: (a) quando o
   Reclamante completou os requisitos temporais da FAT/FAO (5 anos) e da ITF/GPTF (10 anos) e (b) as datas de
-  revogação dos Módulos 55 (01/05/2012) e 36 (15/05/2014) — sempre conferir isso nos documentos anexados
+  revogação dos Módulos 55 (01/05/2012) e 36 (05/05/2014) — sempre conferir isso nos documentos anexados
   antes de escolher a variante.
 - Se o caso disser respeito só à Súmula 372 (sem norma interna invocada pelo autor), o bloco 2 inteiro
   (normas internas) pode ser suprimido — e, com o item I cancelado, a defesa fica mais curta: não há verbete

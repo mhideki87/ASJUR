@@ -7,7 +7,7 @@ gatilhos: [prescrição, prescrição total, prescrição parcial, Súmula 294, 
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-03
+atualizado: 2026-09-05
 ---
 
 # Tese — Prescrição total
@@ -56,7 +56,7 @@ supressão da rubrica em folha) é o marco inicial do prazo de 5 anos — decorr
 está **totalmente** prescrita, não apenas parcialmente.
 
 Datas de revogação que servem de marco no tema mais frequente:
-**Módulo 55 — 01/05/2012** · **Módulo 36 — 15/05/2014**.
+**Módulo 55 — 01/05/2012** · **Módulo 36 — 05/05/2014** (Mem. Circular 00676-VIGEP).
 
 ### Como redigir depois do cancelamento
 
