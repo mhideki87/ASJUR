@@ -17,10 +17,12 @@ python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <
 
 Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
-- Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de
-  polo (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargado, etc.).
+- Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões e mandado de
+  segurança) e os rótulos de polo (Reclamante/Reclamada; Recorrente/Recorrido; Impetrante/Autoridade
+  Coatora/Litisconsorte, etc.).
 - `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
-  CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
+  CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista; art. 897-A
+  CLT para embargos de declaração; art. 5º, LXIX, da CF e Lei 12.016/2009 para mandado de segurança).
 
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
@@ -78,6 +80,11 @@ modelos/<area>/<tipo_peca>__<tema>.docx    → formatação real: fonte, margens
 O `.md` descreve em prosa para consulta rápida; o `.docx` é o arquivo literal que deve ser aberto e usado
 como base ao gerar a peça final — **não tente recriar a formatação a partir da descrição em texto**, use o
 arquivo binário como modelo.
+
+> **Precedência:** em qualquer divergência de formatação entre um `.docx` de tema e o `_FORMATO_BASE.docx`,
+> vale o `_FORMATO_BASE.docx`. Os `.docx` de tema salvos antes da revisão do padrão de parágrafos servem
+> apenas como referência de **estrutura de corpo**; a aparência (títulos em quadro, subtítulos sublinhados,
+> recuos, citações) sai sempre do formato base.
 
 ## Por que isso existe
 

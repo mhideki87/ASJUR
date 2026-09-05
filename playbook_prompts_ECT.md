@@ -73,9 +73,9 @@ Analise a sentença anexada e estruture:
 3. CAPÍTULOS FAVORÁVEIS À ECT — e quais fundamentos sustentam cada um (servirão
    para contrarrazões).
 4. CAPÍTULOS DESFAVORÁVEIS — e se há tese da ECT que a sentença deixou de enfrentar
-   (relevante para embargos de declaração / prequestionamento).
+   (é o que gera tópico de embargos de declaração).
 5. PREQUESTIONAMENTO — dispositivos e súmulas expressamente enfrentados, e os que
-   ficaram de fora.
+   ficaram de fora (insumo do RECURSO, não dos embargos — ver 2.6).
 6. RECOMENDAÇÃO — embargos, recurso ordinário, ou aguardar. Justifique.
 ```
 
@@ -183,10 +183,59 @@ formatar-minuta.
 
 Aponte, um a um: omissão / contradição / obscuridade / erro material, indicando
 para cada vício o trecho exato da decisão e a tese ou dispositivo não enfrentado.
-Requeira o prequestionamento explícito (Súmula 297/TST).
+NÃO inclua seção de prequestionamento nem alínea de prequestionamento nos
+requerimentos — isso vai no recurso, não nos embargos. A única exceção é o
+pedido subsidiário DENTRO do tópico, quando a súmula ou o dispositivo é o
+próprio eixo do vício (ex.: "...e, subsidiariamente, o pronunciamento explícito
+sobre o verbete, para fins de prequestionamento").
+Seja econômico: só vícios de alta convicção. Migre para o recurso tudo que
+dependa de requalificar o que o juízo decidiu, que não tenha sido deduzido
+especificamente na defesa, que seja erro material de baixo impacto econômico,
+ou que seja objeção subsidiária de mérito.
 Não use os embargos para rediscutir mérito — se não houver vício real, diga isso
 em vez de redigir a peça.
 ```
+
+Para sentença de 1º grau existe modelo consolidado:
+`modelos/trabalhista/embargos_declaracao__sentenca_primeiro_grau.md` (+ `.docx`) — traz o padrão de cinco
+movimentos de cada tópico, o bloco recorrente da ECT (honorários de sucumbência recíproca, prerrogativas da
+Fazenda Pública, EC 113/2021, planilhas anexas), o registro de estilo e o checklist de leitura da sentença —
+cujo item 0 manda **conferir na fonte oficial** toda súmula que for sustentar um tópico.
+
+**Padrão confirmado (08/2026):** embargos **sem seção de prequestionamento** — ele é do recurso. E peça
+**enxuta**: no caso-fonte a minuta foi de 15 para 7 tópicos, com numeração corrida, sem subdividir por espécie
+de vício. Um ED com 15 tópicos lê-se como inconformismo; com 7, como apontamento técnico.
+
+### 2.7 Recurso Ordinário
+```
+Redija recurso ordinário contra a sentença anexada, formatação do <MODELO.odt>.
+
+ESTRUTURA (duas peças no mesmo arquivo, com quebra de página entre elas):
+- Petição de juntada à <Nª> Vara do Trabalho de Campo Grande/MS — tempestividade
+  (8 dias em dobro, dias úteis, contados da publicação da decisão de embargos, que
+  interromperam o prazo) e preparo (isenção de custas e de depósito recursal)
+- Razões endereçadas ao TRT da 24ª Região:
+I   — Síntese da demanda e da decisão recorrida
+II  — Preliminar de nulidade por negativa de prestação jurisdicional (SÓ se houve
+      embargos apontando a omissão e a decisão integrativa não a sanou; sempre com
+      pedido subsidiário de julgamento imediato — art. 1.013, §3º, IV, do CPC)
+III — Mérito, capítulo a capítulo, do mais forte para o mais fraco
+IV  — Prequestionamento explícito (aqui sim — só do que foi debatido no corpo)
+V   — Requerimentos
+
+Cada capítulo de mérito em quatro movimentos: o que a sentença decidiu (transcrever)
+→ por que está errada (fato, prova e norma, nomeando o ônus da prova) → a
+consequência concreta se subsistir → o pedido de reforma, específico.
+
+Leia a decisão de embargos procurando material aproveitável CONTRA ela: prerrogativa
+processual reconhecida (blinda o preparo), erro material admitido (reforça iliquidez),
+contradição interna (sustenta a preliminar), qualificação branda do fato no dano moral.
+
+NÃO recorra do que está perdido nem do que já se ganhou nos embargos — diga isso
+expressamente em vez de incluir o capítulo.
+```
+
+Modelo consolidado: `modelos/trabalhista/recurso_ordinario__sentenca_primeiro_grau.md` (+ `.docx`).
 
 ---
 
@@ -199,7 +248,8 @@ Revise a minuta anexada como se fosse conferi-la antes do protocolo. Verifique:
 - há contradição interna de datas, valores ou nomes?
 - há citação de jurisprudência sem fonte nos autos?
 - os requerimentos finais correspondem às teses desenvolvidas?
-- o prequestionamento cobre todos os dispositivos discutidos?
+- se a peça for recurso: o prequestionamento cobre todos os dispositivos
+  discutidos? (em embargos de declaração não se aplica — ver 2.6)
 Liste apenas os problemas, com a localização de cada um. Não reescreva a peça.
 ```
 
@@ -250,6 +300,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Peça | Anexar |
 |---|---|
 | Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
+| Recurso ordinário | sentença · decisão dos embargos · contestação · peça-modelo |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
 | Recurso Ordinário | sentença · contestação · peça-modelo do mesmo tema · contrato administrativo e documentos de fiscalização (quando o tema for responsabilidade subsidiária) |
 | Recurso de revista | acórdão · embargos e decisão dos embargos · peça-modelo |
@@ -306,9 +357,10 @@ anexar, e um **ao final** de cada sessão em que algo for minutado.
 ```
 Antes de eu anexar um modelo antigo: a formatação desta peça vem da skill formatar-minuta, que
 clona modelos/_FORMATO_BASE.docx (fonte, cabeçalho, rodapé, fecho e assinatura), para qualquer tipo
-de peça — não peça modelo antigo por causa de formatação. Ajuste o bloco de qualificação
-(endereçamento, rótulos de polo, fundamentação legal de admissibilidade) conforme o tipo de peça
-desta sessão.
+de peça — não peça modelo antigo por causa de formatação. Siga também a tabela de parágrafos de
+modelos/README.md (títulos de seção em quadro centralizado, subtítulos sublinhados recuados,
+enumerações e citações em bloco de 3 cm). Ajuste o bloco de qualificação (endereçamento, rótulos de
+polo, fundamentação legal de admissibilidade) conforme o tipo de peça desta sessão.
 Além disso, verifique em modelos/<área>/ se já existe o par <tipo_peca>__<tema>.md (+ .docx, se
 houver) para esta peça + tema. Se existir, use o .md como base de estrutura/tese — não peça o anexo
 de uma peça-modelo antiga. Se não existir, ou se estiver desatualizado, me avise e eu anexo o modelo.

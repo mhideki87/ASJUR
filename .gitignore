@@ -6,3 +6,7 @@
 *.doc
 *.docx
 !modelos/**/*.docx
+
+# Cache do Python gerado ao importar os scripts (ex.: em teste do atualizar_indice)
+__pycache__/
+*.pyc
