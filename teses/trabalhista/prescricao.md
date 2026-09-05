@@ -3,11 +3,11 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, prescrição total, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, Resolução 225/2025]
+gatilhos: [prescrição, prescrição total, prescrição parcial, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Resolução 225/2025]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-02
+atualizado: 2026-09-03
 ---
 
 # Tese — Prescrição total
@@ -85,6 +85,37 @@ parcial. Resposta: o art. 11, § 2º, da CLT exige que **a própria parcela** es
 de lei — nenhuma lei institui o AAT ou o AADC; a lei assegura a irredutibilidade em abstrato, não a
 rubrica.
 
+## Como o TRT24 tem decidido — atenção antes de apoiar a defesa nesta prejudicial
+
+**A prejudicial é sólida na tese e frágil no 2º grau desta Região.** As duas Turmas do TRT24 vêm
+**rejeitando a prescrição total** neste tema, com fundamento duplo e articulado:
+
+1. estando o direito previsto em **norma interna**, a prescrição seria apenas **parcial**, pela parte final
+   da Súmula 294 e do art. 11, §2º, da CLT — interpretando "norma" como qualquer ato normativo de quem tem
+   competência para editá-lo, e não só a lei em sentido estrito;
+2. prevendo a norma interna a incorporação após 10 anos, **presume-se a despesa autorizada no orçamento**,
+   sendo devida a ITF **independentemente da Súmula 372**, sem ofensa ao art. 167, II, da CF; e a Lei
+   13.467/2017 não retroagiria sobre direito adquirido (art. 5º, XXXVI, da CF).
+
+Precedentes **contrários à ECT** (extraídos das transcrições de petição inicial adversa — conferir teor nos
+originais antes de rebater):
+
+- ROT 0024529-34.2024.5.24.0007 — 1ª Turma, Des. Nicanor de Araújo Lima, DEJT 31/03/2025
+- RORSum 0025211-32.2023.5.24.0004 — 2ª Turma, Des. Francisco das C. Lima Filho, DEJT 11/02/2025
+- ROT 0024296-85.2023.5.24.0003 — 2ª Turma, Des. João de Deus Gomes de Souza, jul. 20/09/2023
+- RORSum 0024256-73.2022.5.24.0056 — 2ª Turma, Des. Francisco das C. Lima Filho, jul. 24/05/2023
+
+Precedente **favorável** do próprio TRT24, mais antigo, que consta do modelo institucional e transcreve a
+fundamentação inteira (útil para citar):
+
+- RO 0024632-20.2019.5.24.0006 — 1ª Turma, Des. Nery Sá e Silva de Azambuja, jul. 30/06/2020
+
+**Consequência prática para a estratégia da peça:** arguir sempre a prescrição total — é pressuposto do
+recurso de revista e há o Tema 23 a invocar —, mas **não fazer dela o eixo da defesa** no TRT24. O peso deve
+ficar em argumentos de **fato provado por documento**, que escapam dessa controvérsia jurídica: inexistência
+de supressão da parcela e não implementação do requisito temporal na vigência da norma interna. Pedir sempre,
+sucessivamente, a prescrição parcial quinquenal.
+
 ## Pontos sensíveis
 
 - A prescrição é **total** (não parcial) justamente porque a parcela não é assegurada por lei, e sim por
@@ -98,6 +129,13 @@ rubrica.
 
 ## Lacunas
 
-- [ ] Registrar como o TRT24 tem decidido a prejudicial nesses casos (acolhe total, parcial ou rejeita).
+- [x] Registrar como o TRT24 tem decidido a prejudicial nesses casos (acolhe total, parcial ou rejeita).
+      → registrado na seção "Como o TRT24 tem decidido": a linha recente das duas Turmas **rejeita** a
+      prescrição total e reconhece apenas a parcial.
+- [ ] Conferir nos originais o teor dos quatro acórdãos contrários listados (vieram de transcrição em
+      inicial adversa) e verificar se há decisão posterior a 31/03/2025 que altere a orientação — em
+      especial se o cancelamento da Súmula 372, I, pela Resolução 225/2025 mudou esse entendimento regional.
+- [ ] Verificar se existe recurso de revista da ECT admitido contra essa linha do TRT24 e qual o resultado
+      no C. TST.
 - [ ] Verificar como os TRTs vêm reagindo ao cancelamento da Súmula 294 — se algum tem lido o cancelamento
       como enfraquecimento da tese, em vez de absorção pela lei.

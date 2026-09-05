@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, interstício 180 dias, média ponderada, somatório dividido por 120, memória de cálculo, tabela de funções]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-05
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -86,6 +86,12 @@ direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da
   bloqueados pelo proxy do ambiente cloud — conferir o texto da Resolução nº 225/2025 na fonte oficial
   antes de citar em peça protocolada]`
 - **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (art. 927 do CPC).
+  Teor literal, conforme transcrito no modelo institucional (INCJULGRREMBREP-528-80.2018.5.14.0004):
+  *"A Lei nº 13.467/2017 possui aplicação imediata aos contratos de trabalho em curso, passando a regular os
+  direitos decorrentes de lei cujos fatos geradores tenham se efetivado a partir de sua vigência"*
+  `[REVISAR: conferir número do processo, data de julgamento/publicação e teor literal na fonte antes de
+  citar]`. O **fato gerador** é a **dispensa da função** — logo, dispensa posterior a 11/11/2017 atrai o
+  art. 468, §2º, da CLT por inteiro, ainda que o decênio tenha se completado antes.
 - Art. 8º, §2º, da CLT; *ratio decidendi* de precedentes do STF; **salário-condição**;
   legalidade administrativa.
 
@@ -97,6 +103,14 @@ Precedentes do TST sobre a própria ECT e os mesmos normativos:
 - RR-10662-35.2018.5.03.0179 — 6ª Turma, Min. Kátia Magalhães Arruda, DEJT 13/06/2023
 - RRAg-0010959-96.2017.5.03.0140 — 3ª Turma, Min. Mauricio Godinho Delgado, DEJT 26/05/2023
 - E-RR-1561-30.2015.5.10.0002 — SBDI-1, 06/12/2018
+
+Sobre a **impossibilidade de computar "quebra de caixa"** para o decênio (precedente que consta do modelo
+institucional e antes não estava nesta ficha):
+
+- E-ARR-8-98.2011.5.15.0114 — SBDI-1, Min. Breno Medeiros, jul. 16/08/2018, DEJT 24/08/2018 — quebra de caixa
+  é **salário-condição** (plus destinado a quem opera caixa, para cobrir prejuízo de fechamento), de essência
+  e finalidade distintas da gratificação de função; não se incorpora, como não se incorporam horas extras e
+  adicionais.
 
 Precedente sobre o **Módulo 36 e a hipótese exata de norma revogada durante o exercício da função**
 (o mais próximo do caso quando a parte autora alega ter completado o decênio antes da revogação):
@@ -140,9 +154,67 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
   completou o requisito temporal (5 anos FAT/FAO; 10 anos ITF/GPTF) e a data de revogação do módulo
   correspondente. Conferir sempre nos documentos antes de escolher — é o ponto mais sensível do tema.
 - Períodos de **Motorizado** e **Quebra de Caixa** não contam como gratificação de confiança
-  (salário-condição / adicional de risco).
+  (salário-condição / adicional de risco) — **mas separe os dois planos, sob pena de contradição na peça**:
+  ver a seção "Quebra de caixa: usar o argumento em qual plano" abaixo.
 - **Substituição** só computa se contínua e superior a 180 dias (Módulo 55, item 3.1.1).
 - **CIP** só passou a ser paga a partir de outubro/2014 — em geral não completa o requisito temporal.
+
+## Quebra de caixa: usar o argumento em qual plano — e em qual não usar
+
+Achado de sessão real. A tese "quebra de caixa não conta para o requisito temporal" **não pode ser usada
+indistintamente**, porque tem um flanco documental aberto:
+
+- a **própria ECT** classifica a função (ex.: "QUEBRA DE CAIXA C/ GRAT ATEND BP") como
+  **"Atividade Especial"** no campo "FUNÇÕES" da ficha cadastral; e
+- o item 1.1, "a", do Capítulo 2 do **Módulo 36** conta o tempo em função *"gerencial, técnica, de atividade
+  especial, FAT/FAO, ou dirigente"*; e
+- a parcela é paga sob a **mesma rubrica** da função técnica ("Gratificação de Função Conv.").
+
+Ou seja: no plano da **norma interna**, a parte autora responde com documento da própria Empresa.
+Regra de uso, então:
+
+| Plano | Argumento a usar | Argumento a **evitar** |
+|---|---|---|
+| **Decênio** (Súmula 372, I, quando o autor sustenta aplicação residual a reversão anterior a 11/11/2017) | natureza da parcela — salário-condição, ausência de fidúcia especial, atividade própria do cargo de Atendente Comercial prevista no PCCS/edital; E-ARR-8-98.2011.5.15.0114 | — |
+| **Módulo 36** (ITF) | **exclusivamente o temporal**: requisito não implementado até a revogação, e dispensa pela Empresa posterior a ela | não discutir a natureza da parcela aqui — o Módulo 36 conta "atividade especial" no seu próprio texto |
+
+Efeito prático quando a exclusão é aceita no plano do decênio: descontados os períodos de quebra de caixa,
+frequentemente o empregado tem **zero** tempo de função de confiança em 11/11/2017 — o que derruba a
+alegação de "decênio completado antes da Reforma", com que o autor tenta sustentar a aplicação residual do
+item I já cancelado.
+
+## Cruzamento de datas — exemplo trabalhado (sessão real)
+
+Serve de gabarito para o cálculo que decide a variante da Súmula 51. Empregado com função gratificada a
+partir de **01/10/2004**:
+
+| Marco | Tempo acumulado | Requisito |
+|---|---|---|
+| Revogação do Módulo 55 — 01/05/2012 (5 anos, FAT/FAO) | 91 meses (7a 7m) | **preenchido** (5 anos em 01/10/2009) |
+| Revogação do Módulo 36 — 15/05/2014 (10 anos, ITF/GPTF) | 115 meses (9a 7m 14d) | **não preenchido** |
+| Reforma Trabalhista — 11/11/2017 | 157 meses (13a 1m) | — |
+
+Os 10 anos só se completariam em **01/10/2014** — 4 meses e 16 dias **após** a revogação. Variante correta do
+item 2.1 do modelo: a **segunda** ("preencheu o requisito da FAT/FAO, não o da ITF"). Dois reforços que
+costumam existir nos autos e valem levantar: (a) o segundo requisito cumulativo (dispensa da função por
+iniciativa da Empresa) normalmente só ocorre anos depois da revogação — nenhum dos dois coexistiu na vigência
+da norma; (b) **afastamentos previdenciários** zeram a rubrica de gratificação nas fichas financeiras e
+consomem o interstício de 180 dias do item 1.2 do Capítulo 2 do Módulo 36, postergando ainda mais o
+implemento. Sempre pedir à área o cômputo oficial mês a mês.
+
+## Quantum — metodologia da própria norma afasta os 100% pedidos
+
+O item **2.4 do Capítulo 3 do Módulo 36** estabelece a metodologia de cálculo:
+
+> "Após este levantamento será calculado o somatório dos valores atuais das funções ocupadas e dividido por
+> 120 para se encontrar o valor da GPTF ou ITF. Esse levantamento deverá ser efetuado no período dos últimos
+> 10 anos a partir da data da dispensa da função."
+
+Logo, pedido de **100% da média ponderada** contraria a norma que o próprio autor invoca: o divisor é fixo
+(120), de modo que quem não tem 120 meses de função **incorporável** na janela recebe percentual proporcional.
+Usar sempre `XX%` como placeholder até a área fechar o cálculo, e requerer *ad cautelam* a **aplicação
+integral** do normativo (bloco 2.2 do modelo). No caso trabalhado, dos 119 meses da janela apenas 72 (60%)
+eram de função técnica — o restante, quebra de caixa.
 
 ## Ligações
 
@@ -161,5 +233,10 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 - [ ] Conferir a Resolução nº 225/2025 na fonte oficial do TST (não foi possível abrir do ambiente cloud).
 - [ ] Levantar como o TRT24 vem tratando a aplicação residual da Súmula 372, I, a reversões anteriores a
       11/11/2017.
-- [ ] Número/identificação completa do Tema 23 conforme citado no modelo (INCJULGRREMBREP
-      528-80.2018.5.14.0004) — confirmar antes de usar como citação isolada desta ficha.
+- [ ] Teor literal da tese do Tema 23 já registrado nesta ficha (extraído do modelo institucional);
+      **falta confirmar** número do processo, data de julgamento e publicação na fonte oficial.
+- [ ] Como o TRT24 e o C. TST tratam a exclusão do período de quebra de caixa **quando a própria ECT o
+      classifica como "Atividade Especial"** — é o contra-argumento documental mais forte do autor e a base
+      ainda não tem decisão registrada sobre ele.
+- [ ] Precedente do TRT24 sobre inaplicabilidade da Súmula 372 por fato consumado após 11/11/2017: o modelo
+      institucional transcreve a ementa **sem** número, Turma, Relator e data — identificar.

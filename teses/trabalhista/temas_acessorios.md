@@ -3,7 +3,7 @@ area: trabalhista
 tema: Temas acessórios (ad cautelam)
 slug: temas_acessorios
 status: validada
-gatilhos: [quebra de caixa, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, cota da patrocinadora, honorários advocatícios, art. 791-A, art. 85 § 3º CPC, normativos internos, PLR, retificação do CNIS, salários de contribuição, multa diária]
+gatilhos: [quebra de caixa, atividade especial, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, cota da patrocinadora, honorários advocatícios, art. 791-A, art. 85 § 3º CPC, normativos internos, PLR, retificação do CNIS, salários de contribuição, multa diária, AAG, adicional de atendimento em guichê]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
@@ -20,6 +20,11 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
 ## Temas
 
 - **Quebra de caixa** — salário-condição que cobre prejuízo de caixa; não é gratificação de confiança
+  computável para o **decênio**. Precedente: E-ARR-8-98.2011.5.15.0114 (SBDI-1, Min. Breno Medeiros,
+  DEJT 24/08/2018). **Atenção — a formulação ampla desta linha estava incompleta:** no plano do
+  **Módulo 36** o argumento tem flanco aberto, porque a ECT classifica a função como "Atividade Especial"
+  na ficha cadastral e o próprio Módulo 36 conta esse tempo. Antes de usar, ler a seção "Quebra de caixa:
+  usar o argumento em qual plano" da ficha de [incorporação](incorporacao_gratificacao_funcao.md).
   computável para o requisito temporal.
 - **Substituições** — só computa substituição contínua superior a 180 dias (Módulo 55, item 3.1.1).
 - **Aplicação integral dos normativos internos** — *ad cautelam*: se a norma interna for aplicada, que
@@ -27,7 +32,17 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   compensação).
 - **Reajustes de ACT** — as cláusulas de reajuste do Acordo Coletivo incidem sobre a **tabela salarial**,
   não sobre a tabela de função.
-- **CIP** — só passou a ser paga a partir de outubro/2014; em geral não completa o requisito temporal.
+- **CIP** — só passou a ser paga a partir de outubro/2014; em geral não completa o requisito temporal. Somar
+  dois argumentos de prova: a alegação de que a CIP seria "rubrica criada para pagar o reajuste da data-base"
+  costuma vir **sem os documentos** que a própria inicial invoca ("Descrição Tabelas", "e-mail reajuste
+  tabela de funções"), e as fichas financeiras juntadas pelo autor costumam **faltar justamente o exercício
+  de 2014** — ônus do autor (art. 818, I, da CLT). A expressão econômica da parcela, além disso, é ínfima
+  (dezenas de reais mensais).
+- **Nova designação logo após a destituição** — conferir sempre no campo "FUNÇÕES" da ficha cadastral se o
+  empregado foi redesignado para outra função gratificada em seguida (às vezes no dia seguinte, com vigência
+  "31/12/9999"). Se foi, **não houve supressão**, e sim redução — o que ataca a premissa fática da inicial e
+  reforça o pedido de compensação. Conferir em paralelo se alguma outra rubrica subiu no mesmo mês (ex.:
+  "AAG – Adic. de Atend. em Guichê"), reduzindo a perda real alegada.
 - **POSTALIS (previdência privada)** — incompetência da Justiça do Trabalho quanto às contribuições
   (art. 114 da CF; art. 202, §2º, da CF; art. 68 da LC 109/2001; RE 569056-3/STF); no mérito, falta de
   comprovação de adesão ao plano e vedação a julgamento extra/ultra petita (arts. 141 e 492 do CPC)

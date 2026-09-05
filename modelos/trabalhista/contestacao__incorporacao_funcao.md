@@ -2,7 +2,8 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-08-15 — criação inicial.
+**Última atualização:** 2026-09-03 — advertência sobre erros de data no `.docx`, estrutura real conferida
+contra contestação aprovada e blocos acrescidos em minuta real.
 
 ---
 
@@ -114,6 +115,58 @@ Fecho + assinatura
   sempre que houver prova (ficha cadastral/financeira) de nova designação após a dispensa discutida na ação.
 - Fecho "Nesses Termos, Pede Deferimento." + bloco de assinatura — vem da skill `formatar-minuta`.
 
+## ⚠ Erros conhecidos no `.docx` — corrigir a cada uso
+
+Achados em sessão real de minuta (28/08/2026). O `.docx` é peça-mestra multiuso e carrega duas trocas de data
+na **variante 2 do item 2.1** ("preencheu o requisito da FAT mas não o da ITF"):
+
+| Está escrito no `.docx` | Deveria ser |
+|---|---|
+| "quando da revogação do Módulo 36 do MANPES em **abril de 2014**" | Módulo 36 — **15/05/2014** |
+| "quando da revogação do Módulo 36 do MANPES em **30/04/2012**" | **Módulo 55** — **01/05/2012** |
+
+Datas canônicas da base: **Módulo 55 → 01/05/2012** · **Módulo 36 → 15/05/2014**. Conferir sempre; o segundo
+erro troca o próprio módulo, e passar isso para a peça entrega ao adversário uma contradição de graça.
+
+Outros pontos do `.docx` a revisar antes de reaproveitar:
+- o endereçamento aparece como "JUIZ(A) **FEDERAL** DA [Nº] VARA DO TRABALHO" — corrigir para "JUIZ(A) DO
+  TRABALHO";
+- erros de digitação herdados ("emanta", "graficação", "ennvolvendo", "Reclamada" por "Reclamante" em alguns
+  blocos);
+- três acórdãos transcritos **sem identificação completa** (o do TRT24 sobre inaplicabilidade da Súmula 372
+  por fato consumado após 11/11/2017; o do TST sobre expectativa de direito no Módulo 36; e o do Min. Hugo
+  Carlos Scheuermann sobre a GPTF). Não citar sem completar número, Turma, Relator e data;
+- o bloco 1.2 trata a Súmula 372, I, como verbete a ser **superado** por *overruling*. Depois da
+  **Resolução nº 225/2025** do Pleno do TST ela está **cancelada** — reescrever nessa chave, que é argumento
+  mais forte e mais curto. Reformulação já validada em minuta real (03/09/2026), como tópico próprio do
+  mérito, nesta ordem: (i) o verbete não existe mais — Resolução nº 225/2025, cancelamento do item I por
+  perda de eficácia a partir de 11/11/2017, com a ressalva de que o **item II não foi cancelado**;
+  (ii) a data da dispensa da função no caso, para mostrar que nem a aplicação residual do item I é cogitável;
+  (iii) o alerta de que acórdão posterior a 30/06/2025 que ainda o invoque aplica verbete cancelado — serve
+  contra os precedentes transcritos na inicial; (iv) só então, como reforço, o art. 8º, §2º, da CLT e o
+  precedente da 4ª Turma sobre jurisprudência sem base legal (RR 305-75.2015.5.05.0492). Manter o
+  `[REVISAR]` da conferência da Resolução na fonte oficial.
+
+## Blocos acrescidos em minuta real (28/08/2026)
+
+Caso concreto: Reclamante redesignado para outra função gratificada **no dia seguinte** à destituição, com a
+gratificação de função **nunca suprimida**, e requisito temporal do Módulo 36 não implementado até a
+revogação.
+
+1. **"Da inexistência de supressão da gratificação de função — falsidade da premissa fática"** —
+   **primeiro tópico do mérito**, antes de qualquer tese jurídica. Confronta a alegação de supressão com o
+   campo "FUNÇÕES" da ficha cadastral (nova designação, vigência "31/12/9999") e com a rubrica de
+   Gratificação de Função Conv. das fichas financeiras, mês a mês. Quando os documentos permitem, é o bloco
+   mais forte da peça, porque é fato provado por documento do próprio autor.
+2. **Impugnação aos documentos, ampliada** — impugnação **nominal** à planilha de apuração de tempo de função
+   que a inicial insere no corpo, e à **incompletude das fichas financeiras** (identificar quais exercícios
+   faltam; costuma faltar justamente o do marco alegado pelo autor).
+3. **Contradição do autor quanto à equiparação à Fazenda Pública** — dentro do bloco de honorários: invoca a
+   equiparação para juros e para o art. 85, §3º, do CPC, e a repudia quando dela decorre a vedação de
+   incorporar gratificação.
+4. **Bloco da ADC 80** na impugnação à justiça gratuita — texto pronto em
+   `teses/transversal/preliminares_processuais_defesa.md`; conferir o andamento do julgamento antes de usar.
+
 ## Variações observadas
 
 - Este modelo é, por natureza, mais modular que um esqueleto fixo: cada `- SE HOUVER ...` no `.docx` marca
@@ -133,4 +186,6 @@ Fecho + assinatura
 Sustenta a ficha `teses/trabalhista/incorporacao_gratificacao_funcao.md`, a tese recorrente mais frequente
 da ECT. Toca também `teses/trabalhista/prescricao.md`,
 `teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
-`teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios).
+`teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios, quebra de caixa, CIP, reflexos) e
+`teses/transversal/preliminares_processuais_defesa.md` (rito sumaríssimo, gratuidade com o bloco da ADC 80,
+Juízo 100% Digital).
