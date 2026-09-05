@@ -3,10 +3,10 @@ area: trabalhista
 tema: Doença ocupacional
 slug: doenca_ocupacional
 status: validada
-gatilhos: [doença ocupacional, acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, quesitos de perícia, NTEP, CNAE, espécie 91, espécie 31, PCMSO, CAT, Comunicação de Acidente de Trabalho, riscos psicossociais, danos morais por doença, pensionamento, readaptação, LER, DORT, transtorno psiquiátrico, acidente de trajeto, fortuito externo, fato da natureza, força maior]
+gatilhos: [doença ocupacional, acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, quesitos de perícia, NTEP, CNAE, espécie 91, espécie 31, PCMSO, CAT, Comunicação de Acidente de Trabalho, riscos psicossociais, danos morais por doença, pensionamento, readaptação, LER, DORT, transtorno psiquiátrico, acidente de trajeto, fortuito externo, fato da natureza, força maior, prescrição em doença ocupacional, ciência inequívoca, Súmula 278 do STJ, reabilitação profissional, parcela única, valor presente]
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md, modelos/trabalhista/contestacao__doenca_ocupacional.md]
-ver_tambem: [teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md]
+ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md]
 atualizado: 2026-09-05
 ---
 
@@ -40,6 +40,75 @@ As três frentes abaixo continuam valendo; ali fica o que é próprio do evento 
 - Ausência de comunicação prévia da doença à empresa.
 - **Exigir do perito a indicação da norma específica** supostamente descumprida — não aceitar
   afirmação genérica de culpa.
+- **Reabilitação profissional é prova documental de diligência.** Encaminhamento ao Programa de
+  Reabilitação Profissional do INSS, curso/treinamento da nova função ministrado pela própria ECT e
+  aproveitamento em atividade compatível **sem redução salarial** desmontam a alegação de "manutenção do
+  empregado em função incompatível com a sua condição física". O certificado do INSS serve três vezes na
+  mesma peça: **marco prescricional** (seção abaixo), **prova de diligência** e **prova de aptidão** para a
+  função atual.
+- Emissão de **CAT** pela empregadora é cumprimento do dever do art. 22 da Lei 8.213/91 — não confissão de
+  culpa (mesma linha do bloco de acidente típico).
+
+## Prescrição — na doença insidiosa, o marco é a reabilitação profissional
+
+Em acidente típico a ciência inequívoca é contemporânea ao sinistro
+([responsabilidade_civil_acidente_tipico.md](responsabilidade_civil_acidente_tipico.md)). Na doença
+insidiosa o marco **não** é o diagnóstico nem a CAT: a real extensão da lesão só se conhece em um de **dois
+resultados excludentes** — (i) aposentadoria por invalidez, ou (ii) cessação do benefício com retorno ao
+trabalho/readaptação. É a *ratio* do TST no AIRR-620-92.2013.5.04.0204.
+
+**Consequência prática — a tese mais forte deste tema.** Tendo o empregado cumprido o **Programa de
+Reabilitação Profissional do INSS** (arts. 89 e ss. da Lei 8.213/91; arts. 92 e 140 do Decreto 3.048/99) e
+sido declarado **apto** para função diversa, a **data do certificado de reabilitação** é a ciência
+inequívoca: as pretensões indenizatórias ligadas ao **cargo anterior** ficam atingidas por **prescrição
+total** (art. 7º, XXIX, da CF; extinção pelo art. 487, II, do CPC), **ainda que o contrato siga em vigor**.
+Pedir sempre, sucessivamente, a prescrição quinquenal das verbas anteriores ao quinquênio.
+
+- Fundamento do marco: *actio nata* (art. 189 do CC) e **Súmulas 230 do STF e 278 do STJ**
+  `[REVISAR: conferir teor e numeração em fonte oficial — mesma pendência registrada na ficha de acidente
+  típico]`.
+- Ciência **posterior à EC 45/2004** → incide o prazo trabalhista do art. 7º, XXIX, da CF, e não o civil,
+  conforme decidiu a SBDI-1 em composição completa no **E-RR-2700-23.2006.5.10.0005** (Rel. Min. Aloysio
+  Corrêa da Veiga, sessão de 22/05/2014).
+- **"Crônico e progressivo" não renova prazo consumado:** o que se protrai é o *tratamento*, não o
+  nascimento da pretensão. Cirurgia ou exame recentes sobre patologia de ciência antiga são evolução, não
+  lesão nova — sobretudo quando o autor deixou a atividade alegadamente nociva anos antes.
+- Onde achar o marco nos autos: certificado de reabilitação do INSS, comunicação de decisão do INSS e CNIS
+  (DCB), ficha funcional com a data da mudança de cargo, e as CATs.
+
+**Precedentes** — transcritos de contestação real do escritório, anexada pelo usuário em 25/08/2026
+(conferir inteiro teor antes de reutilizar):
+
+| Aresto | Serve para |
+|---|---|
+| **TRT24 – ROT 0024198-95.2023.5.24.0004** (1ª Turma, Des. Nicanor de Araujo Lima, j. 09/07/2024) | O mais aderente: carteiro reabilitado, prescrição **total** reconhecida pelo próprio TRT24 |
+| **TST – E-ED-ED-RR-315-98.2011.5.06.0018** (SBDI-1, Red. Min. Cláudio Mascarenhas Brandão, DEJT 16/08/2019) | Marco na ciência efetiva da lesão e de sua extensão |
+| **TST – AIRR-620-92.2013.5.04.0204** (2ª T., Min. José Roberto Freire Pimenta, j. 19/08/2015) | Os "dois resultados possíveis e excludentes" — é a razão de decidir a transcrever |
+| **TST – RR-92000-78.2009.5.04.0030** (2ª T., mesmo relator, j. 12/11/2014) | Marco na consolidação (ali, trânsito da ação acidentária) |
+| **TST – RR-10165-68.2015.5.03.0165** (2ª T., mesmo relator, j. 14/10/2015) | Prescrição em doença ocupacional após a EC 45/2004 |
+| **TST – RR-11817-09.2017.5.15.0039** (4ª T., Min. Caputo Bastos, DEJT 18/09/2020) | Mera exposição a agente nocivo, sem doença caracterizada, **não** atrai a Súmula 278 do STJ |
+
+## Danos materiais — pensão do art. 950 do CC e parcela única
+
+O bloco completo de quantificação (cumulação vedada, ausência de perda salarial, base de cálculo, marcos,
+constituição de capital) está em
+[responsabilidade_civil_acidente_tipico.md](responsabilidade_civil_acidente_tipico.md). Específico deste
+tema:
+
+- **Empregado reabilitado, em atividade e com remuneração integral** → não houve inabilitação para o ofício
+  nem depreciação salarial: falta o próprio pressuposto do art. 950 do CC. Atenção: há jurisprudência que
+  defere pensão mesmo com o vínculo mantido (a inicial costuma citar o RR-Ag-10625-15.2019.5.03.0036, 3ª
+  T., cujo quadro fático premissa era de perda **definitiva e total** para a atividade anterior — usar a
+  diferença como *distinguishing*).
+- *Ad cautelam*: percentual estrito da redução apurada em perícia, reduzido pela concausa; base limitada à
+  remuneração do cargo (fora FGTS, terço de férias e verbas indenizatórias); dedução da remuneração que o
+  empregado segue recebendo; termo final pela expectativa de vida em tabela oficial do IBGE — alternativa
+  mais favorável: **idade de aposentadoria (65 anos)**, com o art. 37, §14, da CF; usar uma tese ou a
+  outra, nunca as duas.
+- **Parcela única: NÃO impugnar o pagamento — pedir a redução do valor** (regra fixada pelo usuário em
+  25/08/2026). A conversão do art. 950, parágrafo único, do CC é faculdade do juízo, e impugná-la desgasta
+  a defesa sem retorno. O pedido correto é a limitação ao **valor presente** — fórmula, variáveis e
+  fundamentos no bloco de quantificação da ficha de acidente típico.
 
 ## Acidente de trajeto e fato da natureza — excludente autônoma
 

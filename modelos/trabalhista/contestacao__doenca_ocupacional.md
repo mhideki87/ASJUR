@@ -123,6 +123,17 @@ numeração) para que nenhum pedido fique sem impugnação específica — regra
   parcial de `contestacao__limbo_previdenciario.md`: negar o que é negável e reconhecer o que é documentado
   preserva a credibilidade do resto da peça.
 - **Doença insidiosa sem CAT** — inverter o peso: frentes 1 e 2 primeiro, prescrição só quinquenal.
+- **Doença insidiosa com reabilitação profissional do INSS no histórico** — muda tudo: a prejudicial vira
+  **prescrição total** das pretensões ligadas ao cargo anterior (marco na data do certificado de
+  reabilitação, ainda que o contrato siga vigente), e o mesmo certificado sustenta a frente 3 (diligência
+  da empregadora) e a inexistência de incapacidade para a função atual. Encadeamento e precedentes na seção
+  "Prescrição" de [`teses/trabalhista/doenca_ocupacional.md`](../../teses/trabalhista/doenca_ocupacional.md).
+- **Parcela única** — não impugnar o pagamento: pedir a **redução ao valor presente** (planilha do TRT24),
+  tanto no corpo do bloco de quantificação quanto na alínea de eventualidade dos pedidos.
+- **Peça de formulário do outro lado** — quando a inicial troca o gênero da parte, erra o valor por extenso
+  ou descreve atividade de outro ramo (ex.: "movimentação de pacientes" em caso de empresa postal), apontar
+  as marcas: sustenta a impugnação especificada do art. 341 do CPC e desqualifica a causa de pedir do
+  pedido que veio junto.
 
 ## Ligação com a base de teses
 
