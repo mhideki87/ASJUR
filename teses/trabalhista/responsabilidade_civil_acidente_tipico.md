@@ -149,8 +149,10 @@ Araújo Lima, 26/01/2017), que rejeita culpa mesmo diante de alegado defeito no 
 - Três frentes de defesa (incapacidade, nexo, culpa): [doenca_ocupacional.md](doenca_ocupacional.md)
 - Modelo estrutural da contestação:
   [modelos/trabalhista/contestacao__doenca_ocupacional.md](../../modelos/trabalhista/contestacao__doenca_ocupacional.md)
-- Valor da causa, limitação da condenação e impugnação à gratuidade:
+- Valor da causa e limitação da condenação:
   [teses/transversal/preliminares_processuais_defesa.md](../transversal/preliminares_processuais_defesa.md)
+- Impugnação à justiça gratuita (regime da ADC 80):
+  [teses/transversal/justica_gratuita_adc80.md](../transversal/justica_gratuita_adc80.md)
 - SELIC (art. 3º da EC 113/2021), precatório e prazo em dobro:
   [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
 - Dupla reparação pelo mesmo fato gerador:
