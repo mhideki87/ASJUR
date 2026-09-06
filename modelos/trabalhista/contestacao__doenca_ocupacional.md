@@ -48,7 +48,9 @@ PRELIMINARMENTE                                  (ficha de preliminares processu
   1 — Contradição entre valor da causa e soma dos pedidos; limitação da condenação
   2 — Inépcia de pedido genérico ("haveres trabalhistas de todo o período contratual")
   3 — Inépcia do pedido de despesas médicas (dano futuro, sem comprovante)
-  4 — Impugnação à justiça gratuita (autor empregado, remuneração acima de 40% do teto do RGPS)
+  4 — Impugnação à justiça gratuita (autor empregado, remuneração acima do patamar legal)
+      ⚠ o critério dos 40% do teto do RGPS só vale para processo ajuizado ANTES do marco da ADC 80;
+      ver teses/transversal/justica_gratuita_adc80.md antes de redigir
   5 — Impugnação à presunção de "atividade de risco" pela não exibição de documentos (art. 400 do CPC)
 PREJUDICIAL DE MÉRITO
   1 — Prescrição: actio nata na ciência inequívoca (CAT, exames, alta previdenciária)
