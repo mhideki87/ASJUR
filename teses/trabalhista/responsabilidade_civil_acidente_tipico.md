@@ -6,8 +6,8 @@ status: validada
 gatilhos: [responsabilidade objetiva, responsabilidade civil objetiva, Tema 932, art. 927 parágrafo único, atividade de risco, carteiro motorizado, acidente típico, lucros cessantes, pensão mensal vitalícia, art. 950 do CC, periculosidade motociclista]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__doenca_ocupacional.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-05
+ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/assalto_agencia_dano_moral.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-07
 ---
 
 # Tese — Responsabilidade civil por acidente típico e quantificação
@@ -147,6 +147,9 @@ Araújo Lima, 26/01/2017), que rejeita culpa mesmo diante de alegado defeito no 
 ## Ligações
 
 - Três frentes de defesa (incapacidade, nexo, culpa): [doenca_ocupacional.md](doenca_ocupacional.md)
+- **Dano vindo de crime de terceiro** (assalto à mão armada no interior de agência), e não da atividade:
+  [assalto_agencia_dano_moral.md](assalto_agencia_dano_moral.md). Ficha separada porque a defesa é outra —
+  fortuito externo, fim do Banco Postal e inaplicabilidade da Lei 7.102/83, não Tema 932 e quantificação.
 - Modelo estrutural da contestação:
   [modelos/trabalhista/contestacao__doenca_ocupacional.md](../../modelos/trabalhista/contestacao__doenca_ocupacional.md)
 - Valor da causa e limitação da condenação:
