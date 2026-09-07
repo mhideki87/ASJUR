@@ -173,7 +173,11 @@ revogação.
    equiparação para juros e para o art. 85, §3º, do CPC, e a repudia quando dela decorre a vedação de
    incorporar gratificação.
 4. **Bloco da ADC 80** na impugnação à justiça gratuita — texto pronto em
-   `teses/transversal/preliminares_processuais_defesa.md`; conferir o andamento do julgamento antes de usar.
+   `teses/transversal/justica_gratuita_adc80.md`. ⚠ **O bloco usado na peça de 28/08/2026 está superado:**
+   ele descrevia a ADC 80 como julgamento em curso, e o STF a julgou em **03/09/2026**. Não reaproveitar
+   aquele texto. A ficha traz dois blocos novos — um para processo ajuizado **sob** o regime da ADC 80,
+   outro para processo **anterior** ao marco da modulação —, e a escolha entre eles depende da **data de
+   ajuizamento**, que é o primeiro dado a conferir.
 
 ## ⚠ Três blocos condicionais que saem ERRADOS se copiados sem conferir a condição
 
@@ -251,5 +255,5 @@ Sustenta a ficha `teses/trabalhista/incorporacao_gratificacao_funcao.md`, a tese
 da ECT. Toca também `teses/trabalhista/prescricao.md`,
 `teses/transversal/prerrogativas_processuais_ect.md` (equiparação à Fazenda Pública) e
 `teses/trabalhista/temas_acessorios.md` (POSTALIS, honorários advocatícios, quebra de caixa, CIP, reflexos) e
-`teses/transversal/preliminares_processuais_defesa.md` (rito sumaríssimo, gratuidade com o bloco da ADC 80,
-Juízo 100% Digital).
+`teses/transversal/preliminares_processuais_defesa.md` (rito sumaríssimo, Juízo 100% Digital) e
+`teses/transversal/justica_gratuita_adc80.md` (impugnação à justiça gratuita sob o regime da ADC 80).

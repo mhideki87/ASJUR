@@ -21,6 +21,21 @@ Este arquivo é lido em sessão de **manutenção da base**, não em sessão de 
       gatilhos previstos aqui. A conferência do inteiro teor dos arestos segue pendente, marcada
       `[REVISAR]` na própria ficha.
 
+## ADC 80 (STF, 03/09/2026) — novo regime da justiça gratuita
+
+Varrida a base em 06/09/2026. O tema ganhou ficha própria,
+`teses/transversal/justica_gratuita_adc80.md`, com o dispositivo transcrito da ata e os blocos prontos para
+os dois regimes (antes e depois do marco da modulação). Ajustados na mesma passagem:
+`teses/transversal/preliminares_processuais_defesa.md` (o bloco antigo da ADC 80, que descrevia julgamento
+em curso, foi **removido** por ter ficado factualmente falso), `teses/civel/indenizatoria_servico_postal.md`,
+`teses/trabalhista/responsabilidade_civil_acidente_tipico.md` e os modelos de contestação de incorporação de
+função, doença ocupacional e supressão de adicional.
+
+Pendência que sobra e não é de um tema só: **a data de publicação da ata do julgamento de mérito**, que é o
+marco da modulação e define qual dos dois regimes se aplica a cada processo. Não foi possível conferir em
+sessão cloud (egresso de rede bloqueado para `noticias.stf.jus.br`). **Conferir em sessão local** e anotar na
+ficha.
+
 ## Resolução nº 225/2025 do Pleno do TST — enunciados cancelados
 
 Conferida contra a base inteira em 02/09/2026 (PDF oficial: DEJT, caderno administrativo, nº 4253,
