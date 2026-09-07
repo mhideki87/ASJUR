@@ -1,9 +1,10 @@
 # Modelo: Quesitos de perícia médica — Doença ocupacional
 
-**Consolidado de:** 1 caso-fonte (doença ocupacional por exposição solar em carteiro motorizado, com
-acidente de trajeto cumulado).
-**Última atualização:** 2026-09-02 — criação do modelo; fecha a lacuna registrada em
-`teses/trabalhista/doenca_ocupacional.md`.
+**Consolidado de:** 2 casos-fonte (doença ocupacional por exposição solar em carteiro motorizado, com
+acidente de trajeto cumulado; acidentes típicos com sequela em coluna e joelhos, com alegação de
+agravamento).
+**Última atualização:** 2026-09-07 — acrescenta a **variante enxuta**, aprovada pelo usuário em revisão
+manual da minuta, e o que ele cortou dela.
 
 ---
 
@@ -36,6 +37,68 @@ Numeração dos quesitos **corrida do primeiro ao último**, atravessando os blo
 referem a eles por número ("quesito 12 da ré"), e numeração reiniciada por bloco gera ambiguidade. Os
 blocos são subtópicos numerados; os quesitos, alíneas (`- **1)** ...` na marcação da skill
 `formatar-minuta`).
+
+## Variante enxuta — aprovada em revisão manual (2026-09-07)
+
+Em processo cuja discussão é **sequela de acidente típico e agravamento**, sem frente autônoma de EPI ou de
+exposição a agente, o usuário reescreveu a peça à mão e aprovou uma versão bem mais curta que a estrutura
+padrão acima. Quando o caso tiver esse desenho, é esta a forma a seguir.
+
+**Estrutura — lista corrida, um único retângulo:**
+
+```
+qualificação resumida ("já qualificada nos autos", sem declinar admissibilidade)
+síntese da demanda · exigência de fonte objetiva · exigência de resposta discriminada
+1. … 12.   ← corridos, sem blocos temáticos; alíneas a) b) c) onde o quesito se desdobra por exame
+▭ DOS REQUERIMENTOS  →  a) b) c)
+```
+
+Não há blocos I–VII: eles saem, e **o único tópico em retângulo da peça é `DOS REQUERIMENTOS`**. A
+metodologia deixa de ser bloco e vira preâmbulo.
+
+**Os 12 quesitos:** (1) diagnóstico, CID-10, natureza e tempo de evolução, com a metodologia embutida;
+(2) achados degenerativos nos exames do próprio autor, uma alínea por exame; (3) existência e classificação
+da incapacidade, confrontada com o autor em atividade; (4) dano funcional sem repercussão laborativa
+(art. 104, § 4º, I, do Decreto nº 3.048/99); (5) sucesso do tratamento e sequela provada por teste objetivo;
+(6) anamnese e fatores extralaborais; (7) art. 20, § 1º, "a", da Lei nº 8.213/91 e Listas do Anexo II;
+(8) nexo individualizado por evento e existência de DORT autônoma; (9) espécie 31 × 91, NTEP e ciência
+inequívoca; (10) tratamento futuro não coberto pelo plano; (11) concausa quantificada e tabela objetiva por
+segmento; (12) capacidade residual e aproveitamento em outra função.
+
+**Regras de redação da variante:**
+
+- Tratamento sempre `o(a) Sr(a). Perito(a)` — nunca "o Sr. Perito".
+- Numeração corrida, sem lacuna; número em negrito, texto do quesito não.
+- Transcrever **literalmente, entre aspas**, o trecho degenerativo do exame do próprio autor e opô-lo à tese
+  de origem traumática. É o quesito mais produtivo da peça: exame feito no dia seguinte ao acidente que já
+  descreve degeneração derruba sozinho o nexo.
+- Preâmbulo com duas exigências, ambas do usuário: que o perito indique a fonte objetiva de cada conclusão,
+  registrando que a narrativa do periciando "se encontra expressamente impugnada nestes autos"; e que
+  responda de forma discriminada, "sob pena de nulidade por deficiência de fundamentação".
+- Teto de 10 a 15 quesitos. Quesito sem suporte fático nos autos sai — não se preenche por suposição.
+
+**O que o usuário cortou** — e por quê:
+
+| Cortado | Motivo |
+|---|---|
+| Quesitos de NR, item e subitem, EPI, ergonomia, manutenção de veículo, NR-36 | matéria de perícia de **engenharia**, não de perícia médica |
+| PCMSO, ASOs e exames ocupacionais | provam-se por documento, não por perícia |
+| Bloco separado de metodologia | vira preâmbulo e fica embutido no quesito 1 |
+| Requerimento de intimação prévia da perícia e de indicação de assistente técnico | requerimentos reduzidos a três |
+| Qualificação longa da ECT e fundamentação de admissibilidade | "já qualificada nos autos" |
+| Pedido de juntada de documento avulso (carta de preposição, procuração) | circunstância de um processo, não do modelo |
+
+**Atenção — ponto que merece decisão consciente a cada caso:** o corte dos quesitos de EPI e de norma
+específica esvazia o bloco V da estrutura padrão, que é justamente onde
+[`teses/trabalhista/doenca_ocupacional.md`](../../teses/trabalhista/doenca_ocupacional.md) registra que a
+ECT já perdeu no TRT24 por falta de cronologia das medidas preventivas. O corte se justifica quando a culpa
+patronal não está em discussão por agente ou EPI — caso da variante. **Havendo frente de EPI, exposição a
+agente ou LER/DORT, manter os quesitos de culpa da estrutura padrão**, ainda que se adote o resto da forma
+enxuta.
+
+**Requerimentos finais da variante — apenas três:** (a) respostas uma a uma, individualizadas e
+tecnicamente fundamentadas; (b) juntada do laudo com a antecedência do art. 477 do CPC, com prazo para
+manifestação e esclarecimentos; (c) reserva de quesitos suplementares (art. 469 do CPC).
 
 ## Linguagem / trechos-padrão reaproveitáveis
 
@@ -96,6 +159,8 @@ no objeto da perícia (art. 790-B da CLT); reiteração das prerrogativas proces
   cronologia das medidas preventivas — é nela que a ECT já perdeu no TRT24.
 - **Sem evento cumulado:** o bloco VI simplesmente não existe; a numeração corrida se ajusta sozinha.
 - **Perícia técnica (insalubridade/periculosidade):** modelo diferente — ver playbook, seção 2.5.
+- **Sequela de acidente típico, sem frente de EPI:** usar a variante enxuta acima — 12 quesitos corridos,
+  sem blocos, com um único retângulo em `DOS REQUERIMENTOS`.
 
 ## Ligação com a base de teses
 
