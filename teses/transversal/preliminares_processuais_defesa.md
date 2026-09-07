@@ -57,6 +57,9 @@ Se houver interesse em se opor, atenção ao prazo: a oposição da ré, **no pr
 deduzida em até 5 (cinco) dias úteis contados do recebimento da primeira notificação** (art. 3º, §1º, da
 Resolução CNJ nº 345/2020, red. da Resolução nº 378/2021) — **não no prazo da contestação**. Nesse caso a
 manifestação vai em **petição avulsa, imediatamente**; deixar o tema para a defesa significa perder o prazo.
+Em contestação protocolada em **07/09/2026**, o usuário mandou **suprimir o tópico por inteiro** — nem a
+linha de não oposição —, e a peça saiu assim: a não oposição se consuma pelo silêncio, e abrir o tópico só
+para dizer que não se opõe é ruído. As duas formas são aceitáveis; **o que não se faz é impugnar**.
 
 **4. Pedido formulado sem valor algum — é inépcia, não discussão de valor estimativo.** Não confundir com o
 item 1: ali se discute se o valor indicado limita a condenação; aqui **não há valor nenhum** no pedido

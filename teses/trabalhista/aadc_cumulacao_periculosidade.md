@@ -5,7 +5,7 @@ slug: aadc_cumulacao_periculosidade
 status: validada
 gatilhos: [AADC, adicional de atividade de distribuição e coleta, adicional de distribuição e/ou coleta externa, adicional de 30% sobre o salário-base, carteiro motorizado, motorizado M, motorizado MV, função motorizada, carteiro motociclista, motocicleta, motoneta, adicional de periculosidade, art. 193 § 4º CLT, Lei 12.997/2014, Anexo 5 da NR-16, Portaria MTE 1.565/2014, cumulação de adicionais, acumulação de vantagens, devolução AADC risco, PCCS 2008 item 4.8, item 4.8.2, MANPES Módulo 8 Capítulo 6, MANTRA, gratificação de função convencional motorizada, Termo de Compromisso FENTECT, Súmula 361, salário-condição]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__aadc_periculosidade.md]
 ver_tambem: [teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/prescricao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
 atualizado: 2026-09-07
 ---
@@ -215,6 +215,7 @@ favorável.
   [../transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
 - Preliminares processuais (rito sumaríssimo, art. 104 do CDC, competência):
   [../transversal/preliminares_processuais_defesa.md](../transversal/preliminares_processuais_defesa.md)
+- Estrutura da peça: `modelos/trabalhista/contestacao__aadc_periculosidade.md`
 
 ## Lacunas
 
@@ -223,6 +224,6 @@ favorável.
 - [ ] Identificar o número da cláusula de acumulação de vantagens nos ACTs recentes (a partir de 2020) — os
       números registrados acima vão só até o ACT 2015/2016.
 - [ ] Confirmar número, juízo e estado atual da ação civil coletiva do sindicato sobre o tema.
-- [ ] Criar o modelo estrutural `modelos/trabalhista/contestacao__aadc_periculosidade.md` a partir da
-      primeira minuta aprovada.
-- [ ] Registrar o resultado quando houver sentença.
+- [ ] Registrar o resultado quando houver sentença. **Atenção ao primeiro caso:** a peça foi protocolada em
+      07/09/2026 com a prejudicial fundada na **Súmula 294**, cancelada — minutada em branch anterior ao
+      registro do cancelamento. Se a sentença enfrentar o ponto, registrar aqui como o juízo reagiu.
