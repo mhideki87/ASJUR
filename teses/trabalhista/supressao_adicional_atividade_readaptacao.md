@@ -6,8 +6,8 @@ status: validada
 gatilhos: [adicional de atividade de tratamento, AAT, AADC, adicional de atividade de distribuição, adicional de distribuição e coleta externa, AAG, adicional de atividade, empregado readaptado, empregado reabilitado, readaptação funcional, reabilitação profissional, salário-condição, irredutibilidade salarial, art. 461 § 4º CLT, art. 194 CLT, art. 89 da Lei 8.213/91, PCCS 2008, item 4.10, item 4.8, Operador de Triagem e Transbordo, OTT, Súmula 248, Súmula 265, restitutio in integrum]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-03
+ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/aadc_cumulacao_periculosidade.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-07
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional
@@ -157,6 +157,10 @@ Todos os arestos abaixo vieram de peça-modelo real da própria ECT ou de inicia
 
 ### Contrária à ECT — a enfrentar, nunca a citar
 
+Este *leading case* é de **AADC após readaptação**. Não confundir com a cumulação do AADC com o adicional
+de periculosidade do carteiro motociclista, tema distinto e com precedente favorável à ECT — ver
+[aadc_cumulacao_periculosidade.md](aadc_cumulacao_periculosidade.md).
+
 Leading case, **AADC**: TST, SBDI-1, **E-ARR-10927-50.2016.5.09.0014**, Rel. Min. Alberto Bresciani,
 j. 20/08/2020, DEJT 12/02/2021 (12 x 2, composição plena). Réplicas: Ag-E-Ag-RR 0021635-96.2017.5.04.0004
 (DEJT 01/09/2023) · E-ED-RR 0002226-73.2016.5.22.0003 (DEJT 29/07/2022) ·
@@ -230,6 +234,9 @@ reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorio
 - Se a natureza acidentária do afastamento virar controvertida:
   [doenca_ocupacional.md](doenca_ocupacional.md)
 - Distinção com gratificação de função: [incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md)
+- Mesma parcela (AADC), outro fato gerador da supressão — advento do adicional de periculosidade do
+  carteiro motociclista, em que a jurisprudência é **favorável** à ECT:
+  [aadc_cumulacao_periculosidade.md](aadc_cumulacao_periculosidade.md)
 - Acessórios que vêm de carona (POSTALIS, honorários, CNIS, reflexos): [temas_acessorios.md](temas_acessorios.md)
 - Preliminar padrão de equiparação à Fazenda Pública:
   [../transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
