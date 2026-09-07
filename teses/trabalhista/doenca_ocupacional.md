@@ -134,6 +134,15 @@ capacidade laborativa", ambas as pretensões se fundam no **mesmo fato**: a rest
 rua. Deferidas as duas, há dupla reparação pelo mesmo fato gerador e enriquecimento sem causa
 (art. 884 do Código Civil). Suscitar expressamente — é argumento de mérito, não mera impugnação de valor.
 
+**Variante frequente, dentro da mesma inicial:** o pedido de **danos emergentes** (art. 949 do CC) vem
+descrito de forma a abranger "honorários médicos, medicamentos, exames, terapias e **plano de saúde
+vitalício**", e logo depois há pedido **autônomo** de custeio integral do plano de saúde. É a mesma utilidade
+econômica pedida duas vezes, com rótulos e valores diferentes — apontar citando literalmente as duas
+alíneas. Some-se, no mérito do custeio: o benefício é normativo (regulamento próprio e ACT, com regras
+uniformes de custeio e coparticipação), e condenar a empregadora a custeá-lo integralmente e por prazo
+indeterminado em favor de um único empregado implica alteração unilateral do benefício, quebra de isonomia e
+ofensa à legalidade a que se submete a empresa pública (art. 37 da CF).
+
 ## Pontos sensíveis
 
 - CIDs e datas devem sair dos laudos e documentos do INSS juntados; se não constarem, marcar `[REVISAR]`.
@@ -156,6 +165,23 @@ Os arestos deste tema, todos vindos de contestação anexada pelo usuário, est�
 (responsabilidade subjetiva); TRT-2 RO 0042000-47.2008.5.02.0036 e TRT-3 RO 00029-2011-038-03-00-8
 (moléstia degenerativa); TRT-24 RO 0025427-14.2014.5.24.0002, RO 0025859-33.2014.5.24.0002 e
 RO 0025132-77.2014.5.24.0001 (casos de carteiro da ECT). Não duplicados aqui para manter a ficha enxuta.
+
+**Arestos adversos que a inicial costuma transcrever — e por onde se distinguem** (colhidos de petição
+inicial da sessão de 25/08/2026; conferir inteiro teor antes de responder):
+
+- **TST – AIRR-13576-72.2016.5.09.0684** (7ª Turma, Rel. Min. Cláudio Mascarenhas Brandão, j. 19/10/2022,
+  DEJT 28/10/2022) — é o mais forte contra a ECT: **carteira** com condromalácia patelar, nexo concausal,
+  responsabilidade **objetiva** reconhecida por atividade de risco. *Distinguishing*: o quadro fático era de
+  **atividade externa**, com bolsa de até 9 kg, e o laudo registrou risco ergonômico postural, **ausência de
+  documentos de treinamento** e **inexistência de ginástica laboral**. Onde o empregado já não exerce
+  atividade externa, ou onde a empregadora comprova treinamento, ginástica laboral e gestão ergonômica, o
+  precedente não se aplica — e é isso que a peça tem de demonstrar com documento, não com adjetivo.
+- **TRT-12 – ROT 0000086-02.2021.5.12.0008** e **TRT-9 – ROT 0000788-97.2018.5.09.0069** — concausa e dano
+  moral. Ambos partem de **nexo concausal e conduta culposa já reconhecidos** na instância de origem: são
+  premissas de fato, não teses transportáveis. Responder pela premissa, não pelo resultado.
+- **TST – RR-Ag-10625-15.2019.5.03.0036** (3ª Turma) — pensão mesmo com o trabalhador em atividade; o
+  quadro premissa era de perda **definitiva e total** para a atividade anterior (ver a seção de danos
+  materiais acima).
 
 ## Ligações
 
