@@ -70,6 +70,19 @@ seção inteira e renumerar.
 
 Dois padrões de vício, ambos observados no caso-fonte:
 
+- **Sentença que adota, *per relationem*, os fundamentos da decisão que concedeu a tutela.** Quando o
+  julgado confirma a liminar "pelos seus próprios fundamentos" e a liminar foi proferida **antes da
+  contestação**, a fundamentação da sentença é, literalmente, a de uma decisão que não podia conhecer a
+  defesa — e não a conheceu. O vício se demonstra na face do julgado, sem depender de prova: basta cotejar a
+  data da liminar com a da contestação e listar os fundamentos que ficaram sem exame (art. 489, § 1º, IV, do
+  CPC; art. 832 da CLT; art. 93, IX, da CF). Sinal típico: a sentença despacha a defesa numa linha ("a
+  reclamada refutou a pretensão") e afirma inexistir "elemento probatório que infirme" a liminar, quando a
+  defesa era **jurídica**, não probatória.
+  **Ressalva que vale para este padrão como para os demais:** sem embargos de declaração prévios, o correto
+  é deduzir a matéria pela **devolutividade** (art. 1.013, §§ 1º e 3º, do CPC), pedindo que o Tribunal
+  aprecie desde logo os fundamentos não examinados — e não como *nulidade*, que pressupõe a tentativa de
+  integração frustrada.
+
 - **Resposta que não enfrenta a tese.** A técnica mais eficaz é demonstrar que a resposta do juízo
   **pressupõe** exatamente o fato controvertido e negado pela defesa. No caso-fonte, os embargos sobre
   inexistência de desconto foram rejeitados sob o argumento de que a sentença já determinara "abatimento de
