@@ -148,6 +148,9 @@ Se algum requisito não estiver satisfeito pelos autos, sinalize [REVISAR] em ve
 de forçar o enquadramento.
 ```
 
+Modelo consolidado, para o tema de incorporação de gratificação de função:
+`modelos/trabalhista/recurso_revista__incorporacao_funcao.md`.
+
 ### 2.4 Quesitos de perícia médica
 ```
 Formule quesitos para perícia médica judicial, no padrão da skill formatar-minuta,
