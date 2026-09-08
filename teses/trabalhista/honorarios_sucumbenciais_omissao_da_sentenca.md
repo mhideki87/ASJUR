@@ -3,11 +3,11 @@ area: trabalhista
 tema: Honorários sucumbenciais — omissão da sentença e contraminuta aos embargos do Reclamante
 slug: honorarios_sucumbenciais_omissao_da_sentenca
 status: rascunho
-gatilhos: [honorários sucumbenciais, honorários advocatícios, art. 791-A, art. 85 do CPC, art. 85 § 8º, Súmula 219 do TST, sentença citra petita, omissão quanto aos honorários, embargos de declaração do reclamante, contraminuta, manifestação sobre embargos, art. 897-A § 2º, art. 1.023 § 2º, art. 1.024 § 4º, base de cálculo dos honorários, valor da causa, arbitramento equitativo, assistência sindical, Lei 5.584/70]
+gatilhos: [honorários sucumbenciais, honorários advocatícios, art. 791-A, ação de cobrança, julgamento conjunto por conexão, art. 85 do CPC, art. 85 § 8º, Súmula 219 do TST, sentença citra petita, omissão quanto aos honorários, embargos de declaração do reclamante, contraminuta, manifestação sobre embargos, art. 897-A § 2º, art. 1.023 § 2º, art. 1.024 § 4º, base de cálculo dos honorários, valor da causa, arbitramento equitativo, assistência sindical, Lei 5.584/70]
 pecas: [contraminuta a embargos de declaração, manifestação, contestação, recurso ordinário]
 modelos: [modelos/trabalhista/contraminuta_ed__honorarios_sucumbenciais.md]
-ver_tambem: [teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-07
+ver_tambem: [teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/devolucao_valores_recebidos_boa_fe.md]
+atualizado: 2026-09-08
 ---
 
 # Tese — Honorários sucumbenciais quando a sentença é omissa
@@ -26,6 +26,13 @@ contestação. Aqui o problema é outro: a verba já não se discute em tese, di
 Se a sentença é omissa quanto aos honorários do Reclamante, **a ECT não suscita essa omissão**: nem em
 embargos próprios, nem "para organizar o julgado", nem em preliminar de recurso. O silêncio é um ativo, e
 apontá-lo provoca a condenação que não existia. Esperar os embargos da parte contrária, se vierem.
+
+**A regra já se aplicou fora do caso típico, e vale registrar a variante:** em julgamento conjunto por
+conexão (reclamatória do empregado + **ação de cobrança ajuizada pela ECT**), a sentença de 09/2026 julgou
+improcedente a cobrança — sucumbência autônoma da ECT naqueles autos — e escreveu apenas "honorários
+sucumbenciais pelos pedidos deferidos a cargo da ré", **sem fixar honorários em favor da parte adversa na
+ação de cobrança**. É omissão em capítulo em que a ECT é **autora**, e a postura é a mesma: não suscitar,
+nem em embargos, nem em preliminar de recurso, nem para "organizar o julgado".
 
 Quando eles vierem: a omissão em geral **é real**, e negá-la em bloco desgasta a defesa sem evitar a
 condenação. A disputa que rende é a do **critério de cálculo** — entre o percentual máximo sobre o valor da
@@ -61,6 +68,7 @@ anterior à sistematização da Lei 13.467/2017, e não prevalece sobre regra le
 equitativa quando o proveito econômico for inestimável ou irrisório. Não se invoca o Código só na parte que
 amplia percentual.
 `[REVISAR: conferir teor e vigência atual dos itens da Súmula 219 do TST antes de transcrever.]`
+`[REVISAR: a Súmula 219 do TST consta da lista de verbetes cancelados pela Resolução nº 225/2025 do Pleno do TST (ver LACUNAS.md). Conferir o texto da Resolução e reescrever esta passagem — o cancelamento aqui tende a FAVORECER a ECT, porque o verbete é invocado pela parte adversa.]`
 
 **6. Base de cálculo** — o art. 791-A, *caput*, ordena os critérios: liquidação da sentença → proveito
 econômico → **residualmente** valor atualizado da causa. Havendo **valor arbitrado à condenação** na própria

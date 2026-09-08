@@ -3,11 +3,11 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, causa de pedir indeterminada, pedido aproveitado de outra peça, erro material da inicial, art. 330 §1º CPC, art. 341 CPC, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, causa de pedir indeterminada, pedido aproveitado de outra peça, erro material da inicial, art. 330 §1º CPC, art. 341 CPC, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-07
+ver_tambem: [teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md]
+atualizado: 2026-09-08
 ---
 
 # Tese — Preliminares processuais recorrentes da defesa
@@ -38,6 +38,21 @@ deverá ser certo ou determinado e indicará o valor correspondente"), destacand
 IN 41/2018 do TST, invocados pelo autor para sustentar valor estimativo, regem o **rito ordinário** e não
 afastam a norma especial. `[REVISAR: este reforço do art. 852-B, I, é construção de 28/08/2026 e ainda não
 foi testado em decisão.]`
+
+> **No TRT24 há tese vinculante do Pleno, e ela vem com uma porta de saída para o autor — atacar a
+> estimativa de frente é briga perdida.** No **IUJ 0024122-54.2021.5.24.0000** (Pleno, 18/11/2021) fixou-se
+> a **tese prevalecente nº 13**: "O valor indicado na dedução do pedido mediato quantificável (CLT, 840,
+> § 1º) é líquido e limita o montante da condenação (CPC, 492), **salvo se houver expressa ressalva, na
+> petição inicial, de que foi arbitrado por estimativa**". Ou seja: a regra é favorável à ECT, mas basta a
+> ressalva de estimativa para afastá-la, e as sentenças locais aplicam a exceção sem maior exame.
+> **A leitura útil da tese 13 é outra:** ela pressupõe que **algum valor tenha sido indicado**. Onde o
+> pedido não tem valor nenhum — típico das parcelas vincendas de obrigação de trato sucessivo, que a
+> inicial simplesmente não soma ao valor da causa —, não há "valor arbitrado por estimativa" a ressalvar, e
+> a exceção não o alcança. É o ponto 4 abaixo, e é por ele que se ataca, não pelo ponto 1. Conferir sempre
+> a **aritmética do valor da causa** contra o rol de pedidos: se a soma dos pedidos valorados fecha
+> exatamente o valor da causa, o pedido restante entrou sem valor.
+> `[REVISAR: conferir o inteiro teor do IUJ 0024122-54.2021.5.24.0000 e a redação oficial da tese
+> prevalecente nº 13 — entraram aqui pela transcrição de uma sentença de 09/2026, não por leitura direta.]`
 
 **2. Impugnação à justiça gratuita → ficha própria.** O tema saiu daqui em 06/09/2026, com o julgamento
 da **ADC 80** pelo STF (Plenário, 03/09/2026): passou a ter dois regimes conforme a data de ajuizamento,
@@ -123,10 +138,15 @@ Como arguir:
 
 ## Jurisprudência (só o que já está confirmado)
 
-Nenhum aresto confirmado ainda.
+**IUJ 0024122-54.2021.5.24.0000** — Tribunal Pleno do TRT24, 18/11/2021, **tese prevalecente nº 13**: o
+valor indicado no pedido mediato quantificável é líquido e limita a condenação (art. 492 do CPC), salvo
+ressalva expressa de arbitramento por estimativa. Transcrita em sentença de 1º grau de 09/2026, que aplicou
+a exceção. Ver o quadro no ponto 1 da "Tese central".
+
+`[REVISAR: conferir o inteiro teor do IUJ e a redação oficial da tese 13 antes de citá-los em peça.]`
 
 `[REVISAR: localizar como o TRT24 decide a limitação da condenação aos valores da inicial no rito
-sumaríssimo.]`
+sumaríssimo, e se a tese 13 tem sido aplicada a pedido sem valor algum.]`
 
 ## Pontos sensíveis / variações
 

@@ -3,10 +3,10 @@ area: transversal
 tema: Prerrogativas processuais da ECT (equiparação à Fazenda Pública)
 slug: prerrogativas_processuais_ect
 status: validada
-gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de custas, dispensa de depósito recursal, precatório, art. 100 da CF, EC 113/2021, SELIC, tempestividade, empresa pública, juros e correção contra a Fazenda, tutela antecipada contra a Fazenda, agravo de petição, art. 897 § 1º da CLT, delimitação de valores]
+gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de custas, dispensa de depósito recursal, precatório, RPV, remessa necessária, art. 100 da CF, EC 113/2021, SELIC, tempestividade, empresa pública, juros e correção contra a Fazenda, tutela antecipada contra a Fazenda, agravo de petição, art. 897 § 1º da CLT, delimitação de valores]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação, agravo de petição]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
-ver_tambem: []
+ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md]
 atualizado: 2026-09-08
 ---
 
@@ -67,6 +67,28 @@ ver `modelos/trabalhista/contestacao__afastamentos.md`.
   um** — sem isso não há prequestionamento para a execução; (c) na petição de interposição de recurso,
   invocar o próprio capítulo da sentença que reconheceu a equiparação como fundamento da dispensa de custas
   e de depósito.
+- **O item que mais falta é o art. 3º da EC 113/2021, e já são duas ocorrências — em variantes diferentes.**
+  Em sentença de 1º grau de Campo Grande (09/2026), ao contrário do caso da 6ª VT acima, custas, **depósito
+  recursal e execução por RPV/precatório foram todos deferidos expressamente**. Ainda assim, o capítulo da
+  equiparação reconheceu os privilégios "quanto a custas, prazos processuais e **juros moratórios**" e o
+  dispositivo fixou a atualização pelo critério geral — ADC 58, Lei 14.905/2024 e o entendimento da SBDI-1
+  no **E-ED-RR 0000713-03.2010.5.04.0029** (IPCA-E + TRD na fase pré-judicial; IPCA + [SELIC − IPCA] na
+  judicial, com possibilidade de taxa zero) —, **sem decidir** o art. 3º da EC 113/2021, que havia sido
+  pedido. É o mesmo defeito da 6ª VT, agora isolado: contradição entre dois capítulos do próprio julgado.
+  Conclusão prática: **o art. 3º da EC 113/2021 é o item a embargar sempre**, mesmo quando os outros três
+  saírem deferidos, e o capítulo dos juros da equiparação é o fundamento a citar nos embargos.
+  `[REVISAR: conferir o inteiro teor do E-ED-RR 0000713-03.2010.5.04.0029 antes de citá-lo — entrou aqui
+  pela transcrição de uma sentença, não por leitura direta.]`
+- **Remessa necessária: afastada, e não vale insistir.** A mesma sentença registrou que o Decreto-lei 509/69,
+  "cuja interpretação deve ser restritiva", só alcança impenhorabilidade, foro, prazo e custas — logo, sem
+  remessa necessária. Não é ponto de embargos nem de recurso: é interpretação corrente e arguí-la desgasta o
+  bloco da equiparação, que interessa preservar inteiro.
+- **Condenação em obrigação de fazer que contorna o precatório.** Já ocorreu de a sentença deferir a
+  execução por RPV/precatório e, no mesmo dispositivo, condenar a ECT a "imediato restabelecimento" de
+  pagamento mensal **como obrigação de fazer**, com parcelas vencidas e vincendas. É pagamento de quantia
+  certa travestido de obrigação de fazer, e abre caminho a execução direta e multa cominatória à margem do
+  art. 100 da CF. Impugnar como contradição interna do julgado, invocando o próprio capítulo que deferiu o
+  precatório. `[REVISAR: construção de 09/2026, ainda não testada em decisão.]`
 - **Recurso interposto antes do julgamento de embargos de declaração é tempestivo.** Em acórdão de Turma
   do TRT24 (ago/2026) o recurso ordinário da ECT, protocolado 3 dias após a ciência da sentença e portanto
   **antes** da decisão dos embargos opostos pela parte contrária, foi conhecido sem exigência de ratificação

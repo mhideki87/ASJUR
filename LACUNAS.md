@@ -72,5 +72,28 @@ Três atingiam a base e já foram corrigidos: **294** (prescrição total → ar
 **331, I** (a ficha usa os itens IV, V e VI, que sobreviveram) e **372, I**. Nenhuma OJ cancelada nem o
 PN 100 aparecem na base.
 
-- [ ] Reconferir esta lista sempre que uma ficha nova citar súmula do TST.
+> **A varredura de 02/09/2026 ficou incompleta — corrigido em 08/09/2026.** Nova conferência por `grep`
+> contra a lista inteira encontrou **mais dois verbetes cancelados ainda vivos na base**, além dos três já
+> tratados:
+>
+> - **Súmula 219** — em `teses/trabalhista/honorarios_execucao_individual_sentenca_coletiva.md` (o item V é
+>   a premissa dos honorários assistenciais que a parte adversa cobra) e em
+>   `teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md` (tese 5).
+> - **Súmula 228** — em `teses/trabalhista/insalubridade_limpeza_sanitarios.md` (base de cálculo do
+>   adicional).
+>
+> Nos três lugares o verbete é invocado **pela parte adversa**, de modo que o cancelamento tende a
+> favorecer a ECT — mas a ficha ainda o trata como vigente, e a tese muda de forma. Os pontos ficaram
+> marcados `[REVISAR]` no corpo de cada ficha; a decisão de reescrever a tese e mudar o `status` para
+> `revisar` depende de conferência humana do texto da Resolução.
+>
+> **Súmula 439** também está na lista, e a decisão analisada em 09/2026 já a tratou como superada (correção
+> e juros do dano moral desde o ajuizamento) — o que confirma a lista pelo lado prático. Não há ficha da
+> base que a cite.
+
+- [ ] **Conferir e reescrever as três passagens acima** (Súmulas 219 e 228), decidindo o `status` de cada
+      ficha.
+- [ ] Reconferir esta lista sempre que uma ficha nova citar súmula do TST — **e rodar o `grep` contra a
+      lista inteira, não só contra as súmulas que se lembra de ter usado**: foi assim que 219 e 228
+      passaram na primeira varredura.
 - [ ] Vale a mesma varredura para peças antigas reaproveitadas: modelo de 2018 pode citar verbete morto.
