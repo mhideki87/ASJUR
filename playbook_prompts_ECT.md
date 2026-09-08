@@ -375,7 +375,8 @@ Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões �
 `Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
 `Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
 `Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
-quando a prejudicial for o eixo da peça). Abreviação nova criada em sessão entra nesta lista.
+quando a prejudicial for o eixo da peça) · `PDV Aposent` = adesão a plano de desligamento voluntário por
+empregado aposentado (criada em 08/09/2026). Abreviação nova criada em sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do
