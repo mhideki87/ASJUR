@@ -9,9 +9,10 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
 | Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
-| Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
+| Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `F:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 | Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
+| Autonomia em PR e merge (sem perguntar, sem relatório longo) | sim | sim | não se aplica — não há Git |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
 usada na sessão cloud (por padrão, `main`): o cloud lê o repositório, não a máquina local.
@@ -38,15 +39,36 @@ Saiu commit na lista? A branch está atrás: rebasear (ou ler as fichas de `orig
 base. Um sinal rápido do mesmo problema: se `git ls-files` ainda mostrar `base_conhecimento_juridico_*.md`,
 a branch é anterior ao fatiamento em `teses/` e a base que ela carrega está superada.
 
+**Branch atrasada também não tem as skills.** `.claude/skills/` é lido do repositório: numa branch anterior
+à criação das skills, `formatar-minuta` e `nomear-minuta` simplesmente não existem na sessão — e o padrão
+visual e o nome do arquivo passam a sair da peça-modelo que o usuário anexou, que é justamente o que a
+regra proíbe. Já aconteceu: peça entregue em `.odt`, com underscores no nome e entrelinha 1,5 herdada do
+modelo anexado, e a divergência só apareceu depois do rebase. Por isso o Passo 0 vem **antes** de minutar,
+não depois: rebasear é o que faz as skills existirem na sessão.
+
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
-2. Ler `INDICE.md` — só o protocolo do topo e a tabela de roteamento.
-3. Ler os documentos do processo e **listar os pedidos**.
-4. Para cada pedido, casar com um `gatilho` da tabela e abrir **somente** a ficha indicada. Abrir também as
-   fichas da seção "Sempre aplicável" do índice (prerrogativas processuais; prescrição, na trabalhista).
+2. Ler os documentos do processo e **listar os pedidos**.
+3. Rotear com o script, que faz a busca **fora** do contexto — nenhuma linha da tabela do índice entra na
+   conversa:
+
+   ```bash
+   python scripts/rotear.py --por-pedido "<um pedido por linha>"
+   ```
+
+   Ele devolve só os caminhos das fichas que casaram, já com as de "Sempre aplicável". Aceita também
+   `--arquivo <caminho>` (inclusive fora do repositório) e `--area trabalhista|civel`. Alimente-o com a
+   **lista de pedidos**, não com a inicial inteira: a inicial menciona de passagem temas que não são
+   pedido nenhum, e cada um vira ficha aberta à toa.
+4. Abrir **somente** as fichas que o script apontou. Casamento marcado "fraco" (um gatilho só) é
+   candidato, não resposta: conferir se o tema é mesmo aquele antes de abrir.
 5. Só então abrir o modelo estrutural (`modelos/<área>/…`) e a seção correspondente do
    `playbook_prompts_ECT.md`.
+
+Sem Python no ambiente, ou o script falhando: aí sim ler o `INDICE.md` (protocolo do topo + tabela) e casar
+os gatilhos à mão. O índice continua sendo a fonte legível para humano e a rede de segurança — o script só
+evita pagá-lo em contexto a cada sessão.
 
 Regras:
 - **Nunca** ler `teses/` por inteiro, nem abrir ficha "por precaução" — cada ficha aberta custa contexto.
@@ -89,7 +111,7 @@ Regras:
 - **Nunca** recriar cabeçalho, rodapé ou logotipo a partir de descrição em texto: clone
   `modelos/_FORMATO_BASE.docx`.
 - O arquivo da peça, por conter dado real da parte, é gravado **fora deste repositório** (em
-  `D:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
+  `F:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
 - O padrão **não usa nota de rodapé**: referência a documento (SEI, Id do PJe, folha) vai no corpo, entre
   parênteses.
 
@@ -151,10 +173,20 @@ quando já existir — ou puder existir — um `.md` equivalente.
 python scripts/converter_parte_para_md.py "<NOME DA PARTE>"
 ```
 
-Isso converte todo PDF/DOC/DOCX encontrado em `D:\Claude\00 caso_atual\<pasta da parte>` (busca por nome
-parcial, sem diferenciar maiúsculas/acentos) para um `.md` irmão, na mesma pasta. Reconverte só o que for
-novo ou tiver mudado desde a última conversão (comparação de data de modificação) — rodar de novo é barato.
+Isso converte para um `.md` irmão, na mesma pasta, todo documento encontrado em
+`F:\Claude\00 caso_atual\<pasta da parte>` — busca por nome parcial, sem diferenciar
+maiúsculas/acentos; se a unidade `F:` não existir, o script tenta `D:`. Reconverte só o que for novo ou
+tiver mudado desde a última conversão (comparação de data de modificação) — rodar de novo é barato.
 Depois de rodar, **leia os `.md` gerados, não os originais**.
+
+Formatos: `.pdf`, `.docx`, `.doc`, `.rtf`, `.odt`, `.xlsx`/`.xlsm`, `.csv`/`.tsv`, `.pptx`, `.html`,
+`.eml`, `.msg` e `.txt`; imagem (`.jpg`, `.png`, `.tif`…) só com `--ocr`. Cada página do original vira um
+marcador `[p.N]` no `.md`, então a folha continua citável na peça. A extração já remove o que só gasta
+token e não informa — cabeçalho/rodapé repetido em toda página, número de página e "Fls. N" isolados,
+tarja de assinatura eletrônica e hash de validação do PJe, hifenização de fim de linha e quebra de linha
+no meio da frase —, sem resumir nem reescrever o conteúdo jurídico. Opções úteis: `--ocr` (PDF
+digitalizado ou foto de documento), `--anonimizar` (mascara CPF, CNPJ e nº de processo no `.md`),
+`--sem-reflow` (preserva o layout original) e `--force`.
 
 **Depois de converter com sucesso, sobre os arquivos originais (PDF/DOC/DOCX):** Claude nunca exclui
 arquivo definitivamente — nem sozinho, nem se o usuário pedir/autorizar, nem como passo automático desta
@@ -167,13 +199,17 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - **Nenhuma pasta encontrada** ou **mais de uma pasta corresponde ao nome** → o script lista as opções
   existentes; peça ao usuário para confirmar o nome/pasta exata antes de prosseguir.
 - **Falha ao converter um `.doc` antigo** (formato binário do Word 97-2003) → avise o usuário; a solução é
-  salvar o arquivo como `.docx` ou `.pdf` e rodar o script de novo.
-- Pré-requisito de ambiente: Python 3.12+ com `markitdown[pdf,docx]` instalado
-  (`pip install -r scripts/requirements.txt`). Se o comando falhar por lib ausente, avise antes de tentar
-  qualquer alternativa manual de leitura do PDF.
+  salvar o arquivo como `.docx` ou `.pdf` e rodar o script de novo (no Windows com Word instalado e
+  `pip install pywin32`, o script converte sozinho).
+- **Documento marcado `VAZIO`** (nenhum texto extraído — PDF digitalizado, foto de documento) → o `.md`
+  fica gravado só com o motivo. Rodar de novo com `--ocr`; se ainda assim não sair texto, ler o original e
+  avisar o usuário. Documento sem texto **nunca** vai para a Lixeira, mesmo com `--mover-para-lixeira`.
+- Pré-requisito de ambiente: Python 3.9+ com as libs de `scripts/requirements.txt` instaladas
+  (`pip install -r scripts/requirements.txt`). Faltando alguma, o script avisa no início quais são e
+  converte o que consegue — não é motivo para ler o PDF na mão antes de olhar o aviso.
 
 **Nunca:**
-- Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`D:\Claude\00 caso_atual`
+- Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`F:\Claude\00 caso_atual`
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
 
@@ -206,6 +242,33 @@ sinal de que a questão é real e precisa de leitura humana — não de uma terc
 A política de rede é escolhida na criação do ambiente e pode mudar; o que está acima é o comportamento
 observado, não uma garantia permanente. Em sessão local (CLI/desktop), a conferência costuma ser possível —
 é o caminho preferível para fechar pendência de texto legal.
+
+## Autonomia em PR e merge — executar, não narrar
+
+**Objetivo:** o usuário não quer ser consultado nem receber relatório detalhado a cada etapa de Git. Ele
+quer o problema resolvido e uma confirmação curta no final.
+
+**Gatilho:** qualquer sessão que envolva commit, push, abertura de pull request, resolução de conflito,
+correção de CI ou merge neste repositório.
+
+**Ação:** executar o ciclo inteiro por conta própria — commit, push, abrir o PR, corrigir o que estiver
+vermelho e fazer o merge —, e só então responder, em **até três linhas**, o que ficou pronto e o link do PR.
+
+Regras:
+- **Não perguntar** se pode commitar, se pode abrir PR, se pode fazer merge, qual mensagem de commit usar,
+  qual método de merge, se pode apagar a branch. É tudo autorizado por padrão nesta base.
+- **Não explicar** passo a passo o que o Git fez: nada de listar arquivo por arquivo, colar diff, narrar
+  tentativa de push, descrever a resolução de conflito ou o motivo de cada falha de CI. O diff do commit é o
+  registro; quem quiser o detalhe abre o PR.
+- **Falar apenas quando houver decisão jurídica em jogo** (duas teses possíveis, risco de perder argumento,
+  dado do processo faltando) ou quando algo travar de fato e não houver caminho — aí sim, dizer em uma linha
+  o que trava e o que falta.
+- Problema no meio do caminho (push recusado, conflito, CI vermelho, lint) se **resolve na própria sessão**,
+  sem avisar antes nem pedir permissão; a resposta final menciona no máximo que houve correção, sem o
+  histórico.
+- Continua valendo o que é proibido em qualquer sessão: nunca reescrever histórico de branch de outra
+  pessoa, nunca desativar ou pular teste para ficar verde, nunca subir dado real de parte para o
+  repositório.
 
 ## Título da sessão — identificação do caso na aba lateral
 

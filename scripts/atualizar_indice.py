@@ -189,9 +189,13 @@ def relatar_pedagio(fichas: list[dict], indice_novo: str) -> list[str]:
     urgencia = "PASSOU DO CORTE" if m["fracao"] >= FRACAO_CORTE else "ALERTA"
     linhas += [
         "",
-        f"{urgencia}: {pct:.0f}% de cada sessão é índice, não conteúdo.",
-        "Enxugue os gatilhos das fichas abaixo — critério em teses/README.md, seção",
-        '"Gatilho é chave de busca, não resumo". Cortar gatilho custa recall: tire só o redundante.',
+        f"{urgencia}: {pct:.0f}% de cada sessão é índice, não conteúdo — *quando o índice é lido*.",
+        "Primeiro caminho, e o barato: rotear por `scripts/rotear.py`, que casa os gatilhos fora do",
+        "contexto e devolve só os caminhos. Aí o pedágio some sem custar recall nenhum, e a lista",
+        "abaixo vira só um sintoma de ficha com sinônimo redundante — não uma dívida a pagar.",
+        "Só se o roteamento continuar sendo feito à mão pela tabela é que vale enxugar os gatilhos",
+        'das fichas abaixo (critério em teses/README.md, "Gatilho é chave de busca, não resumo");',
+        "cortar gatilho custa recall: tire só o redundante.",
     ]
     gordas = sorted(((len(f.get("gatilhos", [])), f["_caminho"]) for f in fichas), reverse=True)
     gordas = [(n, c) for n, c in gordas if n > GATILHOS_CONFORTAVEIS]

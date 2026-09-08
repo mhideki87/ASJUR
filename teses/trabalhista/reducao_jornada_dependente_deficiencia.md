@@ -5,9 +5,9 @@ slug: reducao_jornada_dependente_deficiencia
 status: rascunho
 gatilhos: [redução de jornada, jornada reduzida, horário especial, filho com deficiência, dependente com deficiência, TEA, transtorno do espectro autista, autismo, cuidador, art. 98 da Lei 8.112/90, Tema 138, Tema 1.097, Lei 13.146/2015, Estatuto da Pessoa com Deficiência, adaptação razoável, obrigação de fazer, empregado público celetista]
 pecas: [contestação, recurso ordinário, contrarrazões, embargos de declaração, recurso de revista]
-modelos: [modelos/trabalhista/embargos_declaracao__generico.md]
+modelos: [modelos/trabalhista/embargos_declaracao__generico.md, modelos/trabalhista/recurso_ordinario__sentenca_primeiro_grau.md]
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-02
+atualizado: 2026-09-07
 ---
 
 # Tese — Redução de jornada para acompanhamento de dependente com deficiência
@@ -31,6 +31,14 @@ compensação de horário**, por aplicação analógica do **art. 98, §§ 2º e
 IRR em **RR-0000594-13.2023.5.20.0006**, Tribunal Pleno, Rel. Min. Aloysio Corrêa da Veiga, julgado em
 16/05/2025, acórdão publicado em 20/05/2025; tese reafirmada em 04/07/2025, ao rejeitar recurso de outra
 empresa pública contra a fixação.
+
+**Corroboração parcial (09/2026):** petição inicial de outro caso do mesmo tema transcreveu a tese e
+identificou o precedente como `TST – Tribunal Pleno – RR-0000594-13.2023.5.20.0006, Rel. Min. Aloysio Silva
+Corrêa da Veiga`, **publicado em 22/05/2025**. Número do processo e relator batem com o que esta ficha já
+registrava; a **data de publicação diverge** (esta ficha anota 20/05/2025). O texto transcrito pela parte
+adversa é compatível com o resumo acima, inclusive na remissão expressa "nas hipóteses dos §§ 2º e 3º do
+artigo 98 da Lei nº 8.112/1990, de aplicação analógica". Transcrição de peça de parte **não substitui** o
+inteiro teor — a lacuna permanece aberta.
 
 `[REVISAR: o parágrafo acima resume a tese como descrita no acórdão-fonte desta ficha e em consulta pública —
 não é transcrição conferida. Antes de transcrever em peça, e sobretudo para cumprir o art. 896, § 1º-A, I,
@@ -86,7 +94,11 @@ Por ordem de eficácia comprovada:
    nova controvérsia na execução.
 7. **Sanção pecuniária / obrigação de fazer** — pedir prazo de cumprimento, termo inicial e limite da multa
    (arts. 536, § 1º, e 537, §§ 1º e 4º, do CPC); é comum a sentença fixar valor elevado sem parâmetro
-   temporal e o acórdão silenciar — daí a omissão que rende embargos de declaração.
+   temporal e o acórdão silenciar — daí a omissão que rende embargos de declaração. Variante observada em
+   sentença de 1º grau: o dispositivo **ratifica a tutela** (obrigação de trato continuado) e, na mesma
+   frase, **"considera satisfeita a obrigação"** porque a liminar foi cumprida. Não se extrai do julgado se
+   a obrigação se exauriu com a implantação ou se persiste sem termo — obscuridade que convém sanar, porque
+   é dela que depende saber quando cabe a revisão do item 2.
 
 ## Pontos sensíveis / variações
 
@@ -112,7 +124,9 @@ Por ordem de eficácia comprovada:
 ## Lacunas
 
 - [ ] **Conferir o teor literal da tese** no inteiro teor do IRR e retirar o `[REVISAR]` da seção
-      `Tese central`. Fonte: `tst.jus.br` → Temas de recursos repetitivos → Tema 138 (arquivo `IRR138.pdf`),
+      `Tese central`. A corroboração de 09/2026 (transcrição em peça de parte adversa)
+      confirma número e relator, mas **não** substitui o inteiro teor; resolver de passagem a
+      divergência da data de publicação (20/05 x 22/05/2025). Fonte: `tst.jus.br` → Temas de recursos repetitivos → Tema 138 (arquivo `IRR138.pdf`),
       ou o acórdão em RR-0000594-13.2023.5.20.0006. Sessão de 02/09/2026 não conseguiu abrir: o ambiente
       cloud bloqueia `tst.jus.br` por política de rede. Fazer numa sessão local, ou anexar o PDF.
 - [ ] Verificar no inteiro teor se a tese diz algo sobre **percentual de redução** e sobre **comprovação

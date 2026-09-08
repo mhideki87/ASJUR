@@ -3,11 +3,11 @@ area: transversal
 tema: Prerrogativas processuais da ECT (equiparação à Fazenda Pública)
 slug: prerrogativas_processuais_ect
 status: validada
-gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de custas, dispensa de depósito recursal, precatório, art. 100 da CF, EC 113/2021, SELIC, tempestividade, empresa pública, juros e correção contra a Fazenda, tutela antecipada contra a Fazenda]
-pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação]
+gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de custas, dispensa de depósito recursal, precatório, art. 100 da CF, EC 113/2021, SELIC, tempestividade, empresa pública, juros e correção contra a Fazenda, tutela antecipada contra a Fazenda, agravo de petição, art. 897 § 1º da CLT, delimitação de valores]
+pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação, agravo de petição]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
 ver_tambem: []
-atualizado: 2026-09-03
+atualizado: 2026-09-08
 ---
 
 # Tese — Prerrogativas processuais da ECT
@@ -35,6 +35,13 @@ produz deferimento pela metade — ver "Pontos sensíveis"):
 3. **Dispensa de depósito recursal** — art. 1º, IV, do Decreto-lei 779/69.
 4. **Execução por precatório** (art. 100 da CF) e **juros/correção pelo art. 3º da EC 113/2021 (SELIC
    única)**.
+
+**Delimitação de matérias e valores no agravo de petição** — art. 897, § 1º, da CLT. O TRT24 tem admitido
+o requisito por atendido consignando expressamente que **a ECT goza das prerrogativas da Fazenda Pública e
+do regime constitucional de pagamento por precatório** (2ª Turma, AP 0025655-03.2025.5.24.0002,
+j. 12/08/2026). Delimitar assim mesmo — matéria a matéria, com o valor impugnado de cada uma —, porque a
+falta de delimitação não é vício sanável em contrarrazões. O **exequente**, quando agravante, é **dispensado
+da delimitação de valores**: não adianta arguir isso como preliminar contra o agravo dele.
 
 **Bloco de equiparação à Fazenda Pública** (texto genérico, reaproveitável literalmente do modelo):
 cita **RE 220699/SP** (Rel. Min. Moreira Alves, DJ 16/03/2001) e o rol de acórdãos no mesmo sentido —

@@ -6,7 +6,7 @@ status: validada
 gatilhos: [quebra de caixa, atividade especial, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, cota da patrocinadora, honorários advocatícios, art. 791-A, art. 85 § 3º CPC, normativos internos, PLR, retificação do CNIS, salários de contribuição, multa diária, AAG, adicional de atendimento em guichê]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md]
 atualizado: 2026-09-03
 ---
 
@@ -52,6 +52,9 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   "em razão da equiparação da reclamada à Fazenda Pública". A equiparação é **prerrogativa processual**
   da ECT (prazo, custas, depósito, precatório); não desloca o arbitramento de honorários trabalhistas
   para o CPC. Impugnar sempre e requerer honorários em favor da ECT sobre os pedidos rejeitados.
+  Quando a ECT sucumbe e a **sentença é omissa** quanto aos honorários do autor, o problema muda de
+  natureza — a disputa passa a ser de *quantum*, e há regra de postura a seguir antes de qualquer tese:
+  ver [honorarios_sucumbenciais_omissao_da_sentenca.md](honorarios_sucumbenciais_omissao_da_sentenca.md).
 - **Retificação do CNIS com multa diária** — pedido acessório frequente. A retificação de salários de
   contribuição é ato do **INSS**, terceiro estranho à lide; a ECT cumpre suas obrigações por
   eSocial/GFIP. A competência do art. 114, VIII, da CF alcança a execução das contribuições, não a

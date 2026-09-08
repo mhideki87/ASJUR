@@ -50,13 +50,17 @@ VII  — DOS REQUERIMENTOS
 Blocos marcados `[condicional]` só entram se houver o pedido correspondente na inicial. Os demais são fixos.
 
 **Dois tópicos que o usuário cortou da minuta na revisão — não reintroduzir sem que ele peça:**
-- **impugnação ao pedido de justiça gratuita** como tópico do corpo (a Súmula 463, I, do TST torna a briga
-  cara e de baixo retorno). O **requerimento** correspondente pode continuar nas alíneas;
+- **impugnação ao pedido de justiça gratuita** como tópico do corpo (a Súmula 463, I, do TST tornava a briga
+  cara e de baixo retorno). O **requerimento** correspondente pode continuar nas alíneas.
+  ⚠ **Esse cálculo de custo-benefício mudou para processo ajuizado sob o regime da ADC 80** (STF, j.
+  03/09/2026): a Súmula 463, I, foi declarada inconstitucional e o ônus da prova passou a ser do autor —
+  o tópico voltou a compensar. Em processo **anterior** ao marco da modulação, o corte original continua
+  de pé. Ver `teses/transversal/justica_gratuita_adc80.md`;
 - **impossibilidade de condenação em parcelas vincendas** (art. 323 do CPC / art. 892 da CLT) — o argumento
   não compensava o espaço.
 Mantendo o requerimento de gratuidade sem o tópico no corpo, **escrever a alínea de forma
-autossuficiente** — com a remuneração da ficha cadastral e o art. 790, §§ 3º e 4º, da CLT dentro da própria
-alínea. Pedido sem fundamentação é convite a ser ignorado.
+autossuficiente** — com a remuneração da ficha cadastral e o art. 790, §§ 3º e 4º, da CLT (mais a ADC 80,
+se o processo for posterior ao marco) dentro da própria alínea. Pedido sem fundamentação é convite a ser ignorado.
 
 **Ao cortar um tópico, varrer os requerimentos.** Cortes no corpo deixam alíneas órfãs ou desatualizadas —
 já aconteceu de a alínea seguir citando o MANPES depois de o corpo passar à norma coletiva, e de pedir
