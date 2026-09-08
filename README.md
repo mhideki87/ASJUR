@@ -21,7 +21,7 @@ A base é **fatiada por tema** e lida sob demanda: nenhuma sessão lê a base in
 | [.claude/skills/nomear-minuta/](.claude/skills/nomear-minuta/SKILL.md) | Skill que nomeia o arquivo da minuta entregue — sem `_`, tópicos separados por ` - `, nome da parte por último | Ao gerar, salvar ou citar o nome de uma peça |
 | [LACUNAS.md](LACUNAS.md) | O que falta validar na base e não pertence a nenhum tema | Em sessão de manutenção |
 | [scripts/atualizar_indice.py](scripts/atualizar_indice.py) | Valida os metadados das fichas e regenera a tabela do `INDICE.md` | Ao criar/alterar ficha |
-| [scripts/converter_parte_para_md.py](scripts/converter_parte_para_md.py) | Conversão de PDF/DOC do processo para `.md` — não roda no Project do claude.ai, só localmente | Automático (local) |
+| [scripts/converter_parte_para_md.py](scripts/converter_parte_para_md.py) | Conversão dos documentos do processo (PDF, DOCX, planilha, e-mail…) para `.md` enxuto, com OCR opcional — não roda no Project do claude.ai, só localmente | Automático (local) |
 
 As fichas de tese substituíram os antigos `base_conhecimento_juridico_ECT.md` e
 `base_conhecimento_juridico_CIVEL.md` (conteúdo migrado para `teses/`, histórico no Git).
@@ -57,8 +57,14 @@ exata — nunca invente.
 ## Automação local (Claude Code): conversão de PDF/DOC para .md
 
 Os documentos reais de cada processo (inicial, sentença, laudos etc.) ficam **fora deste repositório**, em
-`D:\Claude\00 caso_atual\<nome da parte>`. Numa sessão de Claude Code, assim que o nome da parte adversa é
-informado ou identificado num documento, o Claude roda `scripts/converter_parte_para_md.py` para gerar um
-`.md` de cada PDF/DOC daquela pasta e passa a ler o `.md` em vez do original — poupa tokens e evita reler o
-mesmo PDF em várias mensagens. Detalhes e gatilho exato em [CLAUDE.md](CLAUDE.md). Pré-requisito:
+`F:\Claude\00 caso_atual\<nome da parte>` (se a unidade `F:` não existir, o script tenta `D:`). Numa sessão
+de Claude Code, assim que o nome da parte adversa é informado ou identificado num documento, o Claude roda
+`scripts/converter_parte_para_md.py` para gerar um `.md` irmão de cada documento daquela pasta e passa a ler
+o `.md` em vez do original — poupa tokens e evita reler o mesmo PDF em várias mensagens.
+
+Além de PDF e DOC/DOCX, converte planilha, CSV, PPTX, HTML, e-mail (`.eml`/`.msg`) e TXT; PDF digitalizado e
+foto de documento entram com `--ocr`. A extração tira o que só gasta token e não informa (cabeçalho e rodapé
+repetidos, "Fls. N", tarja de assinatura e hash do PJe, quebra de linha no meio da frase) e mantém um
+marcador `[p.N]` por página, para a folha continuar citável na peça — sem resumir nem reescrever o conteúdo.
+Detalhes, gatilho e opções em [CLAUDE.md](CLAUDE.md). Pré-requisito:
 `pip install -r scripts/requirements.txt`.

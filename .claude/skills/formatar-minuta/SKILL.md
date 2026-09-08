@@ -149,7 +149,7 @@ de clonar `modelos/_FORMATO_BASE.docx`. Nunca entregue em `.odt` nem monte a pe�
 - [ ] Fecho e assinatura fecham a peça; nada depois deles.
 - [ ] Nenhuma nota de rodapé no documento.
 - [ ] O arquivo **não** foi copiado para dentro deste repositório (dado real de parte fica em
-      `D:\Claude\00 caso_atual`).
+      `F:\Claude\00 caso_atual`).
 - [ ] O nome do arquivo saiu da skill `nomear-minuta` — sem `_`, tópicos separados por ` - `, nome da parte
       por último em caixa alta.
 
