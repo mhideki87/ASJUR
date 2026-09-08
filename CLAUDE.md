@@ -46,16 +46,34 @@ regra proíbe. Já aconteceu: peça entregue em `.odt`, com underscores no nome 
 modelo anexado, e a divergência só apareceu depois do rebase. Por isso o Passo 0 vem **antes** de minutar,
 não depois: rebasear é o que faz as skills existirem na sessão.
 
-**O custo, medido numa sessão real (09/2026):** a branch estava semanas atrás e o Passo 0 foi saltado.
-O prejuízo não foi só de tese desatualizada — foram quatro coisas, e nenhuma apareceu na hora:
-duas rodadas de formatação erradas (a peça saiu do `.docx` do modelo anexado, porque a skill não existia
-na sessão); uma **ficha duplicada** criada para um tema que já tinha ficha melhor no `main`, que precisou
-ser removida no rebase; uma hipótese factual construída e depois derrubada; e a Súmula 372, I tratada como
-vigente quando o `main` já registrava o cancelamento — o argumento mais forte da defesa ficou de fora até
-o rebase. Rebasear custa um comando; recuperar isso custou a sessão inteira.
+**Conferir uma vez no início não basta — sessão longa começa em dia e envelhece.** Em 09/2026 uma sessão
+aberta em 21/08 seguiu ativa até 08/09 e, ao final, estava **105 commits atrás**: sem `CLAUDE.md`, sem
+`teses/`, sem as skills. Ela produziu quatro peças (embargos, recurso ordinário e duas manifestações)
+montando o `.docx` com XML escrito à mão, entregando em `.odt`, com nome fora do padrão da
+`nomear-minuta` e **sem o retângulo do tópico principal** — e ainda minutou sobre a Súmula 439 do TST, já
+cancelada, cuja ficha corrigida existia no `main`. Nada disso era detectável de dentro da branch: o aviso
+que manda sincronizar mora no arquivo que a branch atrasada não tem.
 
-Sinal de que faltou: você criou ficha nova sem antes rodar `python scripts/rotear.py` **contra a base do
-`main`**. Ficha nova é a hora de desconfiar — o tema quase sempre já existe.
+Por isso a conferência agora é **automática, e em dois pontos**:
+
+- **no início da sessão** — hook `SessionStart` em `.claude/settings.json`, que injeta o diagnóstico no
+  contexto quando a branch está atrás;
+- **a cada peça gerada** — o `gerar_minuta_docx.py` da skill `formatar-minuta` **recusa** gerar `.docx`
+  com a branch atrasada (`--ignorar-branch-desatualizada` força, quando houver motivo consciente). Este é
+  o ponto que pega a sessão longa, porque repete a cada peça.
+
+Ambos chamam `python scripts/verificar_branch.py`, que não depende de nenhum texto do repositório — só de
+git e dos sinais de disco (`teses/` ausente, `base_conhecimento_juridico_*.md` presente, skills ausentes).
+Rodar à mão a qualquer momento: `python scripts/verificar_branch.py`.
+
+**Dois custos que o diagnóstico automático não mede, e que só aparecem depois:** numa sessão de 09/2026
+a branch atrasada levou à criação de uma **ficha duplicada** — tema que já tinha ficha melhor no `main`,
+descoberto só no rebase e removido lá — e a uma hipótese factual construída sobre documento parcial, que
+caiu quando o documento completo chegou.
+
+Daí um sinal de alerta que vale sozinho: **criar ficha nova é a hora de desconfiar.** Antes de criar,
+rodar `python scripts/rotear.py` **contra a base do `main`**, não a da branch. O tema quase sempre já
+existe.
 
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
