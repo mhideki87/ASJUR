@@ -46,6 +46,17 @@ regra proíbe. Já aconteceu: peça entregue em `.odt`, com underscores no nome 
 modelo anexado, e a divergência só apareceu depois do rebase. Por isso o Passo 0 vem **antes** de minutar,
 não depois: rebasear é o que faz as skills existirem na sessão.
 
+**O custo, medido numa sessão real (09/2026):** a branch estava semanas atrás e o Passo 0 foi saltado.
+O prejuízo não foi só de tese desatualizada — foram quatro coisas, e nenhuma apareceu na hora:
+duas rodadas de formatação erradas (a peça saiu do `.docx` do modelo anexado, porque a skill não existia
+na sessão); uma **ficha duplicada** criada para um tema que já tinha ficha melhor no `main`, que precisou
+ser removida no rebase; uma hipótese factual construída e depois derrubada; e a Súmula 372, I tratada como
+vigente quando o `main` já registrava o cancelamento — o argumento mais forte da defesa ficou de fora até
+o rebase. Rebasear custa um comando; recuperar isso custou a sessão inteira.
+
+Sinal de que faltou: você criou ficha nova sem antes rodar `python scripts/rotear.py` **contra a base do
+`main`**. Ficha nova é a hora de desconfiar — o tema quase sempre já existe.
+
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
