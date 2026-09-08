@@ -52,7 +52,7 @@ escreva "nada" e siga:
 | Gatilho que faltou / sobrou | metadado `gatilhos:` da ficha (é o que faz o roteamento funcionar na próxima vez) |
 | Estrutura de peça nova ou variação | `modelos/<área>/<tipo_peca>__<tema>.md` (+ `.docx` anonimizado, se houver peça real anexada) — e acrescente o caminho no metadado `modelos:` da ficha |
 | Regra de trabalho ou perfil | `CONTEXTO.md` |
-| Padrão formal da peça | `modelos/README.md` |
+| Padrão formal da peça (fonte, margens, espaçamento, tópico em retângulo, numeração, cabeçalho, rodapé, assinatura) | `.claude/skills/formatar-minuta/` — SKILL.md e `referencia/especificacao_formatacao.md`. **Não** descreva formatação em `modelos/README.md`, que só aponta para a skill |
 | Nomenclatura do arquivo final, tipo de peça novo | `playbook_prompts_ECT.md` (seção 5.1) |
 | Lacuna que não é de um tema | `LACUNAS.md` |
 | Prompt que funcionou bem / erro de pedido a evitar | `playbook_prompts_ECT.md` |
@@ -87,6 +87,11 @@ Toda vez que uma ficha for criada, renomeada, ou tiver metadado alterado:
 python scripts/atualizar_indice.py           # revalida os metadados e reescreve a tabela do INDICE.md
 python scripts/atualizar_indice.py --check   # confere sincronia — rode antes de propor o commit
 ```
+
+O script também mede o **pedágio** (`CONTEXTO.md` + `INDICE.md`, lidos em toda sessão) e avisa quando
+ele passa de 40% de uma sessão típica, listando as fichas com mais gatilhos. Se esse aviso aparecer,
+**repasse-o ao usuário** no relatório do Passo 5 — não enxugue por conta própria no meio de uma
+consolidação: cortar gatilho custa recall e é decisão à parte, com o critério de `teses/README.md`.
 
 O script recusa metadado faltando, `slug` diferente do nome do arquivo, `area` diferente da pasta, `status`
 inválido, data fora do formato e referência para arquivo inexistente. Se ele reclamar, corrija a ficha — não

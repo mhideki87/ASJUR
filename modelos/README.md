@@ -8,32 +8,68 @@ logotipo, rodapé com endereço/numeração, e o bloco de fecho + assinatura (Ma
 idênticos** ao original — só o corpo foi trocado por um placeholder, porque a estrutura do corpo varia por
 tipo de peça (contestação ≠ recurso ≠ quesitos) e por tema.
 
-Ao gerar qualquer peça nova, comece por este arquivo. Dois pontos do bloco de qualificação **mudam conforme o
+Ao gerar qualquer peça nova, comece por este arquivo — o caminho normal é a skill **`formatar-minuta`**, que
+clona este `.docx` e regrava só o corpo:
+
+```bash
+python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
+```
+
+Dois pontos do bloco de qualificação **mudam conforme o
 tipo de peça** e precisam ser ajustados a cada uso:
-- Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões) e os rótulos de
-  polo (Reclamante/Reclamada; Recorrente/Recorrido; Embargante/Embargado, etc.).
+- Endereçamento (Vara do Trabalho para peças de 1º grau; TRT24 para recursos/contrarrazões e mandado de
+  segurança) e os rótulos de polo (Reclamante/Reclamada; Recorrente/Recorrido; Impetrante/Autoridade
+  Coatora/Litisconsorte, etc.).
 - `[FUNDAMENTAÇÃO LEGAL DE ADMISSIBILIDADE]` — o dispositivo que autoriza a peça (ex.: art. 847 CLT c/c 336
-  CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista).
+  CPC para contestação; art. 895 CLT para recurso ordinário; art. 896 CLT para recurso de revista; art. 897-A
+  CLT para embargos de declaração; art. 5º, LXIX, da CF e Lei 12.016/2009 para mandado de segurança).
+
+O padrão de tópicos de nível 1 em **retângulo** (centralizados, maiúsculas, negrito) está nos `.docx` de
+tema, não no `_FORMATO_BASE.docx`, cujo corpo é apenas um placeholder. Ao gerar peça nova, abrir também um
+`.docx` de tema para copiar esse padrão.
 
 Um modelo específico de tipo de peça + tema (ver abaixo) só precisa de `.docx` próprio quando o **corpo**
 tiver algo estruturalmente distinto que valha preservar (uma tabela, uma numeração especial de quesitos) —
 fora isso, a formatação já vem de `_FORMATO_BASE.docx` e o `.md` do tema basta para descrever a estrutura.
 
-## Padrão formal, em texto
+## Padrão formal — onde está a especificação
 
-O `.docx` acima é a fonte da verdade — isto aqui é só a descrição, para conferência.
+A especificação da formatação **não fica mais aqui**: está na skill `formatar-minuta`
+([SKILL.md](../.claude/skills/formatar-minuta/SKILL.md) +
+[especificação com as medidas](../.claude/skills/formatar-minuta/referencia/especificacao_formatacao.md)),
+que é a fonte única para qualquer tipo de peça, trabalhista ou cível. Resumo do que vale:
 
-**Trabalhista** (validado, uso real): formato **.odt**, convertido para .docx quando necessário; fonte
-**Arial 11**, entrelinha **1,5**, parágrafos justificados com recuo de primeira linha; margens esquerda
-2 cm / direita ~1,25 cm; cabeçalho com logotipo dos Correios + "Assessoria Jurídica"; rodapé com endereço
-e numeração; citações de jurisprudência em bloco recuado (~3 cm); fecho "N. Termos / P. Deferimento. /
-Campo Grande/MS, data de assinatura eletrônica." + bloco de assinatura centralizado com nome e OAB.
-Estrutura usual das razões: síntese → preliminares/prejudiciais → mérito → *ad cautelam* → requerimentos
-com **prequestionamento**.
+- Arial 11 no corpo; Arial 10 nas citações e blocos de cálculo (recuo de 4 cm).
+- Entrelinha **exata de 18 pt** (não é "1,5 linha" múltipla), espaço de 6 pt depois do parágrafo.
+- Margens **3 cm** esquerda e superior, **2 cm** direita e inferior; A4.
+- Recuo de primeira linha de 3 cm no corpo; alíneas recuadas 3 cm sem recuo de primeira linha.
+- Tópico principal: caixa alta, negrito, centralizado, **dentro de retângulo**.
+- Subtópicos numerados à mão (`1 – `, `5.1 – `), negrito + sublinhado, caixa alta, recuo de 3 cm;
+  a numeração reinicia em cada tópico principal.
+- Cabeçalho com logotipo dos Correios; rodapé com endereço e numeração de página. **Sem nota de rodapé.**
+- Fecho "Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica." + assinatura
+  centralizada (Marcos Hideki Kamibayashi — OAB/MS 14.580).
 
-**Cível:** formato **.txt/.odt**; endereçamento a Juizado Especial Federal ou Vara Federal; mesmo fecho.
-`[REVISAR: confirmar se cabeçalho, fonte, espaçamento e demais regras da trabalhista também valem aqui,
-ou se cível tem modelo próprio]`
+A peça é gerada **e entregue** em `.docx`, a partir de `_FORMATO_BASE.docx` — pelo script da skill, ou
+escrevendo dentro do próprio arquivo base; nunca em documento em branco e nunca em `.odt`. O **nome** do
+arquivo é da skill `nomear-minuta`.
+
+O padrão é o mesmo nas duas áreas: **cível usa a mesma formatação e a mesma assinatura da
+trabalhista** — muda só o endereçamento (Juizado Especial Federal ou Vara Federal, TRF3 em 2º grau)
+e os rótulos de polo.
+
+### Rodapé — texto confirmado
+
+O rodapé de todas as peças é, **confirmado pelo usuário em 31/08/2026**:
+
+```
+Avenida Calógeras nº 2309 – 2º andar – Centro – Campo Grande – MS – Fone 2109-1004.
+```
+
+Os quatro `.docx` deste diretório já o carregam. **Cuidado ao reaproveitar peça antiga:** circulam
+versões com telefone desatualizado — `3389-5104` (aparece em `.odt` de recurso de 2024/2025) e
+`3301-2004` (aparece em contestação protocolada em 2025). Ao montar peça nova sobre o pacote de um
+arquivo antigo, conferir o rodapé antes de entregar.
 
 ## Modelos por tipo de peça + tema
 
@@ -49,6 +85,11 @@ O `.md` descreve em prosa para consulta rápida; o `.docx` é o arquivo literal 
 como base ao gerar a peça final — **não tente recriar a formatação a partir da descrição em texto**, use o
 arquivo binário como modelo.
 
+> **Precedência:** em qualquer divergência de formatação entre um `.docx` de tema e o `_FORMATO_BASE.docx`,
+> vale o `_FORMATO_BASE.docx`. Os `.docx` de tema salvos antes da revisão do padrão de parágrafos servem
+> apenas como referência de **estrutura de corpo**; a aparência (títulos em quadro, subtítulos sublinhados,
+> recuos, citações) sai sempre do formato base.
+
 ## Quando um tema precisa de mais de um modelo
 
 `trabalhista/contestacao__incorporacao_funcao.md` e `trabalhista/contestacao__remuneracao_singular.md`
@@ -60,10 +101,13 @@ peças de arquitetura diferente, porque o caso concreto decide onde a defesa se 
 | Reversão ao cargo efetivo · norma interna invocada (Módulos 55/36) · FAT/FAO/ITF/GPTF | `contestacao__incorporacao_funcao.md` |
 | Mudança de uma função gratificada para **outra** · rubrica "Complemento Remun. Singular" · só Súmula 372 | `contestacao__remuneracao_singular.md` |
 
-O segundo existe porque, no caso que o originou, o requisito temporal da Súmula 372 estava cumprido e
-documentado pela própria ECT: insistir nele seria perder em terreno perdido, e a defesa teve de se reorganizar
-em torno da **ausência de reversão** e da **natureza da parcela**. Quando a estrutura da peça muda de eixo, é
-modelo novo — não bloco condicional de um modelo existente.
+O segundo existe porque, no caso que o originou, o requisito temporal estava cumprido e documentado pela
+própria ECT: insistir nele seria perder em terreno perdido, e a defesa teve de se reorganizar em torno da
+**ausência de reversão** e da **natureza da parcela**. Quando a estrutura da peça muda de eixo, é modelo
+novo — não bloco condicional de um modelo existente.
+
+Lembrete de precedência: um `.md` de modelo descreve **estrutura, tese e texto reaproveitável**. A
+**formatação** de qualquer peça vem sempre da skill `formatar-minuta`, nunca do `.docx` do tema.
 
 ## Por que isso existe
 

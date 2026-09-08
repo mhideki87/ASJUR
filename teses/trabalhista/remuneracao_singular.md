@@ -6,8 +6,8 @@ status: validada
 gatilhos: [remuneração singular, complemento de remuneração singular, complemento remun. singular, valor singular, valor convencional, gratificação de função convencional, tabela de funções, tabela de função, rubrica 051106, rubrica 051003, rubrica 056106, valor a incorporar, base de cálculo da incorporação, redução do complemento, parcela mensal fixa, mudança de função, MANPES Módulo 1]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__remuneracao_singular.md, modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/temas_acessorios.md]
-atualizado: 2026-08-31
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/preliminares_processuais_defesa.md]
+atualizado: 2026-09-08
 ---
 
 # Tese — Remuneração singular e limite quantitativo da incorporação
@@ -92,6 +92,12 @@ Se o juízo deferir a incorporação, requerer que ela reproduza a metodologia d
   `[REVISAR: juntar a tabela vigente na data do fato e conferir em qual Grupo está a SE do caso — os valores
   variam por Grupo]`
 - **Arts. 450, 468 e 499 da CLT** — parcela de função é salário-condição.
+- **Súmula 372, I, do TST — cancelada** pela Resolução nº 225/2025 do Pleno do TST, por perda de eficácia a
+  partir de 11/11/2017 (ver [incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md), que
+  traz a fonte e a ressalva de conferência). Reforço, não eixo: as teses desta ficha independem dele.
+- **Tema 23 dos repetitivos, item 9 da ementa** — a garantia de irredutibilidade "*não se refere a parcelas
+  específicas nem à sua forma de cálculo, mas apenas ao montante nominal da soma das parcelas permanentes*".
+  É a ponte perfeita: o complemento de remuneração singular é o oposto de parcela permanente.
 - Vedação ao enriquecimento sem causa e à alteração contratual não pactuada.
 
 ## Como provar nos autos (roteiro de conferência aritmética)
@@ -189,6 +195,33 @@ inicial juntou.
 
 `[REVISAR: ainda não há precedente conhecido que tenha enfrentado **especificamente** a metodologia da parcela
 em regime de remuneração singular; registrar aqui a primeira decisão do TRT24 ou do TST sobre o ponto]`
+
+## O pedido de dano moral que vem de carona
+
+Iniciais deste tema costumam somar, ao pedido de incorporação, indenização por dano moral pelo
+"constrangimento" da redução. Improcede por razões que convém deduzir todas:
+
+- **Falta o ato ilícito**, pressuposto do dever de indenizar (art. 186 do CC; art. 223-B da CLT).
+  Improcedente o principal, improcede o acessório. Reforço *a fortiori*: se o art. 468, §1º, da CLT não
+  considera alteração unilateral nem a reversão ao cargo efetivo, muito menos o é a passagem de uma função
+  gratificada para outra.
+- **Mero inadimplemento contratual não gera dano moral.** A consequência do descumprimento de obrigação
+  pecuniária é o pagamento com juros e correção (arts. 389 e 404 do CC). Se fosse diferente, toda diferença
+  salarial acolhida carregaria dano moral automático.
+  `[REVISAR: acrescentar um a dois precedentes do TRT24 ou do TST sobre isso — não citar nada não conferido]`
+- **A própria inicial costuma qualificar o prejuízo como patrimonial**, ao falar de "diminuição no
+  patrimônio financeiro" e "violação da organização econômica". Nenhum dos dois está no rol de bens
+  extrapatrimoniais do art. 223-C da CLT. E alteração de rubrica em folha é ato interno, sem exposição a
+  terceiros.
+- ***Bis in idem*** — o mesmo fato sustenta o pedido de diferenças e o de indenização: uma repercussão, que
+  é econômica, e já integralmente reparada pelo pedido principal.
+- **Desproporção** — comparar o valor pedido com a diferença mensal apontada e com o valor do próprio pedido
+  principal. Em caso real, o dano moral pedido equivalia a 126 meses da diferença discutida e a 7,5 vezes o
+  pedido principal.
+
+Se a inicial deduzir mais de uma causa de pedir para esse mesmo pedido, a preliminar de inépcia por
+indeterminação está em
+[preliminares_processuais_defesa.md](../transversal/preliminares_processuais_defesa.md).
 
 ## Ligações
 

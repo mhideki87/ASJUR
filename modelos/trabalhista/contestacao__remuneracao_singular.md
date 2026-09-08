@@ -1,13 +1,15 @@
 # Modelo: Contestação — Complemento de Remuneração Singular (mudança de função gratificada)
 
 **Consolidado de:** 1 contestação real minutada nesta base (2026-08-31/09-01).
-**Arquivo-base:** `modelos/trabalhista/contestacao__incorporacao_funcao.docx` — **abrir esse arquivo e gerar
-a peça dentro dele**, apagando o corpo entre a qualificação e o fecho e reaproveitando os parágrafos dele
-como template. **Não** partir do `_FORMATO_BASE.docx` nem recriar a formatação: o `.docx` do tema tem padrão
-visual próprio (Times New Roman 12; margens 4 / 1,5 / 2,6 / 1,6) e é ele que vale aqui.
-Este `.md` descreve **só a estrutura e as teses** — a forma vem do binário.
+**Formatação:** vem da skill **`formatar-minuta`** — fonte única, para toda peça da assessoria. Escrever a
+minuta no `.md` com a marcação da skill e rodar
+`python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>`.
+Nome do arquivo entregue: skill **`nomear-minuta`**.
+**Este arquivo descreve só estrutura, teses e texto reaproveitável** — nunca formatação. O `.docx` do tema
+(`contestacao__incorporacao_funcao.docx`) serve para colher **blocos literais** (a tese e a ementa do Tema
+23, o bloco de equiparação), não para definir fonte, margem ou espaçamento.
 O `.docx` da peça real **não entra no repositório** (contém nome de parte).
-**Última atualização:** 2026-09-08 — corrige o arquivo-base e registra o esqueleto efetivamente usado.
+**Última atualização:** 2026-09-08 — remete a formatação à skill e registra o esqueleto efetivamente usado.
 
 ---
 
@@ -32,17 +34,14 @@ Fichas de tese: [`teses/trabalhista/remuneracao_singular.md`](../../teses/trabal
 
 ## Como gerar a peça (ordem das operações)
 
-1. Abrir `contestacao__incorporacao_funcao.docx`.
-2. Preencher a abertura do próprio modelo: endereçamento, epígrafe do precedente, `Proc. Nº`,
-   `Reclamante:`, `Reclamada:` e o parágrafo de qualificação.
-3. Na **epígrafe** (o bloco de ementas com recuo de 5 cm que abre a peça, antes do cabeçalho das partes),
-   manter só o que se aplica ao caso — no caso que originou este modelo, ficou a chamada do Tema 23 e saíram
-   as ementas de ITF e de quebra de caixa, sem objeto.
-4. Apagar o corpo do modelo (da primeira seção até o parágrafo anterior a "Nesses Termos,").
-5. Inserir o corpo novo **clonando os parágrafos do próprio modelo** como template — um para título
-   centralizado, um para subtítulo numerado, um para corpo e um para citação. Assim `pPr` e `rPr` vêm do
-   arquivo, e não de propriedades escritas à mão.
-6. Preservar intactos o fecho e o bloco de assinatura.
+1. Escrever a minuta num `.md` com a marcação da skill `formatar-minuta` (`# tópico`, `## subtópico`,
+   `> citação`, `@ENDERECAMENTO`, `@AUTOS`, `@POLO`, `@PREAMBULO`, `@FECHO`).
+2. Colher do `.docx` do tema os **blocos literais** que se aproveitam — a tese e a ementa integral do Tema
+   23, o bloco de equiparação à Fazenda Pública — e transcrevê-los como citação.
+3. Rodar o script da skill para gerar o `.docx`.
+4. Nomear o arquivo pela skill `nomear-minuta`.
+
+Não montar o arquivo à mão nem partir do `.docx` do tema: a formatação é da skill.
 
 ## A escolha estrutural que faz a peça funcionar
 
@@ -61,7 +60,7 @@ Reclamante. Ele carrega a peça sozinho. Montá-lo bem vale mais que qualquer em
 
 ## Estrutura padrão
 
-**Seguir a titulação do modelo:** títulos de seção centralizados, em negrito e sublinhado, **sem numeração
+**Seguir a titulação da skill `formatar-minuta`:** títulos de seção centralizados, em negrito e sublinhado, **sem numeração
 romana**; a numeração é só dos subitens (`1.`, `2.`, `3.` …), em negrito e sublinhado com recuo de 3 cm.
 Não criar seções próprias para impugnação aos documentos e honorários — no modelo eles são **itens do
 mérito**. Citações, transcrições e alíneas ficam com recuo esquerdo de 3 cm e entrelinha simples.
@@ -180,9 +179,9 @@ Fecho "Nesses Termos, / Pede Deferimento." + bloco de assinatura   (vem do .docx
 
 ## Lacuna deste modelo
 
-- [ ] Conferir se o padrão visual vigente é o do `.docx` do tema (Times New Roman 12) ou o do
-      `_FORMATO_BASE.docx` (Arial 11): os dois divergem, e `modelos/README.md` manda usar o binário do tema.
-      Enquanto não resolvido, gerar pelo `.docx` do tema.
+- [ ] O `.docx` do tema está em Times New Roman 12 com margens 4/1,5/2,6/1,6, fora do padrão da skill
+      `formatar-minuta` (Arial 11, margens 3/2/3/2). Ele segue útil pelos **blocos literais**; convém
+      reformatá-lo ou marcá-lo como fonte só de texto, para não induzir erro de formatação de novo.
 - [ ] Estrutura ainda **não testada em sentença**. Registrar aqui o que o juízo acolheu e o que rejeitou —
       em especial se o item 1 do mérito (ausência de reversão) foi enfrentado, e como o juízo tratou o pedido
       *ad cautelam* de metodologia do item 7 do mérito.
