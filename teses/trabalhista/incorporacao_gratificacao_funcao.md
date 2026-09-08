@@ -3,10 +3,10 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, ultratividade, Súmula 333, art. 896 § 7º CLT, INFRAERO, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, ultratividade, Súmula 333, art. 896 § 7º CLT, INFRAERO, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa, requisitos cumulativos, contados a partir da data da dispensa, vantagem deferida anteriormente, extra petita, citra petita, Circular DIREC 682/2005, RELATORIO DIREC 029-2005, FAG, Plano de Salvaguarda, cômputo fictício, RH-151]
 pecas: [contestação, contrarrazões, recurso de revista]
-modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md]
+ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
 atualizado: 2026-09-08
 ---
 
@@ -252,6 +252,51 @@ que é o que a defesa vai querer usar.]`
 
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
+## Como responder, um a um, aos arestos que a inicial e o RO transcrevem
+
+Escrito em sessão real de contrarrazões (09/2026) e usado em peça. Cada resposta se apoia **no que a própria
+ementa transcrita pelo adversário declara** — técnica barata, que não exige acesso ao inteiro teor.
+
+- **Ag-AIRR 0000917-33.2019.5.10.0007** (2ª T., Min. Liana Chaib, j. 12/03/2025). A ementa registra que ali
+  "o autor **cumpriu o requisito temporal**", por somatório do exercício de funções comissionadas com o
+  **cômputo fictício de 12 meses do Plano de Salvaguarda** (área correcional). Premissa de fato oposta à do
+  caso típico da ECT. E o desfecho foi por **óbice processual** — art. 896, § 7º, da CLT e Súmula 333 —, não
+  por tese de mérito contrária.
+- **Ag-RR 0000151-80.2023.5.19.0009** (8ª T., Red. Min. Sergio Pinto Martins, j. 09/10/2024). É o mais
+  perigoso, e a resposta está dentro dele: para afastar o **E-ED-RR-130825-22.2015.5.13.0001** (SBDI-1 em
+  composição plena), o acórdão declara que o elemento de distinção é a "**ilegalidade da norma, que veio a
+  ser anulada**" — norma "inicialmente suspensa, posteriormente revogada (...) E, finalmente, anulada,
+  juntamente com o ato revogatório". Esse elemento **não existe** no Módulo 36, revogado no exercício
+  regular do poder regulamentar (art. 456, parágrafo único, da CLT). Retirado o fundamento da distinção,
+  volta a incidir o precedente da SBDI-1 plena. Acrescer que é decisão de **Turma**, contra tese do
+  **Pleno** (Tema 23, art. 927 do CPC).
+- **RRAg 0000551-05.2020.5.19.0008** (7ª T., Min. Cláudio Mascarenhas Brandão, DEJT 07/10/2024). Normativo
+  **diverso** ("RH-151"), de base normativa própria, e a ementa registra o direito como previsto em norma
+  "**vigente no momento da contratação**", **nada dizendo sobre revogação anterior ao implemento** — que é
+  justamente a premissa dos casos da ECT.
+- **RR 20641520155100014** (3ª T., Min. Agra Belmonte, j. 28/02/2018) e **RR 857-48.2014.5.02.0075** (5ª T.,
+  Min. Barros Levenhagen, j. 05/04/2017). INFRAERO, "Progressão Funcional Especial" da Informação
+  Padronizada nº 320/DARH/2004: outro empregador, outro requisito (três anos) e a norma cuja ilegalidade
+  veio a ser reconhecida. Nada se transpõe.
+- **TRT24 – ROT 0024529-34.2024.5.24.0007** (1ª T., Des. Nicanor de Araújo Lima). O voto condutor assenta
+  como premissa o "exercício **ininterrupto** de funções comissionadas por mais de 10 anos". Basta o quadro
+  "FUNÇÕES" da ficha cadastral mostrar interrupções superiores ao interstício de 180 dias do item 1.2 do
+  Cap. 2 do Módulo 36 para a premissa não se transportar. E o mesmo acórdão **autoriza a compensação** do
+  item 4.3 — citá-lo, no *ad cautelam*, contra quem o juntou.
+- **TRT24 – RORSum 0025211-32.2023.5.24.0004** (2ª T., Des. Francisco das C. Lima Filho). A ementa
+  condiciona a solução à existência de "**direito adquirido sob a égide de norma anterior**" — premissa
+  ausente quando nunca houve implemento na vigência. Registrar, ainda, que sua fundamentação sobre
+  prescrição se apoia na parte final da **Súmula 294**, hoje cancelada.
+
+**Dois argumentos de texto que fecham o mérito, e que vêm do normativo transcrito pelo próprio adversário:**
+
+1. A Súmula 51, I, protege "**vantagens deferidas anteriormente**" — vantagem deferida, não expectativa de
+   vir a preenchê-la.
+2. O item 1.1 do Cap. 2 do Módulo 36 exige requisitos **cumulativos** e conta o decênio "**a partir da data
+   da dispensa da função**", que é o segundo requisito. Logo, os dois têm de **coexistir na vigência** da
+   norma. Dispensa posterior à revogação ⇒ nenhum dos dois se verificou enquanto a norma existia. Esse é o
+   argumento mais forte do tema, e não depende de discutir princípios.
+
 ## Pontos sensíveis / variações
 
 - **O cancelamento da Súmula 372, I, não é bala de prata — atenção ao marco de 11/11/2017.** O
@@ -302,6 +347,14 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 - **Substituição** só computa se contínua e superior a 180 dias (Módulo 55, item 3.1.1). Conferir também a
   qualificação da designação: mês registrado como "**RESPONSÁVEL**" não é titularidade.
 - **CIP** só passou a ser paga a partir de outubro/2014 — ver a seção própria acima.
+- **Peça adversária montada sobre modelo de outro caso.** Em RO de 2026 o recurso afirmava exercício de
+  função "por mais de 9 anos antes da revogação" e dispensa de função exercida "por no mínimo 115 meses"
+  — números que **não eram do processo** (eram os do exemplo trabalhado desta ficha) e que a ficha
+  cadastral desmentia. Vinham junto o gênero errado da parte, referência a "acórdão recorrido" onde havia
+  sentença e data de supressão divergente. **Conferir sempre os números do recurso contra a ficha
+  cadastral antes de responder ao mérito** — e registrar a divergência sem pedir consequência processual
+  nem tom acusatório (regra 10 do `CONTEXTO.md`); o modo de redigir está em
+  [devolutividade_ro_e_contrarrazoes.md](../transversal/devolutividade_ro_e_contrarrazoes.md).
 
 ## Quebra de caixa: usar o argumento em qual plano — e em qual não usar
 
