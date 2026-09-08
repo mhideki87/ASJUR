@@ -1,0 +1,79 @@
+# Teste de acionamento da skill
+
+Mede uma coisa só: **a skill dispara nas situações certas e fica quieta nas erradas?** Não avalia a
+qualidade da consolidação — só o gatilho, que é o que a `description` do `SKILL.md` controla.
+
+## Rodar
+
+O teste executa `claude -p` de verdade, e a skill commita. Rode sempre numa **cópia isolada sem remote**,
+para nenhum teste commitar ou dar push no repositório real:
+
+```bash
+SB=/tmp/asjur-eval
+rm -rf $SB && mkdir -p $SB
+tar -C /caminho/para/ASJUR --exclude=.git -cf - . | tar -C $SB -xf -
+cd $SB && git init -q && git checkout -q -b claude/eval-trigger && git add -A && git commit -qm base
+
+python3 .claude/skills/atualizar-base-conhecimento/evals/runner.py \
+    $SB .claude/skills/atualizar-base-conhecimento/evals/trigger_eval.json 3
+```
+
+O terceiro argumento é quantas vezes cada query roda (3 dá uma leitura razoável de instabilidade).
+Resultado agregado vai no stdout (JSON); o resumo linha a linha, no stderr.
+
+## Como a detecção funciona
+
+Cada query roda em `claude -p --output-format stream-json --max-turns 6`. A query **disparou** se em
+qualquer ponto da sessão houver `Skill(atualizar-base-conhecimento)` ou um `Read` do `SKILL.md`; o runner
+registra em que posição veio (`disparou no tool #3`), porque disparo tardio, depois de o Claude vasculhar
+o repositório, conta mas é pior que disparo imediato.
+
+Sessão que volta **vazia** — sem nenhum evento de assistente e sem `result: success` — não entra na conta:
+é falha de execução (contenção de API, erro do CLI), não ausência de gatilho. O runner repete a rodada até
+completar as válidas. Sem essa proteção uma corrida degradada vira "a skill parou de disparar", que foi
+exatamente o falso negativo que apareceu na primeira medição desta suíte.
+
+## Por que não usar o `run_eval.py` do skill-creator
+
+Aquele script registra a skill como um comando temporário `<nome>-skill-<uuid>` e procura esse nome na
+chamada de ferramenta. Como esta skill **já está instalada** em `.claude/skills/`, o Claude invoca o nome
+real e a detecção nunca casa: o resultado é `0/3` em todas as queries, inclusive nas que citam
+literalmente os gatilhos da descrição. É falso negativo de medição, não falha da skill. O `runner.py`
+daqui casa pelo nome real, e por isso mede o comportamento de produção — inclusive o reforço que o
+`CLAUDE.md` dá ao gatilho.
+
+## Conjunto de queries
+
+`trigger_eval.json` tem 20 queries, metade que **deve** disparar e metade que **não deve**. As negativas
+são de propósito quase-acertos — pedido de análise (que usa o índice, não a consolidação), pergunta de
+roteamento, ordem direta de rodar o script, conversão de PDF, redação no meio da tarefa, edição de README.
+Negativa óbvia não testa nada; o valor está nas que um casamento por palavra-chave erraria.
+
+Ao mexer na `description` do `SKILL.md`, rode o teste antes e depois — o ganho numa ponta costuma custar
+na outra.
+
+## Resultado da última medição (2026-08-27)
+
+20 queries × 2 rodadas, descrição anterior contra a atual:
+
+| | descrição anterior | descrição atual |
+|---|---|---|
+| Positivas (deve disparar) | 4/10 | **6/10** |
+| Negativas (não deve disparar) | 10/10 | **10/10** |
+
+A descrição atual acrescentou as frases de fim de tarefa ("ficou boa assim", "minuta pronta", "valeu",
+"amanhã eu volto") e os sinais de achado (tese que o juiz não aceitou, precedente que não consta da base) —
+e não custou nenhuma negativa, que é o erro caro: skill que dispara sozinha no meio da minuta atrapalha.
+
+**Limite do método, importante ao ler esses números.** Cada query roda numa sessão nova de `claude -p`, sem
+histórico. As positivas que ainda falham são justamente as que pressupõem conversa anterior — "consolida o
+que a gente descobriu", "tive que te explicar que era doença ocupacional", "esse acórdão que eu anexei".
+Numa sessão fria não existe nada disso: o Claude vai investigar o repositório para descobrir do que se
+trata, e a rodada acaba antes de a skill ser chamada. Em produção a skill dispara no fim de uma sessão real,
+com o histórico à vista. O número de produção é melhor que 6/10 — só não dá para medi-lo com esta suíte.
+
+O que o teste mede bem é o outro lado: **nenhuma negativa disparou em nenhuma das 40 rodadas**. Não há
+excesso de gatilho.
+
+Para garantia determinística de acionamento, o caminho não é a descrição — é um hook `Stop` no
+`settings.json`, executado pelo harness em vez de depender do julgamento do modelo.

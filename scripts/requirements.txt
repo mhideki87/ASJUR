@@ -1,0 +1,2 @@
+markitdown[pdf,docx]
+send2trash

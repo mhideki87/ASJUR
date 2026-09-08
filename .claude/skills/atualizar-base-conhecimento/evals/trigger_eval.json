@@ -1,0 +1,23 @@
+[
+  {"query": "beleza, a contestação ficou boa assim. era isso que eu precisava hoje, obrigado", "should_trigger": true},
+  {"query": "pode encerrar", "should_trigger": true},
+  {"query": "consolida aí o que a gente descobriu sobre a lacuna previdenciária nesse caso, que eu não tinha pensado no argumento do art. 422 do CC antes", "should_trigger": true},
+  {"query": "olha só, essa tese de que o FGTS não incide durante a suspensão contratual o juiz não aceitou na sentença que acabei de te mandar. parece que o TRT24 vem entendendo o contrário", "should_trigger": true},
+  {"query": "tive que te explicar que o caso era de doença ocupacional porque vc foi abrir a ficha de afastamento primeiro. arruma isso pra próxima", "should_trigger": true},
+  {"query": "terminamos as contrarrazões. antes de eu sair roda o protocolo aí", "should_trigger": true},
+  {"query": "nesse acórdão que eu anexei tem um julgado do TST sobre o módulo 36 que eu não vi na nossa base, o RR-1234-56.2019.5.24.0001", "should_trigger": true},
+  {"query": "os quesitos ficaram ótimos. esse bloco de percentual por tabela objetiva foi novidade, não tinha nada disso salvo em nenhum lugar nosso", "should_trigger": true},
+  {"query": "acabei de criar a ficha de insalubridade em teses/trabalhista na mão, dá uma olhada se ficou tudo certo pra sessão de amanhã já achar ela", "should_trigger": true},
+  {"query": "minuta pronta, valeu. amanhã eu volto com outro processo, esse aqui tá resolvido", "should_trigger": true},
+
+  {"query": "analisa a petição inicial anexada e me diz, pedido por pedido, quais teses da ECT se aplicam e com que força", "should_trigger": false},
+  {"query": "qual ficha de tese eu abro pro caso de extravio de SEDEX sem declaração de valor? é cível né", "should_trigger": false},
+  {"query": "roda o scripts/atualizar_indice.py e me diz só se tá em sincronia ou não", "should_trigger": false},
+  {"query": "converte os PDFs da pasta da parte pra md antes de começar, tem uns 8 arquivos lá", "should_trigger": false},
+  {"query": "redija a contestação agora com base na análise acima, replicando a formatação do _FORMATO_BASE.docx", "should_trigger": false},
+  {"query": "me explica direito o que é o Tema 23 dos repetitivos do Pleno do TST e por que ele é vinculante", "should_trigger": false},
+  {"query": "atualiza o README pra explicar melhor essa estrutura de pastas, tá confuso pra quem chega agora", "should_trigger": false},
+  {"query": "o laudo do perito tá dizendo que o nexo é concausal e quantificou em 30%. como eu rebato isso na manifestação?", "should_trigger": false},
+  {"query": "quantos arquivos de contestação a gente tem catalogado no acervo cível mesmo? era uns 127?", "should_trigger": false},
+  {"query": "renomeia essa sessão com o nome do reclamante que eu te passei, tá difícil achar na aba lateral", "should_trigger": false}
+]
