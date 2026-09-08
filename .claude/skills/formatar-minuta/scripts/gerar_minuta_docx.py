@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 import sys
 import zipfile
 from pathlib import Path
@@ -383,13 +384,45 @@ def gerar(md: Path, saida: Path, base: Path):
     return corpo, avisos, pendencias
 
 
+def _branch_desatualizada() -> bool:
+    """True se a branch estiver atrás do main. Falha aberta: sem o verificador, segue.
+
+    A conferência fica aqui, e não só no início da sessão, porque sessão longa começa
+    em dia e envelhece: já houve sessão de 18 dias que minutou a partir de uma branch
+    que, ao final, estava 105 commits atrás — sem CLAUDE.md, sem skills e sem teses/.
+    O momento de gerar a peça é o único que repete a cada peça.
+    """
+    verificador = REPO_RAIZ / "scripts" / "verificar_branch.py"
+    if not verificador.exists():
+        return False
+    try:
+        p = subprocess.run([sys.executable, str(verificador), "--check", "--quieto"],
+                           timeout=90, cwd=str(REPO_RAIZ))
+        return p.returncode == 1
+    except (OSError, subprocess.SubprocessError):
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser(description="Gera a minuta .docx no padrão ASJUR/ECT.")
     ap.add_argument("minuta", type=Path, help="arquivo .md com a marcação da minuta")
     ap.add_argument("saida", type=Path, nargs="?", help="arquivo .docx a gravar")
     ap.add_argument("--base", type=Path, default=BASE_PADRAO, help="docx base (padrão: modelos/_FORMATO_BASE.docx)")
     ap.add_argument("--check", action="store_true", help="só valida a marcação, não grava arquivo")
+    ap.add_argument("--ignorar-branch-desatualizada", action="store_true",
+                    help="gera mesmo com a branch atrás do main (use só se souber por quê)")
     a = ap.parse_args()
+
+    if not a.check and not a.ignorar_branch_desatualizada and _branch_desatualizada():
+        raise SystemExit(
+            "ERRO: minuta NÃO gerada — a branch desta sessão está atrás de origin/main.\n"
+            "       Nesta branch, as skills, o CLAUDE.md e as fichas de teses/ podem não existir\n"
+            "       ou estar superados, e a peça sairia com formatação, nome de arquivo e teses\n"
+            "       errados. Sincronize antes:\n\n"
+            "           git fetch origin main && git rebase origin/main\n\n"
+            "       Rode 'python scripts/verificar_branch.py' para o diagnóstico completo.\n"
+            "       Para gerar assim mesmo: --ignorar-branch-desatualizada."
+        )
 
     if not a.minuta.exists():
         raise SystemExit(f"ERRO: minuta não encontrada: {a.minuta}")

@@ -1,4 +1,19 @@
 {
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "command -v python3 >/dev/null 2>&1 && python3 scripts/verificar_branch.py --hook || python scripts/verificar_branch.py --hook",
+            "timeout": 90,
+            "statusMessage": "Conferindo se a branch está atualizada..."
+          }
+        ]
+      }
+    ]
+  },
   "autoMode": {
     "environment": [
       "$defaults",
