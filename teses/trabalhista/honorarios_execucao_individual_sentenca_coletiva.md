@@ -20,6 +20,8 @@ do TST**). Na **execução individual** de cada substituído, os advogados — *
 pedem uma **segunda** verba, agora sucumbencial e autônoma, invocando o art. 85, § 1º, do CPC e, por
 analogia, a **Súmula 345 do STJ**.
 
+`[REVISAR: a Súmula 219 do TST consta da lista de verbetes cancelados pela Resolução nº 225/2025 do Pleno do TST (ver LACUNAS.md). Conferir o texto da Resolução e reescrever esta passagem — o cancelamento aqui tende a FAVORECER a ECT, porque o verbete é invocado pela parte adversa.]`
+
 **Não confundir** com [honorarios_sucumbenciais_omissao_da_sentenca.md](honorarios_sucumbenciais_omissao_da_sentenca.md):
 lá o problema é a sentença de conhecimento que **nada decidiu** sobre honorários. Aqui a verba já foi
 fixada e o que se discute é uma **segunda** fixação, na fase de execução.

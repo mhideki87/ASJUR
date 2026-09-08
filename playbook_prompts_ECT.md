@@ -79,6 +79,27 @@ Analise a sentença anexada e estruture:
 6. RECOMENDAÇÃO — embargos, recurso ordinário, ou aguardar. Justifique.
 ```
 
+**Quatro conferências que a análise de sentença tem de fazer sempre** — as quatro nasceram de omissões
+reais, não de teoria:
+
+1. **Os quatro itens da equiparação à Fazenda Pública, um a um.** O deferimento sai pela metade com
+   frequência, e a variante mais comum é o **art. 3º da EC 113/2021** ficar sem decisão mesmo quando custas,
+   depósito recursal e precatório saem deferidos. Ver
+   [prerrogativas_processuais_ect.md](teses/transversal/prerrogativas_processuais_ect.md).
+2. **A aritmética do valor da causa contra o rol de pedidos.** Se a soma dos pedidos valorados fecha
+   exatamente o valor da causa, algum pedido entrou **sem valor** — e é por aí que se ataca a limitação da
+   condenação, não pela discussão de valor estimativo. Ver
+   [preliminares_processuais_defesa.md](teses/transversal/preliminares_processuais_defesa.md).
+3. **Cada tese da contestação, uma a uma, contra o texto da sentença.** Não basta ler os capítulos da
+   decisão: é preciso percorrer a defesa e marcar o que ficou sem resposta. Dispositivo invocado na
+   contestação e não mencionado na sentença é tópico de embargos e, sem isso, matéria que não chega ao TST.
+4. **Toda condenação em obrigação de fazer com pagamento mensal.** Conferir se ela contorna o regime do
+   art. 100 da CF que a própria sentença deferiu.
+
+**E uma omissão que NÃO se suscita:** a falta de fixação de honorários em favor da parte adversa. O silêncio
+é um ativo — vale inclusive nos autos em que a **ECT é autora** e perdeu. Ver
+[honorarios_sucumbenciais_omissao_da_sentenca.md](teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md).
+
 ### 1.3 Análise de Recurso Ordinário do Reclamante
 ```
 Analise o Recurso Ordinário anexado e estruture:
@@ -355,7 +376,8 @@ Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões �
 `Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
 `Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
 `Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
-quando a prejudicial for o eixo da peça). Abreviação nova criada em sessão entra nesta lista.
+quando a prejudicial for o eixo da peça) · `PDV Aposent` = adesão a plano de desligamento voluntário por
+empregado aposentado (criada em 08/09/2026). Abreviação nova criada em sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do

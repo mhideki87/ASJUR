@@ -7,7 +7,7 @@ gatilhos: [grau máximo, agentes biológicos, agentes químicos, limpeza de banh
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_terceirizacao.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/trabalhista/periculosidade_tanque_suplementar.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-05
+atualizado: 2026-09-08
 ---
 
 # Tese — Adicional de insalubridade em limpeza e higienização de sanitários
@@ -54,6 +54,7 @@ a OJ 4, II, da SBDI-1 (limpeza de residências e escritórios não é atividade 
   **Súmula Vinculante 4** não autoriza a substituição da base por decisão judicial; até norma legal ou
   coletiva em sentido diverso, o adicional incide sobre o salário mínimo, não sobre a remuneração.
   `[REVISAR: conferir se a CCT/ACT da categoria de asseio e conservação fixa base distinta — é comum]`
+  `[REVISAR: a Súmula 228 do TST consta da lista de verbetes cancelados pela Resolução nº 225/2025 do Pleno do TST (ver LACUNAS.md). Conferir o texto da Resolução e reescrever esta passagem — o cancelamento aqui tende a FAVORECER a ECT, porque o verbete é invocado pela parte adversa.]`
 - **Reflexos**: o adicional **integra a base de cálculo** das horas extras, e não o contrário — pedido de
   reflexo "em horas extras" é teratológico, sobretudo quando não há pedido de horas extras. Para
   mensalista, não há reflexo em RSR, já remunerado pelo salário mensal.
