@@ -9,7 +9,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
 | Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
-| Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `D:\Claude\00 caso_atual` nem ao Python local) | não |
+| Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `F:\Claude\00 caso_atual` nem ao Python local) | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 | Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
 | Autonomia em PR e merge (sem perguntar, sem relatório longo) | sim | sim | não se aplica — não há Git |
@@ -111,7 +111,7 @@ Regras:
 - **Nunca** recriar cabeçalho, rodapé ou logotipo a partir de descrição em texto: clone
   `modelos/_FORMATO_BASE.docx`.
 - O arquivo da peça, por conter dado real da parte, é gravado **fora deste repositório** (em
-  `D:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
+  `F:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
 - O padrão **não usa nota de rodapé**: referência a documento (SEI, Id do PJe, folha) vai no corpo, entre
   parênteses.
 
@@ -173,10 +173,20 @@ quando já existir — ou puder existir — um `.md` equivalente.
 python scripts/converter_parte_para_md.py "<NOME DA PARTE>"
 ```
 
-Isso converte todo PDF/DOC/DOCX encontrado em `D:\Claude\00 caso_atual\<pasta da parte>` (busca por nome
-parcial, sem diferenciar maiúsculas/acentos) para um `.md` irmão, na mesma pasta. Reconverte só o que for
-novo ou tiver mudado desde a última conversão (comparação de data de modificação) — rodar de novo é barato.
+Isso converte para um `.md` irmão, na mesma pasta, todo documento encontrado em
+`F:\Claude\00 caso_atual\<pasta da parte>` — busca por nome parcial, sem diferenciar
+maiúsculas/acentos; se a unidade `F:` não existir, o script tenta `D:`. Reconverte só o que for novo ou
+tiver mudado desde a última conversão (comparação de data de modificação) — rodar de novo é barato.
 Depois de rodar, **leia os `.md` gerados, não os originais**.
+
+Formatos: `.pdf`, `.docx`, `.doc`, `.rtf`, `.odt`, `.xlsx`/`.xlsm`, `.csv`/`.tsv`, `.pptx`, `.html`,
+`.eml`, `.msg` e `.txt`; imagem (`.jpg`, `.png`, `.tif`…) só com `--ocr`. Cada página do original vira um
+marcador `[p.N]` no `.md`, então a folha continua citável na peça. A extração já remove o que só gasta
+token e não informa — cabeçalho/rodapé repetido em toda página, número de página e "Fls. N" isolados,
+tarja de assinatura eletrônica e hash de validação do PJe, hifenização de fim de linha e quebra de linha
+no meio da frase —, sem resumir nem reescrever o conteúdo jurídico. Opções úteis: `--ocr` (PDF
+digitalizado ou foto de documento), `--anonimizar` (mascara CPF, CNPJ e nº de processo no `.md`),
+`--sem-reflow` (preserva o layout original) e `--force`.
 
 **Depois de converter com sucesso, sobre os arquivos originais (PDF/DOC/DOCX):** Claude nunca exclui
 arquivo definitivamente — nem sozinho, nem se o usuário pedir/autorizar, nem como passo automático desta
@@ -189,13 +199,17 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - **Nenhuma pasta encontrada** ou **mais de uma pasta corresponde ao nome** → o script lista as opções
   existentes; peça ao usuário para confirmar o nome/pasta exata antes de prosseguir.
 - **Falha ao converter um `.doc` antigo** (formato binário do Word 97-2003) → avise o usuário; a solução é
-  salvar o arquivo como `.docx` ou `.pdf` e rodar o script de novo.
-- Pré-requisito de ambiente: Python 3.12+ com `markitdown[pdf,docx]` instalado
-  (`pip install -r scripts/requirements.txt`). Se o comando falhar por lib ausente, avise antes de tentar
-  qualquer alternativa manual de leitura do PDF.
+  salvar o arquivo como `.docx` ou `.pdf` e rodar o script de novo (no Windows com Word instalado e
+  `pip install pywin32`, o script converte sozinho).
+- **Documento marcado `VAZIO`** (nenhum texto extraído — PDF digitalizado, foto de documento) → o `.md`
+  fica gravado só com o motivo. Rodar de novo com `--ocr`; se ainda assim não sair texto, ler o original e
+  avisar o usuário. Documento sem texto **nunca** vai para a Lixeira, mesmo com `--mover-para-lixeira`.
+- Pré-requisito de ambiente: Python 3.9+ com as libs de `scripts/requirements.txt` instaladas
+  (`pip install -r scripts/requirements.txt`). Faltando alguma, o script avisa no início quais são e
+  converte o que consegue — não é motivo para ler o PDF na mão antes de olhar o aviso.
 
 **Nunca:**
-- Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`D:\Claude\00 caso_atual`
+- Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`F:\Claude\00 caso_atual`
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
 
