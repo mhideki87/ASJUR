@@ -116,5 +116,11 @@ Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 ## Lacunas
 
 - [ ] Data e teor exatos do cancelamento da Súmula 372, I.
-- [ ] Número/identificação completa do Tema 23 conforme citado no modelo (INCJULGRREMBREP
-      528-80.2018.5.14.0004) — confirmar antes de usar como citação isolada desta ficha.
+- [x] Identificação do Tema 23 — **resolvida pelo próprio arquivo-modelo**: o
+      `modelos/trabalhista/contestacao__incorporacao_funcao.docx` traz o número
+      (INCJULGRREMBREP 528-80.2018.5.14.0004), a **tese fixada** em texto literal e a **ementa integral** do
+      acórdão. Reaproveitar de lá, e não de memória. Fica a ressalva de conferir contra o acórdão original
+      antes do protocolo.
+      Ponto de ouro da ementa para o tema da remuneração singular (item 9): a garantia de irredutibilidade
+      "*não se refere a parcelas específicas nem à sua forma de cálculo, mas apenas ao montante nominal da
+      soma das parcelas permanentes*" — liga o Tema 23 à natureza não permanente da parcela.
