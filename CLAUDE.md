@@ -46,6 +46,26 @@ regra proíbe. Já aconteceu: peça entregue em `.odt`, com underscores no nome 
 modelo anexado, e a divergência só apareceu depois do rebase. Por isso o Passo 0 vem **antes** de minutar,
 não depois: rebasear é o que faz as skills existirem na sessão.
 
+**Conferir uma vez no início não basta — sessão longa começa em dia e envelhece.** Em 09/2026 uma sessão
+aberta em 21/08 seguiu ativa até 08/09 e, ao final, estava **105 commits atrás**: sem `CLAUDE.md`, sem
+`teses/`, sem as skills. Ela produziu quatro peças (embargos, recurso ordinário e duas manifestações)
+montando o `.docx` com XML escrito à mão, entregando em `.odt`, com nome fora do padrão da
+`nomear-minuta` e **sem o retângulo do tópico principal** — e ainda minutou sobre a Súmula 439 do TST, já
+cancelada, cuja ficha corrigida existia no `main`. Nada disso era detectável de dentro da branch: o aviso
+que manda sincronizar mora no arquivo que a branch atrasada não tem.
+
+Por isso a conferência agora é **automática, e em dois pontos**:
+
+- **no início da sessão** — hook `SessionStart` em `.claude/settings.json`, que injeta o diagnóstico no
+  contexto quando a branch está atrás;
+- **a cada peça gerada** — o `gerar_minuta_docx.py` da skill `formatar-minuta` **recusa** gerar `.docx`
+  com a branch atrasada (`--ignorar-branch-desatualizada` força, quando houver motivo consciente). Este é
+  o ponto que pega a sessão longa, porque repete a cada peça.
+
+Ambos chamam `python scripts/verificar_branch.py`, que não depende de nenhum texto do repositório — só de
+git e dos sinais de disco (`teses/` ausente, `base_conhecimento_juridico_*.md` presente, skills ausentes).
+Rodar à mão a qualquer momento: `python scripts/verificar_branch.py`.
+
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).
