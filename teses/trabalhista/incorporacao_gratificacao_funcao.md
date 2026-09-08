@@ -5,9 +5,9 @@ slug: incorporacao_gratificacao_funcao
 status: validada
 gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, ultratividade, Súmula 333, art. 896 § 7º CLT, INFRAERO, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa]
 pecas: [contestação, contrarrazões, recurso de revista]
-modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-05
+atualizado: 2026-09-08
 ---
 
 # Tese — Incorporação de gratificação de função
