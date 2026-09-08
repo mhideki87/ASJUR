@@ -245,13 +245,29 @@ Modelo consolidado: `modelos/trabalhista/recurso_ordinario__sentenca_primeiro_gr
 ```
 Revise a minuta anexada como se fosse conferi-la antes do protocolo. Verifique:
 - algum pedido da inicial ficou sem impugnação específica?
+- o valor atribuído a CADA pedido foi impugnado — não só o do dano moral?
 - há contradição interna de datas, valores ou nomes?
+- o endereçamento está correto (vara, comarca e UF) e a data da peça é posterior
+  aos fatos discutidos?
+- sobrou resíduo de peça reaproveitada: menção a verba, tema ou aresto de outro
+  processo, que nada tem a ver com estes autos?
+- os critérios de juros e correção estão atuais (EC 113/2021 — SELIC), sem
+  pedido de TR nem de verbete superado?
+- a numeração dos tópicos corre sem saltos?
 - há citação de jurisprudência sem fonte nos autos?
 - os requerimentos finais correspondem às teses desenvolvidas?
 - se a peça for recurso: o prequestionamento cobre todos os dispositivos
   discutidos? (em embargos de declaração não se aplica — ver 2.6)
 Liste apenas os problemas, com a localização de cada um. Não reescreva a peça.
 ```
+
+Os seis primeiros itens vieram de defeitos reais encontrados em peças já protocoladas: endereçamento com a
+UF errada, data anterior à própria rescisão discutida, tópico de dano moral com texto de outro caso (menções
+a "adicional" e a "descontos ilícitos", mais aresto sobre AADC em ação de atraso rescisório), requerimento de
+correção pela **TR** com apoio na **OJ 300 da SDI-1** — critério superado pelas ADIs 4357 e 4425, pelo RE
+870.947 (Tema 810) e pela EC 113/2021, e ainda contraditório com o pedido de SELIC feito na mesma peça —,
+numeração que pulava de "2" para "3.1", e ausência de impugnação ao valor do pedido principal, que depois
+custou a discussão da base de cálculo em grau recursal.
 
 ### 3.2 Teste da tese adversa
 ```
