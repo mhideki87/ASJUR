@@ -176,15 +176,33 @@ Atenção a dois pontos contraintuitivos: `jc` (alinhamento) vem **depois** de `
 base e regrava apenas `word/document.xml`, preservando o `sectPr` original. Assim cabeçalho, rodapé,
 logotipo, estilos e página nunca se degradam de uma geração para a outra.
 
-Conferência rápida de um arquivo gerado:
+Conferência de um arquivo gerado — rodar **sempre** antes de entregar:
 
 ```bash
 python - <<'PY'
 import zipfile, re
-d = zipfile.ZipFile('saida.docx').read('word/document.xml').decode()
-print('parágrafos:', d.count('<w:p>') + d.count('<w:p '))
-print('retângulos de tópico:', d.count('<w:pBdr>'))
-print('entrelinha exata 18pt:', d.count('w:lineRule="exact" w:line="360"'))
+ARQ, MD = 'saida.docx', 'minuta.md'
+z = zipfile.ZipFile(ARQ); d = z.read('word/document.xml').decode()
+paras  = d.count('<w:p>') + d.count('<w:p ')
+blocos = sum(1 for b in open(MD, encoding='utf-8').read().split('\n\n')
+             if b.strip() and not b.lstrip().startswith('<!--'))
+print('parágrafos no .docx:', paras, '| blocos no .md:', blocos)
+assert paras >= blocos, 'BLOCOS JUNTADOS — falta linha em branco entre parágrafos no .md'
+print('retângulos de tópico:', d.count('<w:pBdr>'), '(= nº de tópicos # do .md)')
+print('entrelinha exata:', d.count('lineRule="exact"'), '| auto (deve ser 0):', d.count('lineRule="auto"'))
+print('runs em 10 pt (citação/cálculo):', d.count('w:val="20"'))
+print('recuo 4 cm (2268):', d.count('2268'), '| recuo 3 cm (1701):', d.count('1701'))
 print('notas de rodapé (deve ser 0):', d.count('footnoteReference'))
+print('logotipo:', [n for n in z.namelist() if n.startswith('word/media')])
+tudo = ''.join(re.sub(r'<[^>]+>', '', z.read(n).decode())
+               for n in z.namelist() if n.endswith('.xml'))
+print('telefone 2109-1004:', tudo.count('2109-1004'),
+      '| desatualizados (devem ser 0):', tudo.count('3389-5104') + tudo.count('3301-2004'))
+print('margens:', re.search(r'<w:pgMar[^/]*/>', d).group())   # esperado 1701/1134/1701/1134
 PY
 ```
+
+**A primeira linha é a que pega o erro mais silencioso.** Se a contagem de parágrafos do `.docx` vier
+**muito abaixo** do número de blocos do `.md`, o gerador juntou blocos por falta de linha em branco entre
+eles — o `assert` interrompe. O documento abre normalmente e parece só "denso": é preciso contar para
+perceber. Foi assim que a peça de uma sessão real saiu com 72 parágrafos no lugar de 226.

@@ -66,6 +66,15 @@ Ambos chamam `python scripts/verificar_branch.py`, que não depende de nenhum te
 git e dos sinais de disco (`teses/` ausente, `base_conhecimento_juridico_*.md` presente, skills ausentes).
 Rodar à mão a qualquer momento: `python scripts/verificar_branch.py`.
 
+**Dois custos que o diagnóstico automático não mede, e que só aparecem depois:** numa sessão de 09/2026
+a branch atrasada levou à criação de uma **ficha duplicada** — tema que já tinha ficha melhor no `main`,
+descoberto só no rebase e removido lá — e a uma hipótese factual construída sobre documento parcial, que
+caiu quando o documento completo chegou.
+
+Daí um sinal de alerta que vale sozinho: **criar ficha nova é a hora de desconfiar.** Antes de criar,
+rodar `python scripts/rotear.py` **contra a base do `main`**, não a da branch. O tema quase sempre já
+existe.
+
 **Protocolo obrigatório, em toda sessão que envolva analisar peça ou minutar:**
 
 1. Ler `CONTEXTO.md` por inteiro (é curto: perfil e regras inegociáveis).

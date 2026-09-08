@@ -67,6 +67,14 @@ Se, por qualquer motivo, o arquivo tiver de ser montado à mão (LibreOffice/Wor
 | `@ASSINATURA: Nome \| OAB/UF 00.000` | Troca a assinatura padrão — só quando o próprio usuário pedir, nunca por conta própria. Precisa vir **antes** do `@FECHO` |
 | `@FECHO` | Fecho ("Nesses Termos, / Pede Deferimento. / Campo Grande/MS, data de assinatura eletrônica.") + assinatura |
 
+**Um bloco por parágrafo, separados por LINHA EM BRANCO.** O gerador fatia o `.md` como Markdown: linhas
+adjacentes, sem linha em branco entre elas, viram **um único parágrafo**. Escrever um parágrafo por linha,
+sem separá-los, produz parágrafos gigantes e uma peça inutilizável — já aconteceu: 72 parágrafos para 55 mil
+caracteres de texto, onde o correto eram 226. Vale para todos os tipos de bloco, inclusive linhas
+consecutivas de citação (`>`), de cálculo (`>>`) e de alínea (`-`, `+`): cada uma precisa da sua linha em
+branco. Uma linha longa pode ser quebrada em várias para caber na largura do editor — a continuação **sem**
+linha em branco é justamente o que o gerador junta de volta.
+
 Ênfase dentro da linha: `**negrito**`, `*itálico*`, `__sublinhado__`. Combinam entre si
 (`**__assim__**` = negrito sublinhado).
 
