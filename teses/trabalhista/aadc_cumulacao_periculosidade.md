@@ -2,20 +2,31 @@
 area: trabalhista
 tema: AADC x adicional de periculosidade do carteiro motorizado — impossibilidade de cumulação
 slug: aadc_cumulacao_periculosidade
-status: validada
-gatilhos: [AADC, adicional de atividade de distribuição e coleta, adicional de distribuição e/ou coleta externa, adicional de 30% sobre o salário-base, carteiro motorizado, motorizado M, motorizado MV, função motorizada, carteiro motociclista, motocicleta, motoneta, adicional de periculosidade, art. 193 § 4º CLT, Lei 12.997/2014, Anexo 5 da NR-16, Portaria MTE 1.565/2014, cumulação de adicionais, acumulação de vantagens, devolução AADC risco, PCCS 2008 item 4.8, item 4.8.2, MANPES Módulo 8 Capítulo 6, MANTRA, gratificação de função convencional motorizada, Termo de Compromisso FENTECT, Súmula 361, salário-condição]
+status: revisar
+gatilhos: [AADC, adicional de atividade de distribuição e coleta, adicional de distribuição e/ou coleta externa, adicional de 30% sobre o salário-base, carteiro motorizado, motorizado M, motorizado MV, função motorizada, carteiro motociclista, motocicleta, motoneta, adicional de periculosidade, art. 193 § 4º CLT, Lei 12.997/2014, Anexo 5 da NR-16, Portaria MTE 1.565/2014, cumulação de adicionais, acumulação de vantagens, devolução AADC risco, PCCS 2008 item 4.8, item 4.8.2, MANPES Módulo 8 Capítulo 6, MANTRA, gratificação de função convencional motorizada, Termo de Compromisso FENTECT, Súmula 361, salário-condição, Tema 15 do TST, SL 1574, compensação de adicionais, adicional de penosidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__aadc_periculosidade.md]
 ver_tambem: [teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/prescricao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-07
+atualizado: 2026-09-08
 ---
 
 # Tese — AADC x adicional de periculosidade do carteiro motorizado
 
-> **Duas teses independentes, nesta ordem.** A primeira (não cumulação) é a do caso típico e tem
-> precedente do C. TST. A segunda (salário-condição) é a rede de segurança: ela se sustenta sozinha,
-> qualquer que seja o motivo real da supressão. **Descobrir o motivo na ficha financeira antes de escolher
-> qual delas encabeça a peça** — ver "Pontos sensíveis".
+> ## ⚠ A tese 1 está superada por precedente vinculante — ler antes de usar esta ficha
+>
+> O **Tema Repetitivo nº 15 do C. TST** (j. 14/10/2021) fixou tese **vinculante** em sentido **contrário**
+> à tese 1: AADC e adicional de periculosidade têm **fatos geradores distintos** e **podem ser recebidos
+> cumulativamente**. O **STF**, na **SL 1574** (j. 04/09/2023), **denegou** pedido de suspensão formulado
+> **pela própria ECT** contra esse acórdão. Todos os arestos favoráveis listados abaixo são de **2015-2016**,
+> anteriores ao repetitivo, e não sobrevivem a ele.
+>
+> **Consequência prática:** sustentar a não cumulação como tese principal atrai o óbice do art. 896, § 7º,
+> da CLT e tende à sucumbência. Em processo novo, **a tese 2 (salário-condição) passa a encabeçar a peça**;
+> a tese 1 entra, se entrar, apenas para prequestionamento. Ver "Jurisprudência → Contrária à ECT".
+>
+> **Duas teses independentes.** A tese 2 (salário-condição) se sustenta sozinha, qualquer que seja o motivo
+> real da supressão. **Descobrir o motivo na ficha financeira antes de escolher qual delas encabeça a peça**
+> — ver "Pontos sensíveis".
 
 ## Quando esta ficha se aplica
 
@@ -31,17 +42,18 @@ art. 7º, VI, da CF.
 **Não confundir** com [supressao_adicional_atividade_readaptacao.md](supressao_adicional_atividade_readaptacao.md):
 lá o AADC/AAT cessa porque o empregado foi **readaptado** em outra atividade, e a jurisprudência de
 uniformização é contrária à ECT. Aqui a parcela cessa porque o empregado passou a receber **outro adicional
-de risco, de origem legal**, e o precedente do C. TST é favorável.
+de risco, de origem legal** — hipótese em que o C. TST firmou tese vinculante **contrária** à ECT (Tema
+Repetitivo nº 15), ao contrário do que esta ficha afirmava até 07/09/2026.
 
 ## Tese central
 
-**1 — Não cumulação.** O AADC e o adicional de periculosidade do **art. 193, § 4º, da CLT** (incluído pela
+**1 — Não cumulação `[SUPERADA pelo Tema Repetitivo nº 15 do TST — usar só para prequestionamento]`.** O AADC e o adicional de periculosidade do **art. 193, § 4º, da CLT** (incluído pela
 Lei 12.997/2014, regulamentado pelo **Anexo 5 da NR-16**, aprovado pela Portaria MTE nº 1.565/2014) têm
 **idêntica natureza, fundamento, base de cálculo e alíquota** — ambos remuneram a exposição ao risco em via
 pública, ambos a 30% do salário-base. Sobrevindo o adicional legal ao carteiro motociclista, o convencional
 é **substituído**, não somado.
 
-**2 — Salário-condição.** O AADC é devido enquanto durar o **exercício efetivo** da atividade postal externa
+**2 — Salário-condição `[tese principal]`.** O AADC é devido enquanto durar o **exercício efetivo** da atividade postal externa
 de distribuição e/ou coleta em vias públicas. Cessada a condição, cessa a parcela — sem alteração
 contratual lesiva (art. 468 da CLT) nem ofensa à irredutibilidade (art. 7º, VI, da CF).
 
@@ -141,7 +153,7 @@ fulmina a pretensão inteira, ainda que a inicial se limite ao quinquênio.
 Todos os arestos vieram de peça-modelo real da própria ECT.
 `[REVISAR: nenhum foi conferido em fonte primária]`
 
-### Favorável à ECT
+### Favorável à ECT — **todos anteriores ao Tema Repetitivo nº 15 (2021); não usar como tese principal**
 
 - **TST, RR-1254-27.2015.5.06.0313**, 8ª Turma, Relª Minª Dora Maria da Costa, j. 07/12/2016, DEJT
   12/12/2016 — **o precedente central**: "a parcela AADC prevista no plano de cargos da ECT foi instituída
@@ -162,12 +174,54 @@ Todos os arestos vieram de peça-modelo real da própria ECT.
   Azevedo Sá Campos Porto, DEJT 22/02/2016 e 14/03/2016 — "correta a conduta da empresa reclamada em
   substituir o pagamento do AADC pelo novo adicional de periculosidade".
 
-### Contrária à ECT
+### Contrária à ECT — **vinculante, prevalece sobre todos os arestos acima**
 
-Nenhum aresto contrário identificado **neste recorte**. Atenção: o *leading case* contrário da SBDI-1
-(E-ARR-10927-50.2016.5.09.0014) é de **AADC após readaptação**, não de cumulação com periculosidade — não
-confundir os dois temas, e conferir a ficha de readaptação antes de afirmar que a jurisprudência é
-favorável.
+- **TST, Tema Repetitivo nº 15 — IRR/RR-1757-68.2015.5.06.0371**, SBDI-1, Rel. Min. Alberto Luiz Bresciani
+  de Fontan Pereira, j. **14/10/2021**, juntado em 03/12/2021 (https://link.jt.jus.br/9xwNHP). Tese fixada:
+  "*Diante das naturezas jurídicas diversas do Adicional de Atividade de Distribuição e/ou Coleta Externa —
+  AADC previsto no PCCS/2008 da ECT e do Adicional de Periculosidade estatuído pelo § 4º do art. 193 da CLT,
+  define-se que, para os empregados da ECT que se enquadram nas hipóteses de pagamento dos referidos
+  adicionais, o AADC e o adicional de periculosidade, percebido por carteiro motorizado que faz uso de
+  motocicleta, podem ser recebidos cumulativamente.*" Vinculante por força dos arts. 896-C da CLT e 927, III,
+  do CPC. O acórdão enfrenta **a mesma cadeia documental** que sustenta a tese 1 (veto ao PL 7362/06, Termo
+  de Compromisso FENTECT, item 4.8.2 do PCCS/2008) e conclui em sentido oposto: a supressão do AADC dos
+  motorizados "M" e "M/V" a partir de outubro/2014 afronta a **isonomia** frente aos carteiros não
+  motorizados. Registrou ainda que **não há modulação**.
+- **STF, SL 1574 MC-Ref**, Rel. Minª Rosa Weber (Presidente), Tribunal Pleno, j. **04/09/2023**, DJe-s/n
+  divulgado 11/09/2023, publicado 12/09/2023 — pedido de suspensão formulado **pela própria ECT** contra o
+  acórdão do Tema 15, **denegado** por ausência de plausibilidade jurídica. Consigna que o AADC é adicional
+  de **penosidade** (remunera as condições mais gravosas do trabalho na rua) e o do art. 193, § 4º, remunera
+  o **risco** da motocicleta — fatos geradores diversos, sem `bis in idem`, cuja vedação só existe entre
+  insalubridade e periculosidade (art. 193, § 2º, da CLT). Precedentes monocráticos no mesmo sentido:
+  ARE 1.292.592 (Rel. Min. Gilmar Mendes, j. 10/08/2021, DJe 16/08/2021) e ARE 1.377.959 (Rel. Min. Luiz Fux,
+  j. 22/04/2022, DJe 25/04/2022).
+- **TRT da 24ª Região, 2ª Turma, AP 0025655-03.2025.5.24.0002**, Rel. Des. João de Deus Gomes de Souza,
+  j. **12/08/2026**, unânime; origem 4ª VT de Campo Grande/MS — **responde à lacuna de como o TRT24 decide o
+  tema: contra a ECT**, em execução de título coletivo, com fundamento no Tema 15 e na SL 1574.
+
+**Este aresto derruba o argumento da Portaria:** **TST, Ag-RRAg 0000061-45.2022.5.05.0511**, 5ª Turma,
+Rel. Min. Breno Medeiros, j. **17/09/2025**, DEJT 23/09/2025 (https://link.jt.jus.br/LqH8hr) — o art. 193,
+§ 4º, da CLT é **autoaplicável** e independe de regulamentação ministerial. A 5ª Turma **revisitou** seu
+entendimento anterior (que negava o adicional a quem fosse atingido pela suspensão da Portaria MTE nº
+1.565/2014 pela Portaria MTE nº 5/2015). Consequência: **a suspensão da Portaria não torna indevido o
+adicional** — o que fecha a porta para a tese de pagamento indevido e para o pedido de compensação.
+
+### Tentativa de reverter o tema em execução — não funciona
+
+Registro do que já foi tentado e rejeitado no TRT24 (mesmo acórdão de 12/08/2026), para não repetir:
+a ECT sustentou que a decisão do **TRF da 1ª Região** que suspendeu os efeitos da Portaria MTE nº 1.565/2014
+— tutela antecipada recursal na **Ação Declaratória de Nulidade nº 1012413-52.2017.4.01.3400**, decisão de
+**22/01/2024** — seria fato superveniente a autorizar a compensação dos valores pagos a título de
+periculosidade com os créditos de AADC (arts. 525, § 1º, VII, e 535, VI, do CPC). Desprovido por quatro
+razões cumulativas:
+
+1. **Coisa julgada** — o título vedava expressamente a compensação; matéria imutável em execução
+   (art. 5º, XXXVI, da CF; art. 879, § 1º, da CLT). Via adequada seria **ação rescisória**.
+2. **Decisão precária** de juízo diverso não desconstitui título executivo definitivo.
+3. **Cronologia** — a decisão do TRF1 (22/01/2024) é **anterior** ao trânsito em julgado do título
+   (14/03/2024), logo não é fato superveniente. *Conferir sempre essa ordem antes de deduzir a tese.*
+4. **Autoaplicabilidade** do art. 193, § 4º (aresto acima) — sem pagamento indevido, não há dívida
+   recíproca a compensar.
 
 ## Pontos sensíveis / variações
 
@@ -220,7 +274,13 @@ favorável.
 ## Lacunas
 
 - [ ] Conferir em fonte primária todos os arestos listados — nenhum foi verificado.
-- [ ] Registrar como o **TRT da 24ª Região** decide este tema: nenhum acórdão regional identificado até aqui.
+- [x] ~~Registrar como o TRT da 24ª Região decide este tema~~ — respondido em 08/09/2026: **contra a ECT**
+      (AP 0025655-03.2025.5.24.0002, 2ª Turma, j. 12/08/2026), aplicando o Tema 15 e a SL 1574.
+- [ ] **Redesenhar a peça-padrão do tema à luz do Tema Repetitivo nº 15**, promovendo a tese 2
+      (salário-condição) a principal e rebaixando a tese 1 a prequestionamento — decisão de estratégia,
+      pendente de definição com a chefia.
+- [ ] Verificar se o **Laudo Técnico do DESAU** ainda é útil: ele conclui pela substituição do AADC, premissa
+      que o repetitivo rejeitou. Pode ter passado de prova a favor a documento que confirma a supressão.
 - [ ] Identificar o número da cláusula de acumulação de vantagens nos ACTs recentes (a partir de 2020) — os
       números registrados acima vão só até o ACT 2015/2016.
 - [ ] Confirmar número, juízo e estado atual da ação civil coletiva do sindicato sobre o tema.
