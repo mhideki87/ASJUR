@@ -90,6 +90,25 @@ arquivo binário como modelo.
 > apenas como referência de **estrutura de corpo**; a aparência (títulos em quadro, subtítulos sublinhados,
 > recuos, citações) sai sempre do formato base.
 
+## Quando um tema precisa de mais de um modelo
+
+`trabalhista/contestacao__incorporacao_funcao.md` e `trabalhista/contestacao__remuneracao_singular.md`
+tratam do mesmo assunto amplo (incorporação de parcela de função) e **não são versões um do outro** — são
+peças de arquitetura diferente, porque o caso concreto decide onde a defesa se apoia:
+
+| Marca do caso | Modelo |
+|---|---|
+| Reversão ao cargo efetivo · norma interna invocada (Módulos 55/36) · FAT/FAO/ITF/GPTF | `contestacao__incorporacao_funcao.md` |
+| Mudança de uma função gratificada para **outra** · rubrica "Complemento Remun. Singular" · só Súmula 372 | `contestacao__remuneracao_singular.md` |
+
+O segundo existe porque, no caso que o originou, o requisito temporal estava cumprido e documentado pela
+própria ECT: insistir nele seria perder em terreno perdido, e a defesa teve de se reorganizar em torno da
+**ausência de reversão** e da **natureza da parcela**. Quando a estrutura da peça muda de eixo, é modelo
+novo — não bloco condicional de um modelo existente.
+
+Lembrete de precedência: um `.md` de modelo descreve **estrutura, tese e texto reaproveitável**. A
+**formatação** de qualquer peça vem sempre da skill `formatar-minuta`, nunca do `.docx` do tema.
+
 ## Por que isso existe
 
 O objetivo é que, depois que um tipo de peça + tema já tiver um modelo salvo aqui, você **não precise mais

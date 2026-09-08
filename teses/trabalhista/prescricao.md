@@ -130,6 +130,12 @@ sucessivamente, a prescrição parcial quinquenal.
 
 ## Pontos sensíveis
 
+- **Não arguir a prejudicial quando não há norma interna revogada no caso.** Se o pedido de incorporação se
+  funda apenas na Súmula 372, I, e no direito adquirido pré-reforma, o marco não é a revogação de norma
+  alguma: é a **dispensa da função**. Sendo ela recente, não há prescrição a arguir, nem total nem parcial —
+  e arguí-la de todo modo só sinaliza fraqueza. Conferir na inicial se há, de fato, pedido fundado em norma
+  interna antes de abrir este bloco.
+
 - A prescrição é **total** (não parcial) justamente porque a parcela não é assegurada por lei, e sim por
   norma interna — se o caso envolver parcela com previsão legal, a tese muda.
 - Conferir a data de ajuizamento na capa do PJe antes de arguir.

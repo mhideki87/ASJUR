@@ -3,7 +3,7 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, causa de pedir indeterminada, pedido aproveitado de outra peça, erro material da inicial, art. 330 §1º CPC, art. 341 CPC, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md]
@@ -86,6 +86,32 @@ exibir "toda a documentação em seu poder" é genérico — o **art. 397 do CPC
 documento, a finalidade da prova e as circunstâncias que indicam que ele existe e está com a parte
 contrária; sem isso não incide a sanção do art. 400. Fechar juntando espontaneamente a documentação
 pertinente: esvazia o pedido e reforça a boa-fé.
+
+## Inépcia por indeterminação da causa de pedir — o pedido aproveitado de outra peça
+
+Sintoma frequente em inicial de formulário: **um pedido e mais de uma causa de pedir**, incompatíveis entre
+si, porque o rol de pedidos foi reaproveitado de outra ação. Em caso real, o pedido de dano moral invocava
+"assalto no local de trabalho"; o capítulo que deveria fundamentá-lo tratava do "constrangimento" decorrente
+de uma redução salarial; e o fecho do mesmo capítulo falava em represália sindical. Nenhuma das três estava
+narrada nos fatos, e as duas primeiras se excluem.
+
+**Antes de arguir, ler o tópico de fundamentação inteiro.** É erro concluir que um pedido é órfão de causa
+de pedir só porque o rol de pedidos aponta para fato não narrado: com frequência a causa de pedir está no
+tópico próprio, e o defeito é de **incongruência**, não de ausência. O diagnóstico muda a preliminar.
+
+Como arguir:
+
+- **Inépcia** pela indeterminação e pela incongruência entre pedido e fundamentação (art. 840, §1º, da CLT;
+  art. 330, §1º, I e III, do CPC), com extinção sem resolução do mérito (art. 485, I, do CPC).
+- O argumento que dá força à preliminar: a indeterminação transfere à ré o ônus de **adivinhar** contra o
+  que se defende e de produzir defesa em duplicata ou triplicata para não arriscar revelia parcial na
+  hipótese que o juízo venha a eleger — o que o art. 341 do CPC não lhe permite recusar.
+- **Por dever de eventualidade, contestar todas as causas de pedir**, uma a uma, e requerer que fique
+  consignada a impossibilidade de o autor eleger, em réplica, causa de pedir diversa das deduzidas
+  (arts. 141, 329 e 492 do CPC).
+- **Conferir a aritmética do valor.** É comum a inicial pedir "não inferior a *n* vezes o último salário" e
+  indicar valor correspondente a múltiplo **diferente** — em regra o teto do art. 223-G, §1º, da CLT. A
+  contradição atinge a certeza do pedido e contamina o valor da causa e a base dos honorários.
 
 ## Fundamentos
 

@@ -136,6 +136,14 @@ direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da
   bloqueados pelo proxy do ambiente cloud — conferir o texto da Resolução nº 225/2025 na fonte oficial
   antes de citar em peça protocolada]`
 - **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (art. 927 do CPC).
+- **Distinção dos precedentes que a inicial transcreve — pelas datas que as próprias ementas declaram.**
+  Antes de discutir o mérito de cada aresto, ler as ementas colacionadas procurando **a data do fato**: em
+  caso real, todos os precedentes da SBDI-1 e do TRT9 invocados cuidavam de empregados dispensados da função
+  **antes ou logo após 11/11/2017** (supressão "no início de 2017"; exercício "de março de 2005 a janeiro de
+  2016"; gratificação "de 31/12/1993 a 2/8/2018"; supressão "em setembro de 2020"). Quando o fato gerador do
+  caso em mãos é **muito posterior** à reforma, a *ratio* da irretroatividade que o autor invoca é
+  precisamente o que **impede** a aplicação do precedente — o aresto se volta contra quem o citou. Técnica
+  barata: não exige enfrentar o precedente, só apontar a data que ele mesmo declara.
   Teor literal, conforme transcrito no modelo institucional (INCJULGRREMBREP-528-80.2018.5.14.0004):
   *"A Lei nº 13.467/2017 possui aplicação imediata aos contratos de trabalho em curso, passando a regular os
   direitos decorrentes de lei cujos fatos geradores tenham se efetivado a partir de sua vigência"*
