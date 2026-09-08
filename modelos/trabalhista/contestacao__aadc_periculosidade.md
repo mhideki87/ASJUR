@@ -3,7 +3,20 @@
 **Consolidado de:** 1 caso-fonte (rito sumaríssimo, carteiro em função motorizada "M"; peça-modelo real da
 ECT sobre o mesmo tema anexada pelo usuário, mais o conjunto documental completo da parcela — histórico,
 laudo técnico, PCCS/2008, MANPES e MANTRA).
-**Última atualização:** 2026-09-07 — criação inicial, a partir de minuta protocolada.
+**Última atualização:** 2026-09-08 — alerta sobre o Tema Repetitivo nº 15 do TST (ver abaixo).
+
+> ## ⚠ A tese que este modelo encabeça está superada por precedente vinculante
+>
+> Os itens **1.1 a 1.7** da estrutura sustentam a **não cumulação** — tese contrariada pelo **Tema
+> Repetitivo nº 15 do C. TST** (j. 14/10/2021), **vinculante**, e pela **SL 1574 do STF** (j. 04/09/2023),
+> que denegou pedido de suspensão formulado **pela própria ECT**. Este modelo foi consolidado antes de
+> esses precedentes serem registrados na base.
+>
+> **Antes de usar:** ler a ficha
+> [`teses/trabalhista/aadc_cumulacao_periculosidade.md`](../../teses/trabalhista/aadc_cumulacao_periculosidade.md)
+> (status `revisar`), que traz os precedentes e a razão de decidir. Enquanto o redesenho da peça-padrão não
+> for decidido, **o item 1.8 (salário-condição) encabeça a peça** e os itens 1.1 a 1.7 entram, se entrarem,
+> apenas para prequestionamento — sustentá-los como tese principal atrai o óbice do art. 896, § 7º, da CLT.
 
 ---
 
