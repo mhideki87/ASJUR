@@ -3,11 +3,11 @@ area: trabalhista
 tema: Multa do art. 477, §8º — base de cálculo e limites do valor do pedido
 slug: multa_477_base_calculo
 status: rascunho
-gatilhos: [multa do art. 477, art. 477 § 8º, art. 477 § 6º, multa rescisória, atraso no pagamento das verbas rescisórias, verbas rescisórias pagas fora do prazo, base de cálculo da multa, Tema 142, IRR 142, RR-11070-70.2023.5.03.0043, salário-base, todas as parcelas de natureza salarial, art. 457 § 1º, anuênio, rescisão por acordo, art. 484-A, culpa do trabalhador pela mora, valor do pedido, art. 840 § 1º, IN 41/2018, pedido líquido, julgamento ultra petita, inovação recursal]
+gatilhos: [multa do art. 477, art. 477 § 8º, multa rescisória, atraso no pagamento das verbas rescisórias, base de cálculo da multa, Tema 142, IRR 142, salário-base, art. 457 § 1º, rescisão por acordo, art. 484-A, valor do pedido, art. 840 § 1º, pedido líquido]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contrarrazoes_ro__multa_477_base_calculo.md]
 ver_tambem: [teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/afastamentos_auxilio_doenca.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Multa do art. 477, §8º: base de cálculo e limites do valor do pedido

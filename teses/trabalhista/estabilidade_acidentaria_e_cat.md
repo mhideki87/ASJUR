@@ -3,11 +3,11 @@ area: trabalhista
 tema: Estabilidade acidentária e omissão na emissão da CAT
 slug: estabilidade_acidentaria_e_cat
 status: validada
-gatilhos: [estabilidade acidentária, estabilidade provisória, garantia provisória de emprego, art. 118 da Lei 8.213/91, Súmula 378, indenização substitutiva do período estabilitário, OJ 399 da SBDI-1, Súmula 396, reintegração, CAT, Comunicação de Acidente de Trabalho, art. 22 da Lei 8.213/91, auxílio-doença acidentário, espécie 91, B-91, auxílio-acidente, art. 86 da Lei 8.213/91, indeferimento do INSS, dano moral por omissão de CAT, art. 336 do Decreto 3.048/99]
+gatilhos: [estabilidade acidentária, estabilidade provisória, garantia provisória de emprego, art. 118 da Lei 8.213/91, Súmula 378, indenização substitutiva do período estabilitário, OJ 399 da SBDI-1, Súmula 396, reintegração, CAT, Comunicação de Acidente de Trabalho, art. 22 da Lei 8.213/91, auxílio-doença acidentário, espécie 91, B-91, auxílio-acidente, art. 86 da Lei 8.213/91, indeferimento do INSS, art. 336 do Decreto 3.048/99]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_trabalho_temporario.md]
 ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-09
 ---
 
 # Tese — Estabilidade acidentária e omissão na emissão da CAT

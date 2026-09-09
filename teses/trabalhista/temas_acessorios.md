@@ -3,11 +3,11 @@ area: trabalhista
 tema: Temas acessórios (ad cautelam)
 slug: temas_acessorios
 status: validada
-gatilhos: [quebra de caixa, atividade especial, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, cota da patrocinadora, honorários advocatícios, art. 791-A, art. 85 § 3º CPC, normativos internos, PLR, retificação do CNIS, salários de contribuição, multa diária, AAG, adicional de atendimento em guichê]
+gatilhos: [quebra de caixa, atividade especial, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, art. 791-A, PLR, retificação do CNIS, AAG, adicional de atendimento em guichê]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md]
-atualizado: 2026-09-03
+atualizado: 2026-09-09
 ---
 
 # Tese — Temas acessórios que reaparecem *ad cautelam*

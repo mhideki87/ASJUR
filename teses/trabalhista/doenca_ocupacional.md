@@ -3,11 +3,11 @@ area: trabalhista
 tema: Doença ocupacional
 slug: doenca_ocupacional
 status: validada
-gatilhos: [doença ocupacional, acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, quesitos de perícia, NTEP, CNAE, espécie 91, espécie 31, PCMSO, CAT, Comunicação de Acidente de Trabalho, riscos psicossociais, danos morais por doença, pensionamento, readaptação, LER, DORT, transtorno psiquiátrico, acidente de trajeto, fortuito externo, fato da natureza, força maior, prescrição em doença ocupacional, ciência inequívoca, Súmula 278 do STJ, reabilitação profissional, parcela única, valor presente]
+gatilhos: [acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, NTEP, CNAE, espécie 91, espécie 31, PCMSO, CAT, riscos psicossociais, pensionamento, LER, DORT, transtorno psiquiátrico, acidente de trajeto, Súmula 278 do STJ]
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md, modelos/trabalhista/contestacao__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md]
-atualizado: 2026-09-05
+atualizado: 2026-09-09
 ---
 
 # Tese — Doença ocupacional

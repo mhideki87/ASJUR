@@ -3,11 +3,11 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, causa de pedir indeterminada, pedido aproveitado de outra peça, erro material da inicial, art. 330 §1º CPC, art. 341 CPC, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, irregularidade de representação, valor da causa, valor estimativo, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, Juízo 100% Digital, Resolução CNJ 345/2020]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md]
-atualizado: 2026-09-08
+ver_tambem: [teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md]
+atualizado: 2026-09-09
 ---
 
 # Tese — Preliminares processuais recorrentes da defesa
@@ -127,6 +127,26 @@ Como arguir:
 - **Conferir a aritmética do valor.** É comum a inicial pedir "não inferior a *n* vezes o último salário" e
   indicar valor correspondente a múltiplo **diferente** — em regra o teto do art. 223-G, §1º, da CLT. A
   contradição atinge a certeza do pedido e contamina o valor da causa e a base dos honorários.
+
+## Irregularidade de representação processual — um defeito que passa batido
+
+**Conferir em toda inicial, e leva dois minutos:** o advogado indicado no **preâmbulo**, o que **subscreve
+o fecho**, o que consta da **assinatura eletrônica** ao pé das folhas e o que a **capa do PJe** registra
+como patrono têm de ser o mesmo, com a mesma inscrição na OAB.
+
+Divergências que já apareceram numa única petição (09/2026): o preâmbulo atribuía ao subscritor um número de
+inscrição na OAB e o fecho, **na mesma peça**, um número diferente (dois dígitos transpostos); e a
+assinatura eletrônica de todas as folhas,
+confirmada pela autuação da capa, era de **um terceiro advogado que a peça não mencionava**. Sinal quase
+certo de peça montada sobre modelo de outro escritório.
+
+Não havendo nos autos procuração ou substabelecimento que habilite o signatário eletrônico, requerer a
+intimação da parte autora para regularizar a representação no prazo do **art. 76 do CPC**, aplicável
+subsidiariamente por força do art. 769 da CLT, sob as consequências ali previstas. Preliminar de baixo
+custo: não depende de prova, é verificável só com os autos, e o saneamento pode retardar a marcha do feito.
+
+Cuidado com o tom: é pedido de **saneamento**, não acusação. Descrever a divergência de forma objetiva,
+sem qualificar a conduta do subscritor.
 
 ## Fundamentos
 

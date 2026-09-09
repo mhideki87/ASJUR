@@ -3,11 +3,11 @@ area: transversal
 tema: Prerrogativas processuais da ECT (equiparação à Fazenda Pública)
 slug: prerrogativas_processuais_ect
 status: validada
-gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de custas, dispensa de depósito recursal, precatório, RPV, remessa necessária, art. 100 da CF, EC 113/2021, SELIC, tempestividade, empresa pública, juros e correção contra a Fazenda, tutela antecipada contra a Fazenda, agravo de petição, art. 897 § 1º da CLT, delimitação de valores]
+gatilhos: [prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de depósito recursal, precatório, remessa necessária, EC 113/2021, tempestividade, empresa pública, agravo de petição, delimitação de valores]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação, agravo de petição]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
 ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Prerrogativas processuais da ECT

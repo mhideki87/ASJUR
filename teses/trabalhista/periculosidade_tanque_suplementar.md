@@ -3,11 +3,11 @@ area: trabalhista
 tema: Adicional de periculosidade — tanque suplementar de combustível
 slug: periculosidade_tanque_suplementar
 status: validada
-gatilhos: [adicional de periculosidade, periculosidade, NR-16, inflamáveis, tanque suplementar, tanque auxiliar, combustível, diesel, 200 litros, INMETRO, CSV, Certificado de Segurança Veicular, DETRAN, perícia técnica, motorista de carreta, caminhão-tanque, área de risco]
+gatilhos: [periculosidade, NR-16, inflamáveis, tanque suplementar, tanque auxiliar, combustível, diesel, 200 litros, INMETRO, CSV, Certificado de Segurança Veicular, DETRAN, perícia técnica, motorista de carreta, caminhão-tanque, área de risco]
 pecas: [contestação, quesitos, contrarrazões]
 modelos: []
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md]
-atualizado: 2026-08-31
+atualizado: 2026-09-09
 ---
 
 # Tese — Adicional de periculosidade por tanque suplementar de combustível

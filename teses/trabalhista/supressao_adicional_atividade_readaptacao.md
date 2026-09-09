@@ -3,11 +3,11 @@ area: trabalhista
 tema: Supressão de adicional de atividade (AAT/AADC) após readaptação profissional
 slug: supressao_adicional_atividade_readaptacao
 status: validada
-gatilhos: [adicional de atividade de tratamento, AAT, AADC, adicional de atividade de distribuição, adicional de distribuição e coleta externa, AAG, adicional de atividade, empregado readaptado, empregado reabilitado, readaptação funcional, reabilitação profissional, salário-condição, irredutibilidade salarial, art. 461 § 4º CLT, art. 194 CLT, art. 89 da Lei 8.213/91, PCCS 2008, item 4.10, item 4.8, Operador de Triagem e Transbordo, OTT, Súmula 248, Súmula 265, restitutio in integrum]
+gatilhos: [AAT, AADC, AAG, adicional de atividade, empregado readaptado, empregado reabilitado, readaptação funcional, reabilitação profissional, salário-condição, irredutibilidade salarial, art. 461 § 4º CLT, art. 194 CLT, art. 89 da Lei 8.213/91, PCCS 2008, OTT, Súmula 248, Súmula 265]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/aadc_cumulacao_periculosidade.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-07
+atualizado: 2026-09-09
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional

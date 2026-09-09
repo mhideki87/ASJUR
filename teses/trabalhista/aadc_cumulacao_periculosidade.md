@@ -3,11 +3,11 @@ area: trabalhista
 tema: AADC x adicional de periculosidade do carteiro motorizado — impossibilidade de cumulação
 slug: aadc_cumulacao_periculosidade
 status: revisar
-gatilhos: [AADC, adicional de atividade de distribuição e coleta, adicional de distribuição e/ou coleta externa, adicional de 30% sobre o salário-base, carteiro motorizado, motorizado M, motorizado MV, função motorizada, carteiro motociclista, motocicleta, motoneta, adicional de periculosidade, art. 193 § 4º CLT, Lei 12.997/2014, Anexo 5 da NR-16, Portaria MTE 1.565/2014, cumulação de adicionais, acumulação de vantagens, devolução AADC risco, PCCS 2008 item 4.8, item 4.8.2, MANPES Módulo 8 Capítulo 6, MANTRA, gratificação de função convencional motorizada, Termo de Compromisso FENTECT, Súmula 361, salário-condição, Tema 15 do TST, SL 1574, compensação de adicionais, adicional de penosidade]
+gatilhos: [AADC, adicional de atividade de distribuição e coleta, carteiro motorizado, função motorizada, carteiro motociclista, motocicleta, adicional de periculosidade, art. 193 § 4º CLT, Lei 12.997/2014, Anexo 5 da NR-16, cumulação de adicionais, Termo de Compromisso FENTECT, Súmula 361, salário-condição, Tema 15 do TST, adicional de penosidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__aadc_periculosidade.md]
 ver_tambem: [teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/prescricao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — AADC x adicional de periculosidade do carteiro motorizado

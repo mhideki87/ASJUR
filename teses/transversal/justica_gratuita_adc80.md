@@ -3,11 +3,11 @@ area: transversal
 tema: Justiça gratuita após a ADC 80 (STF) — critérios, ônus da prova e impugnação
 slug: justica_gratuita_adc80
 status: validada
-gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, declaração de hipossuficiência, hipossuficiência, Súmula 463 do TST, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
+gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Súmula 463 do TST, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-06
+ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md]
+atualizado: 2026-09-09
 ---
 
 # Tese — Justiça gratuita após a ADC 80
@@ -197,6 +197,13 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
   **cortou** o tópico de gratuidade da minuta porque a Súmula 463, I, do TST tornava "a briga cara e de
   baixo retorno". Esse cálculo **muda para processos sob o regime novo** — a súmula caiu e o ônus é do
   autor. Em processo antigo, o cálculo original continua de pé.
+- **Há um caso em que a briga está perdida de saída: o autor que recebeu líquido zero.** Quando a própria
+  causa de pedir é a retenção integral do salário (holerite zerado — ver
+  [descontos_salariais_saldo_negativo.md](../trabalhista/descontos_salariais_saldo_negativo.md)), o autor
+  tem o contra-argumento mais forte possível, e os proventos dos meses discutidos estão distorcidos pelo
+  próprio fato narrado. Não abrir o tópico, ou abri-lo apenas com o pedido sucessivo de intimação para
+  comprovar renda. Vale a mesma advertência para qualquer tese em que a defesa precise sustentar, em outro
+  capítulo, que o empregado ficou sem remuneração: impugnar gratuidade ali é contradizer a própria peça.
 - **Precedente de TST e STJ envelheceu.** O item (viii) determinou revisão das jurisprudências, inclusive de
   repetitivos. Ementa antiga sobre autodeclaração — inclusive as que as iniciais do tema de incorporação
   costumam transcrever a favor do autor — deve ser confrontada com esse item.

@@ -3,11 +3,11 @@ area: trabalhista
 tema: Jornada do motorista profissional após a ADI 5322
 slug: jornada_motorista_profissional
 status: rascunho
-gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, turno ininterrupto de revezamento, intervalo intrajornada, intervalo interjornada, adicional noturno, feriados em dobro, tacógrafo, RDVO, computador de bordo, Sascar, controle eletrônico de jornada, Portaria MTE 671/2021, Portaria 1.510/2009]
+gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, intervalo intrajornada, intervalo interjornada, adicional noturno, tacógrafo, RDVO, controle eletrônico de jornada]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: []
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/parcelas_cct_transporte.md]
-atualizado: 2026-08-31
+atualizado: 2026-09-09
 ---
 
 # Tese — Jornada do motorista profissional após a ADI 5322

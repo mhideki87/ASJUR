@@ -3,11 +3,11 @@ area: trabalhista
 tema: Responsabilidade subsidiária da ECT em contrato de trabalho temporário
 slug: responsabilidade_subsidiaria_trabalho_temporario
 status: validada
-gatilhos: [trabalho temporário, empresa de trabalho temporário, mão de obra temporária, Lei 6.019/74, art. 10 da Lei 6.019/74, art. 16 da Lei 6.019/74, Lei 13.429/2017, contrato a termo, contrato por prazo determinado, auxiliar de logística, separação de encomendas, carência transitória de pessoal, demanda complementar de serviços, responsabilidade subsidiária, tomadora de serviços, Súmula 331, acidente em instalação da ECT, art. 942 do Código Civil]
+gatilhos: [trabalho temporário, mão de obra temporária, Lei 6.019/74, Lei 13.429/2017, contrato a termo, contrato por prazo determinado, auxiliar de logística, separação de encomendas, carência transitória de pessoal, demanda complementar de serviços, responsabilidade subsidiária, tomadora de serviços, Súmula 331, acidente em instalação da ECT, art. 942 do Código Civil]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_trabalho_temporario.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-09
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em contrato de trabalho temporário
