@@ -35,6 +35,41 @@ com **prequestionamento**.
 `[REVISAR: confirmar se cabeçalho, fonte, espaçamento e demais regras da trabalhista também valem aqui,
 ou se cível tem modelo próprio]`
 
+### Propriedades exatas dos parágrafos (trabalhista)
+
+Extraídas do `word/document.xml` de peça real aprovada. Ao gerar `.docx` por script, usar estes valores —
+descrever "entrelinha 1,5" em prosa não basta, e reconstruir de memória erra.
+
+| Elemento | Propriedades |
+|---|---|
+| Corpo | `jc=both` · `lineRule="exact" line=360` · `before=0 after=120` · `ind firstLine=1701` · `sz=22` |
+| Título de seção | **caixa com borda** (`pBdr` `single sz=6 space=4`) · `jc=center` · `exact 240` · `before=320 after=260` · `ind left=0` · negrito |
+| Subtítulo numerado | `jc=both` · `exact 360` · `before=200 after=120` · `ind left=1701` · **negrito + sublinhado** |
+| Sub-subtítulo | igual ao subtítulo, `before=160`, só negrito |
+| Item recuado / requerimentos | `jc=both` · `exact 360` · `before=0 after=160` · `ind left=1701` · negrito |
+| Citação | `jc=both` · `exact 240` · `before=100 after=160` · `ind left=2268` · **`sz=20` (10pt)** |
+
+Cuidados que já custaram retrabalho:
+
+- **`lineRule` é `exact`, não `auto`.** É o padrão real da casa; não "corrigir" para `auto`.
+- Ordem exigida pelo schema em `<w:pPr>`: `pStyle` → `keepNext` → `widowControl` → `spacing` → `ind` → `jc`.
+- Gerando a partir de `_FORMATO_BASE.docx`, substituir **só** o `word/document.xml`; ao final, conferir que
+  os demais 12 componentes seguem byte-idênticos ao template.
+
+### Conferência obrigatória antes de entregar
+
+Peça em `.docx` **não se entrega sem renderizar e olhar** — validação por texto não pega erro de
+formatação:
+
+```bash
+python <skill docx>/scripts/office/validate.py peca.docx --original modelos/_FORMATO_BASE.docx
+python <skill docx>/scripts/office/soffice.py --headless --convert-to pdf --outdir out/ peca.docx
+pdftoppm -jpeg -r 100 out/peca.pdf pg     # e então ler as imagens
+```
+
+Se o LibreOffice recusar **qualquer** arquivo com "source file could not be loaded", falta o módulo Writer
+(`libswlo.so`): instalar `libreoffice-writer` — não é defeito do documento.
+
 ## Modelos por tipo de peça + tema
 
 Cada peça-modelo consolidada aqui tem **dois arquivos de mesmo nome**, lado a lado:

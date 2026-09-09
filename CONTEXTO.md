@@ -29,6 +29,8 @@
 8. **Ler o índice, não a base inteira** — identificar os pedidos, abrir só as fichas que o
    [INDICE.md](INDICE.md) indicar. Ficha `status: rascunho` é candidata a tese, não tese confirmada.
 9. Impugnar especificamente cada fato e cada pedido; nenhum pedido fica sem resposta.
+10. **Peça em `.docx` só se entrega depois de renderizar em PDF e olhar o resultado** — conferência por
+    texto não pega erro de formatação. Ver [modelos/README.md](modelos/README.md).
 
 ## Onde está o resto
 
