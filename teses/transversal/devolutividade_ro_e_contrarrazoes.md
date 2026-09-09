@@ -3,11 +3,11 @@ area: transversal
 tema: Devolutividade do recurso ordinário e renovação de matérias em contrarrazões
 slug: devolutividade_ro_e_contrarrazoes
 status: validada
-gatilhos: [extra petita, citra petita, ultra petita, infra petita, julgamento fora do pedido, nulidade da sentença, error in procedendo, causa de pedir diversa, omissão da sentença, art. 141 CPC, art. 492 CPC, art. 1009 § 1º CPC, art. 1013 CPC, causa madura, teoria da causa madura, efeito devolutivo em profundidade, tantum devolutum quantum appellatum, Súmula 393, OJ 41 SBDI-2, art. 794 CLT, ausência de prejuízo, matéria renovada em contrarrazões, ausência de interesse recursal, trânsito em julgado parcial, prequestionamento, recurso adesivo, Súmula 283]
+gatilhos: [extra petita, citra petita, ultra petita, julgamento fora do pedido, nulidade da sentença, error in procedendo, causa de pedir diversa, omissão da sentença, art. 141 CPC, art. 492 CPC, art. 1009 § 1º CPC, art. 1013 CPC, causa madura, tantum devolutum quantum appellatum, Súmula 393, OJ 41 SBDI-2, art. 794 CLT, matéria renovada em contrarrazões, prequestionamento, recurso adesivo, Súmula 283]
 pecas: [contrarrazões, recurso ordinário, embargos de declaração]
 modelos: [modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__multa_477_base_calculo.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Devolutividade do RO e renovação de matérias em contrarrazões

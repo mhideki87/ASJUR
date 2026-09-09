@@ -3,11 +3,11 @@ area: trabalhista
 tema: Honorários sucumbenciais autônomos na execução individual de sentença coletiva — descabimento
 slug: honorarios_execucao_individual_sentenca_coletiva
 status: validada
-gatilhos: [honorários na execução, honorários sucumbenciais autônomos, execução individual de sentença coletiva, liquidação individual, ação coletiva, substituto processual, sindicato substituto, honorários assistenciais, Súmula 219 do TST, Lei 5.584/70, art. 791-A, art. 85 § 1º do CPC, Súmula 345 do STJ, bis in idem, agravo de petição, contraminuta de agravo de petição, embargos à execução, impugnação aos cálculos]
+gatilhos: [honorários na execução, honorários sucumbenciais autônomos, execução individual de sentença coletiva, liquidação individual, ação coletiva, substituto processual, sindicato substituto, honorários assistenciais, Súmula 219 do TST, Lei 5.584/70, art. 791-A, art. 85 § 1º do CPC, Súmula 345 do STJ, bis in idem, agravo de petição, embargos à execução, impugnação aos cálculos]
 pecas: [contraminuta de agravo de petição, embargos à execução, impugnação aos cálculos, manifestação]
 modelos: []
 ver_tambem: [teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Honorários autônomos na execução individual de sentença coletiva

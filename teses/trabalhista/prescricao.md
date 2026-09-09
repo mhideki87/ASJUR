@@ -3,11 +3,11 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, prescrição total, prescrição parcial, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025]
+gatilhos: [prescrição, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md]
-atualizado: 2026-09-05
+atualizado: 2026-09-09
 ---
 
 # Tese — Prescrição total

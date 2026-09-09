@@ -3,11 +3,11 @@ area: trabalhista
 tema: Remuneração singular e limite quantitativo da incorporação
 slug: remuneracao_singular
 status: validada
-gatilhos: [remuneração singular, complemento de remuneração singular, complemento remun. singular, valor singular, valor convencional, gratificação de função convencional, tabela de funções, tabela de função, rubrica 051106, rubrica 051003, rubrica 056106, valor a incorporar, base de cálculo da incorporação, redução do complemento, parcela mensal fixa, mudança de função, MANPES Módulo 1]
+gatilhos: [remuneração singular, complemento remun. singular, valor singular, valor convencional, gratificação de função convencional, tabela de função, rubrica 051106, rubrica 051003, rubrica 056106, valor a incorporar, base de cálculo da incorporação, redução do complemento, parcela mensal fixa, mudança de função, MANPES Módulo 1]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__remuneracao_singular.md, modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Remuneração singular e limite quantitativo da incorporação

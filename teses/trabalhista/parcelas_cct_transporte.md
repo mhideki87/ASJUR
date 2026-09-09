@@ -3,11 +3,11 @@ area: trabalhista
 tema: Parcelas de CCT do transporte rodoviário (diárias, alimentação, cesta, multa)
 slug: parcelas_cct_transporte
 status: rascunho
-gatilhos: [diária de viagem, diárias, pernoite, refeição/pernoite, adiantamento de diária, tíquete-alimentação, auxílio-alimentação, vale-refeição, cesta básica, indenização substitutiva, multa convencional, multa normativa, CCT, convenção coletiva, cláusula 16ª, cláusula 17ª, cláusula 49ª, cláusula 54ª, piso salarial, sindicato dos transportes]
+gatilhos: [diária de viagem, diárias, pernoite, adiantamento de diária, tíquete-alimentação, auxílio-alimentação, vale-refeição, cesta básica, indenização substitutiva, multa convencional, multa normativa, CCT, convenção coletiva, cláusula 16ª, cláusula 17ª, cláusula 49ª, cláusula 54ª, piso salarial, sindicato dos transportes]
 pecas: [contestação, recurso ordinário, contrarrazões]
 modelos: []
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/jornada_motorista_profissional.md]
-atualizado: 2026-08-31
+atualizado: 2026-09-09
 ---
 
 # Tese — Parcelas de CCT do transporte rodoviário: diárias, alimentação, cesta básica e multa

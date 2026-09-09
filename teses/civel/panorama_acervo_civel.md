@@ -3,11 +3,11 @@ area: civel
 tema: Panorama do acervo cível (levantamento estatístico)
 slug: panorama_acervo_civel
 status: rascunho
-gatilhos: [panorama cível, volume de processos cível, tipos de peça cível, acervo, estatística do acervo]
+gatilhos: [panorama cível, volume de processos cível, tipos de peça cível, acervo]
 pecas: []
 modelos: []
 ver_tambem: [teses/civel/indenizatoria_servico_postal.md]
-atualizado: 2026-08-27
+atualizado: 2026-09-09
 ---
 
 # Panorama do acervo cível

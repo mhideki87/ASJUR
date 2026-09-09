@@ -3,11 +3,11 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, limitação da condenação, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, causa de pedir indeterminada, pedido aproveitado de outra peça, erro material da inicial, art. 330 §1º CPC, art. 341 CPC, inversão do ônus da prova, art. 818 §1º, exibição de documentos, art. 397 do CPC, Juízo 100% Digital, Resolução CNJ 345/2020, videoconferência]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, valor da causa, valor estimativo, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, Juízo 100% Digital, Resolução CNJ 345/2020]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Preliminares processuais recorrentes da defesa

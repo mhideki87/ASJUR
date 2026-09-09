@@ -3,11 +3,11 @@ area: trabalhista
 tema: Responsabilidade subsidiária da ECT em contrato de transporte de carga postal
 slug: responsabilidade_subsidiaria_transporte_carga_postal
 status: validada
-gatilhos: [responsabilidade subsidiária, terceirização, tomadora de serviços, culpa in vigilando, culpa in eligendo, Súmula 331, Lei 11.442/2007, contrato de transporte, transportadora, transporte de cargas, carga postal, LTN, motorista, ADC 16, RE 760.931, Tema 246, Tema 1.118, Tema 59 do TST, art. 77 da Lei 13.303/2016, art. 71 da Lei 8.666/93, art. 5º-A da Lei 6.019/74, ônus da prova da fiscalização]
+gatilhos: [responsabilidade subsidiária, terceirização, tomadora de serviços, culpa in vigilando, culpa in eligendo, Súmula 331, Lei 11.442/2007, contrato de transporte, transportadora, carga postal, LTN, ADC 16, RE 760.931, Tema 246, Tema 1.118, Tema 59 do TST, ônus da prova da fiscalização]
 pecas: [contestação, recurso ordinário, recurso de revista, contrarrazões]
 modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-09
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em contrato de transporte de carga postal

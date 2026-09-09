@@ -3,7 +3,7 @@ area: trabalhista
 tema: Descontos que zeram o holerite — cobertura de saldo negativo e coparticipação do Postal Saúde
 slug: descontos_salariais_saldo_negativo
 status: rascunho
-gatilhos: [saldo negativo, cobertura de saldo negativo, holerite zerado, desconto integral, confisco salarial, intangibilidade salarial, art. 462 CLT, coparticipação, Postal Saúde, OJ 18 da SDC, Súmula 342]
+gatilhos: [saldo negativo, holerite zerado, desconto integral, confisco salarial, intangibilidade salarial, art. 462 CLT, coparticipação, Postal Saúde, OJ 18 da SDC, Súmula 342]
 pecas: [contestação, manifestação, contrarrazões]
 modelos: []
 ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]

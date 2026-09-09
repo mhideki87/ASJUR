@@ -3,11 +3,11 @@ area: trabalhista
 tema: Honorários sucumbenciais — omissão da sentença e contraminuta aos embargos do Reclamante
 slug: honorarios_sucumbenciais_omissao_da_sentenca
 status: rascunho
-gatilhos: [honorários sucumbenciais, honorários advocatícios, art. 791-A, ação de cobrança, julgamento conjunto por conexão, art. 85 do CPC, art. 85 § 8º, Súmula 219 do TST, sentença citra petita, omissão quanto aos honorários, embargos de declaração do reclamante, contraminuta, manifestação sobre embargos, art. 897-A § 2º, art. 1.023 § 2º, art. 1.024 § 4º, base de cálculo dos honorários, valor da causa, arbitramento equitativo, assistência sindical, Lei 5.584/70]
+gatilhos: [honorários sucumbenciais, art. 791-A, ação de cobrança, art. 85 do CPC, Súmula 219 do TST, omissão quanto aos honorários, embargos de declaração do reclamante, contraminuta, base de cálculo dos honorários, arbitramento equitativo, assistência sindical, Lei 5.584/70]
 pecas: [contraminuta a embargos de declaração, manifestação, contestação, recurso ordinário]
 modelos: [modelos/trabalhista/contraminuta_ed__honorarios_sucumbenciais.md]
 ver_tambem: [teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/devolucao_valores_recebidos_boa_fe.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Honorários sucumbenciais quando a sentença é omissa

@@ -3,11 +3,11 @@ area: trabalhista
 tema: Câncer de pele e exposição solar ocupacional (trabalho a céu aberto)
 slug: cancer_pele_exposicao_solar
 status: validada
-gatilhos: [câncer de pele, carcinoma, carcinoma basocelular, carcinoma espinocelular, neoplasia cutânea, melanoma, exposição solar, radiação ultravioleta, radiação UV, trabalho a céu aberto, fototipo, Fitzpatrick, protetor solar, filtro solar, FPS, chapéu de abas largas, uniforme de mangas longas, queratose actínica, carteiro motorizado, dermatológico]
+gatilhos: [câncer de pele, carcinoma, neoplasia cutânea, melanoma, exposição solar, radiação ultravioleta, radiação UV, trabalho a céu aberto, fototipo, Fitzpatrick, protetor solar, filtro solar, FPS, chapéu de abas largas, uniforme de mangas longas, queratose actínica, carteiro motorizado, dermatológico]
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-09
 ---
 
 # Tese — Câncer de pele e exposição solar ocupacional
