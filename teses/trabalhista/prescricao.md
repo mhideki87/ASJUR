@@ -3,7 +3,7 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento]
+gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md]
@@ -127,6 +127,29 @@ recurso de revista e há o Tema 23 a invocar —, mas **não fazer dela o eixo d
 ficar em argumentos de **fato provado por documento**, que escapam dessa controvérsia jurídica: inexistência
 de supressão da parcela e não implementação do requisito temporal na vigência da norma interna. Pedir sempre,
 sucessivamente, a prescrição parcial quinquenal.
+
+## Contra-ataque frequente da parte autora — "a ação declaratória é imprescritível, art. 11, § 1º, da CLT"
+
+**Erro de dispositivo, e vale conhecê-lo de cor: o § 1º não diz isso.** Recurso ordinário adversário de
+09/2026 (tema PCCS/2008) abriu a preliminar afirmando que, "nos termos do artigo 11, § 1º, da CLT, as ações
+de natureza estritamente declaratória são imprescritíveis". A redação real é outra:
+
+> **Art. 11.** (...) **§ 1º** O disposto neste artigo não se aplica às ações que tenham por objeto anotações
+> para fins de prova junto à Previdência Social.
+
+O § 1º ressalva **uma única** hipótese — anotação para prova junto à Previdência Social. Apontar isso em uma
+linha desmonta a premissa normativa do capítulo inteiro, e é resposta que não depende de jurisprudência.
+
+Duas respostas complementares, para quando a tese vier sem o dispositivo errado:
+
+1. **Qualificar a pretensão pelos pedidos, não pelo rótulo.** Onde o rol pede reenquadramento em referência
+   superior, retificação de ficha cadastral e diferenças salariais vencidas e vincendas com reflexos, a
+   pretensão é **condenatória**; a declaração é antecedente lógico da condenação e segue o mesmo regime
+   (art. 7º, XXIX, da CF e art. 11, caput e § 2º, da CLT).
+2. **Falta de utilidade, quando a sentença é de improcedência total.** Rejeitado o mérito, não há direito
+   pretérito a declarar: a improcedência alcança por igual o período anterior e o posterior ao quinquênio, e
+   o acolhimento do capítulo não traria proveito prático (arts. 17 e 996 do CPC). Em contrarrazões, pedir o
+   **não conhecimento** por ausência de interesse recursal, antes do desprovimento.
 
 ## Pontos sensíveis
 
