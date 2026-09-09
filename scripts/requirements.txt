@@ -1,2 +1,14 @@
-markitdown[pdf,docx]
-send2trash
+# Conversão dos documentos da parte para .md (scripts/converter_parte_para_md.py)
+pdfplumber          # PDF
+python-docx         # .docx
+openpyxl            # .xlsx / .xlsm
+python-pptx         # .pptx
+striprtf            # .rtf
+markitdown[pdf,docx]  # último recurso, quando falta a lib específica do formato
+send2trash          # --mover-para-lixeira (Lixeira do Windows, reversível)
+
+# Opcionais, conforme o que aparecer na pasta do caso:
+# pymupdf pytesseract pillow   # --ocr em PDF digitalizado e foto de documento (exige Tesseract com idioma por)
+# pywin32                      # .doc antigo (converte usando o Word instalado)
+# extract-msg                  # e-mail .msg exportado do Outlook
+# odfpy                        # .odt

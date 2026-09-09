@@ -3,11 +3,11 @@ area: civel
 tema: Ações indenizatórias — falha no serviço postal
 slug: indenizatoria_servico_postal
 status: rascunho
-gatilhos: [extravio, encomenda, SEDEX, PAC, atraso na entrega, dano moral, declaração de valor, avaria, violação de objeto, fraude em venda pela internet, ilegitimidade ativa, CDC art. 14, Lei 6.538/78, Juizado Especial Federal]
+gatilhos: [extravio, encomenda, SEDEX, PAC, atraso na entrega, declaração de valor, avaria, violação de objeto, fraude em venda pela internet, ilegitimidade ativa, CDC art. 14, Lei 6.538/78, Juizado Especial Federal]
 pecas: [contestação, contrarrazões, manifestação, impugnação aos cálculos]
 modelos: []
 ver_tambem: [teses/civel/despacho_postal_objeto_tributado.md, teses/civel/panorama_acervo_civel.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-08-27
+atualizado: 2026-09-06
 ---
 
 # Tese — Ações indenizatórias por falha no serviço postal
@@ -54,6 +54,10 @@ mencionada *en passant* (pode ser argumento do autor, não da defesa) — `[REVI
 - Objeto tributado / despacho postal: [teses/civel/despacho_postal_objeto_tributado.md](despacho_postal_objeto_tributado.md)
 - Volume e tipos de peça do acervo: [teses/civel/panorama_acervo_civel.md](panorama_acervo_civel.md)
 - Prerrogativas: [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
+- Justiça gratuita: [teses/transversal/justica_gratuita_adc80.md](../transversal/justica_gratuita_adc80.md)
+  — a ADC 80 (STF, 03/09/2026) estendeu seus critérios a **todos os ramos do Judiciário**, cível inclusive,
+  mas **excluiu o 1º grau dos Juizados Especiais**. Como este acervo é majoritariamente de Juizado, conferir
+  a ficha antes de impugnar gratuidade aqui: no 1º grau do Juizado a impugnação tende a ser inútil.
 
 ## Lacunas
 

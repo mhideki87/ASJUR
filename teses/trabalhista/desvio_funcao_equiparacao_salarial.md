@@ -6,7 +6,7 @@ status: rascunho
 gatilhos: [desvio de função, desvio funcional, equiparação salarial, paradigma, art. 461 CLT, isonomia salarial, diferenças salariais, reenquadramento, enquadramento, PCCS, plano de cargos, plano de cargos e salários, descrição de cargos, quadro de carreira, Súmula 6, Súmula 275, OJ 125, Agente de Correios, Analista de Correios, Técnico de Correios, reabilitação profissional, readaptação, acúmulo de função, perfeição técnica, igual produtividade, identidade de tarefas, complexidade das atribuições, qualificação técnica, sistema de chamados, certificação digital, programação]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__desvio_funcao_equiparacao.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md]
+ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/transversal/preliminares_processuais_defesa.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md]
 atualizado: 2026-09-09
 ---
 
@@ -47,6 +47,13 @@ em carreira diversa, sob pena de investidura sem concurso.
   `[REVISAR: aqui o readaptado costuma ser o próprio Reclamante; conferir jurisprudência antes de sustentar
   a aplicação da ratio à situação inversa — não usar como tese pronta]`
 
+**Prescrição total do reenquadramento — Súmula 275, II, do TST.** Pedido que, na substância, busca a
+migração para cargo ou carreira diversa é **reenquadramento**, e a prescrição é total, contada do
+enquadramento; o inciso I trata do desvio funcional puro, com prescrição parcial quinquenal. Hipótese
+distinta da do art. 11, § 2º, da CLT — ver [prescricao.md](prescricao.md).
+`[REVISAR: conferir se a Súmula 275 sobreviveu à Resolução nº 225/2025 do Pleno do TST, que cancelou as
+Súmulas 294 e 372, I, por absorção pela Lei 13.467/2017 — não citar sem essa conferência]`
+
 **Desvio de função:**
 - **OJ 125 da SDI-1 do TST** — o desvio funcional **não gera novo enquadramento**, apenas as diferenças
   salariais. Barra o reenquadramento, **não** as diferenças: atacar o fato, não só o efeito.
@@ -70,12 +77,11 @@ alternativa. Encadeamento:
 2. **A qualificação é o que habilita.** Requisito do cargo do paradigma (graduação superior + registro em
    órgão de classe) contra o do reclamante (ensino médio + "conhecimento básico de informática" do PCCS):
    a diferença de escolaridade não é acessória, é o que permite, ou não, executar certas atribuições.
-3. **Rol de atribuições exclusivas do paradigma** (na área de TI): programação e desenvolvimento de rotinas
-   e soluções de sistemas; configuração e manutenção de ambientes complexos, a exemplo de certificação
-   digital; configuração e parametrização de sistemas corporativos; diagnóstico de incidentes de maior
-   complexidade. `[REVISAR: o rol varia por unidade — confirmar com a área de tecnologia em cada caso]`
-4. **Triagem por complexidade.** As demandas do sistema de chamados eram triadas: as complexas iam ao
-   paradigma, as simples ao reclamante.
+3. **Rol de atribuições exclusivas do paradigma** (em TI): programação e desenvolvimento de rotinas e
+   soluções; configuração de ambientes complexos, a exemplo de certificação digital; parametrização de
+   sistemas corporativos; incidentes de maior complexidade. `[REVISAR: o rol varia por unidade]`
+4. **Triagem por complexidade.** Os chamados eram triados: os complexos iam ao paradigma, os simples ao
+   reclamante.
 5. **A inicial confessa.** Quando a exordial narra que os paradigmas recebiam as demandas e as
    direcionavam ao reclamante, ela descreve o fluxo que desmente a identidade funcional: quem tria e
    distribui não exerce a mesma função de quem executa a parcela repassada. Usar a narrativa do autor
@@ -139,8 +145,11 @@ de conferência de teor e vigência antes de transcrição em peça.
 
 - Prejudicial que acompanha o tema: [prescricao.md](prescricao.md) — Súmula 275 do TST (parcial no desvio,
   **total** no reenquadramento).
-- Preliminar padrão: [../transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
-- Honorários e reflexos: [temas_acessorios.md](temas_acessorios.md)
+- Preliminares e gratuidade: [../transversal/preliminares_processuais_defesa.md](../transversal/preliminares_processuais_defesa.md)
+  · [../transversal/justica_gratuita_adc80.md](../transversal/justica_gratuita_adc80.md)
+  · [../transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
+- **Não confundir com** [progressao_horizontal_pccs2008.md](progressao_horizontal_pccs2008.md): lá o pedido
+  é de promoção por critério do PCCS (Súmula 452 do TST); aqui, de enquadramento em cargo diverso.
 - Estrutura da peça e **checklist de documentos a requisitar à área**:
   [contestacao__desvio_funcao_equiparacao.md](../../modelos/trabalhista/contestacao__desvio_funcao_equiparacao.md)
 
