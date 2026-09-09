@@ -5,16 +5,19 @@ slug: descontos_salariais_saldo_negativo
 status: rascunho
 gatilhos: [saldo negativo, holerite zerado, desconto integral, confisco salarial, intangibilidade salarial, art. 462 CLT, coparticipação, Postal Saúde, OJ 18 da SDC, Súmula 342]
 pecas: [contestação, manifestação, contrarrazões]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__descontos_saldo_negativo.md]
 ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
 atualizado: 2026-09-09
 ---
 
 # Tese — Descontos que zeram o holerite (cobertura de saldo negativo)
 
-> **Ficha nascida de análise de inicial, não de peça protocolada.** As teses abaixo ainda não foram
-> testadas em decisão — `status: rascunho`. O que está confirmado é a *mecânica da folha*, extraída de
-> resposta de Help Desk juntada aos autos; o valor persuasivo dos argumentos, não.
+> **Já usada em minuta real (09/2026), ainda não testada em decisão — `status: rascunho`.** A ficha
+> nasceu da análise de uma inicial e foi imediatamente aplicada na contestação correspondente
+> (`modelos/trabalhista/contestacao__descontos_saldo_negativo.md`), mas a peça não foi protocolada e dois
+> de seus alicerces — a OJ 18 da SDC e a Súmula 342 do TST — seguem sem conferência em fonte oficial. O que
+> está confirmado é a *mecânica da folha*, extraída de resposta de Help Desk juntada aos autos; o valor
+> persuasivo dos argumentos, não.
 
 ## Quando esta ficha se aplica
 
@@ -151,6 +154,24 @@ petições) `[REVISAR: aresto conhecido apenas pela transcrição da inicial, n�
   (processamento automático), atendimento administrativo efetivo e, principalmente, **quantum**. **O que
   mais desarma este capítulo é prova de que a ECT ofereceu parcelamento e o empregado não aderiu** —
   requisitar à área.
+- **Quando a limitação for deferida, o que salva o capítulo é o pedido subsidiário de parâmetro.** Não
+  basta impugnar os requisitos do art. 300 do CPC. Requerer, em três alíneas: (a) que o percentual observe
+  o parâmetro **do próprio verbete invocado pelo autor** — até 70% do salário-base da OJ 18 —, e não os 30%
+  da remuneração líquida, que nenhuma norma dos autos ampara; (b) a **preservação do crédito** da ECT, com
+  recuperação parcelada do saldo remanescente, sob pena de a tutela converter-se em perdão de dívida
+  incontroversa, efeito que ela não pode produzir; (c) prazo de cumprimento não inferior a **um ciclo
+  completo de processamento de folha**. É a construção que transforma uma derrota provável em fixação de
+  parâmetro favorável.
+- **Astreinte: atacar em três frentes, não em uma.** Obrigação inexistente antes da decisão que a
+  constitua (art. 537 do CPC); dependência de ciclo de folha de empresa pública, que a proporcionalidade
+  do art. 537, § 1º, impõe considerar; e execução por precatório, que torna a cominação instrumento
+  inadequado ao fim que se propõe.
+- **No dano moral, a resposta do Help Desk trabalha a favor.** Ela prova que **houve apreciação
+  administrativa efetiva** do pleito do empregado: o autor discorda da resposta, não deixou de recebê-la.
+  Some-se a impessoalidade do processamento automático de folha — dano moral supõe ofensa a direito da
+  personalidade, e o que os autos revelam é a operação de um mecanismo contábil preexistente. E conferir
+  sempre se a inicial **indicou o grau da ofensa** (art. 223-G, § 1º, da CLT): estas iniciais costumam
+  omiti-lo.
 - **A regularização administrativa vale mais que a defesa.** Parcelar o saldo devedor e limitar o desconto
   mensal **antes da contestação** esvazia a tutela, elimina as astreintes e retira do dano moral o seu
   principal alicerce, que é a permanência da situação. Levar essa opção ao usuário como decisão jurídica,
@@ -197,8 +218,7 @@ tese adversa a conferir**, todos conhecidos apenas por transcrição de petiçã
 - Preliminar de equiparação, prazo em dobro e precatório:
   [prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
 - Gratuidade: [justica_gratuita_adc80.md](../transversal/justica_gratuita_adc80.md)
-- Sem modelo estrutural próprio ainda — montar na primeira contestação deste tema e registrar em
-  `modelos/trabalhista/`.
+- Modelo estrutural: `modelos/trabalhista/contestacao__descontos_saldo_negativo.md`.
 
 ## Lacunas
 
@@ -212,4 +232,6 @@ tese adversa a conferir**, todos conhecidos apenas por transcrição de petiçã
       50%?). É o número que decide o capítulo, e não há nenhum precedente local confirmado.
 - [ ] Confirmar se as restrições da **Lei 9.494/97** à tutela antecipada contra a Fazenda Pública
       aproveitam a ECT (lacuna herdada da ficha de prerrogativas).
-- [ ] Testar em peça real e promover o `status` a `validada`, registrando o resultado da decisão.
+- [ ] Protocolar a peça, registrar o resultado da decisão e promover o `status` a `validada`. A minuta de
+      09/2026 existe, mas nada foi decidido — e a promoção depende também de fechar as duas primeiras
+      lacunas acima, que são conferência de texto legal.
