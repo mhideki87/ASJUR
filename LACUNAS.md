@@ -97,3 +97,10 @@ PN 100 aparecem na base.
       lista inteira, não só contra as súmulas que se lembra de ter usado**: foi assim que 219 e 228
       passaram na primeira varredura.
 - [ ] Vale a mesma varredura para peças antigas reaproveitadas: modelo de 2018 pode citar verbete morto.
+- [x] **Confirmação registrada aqui não chega sozinha à ficha — propagar.** Em 09/09/2026 a ficha de
+      incorporação ainda trazia `[REVISAR: os termos vieram de resumo de busca; conferir na fonte oficial]`
+      sobre o cancelamento da Súmula 372, I, **sete dias depois** de esta seção registrar a conferência
+      contra o PDF oficial do DEJT (nº 4253, 30/06/2025). O custo é real: numa sessão de minuta o marcador
+      obsoleto vira dúvida, e a dúvida vira tópico enfraquecido na peça. **Ao conferir norma na fonte,
+      remover no mesmo commit todo `[REVISAR]` que aquela conferência resolveu** — `grep -rn "REVISAR" teses/`
+      pela súmula conferida.

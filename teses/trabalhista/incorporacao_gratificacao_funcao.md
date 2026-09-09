@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, ultratividade, Súmula 333, art. 896 § 7º CLT, INFRAERO, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa, requisitos cumulativos, contados a partir da data da dispensa, vantagem deferida anteriormente, extra petita, citra petita, Circular DIREC 682/2005, RELATORIO DIREC 029-2005, FAG, Plano de Salvaguarda, cômputo fictício, RH-151]
-pecas: [contestação, contrarrazões, recurso de revista]
-modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, Módulo 36, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, direito adquirido, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, ultratividade, Súmula 333, art. 896 § 7º CLT, INFRAERO, média ponderada, 120 meses, atividade especial, Encarregado de Tesouraria, interstício 180 dias, somatório dividido por 120, memória de cálculo, tabela de funções, CIP, Complemento de Incentivo à Produtividade, anuênio, recomissionamento, nova designação, quebra de caixa, requisitos cumulativos, contados a partir da data da dispensa, vantagem deferida anteriormente, agravo de instrumento, agravo de instrumento em recurso de revista, AIRR, decisão denegatória, denegação de seguimento, juízo de admissibilidade, ofensa reflexa, Súmula 126, Súmula 636 do STF, art. 896 § 9º CLT, art. 896 § 1º-A CLT, art. 897 CLT, extra petita, citra petita, Circular DIREC 682/2005, RELATORIO DIREC 029-2005, FAG, Plano de Salvaguarda, cômputo fictício, RH-151]
+pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
+modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-09
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -132,9 +132,17 @@ direito*, não direito adquirido. Sem alteração contratual lesiva (art. 468 da
   (Lei 13.467/2017), que afastou expressamente o direito à incorporação.
   **O item II não foi cancelado** — segue vedada a redução do valor da gratificação de quem permanece na
   função comissionada.
-  `[REVISAR: os termos exatos vieram de resumo de busca na web; o tst.jus.br e o juslaboris estão
-  bloqueados pelo proxy do ambiente cloud — conferir o texto da Resolução nº 225/2025 na fonte oficial
-  antes de citar em peça protocolada]`
+  **Conferido na fonte oficial** — PDF do DEJT, caderno administrativo, nº 4253, p. 2-3, de 30/06/2025
+  (varredura registrada em [LACUNAS.md](../../LACUNAS.md)). Pode ser citado em peça protocolada.
+  **Consequência processual, e é o que muda a peça (09/2026):** a partir de 30/06/2025 a Súmula 372, I,
+  **não serve mais como via de admissibilidade** de recurso de revista nem de agravo de instrumento — não
+  se alega contrariedade a verbete que não existe. Onde peça anterior a tenha eleito como vetor (art. 896,
+  § 9º, da CLT), o vetor cai; o que resta é a **Súmula 51, I**, e o cancelamento passa a **reforço**: se o
+  enunciado que assegurava a manutenção da gratificação a quem completara o decênio perdeu eficácia em
+  11/11/2017, com mais razão não pode a Súmula 51, I — de matéria diversa, e que pressupõe vantagem já
+  deferida — deferir o mesmo efeito a quem sequer somava o decênio naquela data. Em agravo de instrumento,
+  declarar expressamente que o vetor não é reiterado, e por quê: silenciar deixa o C. TST diante de
+  contrariedade a súmula cancelada.
 - **Tema 23 dos repetitivos do Pleno do TST** — tese vinculante (art. 927 do CPC).
 - **Distinção dos precedentes que a inicial transcreve — pelas datas que as próprias ementas declaram.**
   Antes de discutir o mérito de cada aresto, ler as ementas colacionadas procurando **a data do fato**: em
@@ -161,6 +169,19 @@ Precedentes do TST sobre a própria ECT e os mesmos normativos:
 - RR-10662-35.2018.5.03.0179 — 6ª Turma, Min. Kátia Magalhães Arruda, DEJT 13/06/2023
 - RRAg-0010959-96.2017.5.03.0140 — 3ª Turma, Min. Mauricio Godinho Delgado, DEJT 26/05/2023
 - E-RR-1561-30.2015.5.10.0002 — SBDI-1, 06/12/2018
+
+Colhidos do RR da própria ECT protocolado neste caso (09/2026), na mesma linha e ainda não listados
+acima — todos ECT, Módulos 55/36, requisito temporal não implementado até a revogação:
+
+- Ag-RR-11746-45.2017.5.15.0091 — 6ª Turma, Min. Kátia Magalhães Arruda, DEJT 13/08/2021 (ausência de
+  transcendência; o TRT indeferira a FAT/FAO por não preenchimento à época da revogação)
+- AIRR-11646-75.2015.5.15.0151 — 6ª Turma, Min. Augusto César Leite de Carvalho, DEJT 13/09/2019
+- RR-12217-41.2017.5.03.0044 — 6ª Turma, Des. Conv. Cilene Ferreira Amaro Santos, DEJT 07/06/2019
+  (**rito sumaríssimo** — útil justamente por isso)
+- AIRR-20321-49.2017.5.04.0026 — 7ª Turma, Min. Cláudio Mascarenhas Brandão, DEJT 26/08/2022
+
+`[REVISAR: os quatro vieram da transcrição feita no RR da ECT, não da fonte — conferir número, órgão,
+relator, data e teor antes de citar em peça nova]`
 
 Sobre a **impossibilidade de computar "quebra de caixa"** para o decênio (precedente que consta do modelo
 institucional e antes não estava nesta ficha):
@@ -296,6 +317,54 @@ ementa transcrita pelo adversário declara** — técnica barata, que não exige
    da dispensa da função**", que é o segundo requisito. Logo, os dois têm de **coexistir na vigência** da
    norma. Dispensa posterior à revogação ⇒ nenhum dos dois se verificou enquanto a norma existia. Esse é o
    argumento mais forte do tema, e não depende de discutir princípios.
+
+## Fase de agravo de instrumento — como derrubar os quatro óbices da decisão denegatória
+
+Escrito em sessão real de 09/2026, sobre decisão da Presidência do TRT24 que denegou seguimento a RR da ECT
+em rito sumaríssimo. A decisão usou **quatro óbices diferentes**, um por capítulo, e basta um sobreviver
+para o capítulo ficar trancado — daí o agravo ter de atacá-los **separadamente**, e não em bloco.
+
+**1. Art. 896, § 7º, da CLT + Súmula 333 (capítulo da incorporação).** A denegatória afirmou consonância
+com a jurisprudência do C. TST enunciando a proposição genérica de que "a substituição da FAT/FAO pelas
+ITF e GPTF, quando menos benéfica, configura alteração contratual lesiva". Duas respostas, e a segunda é a
+melhor:
+
+- **De fato:** a proposição suprime a premissa em discussão — só há alteração lesiva sobre vantagem já
+  integrada ao patrimônio. Sobre a hipótese real (requisito não implementado até a revogação) a
+  jurisprudência do C. TST é a oposta, e vem da **SBDI-1**, órgão uniformizador. Sem convergência, não há
+  jurisprudência "iterativa, notória e atual".
+- **De lógica, e é a que fecha:** o RR fora interposto por **contrariedade à Súmula 51, I**. Se a decisão
+  contraria súmula do C. TST, é logicamente impossível que esteja em consonância com a jurisprudência
+  iterativa da mesma Corte — a súmula é a expressão mais depurada dessa jurisprudência. O óbice do
+  art. 896, § 7º **não se opõe a recurso fundado em contrariedade a súmula**; opô-lo é resolver
+  antecipadamente, em juízo não exauriente, o próprio mérito do apelo.
+
+**2. Ofensa reflexa (art. 896, § 9º) nos arts. 5º, II, e 37, caput.** A denegatória disse que a controvérsia
+se resolveu por normas infraconstitucionais e regulamentos. A virada está em mostrar que **o próprio acórdão
+fez do art. 37 o objeto expresso da sua ratio**: quando o Regional escreve que a ECT "jungida está ao
+princípio da legalidade administrativa (...) que, pelo menos em tese, impediria a incorporação", e supera o
+óbice invocando os regulamentos internos, o confronto passa a ser direto. Some-se o argumento decisivo:
+**os regulamentos invocados não existem desde 2012 e 2014** — não é caso de interpretar norma interna, é
+caso de **inexistência de norma**, e obrigação sem norma viola o art. 5º, II, de forma imediata.
+
+**3. Súmula 126 (capítulo do reajuste pelos ACTs).** A denegatória disse que acolher a tese exigiria
+reexaminar "o conteúdo e a interpretação das cláusulas das normas coletivas". Resposta: **não há fato a
+revolver**, porque o acórdão **não leu cláusula nenhuma** — não transcreveu teor, não delimitou conteúdo,
+não afirmou que as cláusulas alcançam gratificação. Extraiu o reajuste de uma premissa puramente jurídica
+("a parcela passa a constituir rubrica remuneratória autônoma"). O que se submete ao C. TST é a validade
+dessa premissa expressa do julgado: questão de direito, fora do campo da Súmula 126.
+
+**4. Súmula 636 do STF (capítulo do CIP).** Duas respostas: (a) é enunciado dirigido ao **recurso
+extraordinário** e ao seu específico requisito de ofensa direta, e sua transposição automática para a
+admissibilidade do RR, regida pelo art. 896, § 9º, da CLT, não é evidente; (b) e, principalmente, **não há
+norma a interpretar** — o acórdão deferiu o capítulo com amparo exclusivo em "Precedentes desta Corte" (do
+próprio Regional), sem indicar preceito legal ou regulamentar. Onde não há norma cuja interpretação preceda
+o exame constitucional, não há ofensa reflexa: a obrigação nasce diretamente do julgado.
+
+**Achado transversal, que vale para qualquer agravo:** ler a denegatória procurando **vetor não enfrentado**.
+Na sessão real, a decisão examinou as súmulas do TST e os artigos da CF, mas **não disse uma linha sobre a
+Súmula Vinculante 37 do STF**, que fora deduzida como via autônoma do art. 896, § 9º. Apontar a omissão, com
+o devido acatamento, é argumento barato e específico.
 
 ## Pontos sensíveis / variações
 
