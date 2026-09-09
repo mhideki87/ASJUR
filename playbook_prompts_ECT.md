@@ -380,8 +380,9 @@ Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões �
 quando a prejudicial for o eixo da peça) · `PDV Aposent` = adesão a plano de desligamento voluntário por
 empregado aposentado (criada em 08/09/2026) · `Saldo Negativo` = descontos que zeram o holerite pela
 rubrica de cobertura de saldo negativo (criada em 09/09/2026) ·
-`Prog Antiguidade` = promoção horizontal por antiguidade do PCCS/2008 (criada em 09/09/2026).
-Abreviação nova criada em sessão entra nesta lista.
+`Prog Antiguidade` = promoção horizontal por antiguidade do PCCS/2008 (criada em 09/09/2026) ·
+`Vale Cultura` = supressão do vale-cultura em 2020 pela não renovação da cláusula coletiva
+(criada em 09/09/2026). Abreviação nova criada em sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
 citado no corpo da resposta, não só para o arquivo salvo. Não confundir com o padrão **interno** do

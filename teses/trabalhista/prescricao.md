@@ -6,7 +6,7 @@ status: validada
 gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md]
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md]
 atualizado: 2026-09-09
 ---
 
@@ -69,6 +69,33 @@ Datas de revogação que servem de marco no tema mais frequente:
    **posterior**: o art. 11, § 2º, resolve sozinho.
 4. **Manter os precedentes que aplicam a Súmula 294**, apresentando-os como interpretação da *mesma regra*
    que hoje está na lei. Eles não perdem valor; perdem só o rótulo.
+
+## Variação — parcela de origem COLETIVA, e não interna: aqui a prejudicial ganha
+
+Registrado em 09/2026, no tema do **vale-cultura** (ver
+[vale_cultura_supressao.md](vale_cultura_supressao.md)): a parcela vinha de **acordo/sentença normativa**,
+cuja vigência é por prazo determinado, e não de norma interna. Diferença que importa:
+
+- na variante de **norma interna** (seção abaixo), o TRT24 vem rejeitando a total porque lê "norma" como
+  qualquer ato normativo de quem tem competência para editá-lo — a controvérsia é sobre o alcance da
+  exceção do § 2º;
+- na variante de **origem coletiva**, a controvérsia sequer se coloca: instrumento coletivo **vigora no
+  prazo assinado** (art. 614, § 3º, da CLT; ADPF 323), e nenhuma leitura de "norma" o transforma em lei.
+
+**Resultado real:** sentença de 1º grau de Campo Grande (08/2026) **acolheu a prescrição total** e extinguiu
+o feito com resolução de mérito (art. 487, II, do CPC), com ajuizamento mais de cinco anos após o ato único
+de supressão. `[REVISAR: acompanhar o RO e registrar como o TRT24 decidiu — é o primeiro caso da base em
+que a prejudicial foi acolhida na origem.]`
+
+### O contra-argumento a esperar, e a resposta de uma linha
+
+A parte autora sustenta que a hipótese não é de *alteração*, mas de **"descumprimento"** de norma
+incorporada, e que por isso o art. 11, § 2º, não incidiria, restando a prescrição parcial.
+
+**Resposta: o § 2º alcança, textualmente, "alteração OU descumprimento do pactuado".** Foi exatamente o
+"ou descumprimento" que a Lei 13.467/2017 acrescentou ao antigo verbete — de modo que a qualificação
+escolhida pelo adversário é uma das duas hipóteses da lei. Quem argumenta assim raciocina sob a moldura
+**anterior** à Reforma. Transcrever o dispositivo e devolver o argumento é o fecho mais econômico do tópico.
 
 ## Variação — o ato único nem sempre é a revogação da norma
 

@@ -5,7 +5,7 @@ slug: devolutividade_ro_e_contrarrazoes
 status: validada
 gatilhos: [extra petita, citra petita, ultra petita, julgamento fora do pedido, nulidade da sentença, error in procedendo, causa de pedir diversa, omissão da sentença, art. 141 CPC, art. 492 CPC, art. 1009 § 1º CPC, art. 1013 CPC, causa madura, tantum devolutum quantum appellatum, Súmula 393, OJ 41 SBDI-2, art. 794 CLT, matéria renovada em contrarrazões, prequestionamento, recurso adesivo, Súmula 283]
 pecas: [contrarrazões, recurso ordinário, embargos de declaração]
-modelos: [modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__multa_477_base_calculo.md]
+modelos: [modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__multa_477_base_calculo.md, modelos/trabalhista/contrarrazoes_ro__vale_cultura.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
 atualizado: 2026-09-09
 ---
@@ -83,6 +83,23 @@ rejeitadas. A via é a contrarrazões:
 Abrir tópico próprio, em retângulo, antes do mérito, dizendo **por que** a matéria vem em contrarrazões
 (ausência de interesse recursal) e **sob que condição** deve ser apreciada (provimento do apelo). O que
 tipicamente entra: incompetência absoluta rejeitada, prescrição total rejeitada, impugnação à gratuidade.
+
+### 4.1. Não confundir com o art. 1.013, §§ 1º e 2º — são vias distintas, e a sentença de extinção separa as duas
+
+Distinção fixada em 09/2026, na primeira contrarrazões contra sentença que **extinguiu o feito pela
+prejudicial** sem julgar o mérito:
+
+- **Art. 1.009, § 1º, do CPC — "matéria renovada".** Serve ao que foi **decidido contra** a ECT e não
+  comporta recurso próprio por falta de interesse (preliminar rejeitada, impugnação à gratuidade, ressalva
+  que se quer ver repetida no acórdão). Vem em tópico próprio, **antes** do mérito, condicionada ao
+  provimento do apelo.
+- **Art. 1.013, §§ 1º e 2º, do CPC + Súmula 393, I, do TST — "fundamento não examinado".** Serve ao que a
+  sentença **não chegou a decidir** porque a prejudicial a dispensou. Não é matéria "renovada": é matéria
+  que sobe pela profundidade do efeito devolutivo, e o tópico é o **próprio mérito**.
+
+Acolhida a prescrição total, portanto, todos os fundamentos de mérito da defesa entram pela segunda via, e
+o art. 1.009, § 1º, fica reservado ao punhado de capítulos efetivamente decididos contra a ECT. Misturar as
+duas enfraquece o tópico — e, no recurso de revista, embaralha o prequestionamento.
 
 ### 5. O que a contrarrazões **não** faz
 
