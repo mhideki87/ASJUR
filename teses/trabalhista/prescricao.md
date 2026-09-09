@@ -3,10 +3,10 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025]
+gatilhos: [prescrição, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md]
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md]
 atualizado: 2026-09-09
 ---
 
@@ -150,6 +150,10 @@ sucessivamente, a prescrição parcial quinquenal.
   absorção pelo art. 11, § 2º, a prejudicial fica muito mais forte nesses casos.]`
 
 ## Ligações
+
+- **Pedido de reenquadramento em carreira diversa** tem hipótese própria de prescrição total, pela
+  Súmula 275, II, do TST — não pelo art. 11, § 2º. Está registrada em
+  [desvio_funcao_equiparacao_salarial.md](desvio_funcao_equiparacao_salarial.md).
 
 - Tema em que essa prejudicial mais aparece:
   [teses/trabalhista/incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md)

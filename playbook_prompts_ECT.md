@@ -339,7 +339,7 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 
 | Peça | Anexar |
 |---|---|
-| Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente |
+| Contestação | inicial · documentos da ECT · peça-modelo · ACT vigente · **PCCS vigente no período** (temas de desvio de função, equiparação salarial ou enquadramento) |
 | Recurso ordinário | sentença · decisão dos embargos · contestação · peça-modelo |
 | Contrarrazões | RO do Reclamante · sentença · contestação · peça-modelo |
 | Recurso Ordinário | sentença · contestação · peça-modelo do mesmo tema · contrato administrativo e documentos de fiscalização (quando o tema for responsabilidade subsidiária) |
