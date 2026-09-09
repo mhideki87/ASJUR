@@ -6,8 +6,8 @@ status: validada
 gatilhos: [justa causa durante afastamento, art. 482 CLT, reintegração liminar, suspensão dos efeitos da rescisão, Postal Saúde, Súmula 440, art. 30 da Lei 9.656/98, Súmula 414, OJ 142 da SBDI-2]
 pecas: [contestação, mandado de segurança, memoriais, petição de juntada]
 modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md]
-ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-05
+ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-09
 ---
 
 # Tese — Justa causa aplicada durante suspensão do contrato por benefício previdenciário
@@ -104,6 +104,12 @@ teores no sítio do TST e conferir os dados de publicação antes de citar em pe
   suspenso, a Súmula 440 é de reversão difícil. Concentrar o ataque no capítulo que restabelece o vínculo e,
   quanto ao plano, pedir subsidiariamente **termo final** (DCB ou sentença) e regra de recolhimento da
   cota-parte — com o contrato suspenso não há folha sobre a qual descontar.
+- **A cota-parte não descontada não desaparece: ela volta de uma vez.** Onde o contrato é apenas suspenso e
+  depois retomado, a coparticipação devida pelo empregado acumula durante todo o afastamento e reaparece
+  na primeira folha após o retorno, podendo **zerar o holerite** pela rubrica de cobertura de saldo
+  negativo — e gerar ação nova, com pedido de limitação de desconto, restituição e dano moral. Ao pedir
+  regra de recolhimento da cota-parte, pedir **junto o parcelamento**, não só o diferimento. Ver
+  [descontos_salariais_saldo_negativo.md](descontos_salariais_saldo_negativo.md).
 - **Operadora de autogestão não é parte.** Astreintes contra a ECT por ato cuja execução material depende
   de terceiro estranho à lide desafiam a proporcionalidade (art. 537, § 1º, do CPC).
 
@@ -112,6 +118,8 @@ teores no sítio do TST e conferir os dados de publicação antes de citar em pe
 - [estabilidade_acidentaria_e_cat.md](estabilidade_acidentaria_e_cat.md) — pressupostos do art. 118.
 - [afastamentos_auxilio_doenca.md](afastamentos_auxilio_doenca.md) — suspensão contratual e limite de 15 dias.
 - [justa_causa_pad_assedio.md](justa_causa_pad_assedio.md) — mérito disciplinar e ônus da falta grave.
+- [descontos_salariais_saldo_negativo.md](descontos_salariais_saldo_negativo.md) — o que acontece com a
+  cota-parte acumulada quando o contrato é retomado.
 - [prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md) — equiparação à
   Fazenda Pública e vedações à tutela antecipada.
 - Modelo estrutural: `modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md`.
