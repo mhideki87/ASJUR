@@ -3,11 +3,11 @@ area: trabalhista
 tema: Responsabilidade subsidiária da ECT em terceirização de serviços comuns (limpeza, conservação, portaria)
 slug: responsabilidade_subsidiaria_terceirizacao_servicos
 status: validada
-gatilhos: [servente de limpeza, asseio e conservação, empresa interposta, vigilância, período sem registro, pagamento por fora, extrafolha, PPP, revelia da prestadora]
+gatilhos: [servente de limpeza, asseio e conservação, limpeza, conservação, portaria, empresa interposta, prestadora de serviços, vigilância, responsabilidade subsidiária, terceirização de serviços, tomadora de serviços, culpa in vigilando, contrato administrativo, Súmula 331 IV, Súmula 331 VI, período sem registro, pagamento por fora, extrafolha, PPP, revelia da prestadora, art. 467, artigo 467, multa do art. 467, verbas incontroversas]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_terceirizacao.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/insalubridade_limpeza_sanitarios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-05
+atualizado: 2026-09-10
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em terceirização de serviços comuns
@@ -55,6 +55,19 @@ trabalho é executado justamente dentro da unidade da ECT.
   de **manter o ambiente salubre**, não de pagar adicional de insalubridade ou verba salarial, que seguem
   sendo obrigação do empregador (art. 2º da CLT).
 - O julgamento **foi suspenso** em 13/02/2025 — citar como julgamento em curso, nunca como tese fixada.
+- **O item 3 já não é só um cuidado de transcrição: ele é usado ofensivamente, e como fundamento de
+  SOLIDARIEDADE.** Em inicial de 04/2026 (servente de limpeza em unidade da ECT), as verbas trabalhistas
+  foram pedidas em subsidiária e o **dano moral em solidária**, com apoio combinado no art. 5º-A, § 3º, da
+  Lei 6.019/74, no item 3 do Tema 1.118 e no art. 942 do CC. A resposta a esse pedido tem ficha própria:
+  [dano_moral_ambiente_degradante_terceirizado.md](dano_moral_ambiente_degradante_terceirizado.md).
+- **A parte autora costuma afirmar que o STF "fixou a tese" no Tema 1.118 — e isso é aproveitável.** Na
+  mesma inicial: *"no julgamento do RE nº 1.298.647 (Tema 1118), o STF fixou a tese de que a
+  responsabilidade subsidiária não pode ser amparada exclusivamente na inversão do ônus da prova, exigindo
+  a comprovação da existência de comportamento negligente"*. O julgamento está suspenso e nenhuma tese foi
+  fixada — **mas o conteúdo que ela própria transcreve é favorável à ECT**. Usar a citação do adversário
+  contra ele (exigência de comprovação de negligência; vedação da responsabilização amparada só na inversão
+  do ônus), ressalvando expressamente tratar-se de julgamento em curso. Corrigir a premissa **sem** abrir
+  mão do conteúdo.
 
 **Obrigações exclusivamente do empregador** — base da ilegitimidade passiva e da exclusão de parcelas em
 eventual condenação: CTPS (arts. 29 e 41 da CLT) · salário e parcelas ajustadas fora da folha (art. 457) ·
@@ -117,6 +130,18 @@ advertência de conferência em fonte primária.
 
 ## Pontos sensíveis / variações
 
+- **A culpa circular, na sua forma mais pura — e como desmontá-la.** Em inicial de 04/2026 a **única**
+  conduta negligente concretamente descrita foi: *"permitiu que a Reclamante laborasse por mais de cinco
+  anos sem o recebimento do adicional de insalubridade em grau máximo"*. A culpa *in vigilando* é deduzida
+  da própria parcela pedida. O contra-argumento é simétrico e fecha as duas saídas: **se a parcela for
+  indeferida, some o fundamento da culpa; se for deferida, a culpa vem do resultado do julgamento, e não de
+  conduta anterior** — o que o RE 760.931 (Tema 246) veda expressamente.
+- **Enquadramento de insalubridade não é detectável por fiscalização documental** — e este argumento é mais
+  forte que o genérico "a fiscalização documental é suficiente". O enquadramento depende de **perícia
+  técnica** e de juízo jurídico sobre o Anexo 14 da NR-15, formado anos depois, **na própria ação**. Não
+  havia nada a fiscalizar: guias, folha e recolhimentos estavam regulares, e a inicial não alega o
+  contrário. Vale para qualquer parcela que só nasça de requalificação jurídica ou de prova pericial
+  produzida em juízo.
 - **Contradições internas da inicial rendem mais que argumento abstrato.** Nos casos-fonte apareceram, na
   mesma peça: remuneração declarada em três valores diferentes; FGTS calculado sobre o salário registrado,
   e não sobre a remuneração que a própria inicial pedia reconhecer; multa do art. 477 acima de uma

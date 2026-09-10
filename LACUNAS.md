@@ -104,3 +104,28 @@ PN 100 aparecem na base.
       obsoleto vira dúvida, e a dúvida vira tópico enfraquecido na peça. **Ao conferir norma na fonte,
       remover no mesmo commit todo `[REVISAR]` que aquela conferência resolveu** — `grep -rn "REVISAR" teses/`
       pela súmula conferida.
+
+## Conferências de texto legal e de andamento que o ambiente cloud não fecha (09/2026)
+
+Levantadas numa análise de petição inicial de terceirização (servente de limpeza em unidade da ECT), em que
+todas viraram fundamento de defesa e nenhuma pôde ser conferida: a política de rede do cloud/web bloqueia o
+egresso para as fontes oficiais, e resumo de busca não confere norma. Em ordem de urgência:
+
+- [ ] **Andamento atual do Tema 1.118 do STF (RE 1.298.647).** A base registra a **suspensão de 13/02/2025**
+      e nenhuma tese fixada — informação de 08/2026. **É a pendência mais crítica de todo o acervo de
+      terceirização:** as iniciais já afirmam que a tese foi fixada, e a resposta da defesa muda inteiramente
+      conforme o julgamento tenha ou não terminado, sobretudo quanto ao **item 3** (condições de segurança,
+      higiene e salubridade quando o trabalho se dá nas dependências do tomador), que é hoje o principal
+      fundamento do pedido de responsabilidade **solidária**. Conferir em sessão local e propagar às fichas
+      de responsabilidade subsidiária e de dano moral por ambiente degradante.
+- [ ] **Teor literal do Anexo 14 da NR-15**, em especial se **dejeções de aves** e **transporte interno de
+      resíduos** constam da relação de atividades. Toda a defesa dos fundamentos 2 e 3 de
+      `teses/trabalhista/insalubridade_limpeza_sanitarios.md` depende disso.
+- [ ] **Teor literal da Súmula 448, II, do TST e da OJ 4, I e II, da SBDI-1.** Já consta como lacuna da ficha
+      de insalubridade; repetido aqui porque a **OJ 4, I** (necessidade de classificação na relação oficial
+      do MTE, não bastando o laudo pericial) passou a ser fundamento central, e não mais acessório.
+- [ ] **Valor do salário mínimo de 2026** — necessário para reconstituir por aritmética a base de cálculo
+      adotada nas iniciais e para apurar o corte da prescrição quinquenal.
+- [ ] **Data de publicação da ata do julgamento de mérito da ADC 80** — já registrada acima, repetida aqui
+      porque uma segunda sessão precisou dela para datar um processo. É conferência **recorrente**, não
+      pontual: enquanto não estiver anotada, toda análise de gratuidade paga o mesmo custo.

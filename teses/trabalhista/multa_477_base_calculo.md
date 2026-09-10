@@ -3,11 +3,11 @@ area: trabalhista
 tema: Multa do art. 477, §8º — base de cálculo e limites do valor do pedido
 slug: multa_477_base_calculo
 status: rascunho
-gatilhos: [multa do art. 477, art. 477 § 8º, multa rescisória, atraso no pagamento das verbas rescisórias, base de cálculo da multa, Tema 142, IRR 142, salário-base, art. 457 § 1º, rescisão por acordo, art. 484-A, valor do pedido, art. 840 § 1º, pedido líquido]
+gatilhos: [multa do art. 477, multa do artigo 477, artigo 477 da CLT, art. 477 da CLT, art. 477 § 8º, art. 477 § 6º, prazo de 10 dias verbas rescisórias, multa rescisória, atraso no pagamento das verbas rescisórias, base de cálculo da multa, Tema 142, IRR 142, salário-base, art. 457 § 1º, rescisão por acordo, art. 484-A, valor do pedido, art. 840 § 1º, pedido líquido]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contrarrazoes_ro__multa_477_base_calculo.md]
 ver_tambem: [teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/afastamentos_auxilio_doenca.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-10
 ---
 
 # Tese — Multa do art. 477, §8º: base de cálculo e limites do valor do pedido
@@ -69,6 +69,29 @@ sentença já a observou.
    art. 847 da CLT) e deve ser formulada como *ausência de demonstração pelo recorrente*; (b) conferir se o
    contracheque e a GFIP registram incidência de FGTS e contribuição previdenciária sobre a verba — se
    registram, a natureza salarial é difícil de negar.
+
+### Antes da base de cálculo: conferir se a inicial narrou a mora
+
+Esta ficha nasceu de um recurso sobre **base de cálculo**, mas há uma questão anterior, que apareceu em
+inicial de 04/2026 e que a ficha não cobria: **a inicial pede a multa sem narrar o fato que a fundamenta.**
+
+O tópico inteiro tinha quatro linhas — transcrevia o prazo de 10 dias do §6º e concluía *"pelo atraso no
+pagamento, a Reclamante faz jus ao pagamento da multa"*. **Sem indicar a data em que as verbas foram
+pagas**, sem documento e sem alegação de fato: só a conclusão. E a própria tabela da inicial, com a coluna
+"Valor Pago (TRCT)", demonstrava que o pagamento **ocorreu**.
+
+Linha de defesa, em duas camadas:
+1. **Ausência de causa de pedir quanto à mora.** O atraso é fato constitutivo do direito à multa, e o ônus é
+   do autor (art. 818, I, da CLT; art. 373, I, do CPC). Conclusão não substitui alegação de fato.
+2. **Soma-se a regra já registrada acima**: admitido o pagamento e discutida apenas a base de cálculo ou as
+   diferenças, o reconhecimento judicial de diferenças **não atrai a penalidade**.
+
+**Conferir também a base do valor pedido.** Na mesma inicial o valor postulado (R$ 1.651,00) era o **piso da
+CCT**, quando o §8º manda usar **o salário do empregado** (R$ 1.535,00). Impugnação de custo zero, e que
+prepara a discussão de base de cálculo caso a multa venha a ser deferida.
+
+Providência prática: requerer **ofício à empregadora** para que apresente a data efetiva do pagamento e o
+respectivo comprovante — é o documento que resolve o tópico, e a tomadora não o detém.
 
 ### Exceção do próprio §8º — tese de fato, e arriscada
 

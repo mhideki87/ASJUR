@@ -7,7 +7,7 @@ gatilhos: [rito sumaríssimo, ATSum, art. 852-B, irregularidade de representaç�
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-10
 ---
 
 # Tese — Preliminares processuais recorrentes da defesa
@@ -53,6 +53,12 @@ foi testado em decisão.]`
 > exatamente o valor da causa, o pedido restante entrou sem valor.
 > `[REVISAR: conferir o inteiro teor do IUJ 0024122-54.2021.5.24.0000 e a redação oficial da tese
 > prevalecente nº 13 — entraram aqui pela transcrição de uma sentença de 09/2026, não por leitura direta.]`
+
+> **Caso-exemplo em que a tese 13 opera a favor da ECT, sem depender da exceção** (inicial de 04/2026, rito
+> ordinário): a soma dos pedidos fechava **exatamente** o valor da causa, ao centavo, e os honorários eram
+> precisamente 15% dos demais pedidos somados — e **não havia ressalva de estimativa alguma** na peça. É o
+> cenário limpo: valores líquidos, apurados, sem reserva. A conferência que achou isso leva dois minutos e
+> está descrita em "Reconstituir a aritmética da inicial", abaixo.
 
 **2. Impugnação à justiça gratuita → ficha própria.** O tema saiu daqui em 06/09/2026, com o julgamento
 da **ADC 80** pelo STF (Plenário, 03/09/2026): passou a ter dois regimes conforme a data de ajuizamento,
@@ -101,6 +107,47 @@ exibir "toda a documentação em seu poder" é genérico — o **art. 397 do CPC
 documento, a finalidade da prova e as circunstâncias que indicam que ele existe e está com a parte
 contrária; sem isso não incide a sanção do art. 400. Fechar juntando espontaneamente a documentação
 pertinente: esvazia o pedido e reforça a boa-fé.
+
+**Duas variantes recorrentes, de resposta curta:**
+
+- **"Pena do art. 359 do CPC".** O art. 359 **não comina pena alguma** — trata do início da audiência de
+  instrução. A consequência da não exibição está no art. 400, e pressupõe o requerimento individualizado do
+  art. 397. Apontar o equívoco em uma linha, sem alongar.
+- **Documentos que são do empregador, pedidos à tomadora.** Recibos de salário, controle de jornada e ficha
+  cadastral do empregado de prestadora **não estão com a ECT, e ela não tem o dever legal de mantê-los** —
+  exibi-los ou não exibi-los **não gera confissão** contra quem não é o depositário legal. Requerer, em vez
+  disso, **ofício à empregadora**. Ver
+  [../trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md](../trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md).
+
+**7. Súmula 74 do TST invocada para suprir ausência de impugnação.** Aparece no fecho da inicial ("requer a
+notificação do reclamado para que conteste os itens supra-arguidos, sob pena de serem admitidos como
+verdadeiros, nos termos da Súmula 74 do TST"). A **Súmula 74 trata de confissão ficta por ausência à
+audiência**, não de ausência de impugnação a tópicos da petição inicial. Impertinente, e a resposta cabe em
+uma linha — mas convém registrá-la, porque o verbete mal invocado costuma ser repetido em réplica.
+
+## Reconstituir a aritmética da inicial — conferência de dois minutos que decide preliminares
+
+Antes de escrever qualquer capítulo, **refazer as contas da inicial**. Numa análise de 04/2026 a conferência
+aritmética rendeu quatro achados que nenhuma leitura do texto daria:
+
+1. **Somar os pedidos e conferir contra o valor da causa.** Fechando ao centavo, e sendo os honorários um
+   percentual exato dos demais pedidos, está demonstrado que os valores foram **apurados**, não arbitrados —
+   o que sustenta a limitação da condenação (ponto 1 acima) e afasta a alegação de estimativa.
+2. **Dividir o valor de uma parcela mensal pelo número de meses do período pedido** para reconstituir a base
+   de cálculo adotada. Serve para descobrir a base — e, sobretudo, para descobrir **período prescrito
+   embutido**, que a inicial nunca destaca.
+3. **Conferir se a mesma parcela foi calculada com critérios diferentes nas duas colunas.** Achado real: o
+   saldo de salário dividia o salário por **31 dias** na coluna "valor pago" e por **30** na coluna "valor
+   devido", inflando a diferença. É centavo, mas desgasta a credibilidade de toda a planilha.
+4. **Tentar reconciliar cada valor pedido com algum número dos autos.** Achado real: a multa do art. 467
+   pedida não correspondia a nada — nem às diferenças rescisórias pedidas, nem a qualquer rubrica —,
+   equivalendo a 50% de um valor que não aparecia em lugar nenhum da peça. Pedido sem memória de cálculo é
+   impugnável por isso mesmo.
+
+**A contrapartida, e ela é inegociável: a mesma conferência acha erro em favor da ECT, e esse não se
+aponta.** No caso acima, a autora fazia jus a 45 dias de aviso prévio (Lei 12.506/2011) e o TRCT registrava
+15 — **e ela não pediu a diferença**. O que não foi pedido não pode ser deferido (arts. 141 e 492 do CPC);
+registrar o ponto para o advogado, jamais mencioná-lo na peça.
 
 ## Inépcia por indeterminação da causa de pedir — o pedido aproveitado de outra peça
 
