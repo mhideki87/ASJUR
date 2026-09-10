@@ -3,11 +3,11 @@ area: trabalhista
 tema: Justa causa aplicada durante suspensão do contrato por benefício previdenciário
 slug: justa_causa_durante_suspensao_contratual
 status: validada
-gatilhos: [justa causa durante afastamento, art. 482 CLT, reintegração liminar, suspensão dos efeitos da rescisão, Postal Saúde, Súmula 440, art. 30 da Lei 9.656/98, Súmula 414, OJ 142 da SBDI-2]
+gatilhos: [justa causa, espécie 91, art. 482 CLT, reintegração liminar, suspensão dos efeitos da rescisão, Postal Saúde, Súmula 440, art. 30 da Lei 9.656/98, Súmula 414, OJ 142 da SBDI-2]
 pecas: [contestação, mandado de segurança, memoriais, petição de juntada]
 modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md]
-ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/vale_alimentacao_cesta_afastamento.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Justa causa aplicada durante suspensão do contrato por benefício previdenciário
@@ -86,6 +86,36 @@ Todos da **SbDI-2 do TST**, lidos em inteiro teor:
 `[REVISAR: os três últimos foram lidos na transcrição feita pelo acórdão principal; extrair os inteiros
 teores no sítio do TST e conferir os dados de publicação antes de citar em peça]`
 
+**No TRT24 a tese já venceu, e em liminar — a lacuna desta ficha está fechada.** Em mandado de segurança da
+ECT julgado em **19/08/2026**, o **Des. Fed. Nicanor de Araújo Lima** deferiu a liminar para **suspender**
+decisão de 1º grau que havia suspendido os efeitos de rescisão por justa causa e mantido o vínculo
+"formalmente ativo", em caso de empregado em gozo de **benefício acidentário (espécie 91)**, com justa causa
+aplicada ao fim de PAD por assédio sexual contra jovem aprendiz. Razões de decidir a reaproveitar,
+praticamente na ordem em que esta ficha as arruma:
+
+- *"O artigo 482 da CLT, ao enumerar as hipóteses para rescisão contratual por justa causa, não impõe
+  qualquer limitação legal ao exercício do direito potestativo do empregador. A quebra da fidúcia e da
+  confiança na relação contratual existente entre empregado e empregador, decorrente de assédio sexual,
+  demonstrado através de processo administrativo disciplinar, autoriza a extinção da relação de emprego."*
+- *"A garantia provisória de emprego, mesmo a decorrente do gozo de benefício previdenciário, não impede a
+  rescisão contratual por justa causa, tampouco obsta a imediata eficácia do ato, considerando-se aí todos
+  os seus efeitos legais. Logo, inaplicável, ao caso, a estabilidade prevista no art. 118 da Lei n.
+  8.213/1991, bem como a aplicação da Súmula n. 378/TST."*
+- E o fecho, que devolve o mérito disciplinar à instrução: *"eventuais violações ao devido processo legal,
+  ao contraditório e à ampla defesa que, em tese, poderiam acarretar a nulidade da demissão por justa causa,
+  deverão ser demonstradas no decorrer da instrução processual da ação trabalhista."*
+
+**O que isso ensina sobre como montar o MS:** a decisão fundou-se nos **três precedentes da SbDI-2 já
+catalogados acima** (Ag-ROT-0011574-11.2023.5.03.0000, RO-104-53.2016.5.20.0000 e RO-191-65.2015.5.12.0000)
+— o arsenal desta ficha é exatamente o que o Regional acolheu, sem necessidade de aresto novo. Pesou também
+a **admissão parcial do empregado** na esfera administrativa, na linha de
+[justa_causa_pad_assedio.md](justa_causa_pad_assedio.md), e a **Nota Técnica nº
+3285/2023/GGUNE/DICOR/CRG da CGU**. Ao final, deferiram-se as prerrogativas da Fazenda Pública pelo art. 12
+do DL 509/69 e pela **OJ 247, II, da SBDI-1**.
+`[REVISAR: liminar monocrática, sujeita a confirmação pelo Órgão colegiado — conferir o julgamento do
+colegiado antes de citá-la como posição da Corte. Número do processo omitido de propósito: o caso tramita em
+segredo de justiça e este repositório é público; o número está no registro interno]`
+
 ## Pontos sensíveis / variações
 
 - **A tese não nega a estabilidade** — nega que ela seja imunidade. Dizer isso expressamente evita que a
@@ -112,6 +142,15 @@ teores no sítio do TST e conferir os dados de publicação antes de citar em pe
   [descontos_salariais_saldo_negativo.md](descontos_salariais_saldo_negativo.md).
 - **Operadora de autogestão não é parte.** Astreintes contra a ECT por ato cuja execução material depende
   de terceiro estranho à lide desafiam a proporcionalidade (art. 537, § 1º, do CPC).
+- **A rescisão repercute nas OUTRAS ações do mesmo empregado, e essa é a providência que se esquece.**
+  Toda obrigação de fazer de fonte contratual ou normativa pedida em processo paralelo — vales, plano de
+  saúde, benefício de ACT — **perde objeto a partir da data da rescisão**, e o juízo pode conhecer do fato
+  superveniente de ofício (art. 493 do CPC). Levantar as demais ações do mesmo empregado e, em cada uma,
+  **noticiar em petição avulsa e imediata** a rescisão e a liminar do MS, antes de o pedido de tutela ser
+  apreciado. Em caso de 09/2026 as duas ações tramitavam na **mesma Vara**, que já havia deferido tutela na
+  primeira: esperar o prazo da contestação para noticiar é aceitar o risco de uma segunda liminar sobre o
+  mesmo contrato extinto. Conferir também sobreposição de período entre os pedidos das duas ações
+  (litispendência parcial) e a conexão do art. 55 do CPC.
 
 ## Ligações
 
@@ -127,5 +166,7 @@ teores no sítio do TST e conferir os dados de publicação antes de citar em pe
 ## Lacunas
 
 - [ ] Extrair os inteiros teores dos três precedentes citados dentro do acórdão principal.
-- [ ] Levantar se o TRT24 já se posicionou sobre justa causa aplicada no curso de benefício acidentário.
+- [x] **Levantar se o TRT24 já se posicionou sobre justa causa aplicada no curso de benefício acidentário.**
+      Sim, e a favor da ECT: liminar de **19/08/2026**, registrada na seção "Jurisprudência". Falta apenas o
+      julgamento do colegiado — reabrir esta lacuna se ele divergir.
 - [ ] Confirmar o alcance das vedações da Lei 9.494/97 quanto a empresa pública de direito privado.
