@@ -9,7 +9,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Formatação da minuta (skill `formatar-minuta`) | sim | sim | sem skills — seguir a especificação do arquivo da skill como texto |
 | Consolidação da base ao final da tarefa (skill `atualizar-base-conhecimento`) | sim | sim | sem skills nem escrita de arquivo — usar a seção 6.2 do playbook |
 | Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
-| Conversão de PDF/DOC da parte → `.md` | sim | **não** (sem acesso a `F:\Claude\00 caso_atual` nem ao Python local) | não |
+| Conversão de PDF/DOC da parte → `.md` | sim | **parcial** — o script não roda (sem acesso a `F:\Claude\00 caso_atual`), mas documento **anexado à conversa** se lê; ver a seção própria | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
 | Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
 | Autonomia em PR e merge (sem perguntar, sem relatório longo) | sim | sim | não se aplica — não há Git |
@@ -236,6 +236,42 @@ Tratamento de erro do script (não insista sozinho — reporte ao usuário):
 - Pré-requisito de ambiente: Python 3.9+ com as libs de `scripts/requirements.txt` instaladas
   (`pip install -r scripts/requirements.txt`). Faltando alguma, o script avisa no início quais são e
   converte o que consegue — não é motivo para ler o PDF na mão antes de olhar o aviso.
+
+### Em sessão cloud/web, o documento anexado à conversa se lê — o script é que não roda
+
+O que não existe no cloud é a **pasta** `F:\Claude\00 caso_atual`, e por isso
+`converter_parte_para_md.py` não tem o que converter. Documento que o usuário **anexa à própria conversa**
+é outra coisa: está no disco da sessão e se lê, por dois caminhos, conforme o PDF tenha ou não camada de
+texto (constatado em 10/09/2026).
+
+**PDF com texto — extrair para `.md` no scratchpad e ler o `.md`.** É o caminho barato, e o mesmo motivo de
+sempre: parsing inline custa mais token e erra mais.
+
+```bash
+pip install pypdf                       # não vem instalado
+python3 -c "
+from pypdf import PdfReader
+r = PdfReader('<caminho do anexo>')
+open('<saida>.md','w').write('\n'.join('[p.%d]\n'%(i+1)+(p.extract_text() or 'VAZIO') for i,p in enumerate(r.pages)))
+"
+```
+
+Cada página vira `[p.N]`, então a folha continua citável na peça — mesma convenção do script local. Se o
+`import pypdf` quebrar em `_cffi_backend`, rodar antes `pip install -q --upgrade cffi`.
+
+**PDF digitalizado (páginas saem `VAZIO`) — instalar o renderizador e usar a ferramenta Read.** Sentença
+antiga juntada em papel é o caso típico, e costuma ser o documento mais importante dos autos:
+
+```bash
+apt-get update -qq && apt-get install -y poppler-utils
+```
+
+Sem `poppler-utils` a ferramenta Read falha em PDF com a mensagem `pdftoppm is not installed`. Instalado,
+ela renderiza as páginas e o conteúdo se lê por visão, sem OCR — em 09/2026 foi assim que se leu a sentença
+que decidiu a causa. Ler em blocos de páginas (`pages: "2-5"`), nunca o arquivo inteiro.
+
+**Sinal de que o PDF é digitalizado:** a contagem de páginas que o `pypdf` reporta diverge da que o anexo
+anuncia, e o texto extraído traz só a capa do PJe e as tarjas de assinatura.
 
 **Nunca:**
 - Copiar `.md`/PDF/DOC com dado real de parte para dentro deste repositório Git (`F:\Claude\00 caso_atual`
