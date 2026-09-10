@@ -3,11 +3,11 @@ area: trabalhista
 tema: Jornada do motorista profissional após a ADI 5322
 slug: jornada_motorista_profissional
 status: rascunho
-gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, intervalo intrajornada, intervalo interjornada, adicional noturno, tacógrafo, RDVO, controle eletrônico de jornada]
+gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, intervalo intrajornada, intervalo interjornada, adicional noturno, tacógrafo, RDVO, controle eletrônico de jornada, domingos e feriados, Súmula 146]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: []
-ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/parcelas_cct_transporte.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/dano_existencial_jornada_exaustiva.md, teses/trabalhista/falecimento_empregado_espolio_verbas.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Jornada do motorista profissional após a ADI 5322
@@ -70,6 +70,28 @@ longa distância, com viagens de vários dias, não está em turno ininterrupto:
 **organização empresarial do trabalho em turnos sucessivos**, com alternância efetiva, e não simples
 variação de horários decorrente da natureza das viagens. Menção contratual a "escala de revezamento" não
 basta.
+
+**O contador "tempo de jornada" do tablet de bordo NÃO mede jornada diária — e a foto da própria inicial
+prova isso.** Achado de 09/2026, e é o mais aproveitável desta ficha. A inicial juntou quatro fotografias
+da tela do sistema de bordo afirmando que nelas se "verifica o labor por mais de 14h **consecutivas**". As
+leituras eram: (1) 14h21 "de jornada" / 14h21 "dirigindo"; (2) 16h25 / 13h57; (3) **41h51 "de jornada"** /
+14h22 "dirigindo"; (4) 11h30 / 11h30, com **1h48 em rubrica própria "de espera"**.
+
+A terceira leitura desmonta a premissa: ninguém trabalha 41 horas seguidas, e a inicial não alegava isso.
+Logo o contador é **acumulador de viagem/período**, não jornada de um dia — e o mostrador de "14h21" não
+prova nada sobre jornada diária. Três desdobramentos, todos da mesma prova:
+
+- o sistema registra **estados distintos** (Pausa, Refeição, Esperar, Encerrar, Trocar), o que confirma
+  controle fidedigno e afasta a Súmula 338, I;
+- o **tempo de espera aparece contabilizado em rubrica própria**, o que derruba a alegação de que não era
+  medido — e reforça a exigência de indicação de **períodos concretos** de diferença;
+- existe **botão "Refeição"**, de modo que a supressão de intrajornada é verificável nos registros, não
+  presumível.
+
+Providência que decide o capítulo: requerer da empregadora, por ofício, **o manual ou a especificação
+técnica do que o sistema conta como "tempo de jornada"**, junto com os registros integrais.
+`[REVISAR: conferir os dígitos das fotos em alta resolução nos autos antes de sustentar a leitura, e obter
+a especificação do sistema — sem ela o argumento é inferência, ainda que forte.]`
 
 **Validade dos controles eletrônicos — defesa que vem sendo acolhida.** Lançamento feito pelo próprio
 motorista com matrícula, login e senha pessoais, sem prova de adulteração, sustenta a validade formal dos
