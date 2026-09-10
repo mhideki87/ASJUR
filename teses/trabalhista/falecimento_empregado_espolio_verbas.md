@@ -5,7 +5,7 @@ slug: falecimento_empregado_espolio_verbas
 status: rascunho
 gatilhos: [falecimento do empregado, óbito, espólio, inventariante, sucessores, Lei 6.858/1980, IRR 249, art. 75 VII CPC, art. 618 CPC, habilitação de dependentes, alvará judicial]
 pecas: [contestação, contrarrazões, recurso ordinário]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/multa_477_base_calculo.md, teses/trabalhista/seguro_vida_obrigatorio_motorista.md, teses/transversal/preliminares_processuais_defesa.md]
 atualizado: 2026-09-10
 ---

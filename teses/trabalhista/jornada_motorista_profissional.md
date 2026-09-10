@@ -5,7 +5,7 @@ slug: jornada_motorista_profissional
 status: rascunho
 gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, intervalo intrajornada, intervalo interjornada, adicional noturno, tacógrafo, RDVO, controle eletrônico de jornada, domingos e feriados, Súmula 146]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/dano_existencial_jornada_exaustiva.md, teses/trabalhista/falecimento_empregado_espolio_verbas.md]
 atualizado: 2026-09-10
 ---

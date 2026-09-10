@@ -5,7 +5,7 @@ slug: responsabilidade_subsidiaria_transporte_carga_postal
 status: validada
 gatilhos: [responsabilidade subsidiária, terceirização, tomadora de serviços, culpa in vigilando, culpa in eligendo, Súmula 331, Lei 11.442/2007, contrato de transporte, transportadora, carga postal, LTN, ADC 16, RE 760.931, Tema 246, Tema 1.118, Tema 59 do TST, ônus da prova da fiscalização]
 pecas: [contestação, recurso ordinário, recurso de revista, contrarrazões]
-modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md]
+modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md, modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/seguro_vida_obrigatorio_motorista.md]
 atualizado: 2026-09-10
 ---
@@ -220,8 +220,8 @@ lido em fonte primária]`
   básica e multa convencional.
 - [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md) —
   prazo em dobro, custas, depósito recursal, precatório e juros.
-- Modelo estrutural:
-  `modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md`.
+- Modelos estruturais: `modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md` (1º grau) e
+  `modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md` (2º grau).
 
 ## Lacunas
 

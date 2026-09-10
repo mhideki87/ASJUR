@@ -5,7 +5,7 @@ slug: seguro_vida_obrigatorio_motorista
 status: rascunho
 gatilhos: [seguro de vida obrigatório, seguro do motorista, apólice, indenização substitutiva do seguro, capital segurado, sinistro, auxílio-funeral, traslado, art. 2º V c, Lei 13.103/2015, SUSEP]
 pecas: [contestação, contrarrazões, recurso ordinário]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/falecimento_empregado_espolio_verbas.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md]
 atualizado: 2026-09-10
 ---

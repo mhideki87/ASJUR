@@ -5,7 +5,7 @@ slug: dano_existencial_jornada_exaustiva
 status: rascunho
 gatilhos: [dano existencial, projeto de vida, direito à desconexão, jornada exaustiva, jornada extenuante, convívio familiar, art. 223-B, art. 223-G, servidão temporal]
 pecas: [contestação, contrarrazões, recurso ordinário]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/falecimento_empregado_espolio_verbas.md]
 atualizado: 2026-09-10
 ---
