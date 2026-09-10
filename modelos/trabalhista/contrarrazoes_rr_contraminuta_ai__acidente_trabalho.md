@@ -1,9 +1,11 @@
 # Modelo: Contrarrazões ao Recurso de Revista + Contraminuta ao Agravo de Instrumento — Acidente de trabalho (culpa patronal)
 
-**Consolidado de:** 1 caso-fonte (acidente típico com equipamento de movimentação de carga; acórdão
-regional favorável à ECT, atacado por RR e, denegado o seguimento, por AIRR do reclamante).
-**Última atualização:** 2026-09-07 — recriação do modelo sobre a arquitetura atual (fichas de `teses/` +
-skill `formatar-minuta`).
+**Consolidado de:** 2 casos-fonte — (a) acidente típico com equipamento de movimentação de carga, vitória
+por ausência de culpa patronal; (b) acidente de trânsito de carteiro motorizado, vitória por **culpa
+exclusiva da vítima**. Nos dois, acórdão regional favorável à ECT atacado por RR e, denegado o seguimento,
+por AIRR do reclamante.
+**Última atualização:** 2026-09-10 — acrescentada a variante "denegação pela Súmula 333" (ver "Variações
+observadas").
 
 ---
 
@@ -123,7 +125,33 @@ Fazenda Pública e, em caso positivo, remeter a ele no parágrafo de tempestivid
 
 - **Se o acórdão tiver reconhecido atividade de risco** (art. 927, parágrafo único, do CC), o bloco
   de responsabilidade subjetiva não se sustenta — a defesa migra para excludentes (culpa exclusiva
-  da vítima, fato de terceiro, caso fortuito) e para a quantificação.
+  da vítima, fato de terceiro, caso fortuito) e para a quantificação. Ficha da excludente:
+  `teses/trabalhista/culpa_exclusiva_vitima_acidente_transito.md`.
+- **Se a denegação se fundou na Súmula 333 e no art. 896, § 7º** (e não em vício formal), a Parte I
+  muda de eixo: o núcleo deixa de ser "ausência de impugnação dos fundamentos" e passa a ser a
+  **iteratividade**. Estrutura que funcionou, com os subtópicos numerados dentro da Parte I:
+
+```
+I    — CONTRAMINUTA AO AGRAVO DE INSTRUMENTO
+  1  — Da síntese do necessário
+  2  — Do agravo que, em vez de infirmar o fundamento da denegação, o confirma
+  3  — Da irrelevância do paradigma isolado para afastar a iteratividade
+  4  — Da pretensão de requalificar a exclusividade causal como reexame de fatos e provas
+  5  — Da premissa singular destes autos, ausente em qualquer dos paradigmas
+  6  — Da ausência de transcendência e do requerimento da contraminuta
+II   — CONTRARRAZÕES AO RECURSO DE REVISTA (delimitação da controvérsia)
+III  — PRELIMINARMENTE — DO NÃO CONHECIMENTO (transcendência · Súmula 126 · Súmula 296, I · Súmula 333)
+IV   — DO MÉRITO, POR EVENTUALIDADE
+V    — DOS REQUERIMENTOS
+```
+
+  Três observações sobre essa variante, todas detalhadas na ficha
+  `teses/trabalhista/defesa_extraordinaria_acidente_tipico.md`: (i) o rol de julgados do próprio
+  despacho vai em bloco de cálculo (`>>`), com órgão e data de cada um, para que a contagem fale
+  sozinha; (ii) o subtópico 2 se constrói inteiramente sobre uma citação das razões do agravante —
+  a passagem em que ele concede a tese abstrata; (iii) o mérito por eventualidade fecha com o bloco
+  de **capítulos prejudicados e supressão de instância**, que impede o restabelecimento direto da
+  sentença.
 - **Se houver incapacidade permanente reconhecida em perícia**, cai o argumento de transcendência
   econômica reduzida e enfraquece a distinção entre extensão do dano e culpa; concentrar em culpa e
   em concausalidade quantificada.
@@ -139,6 +167,8 @@ Fazenda Pública e, em caso positivo, remeter a ele no parágrafo de tempestivid
 - `teses/trabalhista/defesa_extraordinaria_acidente_tipico.md` — teste da premissa fática, art. 818
   §§ 1º e 2º, prova diabólica, CAT/B-91, norma regulamentadora, súmulas de barragem e precedentes
   adversos do TRT4.
+- `teses/trabalhista/culpa_exclusiva_vitima_acidente_transito.md` — excludente, aparato probatório da
+  ECT (MANTRA/FAST/Termo de Ciência), art. 945 do CC e os paradigmas adversos do TST.
 - `teses/trabalhista/responsabilidade_civil_acidente_tipico.md` — regime de responsabilidade
   (subjetiva x objetiva) e quantificação, para o mérito de origem.
 - `teses/trabalhista/doenca_ocupacional.md` — a exigência de que se indique a **norma específica**

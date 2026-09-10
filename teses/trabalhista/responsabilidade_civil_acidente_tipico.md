@@ -3,11 +3,11 @@ area: trabalhista
 tema: Responsabilidade civil por acidente típico (objetiva x subjetiva) e quantificação
 slug: responsabilidade_civil_acidente_tipico
 status: validada
-gatilhos: [responsabilidade objetiva, responsabilidade civil objetiva, Tema 932, art. 927 parágrafo único, atividade de risco, carteiro motorizado, acidente típico, lucros cessantes, pensão mensal vitalícia, art. 950 do CC, periculosidade motociclista]
+gatilhos: [responsabilidade objetiva, culpa exclusiva da vítima, responsabilidade civil objetiva, Tema 932, art. 927 parágrafo único, atividade de risco, carteiro motorizado, acidente típico, lucros cessantes, pensão mensal vitalícia, art. 950 do CC, periculosidade motociclista]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__doenca_ocupacional.md]
-ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/assalto_agencia_dano_moral.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-07
+ver_tambem: [teses/trabalhista/culpa_exclusiva_vitima_acidente_transito.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/assalto_agencia_dano_moral.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Responsabilidade civil por acidente típico e quantificação
@@ -129,6 +129,24 @@ carteiro da ECT no TRT24: **RO 0025427-14.2014.5.24.0002** (2ª T., Des. Amaury 
 Araújo Lima, 26/01/2017), que rejeita culpa mesmo diante de alegado defeito no veículo. Ver
 [cancer_pele_exposicao_solar.md](cancer_pele_exposicao_solar.md), seção "Jurisprudência".
 
+## Queda de motocicleta no TRT24 — o que a 2ª Turma decidiu em 2026
+
+Lacuna que estava aberta nesta ficha (os dois arestos locais confirmados eram de **bicicleta**), agora
+parcialmente fechada por acórdão da **2ª Turma do TRT24, julgado em 15.7.2026**, em caso de carteiro
+motorizado que colidiu com o meio-fio e caiu, sem participação de terceiro:
+
+- **A negativa de atividade de risco não passou.** O acórdão consignou que "a atividade de carteiro
+  motorizado atraia, em tese, a responsabilidade objetiva do empregador" — ou seja, o bloco central desta
+  ficha (Tema 932 lido pela metade, ônus compartilhado com os demais membros da coletividade) **não
+  prevaleceu para motocicleta**. Manter o argumento na contestação, porque é barato e às vezes vinga em
+  1º grau, mas **não organizar a defesa em torno dele** quando o veículo for motocicleta.
+- **A vitória veio pela excludente**, não pelo regime: reconhecida a culpa exclusiva da vítima, rompeu-se
+  o nexo em sua acepção jurídica, e os pedidos foram julgados improcedentes. O julgamento foi **por
+  maioria**, vencido em parte um dos desembargadores.
+- **Consequência prática de roteamento:** em acidente típico de trânsito com motocicleta, abrir também
+  [culpa_exclusiva_vitima_acidente_transito.md](culpa_exclusiva_vitima_acidente_transito.md), que é onde
+  está a linha de defesa que efetivamente venceu.
+
 ## Pontos sensíveis / variações
 
 - **Risco de sucumbir no núcleo.** Com CAT emitida e exame de imagem contemporâneo ao trauma, o
@@ -165,7 +183,8 @@ Araújo Lima, 26/01/2017), que rejeita culpa mesmo diante de alegado defeito no 
 
 - [ ] Cômputo exato dos 140 dias da Lei 14.010/2020 e teor da Súmula 278 do STJ — conferência humana
       pendente (rede bloqueada em sessão cloud/web).
-- [ ] Levantar como o TRT24 vem tratando **queda de motocicleta** de carteiro motorizado especificamente:
-      os dois arestos confirmados são de **bicicleta**, e a parte adversa explora a diferença.
+- [ ] Levantar como o TRT24 vem tratando queda de motocicleta de carteiro motorizado **quando há manobra
+      ou infração de trânsito apurada** — o cenário em que a defesa é mais frágil. A hipótese sem manobra
+      e sem terceiro já está mapeada (ver "Queda de motocicleta no TRT24", acima).
 - [ ] Verificar se há orientação da Consultoria Jurídica nacional da ECT sobre sustentar responsabilidade
       subjetiva em acidente com motocicleta.
