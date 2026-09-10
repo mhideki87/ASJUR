@@ -208,6 +208,20 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
   intimação para comprovar renda. É o cenário em que o cálculo de custo-benefício abaixo decide sozinho, sem
   precisar de tese nenhuma — e ele se repetirá em todo o acervo de terceirização, cuja parte autora é, por
   definição, de baixa renda.
+- **A calibração inversa, e ela faltava: causa de valor alto sob o regime anterior — aí o tópico se abre.**
+  Contestação de 09/2026 (espólio de motorista de transportadora, ajuizamento em **julho/2026**, portanto
+  também regime anterior) com valor da causa de **mais de quatrocentos mil reais** e honorários postulados
+  em mais de sessenta mil. Os dois exemplos acima mandam não abrir o tópico — mas ali as causas valiam
+  poucos milhares. Aqui o cálculo se inverte: o retorno da impugnação é a própria sucumbência.
+  **A forma de abrir, sob a Súmula 463, I, ainda operante, é escalonada e sem prometer o indeferimento:**
+  (1) datar o processo e enunciar o regime; (2) apontar o elemento dos autos que infirma a declaração — no
+  caso, a remuneração que a **própria inicial** declarou e a existência de acervo hereditário sob
+  inventário; (3) reconhecer expressamente que a Súmula 463, I, atribui à declaração aptidão probatória, e
+  daí extrair o pedido **sucessivo** do art. 99, § 2º, do CPC, que deixa de ser favor e passa a ser
+  consequência da lei; (4) invocar a ADC 80 apenas como reforço, com a ressalva da modulação.
+  **Duas conferências específicas de espólio:** a hipossuficiência a examinar é a do **espólio e dos
+  sucessores**, não a do falecido; e a qualificação profissional do inventariante, que a inicial costuma
+  declinar no preâmbulo, é elemento pronto nos autos.
 - **Custo-benefício.** O modelo `contestacao__supressao_adicional_atividade.md` registra que o usuário
   **cortou** o tópico de gratuidade da minuta porque a Súmula 463, I, do TST tornava "a briga cara e de
   baixo retorno". Esse cálculo **muda para processos sob o regime novo** — a súmula caiu e o ônus é do

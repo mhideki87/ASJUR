@@ -5,9 +5,9 @@ slug: responsabilidade_subsidiaria_transporte_carga_postal
 status: validada
 gatilhos: [responsabilidade subsidiária, terceirização, tomadora de serviços, culpa in vigilando, culpa in eligendo, Súmula 331, Lei 11.442/2007, contrato de transporte, transportadora, carga postal, LTN, ADC 16, RE 760.931, Tema 246, Tema 1.118, Tema 59 do TST, ônus da prova da fiscalização]
 pecas: [contestação, recurso ordinário, recurso de revista, contrarrazões]
-modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md]
-ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-09
+modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md, modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
+ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/seguro_vida_obrigatorio_motorista.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em contrato de transporte de carga postal
@@ -180,6 +180,18 @@ lido em fonte primária]`
   (ADPF 324, RE 958.252, Lei 6.019/74, art. 71, § 1º, da Lei 8.666/93) e **não mencionou a Lei 11.442/2007
   nem o art. 77, § 1º, da Lei 13.303/2016**. Havendo tempo, embargar para prequestionar; indo direto ao RO,
   invocar o efeito devolutivo em profundidade (art. 1.013, §§ 1º e 2º, do CPC).
+- **A inicial costuma não identificar o contrato, e isso é fato constitutivo que falta.** Em inicial de
+  09/2026 o capítulo da subsidiária não indicava **número, objeto nem vigência** do contrato entre a
+  transportadora e a ECT, não apontava **uma única linha ou rota** contratada pela empresa, não alegava
+  exclusividade — e ainda formulava o pedido **sob condição**: *"responsabilidade subsidiária da segunda
+  Reclamada, **se confirmada** a prestação de serviços em seu benefício"*. A inserção do trabalhador na
+  operação da tomadora é fato constitutivo do direito (art. 818, I, da CLT; art. 373, I, do CPC) e vinha
+  alegada por adjetivos. Duas consequências a explorar: (a) pedido condicional não é certo nem determinado
+  (arts. 322 e 324 do CPC); (b) a ausência de identificação do contrato impede a própria aferição do
+  período em que houve benefício, que é o recorte da Súmula 331, VI. **Não suprir a falha na defesa:**
+  descrever o contrato de forma completa, quando a inicial não o fez, entrega ao autor o fato que faltava —
+  juntar o contrato é necessário para a linha 1, mas a **inserção do trabalhador na operação** continua
+  sendo ônus dele.
 - **Argumento de fato que costuma ser decisivo:** verificar se as parcelas condenadas são de **gestão
   interna do contrato de trabalho** (jornada, intervalos, folha, cláusula coletiva). Se sim, os precedentes
   do TRT24 sobre "não cabe ao tomador o controle da jornada" atacam a condenação no ponto exato. Reforço
@@ -208,8 +220,8 @@ lido em fonte primária]`
   básica e multa convencional.
 - [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md) —
   prazo em dobro, custas, depósito recursal, precatório e juros.
-- Modelo estrutural:
-  `modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md`.
+- Modelos estruturais: `modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md` (1º grau) e
+  `modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md` (2º grau).
 
 ## Lacunas
 

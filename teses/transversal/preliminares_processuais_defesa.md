@@ -3,7 +3,7 @@ area: transversal
 tema: Preliminares processuais recorrentes da defesa (rito, valor da causa, Juízo 100% Digital)
 slug: preliminares_processuais_defesa
 status: validada
-gatilhos: [rito sumaríssimo, ATSum, art. 852-B, irregularidade de representação, valor da causa, valor estimativo, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, Juízo 100% Digital, Resolução CNJ 345/2020]
+gatilhos: [rito sumaríssimo, ATSum, art. 852-B, irregularidade de representação, valor da causa, valor estimativo, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, pedido condicional, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, Juízo 100% Digital, Resolução CNJ 345/2020, competência territorial]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
@@ -132,6 +132,47 @@ notificação do reclamado para que conteste os itens supra-arguidos, sob pena d
 verdadeiros, nos termos da Súmula 74 do TST"). A **Súmula 74 trata de confissão ficta por ausência à
 audiência**, não de ausência de impugnação a tópicos da petição inicial. Impertinente, e a resposta cabe em
 uma linha — mas convém registrá-la, porque o verbete mal invocado costuma ser repetido em réplica.
+
+## Três variantes que a aritmética achou em 09/2026, e valem sozinhas
+
+**a) A inicial com TRÊS conjuntos divergentes de valores.** Numa inicial de rito ordinário (09/2026) os
+mesmos pedidos apareciam com números diferentes no **quadro sintético**, no **corpo do texto** e no **rol
+de pedidos**: um pedido de R$ 47.823,43 constava do rol e **não figurava no quadro**; a multa do art. 467
+vinha com **dois valores incompatíveis** (um com três casas decimais); e o dano extrapatrimonial era pedido
+"não inferior a R$ 30.000,00" no corpo e R$ 20.000,00 nas duas listas.
+
+**Nenhuma combinação possível dos pedidos fechava o valor da causa** — a conferência foi feita por força
+bruta, testando todos os subconjuntos. Isso é diferente de estimativa: é **ausência de apuração**. É o
+argumento que atravessa a exceção da tese prevalecente nº 13, porque a ressalva de estimativa pressupõe
+valor **arbitrado**, e aqui não há valor consistente a arbitrar. Sustentar a limitação da condenação a **o
+menor** dos valores indicados para cada pedido, e a impossibilidade de o autor eleger em réplica ou em
+liquidação qual dos três conjuntos prevalece.
+
+**b) Honorários calculados sobre base que já os inclui.** Na mesma peça, os honorários de 15% eram
+**exatamente 15% do valor da causa**, e o valor da causa **já continha** os honorários. Cálculo circular:
+o percentual do art. 791-A incide sobre o proveito econômico da parte, não sobre um total que soma a si
+mesmo. Impugnação de custo zero e que reduz a base de eventual sucumbência.
+
+**c) Sinais de peça-modelo não preenchida — e como usá-los.** A mesma inicial trazia, dentro do texto:
+lacuna em branco na descrição da função (*"função de motorista de ,"*); referência expressa à *"CCT
+constante do **processo-modelo**"*, isto é, de outro processo; a **instrução interna de redação
+protocolada** (*"antes do protocolo deverão ser preenchidos a data de admissão, salário, médias variáveis,
+frequência das rotas e períodos de férias, possibilitando a elaboração da memória de cálculo"*);
+numeração de pedidos com letra **pulada e repetida**; e pedido de integração a **adicional de
+insalubridade que não era postulado**.
+
+Isso não é preliminar autônoma — é **reforço** de três outras: da inépcia por indeterminação, da ausência
+de memória de cálculo e da impugnação ao valor da causa. Cuidado com o tom: descrever objetivamente o que
+a peça diz, **sem qualificar a conduta do subscritor** — a inconsistência fala por si, e a ironia
+enfraquece o capítulo.
+
+## Competência territorial (art. 651 da CLT) — em regra, não impugnar
+
+Quando o autor invoca base operacional na comarca e a própria unidade da ECT ali está, arguir
+incompetência é gasto de espaço e desgasta os capítulos que interessam. Registrar a concordância em uma
+linha, ou silenciar. Só cabe impugnação quando a prestação de serviços e a contratação ocorreram
+comprovadamente em outra jurisdição e o deslocamento prejudica a defesa.
+`[REVISAR: construção de 09/2026, ainda não testada em decisão.]`
 
 ## Reconstituir a aritmética da inicial — conferência de dois minutos que decide preliminares
 
