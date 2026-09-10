@@ -3,11 +3,11 @@ area: trabalhista
 tema: Defesa do acórdão favorável em acidente típico na fase extraordinária (RR/AIRR)
 slug: defesa_extraordinaria_acidente_tipico
 status: validada
-gatilhos: [recurso de revista, agravo de instrumento, contraminuta, teste da premissa fática, prova diabólica, aptidão para a prova, Súmula 126, Súmula 296, Súmula 337, culpa presumida]
+gatilhos: [recurso de revista, agravo de instrumento, agravo de instrumento em recurso de revista, AIRR, contraminuta, contrarrazões ao recurso de revista, despacho denegatório, juízo de admissibilidade, teste da premissa fática, prova diabólica, aptidão para a prova, Súmula 126, Súmula 296, Súmula 333, Súmula 337, art. 896 § 7º, transcendência, art. 896-A, capítulos prejudicados, supressão de instância, culpa presumida]
 pecas: [contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contrarrazoes_rr_contraminuta_ai__acidente_trabalho.md]
-ver_tambem: [teses/trabalhista/responsabilidade_civil_acidente_tipico.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/doenca_ocupacional.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-07
+ver_tambem: [teses/trabalhista/responsabilidade_civil_acidente_tipico.md, teses/trabalhista/culpa_exclusiva_vitima_acidente_transito.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/doenca_ocupacional.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Defesa do acórdão favorável em acidente típico na fase extraordinária
@@ -61,9 +61,61 @@ contém — o que desloca a pretensão de subsunção para reexame de fatos e pr
   art. 896, "c", CLT]`
 - **Súmulas de barragem em RR/AIRR**, sempre com conferência do teor vigente: **126** (reexame de fatos e
   provas), **296, I** (aresto inespecífico que parte de premissa fática diversa), **297, I e II**
-  (prequestionamento), **337** (forma de comprovação da divergência — atenção quando o aresto vier de
-  plataforma privada, e não de repositório oficial). `[REVISAR: conferir teor literal e vigente das quatro
-  súmulas antes do protocolo]`
+  (prequestionamento), **333** (conformidade com a jurisprudência iterativa), **337** (forma de comprovação
+  da divergência — atenção quando o aresto vier de plataforma privada, e não de repositório oficial).
+  `[REVISAR: conferir teor literal e vigente das cinco súmulas antes do protocolo]`
+
+## Contraminuta ao AIRR — quando a denegação se fundou na Súmula 333 e no art. 896, § 7º
+
+Cenário distinto do da denegação por vício formal, e cada vez mais comum: a Presidência reconhece os
+pressupostos extrínsecos, registra que as transcrições do art. 896, § 1º-A, foram feitas, e denega **só**
+porque o acórdão está conforme a jurisprudência iterativa. A contraminuta se organiza assim:
+
+- **Colher a concessão do adversário e devolvê-la contra ele.** Para escapar da Súmula 126, o agravante
+  costuma declarar que "não discute a proposição abstrata" e que "jamais sustentou risco integral". Essa
+  frase é um presente: se ele concede a tese jurídica que o despacho disse consolidada, o art. 896, § 7º,
+  está satisfeito por confissão, e o que sobra é a **aplicação da tese ao caso concreto** — exatamente o
+  que o recurso de revista não devolve. Citar a passagem literalmente e nomear o efeito.
+- **Iteratividade se demonstra por contagem, não por adjetivo.** Alinhar o rol de julgados do próprio
+  despacho em bloco de cálculo (`>>`), com órgão e data de cada um, e opor a soma ao paradigma do
+  adversário: "cinco julgados, de quatro Turmas distintas e da SBDI-II, entre 2024 e 2026, contra um único
+  aresto de 2023". A Súmula 333 **não exige unanimidade histórica** — exige que a orientação prevalecente,
+  atual e reiterada, esteja no sentido da decisão recorrida. Precedente anterior e isolado não a infirma;
+  a sequência de julgados posteriores a confirma.
+- **Acórdão de Turma do TST não é paradigma apto** pelo art. 896, "a", da CLT, que admite dissenso com
+  outro TRT, com a SDI, com súmula do TST ou com súmula vinculante do STF. O adversário em geral sabe
+  disso e ressalva, no próprio texto, que o julgado de Turma "não é apresentado como paradigma formal".
+  Fechar o argumento: **se não serve para demonstrar divergência, tampouco serve, por via oblíqua, para
+  demonstrar ausência de jurisprudência iterativa — é o mesmo juízo, examinado do outro lado.**
+- **Ausência de transcendência jurídica: matéria reiteradamente decidida é o oposto de questão nova.** O
+  art. 896-A, § 1º, IV, reserva a modalidade à "existência de questão nova em torno da interpretação da
+  legislação trabalhista". Quando o próprio recorrente alinha julgados de 2023 a 2026 sobre o tema, ele
+  demonstra que a questão não é nova. E, sobre as transcendências econômica e social, não negá-las de
+  frente quando o valor da causa for expressivo — sustentar que **transcendência é filtro adicional de
+  acesso, não substitutivo dos pressupostos do art. 896**: reconhecê-la não supre inespecificidade de
+  paradigma nem afasta a Súmula 126.
+- **O juízo de admissibilidade da origem é provisório e não vincula o TST.** Registrar isso expressamente
+  nas contrarrazões é o que permite suscitar Súmulas 126 e 296 mesmo quando o despacho denegatório não as
+  usou — e o agravante costuma explorar esse silêncio como se fosse coisa julgada sobre a regularidade
+  formal do recurso.
+
+## Blindagem do resultado — capítulos prejudicados e supressão de instância
+
+Quando o TRT provê o recurso ordinário da ECT por um fundamento que **prejudica** os demais capítulos
+(tipicamente: acolhida a excludente, ficam prejudicados responsabilidade subjetiva, quantum dos danos
+materiais, danos morais, danos estéticos, plano de saúde), há um bloco defensivo que costuma passar
+despercebido e vale sempre:
+
+- O pedido do recorrente de "restabelecimento da sentença" é **inviável**, porque aqueles capítulos nunca
+  chegaram a ser julgados. Frequentemente o próprio recorrente reconhece a inviabilidade no pedido
+  seguinte, ao requerer o retorno dos autos — apontar a contradição.
+- Requerer, desde já e por eventualidade, que eventual provimento importe **retorno ao TRT para julgamento
+  dos capítulos prejudicados, vedado o restabelecimento direto da sentença, sob pena de supressão de
+  instância**. Custa dois parágrafos e preserva integralmente a defesa de mérito para o segundo round.
+- **O voto vencido pode servir à ECT.** Se o divergente, ainda que sustentando a responsabilidade,
+  reconheceu que a sentença errou na quantificação (p. ex., pensionamento fixado em 100% da remuneração
+  quando o laudo apurou 30% de redução funcional), citar essa passagem: nem na tese mais favorável ao
+  reclamante a sentença poderia ser restabelecida como está.
 
 ## Jurisprudência (só o que já está confirmado)
 
@@ -79,8 +131,17 @@ inteiro teor antes de citar ou distinguir]`
 
 - **Se o acórdão tiver reconhecido atividade de risco** (art. 927, parágrafo único, do CC), o bloco de
   responsabilidade subjetiva não se sustenta — a defesa migra para excludentes (culpa exclusiva da vítima,
-  fato de terceiro, caso fortuito) e para a quantificação. Ver
-  [responsabilidade_civil_acidente_tipico.md](responsabilidade_civil_acidente_tipico.md).
+  fato de terceiro, caso fortuito) e para a quantificação. Ficha própria da excludente, com o aparato
+  probatório da ECT e o art. 945 do CC:
+  [culpa_exclusiva_vitima_acidente_transito.md](culpa_exclusiva_vitima_acidente_transito.md). Regime e
+  quantificação: [responsabilidade_civil_acidente_tipico.md](responsabilidade_civil_acidente_tipico.md).
+- **Quando a vitória vier da excludente, o teste da premissa fática muda de alvo.** O recorrente não
+  inventa mais um encargo processual não afirmado; ele **generaliza**: converte "colidiu com o meio-fio"
+  em "colisão com obstáculos viários é ocorrência ligada ao risco da atividade do motociclista
+  profissional". A segunda proposição não é premissa do julgado — é abstração que ele pede ao TST que
+  adote como se registro judicial fosse, e só depois de adotada é que a violação alegada aparece. A
+  formulação reaproveitável da seção anterior serve igual; o que muda é apontar que a premissa acrescida
+  é **uma generalização**, não uma substituição de fato.
 - **Se houver incapacidade permanente reconhecida em perícia**, cai o argumento de transcendência econômica
   reduzida e enfraquece a distinção entre extensão do dano e culpa; concentrar em culpa e em
   concausalidade quantificada.
