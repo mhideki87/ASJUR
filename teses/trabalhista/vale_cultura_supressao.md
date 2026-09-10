@@ -6,8 +6,8 @@ status: validada
 gatilhos: [vale-cultura, MANPES Módulo 28, Decreto 8.084/2013, Lei 12.761/2012, sentença normativa, dissídio coletivo de greve, ultratividade, ADPF 323]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contrarrazoes_ro__vale_cultura.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Supressão do vale-cultura
@@ -66,6 +66,13 @@ são "clientes" em sentido comercial e a Central de Gestão de Pessoas é "forne
   em **31/07/2020**.
 - **DCG 1001203-57.2020.5.00.0000** — a SDC do TST, **por unanimidade**, "indeferir a manutenção das
   seguintes cláusulas do dissídio coletivo anterior: 9 (AADC) e **53 (vale cultura)**".
+  **Este mesmo DCG aparece em outro tema da base, e com o sinal invertido:** é o dissídio coletivo de greve
+  em que o TST declarou **não abusiva** a paralisação de 2020, e as iniciais de
+  [diferencial_mercado_supressao_greve.md](diferencial_mercado_supressao_greve.md) o transcrevem por páginas
+  justamente para isso. Um único acórdão, portanto, serve à ECT aqui e ao empregado lá — vale saber disso
+  antes de citá-lo. **Atenção ao número:** já se viu inicial grafá-lo como
+  "100203-57.2020.5.00.0000", com um dígito a menos que o padrão CNJ. Conferir antes de rebater, para não
+  impugnar processo inexistente.
 - **DCG 1001174-70.2021.5.00.0000** — reafirmou, indeferindo novamente a inclusão da cláusula VALE-CULTURA
   (53ª).
 - Razão de decidir a citar: o próprio acórdão invoca a **ADPF 323** (STF suspendeu a Súmula 277, que

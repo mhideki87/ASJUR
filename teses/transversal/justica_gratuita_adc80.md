@@ -6,7 +6,7 @@ status: validada
 gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Súmula 463 do TST, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md]
+ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
 atualizado: 2026-09-10
 ---
 
@@ -185,6 +185,14 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
 
 ## Pontos sensíveis / variações
 
+- **Primeiro caso datado do acervo, e ele cai no regime anterior por poucos meses.** Inicial ajuizada em
+  **junho/2026**, analisada em 09/2026: a ADC 80 foi julgada em **03/09/2026**, com efeitos *ex nunc* a
+  contar da publicação da ata. Logo, **regime anterior** — art. 790, § 3º, da CLT na redação literal e
+  **Súmula 463, I, do TST em plena operação**. Confirma a utilidade do "Passo 1 — datar o processo", e
+  mostra que o acervo em curso vai conviver com os dois regimes por anos. Naquele caso, com valor da causa
+  **inferior a quatro mil reais**, o cálculo de custo-benefício desta ficha manda **não abrir o tópico**, ou
+  abri-lo apenas com o pedido sucessivo de intimação para comprovar renda (art. 99, § 2º, do CPC): sob a
+  Súmula 463, I, a briga é cara e o retorno, ali, era de poucas centenas de reais.
 - **O patamar se move sozinho.** Está atrelado à tabela do IR, com correção pelo IPCA na falta de
   atualização anual. Conferir o valor vigente na data da peça; "R$ 5.000,00" é o número de 2026, não uma
   constante.
