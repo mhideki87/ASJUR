@@ -3,11 +3,11 @@ area: transversal
 tema: Devolução de valores pagos pela ECT e recebidos de boa-fé
 slug: devolucao_valores_recebidos_boa_fe
 status: validada
-gatilhos: [devolução de valores, repetição do indébito, irrepetibilidade, verba alimentar, boa-fé objetiva, Tema 531 do STJ, Tema 1009 do STJ, enriquecimento sem causa, ação de cobrança, cobrança administrativa]
+gatilhos: [devolução de valores, restituição de valores, repetição do indébito, irrepetibilidade, verba alimentar, boa-fé objetiva, perdão tácito, Tema 531 do STJ, Tema 1009 do STJ, enriquecimento sem causa, ação de cobrança, cobrança administrativa, acerto financeiro]
 pecas: [contestação, ação de cobrança, embargos de declaração, recurso ordinário, contrarrazões]
 modelos: []
-ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md]
-atualizado: 2026-09-08
+ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Devolução de valores recebidos de boa-fé
@@ -78,6 +78,31 @@ ciência como fato provado.
 boa-fé "beira a litigância de má-fé". A sentença respondeu afastando expressamente fraude, dolo e simulação
 — e esse afastamento passou a ser o fundamento da irrepetibilidade. A alegação temerária, aqui, produziu
 prova contra a própria ECT. Alegar má-fé só com documento que a demonstre.
+
+**Variação em que o elemento (iii) aparece em grau máximo: a rubrica seguiu sendo paga por anos.** Registrada
+em 09/2026, no tema do **Diferencial de Mercado suprimido por participação em greve** (ver
+[diferencial_mercado_supressao_greve.md](../trabalhista/diferencial_mercado_supressao_greve.md)): a ECT
+reputou o empregado inelegível a partir de uma data certa, mas a **própria folha continuou pagando a parcela
+por 42 meses**, e só então a rubrica cessou e veio o "acerto financeiro (recuperação de valores)" retroativo
+ao fato gerador. O despacho administrativo interno chamava o período de "**inconsistência**" e encaminhava a
+restituição "**se for o caso**".
+
+Duas consequências:
+
+- **A repetição, aqui, está praticamente perdida.** Não é só que o empregador concorreu para a situação
+  jurídica: ele a manteve, ativamente, por três anos e meio depois de já conhecer o fato gerador. Some-se que
+  o adversário soma a esse fato o argumento de **perdão tácito por ausência de imediatidade**, que a
+  jurisprudência regional vem acolhendo.
+- **A defesa útil não é negar a demora — é qualificá-la.** Erro de processamento de folha não cria direito
+  adquirido ao recebimento continuado, e a palavra "inconsistência", que é da própria ECT, ajuda a
+  caracterizar erro em vez de tolerância consciente de falta. Mas isso ataca o perdão tácito, **não** a
+  irrepetibilidade: para esta, continua valendo que o que quebra o encadeamento é prova de **ciência** do
+  beneficiário, e ela é ainda mais difícil quando a parcela seguiu caindo na conta dele por 42 meses.
+
+**Ressalva de prova que vale sempre nesses casos:** conferir, na ficha financeira, **se o desconto foi de
+fato lançado**. O despacho que encaminha o acerto "se for o caso" não prova débito algum, e a inicial pode
+pedir a restituição sem indicar competência, valor ou juntar contracheque com a rubrica de devolução. Não
+havendo lançamento, o pedido carece de objeto e a pretensão é apenas preventiva.
 
 **Cobrança administrativa com ameaça de negativação alimenta o dano moral.** No caso analisado, a suspensão
 abrupta da parcela **somada** ao envio de notificações de cobrança com ameaça de inscrição em cadastro de

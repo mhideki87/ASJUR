@@ -6,8 +6,8 @@ status: validada
 gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Prescrição total
@@ -111,6 +111,39 @@ garantia **legal e constitucional** (art. 7º, VI, da CF; art. 468 da CLT) e que
 parcial. Resposta: o art. 11, § 2º, da CLT exige que **a própria parcela** esteja assegurada por preceito
 de lei — nenhuma lei institui o AAT ou o AADC; a lei assegura a irredutibilidade em abstrato, não a
 rubrica.
+
+### Advertência: o marco é a cessação em folha, NÃO o fato gerador da inelegibilidade
+
+Registrado em 09/2026, no tema do **Diferencial de Mercado suprimido por participação em greve** (ver
+[diferencial_mercado_supressao_greve.md](diferencial_mercado_supressao_greve.md)). É a hipótese em que esta
+ficha mais convida ao erro, e vale isolá-la.
+
+Ali a ECT reputou o empregado inelegível **a partir de 10/2020** (fato gerador: suspensão do contrato por
+greve), mas **seguiu pagando a rubrica por 42 meses**, até 03/2024. Ajuizamento em 06/2026. Contando de
+10/2020 são **5 anos e 8 meses**, o que aparenta prescrição total.
+
+**Não é.** O marco do ato único é a data em que a **rubrica deixou de ser paga em folha** — 04/2024 —, e o
+marco da ciência inequívoca da lesão **não pode ser anterior à cessação do pagamento**: até 03/2024 não
+havia lesão perceptível, porque a parcela estava sendo paga. Arguir 10/2020 como marco é insustentável e
+desgasta a credibilidade do resto da peça.
+
+**Regra prática:** havendo pagamento continuado depois do fato gerador da inelegibilidade, o ato único é a
+cessação em folha. Cruzar sempre as duas datas antes de calcular o prazo.
+
+**Construção alternativa, coerente com o mérito e ainda não testada.** Se o restabelecimento da parcela
+equivale a **nova concessão**, e as novas concessões cessaram por deliberação da Diretoria em data certa
+(no caso do DIFME, **1º/03/2018**, pela 8ª REDIR/2018), o ato único de alteração do pactuado é essa
+deliberação — e a total se consumaria cinco anos depois. O encadeamento é internamente coerente com a tese
+de mérito de que o autor pleiteia concessão nova, não manutenção.
+`[REVISAR: construção de 09/2026, inédita e não testada em decisão. Não usá-la como fundamento único, e
+lembrar que as duas Turmas do TRT24 vêm rejeitando a total em parcela de norma interna.]`
+
+**Onde a prescrição de fato morde nesses casos: no crédito da própria ECT.** Quando a supressão vem
+acompanhada de **acerto financeiro retroativo**, a recuperação alcança competências além do quinquênio
+contado da apuração administrativa. A parte autora costuma arguir isso, e costuma estar certa. Sendo a
+fatia pequena, **conceder é barato e compra credibilidade** para os capítulos que interessam.
+`[REVISAR: confirmar se o prazo do art. 7º, XXIX, da CF e do art. 11 da CLT alcança a pretensão do
+empregador à repetição de pagamento indevido, e qual o marco inicial — o pagamento ou a apuração.]`
 
 ## Como o TRT24 tem decidido — atenção antes de apoiar a defesa nesta prejudicial
 

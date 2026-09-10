@@ -6,7 +6,7 @@ status: validada
 gatilhos: [rito sumaríssimo, ATSum, art. 852-B, irregularidade de representação, valor da causa, valor estimativo, tese prevalecente 13, parcelas vincendas, IN 41/2018, art. 840 §1º, art. 840 §3º, pedido sem valor, pedido genérico, inépcia, inversão do ônus da prova, art. 818 §1º, exibição de documentos, Juízo 100% Digital, Resolução CNJ 345/2020]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md]
+ver_tambem: [teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
 atualizado: 2026-09-10
 ---
 
@@ -108,6 +108,14 @@ documento, a finalidade da prova e as circunstâncias que indicam que ele existe
 contrária; sem isso não incide a sanção do art. 400. Fechar juntando espontaneamente a documentação
 pertinente: esvazia o pedido e reforça a boa-fé.
 
+O item (i) tem uma aplicação frequente e de alto retorno que merece registro próprio: **pedido de restituição
+"em dobro" por aplicação analógica do art. 42, parágrafo único, do CDC**, em reclamação trabalhista. Além da
+inaplicabilidade do CDC, a hipótese fática do dispositivo é a do consumidor **cobrado** que **pagou em
+excesso** — e com ressalva expressa do "engano justificável" —, não a de desconto em folha; e, no Direito do
+Trabalho, a devolução em dobro tem hipótese própria e diversa (art. 467 da CLT). O desenvolvimento completo,
+com o peso econômico que o capítulo costuma ter, está em
+[../trabalhista/diferencial_mercado_supressao_greve.md](../trabalhista/diferencial_mercado_supressao_greve.md).
+
 **Duas variantes recorrentes, de resposta curta:**
 
 - **"Pena do art. 359 do CPC".** O art. 359 **não comina pena alguma** — trata do início da audiência de
@@ -143,6 +151,14 @@ aritmética rendeu quatro achados que nenhuma leitura do texto daria:
    pedida não correspondia a nada — nem às diferenças rescisórias pedidas, nem a qualquer rubrica —,
    equivalendo a 50% de um valor que não aparecia em lugar nenhum da peça. Pedido sem memória de cálculo é
    impugnável por isso mesmo.
+
+**Segundo caso registrado, e a conferência número 1 rendeu sozinha a preliminar** (inicial de 09/2026,
+DIFME suprimido por greve, rito sumaríssimo). Ali a inicial não valorou pedido algum: indicou só o valor
+global da causa e descreveu a composição **em prosa** — o que já contraria o art. 852-B, I, da CLT. Refeita
+a conta, ela fechava **ao centavo** (42 prestações × valor da parcela × 2, mais 27 parcelas vencidas, mais
+12 vincendas). E é justamente por fechar que o defeito aparece: como a soma se esgota nessas três rubricas,
+o pedido de **reflexos no FGTS**, deduzido no rol, entrou **sem valor algum** — hipótese do ponto 4 da Tese
+central, não do ponto 1. Dois minutos de aritmética, uma preliminar de inépcia parcial.
 
 **A contrapartida, e ela é inegociável: a mesma conferência acha erro em favor da ECT, e esse não se
 aponta.** No caso acima, a autora fazia jus a 45 dias de aviso prévio (Lei 12.506/2011) e o TRCT registrava

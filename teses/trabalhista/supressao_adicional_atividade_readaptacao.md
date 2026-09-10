@@ -6,8 +6,8 @@ status: validada
 gatilhos: [AAT, AADC, AAG, adicional de atividade, empregado readaptado, empregado reabilitado, readaptação funcional, reabilitação profissional, salário-condição, irredutibilidade salarial, art. 461 § 4º CLT, art. 194 CLT, art. 89 da Lei 8.213/91, PCCS 2008, OTT, Súmula 248, Súmula 265]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/aadc_cumulacao_periculosidade.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/aadc_cumulacao_periculosidade.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-10
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional
