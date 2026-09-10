@@ -2,19 +2,22 @@
 area: trabalhista
 tema: Vale-alimentação/refeição e vale-cesta durante o afastamento (cláusula 48 do ACT)
 slug: vale_alimentacao_cesta_afastamento
-status: rascunho
+status: validada
 gatilhos: [vale-alimentação, vale-refeição, vale-cesta, cesta básica, cláusula 48, compartilhamento, prestações vincendas, anuidade, PAT]
 pecas: [contestação, contrarrazões]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__vale_alimentacao_afastamento.md]
 ver_tambem: [teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/limbo_previdenciario.md, teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/vale_cultura_supressao.md, teses/transversal/preliminares_processuais_defesa.md]
 atualizado: 2026-09-10
 ---
 
 # Tese — Vale-alimentação/refeição e vale-cesta durante o afastamento
 
-> **`status: rascunho`.** Ficha nascida de **análise de petição inicial** (09/2026), sem peça protocolada
-> ainda e sem decisão sobre nenhuma das linhas abaixo. O que está aqui com segurança é a **estrutura da
-> cláusula** e a **aritmética**; as teses precisam ser validadas contra o instrumento coletivo do caso.
+> **`validada` quanto ao uso, não quanto ao resultado.** As linhas abaixo foram efetivamente sustentadas em
+> **contestação minutada em 09/2026** (estrutura em
+> [`modelos/trabalhista/contestacao__vale_alimentacao_afastamento.md`](../../modelos/trabalhista/contestacao__vale_alimentacao_afastamento.md)),
+> mas **nenhuma delas tem decisão registrada** a favor ou contra: não prometer resultado. O que está aqui
+> com segurança é a **estrutura da cláusula** e a **aritmética**; as teses precisam ser conferidas contra o
+> instrumento coletivo do caso.
 
 ## Quando esta ficha se aplica
 
@@ -49,6 +52,15 @@ Concessão e CNIS de todo o período**, com espécie, DIB e DCB de **cada** bene
 como espécie 31 e só depois é convertido em 91 gera uma **janela intermediária indevida** — entre o 90º dia
 e a DIB do acidentário. Enquanto esse documento não vier, a hipótese fica `[REVISAR]` e não entra na peça
 como fato (regra 4 do `CONTEXTO.md`).
+
+**Dois reforços que blindam essa leitura, e o segundo é o que a sustenta em recurso.** O primeiro é de
+utilidade das expressões: a tese autoral, ao projetar a hipótese do acidentário sobre todo o afastamento,
+**torna letra morta o limite dos noventa dias** — se a intenção fosse conceder o benefício por toda a
+duração de qualquer afastamento, a cláusula não teria fixado prazo algum. O segundo é o **art. 8º, § 3º, da
+CLT**: a análise da norma coletiva se limita à conformação aos elementos essenciais do negócio jurídico,
+respeitado o princípio da **intervenção mínima na autonomia da vontade coletiva** — o que impede ampliar,
+por via judicial, benefício que os negociantes convencionaram com limite expresso.
+`[REVISAR: construção de 10/09/2026, sustentada em contestação e ainda não testada em decisão.]`
 
 O **§ 6º, I**, acrescenta limite próprio: em caso de **retorno ao auxílio-doença** com motivo ou CID
 relacionado ao do último afastamento, **não há nova contagem** dos 90 dias, salvo se o retorno ocorrer após
@@ -136,7 +148,9 @@ distinguir.]`
 
 ## Lacunas
 
-- [ ] Nenhuma das linhas desta ficha foi testada em decisão — validar após a primeira contestação.
+- [ ] **Nenhuma das linhas desta ficha foi testada em decisão.** A contestação de 09/2026 já foi minutada;
+      anotar aqui, quando sair a sentença, o que o juízo fez com cada tópico — sobretudo com a decomposição
+      do período pela espécie do benefício e com o art. 8º, § 3º, da CLT.
 - [ ] `[REVISAR]` Conferir a redação e a **vigência** da cláusula 48 no instrumento coletivo de cada
       período, e o valor facial vigente — a ficha registra a redação de um caso de 09/2026, não uma regra
       permanente.

@@ -421,7 +421,9 @@ rubrica de cobertura de saldo negativo (criada em 09/09/2026) ·
 `Prog Antiguidade` = promoção horizontal por antiguidade do PCCS/2008 (criada em 09/09/2026) ·
 `Vale Cultura` = supressão do vale-cultura em 2020 pela não renovação da cláusula coletiva
 (criada em 09/09/2026) · `DIFME Greve` = supressão do Diferencial de Mercado (item 4.7 do PCCS/2008) por
-participação em greve, com pedido de restituição em dobro (criada em 10/09/2026).
+participação em greve, com pedido de restituição em dobro (criada em 10/09/2026) ·
+`Vale Alim Afast` = vale-alimentação/refeição e vale-cesta em período de afastamento, pela cláusula 48 do
+ACT (criada em 10/09/2026).
 Abreviação nova criada em sessão entra nesta lista.
 
 A regra é aplicada pela skill `nomear-minuta` (`.claude/skills/nomear-minuta/`), que vale também para o nome
