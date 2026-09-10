@@ -261,6 +261,43 @@ expressamente em vez de incluir o capítulo.
 
 Modelo consolidado: `modelos/trabalhista/recurso_ordinario__sentenca_primeiro_grau.md` (+ `.docx`).
 
+### 2.8 Complementação das razões do Recurso Ordinário (art. 1.024, § 4º, do CPC)
+```
+Os embargos de declaração da parte adversa foram acolhidos COM EFEITO INFRINGENTE
+depois de a ECT já ter interposto o recurso ordinário. Redija a complementação das
+razões no padrão da skill formatar-minuta.
+
+Antes de escrever, confira: os embargos foram mesmo ACOLHIDOS e a conclusão mudou?
+Se foram rejeitados, não há complementação — o recurso já interposto é julgado
+independentemente de ratificação (art. 1.024, § 5º, do CPC).
+
+ESTRUTURA (duas peças no mesmo arquivo, com quebra de página):
+- Petição de juntada à <Nª> Vara — art. 1.024, § 4º, do CPC, Id do RO já interposto,
+  tempestividade e a dispensa de novo preparo
+- Razões complementares ao TRT da 24ª Região:
+I   — Delimitação: o que a decisão integrativa modificou e o que NÃO modificou,
+      com reiteração expressa das razões originais quanto aos demais capítulos
+II  — Mérito: só o capítulo novo, no padrão de quatro movimentos do modelo de RO
+III — Prequestionamento explícito
+IV  — Requerimentos
+
+NÃO reabra capítulo que a decisão não modificou: a lei restringe a complementação
+aos "exatos limites da modificação".
+
+Procure a alavanca na própria decisão: premissa que ela ADOTOU para um efeito e
+não aplicou ao ponto contrário. Decisão infringente costuma ter poucas linhas de
+fundamentação, e é aí que a incoerência aparece.
+
+Não esqueça a sucumbência: modificação infringente realoca honorários já fixados e
+pode esvaziar os que a ECT havia obtido. Peça a readequação ao resultado final
+(art. 791-A, § 3º, da CLT).
+
+Prazo: redija a tempestividade cobrindo os DOIS critérios (8 dias em dobro da CLT e
+15 dias do CPC) e sinalize [REVISAR] — o ponto não está pacificado no TRT24.
+```
+
+Modelo consolidado: `modelos/trabalhista/complementacao_ro__efeito_infringente.md`.
+
 ---
 
 ## 3. Prompts de apoio
@@ -372,6 +409,7 @@ caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração ·
 `Contraminuta ED` = impugnação a embargos da parte adversa (art. 897-A, § 2º, da CLT) ·
+`Adit RO` = complementação das razões do recurso ordinário (art. 1.024, § 4º, do CPC) ·
 `Quesitos` = quesitos de perícia · `AIRR` = agravo de instrumento em recurso de revista (criada em
 09/09/2026). Abreviações de tema: `Inc Fun` = incorporação de função ·
 `Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
