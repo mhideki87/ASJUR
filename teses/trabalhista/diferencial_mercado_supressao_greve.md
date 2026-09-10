@@ -5,7 +5,7 @@ slug: diferencial_mercado_supressao_greve
 status: rascunho
 gatilhos: [diferencial de mercado, DIFME, DEV. DIFERENCIAL DE MERCADO, item 4.7 do PCCS/2008, greve, Lei 7.783/89, efetivo exercício, elegibilidade, MANPES Módulo 30, 8ª REDIR/2018]
 pecas: [contestação, contrarrazões, recurso ordinário]
-modelos: []
+modelos: [modelos/trabalhista/contestacao__diferencial_mercado_greve.md]
 ver_tambem: [teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolucao_valores_recebidos_boa_fe.md, teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
 atualizado: 2026-09-10
 ---
@@ -233,8 +233,7 @@ competências além do quinquênio, e conceder essa fatia é barato e compra cre
   [../transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md)
 - Pedido sem valor, tese 13 do Pleno do TRT24, Juízo 100% Digital:
   [../transversal/preliminares_processuais_defesa.md](../transversal/preliminares_processuais_defesa.md)
-- Modelo estrutural: **não há.** O mais próximo é
-  `modelos/trabalhista/contestacao__supressao_adicional_atividade.md`.
+- Estrutura da peça: `modelos/trabalhista/contestacao__diferencial_mercado_greve.md`
 
 ## Lacunas
 
@@ -252,4 +251,6 @@ competências além do quinquênio, e conceder essa fatia é barato e compra cre
 - [ ] Verificar se existe **orientação nacional da Consultoria Jurídica** da ECT sobre o tema — dado o
       precedente regional de 05/2026, é provável que exista.
 - [ ] Registrar o resultado da primeira sentença: é o primeiro caso deste tema na base, e nada foi decidido.
-- [ ] Construir o modelo estrutural de contestação quando a primeira peça for redigida.
+- [x] Construir o modelo estrutural de contestação quando a primeira peça for redigida.
+      → `modelos/trabalhista/contestacao__diferencial_mercado_greve.md`, de 09/2026. Peça **não
+      protocolada**: o modelo é ponto de partida, não fórmula testada.
