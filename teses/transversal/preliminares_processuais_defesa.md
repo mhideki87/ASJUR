@@ -201,6 +201,25 @@ a conta, ela fechava **ao centavo** (42 prestações × valor da parcela × 2, m
 o pedido de **reflexos no FGTS**, deduzido no rol, entrou **sem valor algum** — hipótese do ponto 4 da Tese
 central, não do ponto 1. Dois minutos de aritmética, uma preliminar de inépcia parcial.
 
+**Terceiro caso, e o achado foi metade do valor da causa** (inicial de 09/2026, rito sumaríssimo, vales de
+ACT em afastamento). A planilha trazia uma linha intitulada **"ANUIDADE — art. 292, §§ 1º e 2º, do CPC"**,
+sem correspondência com nenhuma alínea do rol de pedidos. Refeita a conta, ela era exatamente **12 × o valor
+mensal da obrigação**, ao centavo — prestações **vincendas**. E o total fechava, também ao centavo:
+vencidas + anuidade + dano moral = valor da causa. Duas conclusões de uma só divisão:
+
+1. **Fechar ao centavo prova que os valores foram apurados, não arbitrados** — o que enfraquece a ressalva
+   de "meramente estimativo" que a mesma peça fazia (a exceção da tese 13 pressupõe arbitramento, não
+   cálculo exato).
+2. **A anuidade era 50,2% do valor da causa** e repousava em obrigação de trato sucessivo que já não podia
+   ocorrer: o contrato havia sido extinto **depois do ajuizamento**. Prestação vincenda pressupõe fonte
+   viva — contrato existente **e** norma coletiva em vigor (art. 614, § 3º, da CLT; ADPF 323). Conferir
+   sempre as duas coisas antes de aceitar a linha da anuidade.
+
+**Confrontar a astreinte com o valor mensal da obrigação, na mesma conta.** Ali a multa diária pedida era de
+R$ 100,00 — R$ 3.000,00/mês para obrigação de R$ 1.727,88/mês, ou seja, **~74% acima da própria obrigação**
+(art. 537, § 1º, do CPC). É um argumento de proporcionalidade que se faz com uma multiplicação, e a
+obrigação de fazer costuma vir **sem valor próprio** no rol — hipótese do ponto 4 da Tese central.
+
 **A contrapartida, e ela é inegociável: a mesma conferência acha erro em favor da ECT, e esse não se
 aponta.** No caso acima, a autora fazia jus a 45 dias de aviso prévio (Lei 12.506/2011) e o TRCT registrava
 15 — **e ela não pediu a diferença**. O que não foi pedido não pode ser deferido (arts. 141 e 492 do CPC);
