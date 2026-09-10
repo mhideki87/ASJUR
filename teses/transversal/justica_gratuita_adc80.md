@@ -7,7 +7,7 @@ gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, AD
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-10
 ---
 
 # Tese — Justiça gratuita após a ADC 80
@@ -193,6 +193,13 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
   deve usar a certa para cada argumento.
 - **A decisão também favorece o autor em um ponto:** ela estende a presunção aos assistidos pela Defensoria
   Pública (item ii, parte final). Não a citar como se fosse integralmente restritiva.
+- **Exemplo prático do Passo 1, para calibrar.** Ação ajuizada em **22/04/2026** — portanto **anterior** ao
+  marco da modulação — de servente de limpeza terceirizada com salário de **R$ 1.535,00**. Regime aplicável:
+  o **anterior**, com a Súmula 463, I, do TST ainda operante; e a autora está dentro da presunção com folga.
+  Conclusão registrada na análise: **não abrir o tópico**, ou abri-lo apenas com o pedido sucessivo de
+  intimação para comprovar renda. É o cenário em que o cálculo de custo-benefício abaixo decide sozinho, sem
+  precisar de tese nenhuma — e ele se repetirá em todo o acervo de terceirização, cuja parte autora é, por
+  definição, de baixa renda.
 - **Custo-benefício.** O modelo `contestacao__supressao_adicional_atividade.md` registra que o usuário
   **cortou** o tópico de gratuidade da minuta porque a Súmula 463, I, do TST tornava "a briga cara e de
   baixo retorno". Esse cálculo **muda para processos sob o regime novo** — a súmula caiu e o ônus é do

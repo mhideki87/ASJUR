@@ -3,7 +3,7 @@
 **Consolidado de:** 2 casos-fonte com a mesma prestadora de serviços de limpeza — um com pretensão
 indenizatória por doença ocupacional, outro com vínculo em período sem registro, adicional de insalubridade
 e diferenças rescisórias, em rito sumaríssimo —, a partir de peça-modelo real do usuário.
-**Última atualização:** 2026-09-04 — criação inicial.
+**Última atualização:** 2026-09-10 — variação de insalubridade + dano moral solidário em rito ordinário.
 
 > Formatação: skill **`formatar-minuta`**. Este arquivo descreve **estrutura, tese e texto reaproveitável**
 > — nada de fonte, margem, cabeçalho ou assinatura.
@@ -97,6 +97,37 @@ Blocos genéricos, sem dado de caso, reaproveitáveis quase literalmente:
   de parcelas sancionatórias e de obrigações de fazer (CTPS, PPP, guias) · limitação aos valores dos
   pedidos · base de cálculo do adicional sobre o salário mínimo · equiparação à Fazenda Pública e EC
   113/2021 · compensação (art. 767 da CLT).
+
+## Variação: insalubridade + dano moral solidário, em rito ORDINÁRIO (09/2026)
+
+Peça montada a partir deste modelo numa contestação de servente de limpeza com pedido de insalubridade em
+grau máximo (63% do valor da causa) e dano moral **solidário**. Quatro ajustes de estrutura que valem para
+qualquer caso do mesmo desenho:
+
+- **III.4 (culpa *in vigilando*) desdobra-se em cinco subitens**, e a ordem importa: (1) a inicial não
+  descreve conduta negligente — a culpa é deduzida da própria parcela pedida; (2) o enquadramento de
+  insalubridade **não é detectável por fiscalização documental**; (3) ausência de notificação formal;
+  (4) ônus da prova, com o Tema 1.118 corrigido e aproveitado; (5) limites da fiscalização e documentos
+  juntados. O subitem 1 é o mais forte e por isso abre o capítulo.
+- **Capítulo novo, entre III.5 e III.6: "DA IMPOSSIBILIDADE DE CONDENAÇÃO SOLIDÁRIA".** Três fundamentos
+  autônomos (art. 265 do CC; o art. 942 do CC não cria solidariedade autônoma; *distinguishing* do art.
+  5º-A, § 3º, da Lei 6.019/74). Ver
+  [dano_moral_ambiente_degradante_terceirizado](../../teses/trabalhista/dano_moral_ambiente_degradante_terceirizado.md).
+- **O capítulo de dano moral vem DEPOIS do de insalubridade**, sempre: o argumento de *bis in idem* depende
+  de já se ter sustentado que a exposição é compensada pelo adicional do art. 192 da CLT.
+- **Em rito ordinário, II.3 muda de conteúdo:** sai o bloco do art. 852-B, I, e entram a **prescrição
+  quinquenal** (quando o contrato for anterior ao quinquênio — aqui alcançava 12 meses) e a **limitação aos
+  valores dos pedidos** pela tese prevalecente nº 13 do TRT24, que opera sem depender da exceção quando a
+  inicial não traz ressalva de estimativa.
+
+Dois blocos que renderam mais do que o esperado, e que valem ser reaproveitados:
+
+- **Impugnar os precedentes que a própria inicial transcreve**, quando eles a contradizem — não só por
+  inaplicabilidade. Na peça-fonte, a ementa juntada pelo autor exigia "COMPROVAÇÃO" do dano dois parágrafos
+  depois de ele sustentar dano *in re ipsa*.
+- **Reproduzir a aritmética da inicial em bloco `>>`**, mostrando o cálculo dela ao lado do cálculo correto.
+  Vale para a soma dos pedidos contra o valor da causa (preliminar de limitação) e para divergência de
+  divisor dentro da mesma tabela.
 
 ## Variações observadas
 

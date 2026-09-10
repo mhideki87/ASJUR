@@ -7,7 +7,7 @@ gatilhos: [grau máximo, agentes biológicos, agentes químicos, limpeza de banh
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_terceirizacao.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/trabalhista/periculosidade_tanque_suplementar.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-08
+atualizado: 2026-09-10
 ---
 
 # Tese — Adicional de insalubridade em limpeza e higienização de sanitários
@@ -70,12 +70,51 @@ Anexo 14 da NR-15 e afastamento expresso da OJ 4, II. A distinção se faz na mo
 uso coletivo de grande circulação e a ausência de registro de EPI foram premissas fixadas em perícia.
 `[REVISAR: aresto colhido da petição inicial de um caso — conferir inteiro teor e vigência antes de citar]`
 
+## Os três fundamentos que a inicial costuma somar — e como cada um cai
+
+A inicial raramente pede o grau máximo por um fundamento só. Numa inicial de 04/2026 vieram **três,
+apresentados como autônomos**, e cada um tem resposta própria e força muito diferente:
+
+**1. Higienização de sanitários (Súmula 448, II) — o mais forte da autora.** É o campo de batalha fático
+descrito em "Pontos sensíveis" abaixo. Não há atalho: decide-se com os dados da unidade.
+
+**2. Fezes de pombos — o mais frágil, e a resposta é normativa, não pericial.** A inicial afirma que a
+exposição a dejeções de aves "enquadra-se no Anexo 14 da NR-15", fundamentando-se em risco de criptococose
+e histoplasmose. **O Anexo 14 é lista fechada de atividades**, e limpeza de dejeções de aves não consta
+dela. Incide a **OJ 4, I, da SBDI-1**: não basta a constatação por laudo pericial de que a atividade é
+insalubre — é indispensável a **classificação na relação oficial elaborada pelo Ministério do Trabalho**.
+A peça denuncia a própria fragilidade ao fundar o enquadramento em risco epidemiológico: insalubridade, no
+direito brasileiro, é matéria de **enquadramento**, não de risco abstrato.
+`[REVISAR: conferir o teor do Anexo 14 da NR-15 e da OJ 4, I, em fonte oficial antes de afirmar em peça.]`
+
+**3. "Coleta de lixo urbano" por transporte interno de resíduos — enquadramento forçado.** A tese é a de
+que carregar manualmente os sacos de lixo do próprio complexo por ~50 m, atravessando via pública até um
+canteiro central, equivale à **coleta de lixo urbano** do Anexo 14. Não equivale: "coleta de lixo urbano"
+designa o **serviço público de coleta domiciliar** — resíduos de terceiros, de origem indeterminada e em
+grande volume. Levar ao ponto de coleta o lixo produzido no próprio local de trabalho é **etapa interna de
+higienização**, alcançada pela OJ 4, II. Repare ainda na fragilidade retórica: nessa inicial o grau máximo
+foi pedido pelo **trajeto** ("atravessar rua de intenso movimento", "deslocamento externo em condições
+precárias") — **travessia de via pública é risco de trânsito, não agente insalubre**, e não consta de anexo
+algum da NR-15.
+
 ## Pontos sensíveis / variações
 
 - **O caso se ganha ou se perde nos dados da unidade.** Levantar com a área gestora, antes de escrever:
   porte da AC, **número e destinação de cada sanitário** (uso restrito a empregados × aberto ao público),
   média de atendimentos diários/mensais e população do município. Sem esses números, a impugnação ao
   "grande circulação" fica abstrata e a perícia decide sozinha.
+- **O fluxo de público vem sempre estimado, e a própria peça costuma dizê-lo.** Segundo caso registrado: a
+  inicial afirmou "mais de 100 usuários/dia", com a palavra **"estimado"** no próprio texto, e listou
+  **8 banheiros sem distinguir um único deles** quanto à destinação. É aí que a impugnação morde — não no
+  número total de sanitários, mas em **quantos são de uso interno de empregados**, que a jurisprudência
+  equipara a sanitário de escritório. Se a maior parte for de uso interno, o enquadramento cai para o grau
+  médio ou é afastado.
+- **Reconstituir a base de cálculo por aritmética antes de impugná-la — porque nem sempre ela está errada.**
+  Em inicial de 04/2026 a base adotada foi o **salário mínimo**, e não a remuneração: refazendo 40% do
+  mínimo de cada ano sobre o contrato inteiro, o total fecha a 0,5% do valor pedido. Brigar com o que já
+  está certo é desperdício de peça. **Mas o mesmo cálculo revelou o que a leitura do texto não daria:** o
+  período abrangia o **contrato inteiro**, incluindo parcela **prescrita** (contrato desde 04/2020,
+  ajuizamento em 04/2026). Reconstituir a aritmética serve para achar a prescrição, não só a base.
 - **A inicial costuma confessar o fornecimento de EPI** ("recebia botas de borracha e luvas de látex, de
   forma esparsa"). A confissão do fornecimento inverte o foco para a suficiência e a fiscalização do uso —
   terreno em que a prova é da empregadora, não da tomadora.
