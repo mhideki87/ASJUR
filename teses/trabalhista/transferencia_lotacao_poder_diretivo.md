@@ -3,11 +3,11 @@ area: trabalhista
 tema: Remanejamento de lotação e poder diretivo (art. 469 da CLT)
 slug: transferencia_lotacao_poder_diretivo
 status: validada
-gatilhos: [transferência, transferência compulsória, remoção, remanejamento, mudança de lotação, alteração de lotação, unidade de lotação, necessidade de serviço, art. 469 CLT, art. 468 CLT, jus variandi, poder diretivo, alteração contratual lesiva, retorno à lotação anterior, permanência na unidade, portaria de transferência, agência de atendimento, readaptação em ambiente fechado, empregado PcD, pessoa com deficiência, visão monocular, adaptação razoável, Lei 13.146/2015, Estatuto da Pessoa com Deficiência, PDV, PDI, plano de desligamento incentivado, desfalque de unidade]
+gatilhos: [transferência, transferência compulsória, remoção, remanejamento, mudança de lotação, alteração de lotação, unidade de lotação, necessidade de serviço, art. 469 CLT, art. 468 CLT, jus variandi, poder diretivo, alteração contratual lesiva, retorno à lotação anterior, permanência na unidade, portaria de transferência, agência de atendimento, readaptação em ambiente fechado, empregado PcD, pessoa com deficiência, visão monocular, adaptação razoável, Lei 13.146/2015, Estatuto da Pessoa com Deficiência, PDV, PDI, plano de desligamento incentivado, desfalque de unidade, MANPES 23, MANPES Módulo 23, transferência interna por necessidade de serviço, mudança de domicílio, ajuda de custo de transferência, QLP, dimensionamento de efetivo]
 pecas: [contestação, contrarrazões, recurso ordinário, manifestação sobre tutela de urgência]
 modelos: [modelos/trabalhista/contestacao__transferencia_lotacao.md]
 ver_tambem: [teses/trabalhista/assedio_moral_defesa.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-11
 ---
 
 # Tese — Remanejamento de lotação e poder diretivo
@@ -39,7 +39,8 @@ genérica"; a resposta não é adjetivo, é cronologia documentada. Ver a seçã
 serviço".
 
 **3. Descaracterizar a transferência juridicamente.**
-- **Art. 469 da CLT exige mudança de domicílio** — remanejamento intramunicipal não o atrai.
+- **Art. 469 da CLT exige mudança de domicílio** — remanejamento intramunicipal não o atrai, e a
+  **norma interna converge com a lei nesse exato ponto**: ver a seção do MANPES abaixo.
 - **Art. 468 da CLT pressupõe prejuízo** — mesmo cargo, mesmo salário, mesma jornada, sem prejuízo
   quantificado na inicial, não há alteração lesiva.
 - **O pedido de permanência perpétua em unidade nominada** não tem amparo legal: criaria uma
@@ -102,6 +103,67 @@ Reforços que valem a pena, quando houver:
 a qualquer litígio, foi movimentado para a mesma unidade no mesmo contexto, a providência é **de unidade, não
 de pessoa** — e é essa natureza que a desqualifica como perseguição. Requisitar à área a portaria desse
 segundo remanejamento **sempre**; vale mais que qualquer tese.
+
+## O normativo interno: MANPES, Módulo 23 — e por que ele ganha o capítulo do art. 469
+
+**Fonte:** processo administrativo de transferência juntado em sessão de 09/2026 (requisição, ofício e
+portaria). É o normativo que disciplina a transferência de empregado na ECT, e a peça deve citá-lo
+nominalmente em vez de falar em "poder diretivo" no abstrato.
+
+**O que decide o capítulo do art. 469:** o **MANPES, Módulo 23, Capítulo 1, Anexo 3** reserva as vantagens
+de transferência — **ajuda de custo, transporte de bens e passagens** — às movimentações que **acarretam
+mudança de domicílio**. A requisição classifica expressamente cada ato numa das duas categorias, e a
+movimentação entre unidades da mesma cidade sai como **"sem mudança de domicílio"**, sem direito àquelas
+vantagens. Norma interna e art. 469 da CLT convergem: o que caracteriza a transferência juridicamente
+relevante é a mudança de domicílio.
+
+É o argumento mais econômico do tema — a própria regulamentação da empresa faz a distinção que a defesa
+precisa.
+
+**O rito, que serve para descaracterizar "decisão pessoal de gestor":**
+
+>> solicitação fundamentada da área demandante → requisição formal → ofício da Gerência → **autorização do
+Superintendente Estadual** → portaria emitida pelo órgão corporativo, em Brasília → registro.
+
+Transferência sem mudança de domicílio é autorizada pelo **Superintendente Estadual** — autoridade que não
+integra nem a unidade de origem nem a de destino. Procedimento escalonado por instâncias distintas, em
+processo eletrônico auditável, não é ato de vontade de um gestor contra um empregado.
+
+**O que a requisição declara, campo a campo — é um roteiro de prova pronto.** Pedir o processo inteiro à
+área e explorar cada item:
+
+| Campo da requisição | Para que serve na defesa |
+|---|---|
+| Cargo, especialidade e **tempo de empresa** | Compatibilidade do cargo com o posto de destino |
+| **Motivação e justificativa** | O texto livre costuma descrever a natureza da unidade de destino — ver abaixo |
+| **Mudança de domicílio: sim/não** | Capítulo do art. 469 |
+| Transferido por necessidade de serviço nos **últimos 12 meses** | Há vedação a nova transferência no período — conferir sempre |
+| Parentesco com gestor na unidade de destino | Afasta insinuação de favorecimento ou perseguição |
+| **QLP — dimensionamento x efetivo existente** das duas unidades | Prova numérica da carência; ver abaixo |
+| "Existe necessidade de efetivo no órgão de destino?" | Resposta da própria administração |
+| "Há compatibilidade das atribuições do cargo (...)?" | Resposta da própria administração |
+
+**O achado que vale mais que a portaria: a justificativa descreve a unidade de destino.** Em caso real, a
+requisição de **outro** empregado — processo alheio ao litígio, de meses depois — registrava que a
+movimentação se dava "para a AC [unidade] **onde há maior demanda de atividades internas**", e o ofício
+dizia que a transferência era "necessária para **compor equipe de serviços internos** na unidade de
+destino". Isso prova, por documento da própria administração e **sem finalidade processual**, que a unidade
+de destino comporta atividade interna — que é exatamente o que a defesa precisa demonstrar quando há título
+de readaptação em ambiente fechado.
+
+**Regra prática:** ao montar a defesa, **não pedir só a portaria do empregado em litígio**. Pedir os
+processos de transferência de **outros** empregados para a mesma unidade, no mesmo exercício. Valem por
+três: mostram que a providência foi de unidade e não de pessoa, descrevem a natureza da unidade de destino
+em documento neutro, e trazem o QLP.
+
+**Cuidado com o QLP.** O quadro registra o efetivo com observações do tipo "um empregado de licença INSS
+sem previsão de retorno". Antes de usar o número como prova de carência, **conferir se esse empregado não é
+o próprio Reclamante** — se for, o argumento se volta contra a defesa.
+
+**Cuidado com a data.** A transferência de outro empregado para a mesma unidade dificilmente será
+simultânea. Não escrever "no mesmo contexto" quando houver meses de intervalo: a redação honesta é mais
+forte — a recomposição da unidade **não foi ato isolado**, foi processo continuado ao longo do exercício,
+porque a carência persistia. O intervalo, dito pela defesa, deixa de ser munição para o outro lado.
 
 ## Empregado PcD e adaptação razoável
 
@@ -180,7 +242,11 @@ mesmas partes**, juntada aos autos — não jurisprudência de terceiros.
 - [ ] Conferir o art. 1º da Lei 9.494/97 em fonte primária (restrições à tutela contra a Fazenda Pública).
 - [ ] Levantar como o **TRT24** vem decidindo pedido de retorno à lotação anterior — não há nenhum aresto
       local confirmado sobre o tema.
-- [ ] Localizar o normativo interno da ECT que disciplina lotação e movimentação de empregados, para citá-lo
-      nominalmente no lugar da referência genérica ao poder diretivo.
+- [x] ~~Localizar o normativo interno da ECT que disciplina lotação e movimentação de empregados~~ —
+      resolvido em 2026-09-11: **MANPES, Módulo 23** (e o Capítulo 1, Anexo 3, para as vantagens de
+      transferência), identificado em processo administrativo juntado aos autos. Seção própria acima.
+- [ ] Obter o **texto do MANPES, Módulo 23** junto à área e conferir a redação do Capítulo 1, Anexo 3 —
+      hoje a ficha o descreve pelo que a requisição e o ofício de um processo concreto revelam, não por
+      leitura direta do normativo.
 - [ ] Verificar se o instrumento coletivo vigente tem cláusula sobre lotação ou movimentação de empregado
       PcD — a inicial do caso-fonte invocou o instrumento sem indicar cláusula, e a defesa não pôde conferir.
