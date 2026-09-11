@@ -6,8 +6,8 @@ status: validada
 gatilhos: [estabilidade acidentária, estabilidade provisória, garantia provisória de emprego, art. 118 da Lei 8.213/91, Súmula 378, indenização substitutiva do período estabilitário, OJ 399 da SBDI-1, Súmula 396, reintegração, CAT, Comunicação de Acidente de Trabalho, art. 22 da Lei 8.213/91, auxílio-doença acidentário, espécie 91, B-91, auxílio-acidente, art. 86 da Lei 8.213/91, indeferimento do INSS, art. 336 do Decreto 3.048/99]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_trabalho_temporario.md]
-ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md]
+atualizado: 2026-09-11
 ---
 
 # Tese — Estabilidade acidentária e omissão na emissão da CAT
@@ -64,6 +64,19 @@ não é privativa do empregador — logo a omissão patronal não "obsta de plan
 - **A emissão da CAT não implica reconhecimento de responsabilidade civil** — cumpre obrigação
   previdenciária. Dizer isso expressamente, porque a inicial costuma usar a CAT (ou a sua falta) como prova
   de culpa. Ver [doenca_ocupacional.md](doenca_ocupacional.md).
+- **Antes de responder à alegação de omissão, procure a CAT nos próprios anexos da inicial.** Registrado em
+  09/2026: a inicial afirmava *"embora a Ré não tenha emitido CAT"* e pedia a determinação de emissão, e a
+  **própria autora** havia anexado **três CATs emitidas pela ECT** — a original e duas reaberturas, com
+  número de registro, data e ofício de entrega da via à empregada. Nesse quadro o pedido é **sem objeto**
+  (falta de interesse quanto à obrigação de fazer já cumprida), e a alegação de omissão cai por inteiro.
+  Conferir o anexo documento por documento, mesmo quando o nome do arquivo sugerir outra coisa.
+- **Patologia comunicada x patologia postulada — a distinção mais útil deste bloco.** Emitir CAT para uma
+  lesão não gera dever de emitir para toda doença que o empregado venha a alegar depois. Comparar o **CID da
+  CAT** com o **CID de cada patologia postulada**: no caso acima, as CATs eram de **ombro / manguito rotador
+  (M75)** e os pedidos, de **coluna, joelhos e quadris**. A ausência de CAT para essas últimas não é omissão
+  patronal — é consequência de nunca lhes ter sido atribuída origem laboral, o que o **próprio INSS**
+  confirmava ao conceder para elas benefício de **espécie 31**. Dizer as duas coisas na mesma frase: a ECT
+  comunicou o que lhe foi comunicado, e o que não se comunicou o INSS reputou não ocupacional.
 - **Exigir a decisão de indeferimento do INSS.** Sem ela não há nos autos o **motivo** da negativa, e a
   alegação de nexo entre a falta de CAT e o indeferimento é conjectura.
 

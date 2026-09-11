@@ -7,7 +7,7 @@ gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, AD
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-11
 ---
 
 # Tese — Justiça gratuita após a ADC 80
@@ -222,6 +222,19 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
   **Duas conferências específicas de espólio:** a hipossuficiência a examinar é a do **espólio e dos
   sucessores**, não a do falecido; e a qualificação profissional do inventariante, que a inicial costuma
   declinar no preâmbulo, é elemento pronto nos autos.
+- **Terceiro caso datado, e o Passo 1 decidiu de novo: ajuizamento em 28/07/2026 → regime ANTERIOR.** A ADC
+  80 foi julgada em 03/09/2026, com efeitos *ex nunc* — cinco semanas depois. Vale o art. 790, § 3º, da CLT
+  na redação literal e a **Súmula 463, I, em plena operação**. Causa de **R$ 315 mil**, com honorários
+  postulados em 15% da liquidação: pelo cálculo de custo-benefício abaixo, o tópico **se abre**, na forma
+  escalonada da "calibração inversa" acima. A própria inicial facilitava o passo (2), ao **admitir
+  expressamente** perceber salário superior a 40% do teto do RGPS.
+- **Onde achar renda que a inicial não declara: no extrato CNIS que ela mesma juntou.** Achado de 09/2026, e
+  reaproveitável em todo processo de doença ocupacional. O CNIS lista, ao lado dos vínculos, os
+  **benefícios** com as respectivas remunerações mensais — e ali constava **auxílio-acidente (espécie 94)
+  ATIVO**, de R$ 1.937,37/mês, cumulado com o salário de R$ 5.418,16, o que elevava a renda mensal a
+  ~R$ 7.355. A inicial silenciava sobre o benefício. É elemento **dos autos**, documental e incontroverso, e
+  é exatamente o tipo de prova que o passo (2) da calibração inversa exige. Conferir sempre a seção
+  "Benefício" do extrato, não só a de remunerações.
 - **Custo-benefício.** O modelo `contestacao__supressao_adicional_atividade.md` registra que o usuário
   **cortou** o tópico de gratuidade da minuta porque a Súmula 463, I, do TST tornava "a briga cara e de
   baixo retorno". Esse cálculo **muda para processos sob o regime novo** — a súmula caiu e o ônus é do

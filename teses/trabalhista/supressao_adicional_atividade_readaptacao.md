@@ -3,11 +3,11 @@ area: trabalhista
 tema: Supressão de adicional de atividade (AAT/AADC) após readaptação profissional
 slug: supressao_adicional_atividade_readaptacao
 status: validada
-gatilhos: [AAT, AADC, AAG, adicional de atividade, empregado readaptado, empregado reabilitado, readaptação funcional, reabilitação profissional, salário-condição, irredutibilidade salarial, art. 461 § 4º CLT, art. 194 CLT, art. 89 da Lei 8.213/91, PCCS 2008, OTT, Súmula 248, Súmula 265]
+gatilhos: [AAT, AADC, AAG, adicional de atividade, adicional de atividade de distribuição e coleta, empregado readaptado, empregado reabilitado, readaptação funcional, reabilitação profissional, carteiro interno, restabelecimento de adicional, salário-condição, irredutibilidade salarial, art. 461 § 4º CLT, art. 194 CLT, art. 89 da Lei 8.213/91, PCCS 2008, OTT, Súmula 248, Súmula 265, auxílio-acidente, espécie 94, CNIS]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/aadc_cumulacao_periculosidade.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-11
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional
@@ -216,6 +216,31 @@ reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorio
 - **Duas readaptações sucessivas.** Empregado readaptado de carteiro para atividade interna, que depois é
   readaptado de novo: se ele **não reclamou o AADC** na primeira readaptação e vem reclamar o AAT na
   segunda, há comportamento contraditório a explorar.
+- **A data da supressão que a inicial informa pode ser falsa — e o CNIS a desmente por aritmética.**
+  Registrado em 09/2026. A inicial datava a supressão do AADC na **reabilitação de 2022**; a coluna de
+  remunerações do **extrato CNIS**, juntado pela própria autora, mostrava queda abrupta de **R$ 693,17**
+  entre dezembro/2018 e fevereiro/2019 — exatamente **30% de um salário-base de R$ 2.310,57**, compatível
+  com um carteiro naquele ano. Se confirmado nos holerites, a supressão é de **2019**, e a pretensão está
+  **totalmente prescrita** (art. 11, § 2º, da CLT).
+  **A conferência, em três passos:** (1) na coluna de remunerações do CNIS, procurar degrau abrupto e
+  **estável** (não sazonal: dezembro e o mês de férias sobem sozinhos); (2) dividir o degrau por 0,30 e ver
+  se o resultado é um salário-base plausível para o cargo naquele ano; (3) cruzar com a data de mudança de
+  função na ficha cadastral.
+  **Duas cautelas que não se dispensam.** A primeira é jurídica: o AADC e o **adicional de periculosidade do
+  motociclista** (art. 193, § 4º, da CLT) são **ambos** 30% do salário-base, de modo que o degrau não diz,
+  por si, qual das duas rubricas caiu — ver
+  [aadc_cumulacao_periculosidade.md](aadc_cumulacao_periculosidade.md). A segunda é de método, e vem da
+  regra 4 do `CONTEXTO.md`: **degrau no CNIS é indício, não fato**. A hipótese fica `[REVISAR]` até vir a
+  **ficha financeira de todo o período** — arguir prescrição total sobre uma data inferida e errar destrói a
+  credibilidade da peça inteira.
+- **Recusa da reabilitação pelo próprio empregado, para não perder o adicional.** Achado de 09/2026, no
+  histórico clínico do PCMSO juntado **pela parte autora**: *"o INSS sugeriu reabilitação à paciente, porém
+  a mesma **recusou por perder o adicional de 30%** aplicável às funções de risco inerentes ao Carteiro
+  Motorizado"*, com remanejamento posterior **ajustado com a chefia imediata**. Serve duas vezes: documenta
+  que o empregado **conhecia a natureza condicional da parcela** desde então (contra a tese de expectativa
+  legítima e de alteração unilateral lesiva), e mostra que a mudança de função foi **consensual**, não
+  imposta. Procurar o registro no prontuário ocupacional e no histórico clínico sempre que a inicial narrar
+  "omissão em readaptar".
 - **Contradição interna da inicial.** Já se viu inicial que afirma "acidente de trabalho" numa folha e
   "doença que lhe incapacitou" em outra. Como toda a tese autoral depende da natureza acidentária, a
   contradição é ponto de ataque — e o ônus é da parte autora.
@@ -224,6 +249,15 @@ reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorio
 - **Impugnação de valores.** A tabela de adicionais publicada no site dos Correios traz a **vigência** no
   cabeçalho; iniciais aplicam o valor **atual** a todo o período retroativo. Conferir as tabelas históricas
   por vigência e impugnar especificamente.
+- **O AADC do carteiro é 30% do SALÁRIO-BASE, não da remuneração** (item 4.8 do PCCS/2008). As iniciais
+  pedem, com frequência, "30% **sobre a remuneração**" — e a diferença é grande, porque a remuneração
+  carrega anuênio, adicionais e gratificações. Impugnação de custo zero que reduz a base de todo o capítulo,
+  inclusive dos reflexos. Conferir a redação do item 4.8 e opor a **interpretação restritiva** da norma que
+  concede benefício não previsto em lei.
+- **Divisão do valor pedido pelo número de meses do período**, para reconstituir a base que a inicial adotou
+  de fato. Num caso de 09/2026 o pedido dava R$ 2.042,33/mês, quando 30% da própria remuneração alegada
+  seriam R$ 1.625,45 — diferença que a inicial não explicava porque **não havia memória de cálculo nos
+  autos**. Impugnável por isso mesmo.
 - **Rito sumaríssimo.** Pedido que fecha com "todos os benefícios que tenham como parâmetro a remuneração"
   não é certo nem determinado: extinção parcial pelo art. 852-B, I e § 1º, da CLT. Reflexo em horas extras
   sem alegação de sobrejornada é pedido sem causa de pedir (art. 330, § 1º, I, do CPC).

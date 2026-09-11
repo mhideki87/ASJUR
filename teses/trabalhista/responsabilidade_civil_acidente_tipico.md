@@ -3,11 +3,11 @@ area: trabalhista
 tema: Responsabilidade civil por acidente típico (objetiva x subjetiva) e quantificação
 slug: responsabilidade_civil_acidente_tipico
 status: validada
-gatilhos: [responsabilidade objetiva, culpa exclusiva da vítima, responsabilidade civil objetiva, Tema 932, art. 927 parágrafo único, atividade de risco, carteiro motorizado, acidente típico, lucros cessantes, pensão mensal vitalícia, art. 950 do CC, periculosidade motociclista]
+gatilhos: [responsabilidade objetiva, culpa exclusiva da vítima, certificado de reabilitação profissional, capacidade laborativa residual, danos emergentes, responsabilidade civil objetiva, Tema 932, art. 927 parágrafo único, atividade de risco, carteiro motorizado, acidente típico, lucros cessantes, pensão mensal vitalícia, art. 950 do CC, periculosidade motociclista]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/culpa_exclusiva_vitima_acidente_transito.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/assalto_agencia_dano_moral.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-11
 ---
 
 # Tese — Responsabilidade civil por acidente típico e quantificação
@@ -119,6 +119,18 @@ previdenciária), e não do ajuizamento da ação.
 - **Designação sem perda salarial** (art. 104, §4º, do Decreto 3.048/99): na ECT, readaptação/designação por
   recomendação médica não reduz salário nem trava a carreira (PCCS) — esvazia o dano material e a agravante
   de desamparo no arbitramento do dano moral.
+- **O certificado de reabilitação traz, impressa, a resposta à pensão de 100%.** Achado de 09/2026: o
+  formulário do INSS consigna que *"o(a) segurado(a) **não estará impedido(a) de exercer outra atividade**
+  para a qual se julgue capacitado(a)"*, ao lado das restrições específicas apuradas em perícia. É
+  declaração da própria autarquia de **capacidade laborativa residual preservada** — transcrevê-la é mais
+  eficaz que qualquer argumento sobre o art. 950 do CC, e vem do documento que a inicial juntou para provar
+  o contrário. Some-se a remuneração atual do empregado, que costuma ser **a maior do contrato**.
+- **O que NÃO alegar: compensação com o auxílio-acidente.** O benefício previdenciário é **cumulável** com a
+  indenização civil (art. 7º, XXVIII, da CF), e pedir o abatimento entrega ao adversário uma resposta de uma
+  linha. O auxílio-acidente serve para **outras duas coisas**, e valiosas: é **marco de ciência inequívoca**
+  (art. 86 da Lei 8.213/91 — ver [doenca_ocupacional.md](doenca_ocupacional.md)) e é prova de que a sequela
+  é **antiga e já reparada no plano previdenciário**, o que pesa no arbitramento do dano moral e na
+  impugnação à gratuidade. Usar nessas duas frentes, nunca como dedução.
 
 ## Jurisprudência (só o que já está confirmado)
 

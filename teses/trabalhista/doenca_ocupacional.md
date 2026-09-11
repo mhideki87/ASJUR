@@ -3,11 +3,11 @@ area: trabalhista
 tema: Doença ocupacional
 slug: doenca_ocupacional
 status: validada
-gatilhos: [acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, NTEP, CNAE, espécie 91, espécie 31, PCMSO, CAT, riscos psicossociais, pensionamento, LER, DORT, transtorno psiquiátrico, acidente de trajeto, Súmula 278 do STJ]
+gatilhos: [acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, NTEP, CNAE, espécie 91, espécie 31, espécie 94, auxílio-acidente, B-94, CNIS, certificado de reabilitação profissional, PCMSO, CAT, histórico clínico ocupacional, riscos psicossociais, pensionamento, danos emergentes, despesas médicas, plano de saúde vitalício, LER, DORT, hérnia de disco, espondiloartrose, doença degenerativa, transtorno psiquiátrico, acidente de trajeto, Súmula 278 do STJ]
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md, modelos/trabalhista/contestacao__doenca_ocupacional.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md]
-atualizado: 2026-09-09
+ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md]
+atualizado: 2026-09-11
 ---
 
 # Tese — Doença ocupacional
@@ -49,6 +49,45 @@ As três frentes abaixo continuam valendo; ali fica o que é próprio do evento 
 - Emissão de **CAT** pela empregadora é cumprimento do dever do art. 22 da Lei 8.213/91 — não confissão de
   culpa (mesma linha do bloco de acidente típico).
 
+## Ler as CATs e o histórico clínico do PCMSO antes de escrever qualquer tese
+
+Registrado em 09/2026, e é a conferência de maior rendimento por minuto gasto deste tema. As CATs e os
+**históricos clínicos lançados pelo médico coordenador do PCMSO da própria ECT** costumam vir anexados
+**pela parte autora**, como prova do adoecimento — e desmentem a inicial em pontos estruturais. Num caso
+real, a leitura de seis folhas de "CAT.pdf" rendeu quatro achados, cada um deles capaz de derrubar um
+capítulo:
+
+1. **A patologia com CAT não é a patologia postulada.** As três CATs eram de **ombro direito / síndrome do
+   manguito rotador (CID M75)**; os pedidos eram de **coluna lombar (M47, M48, M51), joelhos (M23) e
+   quadris**. Não há CAT, comunicação nem enquadramento acidentário para o que se pede — e o resquício do
+   caso antigo aparecia na própria inicial, que em uma folha fala de *"patologias ocupacionais que acometem
+   seus **membros superiores**"* no meio de uma narrativa inteira de membros inferiores. **Comparar sempre
+   CID da CAT x CID do pedido**, um a um.
+2. **"A Ré não emitiu CAT" pode ser simplesmente falso.** A mesma inicial afirmava isso, e a ECT havia
+   emitido CAT **três vezes** (original e duas reaberturas). O pedido de "determinação de emissão de CAT"
+   fica **sem objeto**. Detalhe em
+   [estabilidade_acidentaria_e_cat.md](estabilidade_acidentaria_e_cat.md).
+3. **O campo da situação geradora aponta a atividade que a ECT reputou causadora — e nem sempre é a que a
+   inicial narra.** Ali constava *"exercício repetitivo — atividade desenvolvida triagem de objetos"*, isto
+   é, trabalho **interno**; a inicial construía todo o nexo sobre a **motocicleta** (baú, tanque, colo,
+   quilometragem, amortecedores). O documento da empregadora, juntado pela empregada, contradiz a causa de
+   pedir.
+4. **O histórico clínico registra o que o empregado disse na época, e isso vale mais que a narrativa de
+   hoje.** Achados do mesmo documento: *"Carteira Motorizada há 10 anos e 5 meses"* — que datava o início da
+   função motorizada muito depois da admissão, contra a alegação de "28 anos de carteira motorizada"; o
+   **remanejamento para função interna anos antes** do adoecimento postulado, o que **rompe a exposição** na
+   cadeia causal alegada; e, sobretudo, o registro de que *"o INSS sugeriu reabilitação à paciente, porém a
+   mesma **recusou por perder o adicional de 30%**"*, com remanejamento depois **ajustado com a chefia
+   imediata**.
+
+O achado 4 vale duas vezes: destrói a alegação de **omissão em readaptar** (frente 3) e, no capítulo do
+adicional de atividade, documenta **comportamento contraditório** —
+[supressao_adicional_atividade_readaptacao.md](supressao_adicional_atividade_readaptacao.md).
+
+**Cuidado de tom, que é o mesmo das preliminares:** descrever objetivamente o que o documento diz e deixar o
+contraste falar. Não adjetivar a conduta do subscritor da inicial nem insinuar má-fé — a contradição
+documental é forte justamente por ser silenciosa.
+
 ## Prescrição — na doença insidiosa, o marco é a reabilitação profissional
 
 Em acidente típico a ciência inequívoca é contemporânea ao sinistro
@@ -63,6 +102,41 @@ sido declarado **apto** para função diversa, a **data do certificado de reabil
 inequívoca: as pretensões indenizatórias ligadas ao **cargo anterior** ficam atingidas por **prescrição
 total** (art. 7º, XXIX, da CF; extinção pelo art. 487, II, do CPC), **ainda que o contrato siga em vigor**.
 Pedir sempre, sucessivamente, a prescrição quinquenal das verbas anteriores ao quinquênio.
+
+### Marco ainda anterior à reabilitação: o auxílio-acidente (espécie 94) no CNIS
+
+Registrado em 09/2026. Quando o CNIS traz **benefício espécie 94 — auxílio-acidente**, a data de início do
+benefício (DIB) é um marco de ciência inequívoca **melhor que o certificado de reabilitação**, e em regra
+muito mais antigo. A razão está no próprio pressuposto legal do benefício:
+
+> **Art. 86 da Lei 8.213/91** — o auxílio-acidente é concedido "**após a consolidação das lesões**
+> decorrentes de acidente de qualquer natureza" quando delas resultar "**sequela que implique redução da
+> capacidade para o trabalho que habitualmente exercia**".
+> `[REVISAR: conferir o teor literal do art. 86 e do art. 104 do Decreto 3.048/99 em fonte oficial.]`
+
+Ou seja: ao conceder o benefício, **a própria autarquia declarou lesão consolidada e redução permanente da
+capacidade** — que é, palavra por palavra, o conteúdo da ciência inequívoca da Súmula 278 do STJ. O
+argumento não depende de perícia, não depende de interpretação e vem do documento que a inicial costuma
+juntar por conta própria, para provar o histórico de afastamentos.
+
+**Como usar, e onde ele para:**
+
+- Conferir a **DIB** e se o benefício está **ativo** — auxílio-acidente ativo é, além do marco, prova
+  corrente de que a sequela é antiga e já reparada no plano previdenciário.
+- Casar o marco com o **fim do episódio**: cessação do B-91 e retorno ao trabalho, ou mudança de função na
+  ficha cadastral. O auxílio-acidente costuma ser concedido no dia seguinte à cessação do B-91, e o par
+  "cessou o benefício, voltou ao trabalho em outra função" é o segundo dos dois resultados excludentes do
+  AIRR-620-92.2013.5.04.0204.
+- **Cuidado com a patologia.** O auxílio-acidente se refere a uma lesão determinada. Se a inicial pede por
+  patologias **diversas** daquela (caso real: B-94 e CATs de **ombro**; pedidos de **coluna, joelhos e
+  quadris**), o marco de 2013 não fulmina sozinho as pretensões de 2019/2022. A prejudicial então se monta
+  **em camadas**, e a peça tem de dizer isso com honestidade: (i) **total** pela DIB do B-94, quanto à
+  pretensão fundada no exercício da função, unificada como a própria inicial a deduziu; (ii) **total** quanto
+  a adicional suprimido, pela data real da supressão em folha; (iii) **sucessivamente, quinquenal**.
+- **O reforço que faz a camada (i) funcionar** é a unidade da causa de pedir: a inicial que deduz *uma*
+  doença ocupacional "crônica e progressiva" de décadas na mesma atividade **não pode fatiar esse processo
+  contínuo** para eleger o marco mais conveniente. Combinar com o item "crônico e progressivo não renova
+  prazo consumado", abaixo, e com a data em que o empregado **saiu da atividade alegadamente nociva**.
 
 - Fundamento do marco: *actio nata* (art. 189 do CC) e **Súmulas 230 do STF e 278 do STJ**
   `[REVISAR: conferir teor e numeração em fonte oficial — mesma pendência registrada na ficha de acidente
