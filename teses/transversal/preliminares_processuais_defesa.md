@@ -7,7 +7,7 @@ gatilhos: [rito sumaríssimo, ATSum, art. 852-B, irregularidade de representaç�
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-11
 ---
 
 # Tese — Preliminares processuais recorrentes da defesa
@@ -165,6 +165,20 @@ Isso não é preliminar autônoma — é **reforço** de três outras: da inépc
 de memória de cálculo e da impugnação ao valor da causa. Cuidado com o tom: descrever objetivamente o que
 a peça diz, **sem qualificar a conduta do subscritor** — a inconsistência fala por si, e a ironia
 enfraquece o capítulo.
+
+**d) O pedido cujo valor é incompatível com a própria extensão pedida — subvalorização, e não estimativa.**
+Registrado em 09/2026. A inicial pedia **pensão mensal vitalícia** a 100% da remuneração, em parcela única,
+"até a expectativa de vida (tábua do IBGE)", e a valorava em **12 parcelas vincendas** (art. 292, II, do
+CPC). Com autora de 58 anos, a projeção real passa de **R$ 2 milhões** — vinte e cinco vezes o valor
+indicado. E, para completar, o corpo invocava o **art. 292, II** e o rol, o **art. 292, § 2º**.
+
+É defeito diferente dos anteriores e aproveita em três frentes: (i) o valor da causa não corresponde ao
+proveito econômico pretendido (art. 292, *caput*, do CPC); (ii) a **base dos honorários** de sucumbência
+fica distorcida nos dois sentidos; e (iii) sustenta o pedido de **limitação da condenação** ao valor
+efetivamente indicado para o pedido, que é o que a parte autora elegeu e sobre o que a ré pôde se defender.
+Conferência: dividir o valor do pedido pela parcela mensal declarada e comparar o número de meses obtido com
+o termo final que a própria inicial pede.
+`[REVISAR: construção de 09/2026, ainda não testada em decisão.]`
 
 ## Competência territorial (art. 651 da CLT) — em regra, não impugnar
 

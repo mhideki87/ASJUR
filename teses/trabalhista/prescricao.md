@@ -3,11 +3,11 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento]
+gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento, actio nata, ciência inequívoca, auxílio-acidente, espécie 94]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
-atualizado: 2026-09-10
+ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/trabalhista/doenca_ocupacional.md]
+atualizado: 2026-09-11
 ---
 
 # Tese — Prescrição total
@@ -231,6 +231,19 @@ Duas respostas complementares, para quando a tese vier sem o dispositivo errado:
   [progressao_horizontal_pccs2008.md](progressao_horizontal_pccs2008.md).
   `[REVISAR: verificar se a Súmula 452 sobreviveu à Resolução nº 225/2025 — se também foi cancelada por
   absorção pelo art. 11, § 2º, a prejudicial fica muito mais forte nesses casos.]`
+
+## Pretensão indenizatória por doença ocupacional — o marco é outro, e mora em outra ficha
+
+Esta ficha cuida da prescrição de **crédito trabalhista** por alteração do pactuado. A pretensão
+**indenizatória** por doença ocupacional segue a *actio nata* e a ciência inequívoca da incapacidade, com
+marcos próprios — certificado de reabilitação profissional e, quando houver, a **DIB do auxílio-acidente
+(espécie 94) no CNIS**, que é marco melhor e em regra muito mais antigo, porque o art. 86 da Lei 8.213/91 só
+concede o benefício após consolidação das lesões e com redução permanente da capacidade. Está desenvolvido
+em [doenca_ocupacional.md](doenca_ocupacional.md), seção "Prescrição".
+
+Numa mesma inicial as duas prescrições convivem e **não se confundem**: a indenizatória conta da ciência
+inequívoca; a do adicional suprimido conta da **cessação da rubrica em folha**. Arguir cada uma com o seu
+marco — misturá-las é o erro que o adversário aproveita.
 
 ## Ligações
 

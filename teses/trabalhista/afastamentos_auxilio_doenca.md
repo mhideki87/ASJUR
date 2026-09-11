@@ -7,7 +7,7 @@ gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contra
 pecas: [contestação, contrarrazões, embargos de declaração, complementação de recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__afastamentos.md, modelos/trabalhista/complementacao_ro__efeito_infringente.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-11
 ---
 
 # Tese — Afastamentos (atestado médico / auxílio-doença) e limite de responsabilidade do empregador
