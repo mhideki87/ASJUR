@@ -411,6 +411,8 @@ caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração ·
 `Contraminuta ED` = impugnação a embargos da parte adversa (art. 897-A, § 2º, da CLT) ·
+`Contraminuta AgInt` = contraminuta a agravo interno (art. 1.021 do CPC), inclusive em mandado de
+segurança (criada em 14/09/2026) ·
 `Adit RO` = complementação das razões do recurso ordinário (art. 1.024, § 4º, do CPC) ·
 `Quesitos` = quesitos de perícia · `AIRR` = agravo de instrumento em recurso de revista (criada em
 09/09/2026). Abreviações de tema: `Inc Fun` = incorporação de função ·

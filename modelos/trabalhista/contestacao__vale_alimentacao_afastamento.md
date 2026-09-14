@@ -16,7 +16,7 @@ diária; (ii) a indenização em pecúnia do período não creditado; e (iii) da
 Costuma vir com "anuidade" de prestações vincendas somada ao valor da causa, justiça gratuita e honorários.
 
 Tese e jurisprudência:
-[`teses/trabalhista/vale_alimentacao_cesta_afastamento.md`](../../teses/trabalhista/vale_alimentacao_cesta_afastamento.md).
+[`teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md`](../../teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md).
 
 Distingue-se de `contestacao__limbo_previdenciario.md`, onde os vales são **pedido acessório** do intervalo
 pós-alta, e de `contestacao__afastamentos.md`, cujo eixo é o limite de 15 dias e o desconto de dias. Aqui os
@@ -110,7 +110,7 @@ Fecho + assinatura
 
 ## Ligação com a base de teses
 
-Sustenta [`teses/trabalhista/vale_alimentacao_cesta_afastamento.md`](../../teses/trabalhista/vale_alimentacao_cesta_afastamento.md),
+Sustenta [`teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md`](../../teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md),
 e depende de
 [`afastamentos_auxilio_doenca.md`](../../teses/trabalhista/afastamentos_auxilio_doenca.md) (suspensão do
 contrato, espécie do benefício),

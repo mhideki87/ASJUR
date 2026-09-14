@@ -5,9 +5,9 @@ slug: justa_causa_durante_suspensao_contratual
 status: validada
 gatilhos: [justa causa, espécie 91, art. 482 CLT, reintegração liminar, suspensão dos efeitos da rescisão, Postal Saúde, Súmula 440, art. 30 da Lei 9.656/98, Súmula 414, OJ 142 da SBDI-2]
 pecas: [contestação, mandado de segurança, memoriais, petição de juntada]
-modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md]
-ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/vale_alimentacao_cesta_afastamento.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-10
+modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md, modelos/trabalhista/contraminuta_agravo_interno__ms_justa_causa.md]
+ver_tambem: [teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md, teses/transversal/prerrogativas_processuais_ect.md]
+atualizado: 2026-09-14
 ---
 
 # Tese — Justa causa aplicada durante suspensão do contrato por benefício previdenciário
@@ -142,6 +142,25 @@ segredo de justiça e este repositório é público; o número está no registro
   [descontos_salariais_saldo_negativo.md](descontos_salariais_saldo_negativo.md).
 - **Operadora de autogestão não é parte.** Astreintes contra a ECT por ato cuja execução material depende
   de terceiro estranho à lide desafiam a proporcionalidade (art. 537, § 1º, do CPC).
+- **Obtida a liminar, a peça seguinte é a contraminuta ao agravo interno do empregado — e ela tem padrão.**
+  O agravo costuma trazer **duas ordens de argumento incompatíveis**: invoca os limites da cognição do
+  *mandamus* (que não comportaria exame fático-probatório) e, na sequência, dedica vários tópicos a pedir
+  exatamente essa valoração em seu favor — diligência não atendida no PAD, contradição interna do ato
+  administrativo, sentido dos depoimentos, idade da vítima. **A premissa e o pedido se excluem**, e enunciar
+  isso cedo organiza a resposta inteira: se a cognição não alcança a valoração do conjunto probatório, não a
+  alcança em nenhuma das duas direções. O contra-argumento sobre o ônus é o mesmo da tese central, invertido
+  de direção: a tutela exige de quem a postula a probabilidade do direito (art. 300 do CPC), e a dependência
+  de instrução impede **conceder** a medida, não revê-la. Estrutura completa e trechos em
+  `modelos/trabalhista/contraminuta_agravo_interno__ms_justa_causa.md`.
+- **A alegação de liminar *inaudita altera parte* se volta contra quem a invoca.** O empregado costuma
+  arguir que a liminar do MS foi deferida sem ouvi-lo. A liminar em mandado de segurança é medida que a lei
+  autoriza sem prévia oitiva (art. 7º, III, da Lei 12.016/2009), e a decisão em regra determina, no mesmo
+  ato, a citação do litisconsorte — contraditório exercido no próprio agravo, sem prejuízo (art. 794 da CLT).
+  Mais: **foi a tutela da origem que se deferiu sem ouvir a ECT**, e é essa a hipótese que a SbDI-2 censura
+  no TST-ROT-886-72.2019.5.05.0000, já catalogado acima.
+- **"A empresa já vinha preservando o benefício voluntariamente" — corrigir sempre.** O cumprimento se deu
+  sob astreinte, e cumprimento de ordem sob multa diária não é liberalidade. A frase reaparece no agravo
+  para sugerir que a manutenção do plano não onera a ECT.
 - **A rescisão repercute nas OUTRAS ações do mesmo empregado, e essa é a providência que se esquece.**
   Toda obrigação de fazer de fonte contratual ou normativa pedida em processo paralelo — vales, plano de
   saúde, benefício de ACT — **perde objeto a partir da data da rescisão**, e o juízo pode conhecer do fato

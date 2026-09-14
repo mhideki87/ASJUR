@@ -7,7 +7,7 @@ gatilhos: [extra petita, citra petita, ultra petita, julgamento fora do pedido, 
 pecas: [contrarrazões, recurso ordinário, embargos de declaração]
 modelos: [modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__multa_477_base_calculo.md, modelos/trabalhista/contrarrazoes_ro__vale_cultura.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-14
 ---
 
 # Tese — Devolutividade do RO e renovação de matérias em contrarrazões
@@ -129,6 +129,17 @@ condicionais ao provimento e delimitam o que sobra a julgar.
   propósito, e um só: (...)". Em 1º grau o mesmo fenômeno tem tratamento próprio e mais incisivo (inépcia
   por indeterminação da causa de pedir) — ver
   [preliminares_processuais_defesa.md](preliminares_processuais_defesa.md).
+- **Conferir se a citação que o recurso atribui à decisão existe mesmo nela.** É a variante mais grave do
+  item anterior, e a conferência é mecânica: busca literal, no texto da decisão, de **cada** expressão que o
+  recurso transcreve entre aspas como sendo dela. Em contraminuta a agravo interno de 09/2026, o recurso
+  atribuiu à fundamentação do Relator a frase *"a discussão sobre a validade material da justa causa apurada
+  no PAD demanda contraditório e dilação probatória"* — e a decisão **não a continha**: a expressão "validade
+  material" não aparecia uma única vez, e "dilação probatória" comparecia só **dentro de ementa transcrita
+  do C. TST**, cuja conclusão era a oposta (a dilação é *vedada* na via mandamental, e por isso a liminar
+  fora cassada naquele precedente). Achando algo, cai de uma vez todo tópico que se apoie na citação — ali
+  eram três dos oito. **Como escrever:** transcrever a passagem do recurso, dizer que a decisão não a contém,
+  demonstrar pela busca literal e convidar à conferência — sem qualificar a conduta do subscritor, pela
+  regra 10 do `CONTEXTO.md`. A força está no fato, não no adjetivo.
 - **Trânsito em julgado parcial.** Listar em alíneas os capítulos não impugnados, na síntese, e requerer o
   registro nos pedidos. É o que impede a devolutividade de escorregar para capítulos já vencidos.
 - **Prequestionamento é obrigatório mesmo em contrarrazões** — sem ele a matéria não sobe. No **rito

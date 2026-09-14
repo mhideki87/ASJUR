@@ -129,3 +129,13 @@ egresso para as fontes oficiais, e resumo de busca não confere norma. Em ordem 
 - [ ] **Data de publicação da ata do julgamento de mérito da ADC 80** — já registrada acima, repetida aqui
       porque uma segunda sessão precisou dela para datar um processo. É conferência **recorrente**, não
       pontual: enquanto não estiver anotada, toda análise de gratuidade paga o mesmo custo.
+- [ ] **Prazo do agravo interno em mandado de segurança na Justiça do Trabalho — 8 ou 15 dias?** Em
+      contraminuta de 09/2026 o agravante foi intimado em **21/08** (sexta) e protocolou em **08/09**: fora
+      dos 8 dias úteis (esgotados em 02/09, contado o feriado de 07/09), dentro dos 15 do art. 1.021 do CPC
+      (14/09). Ele não indicou fundamento legal do prazo, apenas o cálculo do PJe. A preliminar de
+      intempestividade **ficou de fora da peça** por não ter sido possível conferir o Regimento Interno do
+      TRT24 sem acesso à rede — e, se o prazo for mesmo de 8 dias, ela é dispositiva e torna todo o resto
+      subsidiário. Conferir em sessão local: Regimento Interno do TRT24, art. 6º da Lei 5.584/70 e a
+      orientação do C. TST sobre a aplicação do prazo de 8 dias aos recursos internos no processo do
+      trabalho. Registrar em
+      `modelos/trabalhista/contraminuta_agravo_interno__ms_justa_causa.md` quando fechar.
