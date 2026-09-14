@@ -3,11 +3,11 @@ area: trabalhista
 tema: Defesa contra pedido de indenização por assédio moral
 slug: assedio_moral_defesa
 status: validada
-gatilhos: [assédio moral, assedio moral, perseguição, perseguicao, humilhação, constrangimento, abuso de poder, ambiente hostil, ócio forçado, isolamento no trabalho, tratamento degradante, dano extrapatrimonial, art. 223-A CLT, art. 223-G CLT, art. 186 CC, art. 927 CC, cartilha de assédio, CIPAA, canal de denúncia, ouvidoria, comissão de ética, tramitação preferencial assédio]
+gatilhos: [assédio moral, perseguição, humilhação, constrangimento, abuso de poder, ambiente hostil, ócio forçado, isolamento no trabalho, tratamento degradante, dano extrapatrimonial, art. 223-A CLT, art. 223-G CLT, art. 186 CC, art. 927 CC, cartilha de assédio, CIPAA, canal de denúncia, ouvidoria, comissão de ética, tramitação preferencial assédio]
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__transferencia_lotacao.md]
 ver_tambem: [teses/trabalhista/transferencia_lotacao_poder_diretivo.md, teses/trabalhista/justa_causa_pad_assedio.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/doenca_ocupacional.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-14
 ---
 
 # Tese — Defesa contra pedido de indenização por assédio moral

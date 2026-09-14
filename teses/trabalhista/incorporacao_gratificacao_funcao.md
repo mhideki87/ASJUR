@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, agravo de instrumento, AIRR, decisão denegatória, denegação de seguimento, juízo de admissibilidade, ofensa reflexa, Súmula 126, Súmula 636 do STF, art. 896 § 9º CLT, art. 896 § 1º-A CLT, art. 897 CLT]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, AIRR, art. 896 § 9º CLT, art. 896 § 1º-A CLT]
 pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-14
 ---
 
 # Tese — Incorporação de gratificação de função
