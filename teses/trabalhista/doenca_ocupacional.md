@@ -3,11 +3,11 @@ area: trabalhista
 tema: Doença ocupacional
 slug: doenca_ocupacional
 status: validada
-gatilhos: [acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, NTEP, CNAE, espécie 91, espécie 31, espécie 94, auxílio-acidente, B-94, CNIS, certificado de reabilitação profissional, PCMSO, CAT, histórico clínico ocupacional, riscos psicossociais, pensionamento, danos emergentes, despesas médicas, plano de saúde vitalício, LER, DORT, hérnia de disco, espondiloartrose, doença degenerativa, transtorno psiquiátrico, acidente de trajeto, Súmula 278 do STJ]
+gatilhos: [acidente de trabalho, nexo causal, concausa, incapacidade, perícia médica, NTEP, CNAE, espécie 91, espécie 31, espécie 94, auxílio-acidente, B-94, CNIS, reabilitação profissional, PCMSO, CAT, riscos psicossociais, pensionamento, danos emergentes, despesas médicas, plano de saúde vitalício, LER, DORT, hérnia de disco, espondiloartrose, doença degenerativa, transtorno psiquiátrico, acidente de trajeto, Súmula 278 do STJ]
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md, modelos/trabalhista/contestacao__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md]
-atualizado: 2026-09-11
+atualizado: 2026-09-14
 ---
 
 # Tese — Doença ocupacional

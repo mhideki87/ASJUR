@@ -3,11 +3,11 @@ area: trabalhista
 tema: Bis in idem — reparação do mesmo dano já deferida em ação anterior
 slug: bis_in_idem_reparacao_ja_deferida
 status: validada
-gatilhos: [bis in idem, dupla reparação, ação anterior, coisa julgada, ação anterior entre as mesmas partes, título judicial anterior, trânsito em julgado, pensionamento já deferido, pensão em parcela única, art. 950 do CC, art. 944 do CC, art. 884 do CC, enriquecimento sem causa, dedução, abatimento, compensação, Súmula 18 do TST, art. 368 do CC, reparação integral, restitutio in integrum, lucros cessantes, incapacidade parcial e definitiva]
+gatilhos: [dupla reparação, ação anterior, coisa julgada, título judicial anterior, trânsito em julgado, pensionamento já deferido, pensão em parcela única, art. 950 do CC, art. 944 do CC, art. 884 do CC, enriquecimento sem causa, dedução, abatimento, compensação, Súmula 18 do TST, art. 368 do CC, reparação integral, restitutio in integrum, lucros cessantes, incapacidade parcial e definitiva]
 pecas: [contestação, contrarrazões, recurso ordinário, embargos de declaração]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/assedio_moral_defesa.md, teses/trabalhista/transferencia_lotacao_poder_diretivo.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-14
 ---
 
 # Tese — Bis in idem: reparação do mesmo dano já deferida em ação anterior

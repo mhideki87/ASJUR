@@ -3,11 +3,11 @@ area: trabalhista
 tema: Limbo previdenciário-trabalhista (alta do INSS × exame de retorno)
 slug: limbo_previdenciario
 status: validada
-gatilhos: [limbo previdenciário, limbo jurídico previdenciário, alta previdenciária, alta programada, DCB, cessação do benefício, exame de retorno, ASO de retorno, Tema 088, empregado inapto para retorno, art. 4º CLT, tempo à disposição, sem salário e sem benefício, retorno ao trabalho negado]
+gatilhos: [limbo jurídico previdenciário, alta previdenciária, alta programada, DCB, cessação do benefício, exame de retorno, ASO de retorno, Tema 088, empregado inapto para retorno, art. 4º CLT, tempo à disposição, sem salário e sem benefício, retorno ao trabalho negado]
 pecas: [contestação, contrarrazões]
 modelos: [modelos/trabalhista/contestacao__limbo_previdenciario.md]
 ver_tambem: [teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-04
+atualizado: 2026-09-14
 ---
 
 # Tese — Limbo previdenciário-trabalhista (alta do INSS × exame de retorno)

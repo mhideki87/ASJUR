@@ -3,11 +3,11 @@ area: trabalhista
 tema: Remanejamento de lotação e poder diretivo (art. 469 da CLT)
 slug: transferencia_lotacao_poder_diretivo
 status: validada
-gatilhos: [transferência, transferência compulsória, remoção, remanejamento, mudança de lotação, alteração de lotação, unidade de lotação, necessidade de serviço, art. 469 CLT, art. 468 CLT, jus variandi, poder diretivo, alteração contratual lesiva, retorno à lotação anterior, permanência na unidade, portaria de transferência, agência de atendimento, readaptação em ambiente fechado, empregado PcD, pessoa com deficiência, visão monocular, adaptação razoável, Lei 13.146/2015, Estatuto da Pessoa com Deficiência, PDV, PDI, plano de desligamento incentivado, desfalque de unidade, MANPES 23, MANPES Módulo 23, transferência interna por necessidade de serviço, mudança de domicílio, ajuda de custo de transferência, QLP, dimensionamento de efetivo]
+gatilhos: [transferência, remoção, remanejamento, lotação, necessidade de serviço, art. 469 CLT, poder diretivo, alteração contratual lesiva, permanência na unidade, PcD, pessoa com deficiência, visão monocular, adaptação razoável, Lei 13.146/2015, PDV, PDI, plano de desligamento incentivado, MANPES 23, MANPES Módulo 23, mudança de domicílio, ajuda de custo, QLP]
 pecas: [contestação, contrarrazões, recurso ordinário, manifestação sobre tutela de urgência]
 modelos: [modelos/trabalhista/contestacao__transferencia_lotacao.md]
 ver_tambem: [teses/trabalhista/assedio_moral_defesa.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-11
+atualizado: 2026-09-14
 ---
 
 # Tese — Remanejamento de lotação e poder diretivo

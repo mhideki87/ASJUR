@@ -208,6 +208,15 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
   intimação para comprovar renda. É o cenário em que o cálculo de custo-benefício abaixo decide sozinho, sem
   precisar de tese nenhuma — e ele se repetirá em todo o acervo de terceirização, cuja parte autora é, por
   definição, de baixa renda.
+- **O que decide não é só o valor da causa: é a facilidade da prova contrária.** Contestação de 09/2026
+  (vales de ACT em afastamento, ajuizamento em **julho/2026** — regime anterior) com valor da causa de
+  **pouco mais de quarenta mil reais**: valor médio, que pelos dois exemplos acima ficaria na fronteira. O
+  tópico se abriu, e por outro motivo — a parte é **empregado público federal com mais de duas décadas de
+  contrato**, cuja remuneração está documentada na **ficha cadastral e nas fichas financeiras da própria
+  ECT**. Aí a impugnação custa dois parágrafos e a prova contrária já está em mãos, ao contrário do acervo
+  de terceirização, em que a renda é baixa e a prova é da parte adversa. Regra prática: antes de decidir
+  pelo valor da causa, perguntar **quem tem o documento da renda** — sendo a própria ECT a empregadora, o
+  tópico quase sempre compensa.
 - **A calibração inversa, e ela faltava: causa de valor alto sob o regime anterior — aí o tópico se abre.**
   Contestação de 09/2026 (espólio de motorista de transportadora, ajuizamento em **julho/2026**, portanto
   também regime anterior) com valor da causa de **mais de quatrocentos mil reais** e honorários postulados
