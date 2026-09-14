@@ -2,7 +2,7 @@
 
 **Consolidado de:** 1 arquivo-modelo (já preparado pelo próprio usuário como peça-mestra multiuso,
 anonimizado — ver `contestacao__incorporacao_funcao.docx` neste mesmo diretório).
-**Última atualização:** 2026-09-05 — advertência sobre erros de data no `.docx`, estrutura real conferida
+**Última atualização:** 2026-09-14 — impugnação do Módulo 55 passa a ser obrigatória (correção de rota determinada pelo usuário); antes disso, 2026-09-05 — advertência sobre erros de data no `.docx`, estrutura real conferida
 contra contestação aprovada, blocos acrescidos em minuta real, Súmula 372, I, cancelada pela Res. nº
 225/2025 do TST (bloco de *overruling* obsoleto nessa parte), data de revogação do Módulo 36 fixada em
 05/05/2014, e **três blocos condicionais que saem errados se copiados sem conferir a condição**.
@@ -54,7 +54,7 @@ MÉRITO
           de gratificações a servidor público, Lei 8.112/90; princípios do art. 37, caput, CF)
     1.4 — Impossibilidade de contagem do período de "Motorizado" [SE HOUVER essa função] — natureza de
           adicional de risco, não de gratificação de confiança
-    1.4 — Impossibilidade de contagem do período de "Quebra de Caixa" [SE HOUVER essa função] — salário-
+    1.5 — Impossibilidade de contagem do período de "Quebra de Caixa" [SE HOUVER essa função] — salário-
           condição que cobre prejuízo de caixa, não fidúcia especial
   2 — Incorporação com base nas normas internas (Módulos 55/36 do MANPES) [SE HOUVER arguição de normas
       internas, além ou em vez da Súmula 372]
@@ -62,9 +62,13 @@ MÉRITO
           Reclamante tenha preenchido os requisitos temporais (5 anos para FAT/FAO; 10 anos para ITF/GPTF)
           antes ou depois da respectiva revogação; escolher a variante certa é o ponto mais sensível deste
           bloco (ver "Variações observadas")
-    2.2 — Aplicação integral das normas internas, ad cautelam (dispensa, metodologia de cálculo, vedação de
+    2.2 — Módulo 55 / FAT-FAO: ausência de pedido e inaplicabilidade — SEMPRE, mesmo quando a inicial só
+          pede ITF (impugnação por dever de eventualidade, que barra a parcela em réplica e em liquidação);
+          ver "Blocos acrescidos em minuta real (09/2026) — Módulo 55" para a fórmula que evita afirmar
+          fato desmentido pela ficha cadastral
+    2.3 — Aplicação integral das normas internas, ad cautelam (dispensa, metodologia de cálculo, vedação de
           cumulação de duas funções gratificadas, compensação)
-    2.3 — Percentual e base de cálculo da parcela a incorporar [variante quando o requisito temporal foi só
+    2.4 — Percentual e base de cálculo da parcela a incorporar [variante quando o requisito temporal foi só
           parcialmente preenchido] — usar sempre `XX%` como placeholder do percentual até o cálculo exato
   3 — Incorporação de parcelas por substituição — impossibilidade [SE HOUVER período de substituição] —
       Módulo 55, item 3.1.1: só computa substituição contínua superior a 180 dias
@@ -196,8 +200,13 @@ si**, mas cuja condição de uso é fácil de não checar. Cada um destes teria 
 2. **O bloco que afirma que o autor "não preencheu os 5 anos da FAT/FAO".** Exige contagem própria antes de
    copiar: com admissão antiga, o requisito de **5 anos do Módulo 55 pode estar cumprido** em 01/05/2012
    mesmo quando o de 10 anos do Módulo 36 não está em 05/05/2014 (é exatamente a variante 2 do item 2.1).
-   Afirmar o contrário é alegar fato falso, conferível na ficha cadastral. Se a inicial não pede FAT/FAO,
-   **não abrir a discussão** (arts. 141 e 492 do CPC).
+   Afirmar o contrário é alegar fato falso, conferível na ficha cadastral.
+   **⚠ Corrigido em 09/2026 — a orientação anterior era "se a inicial não pede FAT/FAO, não abrir a
+   discussão". Não é a prática do escritório.** O usuário determinou que a inaplicabilidade do Módulo 55
+   seja impugnada **sempre**, ainda que a inicial só peça ITF: a impugnação entra **por dever de
+   eventualidade**, e serve justamente para barrar a introdução da parcela em réplica, em liquidação ou por
+   "interpretação lógica do pedido" (art. 322, § 2º, do CPC). Como redigir sem abrir o flanco, no bloco
+   novo da seção "Blocos acrescidos em minuta real (09/2026) — Módulo 55".
 3. **O bloco que afirma que "a última tabela de gratificações de função é a vigente a partir de 01/05/2015,
    não tendo havido reajuste desde então".** Conferir nas fichas financeiras do caso: em caso de 2026 a
    gratificação evoluiu de R$ 719,15 (2017) para R$ 1.225,68 (2025) — a afirmação seria desmentida pelo
@@ -258,12 +267,48 @@ Especial" em todos os períodos), **dispensa da função posterior** à Reforma,
    RGPS e o empregado **segue ativo** (a dispensa foi só da função) — diferente do caso de 09/2026, de valor
    ínfimo, em que a ficha recomendava não abrir.
 
-**Dois blocos do modelo que NÃO entraram, e a razão importa:** "inexistência de supressão" (houve supressão
-real, sem recomissionamento) e "ausência de prova da destituição sem justo motivo" (GCR "Qualificado" em
-todos os anos e ficha disciplinar sem penalidade — arguir seria alegar contra documento da própria ECT).
-Some-se a decisão de **não abrir a discussão do Módulo 55/FAT-FAO**: o empregado completara os 5 anos antes
-de 01/05/2012, mas a inicial não pediu a parcela, e levantá-la entregaria flanco inexistente no processo
-(arts. 141 e 492 do CPC). Registrar o ponto para o advogado, como risco de réplica.
+## Blocos acrescidos em minuta real (09/2026) — Módulo 55
+
+**Correção de rota, determinada pelo usuário.** Na primeira versão daquela minuta o tópico do Módulo 55
+ficou de fora, porque o empregado completara os 5 anos **antes** de 01/05/2012 e a inicial não pedia a
+parcela — o raciocínio era que levantá-la abriria flanco inexistente. **O usuário mandou complementar a
+peça**, e a regra do escritório passa a ser: **impugnar a inaplicabilidade do Módulo 55 sempre**, mesmo com
+a inicial pedindo só a ITF.
+
+A razão é boa e vale registrar: a impugnação por dever de eventualidade **fecha a porta** para a parcela
+entrar depois — em réplica, em liquidação ou por interpretação extensiva do pedido —, e o silêncio é que
+deixa a porta aberta.
+
+**Como redigir sem entregar o fato que a ficha cadastral comprova.** O problema real existe: negar o
+requisito temporal seria alegar fato falso. A solução usada, e que deve ser reaproveitada, é **não tocar no
+tempo** e apoiar o tópico no requisito que de fato falta:
+
+> "Seja qual for o tempo de função acumulado pelo Reclamante em 01/05/2012, esse segundo requisito só se
+> verificou em [DATA DA DISPENSA] — [N] anos depois de o normativo deixar de existir."
+
+A fórmula torna a questão temporal irrelevante, e o tópico se sustenta em quatro camadas, nesta ordem:
+
+1. **Ausência de pedido** — a FAT/FAO não integra o objeto litigioso (arts. 141, 329 e 492 do CPC), com
+   requerimento expresso de que isso fique consignado, e menção ao art. 322, § 2º, do CPC.
+2. **Requisito cumulativo da dispensa não verificado na vigência** — é a camada que a fórmula acima abre.
+3. **Substituição do regime** — não estando o empregado dispensado da função na data da revogação, nada
+   havia a preservar sob o normativo anterior; sua situação passou a reger-se pelo Módulo 36, que é o que a
+   inicial invoca.
+4. **Prescrição total com marco mais antigo ainda** — 01/05/2012, que reforça a prejudicial já deduzida
+   quanto ao Módulo 36 (05/05/2014). Levar os dois marcos também para o rol de requerimentos.
+
+Fechar com o *ad cautelam* das **substituições**: período inferior a 180 dias contínuos não integra
+contagem alguma (item 3.1.1 do Módulo 55) — conferir no quadro "FUNÇÕES" da ficha cadastral se há algum, e
+se a planilha da inicial o computou.
+
+`[REVISAR: a base transcreve o requisito cumulativo da dispensa para o Módulo 36 (Cap. 2, item 1.1), não
+para o Módulo 55. Juntar a íntegra do Módulo 55 e do ato que o revogou e conferir a redação literal dos
+requisitos da FAT/FAO — a camada 2 depende disso.]`
+
+**Dois blocos do modelo que continuam sem entrar nesse caso, e a razão importa:** "inexistência de
+supressão" (houve supressão real, sem recomissionamento) e "ausência de prova da destituição sem justo
+motivo" (GCR "Qualificado" em todos os anos e ficha disciplinar sem penalidade — arguir seria alegar contra
+documento da própria ECT).
 
 **Ordem de força dos argumentos quando a dispensa da função é POSTERIOR a 11/11/2017:** (i) natureza da
 parcela, quando a função é atividade especial — zera o decênio e dispensa discutir a aritmética do autor;

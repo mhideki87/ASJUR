@@ -530,6 +530,30 @@ da norma; (b) **afastamentos previdenciários** zeram a rubrica de gratificaçã
 consomem o interstício de 180 dias do item 1.2 do Capítulo 2 do Módulo 36, postergando ainda mais o
 implemento. Sempre pedir à área o cômputo oficial mês a mês.
 
+**Quando cai nesta variante, o Módulo 55 vira tópico obrigatório da peça — e a redação tem uma armadilha.**
+Regra do escritório fixada em 09/2026: **impugnar a inaplicabilidade do Módulo 55 sempre**, ainda que a
+inicial peça só a ITF. A impugnação entra **por dever de eventualidade** e serve para barrar a parcela em
+réplica, em liquidação ou por "interpretação lógica do pedido" (art. 322, § 2º, do CPC) — o silêncio é que
+deixa a porta aberta.
+
+A armadilha é que, nesta variante, o requisito temporal de 5 anos **está cumprido**, e negá-lo é alegar
+fato desmentido pela ficha cadastral. A saída é **não tocar no tempo** e apoiar o tópico no requisito que
+de fato falta:
+
+> "Seja qual for o tempo de função acumulado pelo Reclamante em 01/05/2012, esse segundo requisito só se
+> verificou em [DATA DA DISPENSA] — [N] anos depois de o normativo deixar de existir."
+
+Quatro camadas, nesta ordem: (i) ausência de pedido (arts. 141, 329 e 492 do CPC), com requerimento de que
+fique consignado; (ii) requisito cumulativo da dispensa não verificado na vigência, pela fórmula acima;
+(iii) substituição do regime pelo Módulo 36, que é o que a inicial invoca; (iv) prescrição total com marco
+mais antigo ainda — 01/05/2012. Estrutura completa e o *ad cautelam* das substituições em
+`modelos/trabalhista/contestacao__incorporacao_funcao.md`, seção "Blocos acrescidos em minuta real
+(09/2026) — Módulo 55".
+
+`[REVISAR: esta ficha transcreve o requisito cumulativo da dispensa para o Módulo 36 (Cap. 2, item 1.1),
+não para o Módulo 55. Juntar a íntegra do Módulo 55 e do ato que o revogou e conferir a redação literal dos
+requisitos da FAT/FAO — a camada (ii) depende disso.]`
+
 ## Quantum — metodologia da própria norma afasta os 100% pedidos
 
 O item **2.4 do Capítulo 3 do Módulo 36** estabelece a metodologia de cálculo:
