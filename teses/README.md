@@ -59,6 +59,40 @@ O que **corta primeiro**, quando o pedágio apertar:
 
 Alvo de **6 a 10 gatilhos** por ficha. Acima de 12 quase sempre há redundância.
 
+### Quanto isso pesa, medido (14/09/2026)
+
+Numa base de 50 fichas, a tabela do `INDICE.md` se reparte assim: **gatilhos 61%**, link 22%, tema 15%,
+área 2%. Ou seja, quando o índice é lido por inteiro, **são os gatilhos que se paga** — enxugar é o lever
+certo, e não o texto das fichas.
+
+Mas a conta é lenta: uma limpeza de **45 gatilhos** em 11 fichas pesadas devolveu ~1,2 KB, de 32,2 para
+31,0 KB de pedágio (48% → 47%). Zerar o alerta dos 40% exigiria cortar da ordem de **170 gatilhos** no
+acervo inteiro — decisão de outra escala, que aí sim custaria recall. Enquanto o roteamento for feito pelo
+`scripts/rotear.py`, que casa fora do contexto, o pedágio não é pago e o alerta é informativo.
+
+### Como cortar sem perder recall
+
+1. **Redundância mecânica primeiro**, que é grátis: gatilho cujos tokens contêm, de forma contígua, os
+   tokens de outro gatilho (ou do `tema`) nunca casa sozinho — `transferência compulsória` ao lado de
+   `transferência`, `multa do art. 467` ao lado de `art. 467`. Tira-se o **mais longo**.
+2. **Duplicata literal.** O roteamento normaliza acento e caixa, então `assédio moral` e `assedio moral`
+   na mesma lista são o mesmo gatilho escrito duas vezes. Já aconteceu, duas vezes na mesma ficha.
+3. **Trocar por forma mais curta e mais geral**, quando existe: `ajuda de custo de transferência` →
+   `ajuda de custo`; `empregado PcD` → `PcD`. Encurta e amplia ao mesmo tempo.
+4. **Depois, o critério de conteúdo:** detalhe interno da tese (o que só faz sentido com a ficha já aberta,
+   como os requisitos do art. 461 numa ficha de equiparação) e termo genérico demais para discriminar.
+5. **Testar o que se cortou.** Passar pelo `rotear.py` uma frase com **cada termo removido**, na forma como
+   a inicial o escreveria, e conferir que a ficha continua casando. Na limpeza de 14/09/2026 os 18 casos
+   passaram — o corte não custou recall nenhum, porque só saiu o que outro gatilho já cobria.
+
+### O antipadrão que essa limpeza revelou
+
+**Cluster de admissibilidade recursal dentro de ficha de mérito.** A ficha de incorporação de gratificação
+carregava 11 gatilhos sobre agravo de instrumento, denegação de seguimento, juízo de admissibilidade e
+ofensa reflexa — termos que não identificam o **tema**, e que faziam a ficha abrir em qualquer processo com
+recurso trancado. Depois do corte, um pedido recursal sobre insalubridade deixou de arrastá-la. Sintoma a
+procurar: gatilho que descreve a **fase processual**, não a matéria.
+
 **Cortar gatilho custa recall.** Um termo a menos é um caminho a menos até a ficha; se o roteamento
 deixar de achá-la, a tese não entra na peça — prejuízo muito maior que o do pedágio. Na dúvida sobre um
 termo específico, mantenha. Corte o que é claramente redundante, não o que é apenas raro.

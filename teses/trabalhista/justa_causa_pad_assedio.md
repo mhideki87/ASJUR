@@ -5,7 +5,7 @@ slug: justa_causa_pad_assedio
 status: validada
 gatilhos: [processo administrativo disciplinar, MANCOD, Regulamento de Pessoal, assédio sexual, jovem aprendiz, art. 482 CLT, reversão da justa causa, perdão tácito, dosimetria, prova digital, CFTV, afastamento cautelar]
 pecas: [contestação, contrarrazões, recurso ordinário, mandado de segurança]
-modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md]
+modelos: [modelos/trabalhista/mandado_seguranca__tutela_reintegracao.md, modelos/trabalhista/contraminuta_agravo_interno__ms_justa_causa.md]
 ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/temas_acessorios.md]
 atualizado: 2026-09-14
 ---
@@ -87,6 +87,24 @@ qualquer requerimento de prova da defesa a motivação de pertinência; (iii) a 
 - **Perdão tácito por "manutenção em atividade".** Conferir se o empregado esteve de fato trabalhando no
   período: afastamento previdenciário concomitante derruba a alegação — e frequentemente a própria inicial
   fornece a data que a desmente.
+- **Contradição interna alegada na decisão do CODIS.** Antes de responder, verificar se o ponto
+  contraditório **integra o tipo disciplinar**. Em agravo de 09/2026 apontou-se que a decisão registrava, num
+  trecho, que o aprendiz deixara a unidade por convocação militar e, noutro, atribuía a saída a abalo
+  psicológico. As duas circunstâncias não se excluem — a convocação explica a *forma* do desligamento, não o
+  estado que o precedeu —, e, sobretudo, **o motivo da saída da vítima não é elemento da imputação**:
+  suprimida por inteiro a passagem, o suporte fático permanece íntegro. Fechar com a própria ressalva do
+  recorrente, quando ele diz não pedir que o julgador escolha entre as versões: é exatamente o que se
+  requer — que não se escolha.
+- **"A defesa desmentiu a afirmação de que todos os depoentes o contradisseram".** Ler o que a tese adversa
+  de fato sustenta antes de rebater: às vezes **ela agrava**. Sustentar que o conteúdo sexual "foi
+  encaminhado a todos os homens da unidade" é admitir difusão de material pornográfico no ambiente de
+  trabalho, a colegas e subordinados — deixa de ser um envio e passa a ser vários. Somar que a admissão na
+  esfera administrativa torna incontroverso o núcleo do fato (art. 374, II e III, do CPC) e que o conjunto
+  apurado não se resume a esse elemento.
+- **Diligência de prova não atendida no PAD.** A nulidade depende de **prejuízo manifesto** (art. 794 da
+  CLT), e o recurso costuma ressalvar que "não afirma, neste momento", a nulidade — citar a ressalva.
+  Verificar depois se a prova requerida alcançaria as condutas imputadas: imagens de circuito interno não
+  incidem sobre mensagens privadas nem sobre abordagem em ambiente reservado.
 
 ## Jurisprudência (só o que já está confirmado)
 

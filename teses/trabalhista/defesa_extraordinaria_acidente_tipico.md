@@ -3,11 +3,11 @@ area: trabalhista
 tema: Defesa do acórdão favorável em acidente típico na fase extraordinária (RR/AIRR)
 slug: defesa_extraordinaria_acidente_tipico
 status: validada
-gatilhos: [recurso de revista, agravo de instrumento, agravo de instrumento em recurso de revista, AIRR, contraminuta, contrarrazões ao recurso de revista, despacho denegatório, juízo de admissibilidade, teste da premissa fática, prova diabólica, aptidão para a prova, Súmula 126, Súmula 296, Súmula 333, Súmula 337, art. 896 § 7º, transcendência, art. 896-A, capítulos prejudicados, supressão de instância, culpa presumida]
+gatilhos: [recurso de revista, agravo de instrumento, AIRR, contraminuta, despacho denegatório, juízo de admissibilidade, teste da premissa fática, prova diabólica, aptidão para a prova, Súmula 126, Súmula 296, Súmula 333, Súmula 337, art. 896 § 7º, transcendência, art. 896-A, capítulos prejudicados, supressão de instância, culpa presumida]
 pecas: [contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contrarrazoes_rr_contraminuta_ai__acidente_trabalho.md]
 ver_tambem: [teses/trabalhista/responsabilidade_civil_acidente_tipico.md, teses/trabalhista/culpa_exclusiva_vitima_acidente_transito.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/doenca_ocupacional.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-14
 ---
 
 # Tese — Defesa do acórdão favorável em acidente típico na fase extraordinária

@@ -3,11 +3,11 @@ area: trabalhista
 tema: Desvio de função e equiparação salarial (enquadramento no PCCS)
 slug: desvio_funcao_equiparacao_salarial
 status: rascunho
-gatilhos: [desvio de função, desvio funcional, equiparação salarial, paradigma, art. 461 CLT, isonomia salarial, diferenças salariais, reenquadramento, enquadramento, PCCS, plano de cargos, plano de cargos e salários, descrição de cargos, quadro de carreira, Súmula 6, Súmula 275, OJ 125, Agente de Correios, Analista de Correios, Técnico de Correios, reabilitação profissional, readaptação, acúmulo de função, perfeição técnica, igual produtividade, identidade de tarefas, complexidade das atribuições, qualificação técnica, sistema de chamados, certificação digital, programação]
+gatilhos: [desvio de função, desvio funcional, equiparação salarial, paradigma, art. 461 CLT, isonomia salarial, reenquadramento, enquadramento, PCCS, plano de cargos, descrição de cargos, quadro de carreira, Súmula 6, Súmula 275, OJ 125, Agente de Correios, Analista de Correios, Técnico de Correios, reabilitação profissional, readaptação, acúmulo de função]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__desvio_funcao_equiparacao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/transversal/preliminares_processuais_defesa.md, teses/transversal/justica_gratuita_adc80.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-14
 ---
 
 # Tese — Desvio de função e equiparação salarial (enquadramento no PCCS)
