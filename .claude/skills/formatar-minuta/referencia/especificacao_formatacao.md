@@ -203,6 +203,12 @@ Atenção a três pontos contraintuitivos: `jc` (alinhamento) vem **depois** de 
 base e regrava apenas `word/document.xml`, preservando o `sectPr` original. Assim cabeçalho, rodapé,
 logotipo, estilos e página nunca se degradam de uma geração para a outra.
 
+A conferência do arquivo gerado é **pelo XML**, não abrindo o documento: em sessão cloud/web o LibreOffice
+do container não carrega `.docx` nenhum — nem o próprio `modelos/_FORMATO_BASE.docx` (constatado em
+14/09/2026: `soffice --headless --convert-to pdf` responde `Error: source file could not be loaded`). Não
+gaste tempo tentando converter para PDF só para olhar o resultado; rode o script abaixo. Conferência visual
+de verdade é local, abrindo o arquivo no Word.
+
 Conferência de um arquivo gerado — rodar **sempre** antes de entregar:
 
 ```bash
