@@ -341,6 +341,22 @@ Regras:
   pessoa, nunca desativar ou pular teste para ficar verde, nunca subir dado real de parte para o
   repositório.
 
+**Depois do merge, a branch da sessão some — e o aviso de "commit não enviado" que aparece então é falso.**
+O merge por squash cria um commit novo no `main` e o GitHub apaga a branch remota. A referência local
+`origin/claude/*` fica velha, apontando para o commit pré-squash, e o hook de fim de sessão lê essa
+diferença como trabalho por enviar. Não é: o conteúdo já está no `main`. Tentar `--force-with-lease` falha
+com `stale info`, porque a branch remota que a trava espera encontrar não existe mais. O conserto é
+`git fetch --prune origin` e um push comum, que recria a branch no ponto atual (constatado em 14/09/2026):
+
+```bash
+git fetch origin main && git checkout -B <branch da sessão> origin/main
+git fetch --prune origin && git push -u origin <branch da sessão>
+```
+
+Antes de mexer, confira se o que parece pendente é mesmo pendente:
+`git log --oneline origin/<branch>..HEAD` e `git ls-remote origin 'refs/heads/<branch>'` — resposta vazia
+no segundo confirma que a branch remota já foi apagada pelo merge.
+
 ## Título da sessão — identificação do caso na aba lateral
 
 **Objetivo:** permitir que o usuário localize a sessão na aba lateral do Claude Code só lendo o título.
