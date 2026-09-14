@@ -44,6 +44,14 @@
     fundamentação". Em peça dirigida ao relator, não citar o art. 489, § 1º, VI, do CPC no pedido — soa
     como advertência.
 
+11. **Não superafirmar, e recuar quando o adversário corrigir com razão.** Afirmação mais ampla do que os
+    autos comportam ("todos os depoentes desmentiram") vira arma do outro lado contra a peça inteira.
+    Preferir a formulação exata e sustentável; e, se a parte contrária apontar excesso com razão,
+    reconhecer e reenquadrar na própria peça — custa um parágrafo e preserva a credibilidade dos demais.
+12. **Conferir a autoria da frase que o adversário atribui a uma decisão.** Antes de responder ao mérito
+    de uma citação, localizá-la no documento de origem: recurso que atribui ao órgão julgador frase de
+    outra decisão constrói sobre premissa falsa, e isso é resposta de primeira ordem.
+
 ## Onde está o resto
 
 | Preciso de | Vou em |

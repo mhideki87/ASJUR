@@ -13,8 +13,9 @@ efeitos da rescisão por justa causa ou determina restabelecer benefício vincul
 saúde). A via é o mandado de segurança (Súmula 414, II, do TST), porque a decisão é interlocutória e
 irrecorrível de imediato (art. 893, § 1º, da CLT; Súmula 214 do TST).
 
-O mesmo esqueleto serve, com poda, para os dois derivados que costumam acompanhar a impetração:
-**memoriais** (4 páginas, para despacho com o Relator) e **petição de juntada de julgados**.
+O mesmo esqueleto serve, com poda, para os três derivados que costumam acompanhar a impetração:
+**memoriais** (4 páginas, para despacho com o Relator), **petição de juntada de julgados** e
+**contraminuta ao agravo interno** do litisconsorte contra a liminar (art. 1.021, § 2º, do CPC).
 
 ## Estrutura padrão
 
@@ -55,6 +56,31 @@ VIII — Pedidos, escalonados
 - **Pedidos escalonados** — nunca só o máximo: (a) suspensão integral; (b) ao menos o capítulo que
   restabelece o vínculo; (c) exclusão/redução das astreintes, prazo compatível com a operadora e **termo
   final** expresso (cessação do benefício ou sentença).
+
+## Contraminuta ao agravo interno (art. 1.021, § 2º, do CPC)
+
+Deferida a liminar, o agravo interno do litisconsorte é o passo seguinte previsível. Estrutura que
+funcionou:
+
+```
+I   — Tempestividade e prerrogativas (prazo em dobro; registrar que o capítulo
+      das prerrogativas não foi impugnado, se for o caso)
+II  — Síntese: o que a decisão agravada decidiu e o que o agravo NÃO enfrenta
+III — A premissa equivocada do recurso, quando houver (ver abaixo)
+IV  — Mérito, um subtópico por capítulo do agravo, na ordem dele
+V   — Requerimentos: não provimento; subsidiário; segurança definitiva;
+      prequestionamento
+```
+
+Três movimentos que valem mais que o resto:
+
+- **Conferir a autoria de cada frase que o agravo atribui à decisão agravada.** Antes de responder ao
+  mérito, localizar a passagem no documento. Recurso que atribui ao Relator frase do juízo de origem perde
+  os capítulos construídos sobre ela.
+- **Mapear o que o agravo não impugnou.** Se a decisão se apoiou em precedentes e o recurso não os
+  enfrenta, isso é tópico próprio, com o art. 1.021, § 1º, do CPC.
+- **Responder capítulo a capítulo, na ordem do agravo.** Facilita a conferência pelo Relator e evita que
+  algum item fique sem resposta.
 
 ## Variações observadas
 

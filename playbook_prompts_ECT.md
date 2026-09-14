@@ -411,6 +411,8 @@ caixa alta. Cabe um bloco livre a mais entre o tema e a parte, quando o usuário
 Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões · `RO` = recurso ordinário ·
 `RR` = recurso de revista · `Manifest` = manifestação · `ED` = embargos de declaração ·
 `Contraminuta ED` = impugnação a embargos da parte adversa (art. 897-A, § 2º, da CLT) ·
+`Contraminuta Ag Interno` = contraminuta a agravo interno do litisconsorte em mandado de segurança
+(art. 1.021, § 2º, do CPC — criada em 14/09/2026) ·
 `Adit RO` = complementação das razões do recurso ordinário (art. 1.024, § 4º, do CPC) ·
 `Quesitos` = quesitos de perícia · `AIRR` = agravo de instrumento em recurso de revista (criada em
 09/09/2026). Abreviações de tema: `Inc Fun` = incorporação de função ·
@@ -421,7 +423,8 @@ quando a prejudicial for o eixo da peça) · `PDV Aposent` = adesão a plano de 
 empregado aposentado (criada em 08/09/2026) · `Saldo Negativo` = descontos que zeram o holerite pela
 rubrica de cobertura de saldo negativo (criada em 09/09/2026) ·
 `Prog Antiguidade` = promoção horizontal por antiguidade do PCCS/2008 (criada em 09/09/2026) ·
-`Vale Cultura` = supressão do vale-cultura em 2020 pela não renovação da cláusula coletiva
+`Justa Causa` = reversão de justa causa aplicada em processo administrativo disciplinar (criada em
+14/09/2026) · `Vale Cultura` = supressão do vale-cultura em 2020 pela não renovação da cláusula coletiva
 (criada em 09/09/2026) · `DIFME Greve` = supressão do Diferencial de Mercado (item 4.7 do PCCS/2008) por
 participação em greve, com pedido de restituição em dobro (criada em 10/09/2026).
 Abreviação nova criada em sessão entra nesta lista.
