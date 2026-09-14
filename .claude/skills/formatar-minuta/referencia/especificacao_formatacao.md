@@ -129,6 +129,33 @@ Depois: **2 parágrafos vazios** (`after=200`), e a assinatura centralizada em n
 `Marcos Hideki Kamibayashi` (`jc=center`, `after=60`) e `OAB/MS 14.580` (`jc=center`, `after=200`) — a mesma
 em trabalhista e em cível. Em peça cível muda apenas o local no fecho, se for outra comarca.
 
+### 4.12 Marcação de conferência — realce amarelo
+
+`[REVISAR: ...]` e `[INSERIR: ...]` saem com a **cor de destaque de caracteres amarela**, para que tudo o
+que ainda depende de conferência humana salte aos olhos antes do protocolo:
+
+```xml
+<w:highlight w:val="yellow"/>
+```
+
+É realce de *caractere* (`w:highlight` dentro do `w:rPr` do run), não sombreamento de parágrafo (`w:shd`) —
+o que pega só o trecho entre colchetes, não a linha inteira. O run realçado herda tudo o mais do trecho onde
+está: tamanho (11 pt no corpo, 10 pt em citação e cálculo), negrito, itálico e sublinhado. Por isso o realce
+vale em qualquer bloco — corpo, tópico, subtópico, citação, cálculo, alínea e requerimento.
+
+O gerador aplica sozinho, a partir da regex `MARCACAO_CONFERENCIA`: `[` + `REVISAR` ou `INSERIR` (só essas
+duas palavras, em caixa alta) + opcionalmente `:` e o texto da observação + `]`, admitido um nível de
+colchete aninhado. Os demais colchetes do texto (`[NOME DA PARTE]`, `[VALOR]`, `[SEI nº INSERIR]`) ficam sem
+realce. A mesma regex conta as pendências avisadas no fim da execução, então **o que é realçado e o que é
+contado são sempre o mesmo conjunto**.
+
+Uma restrição: ênfase **dentro** dos colchetes (`[REVISAR: conferir o **inteiro teor**]`) parte a marcação,
+porque `parse_inline` roda antes de `realcar` — o trecho sai sem amarelo, e o gerador emite AVISO. Ênfase em
+volta da marcação (`**texto [REVISAR: x] texto**`) funciona: o run realçado herda o negrito.
+
+Montando o arquivo à mão, é a única formatação do padrão que não vem pronta do `_FORMATO_BASE.docx`: no
+Word, selecionar a marcação e aplicar *Cor de destaque de caracteres → Amarelo*.
+
 ## 5. Cabeçalho da página (`word/header1.xml`)
 
 Tabela de **2 colunas sem borda**, largura `9071`, layout fixo, margens de célula zeradas:
@@ -160,10 +187,10 @@ O schema OOXML impõe a ordem dos filhos. Fora de ordem, o Word acusa arquivo co
 documento, desmanchando a formatação. A ordem usada na peça de referência — e a que o gerador emite:
 
 - `w:pPr` → `pStyle`, [`widowControl`, `bidi`], [`pBdr`], `spacing`, `ind`, `jc`, `rPr` (marca de parágrafo).
-- `w:rPr` → `rFonts`, `b`, `bCs`, `i`, `iCs`, `sz`, `szCs`, `u`.
+- `w:rPr` → `rFonts`, `b`, `bCs`, `i`, `iCs`, `sz`, `szCs`, `highlight`, `u`.
 
-Atenção a dois pontos contraintuitivos: `jc` (alinhamento) vem **depois** de `spacing` e `ind`; e `u`
-(sublinhado) vem **depois** de `sz`. No subtópico, a marca de parágrafo também carrega o sublinhado
+Atenção a três pontos contraintuitivos: `jc` (alinhamento) vem **depois** de `spacing` e `ind`; `u`
+(sublinhado) vem **depois** de `sz`; e `highlight` (realce) fica **entre** `szCs` e `u`. No subtópico, a marca de parágrafo também carrega o sublinhado
 (`<w:rPr><w:u w:val="single"/></w:rPr>` dentro do `w:pPr`). Todo run traz
 `<w:rFonts w:eastAsia="Arial" w:cs="Arial"/>`, e o parágrafo vazio de espaçamento traz um run vazio
 (`<w:r><w:rPr></w:rPr></w:r>`).
@@ -193,6 +220,8 @@ print('entrelinha exata:', d.count('lineRule="exact"'), '| auto (deve ser 0):', 
 print('runs em 10 pt (citação/cálculo):', d.count('w:val="20"'))
 print('recuo 4 cm (2268):', d.count('2268'), '| recuo 3 cm (1701):', d.count('1701'))
 print('notas de rodapé (deve ser 0):', d.count('footnoteReference'))
+print('realces amarelos:', d.count('w:val="yellow"'),
+      '(= nº de [REVISAR/INSERIR] do .md — compare com o aviso do gerador)')
 print('logotipo:', [n for n in z.namelist() if n.startswith('word/media')])
 tudo = ''.join(re.sub(r'<[^>]+>', '', z.read(n).decode())
                for n in z.namelist() if n.endswith('.xml'))

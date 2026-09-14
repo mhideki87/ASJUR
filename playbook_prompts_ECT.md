@@ -4,7 +4,8 @@
 > Cole o `CONTEXTO.md` e o protocolo de leitura do `INDICE.md` nas instruções do Projeto; use os prompts
 > abaixo no dia a dia. Este arquivo também é lido **por seção**, não inteiro: vá direto na seção do tipo
 > de peça da sessão.
-> Convenção: `<...>` = você preenche. `[REVISAR: ...]` = marcação que eu devo deixar no documento.
+> Convenção: `<...>` = você preenche. `[REVISAR: ...]` e `[INSERIR: ...]` = marcação que eu devo deixar
+> no documento — e que sai **realçada em amarelo** no `.docx`, para você achar de relance.
 
 ---
 
@@ -23,7 +24,8 @@ REGRAS FIXAS:
   ou cláusula de ACT. Use apenas o que consta dos autos anexados, da peça-modelo
   ou do recurso adversário.
 - Onde faltar informação, escreva [REVISAR: o que precisa ser conferido] no corpo
-  do texto — não preencha com conteúdo plausível.
+  do texto — não preencha com conteúdo plausível. Toda marcação [REVISAR] ou
+  [INSERIR] sai do gerador com realce amarelo no .docx.
 - Ao final, liste separadamente tudo que exige conferência humana antes do protocolo.
 - Se a defesa e a sentença divergirem quanto aos fatos, apoie-se na sentença e na
   capa do PJe.

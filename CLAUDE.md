@@ -124,8 +124,8 @@ manifestação, impugnação, petição simples —, mesmo que o usuário não f
 **Ação:** invocar a skill **`formatar-minuta`** (`.claude/skills/formatar-minuta/`) **antes** de começar a
 escrever a peça, não depois. Ela traz a especificação completa (Arial 11, entrelinha exata de 18 pt, margens
 3/2/3/2 cm, tópico principal em caixa alta dentro de retângulo, subtópicos numerados em negrito sublinhado,
-citações em Arial 10 recuadas 4 cm, cabeçalho com logotipo, rodapé com endereço e numeração, fecho e
-assinatura) e o gerador:
+citações em Arial 10 recuadas 4 cm, marcações `[REVISAR]`/`[INSERIR]` em realce amarelo, cabeçalho com
+logotipo, rodapé com endereço e numeração, fecho e assinatura) e o gerador:
 
 ```bash
 python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py <minuta.md> <saida.docx>
@@ -143,6 +143,12 @@ Regras:
   `F:\Claude\00 caso_atual\<pasta da parte>`, ao lado dos documentos do processo). Nunca em `modelos/`.
 - O padrão **não usa nota de rodapé**: referência a documento (SEI, Id do PJe, folha) vai no corpo, entre
   parênteses.
+- **Toda marcação `[REVISAR: ...]` e `[INSERIR: ...]` sai no `.docx` com realce amarelo** (no Word, "Cor de
+  destaque de caracteres: Amarelo"), para o usuário localizar de relance o que ainda depende de conferência
+  humana antes do protocolo. O gerador aplica o realce sozinho — basta escrever a marcação no `.md`, sem
+  formatá-la à mão. Peça montada fora do gerador precisa do realce aplicado manualmente. Isso **não**
+  substitui a lista de conferência humana ao final da resposta (regra 3 do `CONTEXTO.md`): as duas coisas
+  convivem, o realce no arquivo e a lista na conversa.
 
 ## Consolidação da base ao final da tarefa
 

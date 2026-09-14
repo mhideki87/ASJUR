@@ -42,7 +42,8 @@ def esc(t: str) -> str:
 
 
 # Ordem dos filhos de w:rPr e w:pPr é imposta pelo schema OOXML (CT_RPr / CT_PPr) e é a mesma da peça
-# de referência: rPr = rFonts, b, bCs, i, iCs, sz, szCs, u · pPr = pStyle, pBdr, spacing, ind, jc, rPr.
+# de referência: rPr = rFonts, b, bCs, i, iCs, sz, szCs, highlight, u ·
+# pPr = pStyle, pBdr, spacing, ind, jc, rPr.
 FONTE = '<w:rFonts w:eastAsia="Arial" w:cs="Arial"/>'
 
 
@@ -56,6 +57,9 @@ def rpr(flags, sz: int) -> str:
         # citação e bloco de cálculo desligam o itálico explicitamente, como na peça de referência
         x += '<w:i w:val="false"/><w:iCs w:val="false"/>'
     x += f'<w:sz w:val="{sz}"/><w:szCs w:val="{sz}"/>'
+    if "h" in flags:
+        # realce amarelo das marcações de conferência — vem depois de szCs e antes de u (CT_RPr)
+        x += '<w:highlight w:val="yellow"/>'
     if "u" in flags:
         x += '<w:u w:val="single"/>'
     return f"<w:rPr>{x}</w:rPr>"
@@ -89,7 +93,7 @@ def ppr(jc=None, line=None, before=0, after=0, ind=None, caixa=False, marca_u=Fa
 
 
 def para(texto_inline: str, *, sz=SZ_CORPO, flags_base=frozenset(), maiuscula=False, **kw) -> str:
-    partes = parse_inline(texto_inline, frozenset(flags_base))
+    partes = realcar(parse_inline(texto_inline, frozenset(flags_base)))
     runs = "".join(run(f, t.upper() if maiuscula else t, sz) for f, t in partes if t)
     return f"<w:p>{ppr(**kw)}{runs}</w:p>"
 
@@ -125,6 +129,27 @@ def parse_inline(s: str, flags=frozenset()):
             continue
     if buf:
         saida.append((flags, buf))
+    return saida
+
+
+# --- realce amarelo das marcações de conferência ------------------------------------------------------
+# `[REVISAR: ...]` e `[INSERIR: ...]` saem no .docx com realce AMARELO, para o usuário achar de relance
+# tudo o que depende de conferência humana antes do protocolo. Aceita um nível de colchete aninhado.
+MARCACAO_CONFERENCIA = re.compile(r"\[(?:REVISAR|INSERIR)\b(?:[^\[\]]|\[[^\[\]]*\])*\]")
+
+
+def realcar(partes):
+    """Quebra cada trecho nos pontos de `[REVISAR: ...]`/`[INSERIR: ...]`, marcando-os com a flag "h"."""
+    saida = []
+    for flags, texto in partes:
+        pos = 0
+        for m in MARCACAO_CONFERENCIA.finditer(texto):
+            if m.start() > pos:
+                saida.append((flags, texto[pos:m.start()]))
+            saida.append((flags | {"h"}, m.group(0)))
+            pos = m.end()
+        if pos < len(texto) or pos == 0:
+            saida.append((flags, texto[pos:]))
     return saida
 
 
@@ -252,7 +277,9 @@ def converter(texto: str):
             corpo.extend([vazio(), vazio()])
             grupo_qualificacao = False
 
-    for bloco in blocos(texto):
+    lista_blocos = blocos(texto)
+
+    for bloco in lista_blocos:
         primeira = bloco[0].strip()
 
         # campos @CAMPO: valor
@@ -339,7 +366,20 @@ def converter(texto: str):
     if "[^" in texto or re.search(r"\n\[\d+\]:", texto):
         avisos.append("Marcação de nota de rodapé encontrada: o padrão ASJUR não usa nota de rodapé — "
                       "traga a referência para o corpo, entre parênteses.")
-    pendencias = len(re.findall(r"\[(?:REVISAR|INSERIR):", texto))
+    # Conta sobre os blocos já montados — e não sobre o .md cru —, para o número avisado bater
+    # exatamente com o de realces amarelos no .docx: comentário <!-- --> não entra no documento,
+    # e marcação quebrada em duas linhas vale uma só, como no parágrafo gerado.
+    texto_util = "\n".join(" ".join(l.strip() for l in b) for b in lista_blocos)
+    marcacoes = MARCACAO_CONFERENCIA.findall(texto_util)
+    pendencias = len(marcacoes)
+    # A ênfase inline é resolvida antes do realce, então **negrito** dentro dos colchetes parte a marcação
+    # em três runs e ela sai SEM realce — mas continua contada aqui. Avisar em vez de divergir calado.
+    for m in marcacoes:
+        if re.search(r"\*|__", m):
+            avisos.append(
+                f"Marcação de conferência com ênfase (**, *, __) dentro dos colchetes: {m[:60]!r} — "
+                "sai sem realce amarelo. Tire a ênfase de dentro da marcação (fora dela funciona)."
+            )
     return corpo, avisos, pendencias
 
 
@@ -437,8 +477,8 @@ def main():
         print(f"Gravado: {a.saida}  ({len(corpo)} parágrafos)")
 
     if pendencias:
-        print(f"{pendencias} marcação(ões) [REVISAR/INSERIR] no texto — repita-as na lista de "
-              f"conferência humana da resposta.", file=sys.stderr)
+        print(f"{pendencias} marcação(ões) [REVISAR/INSERIR] no texto, realçada(s) em amarelo no .docx — "
+              f"repita-as na lista de conferência humana da resposta.", file=sys.stderr)
     for av in avisos:
         print(f"AVISO: {av}", file=sys.stderr)
     return 0
