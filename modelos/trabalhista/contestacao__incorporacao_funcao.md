@@ -227,6 +227,50 @@ revogação, e Reclamante **recomissionada sete anos depois**, no curso do perí
    o prazo é de 5 dias úteis da primeira notificação (art. 3º, § 1º, da Res. CNJ 345/2020; art. 4º, §§ 2º e
    3º, da RA TRT24 40/2021) e o silêncio é anuência tácita. Vencido o prazo, o bloco sai.
 
+## Blocos acrescidos em minuta real (14/09/2026)
+
+Caso concreto: carteiro com **MOTORIZADO por todo o contrato** (22/09/2006 a 11/05/2026, "Atividade
+Especial" em todos os períodos), **dispensa da função posterior** à Reforma, requisito de 10 anos do Módulo
+36 não implementado até a revogação (91 dos 120 meses), e **sem** recomissionamento.
+
+1. **Preliminar do Tema 23 ENTRA aqui** — é o caso em que a condição da advertência 1 da seção anterior
+   está satisfeita: fato gerador (dispensa da função) **posterior** a 11/11/2017, e com folga de oito anos.
+   Redigir mostrando que o segundo pressuposto fático do art. 6º, §§ 1º e 2º, da LINDB só se verificou em
+   2026.
+2. **Preliminar de inépcia parcial por pedido sem valor** — achada pelo fechamento exato da conta: as cinco
+   rubricas valoradas somavam o subtotal, × 12 davam a anuidade do art. 292, §§ 1º e 2º, do CPC, e o total
+   fechava o valor da causa ao centavo. Como a soma se esgotava ali, os reflexos em **férias**, em **abonos
+   de férias** e em "todos os benefícios que tenham como parâmetro a remuneração", deduzidos no rol,
+   entraram **sem valor algum** (ponto 4 da tese central de `preliminares_processuais_defesa.md`, não o
+   ponto 1). Transcrever a tabela em bloco `>>` é o que torna o defeito visível.
+3. **"Da natureza da parcela: Motorizado é atividade especial, e não função de confiança"** — **primeiro
+   tópico do mérito**, no lugar que o bloco "inexistência de supressão" ocuparia quando os documentos o
+   permitissem. Transcrever em `>>` as seis linhas do quadro "FUNÇÕES" da ficha cadastral, com a coluna
+   "Tipo", e fechar com a contagem: zero dia de titularidade gerencial ou técnica em 19 anos e 7 meses.
+   Detalhe que rende: o único registro "Gerencial" era de 27 dias, como "RESPONSÁVEL", e posterior a
+   11/11/2017. Ver a subseção "O caso limpo" da ficha do tema.
+4. **"Do reflexo em anuênio: base de cálculo equivocada"** — a conferência do percentual em quatro
+   competências, com e sem o CIP, em bloco `>>`. É impugnação verificável pelo juízo e, por isso, melhor que
+   qualquer alegação genérica. ⚠ Conferir antes a **data de referência** da ficha cadastral e o mês de
+   aniversário do anuênio: neste caso os 22% da inicial estavam **certos**, e só a **base** estava errada.
+5. **Justiça gratuita pelo regime ANTERIOR à ADC 80** — ajuizamento em 06/2026, anterior ao marco da
+   modulação. Vale abrir o tópico quando a remuneração da ficha cadastral supera com folga os 40% do teto do
+   RGPS e o empregado **segue ativo** (a dispensa foi só da função) — diferente do caso de 09/2026, de valor
+   ínfimo, em que a ficha recomendava não abrir.
+
+**Dois blocos do modelo que NÃO entraram, e a razão importa:** "inexistência de supressão" (houve supressão
+real, sem recomissionamento) e "ausência de prova da destituição sem justo motivo" (GCR "Qualificado" em
+todos os anos e ficha disciplinar sem penalidade — arguir seria alegar contra documento da própria ECT).
+Some-se a decisão de **não abrir a discussão do Módulo 55/FAT-FAO**: o empregado completara os 5 anos antes
+de 01/05/2012, mas a inicial não pediu a parcela, e levantá-la entregaria flanco inexistente no processo
+(arts. 141 e 492 do CPC). Registrar o ponto para o advogado, como risco de réplica.
+
+**Ordem de força dos argumentos quando a dispensa da função é POSTERIOR a 11/11/2017:** (i) natureza da
+parcela, quando a função é atividade especial — zera o decênio e dispensa discutir a aritmética do autor;
+(ii) requisito temporal não implementado até a revogação do Módulo 36; (iii) art. 468, § 2º, da CLT
+incidindo por inteiro, com o Tema 23 na preliminar e o *distinguishing* dos paradigmas pela data que as
+próprias ementas declaram; (iv) cancelamento da Súmula 372, I, como reforço.
+
 **Ordem de força dos argumentos quando a reversão é anterior a 11/11/2017:** (i) inexistência de supressão,
 se os documentos permitirem; (ii) requisito temporal não implementado na vigência da norma interna;
 (iii) exclusão de quebra de caixa **no plano do decênio apenas**, com a contagem refeita em número de meses;

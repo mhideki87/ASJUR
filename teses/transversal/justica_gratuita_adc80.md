@@ -7,7 +7,7 @@ gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, AD
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
-atualizado: 2026-09-11
+atualizado: 2026-09-14
 ---
 
 # Tese — Justiça gratuita após a ADC 80
@@ -193,6 +193,15 @@ ressalvar a modulação — a afirmação, solta, é falsa para aquele processo.
   **inferior a quatro mil reais**, o cálculo de custo-benefício desta ficha manda **não abrir o tópico**, ou
   abri-lo apenas com o pedido sucessivo de intimação para comprovar renda (art. 99, § 2º, do CPC): sob a
   Súmula 463, I, a briga é cara e o retorno, ali, era de poucas centenas de reais.
+- **Segundo caso do acervo no regime anterior, e nele o tópico compensa — o que muda é o quadro econômico.**
+  Inicial de **25/06/2026** (incorporação de gratificação de função, TRT24), também anterior ao marco. Ali
+  valia abrir, por três dados que a **ficha cadastral juntada pelo próprio autor** fornecia: remuneração
+  mensal de R$ 6.091,93, muito acima dos 40% do teto do RGPS; situação funcional "**ATIVO**" — a dispensa
+  fora só da **função gratificada**, não do emprego; e parcela discutida de R$ 425,44 mensais, isto é, perda
+  da ordem de 7% da remuneração. **Regra que se extrai dos dois casos:** no regime anterior, o que decide
+  abrir ou não o tópico não é a data, é o par *(capacidade econômica documentada nos autos × expressão
+  econômica do feito)*. E o argumento mais barato, quando o pedido nasce de **supressão de parcela** e não
+  de dispensa, é que o empregado **segue empregado** — a ficha cadastral o diz em uma palavra.
 - **O patamar se move sozinho.** Está atrelado à tabela do IR, com correção pelo IPCA na falta de
   atualização anual. Conferir o valor vigente na data da peça; "R$ 5.000,00" é o número de 2026, não uma
   constante.
