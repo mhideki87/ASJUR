@@ -3,7 +3,7 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, AIRR, art. 896 § 9º CLT, art. 896 § 1º-A CLT]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Motorizado, atividade especial, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, AIRR, art. 896 § 9º CLT, art. 896 § 1º-A CLT]
 pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
@@ -89,6 +89,23 @@ sessão real, quatro achados aritméticos derrubaram o valor pedido sem tocar na
    (caso real: 22% pedido, 20% na ficha, e 15% a 19% ao longo do período cobrado). A base, reconstituída da
    folha, é **(salário-base + gratificação de função convencional), com o CIP FORA** — a conferência fecha
    ao centavo em qualquer competência, o que torna a impugnação verificável pelo juízo.
+
+   **⚠ Antes de acusar o percentual de errado, conferir a DATA DE REFERÊNCIA da ficha cadastral.** A ficha
+   traz o percentual vigente na sua competência de referência, que costuma ser anterior ao ajuizamento — e o
+   anuênio faz aniversário em **data própria**, informada no campo "Anuênio:" do cabeçalho da ficha
+   financeira, que **não coincide necessariamente com a data de admissão**. Caso real de 09/2026: ficha
+   cadastral de referência MAI/2026 registrando 21%, inicial pedindo 22%, ação ajuizada em 25/06/2026 e
+   aniversário do anuênio em 01/06 — os 22% estavam **certos**, e arguir o erro teria sido alegação
+   desmentida por documento nosso. O aniversário se acha sem depender do cabeçalho: basta ver em que mês o
+   valor do anuênio degrau na ficha financeira, ano a ano.
+
+   **Como provar a base do anuênio de forma verificável pelo juízo** (o cálculo que sustenta a impugnação,
+   e que nenhuma alegação genérica substitui): dividir o valor do anuênio pela soma (salário-base +
+   gratificação de função) em várias competências. Dando **percentual redondo** em todas elas, a base está
+   demonstrada; refazendo a conta **com o CIP somado**, o resultado deixa de fechar. Caso real de 09/2026,
+   quatro competências seguidas: 19,000% / 20,000% / 21,000% / 21,000% sem o CIP, contra 18,904% / 19,905% /
+   20,892% / 20,892% com ele. Daí sai o excesso a impugnar — a inicial aplicava o percentual sobre
+   gratificação **mais** CIP.
 4. **Recalcular as parcelas vencidas pelos próprios valores da planilha.** Se o total das vencidas superar
    (nº de meses × subtotal mensal **atual**), há excesso aritmético certo: numa cadeia de reajustes
    progressivos as parcelas passadas são sempre menores que a atual. Caso real: R$ 102.731,06 declarados
@@ -114,6 +131,21 @@ podem provar que, quando a gratificação de função sobe, o CIP cai no mesmo v
 (caso real: R$ 753,65 antes e depois do reajuste), o que sustenta a leitura de que o CIP é parte do valor da
 função. Some-se o precedente adverso do TRT24 abaixo, que lhe reconheceu natureza de gratificação de função
 pelo **Módulo 34 do MANPES**. Sustentar pela data, e não depender do tópico.
+
+**O flanco, documentado ao centavo num segundo caso (09/2026) — e com uma regularidade que piora o
+problema.** Em junho/2015 a gratificação subiu de R$ 224,25 para R$ 227,90 e o CIP caiu de R$ 14,58 para
+R$ 10,93: **exatos R$ 3,65 transpostos**, soma inalterada em R$ 238,83 antes e depois. E, dali em diante, o
+CIP se manteve em **4,80% da gratificação em todas as competências** da série (14,91/310,91 · 15,44/321,89 ·
+18,53/386,27 · 19,47/405,97). Não é coincidência isolada: é proporção fixa, que a parte autora lê como prova
+de que o CIP integra o valor da função. **Conferir essa razão antes de escrever o tópico** — dando constante,
+o argumento de natureza está morto e só resta o da data, que segue íntegro e é o que se sustenta.
+
+**A data, essa, já se confirmou duas vezes na série de casos reais**: primeiro pagamento da rubrica 051119
+em **outubro/2014**, com a rubrica de diferença 052119 cobrindo agosto e setembro do mesmo ano (no caso de
+09/2026, R$ 29,16 = 2 × R$ 14,58). Como o Módulo 36 caiu em 05/05/2014, o CIP **não existia** quando a norma
+deixou de existir — e é impossível apurar "nos termos do regulamento" componente posterior a ele. Vale
+registrar, ainda, a expressão econômica: dezenas de reais mensais contra centenas da gratificação
+(R$ 19,47 contra R$ 405,97), o que recomenda não gastar muito espaço no tópico.
 
 ## Tese central
 
@@ -425,13 +457,14 @@ o devido acatamento, é argumento barato e específico.
   nem tom acusatório (regra 10 do `CONTEXTO.md`); o modo de redigir está em
   [devolutividade_ro_e_contrarrazoes.md](../transversal/devolutividade_ro_e_contrarrazoes.md).
 
-## Quebra de caixa: usar o argumento em qual plano — e em qual não usar
+## "Atividade Especial" (quebra de caixa, Motorizado): usar o argumento em qual plano — e em qual não usar
 
-Achado de sessão real. A tese "quebra de caixa não conta para o requisito temporal" **não pode ser usada
-indistintamente**, porque tem um flanco documental aberto:
+Achado de sessão real. Vale para **toda função que a ficha cadastral classifique como "Atividade
+Especial"** — quebra de caixa e **Motorizado** são as duas recorrentes. A tese "essa função não conta para o
+requisito temporal" **não pode ser usada indistintamente**, porque tem um flanco documental aberto:
 
-- a **própria ECT** classifica a função (ex.: "QUEBRA DE CAIXA C/ GRAT ATEND BP") como
-  **"Atividade Especial"** no campo "FUNÇÕES" da ficha cadastral; e
+- a **própria ECT** classifica a função (ex.: "QUEBRA DE CAIXA C/ GRAT ATEND BP", "MOTORIZADO (M)",
+  "MOTORIZADO (V)") como **"Atividade Especial"** no campo "FUNÇÕES" da ficha cadastral; e
 - o item 1.1, "a", do Capítulo 2 do **Módulo 36** conta o tempo em função *"gerencial, técnica, de atividade
   especial, FAT/FAO, ou dirigente"*; e
 - a parcela é paga sob a **mesma rubrica** da função técnica ("Gratificação de Função Conv.").
@@ -448,6 +481,35 @@ Efeito prático quando a exclusão é aceita no plano do decênio: descontados o
 frequentemente o empregado tem **zero** tempo de função de confiança em 11/11/2017 — o que derruba a
 alegação de "decênio completado antes da Reforma", com que o autor tenta sustentar a aplicação residual do
 item I já cancelado.
+
+### O caso limpo: contrato INTEIRO em atividade especial (Motorizado)
+
+Registrado em 09/2026, e é a variante em que o argumento do decênio rende mais, porque não sobra resíduo a
+discutir. Carteiro com **MOTORIZADO de 22/09/2006 a 11/05/2026** — dezenove anos e sete meses, contínuos,
+todos os quatro períodos do quadro "FUNÇÕES" classificados como "Atividade Especial", **nenhum dia de
+titularidade gerencial ou técnica em todo o contrato**. O único registro "Gerencial" da vida funcional eram
+**27 dias** (12/02/2018 a 10/03/2018) como "**RESPONSÁVEL**" — que não é titularidade (ver "Pontos
+sensíveis") — e ainda **posteriores** a 11/11/2017.
+
+Aplicada a exclusão, o tempo computável para o decênio em 11/11/2017 é **zero**, embora a inicial alegasse,
+com aritmética correta, "mais de 11 anos de gratificação de função antes da Reforma". A resposta não nega a
+conta: nega que aquilo seja gratificação de **função de confiança**.
+
+Dois cuidados que essa variante impõe:
+
+1. **A natureza da parcela vira o argumento principal do plano do decênio, não um reforço.** Motorizado
+   remunera condição de trabalho — o carteiro que distribui com veículo —, sem fidúcia especial, poder de
+   mando, gestão ou representação. É salário-condição na acepção do E-ARR-8-98.2011.5.15.0114, e a Súmula
+   372, I, pressupõe **reversão ao cargo efetivo de quem ocupava cargo ou função de confiança**.
+2. **No plano do Módulo 36 o silêncio continua valendo, e aqui custa mais caro**, porque o contrato inteiro
+   é atividade especial: uma frase sobre natureza da parcela nesse tópico entrega ao autor a classificação
+   que a própria ECT lançou na ficha. Ali, só o temporal.
+
+**Quando a dispensa da função é POSTERIOR a 11/11/2017, a ordem de força muda** em relação à registrada no
+modelo (que supõe reversão anterior): (i) natureza da parcela, que zera o decênio; (ii) requisito temporal
+não implementado até a revogação do Módulo 36; (iii) art. 468, § 2º, da CLT incidindo por inteiro sobre fato
+gerador posterior, com o Tema 23 como preliminar; (iv) cancelamento da Súmula 372, I, como reforço. Note-se
+que, nessa hipótese, a preliminar do Tema 23 **entra** — é a condição que o modelo adverte conferir.
 
 ## Cruzamento de datas — exemplo trabalhado (sessão real)
 
