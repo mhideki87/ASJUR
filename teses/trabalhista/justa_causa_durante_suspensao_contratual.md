@@ -60,7 +60,25 @@ cassando liminares de reintegração.
 
 ## Jurisprudência (só o que já está confirmado)
 
-Todos da **SbDI-2 do TST**, lidos em inteiro teor:
+Todos da **SbDI-2 do TST**. Os dois primeiros foram trazidos pelo próprio TRT24 ao deferir liminar em
+mandado de segurança da ECT sobre este exato tema (2026) — são os mais aderentes e devem abrir a citação:
+
+- **TST-RO-104-53.2016.5.20.0000**, Red. Min. Luiz José Dezena da Silva, DEJT 11/12/2020 — **hipótese
+  idêntica**: justa causa no gozo de auxílio-doença acidentário, com tutela de origem determinando
+  restabelecimento do plano de saúde e complementação do benefício; a segurança foi concedida.
+  *"A suspensão do contrato de trabalho, decorrente do gozo de benefício previdenciário não impede a
+  rescisão contratual por justa causa, tampouco obsta a imediata eficácia de tal ato, considerando-se aí
+  todos os seus efeitos legais. A estabilidade de que trata o art. 118 da Lei nº 8.213/1991, abraçada pela
+  Súmula nº 378 desta Corte Superior, não subsiste, portanto, em hipóteses que tais, uma vez que
+  inconcebível a manutenção do pacto laboral, sem a necessária confiança."*
+- **TST-RO-191-65.2015.5.12.0000**, Red. Min. Alexandre Luiz Ramos, DEJT 19/12/2018 — **falta cometida
+  antes do fator suspensivo**, apuração concluída durante o benefício: *"a concessão de auxílio doença não
+  impede a rescisão do contrato de trabalho por justa causa, haja vista que não obstante a suspensão, devem
+  persistir os deveres de lealdade, confiança, probidade e boa-fé"*. Traz ainda argumento útil contra o
+  *periculum* inverso: *"o desligamento do empregado enquanto estiver recebendo auxílio-doença não implica
+  em prejuízo à continuidade da percepção do benefício previdenciário"*.
+
+Os demais, lidos em inteiro teor:
 
 - **TST-Ag-ROT-0011574-11.2023.5.03.0000**, Rel. Min. Amaury Rodrigues Pinto Junior, julgado em
   **14/05/2024, por unanimidade** — precedente-chave. Ementa: *"A garantia provisória de emprego, mesmo a
@@ -170,6 +188,30 @@ segredo de justiça e este repositório é público; o número está no registro
   primeira: esperar o prazo da contestação para noticiar é aceitar o risco de uma segunda liminar sobre o
   mesmo contrato extinto. Conferir também sobreposição de período entre os pedidos das duas ações
   (litispendência parcial) e a conexão do art. 55 do CPC.
+
+### O que aparece quando a liminar do MS é atacada por agravo interno
+
+A fase seguinte tem argumentos próprios, todos já testados:
+
+- **Prova pré-constituída não é dilação probatória.** A alegação de que o Relator "extrapolou os limites do
+  *mandamus*" ao valorar o PAD confunde as duas coisas: o direito líquido e certo se comprova por documento,
+  e ler o dossiê administrativo é exatamente isso. Some-se que a controvérsia decisiva é **de direito** —
+  se o art. 476 da CLT impede a resolução por falta grave.
+- **O ônus não se inverte com o deferimento.** A tutela concedida não adquire presunção de legitimidade nem
+  dispensa seus requisitos: quem postula a antecipação é que demonstra a probabilidade (art. 300 do CPC).
+  A cassação não inova — restabelece a rescisão, ato dotado de presunção de legitimidade.
+- **Art. 1.021, § 1º, do CPC.** Agravo interno que não impugna os precedentes que são o fundamento
+  determinante da decisão não se desincumbe do ônus de impugnação específica. Conferir, sempre, se o
+  recurso enfrentou os acórdãos transcritos na decisão agravada.
+- **Pedido subsidiário de restabelecer só o plano de saúde.** Não se sustenta: o plano é benefício
+  vinculado ao contrato, e a Súmula nº 440 pressupõe contrato vigente e suspenso. Eficaz a rescisão,
+  desaparece o suporte — resta o art. 30 da Lei nº 9.656/98, que exclui a justa causa. Foi esse o desfecho
+  do RO-104-53.2016.5.20.0000.
+- **Conferir a quem pertence a frase citada pelo adversário.** Em caso de 2026, o agravo atribuiu à decisão
+  do Relator frase que era da decisão de primeiro grau (o próprio ato coator), transcrita pela ECT na
+  inicial do *mandamus*, e sobre essa atribuição construiu a acusação de incoerência. Afastada a premissa,
+  dois capítulos do recurso caíram. Sempre localizar a frase no documento de origem antes de responder ao
+  mérito dela.
 
 ## Ligações
 

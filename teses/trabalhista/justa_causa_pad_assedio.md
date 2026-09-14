@@ -56,6 +56,23 @@ na esfera administrativa, o fato é incontroverso e independe de perícia (art. 
 - **Capacitação do empregado** — certificado de conclusão de curso antiassédio e, sobretudo, registro de
   que o próprio empregado **ministrou** o treinamento à equipe afastam a alegação de desconhecimento.
 
+**Texto literal do MANCOD 1/2 que resolve as impugnações mais frequentes** (conferido no dossiê):
+
+> "1.10.1 (...) garantindo ao empregado envolvido, **a partir da sua citação**: (...) c) apresentar defesa
+> escrita, no prazo de 15 (quinze) dias corridos (...) podendo juntar as provas que comprovam suas alegações
+> e requerer a produção de provas necessárias à sua defesa; d) exercer o direito à ampla defesa, podendo
+> produzir prova testemunhal, mediante a indicação na defesa escrita de, no máximo, 3 (três) testemunhas ou
+> apresentar outras provas e contraprovas e formular quesitos, quando se tratar de prova pericial; (...)
+> f) fazer-se assistir, **facultativamente**, por defensor legalmente constituído."
+>
+> "1.10.1.1 Todos os pedidos de produção de provas da defesa deverão ser motivados sobretudo quanto à
+> pertinência, relevância e demonstração de sua relação com os fatos controvertidos."
+
+Três consequências práticas: (i) a alínea "d" trata de **prova testemunhal e quesitos periciais**, não de
+obtenção de imagens — quem a invoca para pedir CFTV erra o dispositivo; (ii) o item 1.10.1.1 condiciona
+qualquer requerimento de prova da defesa a motivação de pertinência; (iii) a assistência por advogado é
+**facultativa** (alínea "f"), o que enfraquece a tese de cerceamento por habilitação tardia.
+
 **Rebatendo as impugnações típicas**
 
 - **Falta de CFTV.** O rol do MANCOD 1/2, item 1.7.2, é exemplificativo ("tais como"), dirigido ao chefe da
@@ -120,9 +137,26 @@ que a aferição da justa causa exige dilação probatória.
   fato a fato: aprendiz maior de idade em parte do período enfraquece essa fundamentação. Ainda assim, a
   vulnerabilidade do aprendiz é reconhecida nos próprios normativos, que exigem "cuidados redobrados"
   ainda que ele seja maior de idade.
+- **"Contradição" entre o motivo do desligamento do aprendiz.** É impugnação recorrente: o relatório
+  preliminar registra pedido de demissão por convocação militar, e o voto condutor atribui a saída a abalo
+  psicológico. As passagens não se excluem — registram o mesmo fato e divergem quanto ao peso do motivo. E,
+  sobretudo, **a saída da vítima não integra o tipo disciplinar**: suprimida a passagem, o enquadramento
+  permanece. Não confundir, ainda, a transferência interna de unidade com o desligamento da empresa, que
+  costumam ter datas distintas.
 - **Assistência técnica tardia.** Habilitação de advogado semanas após a denúncia costuma virar tese de
   cerceamento; a etapa preliminar tem caráter investigatório e o contraditório se instaura com a citação —
   mas registrar as diligências efetivamente deferidas à defesa fortalece a resposta.
+
+### Uma advertência de redação, aprendida em caso real
+
+Não afirmar que a tese defensiva foi *"desmentida por todos os depoentes"* quando parte deles confirma o
+fato central alegado pela defesa. Em caso de 2026, empregados confirmaram ter recebido o mesmo conteúdo, e
+o agravo do empregado usou isso para atacar a credibilidade da peça inteira. A formulação exata e
+sustentável é: **nenhum depoente confirmou que o envio à vítima se inserisse em interação consentida** — e
+o envio a terceiros, longe de excluir a falta, **agrava**, por acrescentar a contaminação do ambiente.
+
+Quando a parte contrária corrigir com razão uma afirmação nossa, reconhecer e reenquadrar na própria peça
+custa menos do que sustentá-la: o que se perde num parágrafo se recupera na credibilidade dos demais.
 
 ## Ligações
 

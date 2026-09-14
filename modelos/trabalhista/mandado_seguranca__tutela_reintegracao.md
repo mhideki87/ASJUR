@@ -13,8 +13,11 @@ efeitos da rescisão por justa causa ou determina restabelecer benefício vincul
 saúde). A via é o mandado de segurança (Súmula 414, II, do TST), porque a decisão é interlocutória e
 irrecorrível de imediato (art. 893, § 1º, da CLT; Súmula 214 do TST).
 
-O mesmo esqueleto serve, com poda, para os dois derivados que costumam acompanhar a impetração:
-**memoriais** (4 páginas, para despacho com o Relator) e **petição de juntada de julgados**.
+O mesmo esqueleto serve, com poda, para os dois derivados que acompanham a impetração: **memoriais**
+(4 páginas, para despacho com o Relator) e **petição de juntada de julgados**.
+
+Deferida a liminar, a peça seguinte — contraminuta ao agravo interno do litisconsorte — tem modelo próprio:
+[`contraminuta_agravo_interno__ms_justa_causa.md`](contraminuta_agravo_interno__ms_justa_causa.md).
 
 ## Estrutura padrão
 
