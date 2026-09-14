@@ -5,11 +5,12 @@ description: >-
   recurso de revista, contrarrazões, embargos, quesitos, manifestação, impugnação, petição simples: fonte
   Arial 11, entrelinha exata de 18 pt, margens 3/2/3/2 cm, cabeçalho com logotipo dos Correios, rodapé com
   endereço e numeração de página, tópico principal em CAIXA ALTA dentro de retângulo, subtópicos numerados em
-  negrito sublinhado, citações em Arial 10 recuadas 4 cm, fecho e assinatura (Marcos Hideki
-  Kamibayashi — OAB/MS 14.580). DISPARE sempre que for redigir, montar, converter, reformatar ou entregar
+  negrito sublinhado, citações em Arial 10 recuadas 4 cm, marcações [REVISAR]/[INSERIR] em realce amarelo,
+  fecho e assinatura (Marcos Hideki Kamibayashi — OAB/MS 14.580). DISPARE sempre que for redigir, montar, converter, reformatar ou entregar
   qualquer peça em .docx/.odt, mesmo que o usuário não mencione formatação, e também quando ele pedir "põe no
   formato", "gera o docx", "formata a peça", "arruma o cabeçalho/rodapé/assinatura", "numera os tópicos",
-  "põe o título na caixa". DISPARE também para reformatar peça antiga fora do padrão. NÃO dispare em sessão
+  "põe o título na caixa", "destaca o que falta conferir". DISPARE também para reformatar peça antiga
+  fora do padrão. NÃO dispare em sessão
   só de análise, de roteamento de tese ou de dúvida jurídica, sem entrega de arquivo.
 ---
 
@@ -62,6 +63,7 @@ Se, por qualquer motivo, o arquivo tiver de ser montado à mão (LibreOffice/Wor
 | `> "Ementa..."` | Citação: Arial 10, recuo 4 cm, justificado |
 | `>> Salário R$ 0,00 ÷ 30 = ...` | Bloco de cálculo/enumeração: Arial 10, recuo 4 cm, alinhado à esquerda |
 | `- (a) texto da alínea` | Alínea do corpo: recuo 3 cm, sem recuo de 1ª linha |
+| `[REVISAR: ...]` / `[INSERIR: ...]` | Marcação de conferência: sai no `.docx` com **realce amarelo** (cor de destaque de caracteres), em qualquer bloco |
 | `+ a) PRELIMINARMENTE, ...` | Alínea de requerimento: recuo 3 cm, espaçamento maior depois |
 | `@QUEBRA` | Quebra de página — separa a petição de juntada das razões, em recurso e contrarrazões |
 | `@ASSINATURA: Nome \| OAB/UF 00.000` | Troca a assinatura padrão — só quando o próprio usuário pedir, nunca por conta própria. Precisa vir **antes** do `@FECHO` |
@@ -105,8 +107,26 @@ Comentário `<!-- ... -->`, de uma ou mais linhas, é ignorado e não vai para o
    de rodapé.
 6. **Assinatura invariável, nas duas áreas:** `Marcos Hideki Kamibayashi` / `OAB/MS 14.580`, centralizado,
    em negrito — vale igual em trabalhista e em cível. Só troque se o próprio usuário pedir, na sessão.
-7. **Marcações de conferência** (`[REVISAR: ...]`, `[INSERIR: ...]`) ficam no corpo, em texto normal, e são
-   repetidas na lista de conferência humana ao final da resposta — não no arquivo.
+7. **Marcações de conferência** (`[REVISAR: ...]`, `[INSERIR: ...]`) ficam no corpo do texto, com **realce
+   amarelo** — no Word, "Cor de destaque de caracteres: Amarelo". O gerador aplica o realce **sozinho**:
+   escreva a marcação em texto normal no `.md` e não a formate à mão. Elas continuam sendo repetidas na
+   lista de conferência humana ao final da resposta.
+
+   O realce existe para o usuário achar de relance, folheando a peça, tudo o que ainda depende de
+   conferência humana antes do protocolo — e para que nenhuma marcação seja protocolada por descuido. Por
+   isso ele vale **em qualquer bloco**: corpo, tópico, subtópico, citação, cálculo, alínea e requerimento.
+
+   Reconhecido pelo gerador: `[REVISAR]` e `[INSERIR]` sozinhos, ou seguidos de `:` e do texto da
+   observação, até o `]` que fecha. Só essas duas palavras, em caixa alta, logo depois do `[` — `[TODO: ...]`,
+   `[CONFERIR: ...]` ou `[SEI nº INSERIR]` não são realçados. Outros colchetes do texto (`[NOME DA PARTE]`,
+   `[VALOR]`) seguem sem realce, como antes.
+
+   **Não use ênfase dentro dos colchetes** (`[REVISAR: conferir o **inteiro teor**]`): a ênfase é resolvida
+   antes do realce e parte a marcação, que sai sem amarelo. O gerador avisa quando isso acontece. Negrito
+   em volta da marcação funciona normalmente.
+
+   **Montando o arquivo à mão** (LibreOffice/Word, sem o gerador): selecionar cada marcação e aplicar a cor
+   de destaque amarela — é a única formatação do padrão que não vem pronta do arquivo base.
 
 ## O que muda por tipo de peça (e o que nunca muda)
 
@@ -154,6 +174,8 @@ de clonar `modelos/_FORMATO_BASE.docx`. Nunca entregue em `.odt` nem monte a pe�
 - [ ] Nenhum pedido da inicial/do recurso ficou sem subtópico.
 - [ ] Citações em Arial 10 recuadas 4 cm; nada de citação em corpo de texto normal. Itálico só em expressão
       latina no corpo (*ad argumentandum tantum*, *verbis*), nunca na citação inteira.
+- [ ] Toda marcação `[REVISAR: ...]` / `[INSERIR: ...]` está com realce amarelo — e nenhuma frase sem
+      marcação ficou realçada por engano.
 - [ ] Fecho e assinatura fecham a peça; nada depois deles.
 - [ ] Nenhuma nota de rodapé no documento.
 - [ ] O arquivo **não** foi copiado para dentro deste repositório (dado real de parte fica em

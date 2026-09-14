@@ -18,9 +18,12 @@
 ## Regras inegociáveis
 
 1. **Não inventar nada** — jurisprudência, doutrina, número de processo, data, cláusula de ACT ou Id de
-   documento. Sem certeza, marcar `[REVISAR: ...]` ou `[INSERIR: ...]` no corpo do texto.
+   documento. Sem certeza, marcar `[REVISAR: ...]` ou `[INSERIR: ...]` no corpo do texto. No arquivo
+   entregue, essas marcações saem com **realce amarelo** — aplicado sozinho pelo gerador da skill
+   `formatar-minuta`.
 2. Só usar ementas que constem dos autos, do modelo anexado ou do recurso adversário.
-3. Listar ao final, separadamente, **o que precisa de conferência humana**: datas de intimação e contagem
+3. Listar ao final, separadamente, **o que precisa de conferência humana** — a lista na conversa vale
+   junto com o realce amarelo no arquivo, não no lugar dele: datas de intimação e contagem
    de prazo, cômputo de tempo em função gratificada, Ids e cláusulas, e toda a jurisprudência citada.
 4. Não presumir fato ausente dos documentos; divergindo defesa e sentença, apoiar-se na sentença e na capa
    do PJe. **Não construir linha de defesa sobre a ausência de uma parcela, rubrica ou registro sem ter em

@@ -1,5 +1,7 @@
 <!-- Exemplo de entrada do gerador: mostra todos os tipos de bloco do padrão ASJUR/ECT.
      Só placeholders — nenhum dado de parte real (o repositório é público).
+     As marcações [REVISAR: ...] e [INSERIR: ...] saem no .docx com realce amarelo; os demais
+     colchetes ([NOME DA PARTE], [VALOR]) são só placeholders e ficam sem realce.
      Gerar com:
        python .claude/skills/formatar-minuta/scripts/gerar_minuta_docx.py \
          .claude/skills/formatar-minuta/referencia/exemplo_minuta.md /caminho/fora/do/repo/saida.docx
@@ -38,7 +40,7 @@ art. 485, VI, do CPC, aplicável subsidiariamente por força do art. 769 da CLT.
 ## 1 – DO PRIMEIRO PEDIDO: [SÍNTESE DA TESE DE DEFESA]
 
 A tese autoral repousa sobre premissa equivocada. Vejamos a sequência fática, toda ela documentada no
-processo administrativo [SEI nº INSERIR]:
+processo administrativo [INSERIR: nº do processo SEI]:
 
 - (a) [primeiro fato, com o documento que o comprova];
 - (b) [segundo fato];
@@ -67,6 +69,7 @@ Demonstra-se, ainda, pela própria documentação juntada pela parte autora:
 
 Requer-se, em caso de improcedência total ou parcial, a condenação da parte autora ao pagamento de
 honorários de sucumbência, na forma do art. 791-A, §3º, da CLT.
+[REVISAR: conferir o percentual fixado na sentença antes do protocolo.]
 
 # Dos requerimentos
 
