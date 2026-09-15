@@ -319,6 +319,11 @@ Revise a minuta anexada como se fosse conferi-la antes do protocolo. Verifique:
 - a numeração dos tópicos corre sem saltos?
 - há citação de jurisprudência sem fonte nos autos?
 - os requerimentos finais correspondem às teses desenvolvidas?
+- a peça pede privilégio, prazo ou intimação para a unidade/estado CERTO da ECT?
+- algum dispositivo citado está revogado (CPC/1973, Lei 8.666/93 em contrato
+  regido pela Lei 13.303/2016)?
+- a doutrina ou a jurisprudência transcrita sustenta a tese da ECT — ou sustenta
+  a da parte contrária?
 - se a peça for recurso: o prequestionamento cobre todos os dispositivos
   discutidos? (em embargos de declaração não se aplica — ver 2.6)
 Liste apenas os problemas, com a localização de cada um. Não reescreva a peça.
@@ -331,6 +336,20 @@ correção pela **TR** com apoio na **OJ 300 da SDI-1** — critério superado p
 870.947 (Tema 810) e pela EC 113/2021, e ainda contraditório com o pedido de SELIC feito na mesma peça —,
 numeração que pulava de "2" para "3.1", e ausência de impugnação ao valor do pedido principal, que depois
 custou a discussão da base de cálculo em grau recursal.
+
+Os três itens acrescentados depois vieram de uma **contestação cível de 08/2026** (contrato de empresa
+estatal), conferida em 09/2026 ao se analisar a decisão que deferiu a tutela contra a ECT:
+
+- **unidade errada** — peça de MS pedindo os privilégios do Decreto-lei 509/69 "à esta requerida, ECT/MT",
+  e chamando a ré de "Recorrente" numa contestação: resíduo de reaproveitamento que entrega ao adversário
+  o argumento de peça-padrão não lida;
+- **dispositivo revogado** — ônus da prova sustentado no "artigo 333 do Estatuto Processual Civil"
+  (CPC/1973), quando o vigente é o art. 373 do CPC/2015; e jurisprudência de rescisão unilateral construída
+  sobre a **Lei 8.666/93** em contrato regido pela **Lei 13.303/2016**, cujo regime é outro;
+- **doutrina contra a própria tese** — páginas transcritas de doutrina afirmando que os contratos da Lei
+  13.303/2016 **não têm cláusulas exorbitantes nem prerrogativa de rescisão unilateral**, seguidas da
+  defesa da rescisão unilateral. Transcrição longa não é reforço: é a tese do autor dentro da peça da ré.
+  Antes de colar bloco doutrinário herdado, ler o que ele conclui.
 
 ### 3.2 Teste da tese adversa
 ```

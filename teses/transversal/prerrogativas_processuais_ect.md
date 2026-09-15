@@ -3,11 +3,11 @@ area: transversal
 tema: Prerrogativas processuais da ECT (equiparação à Fazenda Pública)
 slug: prerrogativas_processuais_ect
 status: validada
-gatilhos: [correção monetária, juros de mora, atualização monetária, IPCA-E, SELIC, ADC 58, prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de depósito recursal, precatório, remessa necessária, EC 113/2021, tempestividade, empresa pública, agravo de petição, delimitação de valores]
+gatilhos: [correção monetária, juros de mora, atualização monetária, IPCA-E, SELIC, ADC 58, prazo em dobro, Decreto-lei 779/69, Decreto-lei 509/69, equiparação à Fazenda Pública, dispensa de preparo, dispensa de depósito recursal, precatório, remessa necessária, EC 113/2021, tempestividade, empresa pública, agravo de petição, delimitação de valores, tutela de urgência, liminar, Lei 8.437/92]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação, agravo de petição]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
-ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md]
-atualizado: 2026-09-10
+ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/civel/sancoes_e_rescisao_contrato_lei_estatais.md]
+atualizado: 2026-09-15
 ---
 
 # Tese — Prerrogativas processuais da ECT
@@ -50,8 +50,40 @@ ver `modelos/trabalhista/contestacao__afastamentos.md`.
 **Desdobramentos na área cível** (vindos do levantamento estatístico do acervo, não de leitura de peça):
 - **Decreto-lei 509/69** é o normativo mais citado do acervo cível (~190 menções somando variantes)
   `[REVISAR: confirmar em que argumentos concretos aparece]`.
-- **Lei 9.494/97** — restrições a tutela antecipada contra a Fazenda Pública `[REVISAR]`.
 - **Lei 11.960/2009** — índices de juros/correção monetária contra a Fazenda Pública `[REVISAR]`.
+
+**Limites legais da tutela provisória contra a ECT** (normas conferidas no Planalto em 15/09/2026):
+
+- **Art. 1.059 do CPC** — "À tutela provisória requerida contra a Fazenda Pública aplica-se o disposto nos
+  arts. 1º a 4º da Lei nº 8.437, de 30 de junho de 1992, e no art. 7º, § 2º, da Lei nº 12.016, de 7 de
+  agosto de 2009."
+- **Art. 1º, § 3º, da Lei nº 8.437/92** — "Não será cabível medida liminar que **esgote, no todo ou em
+  qualquer parte, o objeto da ação**." É o dispositivo a invocar quando a liminar não se limita a
+  *suspender* um ato, mas manda **restituir valor, liberar crédito ou entregar o bem da vida** que o pedido
+  final persegue. Confrontar o comando da liminar com a lista de pedidos da inicial, item a item: o que
+  coincidir é esgotamento.
+- **Art. 4º da Lei nº 8.437/92** — **pedido de suspensão** ao Presidente do Tribunal ao qual couber o
+  recurso, por "grave lesão à ordem, à saúde, à segurança e à **economia públicas**". É via **autônoma**,
+  cumulável com o agravo de instrumento, e o prazo do agravo não a consome.
+- **Art. 300, § 3º, do CPC** — a tutela antecipada não se concede havendo perigo de irreversibilidade. A
+  decisão que se declara reversível "porque apenas suspende atos" precisa ser confrontada com os comandos
+  que **não** são de suspensão: ordem de pagar/restituir em prazo curto, e ordem de manter em execução
+  contrato cujos serviços são consumidos e faturados mês a mês.
+- **Lei 9.494/97** — o art. 1º manda aplicar à tutela antecipada, entre outros, os arts. 1º, 3º e 4º da Lei
+  8.437/92; o art. 2º-B condiciona ao trânsito em julgado a execução de sentença que tenha por objeto
+  liberação de recurso, inclusão em folha, reclassificação, equiparação ou extensão de vantagens **a
+  servidores** — redação centrada em servidor público, que **não** se transporta automaticamente para
+  crédito de empresa contratada. Não citar o art. 2º-B como se fosse regra geral de vedação de pagamento
+  por liminar.
+- **Precatório.** Ordem de pagamento imediato contra a ECT tensiona o art. 100 da CF e a equiparação desta
+  ficha. `[REVISAR: construção ainda não testada em decisão — conferir como o TRF3 trata ordem de
+  restituição de valor retido, que pode ser lida como devolução, e não como condenação em quantia certa,
+  afastando o regime do precatório.]`
+
+**Prazo em dobro na Justiça Federal não vem do art. 183 do CPC.** O art. 183 alcança União, Estados,
+Municípios e suas **autarquias e fundações de direito público** — a ECT é empresa pública e não está no rol.
+A dobra se sustenta no art. 12 do Decreto-lei 509/69 (privilégios da Fazenda Pública quanto a prazos), com
+o RE 220.906/DF. Não construir petição de interposição sobre o art. 183.
 
 ## Pontos sensíveis
 
