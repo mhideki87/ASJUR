@@ -139,15 +139,17 @@ egresso para as fontes oficiais, e resumo de busca não confere norma. Em ordem 
       orientação do C. TST sobre a aplicação do prazo de 8 dias aos recursos internos no processo do
       trabalho. Registrar em
       `modelos/trabalhista/contraminuta_agravo_interno__ms_justa_causa.md` quando fechar.
-- [ ] **Texto do art. 337 do Decreto 3.048/99 (NTEP) e do art. 308 — qual dispositivo dá o efeito
-      suspensivo.** Em contestação de 09/2026 sustentou-se que o recurso da empresa contra a caracterização
-      do nexo tem efeito suspensivo. O `planalto.gov.br` está bloqueado no cloud; uma busca indicou que o
-      requerimento de não aplicação está no **§ 7º**, os prazos de 15 dias nos **§§ 8º e 9º**, e que o
-      recurso ao CRPS vem "**com efeito suspensivo**, nos termos dos **arts. 305 a 310**" — ou seja, num
-      parágrafo do próprio art. 337, e não no art. 308 isoladamente, como se citou. **Resumo de busca não
-      confere norma:** conferir em fonte oficial, em sessão local, e corrigir a citação na ficha
-      `teses/trabalhista/doenca_ocupacional.md` (seção do NTEP) e no modelo de contestação dos vales.
-      Conferir também o **art. 21-A da Lei 8.213/91**, citado como base legal do NTEP sem leitura direta.
-      A mesma busca registrou que a Previdência **nem sempre respeita** o efeito suspensivo na prática, o
-      que reforça a calibração já anotada na ficha: sustentar que a caracterização não é definitiva, não
-      que o benefício foi reclassificado.
+- [x] ~~**Texto do art. 337 do Decreto 3.048/99 (NTEP) e do art. 308 — qual dispositivo dá o efeito
+      suspensivo.**~~ **FECHADA em 15/09/2026**, com leitura em fonte oficial (`planalto.gov.br`), depois de
+      liberados os domínios no ambiente cloud. Resultado, e ele **corrige** o que se vinha citando:
+      o efeito suspensivo está no **art. 337, § 13**, do Decreto 3.048/99 (incluído pelo Decreto 6.042/2007)
+      — "cabe recurso, com efeito suspensivo, … ao Conselho de Recursos da Previdência Social, nos termos
+      dos arts. 305 a 310" —, e **não** no art. 308, que é apenas parte da remissão ao rito. Base legal
+      independente, e mais forte: **art. 21-A, § 2º, da Lei 8.213/91** (redação da LC 150/2015), que prevê o
+      mesmo recurso com efeito suspensivo; e o **§ 1º** do mesmo artigo, que torna expressa a natureza
+      **relativa** da presunção. Achado colateral: a redação vigente do **§ 7º** é a do **Decreto
+      6.939/2009**, não a de 2007 — o art. 337 empilha quatro redações do *caput* e redações distintas por
+      parágrafo. Tudo registrado em `teses/trabalhista/doenca_ocupacional.md` (seção do NTEP), com a tabela
+      de qual decreto deu a redação de cada parágrafo. A observação de que a Previdência **nem sempre
+      observa** o efeito suspensivo na prática foi mantida na ficha, como reforço da calibração: sustentar
+      que a caracterização não é definitiva, não que o benefício foi reclassificado.

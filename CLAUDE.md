@@ -398,6 +398,13 @@ redações sucessivas, uma embaixo da outra. Uma busca ingênua pelo número do 
 que separou, no art. 62 da CLT, o texto revogado ("vendedores pracistas, viajantes") do vigente
 ("empregados que exercem atividade externa incompatível com a fixação de horário", Lei 8.966/1994).
 
+**E a nota de redação é por parágrafo, não por artigo** (constatado em 15/09/2026, no art. 337 do Decreto
+3.048/99): um mesmo artigo pode ter o *caput* na redação de 2020, um parágrafo na de 2009 e outro ainda no
+texto original de 2007. Conferir a nota "(Redação dada pelo Decreto nº …)" **do parágrafo que se vai citar**
+— citar o decreto do artigo é como se atribui redação revogada a dispositivo vigente. Vale também para o
+inverso: trecho **sem** nota de redação pode ser o original nunca alterado (é o caso do § 13 ali) ou um
+trecho com "(Vigência encerrada)" logo adiante, que não vale nada.
+
 **O `WebFetch` não substitui o `curl` aqui:** no Planalto ele devolveu `HTTP 503`, mesmo com o domínio
 liberado. Use-o para páginas simples; para texto de norma, `curl` com a receita acima.
 
