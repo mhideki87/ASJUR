@@ -367,8 +367,24 @@ sed -e 's/<[^>]*>/ /g' norma.html | tr -s ' \n' ' ' | grep -o 'Art. 62.\{0,650\}
 | `planalto.gov.br` (CLT, Constituição, leis) | funciona com a receita acima |
 | `in.gov.br` (Diário Oficial) | funciona |
 | `cnj.jus.br`, `trt24.jus.br`, `gov.br` (INSS etc.) | funcionam |
-| `www.tst.jus.br` e `juris.tst.jus.br` | **não** — desafio de navegador da AWS WAF (`HTTP 202`, `x-amzn-waf-action: challenge`, corpo vazio) |
-| `stf.jus.br`, `portal.stf.jus.br` | **não** — sem resposta |
+| `www.tst.jus.br` | **não** — desafio de navegador da AWS WAF (`HTTP 202`, `x-amzn-waf-action: challenge`, corpo vazio) |
+| `jurisprudencia.tst.jus.br`, `www3.tst.jus.br`, `consultaunificada2.tst.jus.br` | respondem `200`, mas a Pesquisa de Jurisprudência é aplicação JavaScript: vem a casca de 1 KB, não o resultado |
+| `stf.jus.br` (todos os hosts) | **não** — cadeia de certificado incompleta; conserto abaixo |
+
+**Antes de mandar liberar mais domínio, teste se é mesmo a lista.** Só o `403` no `CONNECT` é recusa de
+política; `502` é host que o gateway não alcançou e `200` seguido de erro é problema do site, não da lista.
+Os dois casos abaixo foram diagnosticados errado justamente por não se olhar essa diferença:
+
+- **`juris.tst.jus.br` não existe** — devolve `502`, não `403`. O endereço vivo da Pesquisa de
+  Jurisprudência é `jurisprudencia.tst.jus.br`, que responde normalmente.
+- **O STF passa pela lista** (`200 Connection Established`) e falha depois, no TLS, com
+  `unable to get local issuer certificate`. O servidor do STF manda só o certificado final, sem o
+  intermediário — `CN = *.stf.jus.br`, emitido por `GlobalSign GCC R6 AlphaSSL CA 2025`. A raiz R6 já está
+  em `/etc/ssl/certs`; falta o elo do meio, publicado em
+  `http://secure.globalsign.com/cacert/gsgccr6alphasslca2025.crt`, que a lista barra com `403`. Ou seja:
+  **para alcançar o STF, o domínio a acrescentar é `secure.globalsign.com`, não `stf.jus.br`** — este já
+  está liberado. Vale para todos os hosts do STF (`www`, `portal`, `jurisprudencia`, `redir`), que
+  compartilham a mesma configuração incorreta. Nunca resolver isso desligando a verificação de certificado.
 
 O Chromium instalado no ambiente resolveria o desafio do TST, mas o certificado do proxy não está no
 repositório de certificados que o Playwright usa, e tanto o contorno por *fingerprint* quanto a instalação
