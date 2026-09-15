@@ -7,7 +7,7 @@ gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritíve
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-11
+atualizado: 2026-09-15
 ---
 
 # Tese — Prescrição total
@@ -144,6 +144,35 @@ contado da apuração administrativa. A parte autora costuma arguir isso, e cost
 fatia pequena, **conceder é barato e compra credibilidade** para os capítulos que interessam.
 `[REVISAR: confirmar se o prazo do art. 7º, XXIX, da CF e do art. 11 da CLT alcança a pretensão do
 empregador à repetição de pagamento indevido, e qual o marco inicial — o pagamento ou a apuração.]`
+
+## Quando o ato único é anterior ao quinquênio, a prescrição total vira dispensável
+
+Registrado em 09/2026, e é o achado que mais muda o cálculo de risco deste tema. A seção seguinte mostra
+que o TRT24 vem **rejeitando** a prescrição total em parcela de norma interna — o que costuma tornar a
+prejudicial frágil na Região. **Há um cenário em que essa fragilidade deixa de importar por completo.**
+
+Cruzar sempre duas datas antes de escrever o capítulo:
+
+>> marco quinquenal = data do ajuizamento − 5 anos
+
+>> data do ato único = mês em que a rubrica deixou de ser paga em folha
+
+Se o **ato único for anterior ao marco quinquenal**, não resta uma única parcela dentro do quinquênio — e
+**total ou parcial dão o mesmo resultado**: improcedência integral do pedido e de todos os seus reflexos.
+A controvérsia sobre o alcance da exceção do art. 11, § 2º (norma interna é ou não "preceito de lei"), que
+é onde a defesa costuma perder no TRT24, simplesmente **não precisa ser vencida**.
+
+Num caso real: última competência paga em **01/2019**, ajuizamento em **28/07/2026**, marco quinquenal em
+**28/07/2021** — dois anos e meio depois da última parcela. O capítulo, de R$ 104 mil, passou de risco alto
+a improcedência por documento.
+
+**Como redigir, e a ordem importa:** deduzir a **total** pelo art. 11, § 2º (é pressuposto do recurso de
+revista e não custa espaço), e **em seguida dizer expressamente que o acolhimento dela é dispensável**,
+porque a quinquenal sozinha fulmina a pretensão inteira. Dá ao juízo o caminho mais curto e barato para
+julgar improcedente, sem obrigá-lo a enfrentar a tese que a Região vem rejeitando.
+
+**Onde não se aplica:** parcela ainda em pagamento, ou cuja supressão esteja **dentro** do quinquênio — aí
+volta a valer integralmente a seção seguinte, com a expectativa realista de acolhimento apenas da parcial.
 
 ## Como o TRT24 tem decidido — atenção antes de apoiar a defesa nesta prejudicial
 

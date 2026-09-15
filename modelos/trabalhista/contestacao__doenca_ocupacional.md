@@ -3,7 +3,7 @@
 **Consolidado de:** 1 caso-fonte (rito ordinário, TRT24 — três acidentes típicos de carteiro motorizado com
 CAT emitida, mais alegação de doença ocupacional por agravamento; pedidos de pensão vitalícia, lucros
 cessantes, despesas médicas e dano moral).
-**Última atualização:** 2026-09-05 — criação inicial.
+**Última atualização:** 2026-09-15 — variação da inicial que soma doença ocupacional, adicional de atividade e vales.
 **Formatação:** vem da skill `formatar-minuta` (`modelos/_FORMATO_BASE.docx`). Este tema não tem `.docx`
 próprio — o corpo não traz nada estruturalmente distinto que justifique arquivo binário separado.
 
@@ -132,6 +132,16 @@ numeração) para que nenhum pedido fique sem impugnação específica — regra
   "Prescrição" de [`teses/trabalhista/doenca_ocupacional.md`](../../teses/trabalhista/doenca_ocupacional.md).
 - **Parcela única** — não impugnar o pagamento: pedir a **redução ao valor presente** (planilha do TRT24),
   tanto no corpo do bloco de quantificação quanto na alínea de eventualidade dos pedidos.
+- **Inicial que soma doença ocupacional + adicional de atividade + vales do afastamento.** Combinação
+  frequente em carteiro reabilitado, e a peça absorve os três sem virar três peças. Estrutura que funcionou
+  em 09/2026 (rito ordinário, oito pedidos, R$ 315 mil): a **prejudicial abre pelo adicional**, e não pelas
+  indenizatórias, porque ali a prescrição se prova por documento e resolve o capítulo de maior valor; o
+  mérito abre com um tópico de **fatos** — o cotejo entre a narrativa da inicial e os documentos que a
+  própria parte juntou —, e só depois percorre pedido a pedido. O bloco de **ausência de redução salarial**
+  é escrito uma vez, no tópico da pensão, e referido no do adicional. Os vales entram por **delimitação de
+  período e depuração de cálculo**, nunca por negativa — ver
+  [`teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md`](../../teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md).
+  Sete tópicos principais, quinze subtópicos de mérito.
 - **Peça de formulário do outro lado** — quando a inicial troca o gênero da parte, erra o valor por extenso
   ou descreve atividade de outro ramo (ex.: "movimentação de pacientes" em caso de empresa postal), apontar
   as marcas: sustenta a impugnação especificada do art. 341 do CPC e desqualifica a causa de pedir do

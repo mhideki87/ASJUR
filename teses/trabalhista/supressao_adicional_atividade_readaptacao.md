@@ -7,7 +7,7 @@ gatilhos: [AAT, AADC, AAG, adicional de atividade, empregado readaptado, emprega
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__supressao_adicional_atividade.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/aadc_cumulacao_periculosidade.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-15
 ---
 
 # Tese — Supressão de adicional de atividade após readaptação profissional
@@ -207,6 +207,36 @@ documental de que a ECT não computa adicional algum naquela base.
 Demais reflexos (férias + gratificação, 13º, FGTS) seguem a sorte do principal; **PLR** nunca recebe
 reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorios.md).
 
+## A prova de que não houve redução salarial — reconstituir a remuneração pelas rubricas
+
+Registrado em 09/2026. Toda a tese autoral, e todo o *leading case* da SBDI-1, repousam numa premissa de
+fato: **a readaptação implicou redução salarial**. Onde a premissa não se verifica, o precedente contrário
+não se aplica — e demonstrá-lo é aritmética, não argumento.
+
+**Como fazer, em quatro marcos:** somar as rubricas de proventos fixos da ficha financeira (salário,
+anuênio, incorporações) no mês anterior ao afastamento, no primeiro mês cheio após a readaptação e no mês
+atual, e **conferir cada soma contra a remuneração lançada no CNIS** daquela competência. Fechando ao
+centavo — e fecha, porque o CNIS é alimentado pela mesma folha —, a demonstração passa a ser verificável
+pelo juízo em dois minutos, sobre documento que a **própria parte autora** costuma juntar. Num caso real:
+
+>> 12/2018, com o adicional: 2.310,58 + 516,72 + 273,00 + 96,58 + 693,17 = R$ 3.890,05
+
+>> 08/2019, já sem o adicional: 2.310,58 + 516,72 + 273,00 + 96,58 = R$ 3.196,88
+
+>> 08/2022, após a reabilitação: 2.767,26 + 647,62 + 316,63 + 115,67 = R$ 3.847,18 (**+20,3%**)
+
+>> 08/2026, atual: 3.899,28 + 1.073,57 + 394,99 + 162,98 = R$ 5.530,82 (**+73,0%** sobre 08/2019)
+
+**O reforço que costuma passar despercebido: a incorporação continua sendo paga.** Na mesma folha, a
+rubrica **051086 — Inc. Tempo Função-ITF** figurava ininterruptamente, inclusive durante o afastamento e
+depois da readaptação. Sendo a função de origem classificada como **"Atividade Especial"** na ficha
+cadastral — e o Módulo 36 conta esse tempo para a incorporação (ver
+[incorporacao_gratificacao_funcao.md](incorporacao_gratificacao_funcao.md)) —, o empregado **já recebe, e
+segue recebendo, a contrapartida que a norma interna previu para o tempo na função cuja perda alega**. Não
+houve supressão sem contrapartida.
+`[REVISAR: confirmar com a área que a ITF paga decorre do tempo na função alegada, juntando o demonstrativo
+do cálculo da incorporação — a correspondência entre as datas é forte, mas é inferência.]`
+
 ## Pontos sensíveis / variações
 
 - **O precedente do TRT 6ª R. (ROT 0000706-18.2024.5.06.0141) pode jogar contra quem o invoca.** Sua *ratio*
@@ -233,6 +263,14 @@ reflexo (art. 3º da Lei 10.101/2000). Ver [temas_acessorios.md](temas_acessorio
   regra 4 do `CONTEXTO.md`: **degrau no CNIS é indício, não fato**. A hipótese fica `[REVISAR]` até vir a
   **ficha financeira de todo o período** — arguir prescrição total sobre uma data inferida e errar destrói a
   credibilidade da peça inteira.
+  **A hipótese se confirmou, e a ficha financeira fecha o argumento com o nome da rubrica.** Na sessão
+  seguinte do mesmo caso (09/2026), a folha trouxe a parcela sob a rubrica **051169 — "Adicional 30% Sal.
+  Base"**, paga nos doze meses de 2017 e de 2018 e **exclusivamente em janeiro de 2019**, zerada dali em
+  diante e ausente de 2022 a 2026. O degrau inferido do CNIS (R$ 693,17) era exatamente 30% do salário-base
+  de R$ 2.310,58 do quadro "Evolução Salarial". Duas lições: o CNIS acerta o **mês** e o **valor**, mas só a
+  ficha financeira dá o **nome da rubrica** — que é o que permite afirmar em juízo qual parcela cessou; e a
+  inicial pode datar a supressão **anos depois** do que a folha registra (ali, 02/05/2022 contra 02/2019).
+  Pedir sempre a ficha financeira, e não só o CNIS.
 - **Recusa da reabilitação pelo próprio empregado, para não perder o adicional.** Achado de 09/2026, no
   histórico clínico do PCMSO juntado **pela parte autora**: *"o INSS sugeriu reabilitação à paciente, porém
   a mesma **recusou por perder o adicional de 30%** aplicável às funções de risco inerentes ao Carteiro
