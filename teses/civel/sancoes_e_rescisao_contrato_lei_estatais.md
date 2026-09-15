@@ -2,9 +2,9 @@
 area: civel
 tema: Sanções e rescisão unilateral em contrato regido pela Lei das Estatais
 slug: sancoes_e_rescisao_contrato_lei_estatais
-status: rascunho
-gatilhos: [Lei 13.303, SICAF, sanção administrativa, rescisão unilateral, retenção de créditos, sobrepreço, tabela de fabricante, empresa estatal, processo administrativo sancionatório]
-pecas: [contestação, agravo de instrumento, embargos de declaração, manifestação]
+status: validada
+gatilhos: [Lei 13.303, SICAF, sanção administrativa, rescisão unilateral, retenção de créditos, sobrepreço, tabela de fabricante, empresa estatal, processo administrativo sancionatório, efeito suspensivo]
+pecas: [contestação, agravo de instrumento, suspensão de liminar, embargos de declaração, manifestação]
 modelos: []
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
 atualizado: 2026-09-15
@@ -12,9 +12,10 @@ atualizado: 2026-09-15
 
 # Tese — Sanções e rescisão unilateral em contrato regido pela Lei das Estatais
 
-> **STATUS: RASCUNHO** — nasceu da análise de uma decisão real (tutela provisória deferida contra a ECT em
-> Vara Federal, 09/2026), não de peça minutada nem de tese já testada em julgamento. As normas abaixo foram
-> **conferidas no Planalto em 15/09/2026**; as construções argumentativas, não.
+> **STATUS: VALIDADA quanto às normas e às cláusulas; as teses ainda não foram testadas em julgamento.**
+> Nasceu da análise de decisão real (tutela provisória deferida contra a ECT em Vara Federal, 09/2026) e
+> amadureceu com a leitura integral do processo administrativo de rescisão (330 pp.) e dos três editais
+> comparados. Normas **conferidas no Planalto em 15/09/2026**; cláusulas transcritas do contrato.
 
 ## Quando esta ficha se aplica
 
@@ -65,6 +66,47 @@ sociedade de economia mista ou, ainda, quando for o caso, cobrada judicialmente"
 valores das multas (VI) e os casos de rescisão do contrato (VII). A Lei das Estatais **não disciplina** as
 hipóteses de rescisão: remete ao contrato.
 
+## O eixo da defesa: o recurso administrativo não tem efeito suspensivo
+
+Este é o ponto que decide as liminares deste tema, e ele é **jurídico**, não fático — o que é uma sorte,
+porque o fato (registro no SICAF logo após a penalidade) costuma estar contra a ECT.
+
+**No contrato padrão de gerenciamento de frota (versão 16.x), as cláusulas são estas** (transcritas do
+Contrato analisado em 09/2026):
+
+> "14.5 Da aplicação das penalidades previstas nesta Cláusula caberá recurso.
+> 14.5.1 O recurso será dirigido à autoridade superior, por intermédio da que praticou o ato recorrido, a
+> qual poderá reconsiderar sua decisão, no prazo de 10 (dez) dias úteis a contar do recebimento do recurso
+> ou, neste mesmo prazo, fazê-lo subir, devidamente informado, para decisão.
+> 14.6 As penalidades serão registradas no SICAF."
+
+Nenhuma delas atribui efeito suspensivo, e a 14.6 **determina** o registro sem condicionante. No plano
+legal, a Lei 13.303/2016 nada dispõe, e vale a regra geral do **art. 61 da Lei nº 9.784/99** (conferido no
+Planalto em 15/09/2026): "Salvo disposição legal em contrário, o recurso não tem efeito suspensivo",
+podendo a autoridade atribuí-lo, de ofício ou a pedido, havendo justo receio de prejuízo de difícil
+reparação (parágrafo único).
+
+Ou seja: **o efeito suspensivo é atribuível, não automático.** A tese só se sustenta depois de conferir no
+SEI que, naquele processo, ele não foi atribuído — em Mato Grosso ele tinha sido, e foi isso que decidiu a
+liminar de lá. Conferir antes de escrever.
+
+Contrapeso a não ignorar: há jurisprudência do TRF1 reputando ilegítima a inscrição no SICAF antes do
+julgamento definitivo do recurso, sob o fundamento de efeito suspensivo "por força de lei" — construída,
+porém, sobre a Lei 8.666/93. `[REVISAR: localizar o inteiro teor desse precedente e verificar se o
+fundamento legal invocado se transporta a contrato da Lei 13.303/2016]`
+
+## A retenção em outros contratos é cláusula expressa, e quase sempre passa batida
+
+> "14.1.2.7 O valor da multa e os prejuízos causados pela CONTRATADA serão executados pela CONTRATANTE, nos
+> seguintes termos: a) retenção dos créditos decorrentes deste Contrato [...]; b) **retenção dos créditos
+> existentes em outras contratações**, porventura vigentes entre a CONTRATANTE e a CONTRATADA, até o limite
+> dos prejuízos causados; c) retenção/execução da garantia contratual [...]"
+
+Casa com o art. 82, § 3º, e o art. 83, § 1º, da Lei 13.303/2016 ("descontada dos pagamentos eventualmente
+devidos pela empresa pública"), que também não recortam por contrato. Decisão que chama isso de "retenção
+cruzada arbitrária" sem enfrentar a cláusula está decidindo contra texto expresso que a própria inicial
+costuma citar.
+
 ## O argumento que se inverte — art. 31 invocado contra a ECT é o que a socorre
 
 Decisão de 1º grau invocou o art. 31 da Lei 13.303/2016 para dizer que exigir "preço à vista de balcão" na
@@ -95,12 +137,23 @@ São cláusulas cumulativas, e a peça tem de dizer isso com a cláusula na mão
   importada por inteiro e demonstrar, ponto a ponto, que as premissas eram próprias do outro processo —
   antes de discutir o mérito. Vale a regra 12 do `CONTEXTO.md`, aqui aplicada à decisão, não ao recurso.
 
-- **Isonomia entre superintendências estaduais se rebate com a versão do edital, e a diferença tem de estar
-  provada nos autos.** Alegação de tratamento discrepante entre estados cai se o instrumento convocatório
-  de cada unidade for de versão diferente, com cláusulas de estimativa de gastos, composição do valor
-  global e regramento de preços distintas. Não basta afirmar a divergência: juntar as duas versões e apontar
-  o subitem. Contrato renovado ou processo sancionatório arquivado em outro estado não atesta regularidade
-  da execução local — a fiscalização é por unidade e recai sobre fatos concretos da frota local.
+- **Isonomia entre superintendências NÃO se rebate pela versão do edital — isso já foi tentado e não se
+  sustenta.** A contestação de 08/2026 afirmou que a versão distinta do instrumento convocatório (16.1 em
+  MS, 16.0 no MA) traria "divergências relevantes quanto ao regramento de preços". Cotejadas as três
+  versões no próprio dossiê (MS 16.1, MA 16.0, SE 16.1), os subitens **2.4 e 2.5 têm redação idêntica nos
+  três**. Sustentar a distinção por aí é entregar ao adversário, que tem os mesmos editais, a demonstração
+  de que a peça afirmou o que os autos negam — exatamente a superafirmação da regra 11 do `CONTEXTO.md`.
+
+  **O que distingue de verdade são os fatos, e a distinção é forte quando existe.** No caso de 09/2026, o
+  arquivamento no MA decidiu **sobrepreço aferido por comparação de preços**, e o fez porque a fiscalização
+  de lá usara uma única cotação à vista como paradigma, sem "elementos fáticos e irrefutáveis". Em MS o
+  núcleo do registro é outro: **taxa acrescida pelo uso do sistema de gerenciamento**, vedada pelo subitem
+  2.5 — infração que não depende de comparação de preço nenhuma. Achar essa diferença de *objeto da
+  apuração* é o trabalho; a diferença de texto do edital não existe.
+
+  Contrato renovado ou processo arquivado em outro estado não atesta regularidade da execução local — a
+  fiscalização é por unidade e recai sobre fatos concretos da frota local. Mas dizer só isso é fraco: o que
+  convence é mostrar que o fato apurado aqui não é o fato arquivado lá.
 
 - **A retenção de crédito em outro contrato tem base legal expressa, e ela costuma passar em branco na
   peça.** Art. 82, § 3º, e art. 83, § 1º, falam em desconto dos "pagamentos eventualmente devidos pela
@@ -140,6 +193,29 @@ São cláusulas cumulativas, e a peça tem de dizer isso com a cláusula na mão
 - [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md) —
   limites da tutela provisória contra a ECT, prazo em dobro e execução por precatório.
 - Modelo estrutural: **não há** modelo cível para este tema em `modelos/`.
+
+- **O maior risco do tema não está na tese: está na demora do próprio processo administrativo.** No caso de
+  09/2026 a anotação no SICAF saiu **no dia seguinte** à notificação da penalidade, e o recurso protocolado
+  13 dias depois seguia **sem julgamento sete meses mais tarde**, quando a liminar foi deferida — enquanto
+  o subitem 14.5.1 dá à autoridade 10 dias úteis para reconsiderar ou fazer subir. Nenhuma tese de efeito
+  suspensivo apaga essa cronologia, e ela é a primeira coisa que o juízo enxerga. Providência prática, que
+  vale mais que um parágrafo de peça: **provocar o julgamento do recurso antes de recorrer**, e noticiar o
+  julgamento nos autos judiciais.
+
+- **Ofício interno de instância superior pedindo complementação da motivação é documento do adversário.**
+  No mesmo caso, a área de controle de execução contratual oficiou a unidade gestora listando seis pontos
+  do recurso "não integralmente enfrentados" (ambiguidade do critério de preço, precedentes de MA e SE,
+  premissa da reunião com o preposto, comprovação de que o desconto é efetivamente aplicado, alegação de
+  desequilíbrio econômico-financeiro e ausência de metodologia consolidada de aferição de sobrepreço).
+  O documento está no SEI, que a parte acessa. Antes de afirmar em peça que a motivação é completa,
+  conferir se não há ofício interno dizendo o contrário — a contradição, quando aparece, custa a peça
+  inteira.
+
+- **A prova que muda o caso é a que descola a infração do debate sobre preço.** Vale mais do que qualquer
+  argumento de vinculação ao edital a comunicação em que a contratada informa à oficina credenciada que o
+  desconto contratual seria "somente para efeito no sistema": se o desconto que definiu a vantajosidade da
+  proposta não se realiza no faturamento, a discussão sai da interpretação de cláusula e entra na equação
+  econômica do certame.
 
 ## Lacunas
 

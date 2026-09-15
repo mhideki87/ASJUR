@@ -419,6 +419,8 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Manifestações | Documentos do INSS, laudos, cálculos, RPV, audiência |
 | Embargos de declaração | Omissão/contradição + prequestionamento |
 | Impugnação aos cálculos · Embargos à execução | Fase de execução (sobretudo em cível) |
+| Agravo de instrumento | Decisão interlocutória (art. 1.015 do CPC), sobretudo tutela provisória deferida contra a ECT em Vara Federal — peça única, dirigida ao TRF3, **sem** petição de juntada |
+| Pedido de suspensão de liminar | Liminar com grave lesão à ordem ou à economia públicas — ao Presidente do TRF3 (art. 4º da Lei 8.437/92 c/c art. 1.059 do CPC). Via **autônoma**: não prejudica nem é prejudicada pelo agravo (art. 4º, § 6º) |
 
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
@@ -434,7 +436,8 @@ Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões �
 segurança (criada em 14/09/2026) ·
 `Adit RO` = complementação das razões do recurso ordinário (art. 1.024, § 4º, do CPC) ·
 `Quesitos` = quesitos de perícia · `AIRR` = agravo de instrumento em recurso de revista (criada em
-09/09/2026). Abreviações de tema: `Inc Fun` = incorporação de função ·
+09/09/2026) · **`Agravo de Instrumento`** e **`Suspensao de Liminar`**, por extenso, nas peças cíveis ao
+TRF3 (criadas em 15/09/2026): `AI` colidiria com `AIRR` na pasta do caso, e `SL` não se lê. Abreviações de tema: `Inc Fun` = incorporação de função ·
 `Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
 `Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
 `Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,

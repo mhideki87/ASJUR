@@ -145,10 +145,17 @@ Muda, no bloco de qualificação:
 | Quesitos / manifestação | Juízo do processo | conforme os autos | — |
 | Contestação cível | Juizado Especial Federal ou Vara Federal | AUTOR / RÉ | `[REVISAR: dispositivo]` |
 | Recurso / contrarrazões em cível | Turma Recursal do JEF ou TRF3 | RECORRENTE / RECORRIDO | `[REVISAR: dispositivo]` |
+| Agravo de instrumento (cível) | Presidência do TRF3 (distribuição a Relator) | AGRAVANTE / AGRAVADO | art. 1.015 do CPC — inciso I para tutela provisória |
+| Pedido de suspensão de liminar | Presidência do TRF3 | REQUERENTE / REQUERIDO | art. 4º da Lei 8.437/92 c/c art. 1.059 do CPC |
 
-Nas linhas de cível, o endereçamento e os rótulos de polo estão confirmados; o dispositivo de
-admissibilidade de cada peça **ainda não** — confirme com o usuário na primeira peça cível da sessão e
-registre aqui pela skill `atualizar-base-conhecimento`. Não preencha por dedução.
+Nas linhas de cível, o endereçamento e os rótulos de polo estão confirmados. Os dispositivos de
+admissibilidade do **agravo de instrumento** e do **pedido de suspensão de liminar** foram conferidos em
+fonte oficial (Planalto, 15/09/2026) e podem ser usados; os da contestação e do recurso/contrarrazões em
+cível **ainda não** — confirme com o usuário na primeira peça desses tipos e registre aqui pela skill
+`atualizar-base-conhecimento`. Não preencha por dedução.
+
+O agravo de instrumento **não tem petição de juntada**: é um bloco de qualificação só, dirigido ao
+Tribunal. Não o monte como recurso ordinário.
 
 Recurso e contrarrazões são **dois blocos de qualificação no mesmo arquivo**: a petição de juntada (dirigida
 à Vara) e as razões (dirigidas ao Tribunal), cada uma com seu `@ENDERECAMENTO`.
