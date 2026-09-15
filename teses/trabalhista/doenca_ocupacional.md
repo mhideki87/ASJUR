@@ -7,7 +7,7 @@ gatilhos: [acidente de trabalho, nexo causal, concausa, incapacidade, perícia m
 pecas: [contestação, quesitos de perícia médica, manifestação sobre laudo, contrarrazões]
 modelos: [modelos/trabalhista/quesitos_pericia_medica__doenca_ocupacional.md, modelos/trabalhista/contestacao__doenca_ocupacional.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/trabalhista/cancer_pele_exposicao_solar.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/responsabilidade_civil_acidente_tipico.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-15
 ---
 
 # Tese — Doença ocupacional
@@ -88,6 +88,36 @@ adicional de atividade, documenta **comportamento contraditório** —
 contraste falar. Não adjetivar a conduta do subscritor da inicial nem insinuar má-fé — a contradição
 documental é forte justamente por ser silenciosa.
 
+## Impugnar o NTEP não é só argumentar: há via administrativa, e ela deixa rastro nos autos
+
+Registrado em 09/2026, na primeira contestação da base a enfrentar o tema de frente. O enquadramento de um
+afastamento como acidentário decorre, com frequência, da aplicação do **Nexo Técnico Epidemiológico
+Previdenciário**, que é **correlação estatística** entre a entidade mórbida e o CNAE da empresa — presunção
+**relativa**, não reconhecimento de causalidade individualizada.
+`[REVISAR: conferir o teor do art. 21-A da Lei 8.213/91, que institui o NTEP e ressalva a prova em contrário
+pela empresa — entrou aqui sem leitura em fonte primária.]`
+
+**O que perguntar à área antes de escrever o capítulo do nexo:** houve **requerimento de não aplicação do
+NTEP** ao caso concreto, na forma do **art. 337, § 7º, do Decreto 3.048/99** (redação do Decreto 6.042, de
+12/02/2007)? Havendo, o processo SEI traz o parecer técnico — em caso de 09/2026 o documento chamava-se
+literalmente *"NTEP – Nexo Técnico Epidemiológico Previdenciário – não há nexo causal"* —, e da decisão cabe
+**recurso ao Conselho de Recursos da Previdência Social com efeito suspensivo**. É prova documental pronta,
+produzida antes do litígio, e costuma estar esquecida num SEI que ninguém juntou.
+
+**A calibração, e ela decide o capítulo.** O requerimento do art. 337, § 7º, nasceu no âmbito do **custeio**
+— a carga de SAT/FAP da empresa. Sustentar que o efeito suspensivo **reclassifica o benefício** para espécie
+31 com efeitos trabalhistas é tese exposta, que o adversário derruba com a distinção entre custeio e
+benefício. O que se sustenta com segurança é mais modesto e suficiente: **a caracterização acidentária não é
+definitiva**, está sob impugnação com eficácia suspensa, e por isso não pode ser tomada como fato assentado
+— tanto mais quando o ônus de prová-la é de quem a alega (art. 818, I, da CLT).
+`[REVISAR: confirmar em fonte oficial o parágrafo do art. 337 que prevê o recurso "com efeito suspensivo,
+nos termos dos arts. 305 a 310" e se a citação correta é esse parágrafo ou o art. 308 do Decreto 3.048/99.
+Ver LACUNAS.md — a conferência não fecha em sessão cloud.]`
+
+**Fecho que rende, quando o autor litiga o nexo em ação própria:** quem ajuizou ação discutindo a existência
+da doença ocupacional **controverteu o nexo por iniciativa própria**, e não pode, em ação paralela, exigir
+que ele seja tido por incontroverso.
+
 ## Prescrição — na doença insidiosa, o marco é a reabilitação profissional
 
 Em acidente típico a ciência inequívoca é contemporânea ao sinistro
@@ -102,6 +132,12 @@ sido declarado **apto** para função diversa, a **data do certificado de reabil
 inequívoca: as pretensões indenizatórias ligadas ao **cargo anterior** ficam atingidas por **prescrição
 total** (art. 7º, XXIX, da CF; extinção pelo art. 487, II, do CPC), **ainda que o contrato siga em vigor**.
 Pedir sempre, sucessivamente, a prescrição quinquenal das verbas anteriores ao quinquênio.
+
+**Onde achar a data da reabilitação sem depender do INSS:** no quadro **CARGO/ESPECIALIDADE da ficha
+cadastral**, a mudança de cargo vem com o campo *motivo*, e a reabilitação aparece ali nomeada —
+"REABILITAÇÃO PROFISSIONAL", com a data. Em caso de 09/2026 foi assim que se localizou a passagem de
+Carteiro a Atendente Comercial em 17/09/2009, logo após licença INSS encerrada em 16/09/2009. É o documento
+mais rápido de obter e já entrega o marco.
 
 ### Marco ainda anterior à reabilitação: o auxílio-acidente (espécie 94) no CNIS
 

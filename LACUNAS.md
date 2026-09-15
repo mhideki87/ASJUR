@@ -139,3 +139,15 @@ egresso para as fontes oficiais, e resumo de busca não confere norma. Em ordem 
       orientação do C. TST sobre a aplicação do prazo de 8 dias aos recursos internos no processo do
       trabalho. Registrar em
       `modelos/trabalhista/contraminuta_agravo_interno__ms_justa_causa.md` quando fechar.
+- [ ] **Texto do art. 337 do Decreto 3.048/99 (NTEP) e do art. 308 — qual dispositivo dá o efeito
+      suspensivo.** Em contestação de 09/2026 sustentou-se que o recurso da empresa contra a caracterização
+      do nexo tem efeito suspensivo. O `planalto.gov.br` está bloqueado no cloud; uma busca indicou que o
+      requerimento de não aplicação está no **§ 7º**, os prazos de 15 dias nos **§§ 8º e 9º**, e que o
+      recurso ao CRPS vem "**com efeito suspensivo**, nos termos dos **arts. 305 a 310**" — ou seja, num
+      parágrafo do próprio art. 337, e não no art. 308 isoladamente, como se citou. **Resumo de busca não
+      confere norma:** conferir em fonte oficial, em sessão local, e corrigir a citação na ficha
+      `teses/trabalhista/doenca_ocupacional.md` (seção do NTEP) e no modelo de contestação dos vales.
+      Conferir também o **art. 21-A da Lei 8.213/91**, citado como base legal do NTEP sem leitura direta.
+      A mesma busca registrou que a Previdência **nem sempre respeita** o efeito suspensivo na prática, o
+      que reforça a calibração já anotada na ficha: sustentar que a caracterização não é definitiva, não
+      que o benefício foi reclassificado.
