@@ -90,29 +90,89 @@ documental é forte justamente por ser silenciosa.
 
 ## Impugnar o NTEP não é só argumentar: há via administrativa, e ela deixa rastro nos autos
 
-Registrado em 09/2026, na primeira contestação da base a enfrentar o tema de frente. O enquadramento de um
-afastamento como acidentário decorre, com frequência, da aplicação do **Nexo Técnico Epidemiológico
-Previdenciário**, que é **correlação estatística** entre a entidade mórbida e o CNAE da empresa — presunção
-**relativa**, não reconhecimento de causalidade individualizada.
-`[REVISAR: conferir o teor do art. 21-A da Lei 8.213/91, que institui o NTEP e ressalva a prova em contrário
-pela empresa — entrou aqui sem leitura em fonte primária.]`
+Registrado em 09/2026, na primeira contestação da base a enfrentar o tema de frente, e **conferido em
+fonte oficial** (planalto.gov.br, 15/09/2026). O enquadramento de um afastamento como acidentário decorre,
+com frequência, da aplicação do **Nexo Técnico Epidemiológico Previdenciário** — correlação estatística
+entre a entidade mórbida e a atividade da empresa, e não reconhecimento de causalidade individualizada.
+
+**A base legal, com o texto conferido:**
+
+> **Art. 21-A da Lei 8.213/91** (redação da **LC 150/2015**) — "A perícia médica do INSS considerará
+> caracterizada a natureza acidentária da incapacidade quando constatar ocorrência de **nexo técnico
+> epidemiológico** entre o trabalho e o agravo, decorrente da relação entre a atividade da empresa ou do
+> empregado doméstico e a entidade mórbida motivadora da incapacidade elencada na CID, **em conformidade
+> com o que dispuser o regulamento**."
+> **§ 1º** (Lei 11.430/2006) — a perícia "**deixará de aplicar o disposto neste artigo quando demonstrada a
+> inexistência do nexo** de que trata o caput".
+> **§ 2º** (redação da LC 150/2015) — "A empresa ou o empregador doméstico poderão requerer a não aplicação
+> do nexo técnico epidemiológico, **de cuja decisão caberá recurso, com efeito suspensivo**, da empresa, do
+> empregador doméstico ou do segurado ao Conselho de Recursos da Previdência Social."
+
+O § 1º é o que sustenta, sozinho, a natureza **relativa** da presunção: a própria lei prevê que ela cede à
+demonstração em contrário. Não é preciso ir além disso para abrir o capítulo.
+
+No regulamento, o NTEP está no **art. 337, § 3º, do Decreto 3.048/99**, que remete à **Lista C do Anexo II**
+— e não à Lista B, como constava da redação original de 2007 (a troca veio com o **Decreto 6.957/2009**).
 
 **O que perguntar à área antes de escrever o capítulo do nexo:** houve **requerimento de não aplicação do
-NTEP** ao caso concreto, na forma do **art. 337, § 7º, do Decreto 3.048/99** (redação do Decreto 6.042, de
-12/02/2007)? Havendo, o processo SEI traz o parecer técnico — em caso de 09/2026 o documento chamava-se
-literalmente *"NTEP – Nexo Técnico Epidemiológico Previdenciário – não há nexo causal"* —, e da decisão cabe
-**recurso ao Conselho de Recursos da Previdência Social com efeito suspensivo**. É prova documental pronta,
-produzida antes do litígio, e costuma estar esquecida num SEI que ninguém juntou.
+NTEP** ao caso concreto, na forma do **art. 337, § 7º, do Decreto 3.048/99**? Havendo, o processo SEI traz o
+parecer técnico — em caso de 09/2026 o documento chamava-se literalmente *"NTEP – Nexo Técnico
+Epidemiológico Previdenciário – não há nexo causal"*. É prova documental pronta, produzida antes do litígio,
+e costuma estar esquecida num SEI que ninguém juntou.
+
+**O dispositivo do efeito suspensivo é o § 13, não o art. 308** — correção de citação, feita em 15/09/2026
+contra o texto oficial:
+
+> **Art. 337, § 13, do Decreto 3.048/99** (incluído pelo Decreto 6.042/2007) — "Da decisão do requerimento
+> de que trata o § 7º **cabe recurso, com efeito suspensivo**, por parte da empresa ou, conforme o caso, do
+> segurado ao **Conselho de Recursos da Previdência Social**, nos termos dos arts. 305 a 310."
+
+Os **arts. 305 a 310** são a *remissão* ao rito do recurso ao CRPS, não a fonte do efeito suspensivo: citar
+"art. 308" no lugar do § 13 entrega ao adversário uma imprecisão gratuita logo no capítulo mais disputável.
+Preferir a dupla **art. 21-A, § 2º, da Lei 8.213/91 + art. 337, § 13, do Decreto 3.048/99** — lei e
+regulamento dizendo o mesmo, o que blinda o ponto.
+
+**Armadilha de citação, e ela é específica deste artigo.** O art. 337 acumula **quatro redações sucessivas**
+do *caput* (Decretos 6.042/2007, 10.410/2020 e 10.491/2020) e redações diferentes de quase todos os
+parágrafos. No Planalto elas aparecem **empilhadas na mesma página**, sem que a superada saia. Ao citar:
+
+| Dispositivo | Redação vigente |
+|---|---|
+| *caput* e § 6º | **Decreto 10.491/2020** — fala em "Perícia Médica Federal", não em "perícia médica do INSS" |
+| § 3º | **Decreto 6.957/2009** — Lista **C** do Anexo II |
+| § 7º, § 10 e § 12 | **Decreto 6.939/2009** — suprimiram a palavra "causal" ("nexo entre o trabalho e o agravo") |
+| § 8º, § 11 e § 13 | **Decreto 6.042/2007** — texto original, nunca alterado |
+
+Ou seja: atribuir o § 7º ao **Decreto 6.042/2007** é citar a redação **revogada**; a vigente é a do
+**Decreto 6.939/2009**. E o § 13, esse sim, é de 2007. Conferir sempre a nota "(Redação dada pelo
+Decreto nº …)" mais recente **de cada parágrafo**, não do artigo.
+
+**Os prazos, que decidem se o requerimento é sequer conhecido:** **quinze dias** contados da entrega da
+GFIP que registre a movimentação do trabalhador (§ 8º), "**sob pena de não conhecimento da alegação em
+instância administrativa**"; ou, se a empresa não tinha como conhecer o diagnóstico a tempo, quinze dias da
+ciência da decisão da perícia (§ 9º). Conferir a data do protocolo no SEI antes de sustentar o ponto — um
+requerimento intempestivo não produz o efeito suspensivo que se quer invocar.
 
 **A calibração, e ela decide o capítulo.** O requerimento do art. 337, § 7º, nasceu no âmbito do **custeio**
 — a carga de SAT/FAP da empresa. Sustentar que o efeito suspensivo **reclassifica o benefício** para espécie
 31 com efeitos trabalhistas é tese exposta, que o adversário derruba com a distinção entre custeio e
 benefício. O que se sustenta com segurança é mais modesto e suficiente: **a caracterização acidentária não é
 definitiva**, está sob impugnação com eficácia suspensa, e por isso não pode ser tomada como fato assentado
-— tanto mais quando o ônus de prová-la é de quem a alega (art. 818, I, da CLT).
-`[REVISAR: confirmar em fonte oficial o parágrafo do art. 337 que prevê o recurso "com efeito suspensivo,
-nos termos dos arts. 305 a 310" e se a citação correta é esse parágrafo ou o art. 308 do Decreto 3.048/99.
-Ver LACUNAS.md — a conferência não fecha em sessão cloud.]`
+— tanto mais quando o ônus de prová-la é de quem a alega (art. 818, I, da CLT). Some-se que a Previdência
+**nem sempre observa** o efeito suspensivo no plano administrativo: mais uma razão para a peça falar de
+caracterização **não definitiva**, e não de benefício reclassificado.
+
+**O reforço que vem de graça — art. 20, § 1º, da Lei 8.213/91**, também conferido em 15/09/2026. O texto
+exclui do conceito de doença do trabalho, em alíneas autônomas:
+
+> a) a **doença degenerativa**; b) a **inerente a grupo etário**; c) a que **não produza incapacidade
+> laborativa**; d) a doença **endêmica** adquirida por segurado habitante de região em que ela se
+> desenvolva, salvo comprovação de exposição determinada pela natureza do trabalho.
+
+A alínea **"b"** costuma passar despercebida e vale por um parágrafo inteiro em quadro osteomuscular de
+empregado com décadas de casa: a exclusão legal não depende de a patologia ser degenerativa — basta ser
+**inerente à faixa etária**. Usar as duas alíneas em conjunto, cada uma com o CID e a idade na data do
+diagnóstico, e não só a "a", que é a citada por hábito.
 
 **Fecho que rende, quando o autor litiga o nexo em ação própria:** quem ajuizou ação discutindo a existência
 da doença ocupacional **controverteu o nexo por iniciativa própria**, e não pode, em ação paralela, exigir
@@ -145,10 +205,20 @@ Registrado em 09/2026. Quando o CNIS traz **benefício espécie 94 — auxílio-
 benefício (DIB) é um marco de ciência inequívoca **melhor que o certificado de reabilitação**, e em regra
 muito mais antigo. A razão está no próprio pressuposto legal do benefício:
 
-> **Art. 86 da Lei 8.213/91** — o auxílio-acidente é concedido "**após a consolidação das lesões**
-> decorrentes de acidente de qualquer natureza" quando delas resultar "**sequela que implique redução da
-> capacidade para o trabalho que habitualmente exercia**".
-> `[REVISAR: conferir o teor literal do art. 86 e do art. 104 do Decreto 3.048/99 em fonte oficial.]`
+> **Art. 86 da Lei 8.213/91**, na redação vigente (**Lei 9.528/1997**) — "O auxílio-acidente será
+> concedido, **como indenização**, ao segurado quando, após **consolidação das lesões** decorrentes de
+> acidente de qualquer natureza, resultarem **seqüelas que impliquem redução da capacidade para o trabalho
+> que habitualmente exercia**."
+> **Art. 104 do Decreto 3.048/99**, na redação vigente (**Decreto 10.410/2020**), acrescenta o adjetivo que
+> mais serve à tese: a sequela há de ser **definitiva** — "resultar sequela **definitiva** que, a exemplo
+> das situações discriminadas no Anexo III, implique redução da capacidade para o trabalho que
+> habitualmente exercia".
+>
+> *Conferido em fonte oficial (planalto.gov.br) em 15/09/2026.* **Cuidado com a página do Planalto:** o art.
+> 86 acumula cinco redações empilhadas (Leis 9.032/1995, 9.129/1995 e 9.528/1997, mais a MP 905/2019, de
+> **vigência encerrada** por revogação pela MP 955/2020). A redação de 1995 fala em "redução da capacidade
+> **funcional**" e não serve — a vigente é a de 1997, com "capacidade **para o trabalho que habitualmente
+> exercia**", que é justamente o que casa com a Súmula 278 do STJ.
 
 Ou seja: ao conceder o benefício, **a própria autarquia declarou lesão consolidada e redução permanente da
 capacidade** — que é, palavra por palavra, o conteúdo da ciência inequívoca da Súmula 278 do STJ. O

@@ -168,6 +168,24 @@ o corte, mas houver patrimônio ou renda familiar relevante):
 > incompatível** com a presunção — exatamente a hipótese dos autos, em que [descrever: imóvel/veículo
 > declarado na inicial, renda do cônjuge, descontos de empréstimo consignado de valor expressivo etc.].
 
+## Teto do RGPS e os 40% do art. 790, § 3º, da CLT — valores conferidos
+
+O cálculo dos 40% é o do teto do **ano do ajuizamento**, e o teto muda por portaria interministerial todo
+início de ano. Anotar aqui cada valor conferido em fonte oficial, para não refazer a busca a cada peça:
+
+| Ano | Teto do RGPS | 40% (limite do art. 790, § 3º) | Fonte |
+|---|---|---|---|
+| **2026** | **R$ 8.475,55** | **R$ 3.390,22** | Portaria Interministerial MPS/MF nº 13, publicada no DOU |
+
+**Como conferir o valor sem depender de resumo de busca.** A portaria de reajuste sai no **Diário Oficial**
+(`in.gov.br`), que está liberado no ambiente cloud. O PDF da edição costuma vir **digitalizado**, sem camada
+de texto: extrair com `pypdf` devolve páginas `VAZIO`. O caminho que funciona está no `CLAUDE.md` (seção da
+conversão de documentos) — `apt-get install -y poppler-utils` e depois a ferramenta **Read** sobre o PDF,
+que renderiza as páginas e permite ler a tabela por visão. Foi assim que se leu o valor de 2026.
+
+**Resumo de busca não confere valor de teto**, pela mesma razão que não confere norma: o número circula em
+notícia de portal antes da publicação, e a portaria retifica.
+
 ## Bloco pronto — processo ajuizado ANTES do marco (regime anterior)
 
 Manter a fórmula do art. 790, §§ 3º e 4º, da CLT com o cálculo dos 40% do teto do RGPS **do ano do
@@ -305,6 +323,7 @@ dias.
 - [ ] Acompanhar a **revisão da Súmula 463 do TST** determinada pelo item (viii) — cancelamento, nova
       redação ou substituição por OJ.
 - [ ] Montar a tabelinha de **teto do RGPS e 40% por ano** — continua necessária para todo o acervo
-      anterior ao marco, que é a maior parte dele.
+      anterior ao marco, que é a maior parte dele. **Iniciada em 15/09/2026** com a linha de 2026 (seção
+      "Teto do RGPS" acima); faltam os anos anteriores, ano a ano, cada um com a portaria de reajuste.
 - [ ] Verificar se há orientação da Consultoria Jurídica nacional da ECT sobre impugnar gratuidade após a
       ADC 80 (custo/benefício de sucumbência).

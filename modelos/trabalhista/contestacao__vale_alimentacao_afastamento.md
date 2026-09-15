@@ -67,7 +67,8 @@ DO MÉRITO
       2.2 o registro funcional da própria ECT: rubrica de abono médico, não acidentária
       2.3 causa extralaboral superveniente
       2.4 função gratificada exercida após o evento, com as datas da ficha cadastral
-      2.5 NTEP: presunção relativa e requerimento do art. 337, §7º, do Decreto 3.048/99
+      2.5 NTEP: presunção relativa (art. 21-A, §1º, da Lei 8.213/91), requerimento do art. 337, §7º,
+          e efeito suspensivo do recurso ao CRPS (art. 21-A, §2º, da Lei 8.213/91 + art. 337, §13)
       2.6 ônus da prova do autor, e a contradição de litigar o nexo em ação própria
   3 — Delimitação do período pela espécie do benefício previdenciário   ← capítulo que decide o quantum
   4 — Improcedência das prestações vincendas ("anuidade")
