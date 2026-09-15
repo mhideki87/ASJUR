@@ -346,19 +346,24 @@ recusam cliente que não se apresente como navegador. Os sintomas enganam, porqu
 `Empty reply from server` no Planalto e `HTTP/2 stream was not closed cleanly: PROTOCOL_ERROR` no
 `in.gov.br`, ambos com `%{http_code}` igual a `000`.
 
-**A receita que funciona** — forçar HTTP/1.1 e mandar `User-Agent` de navegador:
+**Use o script, não o `curl` na mão:**
 
 ```bash
-UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
-curl -sSL --http1.1 -A "$UA" -o norma.html "<url oficial>"
+python scripts/baixar_norma.py "<url oficial>" --artigo "Art. 62"
 ```
 
-Depois, extrair o texto do HTML em vez de lê-lo bruto (o `del5452.htm` tem 3,5 MB; a Constituição, 1,8 MB —
-ler inteiro estoura contexto à toa):
+Ele já resolve os três obstáculos que não têm nada a ver com a lista de domínios, e que toda sessão nova
+redescobriria do zero: apresenta-se como navegador (sem isso o Planalto fecha a conexão com
+`Empty reply from server` e o `in.gov.br` com `PROTOCOL_ERROR`), completa a cadeia de certificado quando o
+servidor manda só o certificado final (caso do STF), e devolve texto limpo em vez do HTML bruto — o
+`del5452.htm` tem 3,5 MB e a Constituição, 1,8 MB, que estouram contexto à toa. Detecta a codificação da
+página sozinho, o que não é detalhe: o Planalto serve latin-1 e o STF, UTF-8, e fixar uma das duas faz a
+outra sair como `SÃºmula`, de modo que a busca não encontra o verbete e parece que a página não o tem.
 
-```bash
-sed -e 's/<[^>]*>/ /g' norma.html | tr -s ' \n' ' ' | grep -o 'Art. 62.\{0,650\}'
-```
+Com `--artigo`, imprime **todas** as ocorrências numeradas, de propósito — ver a armadilha do Planalto
+abaixo. `--saida` grava em arquivo, `--bruto` guarda o HTML original, `--contexto` ajusta quanto texto sai
+depois do trecho. Falhando, a mensagem já diz o que cada código significa (`403` = fora da lista, `502` =
+host inexistente, `202` = desafio anti-robô).
 
 **Mapa do que responde (15/09/2026):**
 
@@ -369,7 +374,8 @@ sed -e 's/<[^>]*>/ /g' norma.html | tr -s ' \n' ' ' | grep -o 'Art. 62.\{0,650\}
 | `cnj.jus.br`, `trt24.jus.br`, `gov.br` (INSS etc.) | funcionam |
 | `www.tst.jus.br` | **não** — desafio de navegador da AWS WAF (`HTTP 202`, `x-amzn-waf-action: challenge`, corpo vazio) |
 | `jurisprudencia.tst.jus.br`, `www3.tst.jus.br`, `consultaunificada2.tst.jus.br` | respondem `200`, mas a Pesquisa de Jurisprudência é aplicação JavaScript: vem a casca de 1 KB, não o resultado |
-| `stf.jus.br` (todos os hosts) | **não** — cadeia de certificado incompleta; conserto abaixo |
+| `portal.stf.jus.br` (inclui a lista de súmulas e súmulas vinculantes, com o status de cancelamento) | funciona, desde que a cadeia de certificado seja completada — o `baixar_norma.py` faz isso sozinho |
+| `www.stf.jus.br` (`403`) e `jurisprudencia.stf.jus.br` (`202`, WAF) | **não** — use o `portal` |
 
 **Antes de mandar liberar mais domínio, teste se é mesmo a lista.** Só o `403` no `CONNECT` é recusa de
 política; `502` é host que o gateway não alcançou e `200` seguido de erro é problema do site, não da lista.
@@ -377,20 +383,20 @@ Os dois casos abaixo foram diagnosticados errado justamente por não se olhar es
 
 - **`juris.tst.jus.br` não existe** — devolve `502`, não `403`. O endereço vivo da Pesquisa de
   Jurisprudência é `jurisprudencia.tst.jus.br`, que responde normalmente.
-- **O STF passa pela lista** (`200 Connection Established`) e falha depois, no TLS, com
+- **O STF passava pela lista** (`200 Connection Established`) e falhava depois, no TLS, com
   `unable to get local issuer certificate`. O servidor do STF manda só o certificado final, sem o
   intermediário — `CN = *.stf.jus.br`, emitido por `GlobalSign GCC R6 AlphaSSL CA 2025`. A raiz R6 já está
-  em `/etc/ssl/certs`; falta o elo do meio, publicado em
-  `http://secure.globalsign.com/cacert/gsgccr6alphasslca2025.crt`, que a lista barra com `403`. Ou seja:
-  **para alcançar o STF, o domínio a acrescentar é `secure.globalsign.com`, não `stf.jus.br`** — este já
-  está liberado. Vale para todos os hosts do STF (`www`, `portal`, `jurisprudencia`, `redir`), que
-  compartilham a mesma configuração incorreta. Nunca resolver isso desligando a verificação de certificado.
+  em `/etc/ssl/certs`; faltava o elo do meio, publicado em `secure.globalsign.com`, que a lista barrava.
+  **O domínio a acrescentar era `secure.globalsign.com`, não `stf.jus.br`** — este já estava liberado.
+  Acrescentado em 15/09/2026, o `portal.stf.jus.br` passou a responder. Nunca resolver isso desligando a
+  verificação de certificado: o certificado do STF é legítimo e a correção é completar a corrente até a
+  raiz já confiável, que é o que o `baixar_norma.py` faz.
 
 O Chromium instalado no ambiente resolveria o desafio do TST, mas o certificado do proxy não está no
 repositório de certificados que o Playwright usa, e tanto o contorno por *fingerprint* quanto a instalação
 do `libnss3-tools` são barrados pelo próprio ambiente. Então, **para súmula e OJ do TST, a conferência
-continua humana ou em sessão local** — o que mudou é que lei, decreto, portaria, Diário Oficial e ato do CNJ
-já se conferem aqui.
+continua humana ou em sessão local** — e só para o TST: lei, decreto, portaria, Diário Oficial, ato do CNJ e
+as súmulas do STF (inclusive quais estão canceladas) já se conferem aqui.
 
 **Armadilha do Planalto, que vale por si:** a página de uma lei antiga traz a redação original **e** todas as
 redações sucessivas, uma embaixo da outra. Uma busca ingênua pelo número do artigo devolve a redação de
