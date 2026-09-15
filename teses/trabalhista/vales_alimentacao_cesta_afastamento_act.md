@@ -7,7 +7,7 @@ gatilhos: [vale-alimentação, vale-refeição, vale-cesta, cesta básica, auxí
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__vale_alimentacao_afastamento.md]
 ver_tambem: [teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/limbo_previdenciario.md, teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/vale_cultura_supressao.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-15
 ---
 
 # Tese — Vales alimentação/refeição e cesta no período de afastamento
@@ -72,6 +72,18 @@ coletiva** — o que impede ampliar por via judicial benefício convencionado co
 O **§ 6º, I**, da cláusula acrescenta limite próprio: em caso de **retorno ao auxílio-doença** com motivo ou
 CID relacionado ao do último afastamento, **não há nova contagem** dos 90 dias, salvo se o retorno ocorrer
 após 60 dias corridos do fim da licença anterior. Cruzar com o histórico de afastamentos da ficha cadastral.
+**Checagem barata, mas que raramente morde:** basta olhar a data final do afastamento imediatamente
+anterior, e a exceção dos 60 dias costuma estar preenchida com folga — na primeira vez que se rodou, o
+afastamento anterior terminara **dezoito meses** antes, e o inciso não aproveitou à defesa. Só vale
+insistir quando houver afastamento no semestre anterior.
+
+**O melhor atalho para datar a espécie pode estar na peça da parte adversa.** Antes de esperar o documento
+do INSS, ler o que o próprio autor afirmou em **ações paralelas**: em caso de 09/2026 foi o agravo interno
+dele, noutro processo, que fixou a DIB do benefício acidentário — *"é fato incontroverso (...) com início
+em 10/06/2026"* —, e o fez justamente onde a data mais recuada lhe seria favorável. Admissão assim não
+substitui a Comunicação de Decisão, mas converte a hipótese em tese apoiada na afirmação do adversário.
+Atenção: processo em **segredo de justiça** exige juntada com pedido de manutenção do sigilo, ou certidão
+do teor.
 
 ## Linhas de defesa, nesta ordem
 
@@ -146,6 +158,19 @@ acidentário, mas **delimitar o período** e **depurar o cálculo**.
   vales/mês** para jornada regular de **5 ou 6 dias por semana**. Dividir o valor pedido pelo valor facial
   devolve a quantidade que a inicial adotou: em caso de 09/2026, exatos 160 vales em ~6,15 meses — 26/mês,
   a hipótese mais alta, **sem prova da jornada**. A diferença entre 22 e 26 valia ~16% do principal.
+- **A jornada se prova pela ficha cadastral, e por dedução aritmética — não é preciso escala.** O campo
+  **JORNADA TRAB.** traz as **horas diárias**, não os dias da semana. Mas ele resolve: **8 horas diárias são
+  incompatíveis com seis dias por semana**, porque o produto seria de 48 horas semanais, acima do limite de
+  44 do art. 7º, XIII, da Constituição. Logo, jornada de 8 horas ⇒ **5 dias ⇒ 22 vales**. A escala ou o
+  espelho de ponto tornam o ponto incontestável e valem a juntada, mas a inferência já sustenta o tópico.
+- **A faixa do compartilhamento lê-se no campo REFERÊNCIA SAL. da mesma ficha.** Em caso de 09/2026 a
+  referência era **NM-26A**, que cai no inciso I do § 1º ("NM-01 até NM-63") — **5%**. Fecha-se assim, com
+  um único documento, a quantidade de vales **e** a cota-parte.
+- **Corrigir a quantidade de vales recalcula três tópicos da peça, não um.** Com 22 vales o valor mensal da
+  obrigação cai de R$ 1.727,88 para **R$ 1.513,76**, e isso reverbera: a **anuidade** de doze meses encolhe
+  na mesma proporção, e o confronto com a **astreinte** melhora — a multa de R$ 100/dia, que superava a
+  obrigação em ~74% pela conta da inicial, passa a superá-la em **~98%**. Refazer os três, e não só o
+  capítulo do cálculo.
 - **Crédito mensal, não proração diária.** O *caput* fixa crédito **mensal** de quantidade fixa, até o
   último dia útil da primeira quinzena; a inicial costuma proratear por dias. O critério tem de ser
   reconciliado com a cláusula — e **pode operar nos dois sentidos**, conforme a jornada apurada: conferir
@@ -190,8 +215,9 @@ acidentário, mas **delimitar o período** e **depurar o cálculo**.
 - [ ] **Obter os ACTs da ECT e localizar a cláusula em cada vigência**, com número, inciso e redação
       literal. A ficha nasceu de cláusula **transcrita em inicial adversa**, não de leitura da norma — é a
       pendência que mais importa aqui, e da qual dependem o valor facial e o capítulo das vincendas.
-- [ ] Confirmar se o ACT declara a natureza indenizatória da parcela e as faixas de compartilhamento do
-      § 1º por nível, com onde se comprova o nível do empregado.
+- [x] **Onde se comprova o nível do empregado, para a faixa de compartilhamento do § 1º:** campo
+      **REFERÊNCIA SAL.** da ficha cadastral (ex.: NM-26A → inciso I → 5%). Registrado em 09/2026.
+- [ ] Confirmar se o ACT declara a **natureza indenizatória** da parcela — esta parte da lacuna segue aberta.
 - [ ] **Nenhuma das linhas foi testada em decisão.** A contestação de 09/2026 já foi minutada; registrar,
       quando sair a sentença, o que o juízo fez com cada tópico — sobretudo com a decomposição do período
       pela espécie do benefício e com o art. 8º, § 3º, da CLT.

@@ -7,7 +7,7 @@ gatilhos: [afastamento, atestado médico, auxílio-doença, suspensão do contra
 pecas: [contestação, contrarrazões, embargos de declaração, complementação de recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__afastamentos.md, modelos/trabalhista/complementacao_ro__efeito_infringente.md]
 ver_tambem: [teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/estabilidade_acidentaria_e_cat.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md]
-atualizado: 2026-09-11
+atualizado: 2026-09-15
 ---
 
 # Tese — Afastamentos (atestado médico / auxílio-doença) e limite de responsabilidade do empregador
@@ -87,6 +87,45 @@ folha. O juízo acolheu a linha nestes termos: *"o provimento compreende a obser
 para os períodos em que os salários são devidos"*. Reforço decisivo quando a decisão já tiver reconhecido
 que **não houve elaboração de conta**: sem conta, toda a apuração é de liquidação, e não há prejuízo nem
 omissão.
+
+## A rubrica do quadro "AFASTAMENTOS" é a classificação que a empresa deu ao afastamento — e ela prova
+
+Achado de 09/2026, e vale por um capítulo inteiro quando a inicial afirma que o afastamento é acidentário.
+O quadro **AFASTAMENTOS** da ficha cadastral não registra só datas: registra o **motivo**, com rubricas
+**distintas** para o afastamento comum e para o de origem acidentária. Num mesmo contrato apareceram, lado
+a lado:
+
+| Rubrica | O que é |
+|---|---|
+| `Abono Médico (até 15 dias)` | licença médica **comum**, nos 15 dias de responsabilidade do empregador |
+| `LICENCA INSS` | benefício previdenciário comum |
+| `Abono Acidente de Trabalho (até 15 dias)` | acidentário, nos 15 dias — e vem com **NUP** do processo próprio |
+| `LIC ACIDENTE TRABALHO-ACT/…` | licença acidentária, mesmo NUP |
+
+**A leitura que rende:** se o sistema tem rubrica própria para acidente e a usou nos afastamentos antigos,
+mas lançou o afastamento discutido como **Abono Médico**, está documentada — de forma contemporânea aos
+fatos e pela mão da própria empresa — a **não** classificação como acidentária. Isso derruba a afirmação,
+quase padrão nas iniciais, de que a doença seria "já reconhecida pela empresa como de natureza acidentária".
+
+O mesmo cruzamento serve ao **ano da cirurgia** que a parte adversa vincula a sequela de acidente: lançada
+como abono médico, a vinculação não encontra respaldo no registro.
+
+**Duas cautelas, e a segunda já cobrou o preço uma vez:**
+
+- **Ausência de lançamento não é prova de inexistência.** Em 09/2026 o quadro não registrava a licença
+  previdenciária em curso, embora as demais peças a noticiassem — provável lançamento pendente. O argumento
+  **afirmativo** (a rubrica utilizada foi a comum) se sustenta sozinho; o argumento **pelo silêncio** exige
+  explicação escrita da área antes de ir para a peça.
+- **Conferir a data de emissão da ficha**, que vem no rodapé de cada página: ela delimita até quando o
+  registro é oponível.
+
+**De quebra, o mesmo quadro responde ao § 6º, I, das cláusulas de vale** (sem nova contagem de 90 dias
+quando o retorno ao auxílio-doença tem CID relacionado ao da licença anterior, salvo intervalo superior a
+60 dias corridos): basta olhar a **data final do afastamento imediatamente anterior**. Na primeira vez em
+que se rodou essa checagem o resultado foi **negativo** — o afastamento anterior terminara dezoito meses
+antes, e a exceção dos 60 dias se aplicava com folga. Registre-se o resultado para que a próxima sessão não
+gaste tempo: a checagem é barata, mas só morde quando há afastamento **próximo**, tipicamente no semestre
+anterior.
 
 ## Pontos sensíveis
 

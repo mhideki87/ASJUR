@@ -2,7 +2,8 @@
 
 **Consolidado de:** 1 caso-fonte (rito sumaríssimo, 6ª VT de Campo Grande, TRT24, contestação minutada em
 09/2026 e ainda **não decidida**).
-**Última atualização:** 2026-09-10 — criação inicial.
+**Última atualização:** 2026-09-15 — acrescentado o capítulo de impugnação ao nexo epidemiológico e a
+leitura da ficha cadastral.
 **Formatação:** vem de `modelos/_FORMATO_BASE.docx`, pela skill `formatar-minuta`. Este tema não tem
 `.docx` próprio — o corpo não traz nada estruturalmente distinto que justifique um arquivo binário separado.
 
@@ -21,6 +22,15 @@ Tese e jurisprudência:
 Distingue-se de `contestacao__limbo_previdenciario.md`, onde os vales são **pedido acessório** do intervalo
 pós-alta, e de `contestacao__afastamentos.md`, cujo eixo é o limite de 15 dias e o desconto de dias. Aqui os
 vales **são o objeto principal**, e a defesa se resolve na leitura da cláusula coletiva e na aritmética.
+
+## Dois documentos decidem a peça — peça os dois de uma vez
+
+**A ficha cadastral é o segundo, e chega mais rápido que o INSS.** Um único documento fecha quatro pontos:
+o quadro **AFASTAMENTOS** (rubrica acidentária x abono médico, e a checagem do §6º, I), o campo **JORNADA
+TRAB.** (8 horas diárias ⇒ 5 dias ⇒ 22 vales), o campo **REFERÊNCIA SAL.** (faixa do compartilhamento do
+§1º) e a **REMUNERAÇÃO** (impugnação à gratuidade). Ver
+[`afastamentos_auxilio_doenca.md`](../../teses/trabalhista/afastamentos_auxilio_doenca.md), seção da
+rubrica do quadro de afastamentos.
 
 ## A bifurcação que define a peça
 
@@ -52,16 +62,23 @@ PRELIMINARMENTE
   4 — Impugnação ao pedido de justiça gratuita
 DO MÉRITO
   1 — A cláusula 48, §6º, tem DUAS hipóteses, não uma regra única
-  2 — Delimitação do período pela espécie do benefício previdenciário   ← capítulo que decide o quantum
-  3 — Improcedência das prestações vincendas ("anuidade")
-  4 — Ad cautelam: depuração do cálculo (quantidade de vales + compartilhamento do §1º)
-  5 — Natureza indenizatória das parcelas e ausência de reflexos
-  6 — Inexistência de dano moral indenizável                            ← capítulo realmente disputável
-  7 — Impugnação à multa diária
-  8 — Correção monetária e juros de mora (art. 3º da EC 113/2021)
-  9 — Honorários advocatícios (art. 791-A da CLT, não art. 85, §3º, do CPC)
- 10 — Impugnação aos documentos e ao valor da causa
-DOS REQUERIMENTOS                         (a-h; a eventualidade em f.1 a f.5)
+  2 — Impugnação ao nexo técnico epidemiológico                         ← decide QUAL hipótese incide
+      2.1 patologias degenerativas (art. 20, §1º, "a", Lei 8.213/91), CIDs e idade
+      2.2 o registro funcional da própria ECT: rubrica de abono médico, não acidentária
+      2.3 causa extralaboral superveniente
+      2.4 função gratificada exercida após o evento, com as datas da ficha cadastral
+      2.5 NTEP: presunção relativa e requerimento do art. 337, §7º, do Decreto 3.048/99
+      2.6 ônus da prova do autor, e a contradição de litigar o nexo em ação própria
+  3 — Delimitação do período pela espécie do benefício previdenciário   ← capítulo que decide o quantum
+  4 — Improcedência das prestações vincendas ("anuidade")
+  5 — Ad cautelam: depuração do cálculo (quantidade de vales + compartilhamento do §1º)
+  6 — Natureza indenizatória das parcelas e ausência de reflexos
+  7 — Inexistência de dano moral indenizável                            ← capítulo realmente disputável
+  8 — Impugnação à multa diária
+  9 — Correção monetária e juros de mora (art. 3º da EC 113/2021)
+ 10 — Honorários advocatícios (art. 791-A da CLT, não art. 85, §3º, do CPC)
+ 11 — Impugnação aos documentos e ao valor da causa
+DOS REQUERIMENTOS                         (a-i; a eventualidade em g.1 a g.5)
 Fecho + assinatura
 ```
 
