@@ -392,11 +392,42 @@ Os dois casos abaixo foram diagnosticados errado justamente por não se olhar es
   verificação de certificado: o certificado do STF é legítimo e a correção é completar a corrente até a
   raiz já confiável, que é o que o `baixar_norma.py` faz.
 
-O Chromium instalado no ambiente resolveria o desafio do TST, mas o certificado do proxy não está no
-repositório de certificados que o Playwright usa, e tanto o contorno por *fingerprint* quanto a instalação
-do `libnss3-tools` são barrados pelo próprio ambiente. Então, **para súmula e OJ do TST, a conferência
-continua humana ou em sessão local** — e só para o TST: lei, decreto, portaria, Diário Oficial, ato do CNJ e
-as súmulas do STF (inclusive quais estão canceladas) já se conferem aqui.
+#### O TST tem três portas, e todas as três estão fechadas por motivos diferentes (15/09/2026)
+
+Não adianta insistir numa quando a outra falha: os motivos são independentes, e dois deles não têm conserto
+nem pelo usuário nem por aqui.
+
+1. **`www.tst.jus.br` — desafio anti-robô.** `HTTP 202`, `x-amzn-waf-action: challenge`, corpo vazio, em
+   **todo** caminho, inclusive `/robots.txt`. Exige navegador que execute JavaScript.
+2. **`jurisprudencia.tst.jus.br` — aplicação JavaScript.** Responde `200`, mas entrega casca de 1 KB. O
+   pacote da aplicação não expõe endereço de API, e `/api/…` e `/rest/…` devolvem a mesma casca.
+3. **`consultaunificada2.tst.jus.br` — formulário do servidor, e é o mais promissor: chega até o banco.**
+   É Struts clássico (`POST /jurisSearch.do`, ISO-8859-1, campos `action=search`, `baseName=acordao`,
+   `livre=<texto>`), aceita cookie de sessão e responde. **Mas o banco do TST responde com erro:**
+   `ORA-04063: package body "CTXSYS.DRIXMD" contém erros`, em `JU_DOC_HIGHLIGHT` — tanto na busca por
+   texto livre quanto por número de processo. É defeito no servidor do TST, não deste ambiente: nenhuma
+   configuração daqui conserta.
+
+**O que separa o TST de ser acessível é permissão de sessão, não a lista de domínios.** O `*.jus.br` já
+libera tudo isso; o Chromium 141 está instalado. Falta só a autoridade certificadora do proxy no
+repositório de certificados que o Playwright usa — confirmado ausente: a CA `CCR Upstream Proxy CA` não
+aparece em `/root/.pki/nssdb/cert9.db`, e é por isso que o Chromium recusa com `ERR_CERT_AUTHORITY_INVALID`.
+Três caminhos de instalação foram tentados e **os três foram barrados pelo classificador de permissões da
+sessão**, não pela rede: fixação por *fingerprint* (`TLS/Auth Weaken` — e essa recusa é correta, não
+insistir), `apt-get install libnss3-tools` (`Containment Escape`) e a política empresarial
+`CACertificates` em `/etc/chromium/policies/managed/` (`Auto-Mode Bypass`). Destes, só o terceiro é
+caminho legítimo: instala a CA verdadeira do ambiente pelo mecanismo que o próprio navegador oferece, sem
+enfraquecer verificação nenhuma. Liberá-lo depende de o usuário acrescentar regra de permissão à sessão.
+
+**Mesmo liberado, não é garantia:** desafio da AWS WAF costuma detectar navegador sem interface, e pode
+recusar assim mesmo. Vale a tentativa, não a promessa.
+
+**Nem o Diário Oficial serve de atalho para isso:** a home do `in.gov.br` responde, mas a URL de *busca*
+caiu em `202` — o mesmo desafio anti-robô.
+
+Então, **para súmula e OJ do TST, a conferência continua humana ou em sessão local (CLI/desktop), onde não
+há proxy nem essa restrição** — e só para o TST: lei, decreto, portaria, Diário Oficial, ato do CNJ e as
+súmulas do STF (inclusive quais estão canceladas) já se conferem aqui.
 
 **Armadilha do Planalto, que vale por si:** a página de uma lei antiga traz a redação original **e** todas as
 redações sucessivas, uma embaixo da outra. Uma busca ingênua pelo número do artigo devolve a redação de
