@@ -11,7 +11,7 @@ Este arquivo vale para **todas as sessões do Claude Code** — local (CLI/deskt
 | Nome do arquivo da minuta (skill `nomear-minuta`) | sim | sim | sem skills — usar o padrão da seção 5.1 do playbook |
 | Conversão de PDF/DOC da parte → `.md` | sim | **parcial** — o script não roda (sem acesso a `F:\Claude\00 caso_atual`), mas documento **anexado à conversa** se lê; ver a seção própria | não |
 | Título da sessão com o nome do Reclamante | sim | sim | sem ferramenta de renomear — usar o fallback da seção |
-| Conferência de texto legal na internet | sim | **não** (rede bloqueada — ver seção) | sim |
+| Conferência de texto legal na internet | sim | depende da lista de domínios do ambiente — ver seção | sim |
 | Autonomia em PR e merge (sem perguntar, sem relatório longo) | sim | sim | não se aplica — não há Git |
 
 Para valer no cloud, qualquer alteração aqui precisa estar **commitada e enviada (push)** para a branch
@@ -284,35 +284,81 @@ anuncia, e o texto extraído traz só a capa do PJe e as tarjas de assinatura.
   é local, fora do repo — ver regra permanente no [README.md](README.md)).
 - Presumir o nome da pasta da parte sem confirmação quando o script indicar ambiguidade.
 
-## Conferência de texto legal — o cloud/web não alcança as fontes oficiais
+## Conferência de texto legal — liberar os domínios oficiais no ambiente cloud/web
 
 **Objetivo:** não repetir, a cada sessão, uma tentativa de conferência que o ambiente não permite concluir —
 e, principalmente, não deixar que resultado de busca vire citação de norma.
 
-**O que foi constatado (03/09/2026, sessão cloud/web):** a política de rede do ambiente bloqueia o acesso
-externo do `WebFetch` e do `curl`. Ficaram inacessíveis, entre outros, `planalto.gov.br`, `in.gov.br`
-(Diário Oficial), `bvsms.saude.gov.br`, `renastonline.ensp.fiocruz.br` e repositórios de universidades. O
-`noProxy` do ambiente libera só registros de pacote (npm, PyPI, crates), as APIs da Anthropic e o acesso git
-ao GitHub. O `WebSearch` funciona, porque não é egresso direto — mas devolve **resumo de terceiros, não o
-texto da norma**.
+**O bloqueio tem conserto, e o conserto é de configuração, não de contorno técnico.** Antes de tratar a
+pendência como insuperável e empurrá-la para a sessão local, ver "Como liberar" abaixo: são cinco minutos no
+site, feitos uma vez, e valem para todas as sessões seguintes.
+
+**O que foi constatado (03/09/2026; reconfirmado em 15/09/2026, sessão cloud/web):** a política de rede do
+ambiente bloqueia o acesso externo do `WebFetch` e do `curl`. Ficaram inacessíveis, entre outros,
+`planalto.gov.br`, `tst.jus.br`, `in.gov.br` (Diário Oficial), `bvsms.saude.gov.br`,
+`renastonline.ensp.fiocruz.br` e repositórios de universidades. O `WebSearch` funciona, porque não é egresso
+direto — mas devolve **resumo de terceiros, não o texto da norma**.
+
+**Como reconhecer que é a lista de permissão, e não o site fora do ar:** o proxy responde `403 Forbidden` já
+no `CONNECT`, antes de qualquer contato com o servidor de destino, e responde igual para um site trivial de
+teste. Um `curl -sS -o /dev/null -w "%{http_code}" https://example.com/` que também devolve `000`/`403`
+fecha o diagnóstico: o ambiente está barrando tudo o que não está na lista. O motivo registrado aparece em
+`curl -sS "$HTTPS_PROXY/__agentproxy/status"`, campo `recentRelayFailures`
+(`gateway answered 403 to CONNECT (policy denial or upstream failure)`).
+
+### Como liberar (o usuário faz, fora da sessão — não há como fazer isso por dentro)
+
+A lista de sites permitidos é propriedade do **ambiente** (a máquina virtual onde a sessão roda), escolhida
+no site do Claude. Nenhum comando dentro da sessão a altera.
+
+1. Abrir **claude.ai/code**.
+2. Clicar no **ícone de nuvem com o nome do ambiente**, na linha logo acima da caixa de mensagem (não há
+   página de configurações nem link direto — o acesso é só por aí).
+3. Passar o mouse sobre o ambiente e clicar na **engrenagem** que aparece à direita.
+4. Em **Network access**, trocar `Trusted` por **`Custom`**.
+5. Em **Allowed domains**, listar um domínio por linha. O `*.` inicial cobre todos os subdomínios, então
+   `*.jus.br` alcança TST, TRTs, TRFs, CNJ e afins de uma vez:
+
+   ```text
+   *.jus.br
+   *.gov.br
+   planalto.gov.br
+   in.gov.br
+   tst.jus.br
+   ```
+
+6. Marcar **"Also include default list of common package managers"** — sem isso, liberam-se os tribunais e
+   perde-se o que já funcionava (npm, PyPI, GitHub, `raw.githubusercontent.com`).
+7. Salvar e **abrir sessão nova**: o ambiente é lido no nascimento da sessão, então a sessão em curso
+   continua bloqueada até o fim.
+
+**Preferir `Custom` a `Full`.** A sessão lê PDF de petição inicial e documento da parte adversa; com a
+internet inteira aberta, texto malicioso embutido num documento ganha para onde tentar mandar coisa. A lista
+`Custom` entrega exatamente o necessário — conferir norma em fonte oficial — sem abrir o resto.
+
+O ambiente é pessoal da conta, então o próprio usuário edita, sem depender de administrador. Exceção:
+ambiente compartilhado pela organização, em que a engrenagem não aparece e quem edita é o *Owner*.
+
+### Enquanto o ambiente não estiver liberado
 
 **Regra:** resumo de busca **não** confere norma. Ele serve para descobrir que existe uma questão; nunca
 para afirmar o conteúdo de artigo, anexo, lista, súmula ou portaria. Duas buscas que se contradizem são
 sinal de que a questão é real e precisa de leitura humana — não de uma terceira busca.
 
-**Como proceder ao esbarrar num `[REVISAR]` de texto legal em sessão cloud/web:**
+**Como proceder ao esbarrar num `[REVISAR]` de texto legal em sessão cloud/web bloqueada:**
 
 1. Tentar o `WebFetch` **uma vez**. Bloqueou, não insistir com outro domínio atrás do mesmo texto.
 2. Usar o `WebSearch` para mapear **o que está em jogo** — qual norma, qual dispositivo, se há divergência,
    qual o impacto na tese se a resposta for num sentido ou noutro.
 3. Registrar na ficha como **não confirmado**, com as leituras concorrentes e a linha de resposta para cada
    uma — nunca como tese fechada.
-4. Dizer ao usuário, na resposta, que a conferência ficou pendente, por quê, e **em que ordem** conferir.
+4. Dizer ao usuário, na resposta, que a conferência ficou pendente, por quê, e **em que ordem** conferir —
+   e, se o bloqueio for a causa, lembrar em uma linha que ele se resolve pelo passo a passo acima.
 5. Diagnóstico do bloqueio, se necessário: `curl -sS "$HTTPS_PROXY/__agentproxy/status"`.
 
 A política de rede é escolhida na criação do ambiente e pode mudar; o que está acima é o comportamento
-observado, não uma garantia permanente. Em sessão local (CLI/desktop), a conferência costuma ser possível —
-é o caminho preferível para fechar pendência de texto legal.
+observado, não uma garantia permanente. Em sessão local (CLI/desktop) a conferência costuma ser possível —
+mas, liberados os domínios, deixa de ser o único caminho para fechar pendência de texto legal.
 
 ## Autonomia em PR e merge — executar, não narrar
 
