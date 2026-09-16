@@ -232,6 +232,21 @@ cujo item 0 manda **conferir na fonte oficial** toda súmula que for sustentar u
 **enxuta**: no caso-fonte a minuta foi de 15 para 7 tópicos, com numeração corrida, sem subdividir por espécie
 de vício. Um ED com 15 tópicos lê-se como inconformismo; com 7, como apontamento técnico.
 
+**O padrão vale igual em cível, e a tentação de quebrá-lo é a mesma** (09/2026): ED contra decisão de tutela
+provisória em Vara Federal saiu primeiro com três tópicos principais — "DAS OMISSÕES", "DAS CONTRADIÇÕES",
+"DAS OBSCURIDADES" — e nove subtópicos renumerados dentro de cada um. Organizar por espécie de vício parece
+técnico e produz o efeito inverso: repete numeração, obriga o leitor a cruzar "item 2 supra" entre blocos, e
+infla a peça. Refeito em **um único tópico principal ("DOS VÍCIOS A SANAR") com sete subtópicos corridos**,
+fundindo o que era o mesmo ponto — a fonte do efeito suspensivo e o precedente que a pressupunha viraram um
+tópico só; a extensão dos dois comandos do dispositivo, outro.
+
+**Dois acréscimos próprios do ED contra decisão interlocutória:**
+- **cabimento** — dizer expressamente que o art. 1.022 alcança "qualquer decisão judicial", porque o ED
+  contra interlocutória ainda surpreende;
+- **art. 1.026, § 1º** — pedir ao próprio juízo a suspensão da eficácia da decisão embargada. Os ED não
+  suspendem nada sozinhos, e sem esse pedido a liminar segue produzindo efeitos (e a astreinte correndo)
+  durante todo o processamento.
+
 ### 2.7 Recurso Ordinário
 ```
 Redija recurso ordinário contra a sentença anexada, formatação do <MODELO.odt>.
@@ -319,6 +334,11 @@ Revise a minuta anexada como se fosse conferi-la antes do protocolo. Verifique:
 - a numeração dos tópicos corre sem saltos?
 - há citação de jurisprudência sem fonte nos autos?
 - os requerimentos finais correspondem às teses desenvolvidas?
+- a peça pede privilégio, prazo ou intimação para a unidade/estado CERTO da ECT?
+- algum dispositivo citado está revogado (CPC/1973, Lei 8.666/93 em contrato
+  regido pela Lei 13.303/2016)?
+- a doutrina ou a jurisprudência transcrita sustenta a tese da ECT — ou sustenta
+  a da parte contrária?
 - se a peça for recurso: o prequestionamento cobre todos os dispositivos
   discutidos? (em embargos de declaração não se aplica — ver 2.6)
 Liste apenas os problemas, com a localização de cada um. Não reescreva a peça.
@@ -331,6 +351,36 @@ correção pela **TR** com apoio na **OJ 300 da SDI-1** — critério superado p
 870.947 (Tema 810) e pela EC 113/2021, e ainda contraditório com o pedido de SELIC feito na mesma peça —,
 numeração que pulava de "2" para "3.1", e ausência de impugnação ao valor do pedido principal, que depois
 custou a discussão da base de cálculo em grau recursal.
+
+Os três itens acrescentados depois vieram de uma **contestação cível de 08/2026** (contrato de empresa
+estatal), conferida em 09/2026 ao se analisar a decisão que deferiu a tutela contra a ECT:
+
+- **unidade errada** — peça de MS pedindo os privilégios do Decreto-lei 509/69 "à esta requerida, ECT/MT",
+  e chamando a ré de "Recorrente" numa contestação: resíduo de reaproveitamento que entrega ao adversário
+  o argumento de peça-padrão não lida;
+- **dispositivo revogado** — ônus da prova sustentado no "artigo 333 do Estatuto Processual Civil"
+  (CPC/1973), quando o vigente é o art. 373 do CPC/2015; e jurisprudência de rescisão unilateral construída
+  sobre a **Lei 8.666/93** em contrato regido pela **Lei 13.303/2016**, cujo regime é outro;
+- **doutrina contra a própria tese** — páginas transcritas de doutrina afirmando que os contratos da Lei
+  13.303/2016 **não têm cláusulas exorbitantes nem prerrogativa de rescisão unilateral**, seguidas da
+  defesa da rescisão unilateral. Transcrição longa não é reforço: é a tese do autor dentro da peça da ré.
+  Antes de colar bloco doutrinário herdado, ler o que ele conclui.
+
+**Ordem dos tópicos: força primeiro, cronologia nunca** (09/2026). A minuta sai naturalmente na ordem em que
+a tese foi descoberta ou na ordem da decisão atacada — e as duas estão erradas. O leitor decide o efeito
+suspensivo lendo o começo; o que vier depois da página cinco pode nem pesar. Critério de ordenação, do
+primeiro ao último:
+
+1. **O que é objetivo e quase incontestável** — fato extintivo, perda de objeto, vedação legal expressa,
+   comando que esgota o objeto da ação. Não depende de interpretação nem de prova a produzir.
+2. **O que derruba a premissa central da decisão** — normalmente uma questão de direito com texto na mão.
+3. **O mérito da apuração** — cláusula, critério, prova documental.
+4. **Os pedidos de delimitação** (extensão de comando, redução de astreinte) — sempre por último: são
+   defensivos e, lidos primeiro, dão à peça ar de quem já se conformou com o resto.
+
+**E abrir com uma síntese**, em peça recursal com mais de cinco tópicos: um bloco curto, em alíneas, com os
+fundamentos decisivos na mesma ordem em que os tópicos os desenvolvem. É o que o relator lê antes de decidir
+a liminar recursal.
 
 ### 3.2 Teste da tese adversa
 ```
@@ -400,6 +450,8 @@ Aponte quais teses da peça original NÃO se aplicam ao novo caso.
 | Manifestações | Documentos do INSS, laudos, cálculos, RPV, audiência |
 | Embargos de declaração | Omissão/contradição + prequestionamento |
 | Impugnação aos cálculos · Embargos à execução | Fase de execução (sobretudo em cível) |
+| Agravo de instrumento | Decisão interlocutória (art. 1.015 do CPC), sobretudo tutela provisória deferida contra a ECT em Vara Federal — peça única, dirigida ao TRF3, **sem** petição de juntada |
+| Pedido de suspensão de liminar | Liminar com grave lesão à ordem ou à economia públicas — ao Presidente do TRF3 (art. 4º da Lei 8.437/92 c/c art. 1.059 do CPC). Via **autônoma**: não prejudica nem é prejudicada pelo agravo (art. 4º, § 6º) |
 
 Fluxo padrão na trabalhista: **petição de juntada à Vara → razões/contrarrazões ao TRT24**.
 
@@ -415,7 +467,8 @@ Abreviações de tipo: `Cont` = contestação · `Contrarraz` = contrarrazões �
 segurança (criada em 14/09/2026) ·
 `Adit RO` = complementação das razões do recurso ordinário (art. 1.024, § 4º, do CPC) ·
 `Quesitos` = quesitos de perícia · `AIRR` = agravo de instrumento em recurso de revista (criada em
-09/09/2026). Abreviações de tema: `Inc Fun` = incorporação de função ·
+09/09/2026) · **`Agravo de Instrumento`** e **`Suspensao de Liminar`**, por extenso, nas peças cíveis ao
+TRF3 (criadas em 15/09/2026): `AI` colidiria com `AIRR` na pasta do caso, e `SL` não se lê. Abreviações de tema: `Inc Fun` = incorporação de função ·
 `Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
 `Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
 `Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
