@@ -3,7 +3,7 @@ area: civel
 tema: Sanções e rescisão unilateral em contrato regido pela Lei das Estatais
 slug: sancoes_e_rescisao_contrato_lei_estatais
 status: validada
-gatilhos: [Lei 13.303, SICAF, sanção administrativa, rescisão unilateral, retenção de créditos, sobrepreço, tabela de fabricante, empresa estatal, processo administrativo sancionatório, efeito suspensivo, vigência contratual]
+gatilhos: [Lei 13.303, SICAF, sanção administrativa, rescisão unilateral, retenção de créditos, sobrepreço, tabela de fabricante, empresa estatal, processo administrativo sancionatório, efeito suspensivo, vigência contratual, contrato sucessor]
 pecas: [contestação, agravo de instrumento, suspensão de liminar, embargos de declaração, manifestação]
 modelos: []
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
@@ -217,6 +217,33 @@ corresponder a 20% do **valor global** do contrato, a conta precisa ser conferid
 contratada usará o calendário (contrato anual rescindido a poucos meses do termo) para sustentar que o
 remanescente era menor. A defesa possível é que nada havia sido faturado, de modo que nada do valor global
 fora executado; mas isso tem de vir demonstrado, não afirmado.
+
+## O contrato sucessor é a melhor prova da defesa — pedir sempre
+
+Rescindido o contrato, a ECT contrata outra empresa para o mesmo objeto. **Esse contrato sucessor prova três
+coisas de uma vez**, e por isso deve ser pedido à área gestora logo no início, antes de escrever qualquer
+peça:
+
+1. **O critério de preço é padrão, não foi criado contra a contratada.** Os contratos saem do mesmo modelo
+   nacional (`CTR_Manutenção_Veículos_(P)_16.x`), e os subitens 2.4, 2.5, 14.5, 14.5.1, 14.6 e 14.1.2.7 se
+   repetem palavra por palavra. Exibir o contrato sucessor, vigente e executado por terceiro sob as mesmas
+   cláusulas, desmonta a tese de "alteração unilateral de critério de valoração" melhor do que qualquer
+   argumento — foi o que se obteve em 09/2026, com o sucessor firmado menos de um mês após a rescisão.
+2. **Fecha a perda de objeto e a duplicidade.** Havendo contrato vigente para o mesmo objeto, a ordem de
+   "manter o sistema à disposição" da contratada anterior gera duas contratações simultâneas.
+3. **Afasta a urgência.** O serviço não está desassistido, e nunca esteve.
+
+**O que NÃO usar, e é tentador:** comparação de valor global ou de percentual de desconto entre o contrato
+rescindido e o sucessor. Os valores globais são estimativas de gasto, não preços, e não se comparam; e o
+desconto do sucessor pode ser muito menor que o da contratada punida (em 09/2026: −30,00% contra −0,10% no
+item 1.3). Abrir essa porta entrega ao adversário a frase "trocaram 30% de desconto por 0,1%".
+
+**Onde o desconto entra bem** é em outro lugar, e é o achado que dá unidade aos fatos: o desconto do item
+1.3 incide sobre a **taxa de gerenciamento**, e a taxa que a fiscalização apurou foi acrescida no **preço
+das peças e serviços**. Desconto de 30% na taxa e acréscimo de 30% no preço das peças se anulam no
+resultado — que é precisamente a operação vedada pelo subitem 2.5. Sustentar isso exige demonstração
+numérica por ordem de serviço; sem ela, a correspondência entre os dois percentuais é inferência, e deve
+ficar marcada como tal.
 
 ## A ordem de protocolo importa, e não é óbvia
 
