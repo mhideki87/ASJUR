@@ -366,6 +366,22 @@ estatal), conferida em 09/2026 ao se analisar a decisão que deferiu a tutela co
   defesa da rescisão unilateral. Transcrição longa não é reforço: é a tese do autor dentro da peça da ré.
   Antes de colar bloco doutrinário herdado, ler o que ele conclui.
 
+**Ordem dos tópicos: força primeiro, cronologia nunca** (09/2026). A minuta sai naturalmente na ordem em que
+a tese foi descoberta ou na ordem da decisão atacada — e as duas estão erradas. O leitor decide o efeito
+suspensivo lendo o começo; o que vier depois da página cinco pode nem pesar. Critério de ordenação, do
+primeiro ao último:
+
+1. **O que é objetivo e quase incontestável** — fato extintivo, perda de objeto, vedação legal expressa,
+   comando que esgota o objeto da ação. Não depende de interpretação nem de prova a produzir.
+2. **O que derruba a premissa central da decisão** — normalmente uma questão de direito com texto na mão.
+3. **O mérito da apuração** — cláusula, critério, prova documental.
+4. **Os pedidos de delimitação** (extensão de comando, redução de astreinte) — sempre por último: são
+   defensivos e, lidos primeiro, dão à peça ar de quem já se conformou com o resto.
+
+**E abrir com uma síntese**, em peça recursal com mais de cinco tópicos: um bloco curto, em alíneas, com os
+fundamentos decisivos na mesma ordem em que os tópicos os desenvolvem. É o que o relator lê antes de decidir
+a liminar recursal.
+
 ### 3.2 Teste da tese adversa
 ```
 Assuma a posição do Reclamante e ataque a minuta anexada: quais são os três
