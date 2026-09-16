@@ -7,7 +7,7 @@ gatilhos: [incorporação de gratificação, gratificação de função, FAT, FA
 pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-16
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -303,6 +303,25 @@ a tese sem saber que existe essa linha é surpreendido na impugnação ou no ac�
 Conferir número, órgão, relator, data e teor antes de citar — em especial o E-ED-RR 130825-22.2015.5.13.0001,
 que é o que a defesa vai querer usar.]`
 
+**Arestos que a SENTENÇA condenatória transcreveu** (09/2026) — adversos, registrados para conhecer o
+contraditório e preparar o *distinguishing*:
+
+- **E-RR 1458-39.2017.5.17.0008** — SBDI-1, Rel. Min. Augusto César Leite de Carvalho, DEJT 21/10/2022. É o
+  mais elaborado: sustenta a Súmula 372, I, como fruto de "aplicação analógica de princípio de Direito
+  Administrativo", invoca a **modulação do STF no RE 638.115/CE** (quintos) para extrair um princípio de
+  estabilidade econômica, e acrescenta o **art. 26 da Convenção Americana de Direitos Humanos** com apoio
+  na Corte IDH (caso *Acevedo Buendía v. Peru*). Admite o cômputo do decênio **de forma descontínua**.
+- **E-RR 20353-69.2017.5.04.0021** — SBDI-1, Rel. Min. Lelio Bentes Corrêa, DEJT 01/07/2022. ECT. Decênio
+  completado antes de 11/11/2017.
+- **RRAg 20463-51.2020.5.04.0025** — 1ª Turma, Rel. Min. Amaury Rodrigues Pinto Junior, DEJT **07/04/2025**
+  — anterior, portanto, ao cancelamento do verbete em 30/06/2025.
+
+Ponto de resposta comum aos três: todos partem da premissa de **decênio implementado**, e nenhum enfrenta a
+hipótese de norma interna revogada **antes** do implemento, com os dois requisitos do item 1.1 do Cap. 2
+contados "a partir da data da dispensa da função". É a mesma resposta da seção anterior.
+
+`[REVISAR: os três vieram da transcrição feita na sentença, não da fonte — conferir antes de citar.]`
+
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Como responder, um a um, aos arestos que a inicial e o RO transcrevem
@@ -567,6 +586,46 @@ Logo, pedido de **100% da média ponderada** contraria a norma que o próprio au
 Usar sempre `XX%` como placeholder até a área fechar o cálculo, e requerer *ad cautelam* a **aplicação
 integral** do normativo (bloco 2.2 do modelo). No caso trabalhado, dos 119 meses da janela apenas 72 (60%)
 eram de função técnica — o restante, quebra de caixa.
+
+## Quando a sentença condena: os dois vícios de apuração que ela costuma trazer
+
+Registrado em 09/2026, sobre sentença de 1º grau que julgou totalmente procedente o pedido. Antes de partir
+para o recurso ordinário, ler o **comando de apuração** com lupa: ele costuma conter vício formal com efeito
+econômico direto, sanável por embargos de declaração.
+
+**1. A janela de apuração da média.** É o vício mais valioso. A sentença manda apurar a média ponderada
+sobre **todo o período de exercício de função** e, na frase seguinte, manda observar o **Módulo 36** — que
+determina janela diversa. São ordens incompatíveis:
+
+>> Determinado na sentença ... 02/01/2006 a 28/10/2017 = 142 meses
+>> Módulo 36, Cap. 3, item 2.4 .. últimos 10 anos a partir da dispensa = 120 meses
+>> Diferença .................. 22 meses
+
+O efeito não é acadêmico: como o **divisor é fixo em 120**, os meses excedentes entram no numerador **sem
+alterar o denominador** — a média sai necessariamente maior. E, quando a própria inicial pediu a média sobre
+120 meses (é o usual: a planilha da autora costuma truncar o período justamente para fechar 120), a sentença
+decidiu **além do pedido**, o que acrescenta o fundamento dos arts. 141 e 492 do CPC ao da contradição.
+**Conferir sempre a janela da sentença contra a da planilha da inicial** — as duas divergindo, há dois
+fundamentos, não um.
+
+**2. A CIP "conforme o Módulo 36".** A sentença manda incluir a CIP na base *e* observar o Módulo 36. É
+impossibilidade cronológica: a CIP passou a ser paga em **outubro/2014** (rubrica 051119, com a 052119 de
+diferença cobrindo ago/set) e o Módulo 36 foi revogado em **05/05/2014**. O normativo não conheceu a rubrica
+— e os itens 2.2 e 2.4 mandam considerar os valores "da tabela de função", enquanto a CIP tem tabela própria
+("Tabela CIP", como a própria inicial costuma admitir). Aqui o argumento é de **contradição interna**, não
+de mérito, e por isso cabe em embargos.
+
+**3. Obscuridade que impede a liquidez.** Conferir se a sentença fixou (a) o **percentual** da média a
+integrar — sem isso não se sabe se é 100% ou proporcional, e a mecânica do divisor 120 leva ao proporcional;
+e (b) **qual tabela** rege o reajuste, já que o item 3.3 fala em "tabela de salário" e a tabela de funções é
+reajustada em ato próprio.
+
+**4. O que a sentença tende a não enfrentar**, e vira omissão a embargar: o **recomissionamento posterior**
+(quando existe, alcança boa parte do período condenado) e o **pedido de compensação** do item 4.3 do Cap. 2
+— este último reforçado pelo fato de o acórdão que a autora costuma juntar como paradigma **autorizar a
+compensação** expressamente.
+
+Estrutura pronta da peça: `modelos/trabalhista/embargos_declaracao__sentenca_primeiro_grau.md`.
 
 ## Ligações
 
