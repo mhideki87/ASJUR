@@ -3,11 +3,11 @@ area: civel
 tema: Sanções e rescisão unilateral em contrato regido pela Lei das Estatais
 slug: sancoes_e_rescisao_contrato_lei_estatais
 status: validada
-gatilhos: [Lei 13.303, SICAF, sanção administrativa, rescisão unilateral, retenção de créditos, sobrepreço, tabela de fabricante, empresa estatal, processo administrativo sancionatório, efeito suspensivo]
+gatilhos: [Lei 13.303, SICAF, sanção administrativa, rescisão unilateral, retenção de créditos, sobrepreço, tabela de fabricante, empresa estatal, processo administrativo sancionatório, efeito suspensivo, vigência contratual]
 pecas: [contestação, agravo de instrumento, suspensão de liminar, embargos de declaração, manifestação]
 modelos: []
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-15
+atualizado: 2026-09-16
 ---
 
 # Tese — Sanções e rescisão unilateral em contrato regido pela Lei das Estatais
@@ -187,6 +187,36 @@ São cláusulas cumulativas, e a peça tem de dizer isso com a cláusula na mão
   das tabelas", o que a desarma é a tabela comparativa por ordem de serviço: preço praticado × preço de
   balcão/mercado na praça × valor da tabela técnica, com o percentual acrescido destacado e o relatório de
   fiscalização correspondente. Sem isso, a peça repete princípio contra número.
+
+## Conferir a vigência antes de tudo — pode matar metade da liminar
+
+**Rotina obrigatória neste tema:** cruzar a data da liminar com o **termo final da vigência** do contrato
+(subitem 5.1 do padrão: 12 meses da assinatura pela Autoridade Competente, prorrogáveis até 5 anos) e
+verificar se **houve termo aditivo de prorrogação**.
+
+O contrato de gerenciamento de frota é anual. Entre a rescisão, o ajuizamento e a liminar passa-se facilmente
+mais de um ano — e a liminar acaba mandando "suspender os efeitos da rescisão" de um contrato que **já se
+extinguiu pelo decurso do prazo**, por causa autônoma. Foi o que ocorreu em 09/2026: rescisão em 01/2026,
+vigência encerrada em 05/2026 sem prorrogação, liminar em 09/2026 determinando a manutenção do sistema "à
+disposição" da ECT.
+
+O argumento que daí sai é melhor do que o de irreversibilidade, e por três razões:
+
+1. **É de utilidade, não de mérito** — suspender a rescisão não restaura contrato cujo prazo se exauriu.
+   O que resta é discussão patrimonial (indenização do período entre a rescisão e o termo final), e
+   patrimonial não se antecipa.
+2. **É de exame obrigatório** — fato extintivo superveniente, art. 493 do CPC, que o juízo aprecia de ofício.
+   Por isso cabe tanto em embargos de declaração quanto no agravo.
+3. **Cumprir a ordem seria prorrogar por decisão judicial** um ajuste extinto, sem ato administrativo de
+   prorrogação, sem exame de vantajosidade e sem manifestação da área gestora. Havendo **contrato sucessor**
+   em execução para o mesmo objeto, some-se a duplicidade de contratação — é o que fecha o argumento.
+
+**Cuidado que anda junto, e é desfavorável:** a multa rescisória do padrão é de 20% sobre o **valor
+remanescente atualizado na data da rescisão** (alínea "f" do subitem 14.1.2.2). Se o valor aplicado
+corresponder a 20% do **valor global** do contrato, a conta precisa ser conferida antes de defendê-la — a
+contratada usará o calendário (contrato anual rescindido a poucos meses do termo) para sustentar que o
+remanescente era menor. A defesa possível é que nada havia sido faturado, de modo que nada do valor global
+fora executado; mas isso tem de vir demonstrado, não afirmado.
 
 ## A ordem de protocolo importa, e não é óbvia
 
