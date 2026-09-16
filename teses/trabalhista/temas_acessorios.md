@@ -3,11 +3,11 @@ area: trabalhista
 tema: Temas acessórios (ad cautelam)
 slug: temas_acessorios
 status: validada
-gatilhos: [quebra de caixa, atividade especial, Motorizado, anuênio, base de cálculo do anuênio, FGTS, depósitos fundiários, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, art. 791-A, PLR, retificação do CNIS, AAG, adicional de atendimento em guichê]
+gatilhos: [quebra de caixa, atividade especial, Motorizado, anuênio, base de cálculo do anuênio, FGTS, depósitos fundiários, substituição, reajuste de ACT, acordo coletivo, CIP, POSTALIS, Postalprev, previdência privada, previdência complementar, Tema 1166, Tema 190, complementação de aposentadoria, art. 791-A, PLR, retificação do CNIS, AAG, adicional de atendimento em guichê]
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-16
 ---
 
 # Tese — Temas acessórios que reaparecem *ad cautelam*
@@ -62,22 +62,44 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   "31/12/9999"). Se foi, **não houve supressão**, e sim redução — o que ataca a premissa fática da inicial e
   reforça o pedido de compensação. Conferir em paralelo se alguma outra rubrica subiu no mesmo mês (ex.:
   "AAG – Adic. de Atend. em Guichê"), reduzindo a perda real alegada.
-- **POSTALIS (previdência privada)** — ⚠️ **a preliminar de incompetência pode estar superada: conferir o
-  Tema 1.166 da repercussão geral do STF antes de deduzi-la.** Em sentença de 09/2026 (2ª VT de Campo
-  Grande) a arguição foi rejeitada com esta fundamentação: "compete à Justiça do Trabalho processar e
-  julgar causas ajuizadas contra o empregador nas quais se pretenda o reconhecimento de verbas de natureza
-  trabalhista **e os reflexos nas respectivas contribuições para a entidade de previdência privada a ele
-  vinculada** (STF-Tema 1.166 da RG)". Sendo tese vinculante nesses termos, a preliminar deixa de ser
-  sustentável como estava, e reiterá-la sem *distinguishing* desgasta a peça.
-  `[REVISAR: conferir no STF o teor exato da tese do Tema 1.166 e o seu alcance — se alcança a cota da
-  PATROCINADORA ou apenas os reflexos; o ambiente cloud tem acesso ao STF (ver CLAUDE.md). Enquanto não
-  conferido, não deduzir a preliminar sem ressalva.]`
-  Fundamentos antigos da preliminar, hoje sob reserva: art. 114 da CF; art. 202, §2º, da CF; art. 68 da
-  LC 109/2001; RE 569056-3/STF.
-  **O que não depende da competência e segue íntegro no mérito:** falta de comprovação de adesão ao plano
-  (cópia do termo de adesão) e vedação a julgamento extra/ultra petita (arts. 141 e 492 do CPC) quando não
-  há pedido de desconto da cota-parte do empregado — a inicial pede a cota da patrocinadora sem pedir o
-  desconto da sua própria.
+- **POSTALIS (previdência privada) — NÃO arguir mais a incompetência da Justiça do Trabalho.** Conferido na
+  fonte oficial (portal.stf.jus.br, 16/09/2026): a preliminar está **superada** pelo **Tema 1.166 da
+  repercussão geral**, cuja tese é:
+
+  > "Compete à Justiça do Trabalho processar e julgar causas ajuizadas contra o empregador nas quais se
+  > pretenda o reconhecimento de verbas de natureza trabalhista e os reflexos nas respectivas contribuições
+  > para a entidade de previdência privada a ele vinculada."
+
+  Leading case **RE 1.265.564/SC**, Tribunal Pleno, embargos rejeitados em 22/08/2022, acórdão publicado em
+  09/09/2022, **trânsito em julgado em 20/09/2022**. É exatamente o pedido típico contra a ECT — recolhimento
+  da cota da patrocinadora ao POSTALIS sobre as diferenças deferidas. Deduzir a preliminar hoje é entregar
+  capítulo perdido e desgastar a peça.
+
+- **A fronteira com o Tema 190, que continua válido, é dupla — contra quem e sobre o quê.** Tese do Tema 190,
+  também conferida na fonte (RE 586.453/SE):
+
+  > "Compete à Justiça comum o processamento de demandas ajuizadas contra entidades privadas de previdência
+  > com o propósito de obter complementação de aposentadoria, mantendo-se na Justiça Federal do Trabalho, até
+  > o trânsito em julgado e correspondente execução, todas as causas dessa espécie em que houver sido
+  > proferida sentença de mérito até 20/2/2013."
+
+  Ou seja: **Justiça comum** quando a ação é contra a **entidade de previdência** e o objeto é a
+  **complementação de aposentadoria**; **Justiça do Trabalho** quando é contra o **empregador** e o objeto é
+  o **reflexo nas contribuições**. O caso típico da ECT cai no segundo. Só há espaço para *distinguishing*
+  se o pedido for dirigido ao próprio POSTALIS ou buscar complementação de benefício — hipótese que não é a
+  usual.
+
+- **O que resta da defesa quanto ao POSTALIS, e é onde ela agora se concentra — tudo de mérito:**
+  (a) falta de comprovação da **adesão ao plano** (cópia do termo de adesão), ônus do autor;
+  (b) **ausência de pedido de desconto da cota-parte do empregado**, o que impede condenar a ECT a custear
+  sozinha a contribuição — arts. 141 e 492 do CPC, sob pena de julgamento extra/ultra petita;
+  (c) art. 202, § 2º, da CF e art. 68 da LC 109/2001 seguem úteis **no mérito** (a contribuição do
+  empregador não integra o contrato de trabalho nem a remuneração), embora já não sirvam à competência.
+  `[REVISAR: o RE 569.056, que esta ficha citava como fundamento da preliminar, aparece associado à Súmula
+  Vinculante 53 (execução de contribuições previdenciárias pela JT) — tema distinto da previdência privada.
+  Conferir a atribuição antes de reaproveitá-lo em qualquer peça; a página de súmulas vinculantes do STF
+  não respondeu à busca em 16/09/2026.]`
+
 - **Honorários advocatícios** — art. 791-A, I, da CLT (percentual e base de cálculo: valor atualizado
   da causa). **Erro recorrente da parte autora:** pedir honorários pelo **art. 85, § 3º, do CPC**
   "em razão da equiparação da reclamada à Fazenda Pública". A equiparação é **prerrogativa processual**
