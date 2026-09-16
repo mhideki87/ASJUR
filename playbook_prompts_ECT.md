@@ -232,6 +232,21 @@ cujo item 0 manda **conferir na fonte oficial** toda súmula que for sustentar u
 **enxuta**: no caso-fonte a minuta foi de 15 para 7 tópicos, com numeração corrida, sem subdividir por espécie
 de vício. Um ED com 15 tópicos lê-se como inconformismo; com 7, como apontamento técnico.
 
+**O padrão vale igual em cível, e a tentação de quebrá-lo é a mesma** (09/2026): ED contra decisão de tutela
+provisória em Vara Federal saiu primeiro com três tópicos principais — "DAS OMISSÕES", "DAS CONTRADIÇÕES",
+"DAS OBSCURIDADES" — e nove subtópicos renumerados dentro de cada um. Organizar por espécie de vício parece
+técnico e produz o efeito inverso: repete numeração, obriga o leitor a cruzar "item 2 supra" entre blocos, e
+infla a peça. Refeito em **um único tópico principal ("DOS VÍCIOS A SANAR") com sete subtópicos corridos**,
+fundindo o que era o mesmo ponto — a fonte do efeito suspensivo e o precedente que a pressupunha viraram um
+tópico só; a extensão dos dois comandos do dispositivo, outro.
+
+**Dois acréscimos próprios do ED contra decisão interlocutória:**
+- **cabimento** — dizer expressamente que o art. 1.022 alcança "qualquer decisão judicial", porque o ED
+  contra interlocutória ainda surpreende;
+- **art. 1.026, § 1º** — pedir ao próprio juízo a suspensão da eficácia da decisão embargada. Os ED não
+  suspendem nada sozinhos, e sem esse pedido a liminar segue produzindo efeitos (e a astreinte correndo)
+  durante todo o processamento.
+
 ### 2.7 Recurso Ordinário
 ```
 Redija recurso ordinário contra a sentença anexada, formatação do <MODELO.odt>.

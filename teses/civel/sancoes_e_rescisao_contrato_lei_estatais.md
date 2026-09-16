@@ -188,6 +188,25 @@ São cláusulas cumulativas, e a peça tem de dizer isso com a cláusula na mão
   balcão/mercado na praça × valor da tabela técnica, com o percentual acrescido destacado e o relatório de
   fiscalização correspondente. Sem isso, a peça repete princípio contra número.
 
+## A ordem de protocolo importa, e não é óbvia
+
+Contra liminar deste tipo há **três vias, com relações diferentes entre si** — e protocolar na ordem errada
+custa tempo de exposição ao comando liminar:
+
+1. **Embargos de declaração primeiro.** Havendo omissão real, eles **interrompem** o prazo do agravo
+   (art. 1.026, *caput*, do CPC) e obrigam o juízo a enfrentar o que ficou em branco — o que melhora o
+   agravo seja qual for a resposta. Não têm efeito suspensivo automático, mas o **art. 1.026, § 1º**
+   permite pedir ao próprio juízo a suspensão da eficácia, e esse pedido é gratuito de risco.
+2. **Pedido de suspensão ao Presidente do Tribunal, em paralelo e desde logo** (art. 4º da Lei 8.437/92).
+   É via **autônoma**: o art. 4º, § 6º, diz que o agravo "não prejudica nem condiciona" o seu julgamento,
+   e ela não espera os embargos. Como os ED não suspendem a liminar, é por aqui que se busca o alívio
+   imediato.
+3. **Agravo de instrumento depois**, com o prazo reaberto pelo julgamento dos embargos, já sabendo o que o
+   juízo respondeu.
+
+Erro a evitar: opor embargos e ficar esperando, com a liminar produzindo efeitos e a astreinte correndo.
+Os embargos compram fundamentação; quem compra tempo é o pedido de suspensão.
+
 ## Ligações
 
 - [teses/transversal/prerrogativas_processuais_ect.md](../transversal/prerrogativas_processuais_ect.md) —
