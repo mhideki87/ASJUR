@@ -67,7 +67,7 @@ ver `modelos/trabalhista/contestacao__afastamentos.md`.
   um** — sem isso não há prequestionamento para a execução; (c) na petição de interposição de recurso,
   invocar o próprio capítulo da sentença que reconheceu a equiparação como fundamento da dispensa de custas
   e de depósito.
-- **O item que mais falta é o art. 3º da EC 113/2021, e já são duas ocorrências — em variantes diferentes.**
+- **O item que mais falta é o art. 3º da EC 113/2021, e já são TRÊS ocorrências — em variantes diferentes.**
   Em sentença de 1º grau de Campo Grande (09/2026), ao contrário do caso da 6ª VT acima, custas, **depósito
   recursal e execução por RPV/precatório foram todos deferidos expressamente**. Ainda assim, o capítulo da
   equiparação reconheceu os privilégios "quanto a custas, prazos processuais e **juros moratórios**" e o
@@ -77,6 +77,15 @@ ver `modelos/trabalhista/contestacao__afastamentos.md`.
   pedido. É o mesmo defeito da 6ª VT, agora isolado: contradição entre dois capítulos do próprio julgado.
   Conclusão prática: **o art. 3º da EC 113/2021 é o item a embargar sempre**, mesmo quando os outros três
   saírem deferidos, e o capítulo dos juros da equiparação é o fundamento a citar nos embargos.
+  **Terceira ocorrência (2ª VT de Campo Grande, 09/2026) — a variante mais pobre até agora:** a sentença
+  decidiu correção e juros em uma única frase, remetendo "à decisão vinculante
+  TST-E-ED-RR-713-03.2010.5.04.0029", **sem capítulo de equiparação à Fazenda Pública** e sem examinar a
+  EC 113/2021. Dispensou as custas no dispositivo, mas **nada decidiu sobre depósito recursal, precatório
+  e prazo em dobro**. Ou seja: some o próprio capítulo que, nas duas ocorrências anteriores, servia de
+  fundamento aos embargos. Quando for esse o quadro, o tópico de embargos tem de sustentar a equiparação
+  desde a base (art. 12 do DL 509/69; RE 220.699/SP e RE 220.906/DF), e o gancho prático é a
+  **admissibilidade do recurso**: sem pronunciamento sobre a dispensa de depósito recursal, há risco de
+  deserção — é isso que caracteriza o interesse concreto no saneamento.
   `[REVISAR: conferir o inteiro teor do E-ED-RR 0000713-03.2010.5.04.0029 antes de citá-lo — entrou aqui
   pela transcrição de uma sentença, não por leitura direta.]`
 - **Remessa necessária: afastada, e não vale insistir.** A mesma sentença registrou que o Decreto-lei 509/69,

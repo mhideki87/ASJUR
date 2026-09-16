@@ -3,8 +3,11 @@
 **Consolidado de:** 1 caso-fonte (ED reais opostos contra sentença condenatória de Vara do Trabalho, rito
 sumaríssimo — versão final aprovada e protocolada pelo usuário, anonimizada em
 `embargos_declaracao__sentenca_primeiro_grau.docx` neste mesmo diretório).
-**Última atualização:** 2026-08-24 — resultado do julgamento dos ED incorporado; tópico 6 marcado como
-superado (Súmula 439/TST cancelada); acrescentado o item 0 do checklist (conferir verbetes na fonte).
+**Última atualização:** 2026-09-16 — segundo caso-fonte (sentença de incorporação de função, rito
+ordinário): tópicos de **contradição no comando de apuração** e de **obscuridade que impede a liquidez**,
+variante do bloco de prerrogativas quando a sentença sequer tem capítulo de equiparação, e dois itens no
+checklist. Em 2026-08-24: resultado do julgamento dos ED incorporado; tópico 6 marcado como superado
+(Súmula 439/TST cancelada); item 0 do checklist (conferir verbetes na fonte).
 
 ---
 
@@ -122,6 +125,40 @@ explícito que o saneamento não é acadêmico.
   planilhas existirem, o tópico muda de objeto: cotejo aritmético da base de cálculo, do período apurado ou
   de parcelas já quitadas. **Conferir no PJe antes de redigir.**
 
+## Variações do segundo caso-fonte (09/2026) — sentença condenatória em incorporação de função
+
+Três tópicos que não existiam no modelo e que a prática mostrou produtivos. Os dois primeiros são de
+**contradição**, não de omissão, e por isso escapam da objeção de que o ED rediscute mérito: o vício está
+entre duas determinações **da própria sentença**.
+
+1. **Contradição no comando de apuração — a sentença manda aplicar um normativo e, ao mesmo tempo, adota
+   critério que ele exclui.** É o tópico de maior retorno econômico. No caso-fonte, o comando determinou
+   apurar a média "entre 2.1.2006 e 28.10.2017" (142 meses) e, na frase seguinte, "conforme o Módulo 36 do
+   MANPES" — cujo item 2.4 do Cap. 3 manda apurar nos "últimos 10 anos a partir da data da dispensa", com
+   **divisor fixo em 120**. Redigir em três movimentos: transcrever as duas determinações; demonstrar a
+   incompatibilidade **com o texto do normativo que a própria sentença invocou**; e mostrar o efeito
+   aritmético (meses excedentes entram no numerador sem alterar o denominador). Quando a inicial tiver
+   pedido a janela menor, somar os **arts. 141 e 492 do CPC** — são dois fundamentos, não um.
+2. **Contradição por impossibilidade cronológica.** Mesma estrutura, quando a sentença manda computar,
+   "conforme" um normativo, rubrica **criada depois da revogação** dele. Vale para a CIP (paga a partir de
+   out/2014; Módulo 36 revogado em 05/05/2014). Sustentar pela **data**, com a rubrica da ficha financeira,
+   e não pela natureza da verba.
+3. **Obscuridade que impede a liquidez.** Dois itens que costumam faltar juntos: o **percentual** da parcela
+   a integrar (100% ou proporcional?) e **qual tabela** rege o reajuste. Sem eles o título não é líquido, e
+   a definição do próprio conteúdo da condenação migra para a liquidação.
+
+**Variante do bloco de prerrogativas (tópico 3) quando a sentença não tem capítulo de equiparação.** Nos
+dois primeiros casos-fonte havia capítulo reconhecendo a equiparação, que servia de gancho aos embargos.
+Aqui não havia: a sentença apenas dispensou as custas no dispositivo e nada disse sobre depósito recursal,
+precatório e prazo em dobro. Quando for esse o quadro, o tópico precisa **sustentar a equiparação desde a
+base** (art. 12 do DL 509/69; RE 220.699/SP e RE 220.906/DF), e o gancho prático passa a ser a
+**admissibilidade do recurso**: sem pronunciamento sobre a dispensa do depósito recursal há risco de
+deserção — é isso que caracteriza o interesse concreto no saneamento.
+
+**Erro material de baixo impacto: não vira tópico.** No caso-fonte a fundamentação trazia "out./2027" por
+"out./2017". Foi registrado em **uma linha ao final do tópico 1**, "por dever de lealdade e sem pretensão de
+consequência processual" — aproveita a correção sem gastar um tópico e sem inflar a peça.
+
 ## Checklist de leitura da sentença (o que gera tópico)
 
 0. **Antes de tudo:** toda súmula, OJ ou precedente que for sustentar um tópico foi conferido na fonte
@@ -138,6 +175,12 @@ explícito que o saneamento não é acadêmico.
 7. O prazo de cumprimento fixado é compatível com o regime de precatório?
 8. As obrigações de fazer têm objeto determinado e exigibilidade definida?
 9. Há divergência de datas, valores ou extensão entre fundamentação e dispositivo?
+10. **O comando de apuração manda aplicar algum normativo interno? Então confira o critério determinado
+    contra o texto desse normativo** — período, divisor, base de cálculo, tabela de reajuste. A contradição
+    entre os dois é o tópico de maior retorno, e é vício formal, não mérito.
+11. **A extensão do que foi deferido cabe dentro do pedido?** Cotejar o período/base do comando com a
+    planilha e o pedido da inicial (arts. 141 e 492 do CPC).
+12. **O título ficou líquido?** Percentual fixado, base definida, índice de reajuste identificado.
 
 ## Peça seguinte do fluxo
 

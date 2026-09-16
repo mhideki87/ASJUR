@@ -3,11 +3,11 @@ area: transversal
 tema: Justiça gratuita após a ADC 80 (STF) — critérios, ônus da prova e impugnação
 slug: justica_gratuita_adc80
 status: validada
-gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Súmula 463 do TST, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
+gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Súmula 463 do TST, Tema Repetitivo 21, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-16
 ---
 
 # Tese — Justiça gratuita após a ADC 80
@@ -304,6 +304,22 @@ dias.
   [teses/transversal/prerrogativas_processuais_ect.md](prerrogativas_processuais_ect.md)
 - Bloco correspondente na peça: `modelos/trabalhista/contestacao__incorporacao_funcao.md` (preliminar de
   gratuidade).
+
+## Fundamento que aparece ao lado da ADC 80 no deferimento — o Tema Repetitivo nº 21 do TST
+
+Sentença de 09/2026 deferiu a gratuidade "diante da declaração firmada (e exibida com a petição inicial)",
+citando **"TST-Tema Repetitivo n. 21, II; ADC-80"**. Dois registros:
+
+1. **A ADC 80 não sustentava aquele deferimento.** O processo fora ajuizado em **25/06/2026**, antes do
+   marco de modulação (julgamento em 03/09/2026, efeitos *ex nunc*) — e, no que decidiu, a ADC 80 aponta em
+   sentido **oposto** ao da concessão por autodeclaração, pois declarou a inconstitucionalidade da Súmula
+   463, I, do TST. Invocá-la para deferir, em processo anterior ao marco, é ponto a suscitar.
+2. **O Tema Repetitivo nº 21, II, do TST é o outro fundamento e pode sustentar o capítulo sozinho** — a
+   base ainda não o registra.
+
+`[REVISAR: levantar o teor da tese do Tema Repetitivo nº 21 do TST, em especial do item II, e o número do
+processo-piloto. É o fundamento que resta quando se afasta a ADC 80 por modulação, e sem ele a impugnação
+à gratuidade fica pela metade.]`
 
 ## Lacunas
 

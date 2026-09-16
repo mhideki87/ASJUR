@@ -7,7 +7,7 @@ gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritíve
 pecas: [contestação, contrarrazões, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-15
+atualizado: 2026-09-16
 ---
 
 # Tese — Prescrição total
@@ -173,6 +173,23 @@ julgar improcedente, sem obrigá-lo a enfrentar a tese que a Região vem rejeita
 
 **Onde não se aplica:** parcela ainda em pagamento, ou cuja supressão esteja **dentro** do quinquênio — aí
 volta a valer integralmente a seção seguinte, com a expectativa realista de acolhimento apenas da parcial.
+
+## A fórmula com que o 1º grau rejeita a total — e o que responder
+
+Sentença da 2ª VT de Campo Grande (09/2026), em uma frase: *"A pretensão de pagamento de diferenças
+salariais decorrente de incorporação de gratificação tem suporte, **também**, nos arts. 7º, VI, da CF, 457,
+§ 1º, e 468 da CLT. Atrai, assim, a prescrição parcial (CLT, 11, § 2º; Súmula TST n. 294)."*
+
+Duas observações úteis:
+
+1. **A sentença invocou a Súmula 294, cancelada** pela Resolução nº 225/2025. Não é fundamento autônomo a
+   derrubar a decisão — o art. 11, § 2º, tem o mesmo conteúdo —, mas serve para demonstrar, no recurso, que
+   o enquadramento foi feito por verbete que não está mais em vigor.
+2. **O "também" é o ponto a atacar.** O art. 11, § 2º, exige que **a própria parcela** esteja assegurada
+   por preceito de lei, não que a pretensão tenha "suporte também" em dispositivos de ordem geral. Os arts.
+   7º, VI, da CF e 468 da CLT asseguram a irredutibilidade **em abstrato**; nenhum deles institui a ITF. E o
+   art. 468, § 2º, da CLT, longe de assegurar a parcela, **expressamente a veda** — o que torna de todo
+   inviável o enquadramento na exceção final do § 2º do art. 11.
 
 ## Como o TRT24 tem decidido — atenção antes de apoiar a defesa nesta prejudicial
 

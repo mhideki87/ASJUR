@@ -62,10 +62,22 @@ gratificação de função) e que precisam de impugnação própria — nenhum p
   "31/12/9999"). Se foi, **não houve supressão**, e sim redução — o que ataca a premissa fática da inicial e
   reforça o pedido de compensação. Conferir em paralelo se alguma outra rubrica subiu no mesmo mês (ex.:
   "AAG – Adic. de Atend. em Guichê"), reduzindo a perda real alegada.
-- **POSTALIS (previdência privada)** — incompetência da Justiça do Trabalho quanto às contribuições
-  (art. 114 da CF; art. 202, §2º, da CF; art. 68 da LC 109/2001; RE 569056-3/STF); no mérito, falta de
-  comprovação de adesão ao plano e vedação a julgamento extra/ultra petita (arts. 141 e 492 do CPC)
-  quando não há pedido de desconto da cota-parte do empregado.
+- **POSTALIS (previdência privada)** — ⚠️ **a preliminar de incompetência pode estar superada: conferir o
+  Tema 1.166 da repercussão geral do STF antes de deduzi-la.** Em sentença de 09/2026 (2ª VT de Campo
+  Grande) a arguição foi rejeitada com esta fundamentação: "compete à Justiça do Trabalho processar e
+  julgar causas ajuizadas contra o empregador nas quais se pretenda o reconhecimento de verbas de natureza
+  trabalhista **e os reflexos nas respectivas contribuições para a entidade de previdência privada a ele
+  vinculada** (STF-Tema 1.166 da RG)". Sendo tese vinculante nesses termos, a preliminar deixa de ser
+  sustentável como estava, e reiterá-la sem *distinguishing* desgasta a peça.
+  `[REVISAR: conferir no STF o teor exato da tese do Tema 1.166 e o seu alcance — se alcança a cota da
+  PATROCINADORA ou apenas os reflexos; o ambiente cloud tem acesso ao STF (ver CLAUDE.md). Enquanto não
+  conferido, não deduzir a preliminar sem ressalva.]`
+  Fundamentos antigos da preliminar, hoje sob reserva: art. 114 da CF; art. 202, §2º, da CF; art. 68 da
+  LC 109/2001; RE 569056-3/STF.
+  **O que não depende da competência e segue íntegro no mérito:** falta de comprovação de adesão ao plano
+  (cópia do termo de adesão) e vedação a julgamento extra/ultra petita (arts. 141 e 492 do CPC) quando não
+  há pedido de desconto da cota-parte do empregado — a inicial pede a cota da patrocinadora sem pedir o
+  desconto da sua própria.
 - **Honorários advocatícios** — art. 791-A, I, da CLT (percentual e base de cálculo: valor atualizado
   da causa). **Erro recorrente da parte autora:** pedir honorários pelo **art. 85, § 3º, do CPC**
   "em razão da equiparação da reclamada à Fazenda Pública". A equiparação é **prerrogativa processual**
