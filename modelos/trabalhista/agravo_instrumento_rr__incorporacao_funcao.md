@@ -29,6 +29,31 @@ Daí três consequências que mudam a redação:
    Resolução 225/2025) sai da lista de vetores, mas com uma linha dizendo que não é reiterado e por quê.
    Silenciar deixa o C. TST diante de contrariedade a súmula inexistente.
 
+## A lista de óbices muda a cada denegatória — espelhe a sua, não esta
+
+A estrutura abaixo vale sempre; os **subtópicos das razões, não**. Eles têm de espelhar os óbices da
+denegatória que se está agravando, um por um, e duas sessões reais já produziram listas inteiramente
+diferentes:
+
+| Sessão | Óbices opostos pela denegatória |
+|---|---|
+| 09/2026 (a) | art. 896, § 7º + Súmula 333 · ofensa reflexa · Súmula 126 (cláusulas de ACT) · Súmula 636 do STF |
+| 09/2026 (b) | omissão "já enfrentada" + OJ 118 · verbete sumular **cancelado** + via infraconstitucional vedada no sumaríssimo · Súmula 126 ("premissas do Colegiado") + conformidade com a Súmula 51, I · ofensa reflexa · prejudicialidade |
+
+O conteúdo de cada ataque está na ficha
+[teses/trabalhista/incorporacao_gratificacao_funcao.md](../../teses/trabalhista/incorporacao_gratificacao_funcao.md),
+seção "Fase de agravo de instrumento" (itens 1 a 6) — e, para a preliminar de nulidade, na ficha
+[teses/transversal/nulidade_negativa_prestacao_jurisdicional.md](../../teses/transversal/nulidade_negativa_prestacao_jurisdicional.md).
+
+**Um bloco que vale a pena repetir: a síntese com as premissas de fato.** Antes das razões, listar em
+alíneas as premissas fixadas no acórdão (datas de admissão, de exercício da função, de revogação do
+normativo, requisito temporal da norma) e dizer que nenhuma é controvertida. É o que blinda a peça contra a
+Súmula 126 depois, e faz o relator chegar ao capítulo de mérito com os números já na mão.
+
+**Capítulo declarado "prejudicado" pela denegatória** (honorários, no caso) não se deixa de fora: fecha-se
+com um parágrafo dizendo que, destrancado qualquer dos capítulos que conduzem à improcedência, o exame se
+restabelece por consequência lógica. Silenciar é arriscar preclusão.
+
 ## Estrutura padrão
 
 ```

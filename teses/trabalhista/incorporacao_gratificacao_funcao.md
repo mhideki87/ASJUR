@@ -6,8 +6,8 @@ status: validada
 gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Motorizado, atividade especial, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, AIRR, art. 896 § 9º CLT, art. 896 § 1º-A CLT]
 pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
-ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
-atualizado: 2026-09-16
+ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/nulidade_negativa_prestacao_jurisdicional.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
+atualizado: 2026-09-17
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -411,6 +411,31 @@ admissibilidade do RR, regida pelo art. 896, § 9º, da CLT, não é evidente; (
 norma a interpretar** — o acórdão deferiu o capítulo com amparo exclusivo em "Precedentes desta Corte" (do
 próprio Regional), sem indicar preceito legal ou regulamentar. Onde não há norma cuja interpretação preceda
 o exame constitucional, não há ofensa reflexa: a obrigação nasce diretamente do julgado.
+
+**5. Súmula 126 quando a denegatória invoca "premissas do Colegiado" (sessão de 09/2026, outra denegatória).**
+A decisão afirmou que a revista "*busca rediscutir as premissas adotadas pelo Colegiado acerca da adesão da
+norma regulamentar ao contrato e do preenchimento dos requisitos para a incorporação*". Duas respostas, e a
+segunda é a que vira o jogo:
+
+- **Não há fato a revolver.** A contrariedade se demonstra com três datas e um número — início do exercício
+  da função, revogação do módulo, requisito temporal da norma —, todos registrados no acórdão e na sentença
+  por ele mantida, e **todos transcritos na própria denegatória**. Súmula 126 veda reexame de fatos e
+  provas, não a qualificação jurídica de premissas já fixadas e incontroversas.
+- **Não há premissa a rediscutir: há ausência de premissa.** O acórdão em momento algum afirmou que o
+  requisito temporal foi preenchido, nem enfrentou a objeção de que não foi. A denegatória atribui ao
+  julgado uma premissa que ele não estabeleceu — e apontar isso **realimenta a preliminar de negativa de
+  prestação jurisdicional**, porque é a mesma omissão vista de outro ângulo. Checagem barata: procurar no
+  acórdão, literalmente, a afirmação que a denegatória diz existir.
+
+**6. "A decisão está em conformidade com a Súmula 51, I" — separar adesão de aquisição.** A denegatória
+apoiou-se no trecho em que a Turma disse que o normativo "*aderiu ao contrato de trabalho*". A resposta não
+é negar a adesão: é mostrar que **adesão da norma ao contrato e aquisição do direito por ela regulado são
+coisas distintas**, e que a controvérsia é sobre a segunda. O verbete protege "vantagens deferidas
+anteriormente" — vantagem já integrada ao patrimônio pelo preenchimento das condições do regulamento —, não
+a expectativa de vir a preenchê-las. Onde a condição não se implementou não houve vantagem deferida, e sem
+vantagem deferida não há alteração lesiva a reprimir (art. 468 da CLT), mas exercício regular do poder
+regulamentar. O fecho: o acórdão mandou incorporar "*nos moldes previstos pelo Módulo 36*" **dispensando o
+requisito central do Módulo 36** — aplicou a norma contra o próprio texto.
 
 **Achado transversal, que vale para qualquer agravo:** ler a denegatória procurando **vetor não enfrentado**.
 Na sessão real, a decisão examinou as súmulas do TST e os artigos da CF, mas **não disse uma linha sobre a

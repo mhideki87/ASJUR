@@ -3,11 +3,11 @@ area: trabalhista
 tema: Prescrição total
 slug: prescricao
 status: validada
-gatilhos: [prescrição, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento, actio nata, ciência inequívoca, auxílio-acidente, espécie 94]
-pecas: [contestação, contrarrazões, recurso de revista]
+gatilhos: [prescrição, art. 7º XXIX CF, rito sumaríssimo, art. 896 § 9º CLT, art. 11 § 1º CLT, ação declaratória imprescritível, pedido declaratório, Súmula 294, art. 11 CLT, art. 11 § 2º CLT, prejudicial de mérito, alteração do pactuado, prestação sucessiva, ato único do empregador, norma interna revogada, Súmula 452, Resolução 225/2025, Súmula 275, desvio de função, reenquadramento, actio nata, ciência inequívoca, auxílio-acidente, espécie 94]
+pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-16
+atualizado: 2026-09-17
 ---
 
 # Tese — Prescrição total
@@ -69,6 +69,39 @@ Datas de revogação que servem de marco no tema mais frequente:
    **posterior**: o art. 11, § 2º, resolve sozinho.
 4. **Manter os precedentes que aplicam a Súmula 294**, apresentando-os como interpretação da *mesma regra*
    que hoje está na lei. Eles não perdem valor; perdem só o rótulo.
+
+## Em recurso de revista no rito SUMARÍSSIMO a prejudicial precisa de vetor constitucional
+
+**Achado de 09/2026, e custou um capítulo inteiro.** A orientação acima ("fundar no art. 11, § 2º") resolve
+a contestação, o recurso ordinário e as contrarrazões. Na **revista em rito sumaríssimo, não basta** — e a
+razão é de admissibilidade, não de mérito:
+
+- o art. 896, § 9º, da CLT restringe o cabimento a **violação direta da Constituição**, contrariedade a
+  **súmula do TST** ou a **súmula vinculante do STF**;
+- o art. 11, § 2º, da CLT é **infraconstitucional**: excelente fundamento de mérito, inútil como via de
+  conhecimento nesse rito;
+- e a **Súmula 294 está cancelada** (Resolução 225/2025) — quem a elege como vetor entrega ao juízo de
+  admissibilidade uma denegação de duas linhas.
+
+Foi exatamente o que aconteceu: RR interposto por "contrariedade à Súmula 294, parte final" recebeu
+denegação com o fundamento de que o verbete está cancelado, "*cujo entendimento foi incorporado ao art. 11,
+§ 2º, da CLT*", e de que a violação infraconstitucional não se enquadra no art. 896, § 9º.
+
+**A via que resta é o art. 7º, XXIX, da Constituição Federal** — a prescrição quinquenal tem sede
+constitucional, e violação direta dele é vetor expressamente autorizado. Duas consequências práticas:
+
+1. **Ao redigir a revista em sumaríssimo**, arrolar o art. 7º, XXIX, da CF no rol de vetores da abertura do
+   recurso, e desenvolvê-lo no capítulo com cotejo analítico (art. 896, § 1º-A, I a III). Citar o art. 11,
+   § 2º, ao lado, como o conteúdo da regra violada — nunca no lugar dele.
+2. **Em agravo de instrumento**, o vetor não deduzido na revista não se inova (ver
+   `modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md`). Se o dispositivo constitucional
+   foi mencionado apenas **no corpo** do capítulo, e não no rol de vetores, o capítulo fica em terreno
+   incerto: dá para sustentá-lo, mas é o mais frágil da peça, e o usuário precisa saber disso ao decidir
+   se o mantém. `[REVISAR: registrar aqui o desfecho do agravo de 09/2026 — se o C. TST admitiu o capítulo
+   pelo art. 7º, XXIX, invocado só no corpo das razões, ou se o tratou como inovação]`
+
+Em **rito ordinário** o problema não existe: ali a revista também cabe por violação de lei federal
+(art. 896, "c", da CLT), e o art. 11, § 2º, serve por si.
 
 ## Variação — parcela de origem COLETIVA, e não interna: aqui a prejudicial ganha
 
