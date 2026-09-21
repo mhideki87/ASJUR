@@ -7,7 +7,7 @@ gatilhos: [estabilidade acidentária, estabilidade provisória, garantia provis�
 pecas: [contestação, contrarrazões, recurso ordinário]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_trabalho_temporario.md]
 ver_tambem: [teses/trabalhista/justa_causa_durante_suspensao_contratual.md, teses/trabalhista/doenca_ocupacional.md, teses/trabalhista/afastamentos_auxilio_doenca.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/bis_in_idem_reparacao_ja_deferida.md, teses/trabalhista/vales_alimentacao_cesta_afastamento_act.md]
-atualizado: 2026-09-11
+atualizado: 2026-09-21
 ---
 
 # Tese — Estabilidade acidentária e omissão na emissão da CAT
@@ -98,6 +98,27 @@ negligência na emissão da CAT configura dano moral — precedente **contrário
 a tese adversária. `[REVISAR: não lido em fonte primária; conferir antes de citar ou distinguir]`
 
 ## Pontos sensíveis / variações
+
+- **O caso mais simples é a inicial que não alega afastamento nenhum — e ele aparece (09/2026).** Inicial de
+  motorista profissional pediu **R$ 67.412,53** de indenização substitutiva (33% do valor da causa) narrando
+  acidente típico em que o preposto mandou **seguir viagem**, o empregado procurou o pronto-socorro "por
+  meios próprios" e "permanece aguardando o resultado de exames" — isto é, **sem afastamento superior a 15
+  dias e sem benefício acidentário**, e tendo o contrato seguido até o termo final do aviso prévio. Os dois
+  pressupostos da Súmula 378, II, faltam na **própria narrativa**, e a ressalva do verbete não socorre,
+  porque alcança doença profissional constatada após a dispensa, não acidente típico. Sem B-91 concedido não
+  há sequer **termo inicial** para os 12 meses do art. 118. Conferir sempre se a inicial chega a alegar o
+  afastamento: é frequente que não, e a resposta cabe em três parágrafos.
+- **Acidente narrado sem data e sem local é lacuna de fato constitutivo — e é decisiva quando há tomadora.**
+  Na mesma inicial o acidente vinha como "escorregou na plataforma de carga", sem **dia**, sem indicação de
+  **qual plataforma** (da empregadora, da tomadora ou de terceiro), sem atestado, prontuário, exame ou
+  boletim de ocorrência. Para a ECT a omissão do local é a mais grave: sem ela não há como aferir se o evento
+  guarda qualquer relação com dependência sua, e o capítulo de culpa *in vigilando* perde o seu objeto.
+  Apontar as duas omissões antes de discutir mérito.
+- **Cruzar o valor do pedido com a base salarial em disputa.** A indenização substitutiva costuma ser
+  calculada sobre a remuneração que a inicial *pretende* ver reconhecida, não sobre a anotada em CTPS. No
+  caso acima, os R$ 67.412,53 eram exatamente 12 salários + 13º + férias + 1/3 + FGTS 8% + 40% sobre
+  R$ 4.300,00; sobre os R$ 1.861,00 da CTPS a mesma conta dá **R$ 29.175,52**. Impugnada a remuneração, o
+  maior pedido da causa cai pela metade sem se discutir estabilidade.
 
 - **Onde a tese quebra:** há linha jurisprudencial que **dispensa a percepção do B-91 quando a própria
   omissão da CAT impediu a concessão** do benefício — exatamente o quadro que a inicial costuma narrar. É

@@ -153,3 +153,28 @@ egresso para as fontes oficiais, e resumo de busca não confere norma. Em ordem 
       de qual decreto deu a redação de cada parágrafo. A observação de que a Previdência **nem sempre
       observa** o efeito suspensivo na prática foi mantida na ficha, como reforço da calibração: sustentar
       que a caracterização não é definitiva, não que o benefício foi reclassificado.
+
+- [ ] **O art. 467 da CLT alcança a ECT?** A redação vigente do *caput* é a da Lei 10.272/2001, e a página do
+      Planalto (lida em 21/09/2026) exibe **ao lado dela** o parágrafo único incluído pela MP 2.180-35/2001,
+      que exclui União, Estados, DF, Municípios e suas autarquias e fundações públicas — sem deixar claro se
+      o parágrafo sobreviveu à Lei 10.272, posterior em poucos dias. Empresa pública não está no rol
+      literal. Conferir a vigência do parágrafo único e a **OJ 238 da SBDI-1 do TST** (inacessível no
+      ambiente cloud, ver abaixo). Enquanto não fechar, o tópico vai à peça com `[REVISAR]`. Não há ficha
+      para o art. 467 — decidir se cabe seção própria em `multa_477_base_calculo.md` ou ficha nova.
+- [ ] **Redação vigente da OJ 394, II, da SBDI-1 do TST, e a data de eficácia da alteração.** A base afirma,
+      em `jornada_motorista_profissional.md`, que o reflexo em cascata (DSR majorado sobre 13º, férias, FGTS)
+      é dupla incidência; uma inicial de 09/2026 sustentou o oposto, invocando nova redação com eficácia a
+      partir de **20/03/2023**. Se a inicial estiver certa, o argumento da ficha está superado e precisa
+      sair. É a pendência de maior impacto imediato em peça — decide um pedido inteiro.
+- [ ] **Súmulas e OJs do TST continuam inconferíveis no ambiente cloud** (`www.tst.jus.br` responde com
+      desafio da AWS WAF; a Pesquisa de Jurisprudência é aplicação JavaScript; o `consultaunificada2`
+      devolve erro de banco do próprio TST — ver `CLAUDE.md`). Em 09/2026 isso deixou **nove verbetes** com
+      `[REVISAR]` numa única contestação (Súmulas 60, II; 146; 172; 331; 338; 364, I; 378; 389, II; 463, I;
+      e as OJs 355 e 394, II). Conferi-los em lote numa sessão local e anotar o teor nas fichas resolveria a
+      pendência de uma vez, em vez de repeti-la a cada peça.
+- [ ] **Não há ficha de dano moral trabalhista genérico.** O roteamento de 09/2026 não casou o pedido de
+      "dano moral" com ficha alguma — existem `assalto_agencia_dano_moral.md`,
+      `dano_moral_ambiente_degradante_terceirizado.md` e `assedio_moral_defesa.md`, todas de hipóteses
+      específicas. Decidir se cabe ficha transversal com o núcleo comum (art. 223-B e 223-G da CLT, dano
+      patrimonial × extrapatrimonial, critérios de arbitramento, bis in idem com as parcelas) ou se o tema
+      fica distribuído nas fichas de hipótese.

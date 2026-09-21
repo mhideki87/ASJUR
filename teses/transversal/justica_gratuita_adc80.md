@@ -3,11 +3,11 @@ area: transversal
 tema: Justiça gratuita após a ADC 80 (STF) — critérios, ônus da prova e impugnação
 slug: justica_gratuita_adc80
 status: validada
-gatilhos: [justiça gratuita, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Súmula 463 do TST, Tema Repetitivo 21, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
+gatilhos: [justiça gratuita, gratuidade da justiça, gratuidade de justiça, gratuidade judiciária, ADC 80, art. 790 §3º, art. 790 §4º, declaração de insuficiência, hipossuficiência, Súmula 463 do TST, Tema Repetitivo 21, art. 99 do CPC, Lei 15.270/2025, isenção de custas, benefício da gratuidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/preliminares_processuais_defesa.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/descontos_salariais_saldo_negativo.md, teses/trabalhista/diferencial_mercado_supressao_greve.md]
-atualizado: 2026-09-16
+atualizado: 2026-09-21
 ---
 
 # Tese — Justiça gratuita após a ADC 80
