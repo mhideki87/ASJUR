@@ -376,6 +376,8 @@ host inexistente, `202` = desafio anti-robô).
 | `jurisprudencia.tst.jus.br`, `www3.tst.jus.br`, `consultaunificada2.tst.jus.br` | respondem `200`, mas a Pesquisa de Jurisprudência é aplicação JavaScript: vem a casca de 1 KB, não o resultado |
 | `portal.stf.jus.br` (inclui a lista de súmulas e súmulas vinculantes, com o status de cancelamento) | funciona, desde que a cadeia de certificado seja completada — o `baixar_norma.py` faz isso sozinho |
 | `www.stf.jus.br` (`403`) e `jurisprudencia.stf.jus.br` (`202`, WAF) | **não** — use o `portal` |
+| `oab.org.br`, `oabsp.org.br` (Estatuto comentado, Provimentos do CFOAB, Código de Ética) | **não** — fora da lista de domínios (`000` no `CONNECT`); acrescentar `*.oab.org.br` se for preciso conferir provimento ou o CED |
+| `correios.com.br` (Código de Conduta e Integridade da ECT) | **não** — fora da lista de domínios; material provavelmente só na intranet |
 
 **Antes de mandar liberar mais domínio, teste se é mesmo a lista.** Só o `403` no `CONNECT` é recusa de
 política; `502` é host que o gateway não alcançou e `200` seguido de erro é problema do site, não da lista.
