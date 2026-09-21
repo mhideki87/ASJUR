@@ -3,11 +3,11 @@ area: trabalhista
 tema: Adicional de periculosidade — tanque suplementar de combustível
 slug: periculosidade_tanque_suplementar
 status: validada
-gatilhos: [periculosidade, NR-16, inflamáveis, tanque suplementar, tanque auxiliar, combustível, diesel, 200 litros, INMETRO, CSV, Certificado de Segurança Veicular, DETRAN, perícia técnica, motorista de carreta, caminhão-tanque, área de risco]
+gatilhos: [periculosidade, NR-16, inflamáveis, transporte de inflamáveis, líquido inflamável, produto perigoso, Anexo 2 da NR-16, Súmula 364, exposição eventual, exposição intermitente, tanque suplementar, tanque auxiliar, combustível, diesel, 200 litros, INMETRO, CSV, Certificado de Segurança Veicular, DETRAN, perícia técnica, motorista de carreta, caminhão-tanque, área de risco]
 pecas: [contestação, quesitos, contrarrazões]
 modelos: []
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-21
 ---
 
 # Tese — Adicional de periculosidade por tanque suplementar de combustível
@@ -51,6 +51,20 @@ Nenhum aresto confirmado ainda — a tese venceu por **prova pericial**, não po
 certificado, para antecipar o argumento do reclamante em contrarrazões]`
 
 ## Pontos sensíveis / variações
+
+- **Inflamável transportado como carga: a ficha não cobre a tese central, mas há duas defesas próprias — e a
+  segunda é exclusiva da ECT (09/2026).** Quando a inicial alega transporte de inflamável **como carga**
+  (hipótese que "Quando esta ficha se aplica" exclui), ainda restam:
+  **(a) a confissão de eventualidade na própria peça.** Inicial que diz ter transportado inflamável "em
+  algumas oportunidades" e, por lealdade, invoca ela mesma a **Súmula 364, I, do TST** — formulando o pedido
+  como **sucessivo**, "para o período em que a perícia apurar exposição habitual ou intermitente" — já
+  entregou o fundamento da improcedência. Transcrever o trecho.
+  **(b) o recorte da Súmula 331, VI, quando a ECT é ré subsidiária.** Se o empregado foi contratado para
+  transportar **malotes e encomendas dos Correios**, inflamável é carga de **outro cliente** da
+  transportadora: o adicional, ainda que devido, não se insere no período de prestação em benefício da ECT.
+  É defesa que dispensa perícia e vale mesmo que o laudo seja desfavorável.
+  Nos quesitos, acrescentar aos da lista abaixo: **para qual contratante** cada transporte de inflamável foi
+  realizado.
 
 - **A tese venceu em 1º grau (6ª VT de Campo Grande, 08/2026)**, com laudo que constatou caminhão com dois
   tanques originais e um suplementar de 350 litros **certificado pelo INMETRO e registrado no DETRAN por

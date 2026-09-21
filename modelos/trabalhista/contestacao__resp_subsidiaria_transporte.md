@@ -3,7 +3,7 @@
 **Consolidado de:** 1 caso-fonte (contestação da ECT como 2ª Reclamada em ação de espólio de motorista
 profissional falecido contra transportadora, rito ordinário, TRT24, 09/2026), a partir das fichas de tese e
 do modelo de recurso ordinário do mesmo tema.
-**Última atualização:** 2026-09-10 — criação.
+**Última atualização:** 2026-09-21 — 2º caso-fonte (contestação em ação de motorista vivo, 19 pedidos, TRT24); estrutura confirmada em uso e capítulo de gratuidade reescrito para os dois regimes.
 
 > Formatação: skill **`formatar-minuta`**. Este arquivo descreve **estrutura, tese e texto reaproveitável**
 > — nada de fonte, margem, cabeçalho ou assinatura.
@@ -59,6 +59,27 @@ Preâmbulo — endereçamento, autos, três polos, qualificação da ECT (art. 8
 [caixa] DOS REQUERIMENTOS   (alíneas + provas + prequestionamento expresso)
 ```
 
+**A estrutura acima foi confirmada em uso (09/2026), com uma alteração e duas observações.** A alteração:
+a numeração das preliminares mudou, porque nem todas as do desenho original tinham objeto. O que foi a
+julgamento:
+`1` ilegitimidade quanto às obrigações exclusivas do empregador · `2` **inépcia dos pedidos deduzidos sem
+valor algum** · `3` pretensão que só aparece na fundamentação · `4` limitação da condenação aos valores ·
+`5` gratuidade · `6` inversão do ônus e exibição genérica. A preliminar de irregularidade de representação
+saiu (não havia espólio nem incapaz) e a prescrição também (contrato de cinco meses, encerrado no ano
+anterior) — suprimir preliminar sem objeto, em vez de arguí-la em branco.
+As observações: **(i)** a impugnação específica com **21 subtópicos** confirmou a variação abaixo — em
+tópico principal próprio a peça fica legível; **(ii)** os capítulos "critérios de eventual condenação" e
+"prequestionamento" são os que mais se reaproveitam literalmente, e o de critérios ganhou duas alíneas novas
+(vedação expressa de dupla incidência entre as parcelas de jornada; natureza indenizatória sem reflexos do
+intrajornada e das diárias).
+
+**O capítulo da gratuidade tem dois regimes desde 09/2026, e o divisor é a data de ajuizamento.** Ação
+ajuizada **a partir** da publicação da ata do julgamento de mérito da **ADC 80** (STF, Pleno, 03/09/2026)
+segue os critérios novos — Súmula 463, I, do TST declarada inconstitucional, ônus de comprovar a cargo de
+quem pede, presunção relativa até o patamar da Lei 15.270/2025 —, e o bloco pronto está em
+`teses/transversal/justica_gratuita_adc80.md`. Antes do marco, regime anterior. **Datar o processo antes de
+escolher o bloco**: o erro aqui é visível e caro nos dois sentidos.
+
 **Variação de estrutura que vale registrar:** no modelo de terceirização a impugnação pedido a pedido é o
 item III.6, dentro do mérito. Quando os pedidos passam de uma dúzia — o caso típico de motorista, com
 jornada fatiada em seis ou sete parcelas —, ela vira **tópico principal próprio**. A numeração dos
@@ -98,6 +119,20 @@ circularidade, dever impossível, multa convencional), a contestação acrescent
 - **Prequestionamento**: rol expresso e extenso, ao final dos requerimentos. É o que sustenta a via
   recursal, e o que não for listado morre na contestação.
 
+## Duas armadilhas confirmadas no 2º caso-fonte (09/2026)
+
+- **Não invocar a modulação da ADI 5322 em contrato posterior a 12/07/2023.** Em contrato de 2025 o tempo de
+  espera **é** jornada, e sustentar o contrário é argumento autofágico que entrega credibilidade ao
+  adversário. A defesa desse capítulo é de **fato** (quanto tempo, em quais dias, contra que registro), não
+  de direito — e convém **consignar expressamente** que não se discute a tese, antes de impugnar a jornada.
+  Ver `teses/trabalhista/jornada_motorista_profissional.md`.
+- **A linha 1 não se apoia na literalidade do art. 5º da Lei 11.442/2007.** Conferido em fonte primária em
+  21/09/2026: o art. 5º remete ao contrato "de que trata o art. 4º", que é o ajuste com o **Transportador
+  Autônomo de Cargas**, e cuida de **vínculo de emprego**; o art. 8º está no capítulo da responsabilidade
+  pela carga. Redigir a linha 1 sobre o argumento conceitual, o art. 730 do CC e o **Tema 59 do TST**,
+  citando a Lei 11.442/2007 como contexto sistemático. A ficha do tema está em `status: revisar` por causa
+  disso — ler o bloco de correção antes de reaproveitar qualquer parágrafo.
+
 ## Achados de conferência que renderam capítulo inteiro (09/2026)
 
 Três conferências mecânicas, todas de poucos minutos, que produziram mais que qualquer argumento em
@@ -113,7 +148,17 @@ abstrato — e que convém repetir em toda inicial deste desenho:
    que prova ser o contador acumulador de viagem, e não jornada diária, desmontando a tese com a própria
    prova do autor. Ver
    [jornada_motorista_profissional](../../teses/trabalhista/jornada_motorista_profissional.md).
-3. **Caçar as confissões e transcrevê-las.** A peça admitia não saber a remuneração do falecido, admitia
+3. **Conferir o dia da semana de toda data citada, e refazer o percurso descrito.** No 2º caso-fonte a
+   inicial narrava rota de seis dias iniciada "aos domingos" e, adiante, descrevia o boletim que cobria o
+   eixo inteiro em menos de 20 horas, com saída numa **quinta-feira**. Some-se a divisão da quilometragem
+   declarada pelas horas alegadas (980 km ÷ 96 h = **10,2 km/h**): velocidade impossível é prova de que a
+   narrativa não descreve a operação. Ver
+   [jornada_motorista_profissional](../../teses/trabalhista/jornada_motorista_profissional.md).
+4. **Medir quanto da causa depende de uma única premissa de fato.** Ali, a remuneração "real" alegada sem
+   documento sustentava **74% do valor da causa** (R$ 149.209,91 de R$ 201.737,84) — e a prova invocada eram
+   extratos da **conta bancária do próprio autor**, que ele pedia fossem requisitados aos bancos em vez de
+   juntar. A conta leva dois minutos, define a ordem dos capítulos e vale mais que qualquer adjetivo.
+5. **Caçar as confissões e transcrevê-las.** A peça admitia não saber a remuneração do falecido, admitia
    que o intervalo intrajornada era concedido e registrado, admitia que o tempo de espera era pago
    ("a menor"), reconhecia a tese vinculante contrária à multa do art. 477, § 8º, e citava CCT "constante
    do processo-modelo", isto é, de outro processo. Cada transcrição em bloco `>` abre o subtópico

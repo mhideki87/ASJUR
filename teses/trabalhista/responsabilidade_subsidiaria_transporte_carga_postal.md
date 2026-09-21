@@ -2,12 +2,12 @@
 area: trabalhista
 tema: Responsabilidade subsidiária da ECT em contrato de transporte de carga postal
 slug: responsabilidade_subsidiaria_transporte_carga_postal
-status: validada
+status: revisar
 gatilhos: [responsabilidade subsidiária, terceirização, tomadora de serviços, culpa in vigilando, culpa in eligendo, Súmula 331, Lei 11.442/2007, contrato de transporte, transportadora, carga postal, LTN, ADC 16, RE 760.931, Tema 246, Tema 1.118, Tema 59 do TST, ônus da prova da fiscalização]
 pecas: [contestação, recurso ordinário, recurso de revista, contrarrazões]
 modelos: [modelos/trabalhista/recurso_ordinario__resp_subsidiaria_transporte.md, modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/jornada_motorista_profissional.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/responsabilidade_subsidiaria_trabalho_temporario.md, teses/trabalhista/responsabilidade_subsidiaria_terceirizacao_servicos.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/seguro_vida_obrigatorio_motorista.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-21
 ---
 
 # Tese — Responsabilidade subsidiária da ECT em contrato de transporte de carga postal
@@ -29,9 +29,12 @@ que aproveita esta ficha como linha geral e cobre só o que lhe é específico.
 
 São **duas linhas autônomas**, e a primeira é a mais forte porque dispensa discussão de prova:
 
-1. **Não há terceirização.** O contrato de transporte rodoviário de cargas é, por lei, de natureza
-   comercial; não transfere ao contratado etapa alguma do processo produtivo do contratante e não há
-   intermediação de mão de obra. Logo a Súmula 331 do TST não incide — nem o inciso IV, nem o V.
+1. **Não há terceirização.** O contrato de transporte rodoviário de cargas é de natureza comercial; não
+   transfere ao contratado etapa alguma do processo produtivo do contratante e não há intermediação de mão
+   de obra. Logo a Súmula 331 do TST não incide — nem o inciso IV, nem o V.
+   **Atenção — o apoio legal desta linha foi corrigido em 21/09/2026** (ver "Fundamentos"): ela se sustenta
+   no argumento conceitual, no art. 730 do CC e no Tema 59 do TST, **não** na subsunção literal do art. 5º
+   da Lei 11.442/2007, como esta ficha afirmava até então.
    **Atenção:** o **item I** da Súmula 331 foi **cancelado** pela Resolução nº 225/2025 do Pleno do TST
    (art. 1º, XIV: "item cancelado por perda de eficácia a partir de 11/11/2017, pela Lei 13.467/2017").
    Os itens IV, V e VI, usados nesta ficha, **seguem em vigor** — mas nunca citar o item I, e conferir se
@@ -44,12 +47,32 @@ São **duas linhas autônomas**, e a primeira é a mais forte porque dispensa di
 
 **Linha 1 — natureza comercial do contrato de transporte**
 
-- **Lei 11.442/2007, art. 5º**: "As relações decorrentes do contrato de transporte de cargas (...) são
-  sempre de natureza comercial, não ensejando, em nenhuma hipótese, a caracterização de vínculo de
-  emprego."
-- **Lei 11.442/2007, art. 8º**: o transportador responde pelas ações e omissões dos seus empregados "como
-  se essas ações ou omissões fossem próprias". É a própria lei especial que imputa ao transportador — e só
-  a ele — as obrigações relativas aos seus empregados.
+> **Correção de 21/09/2026 — os dois artigos abaixo foram lidos em fonte primária (Planalto) e dizem menos
+> do que esta ficha vinha afirmando. Não sustentar em peça ou em audiência que o art. 5º resolve o caso.**
+>
+> - O **art. 5º** qualifica como comercial as relações decorrentes do contrato de transporte de cargas
+>   **"de que trata o art. 4º desta Lei"** — e o art. 4º, conferido no mesmo acesso, é o ajuste **entre a
+>   ETC e o Transportador Autônomo de Cargas (TAC)**, ou entre o dono/embarcador da carga e o TAC. O
+>   dispositivo existe para impedir que o **TAC** seja reconhecido como empregado de quem o contrata. Não
+>   alcança, por subsunção direta, o caso típico desta ficha: empregado **de uma ETC**, que não pede vínculo
+>   com a tomadora e sim responsabilidade subsidiária dela.
+> - O **art. 8º** ("o transportador é responsável pelas ações ou omissões de seus empregados, agentes,
+>   prepostos ou terceiros contratados ou subcontratados para a execução dos serviços de transporte, como se
+>   essas ações ou omissões fossem próprias") está inserido no **capítulo da responsabilidade pela carga** —
+>   o art. 9º seguinte delimita o período coberto, "entre o momento do recebimento…". Lê-lo como regra sobre
+>   **obrigações trabalhistas** é extensão que o adversário desmonta em réplica.
+>
+> O que sobra, e sustenta a linha 1 sozinho: o argumento conceitual (terceirização pressupõe transferência
+> de etapa do processo produtivo; o contrato de transporte contrata **resultado**, não mão de obra), o
+> art. 730 do CC, o **Tema 59 do TST** e os precedentes do TRT24. A Lei 11.442/2007 entra como **contexto
+> sistemático** — o legislador deu ao transporte de cargas regime jurídico autônomo —, citada pelo que
+> literalmente diz, não como norma que decide a causa.
+
+- **Lei 11.442/2007, art. 5º** — natureza comercial das relações decorrentes do contrato de transporte de
+  cargas *de que trata o art. 4º* (ETC ↔ TAC), quanto à caracterização de vínculo de emprego. Usar como
+  contexto sistemático, com a ressalva acima.
+- **Lei 11.442/2007, art. 8º** — responsabilidade do transportador pelas ações e omissões dos seus
+  empregados "como se essas ações ou omissões fossem próprias". Reforço sistemático, com a ressalva acima.
 - **Art. 730 do Código Civil** — contrato de transporte como típico contrato civil.
 - **Tema 59 do C. TST**: "A contratação dos serviços de transporte de mercadorias, por ostentar natureza
   comercial, não se enquadra na configuração jurídica de terceirização prevista na Súmula nº 331, IV, do
@@ -225,6 +248,12 @@ lido em fonte primária]`
 
 ## Lacunas
 
+- [ ] **Reavaliar a linha 1 e devolver a ficha a `validada`.** O `status` passou a `revisar` em 21/09/2026
+      porque o fundamento legal que ela dava como principal (arts. 5º e 8º da Lei 11.442/2007) não resiste à
+      leitura em fonte primária — ver o bloco de correção em "Fundamentos". A linha permanece sustentável
+      pelo argumento conceitual e pelo Tema 59, mas a ficha só volta a `validada` quando **(a)** o Tema 59
+      for confirmado em fonte primária e **(b)** a formulação corrigida for efetivamente sustentada em peça
+      e submetida a julgamento. Enquanto isso, conferir a redação de cada citação antes de reaproveitar.
 - [ ] Confirmar o nº do incidente, a data e a publicação do **Tema 59 do TST**, e se há modulação.
 - [ ] Acompanhar o **Tema 1.118** do STF: conclusão, tese fixada, eventual suspensão nacional.
 - [ ] Conferir em fonte primária as três teses atribuídas ao **RE 760.931**.

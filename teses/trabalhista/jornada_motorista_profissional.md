@@ -3,11 +3,11 @@ area: trabalhista
 tema: Jornada do motorista profissional após a ADI 5322
 slug: jornada_motorista_profissional
 status: rascunho
-gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, intervalo intrajornada, intervalo interjornada, adicional noturno, tacógrafo, RDVO, controle eletrônico de jornada, domingos e feriados, Súmula 146]
+gatilhos: [motorista profissional, motorista de carreta, carreteiro, tempo de espera, tempo de reserva, tempo à disposição, descanso no veículo, cama leito, revezamento, dupla de motoristas, art. 235-C, art. 235-D, Lei 13.103/2015, ADI 5322, intervalo intrajornada, intervalo interjornada, adicional noturno, tacógrafo, RDVO, controle eletrônico de jornada, domingos e feriados, domingos laborados, folga compensatória, Súmula 146, boletim diário de percurso, BDI, hora noturna reduzida, rastreamento por satélite, aplicativo de controle de jornada]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
 modelos: [modelos/trabalhista/contestacao__resp_subsidiaria_transporte.md]
 ver_tambem: [teses/trabalhista/responsabilidade_subsidiaria_transporte_carga_postal.md, teses/trabalhista/parcelas_cct_transporte.md, teses/trabalhista/dano_existencial_jornada_exaustiva.md, teses/trabalhista/falecimento_empregado_espolio_verbas.md]
-atualizado: 2026-09-10
+atualizado: 2026-09-21
 ---
 
 # Tese — Jornada do motorista profissional após a ADI 5322
@@ -119,6 +119,31 @@ ECT (decisão de mérito de 05/07/2023 e decisão de ED publicada em 16/10/2024)
 jurisprudência do TST posterior a 16/10/2024 sobre integração do tempo de reserva em dupla de motoristas]`
 
 ## Pontos sensíveis / variações
+
+- **Refazer o percurso descrito nos boletins da própria inicial — é o irmão do achado das fotos do tablet, e
+  rendeu o capítulo inteiro em 09/2026.** Inicial de motorista narrava **rota longa** de seis dias (domingo
+  6h00 a sexta 20h00), **rota curta** de três dias e ~16 horas diárias em ~24 jornadas mensais. Poucos
+  parágrafos adiante, descrevia dois boletins diários de percurso que a desmentiam:
+  - o boletim de **20/11/2025** cobria o **eixo inteiro da rota longa**, praça por praça, em **menos de 20
+    horas** — não em seis dias; e a saída se deu numa **quinta-feira, às 20h30**, não no domingo às 6h00;
+  - o de **12/11/2025** fechava a rota curta em **~13h35**, não em três dias — e numa **quarta-feira**.
+  Três conferências mecânicas fecham o argumento: **(i)** somar o eixo descrito e confrontá-lo com a duração
+  alegada; **(ii)** conferir o **dia da semana** de cada data citada, que a inicial não confere; **(iii)**
+  dividir a quilometragem que a própria inicial declara pelas horas que ela alega — ali, 980 km ÷ (6 dias ×
+  16h) = **10,2 km/h**, contra ~49 km/h pelo boletim. Velocidade média impossível é prova de que a narrativa
+  não descreve a operação. Pedir os boletins integrais: a inicial só os descreve.
+- **Refazer também a conta das horas extras.** Na mesma peça: 16h × 24 jornadas = 384h; módulo de 220h →
+  excedente de **164h**; o pedido era de **209h/mês**, que nem o efeito da hora noturna reduzida alcança. E
+  havia incoerência de método — **divisor 220** para o valor da hora (que pressupõe módulo de 220h) e
+  excedente contado sobre base de 8h × 24 dias (192h). Os dois critérios não convivem.
+- **Reflexo em RSR lançado como percentual fixo.** Ali, R$ 6.703,98 ÷ R$ 33.519,90 = **exatamente 0,20**, e o
+  mesmo 20% no adicional noturno. O reflexo se apura pela razão entre dias de repouso e dias trabalhados em
+  cada mês (art. 7º, § 2º, da Lei 605/49), não por percentual fixo. Somar a contradição: quem pede **dobra de
+  domingos laborados** não pode pedir, sobre os mesmos dias, reflexo a título de repouso.
+- **Bis in idem em três camadas, quando a jornada vem fatiada.** Alegada jornada de 16h com 8h de descanso,
+  as 3h de interjornada e a 1h de intrajornada que se dizem suprimidas estão **dentro** das 16h já pedidas
+  como extras — e os domingos integram as 24 jornadas que geraram o mesmo pedido. A ressalva de que "não se
+  pretende bis in idem, observada a dedução em liquidação" não sana: transfere para a conta o que é mérito.
 
 - **Cruzar sempre as datas do contrato com 12/07/2023.** Contrato iniciado depois dessa data está
   integralmente sob os efeitos da declaração de inconstitucionalidade — invocar a modulação nesse cenário
