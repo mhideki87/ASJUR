@@ -5,9 +5,9 @@ slug: aadc_cumulacao_periculosidade
 status: revisar
 gatilhos: [AADC, adicional de atividade de distribuição e coleta, carteiro motorizado, função motorizada, carteiro motociclista, motocicleta, adicional de periculosidade, art. 193 § 4º CLT, Lei 12.997/2014, Anexo 5 da NR-16, cumulação de adicionais, Termo de Compromisso FENTECT, Súmula 361, salário-condição, Tema 15 do TST, adicional de penosidade]
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista]
-modelos: [modelos/trabalhista/contestacao__aadc_periculosidade.md]
+modelos: [modelos/trabalhista/contestacao__aadc_periculosidade.md, modelos/trabalhista/recurso_revista__execucao_honorarios_compensacao.md]
 ver_tambem: [teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/prescricao.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/preliminares_processuais_defesa.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-22
 ---
 
 # Tese — AADC x adicional de periculosidade do carteiro motorizado
@@ -222,6 +222,36 @@ razões cumulativas:
    (14/03/2024), logo não é fato superveniente. *Conferir sempre essa ordem antes de deduzir a tese.*
 4. **Autoaplicabilidade** do art. 193, § 4º (aresto acima) — sem pagamento indevido, não há dívida
    recíproca a compensar.
+
+**Segundo acórdão do TRT24 no mesmo sentido (13/08/2026, ED rejeitados em 17/09/2026, Rel. Des. Marcio
+Vasques Thibau de Almeida)**, com fundamentos parcialmente distintos: (i) compensação no processo do
+trabalho só como matéria de defesa (art. 767 da CLT) e prevista no título; (ii) ausência de crédito
+**líquido e vencido** da ECT (art. 369 do CC); (iii) o art. 535, VI, do CPC "não transforma pretensão
+eventual (...) em crédito compensável"; (iv) eventual crédito da ECT é "matéria estranha ao título" e deve
+ir à **via própria**. O próprio título coletivo (ação coletiva do sindicato de MS) consignou, ao deferir a
+cumulação, "não havendo falar em eventual compensação" — conferir essa passagem do título antes de deduzir
+a tese, porque é ela que o TRT usa para fechar a questão pela coisa julgada.
+
+**Favoráveis à ECT citados nas peças dos autos** (reforço apenas — em execução, divergência não abre RR;
+nenhum conferido em fonte primária `[REVISAR]`):
+
+- **TST, Ag-RR 800-56.2016.5.10.0004**, 7ª Turma, Rel. Min. Evandro Pereira Valadão Lopes, decisão
+  monocrática em juízo de retratação de 30/08/2024, DEJT 02/09/2024 — concedeu **efeito suspensivo** ao RR
+  para suspender as execuções individuais derivadas do título coletivo até o trânsito da Ação Declaratória
+  de Nulidade nº 1012413-52.2017.4.01.3400, admitindo em tese a compensação pelo art. 535, VI, do CPC.
+- **TRT15, AP 0010186-40.2024.5.15.0118**, 7ª Câmara, Rel. Des. Roberto Nobrega de Almeida Filho,
+  05/09/2024 — sobrestamento da execução com base no aresto acima.
+- **TRT3, AP 0010357-68.2024.5.03.0073**, 9ª Turma, Rel. Des. Rodrigo Ribeiro Bueno, j. 19/06/2024 —
+  suspensão da execução (art. 313, V, "a", do CPC) até o trânsito da ação declaratória.
+
+**No RR em execução** o tema só passa por violação direta da CF: usou-se o art. 5º, XXII, LIV e LV
+(negar ao mesmo tempo a compensação, por falta de liquidez, e a suspensão, que permitiria aguardá-la, fecha
+o único meio processual de opor a causa extintiva superveniente). Chance baixa — o TST tende a ver ofensa
+reflexa. Os arts. 1º e 18 da CF, que as peças antigas invocam, foram deixados de fora por fragilidade.
+Estrutura em [recurso_revista__execucao_honorarios_compensacao.md](../../modelos/trabalhista/recurso_revista__execucao_honorarios_compensacao.md).
+**Não afirmar** que o art. 193, § 4º, "não é autoaplicável, consoante jurisprudência uníssona do TST", como
+fazem as peças-modelo antigas: a 5ª Turma revisitou o tema em 2025 (aresto acima) e a afirmação é
+superafirmação que o adversário desmonta.
 
 ## Pontos sensíveis / variações
 
