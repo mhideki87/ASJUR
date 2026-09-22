@@ -3,7 +3,7 @@
 **Consolidado de:** 1 caso-fonte (09/2026) — cumprimento individual de sentença coletiva do sindicato de MS
 (AADC cumulado com periculosidade); agravo de petição da ECT desprovido, ED rejeitados. Estrutura também
 cotejada com RR anterior da assessoria em caso análogo (só compensação).
-**Última atualização:** 2026-09-22.
+**Última atualização:** 2026-09-22 (versão refeita sobre o modelo da assessoria).
 
 ---
 
@@ -16,6 +16,15 @@ suspensão da execução até o trânsito da ação declaratória de nulidade da
 
 Teses: [honorarios_execucao_individual_sentenca_coletiva.md](../../teses/trabalhista/honorarios_execucao_individual_sentenca_coletiva.md)
 e [aadc_cumulacao_periculosidade.md](../../teses/trabalhista/aadc_cumulacao_periculosidade.md).
+
+## Extensão e citações — não enxugar
+
+A peça da assessoria é **longa e transcreve**: em cada tema, trecho do acórdão, trecho dos ED e trecho do
+acórdão dos ED, e no mérito as ementas e decisões que as peças anteriores já trazem (TST Ag-RR
+800-56.2016.5.10.0004, TRT15, TRT3, parecer da AGU, Correição Parcial 1000162-16.2024.5.00.0000, lista de
+julgados do TRF1, RR-11782-45.2016.5.15.0084; nos honorários, as ementas do TRT12, TRT1, TRT3, TRT4 — OJ 54
+—, TRT7 e TRT17). A primeira minuta de 09/2026 saiu com um terço do tamanho, sem essas citações, e foi
+recusada pelo usuário. Referência de tamanho: ~75 mil caracteres, ~125 parágrafos numerados.
 
 ## A trava que governa a peça inteira: art. 896, § 2º, da CLT
 
@@ -33,25 +42,30 @@ acórdão calou e os ED não embargaram **está precluso** — não incluir (Sú
 ```
 [Petição de interposição — Presidência do TRT24; art. 896, § 2º, da CLT; dispensa de custas e depósito]
     ↳ quebra de página
-[Razões — Egrégio Tribunal Superior do Trabalho]
+[Razões — Egrégio Tribunal Superior do Trabalho]   parágrafos numerados em sequência (1., 2., ...)
 
-DA EQUIPARAÇÃO À FAZENDA PÚBLICA          as quatro prerrogativas numeradas (ficha de prerrogativas)
-DA ADMISSIBILIDADE DO RECURSO DE REVISTA
-  1 – Da tempestividade                    intimação do acórdão dos ED + 16 dias úteis
-  2 – Do cabimento (art. 896, § 2º; Súmula 266)
-                                            quadro tema → dispositivo da CF; "não se veicula divergência"
-  3 – Da transcendência                    jurídica (IRR pendente / questão nova) + econômica (valor e
-                                            multiplicidade de execuções do mesmo título coletivo)
-SÍNTESE PROCESSUAL                         título coletivo → cálculos → embargos → sentença de ED que
-                                            fixou os novos honorários → AP → ED
-DAS RAZÕES DO RECURSO
-  1 – Honorários na fase de execução — art. 5º, II, da CF
-      1.1 trecho do acórdão + trecho dos ED + trecho do acórdão dos ED (tese explícita)
-      1.2 dispositivo    1.3 demonstração    1.4 sobrestamento pelo Tema 150 do TST
-  2 – Compensação por fato superveniente e suspensão — art. 5º, XXII, LIV e LV, da CF
-      2.1 trechos        2.2 dispositivos    2.3 demonstração (itens a–e)
-DO PREQUESTIONAMENTO                       Súmula 297, I e III; OJ 118 da SBDI-1
-DOS PEDIDOS                                alíneas na mesma ordem dos temas
+DA TEMPESTIVIDADE RECURSAL                 ciência no DJEN + prazo em dobro (DL 779/69; DL 509/69)
+DA ISENÇÃO DAS CUSTAS, DEPÓSITO RECURSAL E REGULARIDADE DE REPRESENTAÇÃO
+DA SÍNTESE PROCESSUAL                      título coletivo → ADN 1012413-52.2017 → tutela TRF1 → Correição
+                                            Parcial → cálculos → embargos → sentença de ED (novos 5%) → AP → ED
+DO CABIMENTO                               art. 896, § 2º, transcrito; Súmula 266; "não se veicula divergência"
+DA TRANSCENDÊNCIA                          art. 896-A transcrito
+  1 – Quanto à suspensão e à compensação   tutela do TRF1 transcrita; Súmula 48; RR-11782 (ementa)
+  2 – Quanto aos honorários na execução    Tema 150 do TST; divisão no TRT24; valor/multiplicidade
+DO PREQUESTIONAMENTO                       em cada tema: trecho do acórdão + trecho dos ED + trecho do
+  1 – Compensação e suspensão              acórdão dos ED (art. 896, § 1º-A, I); Súmula 297, I e III;
+  2 – Fato novo                            OJ 118 da SBDI-1
+  3 – Honorários na execução (art. 5º, II)
+DO MÉRITO
+  1 – Suspensão do processo                lista TST (art. 193, § 4º), lista TRF1, parecer AGU, Correição
+                                            Parcial transcrita, arts. 313, V, "a", e 921, I, do CPC
+  2 – Compensação × dedução                RR-11782; arts. 368 e 373 do CC transcritos
+  3 – Fato novo                            art. 535, VI, do CPC; Súmula 48 (distinção); Súmula 394;
+                                            Ag-RR 800-56 (trecho longo); TRT15; TRT3; Tema 1009/STJ
+  4 – Honorários na execução — art. 5º, II arts. 791-A da CLT e 85, § 1º, do CPC; "ausência de lei";
+                                            ementas TRT12 (3), TRT1, TRT3 (2), TRT4 (OJ 54), TRT7, TRT17
+  5 – Sobrestamento — Tema 150 do TST
+DOS PEDIDOS                                alíneas na ordem dos temas
 Fecho + assinatura
 ```
 
@@ -92,7 +106,10 @@ meio processual de opor a causa superveniente (art. 5º, LIV e LV, da CF).
   fracionados nem repetidos em cada execução.
 - **Reflexos do AADC em horas extras** (base de cálculo pelo ACT) — o título os deferiu expressamente;
   coisa julgada. Não levar ao RR.
-- **Arts. 1º e 18 da CF** (pacto federativo), que peças antigas invocam na compensação — fracos; omitidos.
+- **Arts. 1º e 18 da CF** (pacto federativo) — fracos, mas prequestionados nos ED; **mantidos** na versão
+  aprovada, seguindo o modelo da assessoria.
+- **Lista de precedentes do TST sobre a não autoaplicabilidade do art. 193, § 4º** — mantida, mas sem a
+  expressão "jurisprudência uníssona": a 5ª Turma revisitou o tema em 2025 (ver ficha AADC).
 - **Cronologia do fato superveniente** — o art. 535, VI, exige causa **posterior ao trânsito**. A tutela do
   TRF1 é de 01/2024: conferir a data do trânsito do título antes de deduzir o capítulo.
 

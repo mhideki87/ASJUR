@@ -247,7 +247,8 @@ nenhum conferido em fonte primária `[REVISAR]`):
 **No RR em execução** o tema só passa por violação direta da CF: usou-se o art. 5º, XXII, LIV e LV
 (negar ao mesmo tempo a compensação, por falta de liquidez, e a suspensão, que permitiria aguardá-la, fecha
 o único meio processual de opor a causa extintiva superveniente). Chance baixa — o TST tende a ver ofensa
-reflexa. Os arts. 1º e 18 da CF, que as peças antigas invocam, foram deixados de fora por fragilidade.
+reflexa. Os arts. 1º e 18 da CF (pacto federativo), que as peças da assessoria invocam, são fracos mas
+foram mantidos na versão final, por estarem prequestionados.
 Estrutura em [recurso_revista__execucao_honorarios_compensacao.md](../../modelos/trabalhista/recurso_revista__execucao_honorarios_compensacao.md).
 **Não afirmar** que o art. 193, § 4º, "não é autoaplicável, consoante jurisprudência uníssona do TST", como
 fazem as peças-modelo antigas: a 5ª Turma revisitou o tema em 2025 (aresto acima) e a afirmação é
