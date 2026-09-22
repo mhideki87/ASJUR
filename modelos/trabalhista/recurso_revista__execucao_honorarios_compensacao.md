@@ -3,7 +3,7 @@
 **Consolidado de:** 1 caso-fonte (09/2026) — cumprimento individual de sentença coletiva do sindicato de MS
 (AADC cumulado com periculosidade); agravo de petição da ECT desprovido, ED rejeitados. Estrutura também
 cotejada com RR anterior da assessoria em caso análogo (só compensação).
-**Última atualização:** 2026-09-22.
+**Última atualização:** 2026-09-22 (versão refeita sobre o modelo da assessoria).
 
 ---
 
@@ -16,6 +16,15 @@ suspensão da execução até o trânsito da ação declaratória de nulidade da
 
 Teses: [honorarios_execucao_individual_sentenca_coletiva.md](../../teses/trabalhista/honorarios_execucao_individual_sentenca_coletiva.md)
 e [aadc_cumulacao_periculosidade.md](../../teses/trabalhista/aadc_cumulacao_periculosidade.md).
+
+## Extensão e citações — não enxugar
+
+A peça da assessoria é **longa e transcreve**: em cada tema, trecho do acórdão, trecho dos ED e trecho do
+acórdão dos ED, e no mérito as ementas e decisões que as peças anteriores já trazem (TST Ag-RR
+800-56.2016.5.10.0004, TRT15, TRT3, parecer da AGU, Correição Parcial 1000162-16.2024.5.00.0000, lista de
+julgados do TRF1, RR-11782-45.2016.5.15.0084; nos honorários, as ementas do TRT12, TRT1, TRT3, TRT4 — OJ 54
+—, TRT7 e TRT17). A primeira minuta de 09/2026 saiu com um terço do tamanho, sem essas citações, e foi
+recusada pelo usuário. Referência de tamanho: ~75 mil caracteres, ~125 parágrafos numerados.
 
 ## A trava que governa a peça inteira: art. 896, § 2º, da CLT
 
@@ -92,7 +101,10 @@ meio processual de opor a causa superveniente (art. 5º, LIV e LV, da CF).
   fracionados nem repetidos em cada execução.
 - **Reflexos do AADC em horas extras** (base de cálculo pelo ACT) — o título os deferiu expressamente;
   coisa julgada. Não levar ao RR.
-- **Arts. 1º e 18 da CF** (pacto federativo), que peças antigas invocam na compensação — fracos; omitidos.
+- **Arts. 1º e 18 da CF** (pacto federativo) — fracos, mas prequestionados nos ED; **mantidos** na versão
+  aprovada, seguindo o modelo da assessoria.
+- **Lista de precedentes do TST sobre a não autoaplicabilidade do art. 193, § 4º** — mantida, mas sem a
+  expressão "jurisprudência uníssona": a 5ª Turma revisitou o tema em 2025 (ver ficha AADC).
 - **Cronologia do fato superveniente** — o art. 535, VI, exige causa **posterior ao trânsito**. A tutela do
   TRF1 é de 01/2024: conferir a data do trânsito do título antes de deduzir o capítulo.
 
