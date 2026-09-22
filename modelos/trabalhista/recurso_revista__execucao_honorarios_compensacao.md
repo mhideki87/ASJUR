@@ -24,7 +24,11 @@ acórdão dos ED, e no mérito as ementas e decisões que as peças anteriores j
 800-56.2016.5.10.0004, TRT15, TRT3, parecer da AGU, Correição Parcial 1000162-16.2024.5.00.0000, lista de
 julgados do TRF1, RR-11782-45.2016.5.15.0084; nos honorários, as ementas do TRT12, TRT1, TRT3, TRT4 — OJ 54
 —, TRT7 e TRT17). A primeira minuta de 09/2026 saiu com um terço do tamanho, sem essas citações, e foi
-recusada pelo usuário. Referência de tamanho: ~75 mil caracteres, ~125 parágrafos numerados.
+recusada pelo usuário. Referência de tamanho: ~75 mil caracteres, ~125 parágrafos de corpo.
+
+**A numeração de parágrafos (1., 2., ...) das peças antigas da assessoria não se reproduz** — o padrão
+da skill `formatar-minuta` não numera parágrafos; só os subtópicos (`1 – `, `1.1 – `). A segunda versão
+de 09/2026 copiou a numeração do modelo e teve de ser refeita.
 
 ## A trava que governa a peça inteira: art. 896, § 2º, da CLT
 
@@ -42,7 +46,7 @@ acórdão calou e os ED não embargaram **está precluso** — não incluir (Sú
 ```
 [Petição de interposição — Presidência do TRT24; art. 896, § 2º, da CLT; dispensa de custas e depósito]
     ↳ quebra de página
-[Razões — Egrégio Tribunal Superior do Trabalho]   parágrafos numerados em sequência (1., 2., ...)
+[Razões — Egrégio Tribunal Superior do Trabalho]   parágrafos SEM numeração (skill formatar-minuta)
 
 DA TEMPESTIVIDADE RECURSAL                 ciência no DJEN + prazo em dobro (DL 779/69; DL 509/69)
 DA ISENÇÃO DAS CUSTAS, DEPÓSITO RECURSAL E REGULARIDADE DE REPRESENTAÇÃO

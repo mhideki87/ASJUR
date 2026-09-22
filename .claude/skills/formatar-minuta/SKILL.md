@@ -98,6 +98,9 @@ Comentário `<!-- ... -->`, de uma ou mais linhas, é ignorado e não vai para o
    `PRELIMINARMENTE`, `1 – ...`; ao entrar em `DO MÉRITO`, volta a `1 – ...`. Desdobramento vira `5.1 – `,
    `5.2 – `. Separador é sempre espaço + travessão + espaço (` – `, en dash), nunca `-` nem `.`.
    Não use lista automática do Word.
+   **Parágrafo do corpo não se numera** (`1.`, `2.`, `3.` no início do parágrafo), nem que a peça-modelo
+   anexada numere — peças antigas da assessoria numeram, e reproduzir isso já fez uma minuta ser refeita.
+   Numeração é só dos subtópicos.
 3. **Um pedido por subtópico**, na ordem da inicial/do recurso — casa com a regra 9 do `CONTEXTO.md`
    (nenhum pedido sem resposta).
 4. **Citação só do que está nos autos** (regra 2 do `CONTEXTO.md`). Ementa, dispositivo de lei e trecho de
