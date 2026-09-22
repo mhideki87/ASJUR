@@ -144,6 +144,7 @@ Muda, no bloco de qualificação:
 | Recurso ordinário | Petição de juntada à Vara + razões ao TRT da 24ª Região | RECORRENTE / RECORRIDO | art. 895 da CLT |
 | Contrarrazões de RO | Petição de juntada à Vara + razões ao TRT da 24ª Região | RECORRIDO / RECORRENTE | art. 900 da CLT |
 | Recurso de revista | Presidência do TRT24 + razões ao TST | RECORRENTE / RECORRIDO | art. 896 da CLT |
+| Agravo de instrumento em RR | Presidência do TRT24 + razões ao TST | AGRAVANTE / AGRAVADO | art. 897, "b", da CLT |
 | Embargos de declaração | Juízo/órgão que decidiu | EMBARGANTE / EMBARGADO | art. 897-A da CLT c/c art. 1.022 do CPC |
 | Quesitos / manifestação | Juízo do processo | conforme os autos | — |
 | Contestação cível | Juizado Especial Federal ou Vara Federal | AUTOR / RÉ | `[REVISAR: dispositivo]` |

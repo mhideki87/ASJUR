@@ -11,6 +11,9 @@
   Campo Grande/MS.
 - **Trabalhista:** TRT da 24ª Região e Varas do Trabalho de Campo Grande; **PJe**; ritos sumaríssimo
   (ATSum) e ordinário.
+  **Admissibilidade do recurso de revista e do agravo de instrumento em RR, no TRT24, é do Presidente
+  do Tribunal** — a petição de interposição se dirige ao "Desembargador Presidente do TRT da 24ª Região"
+  (confirmado pelo usuário em 22/09/2026).
 - **Cível:** Juizados Especiais Federais e Justiça Federal comum (1º e 2º grau, TRF3). Mesma formatação e
   mesma assinatura da trabalhista.
   `[REVISAR: confirmar se há Justiça Estadual e se há atuação no polo ativo em cível]`
