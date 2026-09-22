@@ -3,11 +3,11 @@ area: trabalhista
 tema: Honorários sucumbenciais autônomos na execução individual de sentença coletiva — descabimento
 slug: honorarios_execucao_individual_sentenca_coletiva
 status: validada
-gatilhos: [honorários na execução, honorários sucumbenciais autônomos, execução individual de sentença coletiva, liquidação individual, ação coletiva, substituto processual, sindicato substituto, honorários assistenciais, Súmula 219 do TST, Lei 5.584/70, art. 791-A, art. 85 § 1º do CPC, Súmula 345 do STJ, bis in idem, agravo de petição, embargos à execução, impugnação aos cálculos]
-pecas: [contraminuta de agravo de petição, embargos à execução, impugnação aos cálculos, manifestação]
-modelos: []
+gatilhos: [honorários na execução, honorários sucumbenciais autônomos, execução individual de sentença coletiva, liquidação individual, ação coletiva, substituto processual, sindicato substituto, honorários assistenciais, Súmula 219 do TST, Lei 5.584/70, art. 791-A, art. 85 § 1º do CPC, Súmula 345 do STJ, bis in idem, agravo de petição, embargos à execução, impugnação aos cálculos, Tema 150 do TST, Tema 1142 do STF, recurso de revista em execução, art. 896 § 2º, Súmula 266]
+pecas: [contraminuta de agravo de petição, embargos à execução, impugnação aos cálculos, manifestação, embargos de declaração, recurso de revista]
+modelos: [modelos/trabalhista/recurso_revista__execucao_honorarios_compensacao.md]
 ver_tambem: [teses/trabalhista/honorarios_sucumbenciais_omissao_da_sentenca.md, teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-09
+atualizado: 2026-09-22
 ---
 
 # Tese — Honorários autônomos na execução individual de sentença coletiva
@@ -85,7 +85,32 @@ Ambos extraídos do inteiro teor do acórdão analisado em 08/09/2026.
 
 Há **precedentes do C. TST** que admitem nova verba na execução individual de sentença coletiva, invocados
 pelo exequente no caso analisado. O TRT24 os afastou por *distinguishing*, não por divergência aberta.
-`[REVISAR: identificar e catalogar esses arestos — sem eles, a defesa não antecipa o contraditório.]`
+
+Arestos contrários efetivamente citados em decisões dos autos (sessão de 22/09/2026 — nenhum conferido em
+fonte primária):
+
+- **TST, RRAg 2496-19.2014.5.02.0070**, 4ª Turma, Rel. Min. Alexandre Luiz Ramos, j. 05/08/2025, publ.
+  15/08/2025 — "os honorários advocatícios objeto da ação de execução individual não se confundem com
+  aqueles fixados em ação coletiva anterior (...) constituindo-se em verbas distintas e autônomas, não se
+  verificando, assim, ofensa à coisa julgada". É o aresto que o TRT24 transcreve para decidir contra a ECT.
+- **TRT24, Tribunal Pleno, AP 0024157-65.2022.5.24.0004**, Rel. Des. Nicanor de Araújo Lima, publ.
+  11/04/2023 — execução individual é processo autônomo; honorários da coletiva "não guardam pertinência"
+  com a execução individual **de substituído com patrocínio particular** e sem assistência sindical.
+- **TRT24, 1ª Turma, AP 0025578-16.2024.5.24.0006**, Rel. Des. Nicanor de Araújo Lima, j. 02/12/2025 —
+  honorários sucumbenciais cabíveis na execução individual, "aplicando-se, inclusive por analogia, o art. 81,
+  § 1º, do CPC e a Súmula nº 345 do STJ". (A menção ao art. 81, § 1º — que trata de litigância de má-fé —
+  parece erro por art. 85, § 1º; a própria ementa admite que a verba se sustenta em analogia.)
+
+**O TRT24 está dividido.** A 2ª Turma (precedentes acima) acolhe o *bis in idem*; o colegiado do Rel. Des.
+Marcio Vasques Thibau de Almeida (acórdão de 13/08/2026, ED rejeitados em 17/09/2026) manteve os 5% da
+execução **somados** aos 15% assistenciais da coletiva já lançados na conta, com base no AP 0024157 e no
+RRAg 2496-19. `[REVISAR: o acórdão se identifica como do Tribunal Pleno e o dos ED como da 1ª Turma, com a
+mesma composição — conferir na certidão qual órgão julgou.]`
+
+**Tema 150 da Tabela de Recursos Repetitivos do TST** — IRR sobre honorários na execução individual de
+sentença coletiva, **sem tese fixada** em 09/2026 (o próprio acórdão regional de 17/09/2026 o registra).
+`[REVISAR: conferir o enunciado da questão afetada e se há ordem de suspensão nacional — o site do TST é
+inacessível no ambiente cloud/web.]` Enquanto pendente, invocá-lo nos ED e pedir sobrestamento no RR.
 
 ## Pontos sensíveis / variações
 
@@ -101,7 +126,26 @@ pelo exequente no caso analisado. O TRT24 os afastou por *distinguishing*, não 
   aprecia** — omissão que exige **embargos de declaração** para prequestionar (Súmula 297 do TST). Cotejar
   o rol de pedidos do recurso com os capítulos do voto antes de deixar precluir.
 - **Recurso de revista em execução** só cabe por **ofensa direta e literal à Constituição** (art. 896, § 2º,
-  da CLT; Súmula 266 do TST). `[REVISAR: confirmar viabilidade caso a caso.]`
+  da CLT; Súmula 266 do TST). Vetores usados em 09/2026 (modelo
+  [recurso_revista__execucao_honorarios_compensacao.md](../../modelos/trabalhista/recurso_revista__execucao_honorarios_compensacao.md)):
+  - **Art. 5º, II, da CF** para os honorários da execução. Para escapar da pecha de ofensa reflexa, o
+    argumento não pode ser "o TRT interpretou mal o art. 791-A": tem de ser "**não há lei** que crie a
+    obrigação" — o acórdão responde à ausência de previsão legal só com a "premissa" da autonomia dos
+    processos e com analogia, sem indicar a norma. Resultado do RR ainda desconhecido.
+  - **Art. 100, § 8º, da CF (Tema 1142/STF)** para a exclusão dos honorários da coletiva fracionados na
+    conta individual — é o vetor constitucional mais limpo do tema, **mas só se tiver sido embargado**.
+- **Lição de 09/2026 — Tema 1142 perdido por não constar dos ED.** O agravo de petição pediu a exclusão dos
+  15% da coletiva pelo Tema 1142/STF (art. 100, § 8º, da CF); o acórdão não o apreciou; os ED só levantaram
+  o art. 5º, II, e o *bis in idem*. Resultado: o único vetor constitucional direto do tema ficou precluso
+  para o RR (Súmula 297, II, do TST). **Ao embargar, cotejar item por item o agravo com o voto** e embargar
+  cada tese constitucional não enfrentada, com rubrica própria.
+- **O acórdão pode responder com o raciocínio de outro caso.** Em 09/2026 o voto transcreveu a
+  fundamentação do AP em que o **sindicato** pedia para entrar nas execuções individuais ("substituído que
+  opta pelo patrocínio particular", "inexistindo assistência sindical") — premissa oposta aos autos, em que
+  o sindicato é parte e há convênio sindicato/advogados. E a conclusão ali ("honorários da coletiva não
+  guardam pertinência com a execução individual") **favorecia** o pedido da ECT de excluí-los da conta,
+  embora o dispositivo o negasse. Contradição e premissa fática errada são matéria de ED — não embargadas,
+  não se recuperam no RR.
 
 ## Limites da coisa julgada em liquidação — o que não adianta tentar
 
@@ -133,7 +177,9 @@ base, duplicidade) dentro dos limites do título — não ao reabrir **tese** de
 
 ## Lacunas
 
-- [ ] Catalogar os precedentes do C. TST **favoráveis ao exequente** neste tema, para antecipar o contraditório.
+- [ ] Catalogar os precedentes do C. TST **favoráveis ao exequente** neste tema — primeiro já registrado
+      (RRAg 2496-19.2014.5.02.0070); faltam outros e a conferência em fonte primária.
+- [ ] Acompanhar o Tema 150 do TST (IRR) e o resultado do RR de 09/2026 pelo art. 5º, II, da CF.
 - [ ] Conferir os dois acórdãos do TRT24 em fonte primária.
 - [ ] Criar o modelo estrutural `modelos/trabalhista/contraminuta_ap__honorarios_execucao_coletiva.md` a
       partir da primeira minuta aprovada.
