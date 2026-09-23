@@ -58,7 +58,7 @@ acórdão calou e os ED não embargaram **está precluso** — não incluir (Sú
     ↳ quebra de página
 [Razões — Egrégio Tribunal Superior do Trabalho]   parágrafos SEM numeração (skill formatar-minuta)
 
-DA TEMPESTIVIDADE RECURSAL                 ciência no DJEN + prazo em dobro (DL 779/69; DL 509/69)
+DA TEMPESTIVIDADE E DO PREPARO            uma frase: "é tempestivo" + prazo em dobro, sem datas
 DA ISENÇÃO DAS CUSTAS, DEPÓSITO RECURSAL E REGULARIDADE DE REPRESENTAÇÃO
 DA SÍNTESE PROCESSUAL                      título coletivo → ADN 1012413-52.2017 → tutela TRF1 → Correição
                                             Parcial → cálculos → embargos → sentença de ED (novos 5%) → AP → ED
