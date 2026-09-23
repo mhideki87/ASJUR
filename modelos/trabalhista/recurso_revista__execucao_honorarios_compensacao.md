@@ -17,14 +17,24 @@ suspensão da execução até o trânsito da ação declaratória de nulidade da
 Teses: [honorarios_execucao_individual_sentenca_coletiva.md](../../teses/trabalhista/honorarios_execucao_individual_sentenca_coletiva.md)
 e [aadc_cumulacao_periculosidade.md](../../teses/trabalhista/aadc_cumulacao_periculosidade.md).
 
-## Extensão e citações — não enxugar
+## Extensão e citações — objetivo, com as ementas principais
 
-A peça da assessoria é **longa e transcreve**: em cada tema, trecho do acórdão, trecho dos ED e trecho do
-acórdão dos ED, e no mérito as ementas e decisões que as peças anteriores já trazem (TST Ag-RR
-800-56.2016.5.10.0004, TRT15, TRT3, parecer da AGU, Correição Parcial 1000162-16.2024.5.00.0000, lista de
-julgados do TRF1, RR-11782-45.2016.5.15.0084; nos honorários, as ementas do TRT12, TRT1, TRT3, TRT4 — OJ 54
-—, TRT7 e TRT17). A primeira minuta de 09/2026 saiu com um terço do tamanho, sem essas citações, e foi
-recusada pelo usuário. Referência de tamanho: ~75 mil caracteres, ~125 parágrafos de corpo.
+Todos os argumentos entram, mas em redação direta e sem repetição entre tópicos. **Transcrever só as
+ementas centrais** e identificar as demais em "No mesmo sentido: ...". Na versão aprovada (09/2026, ~26 mil
+caracteres):
+
+- **Prequestionamento:** trecho essencial do acórdão e do acórdão dos ED; o conteúdo dos ED resumido em
+  uma frase com o item citado.
+- **Suspensão:** transcritos a tutela do TRF1 e o trecho da Correição Parcial 1000162-16.2024.5.00.0000 sobre
+  a irrepetibilidade; identificados os julgados do TRF1, o parecer da AGU e os precedentes do TST.
+- **Compensação:** transcritos RR-11782-45.2016.5.15.0084 (compensação × dedução), trecho do Ag-RR
+  800-56.2016.5.10.0004 (itens "e" e "3") e ementa do TRT3 (AP 0010357-68.2024.5.03.0073); identificado o
+  TRT15.
+- **Honorários:** transcritas as ementas do TRT12 (AP 0001687-67.2024.5.12.0048, que cita o art. 791-A) e do
+  TRT17 ("não existe base legal"); identificadas as demais (TRT12 ×2, TRT1, TRT3 ×2, OJ 54 do TRT4, TRT7).
+
+Histórico: a 1ª versão cortou argumentos e ementas; a 2ª transcreveu tudo (~75 mil caracteres) e foi
+considerada longa demais.
 
 **A numeração de parágrafos (1., 2., ...) das peças antigas da assessoria não se reproduz** — o padrão
 da skill `formatar-minuta` não numera parágrafos; só os subtópicos (`1 – `, `1.1 – `). A segunda versão
@@ -67,7 +77,7 @@ DO MÉRITO
   3 – Fato novo                            art. 535, VI, do CPC; Súmula 48 (distinção); Súmula 394;
                                             Ag-RR 800-56 (trecho longo); TRT15; TRT3; Tema 1009/STJ
   4 – Honorários na execução — art. 5º, II arts. 791-A da CLT e 85, § 1º, do CPC; "ausência de lei";
-                                            ementas TRT12 (3), TRT1, TRT3 (2), TRT4 (OJ 54), TRT7, TRT17
+                                            2 ementas transcritas + "no mesmo sentido" (ver acima)
   5 – Sobrestamento — Tema 150 do TST
 DOS PEDIDOS                                alíneas na ordem dos temas
 Fecho + assinatura
