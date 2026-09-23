@@ -28,6 +28,9 @@
 3. Listar ao final, separadamente, **o que precisa de conferência humana** — a lista na conversa vale
    junto com o realce amarelo no arquivo, não no lugar dele: datas de intimação e contagem
    de prazo, cômputo de tempo em função gratificada, Ids e cláusulas, e toda a jurisprudência citada.
+   **Na peça, a tempestividade se afirma em uma frase** ("O presente recurso é tempestivo, considerada a
+   prerrogativa do prazo em dobro..."), sem discriminar data de intimação, início e termo do prazo — a
+   contagem fica só na lista de conferência da conversa.
 4. Não presumir fato ausente dos documentos; divergindo defesa e sentença, apoiar-se na sentença e na capa
    do PJe. **Não construir linha de defesa sobre a ausência de uma parcela, rubrica ou registro sem ter em
    mãos o documento de todo o período** — ausência no recorte juntado pela inicial não é ausência no
