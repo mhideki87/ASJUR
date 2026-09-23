@@ -38,12 +38,13 @@
    margens 3/2/3/2 cm, tópico principal em caixa alta dentro de retângulo, subtópicos numerados em negrito
    sublinhado, cabeçalho/rodapé e assinatura clonados de `modelos/_FORMATO_BASE.docx`. Peça-modelo anexada
    serve para estrutura e tese, **nunca** para formatação.
-   **Mas estrutura e tese se aproveitam por inteiro:** seguir os tópicos do modelo na ordem dele, reaproveitar
-   o texto e **transcrever a jurisprudência** que ele e as peças dos autos trazem (trechos do acórdão, dos
-   ED, ementas). Não condensar a peça nem cortar citações por conta própria — em 09/2026 um RR saiu com um
-   terço do tamanho do modelo e sem as ementas, e teve de ser refeito. Discordando de algum trecho (tese
-   fraca, afirmação superada), manter e marcar `[REVISAR: ...]` com o motivo, ou dizer na resposta o que
-   saiu e por quê.
+   **Mas estrutura e tese se aproveitam por inteiro:** seguir os tópicos do modelo, **manter todos os
+   argumentos** dele e dos autos — sem cortar tese por conta própria. A redação, porém, é **objetiva**: sem
+   repetir o mesmo argumento em vários tópicos, com transcrição só das **ementas mais importantes** (as que
+   tratam do mesmo fato ou fundamentam diretamente a tese) e as demais **apenas identificadas** numa linha
+   "No mesmo sentido: ..." (tribunal, nº, órgão, data). Calibrado em 09/2026 num RR: a 1ª versão cortou
+   argumentos e ementas (recusada); a 2ª transcreveu tudo, com 75 mil caracteres (longa demais); a aprovada
+   ficou com ~26 mil. Discordando de algum trecho, manter e marcar `[REVISAR: ...]` com o motivo.
 7. Um processo por conversa.
 8. **Ler o índice, não a base inteira** — identificar os pedidos, abrir só as fichas que o
    [INDICE.md](INDICE.md) indicar. Ficha `status: rascunho` é candidata a tese, não tese confirmada.
