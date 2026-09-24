@@ -2,7 +2,7 @@
 
 **Consolidado de:** 1 caso-fonte (acórdão do TRT24 desfavorável + ED rejeitados; tema: ITF/Módulo 36 com
 requisito temporal não implementado até a revogação).
-**Última atualização:** 2026-09-03 — Súmula 372, I, cancelada pela Res. nº 225/2025 do TST (bloco de
+**Última atualização:** 2026-09-24 — variação do acórdão reformador; prescrição pelo art. 7º, XXIX. Antes: 2026-09-03 — Súmula 372, I, cancelada pela Res. nº 225/2025 do TST (bloco de
 *overruling* obsoleto nessa parte); data de revogação do Módulo 36 fixada em 05/05/2014.
 
 ---
@@ -60,7 +60,7 @@ DA EQUIPARAÇÃO À FAZENDA PÚBLICA          preliminar padrão de toda peça d
                                             art. 1º, III), dispensa de depósito (IV), isenção de custas
                                             (art. 790-A CLT), art. 12 do DL 509/69, STF RE 220.906/DF
 DA ADMISSIBILIDADE DO RECURSO DE REVISTA
-  1 — Da tempestividade                    intimação + prazo em dobro + Id da procuração
+  1 — Da tempestividade                    UMA frase (regra 3 do CONTEXTO.md) + Id da procuração
   2 — Das vias de admissibilidade no rito sumaríssimo (art. 896, § 9º)
                                             quadro tema-a-tema do vetor eleito; declaração expressa de que
                                             não se veicula divergência. Suprimir se o rito for ordinário
@@ -72,7 +72,9 @@ PRELIMINARMENTE
                                             art. 896, § 1º-A, IV, com as três transcrições (acórdão / ED /
                                             decisão dos ED)
 PREJUDICIAL DE MÉRITO — PRESCRIÇÃO TOTAL
-  1 — Da contrariedade à Súmula 294 do TST, parte final
+  1 — Da violação direta do art. 7º, XXIX, da CF   (NÃO mais Súmula 294: cancelada pela Res. 225/2025;
+                                            art. 11, § 2º, da CLT entra como conteúdo, não como vetor —
+                                            ver teses/trabalhista/prescricao.md)
 DO MÉRITO
   1 — Requisito temporal não implementado na vigência da norma interna — contrariedade à Súmula 51, I
   2 — Ad cautelam: legalidade administrativa (arts. 37, caput e X, e 169, § 1º, I, da CF; SV 37/STF)
@@ -158,7 +160,33 @@ Atenção: peças **antigas** da ECT indicam 15/05/2014 para o Módulo 36 — é
 - **Súmula Vinculante 37**: enquadramento frágil (o verbete trata de aumento sob fundamento de *isonomia*, e o
   TST reafirma a submissão da ECT ao regime celetista). Manter só como reforço *ad cautelam*.
 
+## Variação — acórdão REFORMADOR (sentença de improcedência, FAT/FAO do Módulo 55)
+
+Usada em 09/2026. Quando é o acórdão que defere a parcela, a peça ganha blocos que o modelo acima não tem:
+
+- **Transcendência (art. 896-A, § 1º, da CLT)** logo após as vias de admissibilidade: política (inciso II —
+  má aplicação da Súmula 51, I), jurídica (inciso IV — efeito do cancelamento da Súmula 372, I, sobre norma
+  interna revogada antes do implemento) e econômica como reforço (condenação vincenda sem termo final).
+- **Art. 5º, XXXVI, da CF ao lado da Súmula 51, I**, no capítulo principal — quando o acórdão cita o inciso
+  como fundamento do "direito adquirido".
+- **Capítulos acessórios decididos só no acórdão**, cada um com vetor constitucional próprio: CIP (arts. 5º,
+  II, e 37, *caput*); reajuste pelos ACTs (art. 7º, XXVI); POSTALPREV (art. 202, § 2º); CNIS, honorários e
+  custas como consequência. Honorários: pedir o **restabelecimento** da condenação do autor fixada na
+  sentença, com exigibilidade suspensa.
+- Argumentos do mérito dessa variante: ficha de incorporação, seção "Quando o ACÓRDÃO reforma a
+  improcedência".
+
+Calibração: a versão entregue ficou com ~43 mil caracteres, a maior parte em transcrições obrigatórias do
+art. 896, § 1º-A, I. `[REVISAR: registrar se o usuário a achou longa — o teto aprovado em RR anterior foi de
+~26 mil]`
+
 ## Erros de fase anterior que fecham portas neste recurso
+
+- **ED montado sobre peça de outro caso.** Em 09/2026 os embargos de declaração da própria ECT saíram com o
+  número de processo de outro feito no cabeçalho e com a data de ajuizamento errada ("ajuizada em 2023",
+  quando foi em 2025) — herança do modelo reaproveitado. Não prejudicou (o TRT supriu a omissão), mas no RR
+  a data errada seria usada contra a prejudicial. Conferir número e datas contra a capa do PJe e a sentença
+  antes de protocolar qualquer peça reaproveitada.
 
 Registro aqui porque, uma vez perdidas, essas matérias não voltam em RR — e a checagem é barata:
 

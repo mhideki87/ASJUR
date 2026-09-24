@@ -3,11 +3,11 @@ area: trabalhista
 tema: Incorporação de gratificação de função
 slug: incorporacao_gratificacao_funcao
 status: validada
-gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Motorizado, atividade especial, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, AIRR, art. 896 § 9º CLT, art. 896 § 1º-A CLT]
+gatilhos: [incorporação de gratificação, gratificação de função, FAT, FAO, ITF, GPTF, Módulo 55, MANPES, Súmula 372, Súmula 51, reversão ao cargo efetivo, destituição de função, estabilidade financeira, Motorizado, atividade especial, Tema 23, art. 468 § 2º CLT, Resolução 225/2025, CIP, recomissionamento, FAG, AIRR, art. 896 § 9º CLT, art. 896 § 1º-A CLT, ultratividade, acórdão reformador]
 pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/recurso_revista__incorporacao_funcao.md, modelos/trabalhista/contrarrazoes_ro__incorporacao_funcao.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/prescricao.md, teses/transversal/nulidade_negativa_prestacao_jurisdicional.md, teses/transversal/prerrogativas_processuais_ect.md, teses/trabalhista/temas_acessorios.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/transversal/devolutividade_ro_e_contrarrazoes.md]
-atualizado: 2026-09-17
+atualizado: 2026-09-24
 ---
 
 # Tese — Incorporação de gratificação de função
@@ -322,6 +322,33 @@ contados "a partir da data da dispensa da função". É a mesma resposta da seç
 
 `[REVISAR: os três vieram da transcrição feita na sentença, não da fonte — conferir antes de citar.]`
 
+**Arestos que um ACÓRDÃO REFORMADOR da 2ª Turma do TRT24 transcreveu** (07/2026, rito sumaríssimo, FAT/FAO
+deferida a quem não tinha os 5 anos na revogação do Módulo 55) — adversos, com a resposta que cada ementa
+permite, usada no RR da ECT:
+
+- **Substituição FAT/FAO → GPTF:** ARR 1322-26.2013.5.04.0014 (6ª T., Min. Augusto César Leite de Carvalho,
+  DEJT 31/05/2019 — o acórdão o cita como "ARR: 13222620135040014"); ARR-3061-74.2012.5.15.0010 (2ª T., Min.
+  José Roberto Freire Pimenta, DEJT 05/06/2015); AIRR-1551-56.2012.5.04.0002 (2ª T., Des. Conv. Cláudio
+  Armando Couce de Menezes, DEJT 06/03/2015). **Resposta:** as próprias ementas registram vantagem já deferida
+  — a reclamada "admitido em contestação que o reclamante preenchera os requisitos" da FAT/FAO; o reclamante
+  "recebeu administrativamente a incorporação (...) FAT".
+- **RH 151 da CEF / "H-151":** RR-1050-48.2022.5.07.0009 (1ª T., Min. Amaury Rodrigues Pinto Junior, DEJT
+  10/09/2024); RR-179-35.2021.5.12.0002 (3ª T., Min. Alberto Bastos Balazeiro, DEJT 07/12/2023);
+  RRAg-10742-84.2021.5.03.0052 (5ª T., Min. Breno Medeiros, DEJT 13/10/2023); RRAg-551-05.2020.5.19.0008
+  (já listado acima). **Resposta:** normativo diverso, "vigente à época da contratação" e ainda vigente na
+  destituição; nenhum trata de norma revogada antes do implemento.
+- **Ag-AIRR-533-93.2021.5.10.0009** (4ª T., Min. Alexandre Luiz Ramos, DEJT 11/11/2022) — ECT, FAT/FAO.
+  **Resposta:** a ementa não registra as datas de exercício nem de revogação, e o desfecho foi ausência de
+  transcendência, sem tese de mérito.
+- **Ag-AIRR-1851-86.2017.5.20.0005** (6ª T., Des. Conv. José Pedro de Camargo Rodrigues de Souza, DEJT
+  23/08/2024) — ação coletiva; empregados com mais de 10 anos e norma "vigente à época da contratação".
+
+Precedentes regionais do mesmo relator citados no acórdão, **adversos**: TRT24 RORSum 0025593-85.2024.5.24.0005
+(2ª T., j. 08/10/2025); CIP na base de cálculo por "Precedentes desta Corte" — RORSum 0024285-57.2023.5.24.0002,
+ROT 0024481-95.2021.5.24.0002, ROT 0024914-61.2019.5.24.0005; reajuste da parcela incorporada pelos índices
+das normas coletivas — RORSum 0025725-57.2024.5.24.0001 (j. 04/02/2026). `[REVISAR: todos vieram da
+transcrição feita no acórdão, não da fonte]`
+
 Não citar aresto que não esteja nesta lista, nos autos ou na peça-modelo.
 
 ## Como responder, um a um, aos arestos que a inicial e o RO transcrevem
@@ -441,6 +468,42 @@ requisito central do Módulo 36** — aplicou a norma contra o próprio texto.
 Na sessão real, a decisão examinou as súmulas do TST e os artigos da CF, mas **não disse uma linha sobre a
 Súmula Vinculante 37 do STF**, que fora deduzida como via autônoma do art. 896, § 9º. Apontar a omissão, com
 o devido acatamento, é argumento barato e específico.
+
+## Quando o ACÓRDÃO reforma a improcedência pela tese da "ultratividade independentemente do implemento"
+
+Registrado em 09/2026 (RR da ECT em rito sumaríssimo). Sentença de improcedência; a 2ª Turma do TRT24, por
+maioria, deferiu a **FAT/FAO do Módulo 55** a empregado com função desde 01/2008 — **4a 3m 23d** na revogação
+(01/05/2012), contra os 5 anos exigidos —, admitindo o fato expressamente e declarando "inexigível a
+implementação do requisito temporal antes da revogação", porque a Súmula 51, I, "volta-se à ultratividade das
+cláusulas benéficas (...) independentemente da implementação das condições". Mesma linha do Ag-RR
+0000151-80.2023.5.19.0009 acima. Voto vencido (Des. João de Deus) adotou a sentença. Argumentos que a
+revista usou, todos tirados do próprio acórdão:
+
+1. **Requisitos cumulativos** — o acórdão registra que o item 1.1 do Módulo 55 exige "a" (5 anos) **e** "b"
+   (dispensa da função). Nenhum dos dois ocorreu na vigência: o quinquênio viria 8 meses depois; a dispensa,
+   11 anos depois.
+2. **"Vantagens deferidas anteriormente"** — a tese da ultratividade sem implemento suprime o pressuposto
+   textual da súmula. Separar adesão da norma de aquisição do direito.
+3. **A janela de cálculo cai inteira fora da vigência.** O acórdão mandou apurar a média pelos "últimos 10
+   anos - 120 meses - a partir da dispensa" (12/2013 a 12/2023): nenhum mês dentro do período em que o
+   Módulo 55 existiu. Argumento novo e barato — é só aritmética sobre o comando do julgado.
+4. **Cronologia da adesão** — o mesmo acórdão diz que o Módulo 55 foi instituído em 01/01/2008, depois da
+   admissão (07/2007), e ao mesmo tempo que a vantagem estava "vigente à época da admissão" (item 6 do modelo
+   de RR). Referência genérica a "normas internas" de 2007 não identifica norma que previsse a FAT/FAO.
+5. **Art. 5º, XXXVI, da CF como vetor direto** — o acórdão diz que em 11/11/2017 não havia decênio ("em tese,
+   indevida") e na frase seguinte chama a situação de "direito adquirido", citando o inciso XXXVI como
+   fundamento. É a própria *ratio* constitucional, não ofensa reflexa.
+6. **Legalidade/orçamento** — o acórdão superou o art. 37 e o art. 167 da CF com "presume-se que a despesa se
+   encontre prevista no orçamento" porque existe norma interna. A norma não existe desde 2012: a presunção não
+   tem objeto.
+
+**Distinção de capítulos acessórios que só aparecem quando o acórdão defere a parcela** — sentença de
+improcedência não os enfrenta, e a ECT, vencedora, não os devolveu; são decididos pela primeira vez no
+acórdão e, por isso, já saem prequestionados: CIP (sem norma, por "precedentes"), reajuste pelos índices dos
+ACTs (art. 7º, XXVI, da CF), cota patronal POSTALPREV (art. 202, § 2º, da CF: a premissa do acórdão foi "a
+causa de pedir remota ainda é o contrato de trabalho"), retificação do CNIS e honorários.
+`[REVISAR: registrar o desfecho da admissibilidade desse RR — em especial se os vetores arts. 5º, XXXVI, e
+202, § 2º, da CF foram tidos por ofensa direta ou reflexa]`
 
 ## Pontos sensíveis / variações
 
