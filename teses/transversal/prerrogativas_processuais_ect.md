@@ -7,7 +7,7 @@ gatilhos: [correção monetária, juros de mora, atualização monetária, IPCA-
 pecas: [contestação, contrarrazões, recurso ordinário, recurso de revista, embargos de declaração, manifestação, agravo de petição]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md, modelos/trabalhista/contestacao__afastamentos.md]
 ver_tambem: [teses/trabalhista/pdv_adesao_empregado_aposentado.md, teses/civel/sancoes_e_rescisao_contrato_lei_estatais.md]
-atualizado: 2026-09-15
+atualizado: 2026-09-24
 ---
 
 # Tese — Prerrogativas processuais da ECT
@@ -120,6 +120,12 @@ o RE 220.906/DF. Não construir petição de interposição sobre o art. 183.
   deserção — é isso que caracteriza o interesse concreto no saneamento.
   `[REVISAR: conferir o inteiro teor do E-ED-RR 0000713-03.2010.5.04.0029 antes de citá-lo — entrou aqui
   pela transcrição de uma sentença, não por leitura direta.]`
+- **No 2º grau, a 2ª Turma do TRT24 aplica à ECT o regime da Fazenda Pública na atualização** (acórdão de
+  RORSum, 07/2026, com pedido do próprio reclamante): até 08/12/2021, IPCA-E e juros da poupança (art. 1º-F da
+  Lei 9.494/97, Tema 810); a partir de 09/12/2021, só a SELIC (art. 3º da EC 113/2021). Precedentes do TRT24
+  citados, com a ECT como parte: AP 0024526-61.2019.5.24.0005 (j. 25/02/2026), RORSum 0024674-65.2025.5.24.0004
+  (j. 19/05/2026) e RORSum 0025202-08.2025.5.24.0002 (j. 10/03/2026) `[REVISAR: vieram da transcrição do
+  acórdão]`. Útil para embargar sentença que aplique o critério geral das ADCs 58/59.
 - **Remessa necessária: afastada, e não vale insistir.** A mesma sentença registrou que o Decreto-lei 509/69,
   "cuja interpretação deve ser restritiva", só alcança impenhorabilidade, foro, prazo e custas — logo, sem
   remessa necessária. Não é ponto de embargos nem de recurso: é interpretação corrente e arguí-la desgasta o

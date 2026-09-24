@@ -7,7 +7,7 @@ gatilhos: [prescrição, art. 7º XXIX CF, rito sumaríssimo, art. 896 § 9º CL
 pecas: [contestação, contrarrazões, recurso de revista, agravo de instrumento]
 modelos: [modelos/trabalhista/contestacao__incorporacao_funcao.md]
 ver_tambem: [teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/trabalhista/supressao_adicional_atividade_readaptacao.md, teses/trabalhista/progressao_horizontal_pccs2008.md, teses/trabalhista/desvio_funcao_equiparacao_salarial.md, teses/trabalhista/vale_cultura_supressao.md, teses/trabalhista/diferencial_mercado_supressao_greve.md, teses/trabalhista/doenca_ocupacional.md]
-atualizado: 2026-09-17
+atualizado: 2026-09-24
 ---
 
 # Tese — Prescrição total
@@ -99,6 +99,16 @@ constitucional, e violação direta dele é vetor expressamente autorizado. Duas
    incerto: dá para sustentá-lo, mas é o mais frágil da peça, e o usuário precisa saber disso ao decidir
    se o mantém. `[REVISAR: registrar aqui o desfecho do agravo de 09/2026 — se o C. TST admitiu o capítulo
    pelo art. 7º, XXIX, invocado só no corpo das razões, ou se o tratou como inovação]`
+
+**O TRT24 já recusa a total com o argumento do cancelamento — e o próprio colegiado fornece a resposta**
+(ED em RORSum, 2ª Turma, 09/2026). O relator afirmou que "a Súmula 294 do Colendo TST foi cancelada (...) e,
+portanto, não mais pode ser invocada", e que a lesão seria a destituição da função (12/2023), renovada mês a
+mês por se tratar de "vantagem assegurada por norma regulamentar". O **voto convergente com ressalva** do
+Juiz Convocado Flávio da Costa Higa registrou que "o cancelamento da Súmula 294 do TST não implica o
+afastamento da prescrição total, cuja disciplina se encontra atualmente no art. 11, § 2º, da CLT" —
+acompanhando o resultado só porque contou o prazo da destituição. Citar esse voto na revista contra o
+fundamento do cancelamento; o ponto que resta controvertido é o **marco** (revogação da norma × destituição).
+Ementa do acórdão cita o art. 7º, XXIX, da CF — o que prequestiona o vetor.
 
 Em **rito ordinário** o problema não existe: ali a revista também cabe por violação de lei federal
 (art. 896, "c", da CLT), e o art. 11, § 2º, serve por si.
