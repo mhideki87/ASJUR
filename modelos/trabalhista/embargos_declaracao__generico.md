@@ -2,7 +2,7 @@
 
 **Consolidado de:** 1 caso-fonte — embargos contra acórdão de Turma do TRT24 em tema de redução de jornada de
 empregado público (caso identificado só pelo tema; nenhum dado de parte ou processo neste arquivo).
-**Última atualização:** 26/08/2026 — criação do modelo.
+**Última atualização:** 24/09/2026 — variação de ED contra acórdão que cria obrigação condicionada.
 
 ---
 
@@ -83,6 +83,16 @@ Fecho + assinatura (vêm de modelos/_FORMATO_BASE.docx, clonado pela skill forma
 - **Decisão que aplica tese vinculante** (IRR/repetitivo): não embargar contra a tese. Embargar apenas o que
   a tese não cobre e o que a decisão deixou indefinido — é o que preserva a transcendência do recurso
   posterior (art. 896-A da CLT).
+- **Acórdão que cria obrigação condicionada nova (09/2026, teletrabalho).** Seguiu-se o padrão do playbook
+  (seção 2.6), que prevalece sobre a estrutura acima: tempestividade em uma frase, síntese com delimitação,
+  **um único tópico "DOS VÍCIOS A SANAR"** com três subtópicos corridos (capítulo não apreciado → obrigação
+  sem contornos → fundamento normativo omitido) e **sem tópico de prequestionamento** — o pedido de tese
+  explícita entrou só como subsidiário, dentro do subtópico em que os dispositivos são o eixo. Dois recursos
+  que valeram: (i) na síntese, registrar que o mecanismo adotado pelo acórdão (comprovação periódica) foi
+  pedido pela própria ECT em contestação — mostra que o ED quer tornar a obrigação cumprível, não
+  rediscuti-la; (ii) usar a própria premissa do acórdão ("a prerrogativa só cede diante de norma que a
+  limite de forma clara") para mostrar que a norma do período estendido não foi indicada.
+  Ver `teses/trabalhista/teletrabalho_retorno_presencial.md`.
 - **Rito sumaríssimo**: conferir antes o valor da causa (art. 896, § 9º, da CLT limita o recurso de revista a
   ofensa direta à CF ou contrariedade a súmula do TST/vinculante). Isso muda o que vale prequestionar.
 
