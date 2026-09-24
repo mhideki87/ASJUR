@@ -5,9 +5,9 @@ slug: reducao_jornada_dependente_deficiencia
 status: rascunho
 gatilhos: [redução de jornada, jornada reduzida, horário especial, filho com deficiência, dependente com deficiência, TEA, transtorno do espectro autista, autismo, cuidador, art. 98 da Lei 8.112/90, Tema 138, Tema 1.097, Lei 13.146/2015, Estatuto da Pessoa com Deficiência, adaptação razoável, obrigação de fazer, empregado público celetista]
 pecas: [contestação, recurso ordinário, contrarrazões, embargos de declaração, recurso de revista]
-modelos: [modelos/trabalhista/embargos_declaracao__generico.md, modelos/trabalhista/recurso_ordinario__sentenca_primeiro_grau.md]
+modelos: [modelos/trabalhista/embargos_declaracao__generico.md, modelos/trabalhista/recurso_ordinario__sentenca_primeiro_grau.md, modelos/trabalhista/recurso_revista__reducao_jornada_norma_coletiva.md]
 ver_tambem: [teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-07
+atualizado: 2026-09-24
 ---
 
 # Tese — Redução de jornada para acompanhamento de dependente com deficiência
@@ -81,11 +81,17 @@ Por ordem de eficácia comprovada:
 3. **Ônus de demonstrar a inviabilidade operacional** — o acórdão consignou que a ECT *não demonstrou* que a
    jornada reduzida inviabiliza o serviço ou impõe ônus desproporcional. Alegar não basta: **produzir prova**
    (dimensionamento da unidade, escala, impacto na distribuição/atendimento).
-4. **Dependente sem deficiência reconhecida** — o Tema 138 trata de filho com **TEA** e o art. 98, §§ 2º e
-   3º, da Lei nº 8.112/90 refere dependente **com deficiência**. Quadro psiquiátrico (ex.: episódio
-   depressivo com sintomas ansiosos) não é automaticamente deficiência na acepção do art. 2º da Lei nº
-   13.146/2015 e do art. 1º da Convenção sobre os Direitos das Pessoas com Deficiência (Decreto nº
-   6.949/2009) — ponto **não coberto** por tese vinculante e, por isso, o de melhor perspectiva recursal.
+4. **Dependente sem deficiência reconhecida — CORRIGIDO em 09/2026: não é mais o melhor caminho.** Esta
+   ficha registrava o ponto como "o de melhor perspectiva recursal". A decisão dos embargos de declaração
+   (TRT24, 2ª Turma, 09/2026) **fechou a via**: provocado a dizer se o quadro psiquiátrico do segundo filho
+   configura deficiência (art. 2º da Lei nº 13.146/2015; art. 1º do Decreto nº 6.949/2009), o Regional
+   respondeu que a questão não era necessária à solução da controvérsia, porque *"o direito à redução de
+   jornada já encontra suporte jurídico na situação do filho com TEA"* e a condição do outro filho *"integrou
+   a avaliação fática da realidade familiar e da extensão da medida"*, sem constituir hipótese autônoma de
+   incidência do Tema 138. Resultado: não há tese sobre a qual recorrer, e insistir vira reexame de premissa
+   fática (Súmula 126). **Lição para a fase de conhecimento:** se o caso tem dois dependentes e só um com
+   deficiência reconhecida, é na contestação e no recurso ordinário que se força o enquadramento a ser
+   decidido — depois do acórdão, o Regional simplesmente declara a questão dispensável.
 5. **Limite da integração analógica — art. 8º, § 2º, da CLT** — se a analogia é com o art. 98 da Lei nº
    8.112/90, os requisitos de comprovação do próprio dispositivo não podem ser descartados ("analogia pela
    metade": aproveita-se o efeito favorável e dispensa-se o requisito). Prequestionar sempre.
@@ -99,6 +105,23 @@ Por ordem de eficácia comprovada:
    frase, **"considera satisfeita a obrigação"** porque a liminar foi cumprida. Não se extrai do julgado se
    a obrigação se exauriu com a implantação ou se persiste sem termo — obscuridade que convém sanar, porque
    é dela que depende saber quando cabe a revisão do item 2.
+   **E há um modo de perder a multa antes de discuti-la (09/2026):** se o recurso ordinário impugnou a
+   obrigação principal e, nos pedidos sucessivos, tratou só de compatibilização remuneratória e de
+   comprovação periódica, os **parâmetros da sanção não foram devolvidos**. Nos embargos, o Regional
+   recusou a matéria por isso mesmo — *"não houve impugnação autônoma e específica dos parâmetros da sanção
+   pecuniária para a hipótese de manutenção da obrigação de fazer"* — e registrou que embargos não servem
+   para deduzir pretensão recursal não devolvida. Impugnar a multa **no recurso ordinário**, em subtópico
+   próprio, ainda que subsidiariamente.
+
+8. **Norma coletiva — o único eixo que sobra para o recurso de revista (09/2026).** Havendo cláusula de
+   ACT/CCT que discipline o acompanhamento de dependentes, é por ela que passa a única **via constitucional
+   autônoma** não coberta pelo Tema 138: art. 7º, XXVI, da CF e **Tema 1.046 do STF**. O argumento não é que
+   a cláusula foi invalidada — o Regional faz questão de dizer que não foi —, e sim que ela teve o **âmbito
+   reduzido** ("situação diversa e limitada") e, no espaço assim aberto, instituiu-se por via judicial
+   adaptação que a norma coletiva não previu. Julgar insuficiente o que foi pactuado e substituí-lo é juízo
+   sobre o **conteúdo** da negociação, que o art. 7º, XXVI, reserva às partes coletivas salvo direito
+   absolutamente indisponível — ressalva que o acórdão não aciona. Ver
+   [modelos/trabalhista/recurso_revista__reducao_jornada_norma_coletiva.md](../../modelos/trabalhista/recurso_revista__reducao_jornada_norma_coletiva.md).
 
 ## Pontos sensíveis / variações
 
@@ -109,6 +132,16 @@ Por ordem de eficácia comprovada:
 - **Acórdão em consonância com tese de IRR** tende a ter RR com seguimento denegado (art. 896-C, § 11, e
   art. 896, § 7º, da CLT; Súmula 333 do TST) — recorrer *contra* o Tema 138 desperdiça a transcendência
   (art. 896-A da CLT). Recorrer só nas margens que a tese não cobre (itens 4 e 5 acima).
+- **Depois de embargos respondidos ponto a ponto, não há preliminar de nulidade a deduzir.** Na decisão de
+  09/2026 o Regional enfrentou os sete tópicos embargados com tese explícita e invocou a **OJ 118 da
+  SBDI-1** (tese explícita dispensa referência nominal ao dispositivo) e o art. 1.025 do CPC. Deduzir
+  negativa de prestação jurisdicional nesse cenário só entrega ao juízo de admissibilidade um motivo fácil
+  de trancamento — ver [teses/transversal/nulidade_negativa_prestacao_jurisdicional.md](../transversal/nulidade_negativa_prestacao_jurisdicional.md).
+- **O que o Regional recusa esclarecer, e por quê.** Pedido para que se fixe desde logo a consequência do
+  descumprimento da comprovação periódica (cessação automática, restabelecimento unilateral ou decisão
+  judicial prévia) foi rejeitado como "definição antecipada do procedimento diante de situação futura e
+  hipotética", e também porque não constava do recurso ordinário. O caminho é **pedir no RO**, não embargar
+  depois.
 - **Ordem dos pedidos** em contestação e em recurso ordinário: (i) improcedência; (ii) sucessivamente,
   redução proporcional da remuneração; (iii) sucessivamente, fixação da menor extensão de redução compatível
   com a rotina terapêutica provada; (iv) sucessivamente, comprovação periódica com consequência expressa
