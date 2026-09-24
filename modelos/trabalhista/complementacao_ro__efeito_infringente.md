@@ -1,9 +1,10 @@
 # Modelo: Complementação das razões do Recurso Ordinário — embargos da parte adversa acolhidos com efeito infringente
 
-**Consolidado de:** 1 caso-fonte — rito sumaríssimo, ECT no polo passivo, recurso ordinário já interposto
+**Consolidado de:** 2 casos-fonte — rito sumaríssimo, ECT no polo passivo, recurso ordinário já interposto
 quando os embargos da parte adversa foram acolhidos com efeito infringente (caso identificado só pelo tema;
 nenhum dado de parte ou processo aqui).
-**Última atualização:** 2026-09-10 — criação do modelo.
+**Última atualização:** 2026-09-24 — 2º caso-fonte: capítulo novo de honorários sucumbenciais (omissão suprida em embargos do Reclamante), com ratificação expressa do RO.
+(1ª versão: 2026-09-10.)
 
 ---
 
@@ -76,7 +77,9 @@ protocolar dentro do menor** — a peça do caso-fonte foi escrita assim.
   de declaração de Id. [ID]"*.
 - **Preparo** (literal): *"Não há preparo a recolher: além de a Recorrente ser isenta de custas e de
   depósito recursal (art. 1º, IV e VI, do Decreto-Lei nº 779/69), a complementação não constitui recurso
-  autônomo."*
+  autônomo."* `[REVISAR: conferir no Planalto se o inciso VI do art. 1º do DL 779/69 é mesmo o de custas —
+  no 2º caso-fonte a peça fundou a dispensa de custas no art. 12 do DL 509/69 e no capítulo da sentença que
+  a reconheceu, como o RO original.]`
 - **Reiteração das razões originais** (literal): ver o terceiro movimento do tópico da delimitação.
 - **Capítulo de mérito**: mesmo padrão de quatro movimentos do
   [`recurso_ordinario__sentenca_primeiro_grau.md`](recurso_ordinario__sentenca_primeiro_grau.md) — o que a
@@ -113,6 +116,20 @@ efeito reflexo antes da decisão.
 - **Recurso ainda não interposto** quando sai a decisão integrativa — não é caso de complementação: o
   capítulo novo entra no próprio recurso ordinário, pelo modelo
   [`recurso_ordinario__sentenca_primeiro_grau.md`](recurso_ordinario__sentenca_primeiro_grau.md).
+- **Capítulo novo = honorários sucumbenciais** (sentença omissa, embargos do Reclamante acolhidos para
+  condenar a ECT) — 2º caso-fonte, rito sumaríssimo. O RO tinha sido protocolado **antes mesmo** de os
+  embargos serem opostos. Estrutura do mérito: acessório do principal (exclusão/inversão; readequação pelo
+  § 3º do art. 791-A) → norma de regência só o art. 791-A (nunca o CPC: o art. 85, §§ 3º e 8º-A, leva a
+  piso de 10%) → base no valor arbitrado à condenação → percentual mínimo de 5%, critério a critério. Teses
+  na ficha `honorarios_sucumbenciais_omissao_da_sentenca.md`.
+- **"Aditar ou só ratificar?"** — o usuário costuma perguntar assim. Havendo capítulo novo, a mesma peça faz
+  as duas coisas: complementa no capítulo novo e **ratifica expressamente** as razões originais no tópico da
+  delimitação e no requerimento "a)". Só ratificar, sem complementar, deixa o capítulo novo sem impugnação.
+  Tempestividade do RO interposto antes dos embargos: art. 218, § 4º, do CPC.
+- **Prazo, conferido no Planalto (24/09/2026):** o § 4º do art. 1.024 do CPC diz "no prazo de 15 (quinze)
+  dias, contado da intimação da decisão dos embargos de declaração". A decisão de 1º grau costuma intimar
+  para "recurso cabível no prazo comum de 8 dias" — protocolar dentro de 8 dias úteis da ciência cobre
+  todas as leituras.
 - **Modificação em mais de um capítulo** — repetir o padrão de quatro movimentos por capítulo, mantendo a
   numeração corrida e o tópico da delimitação nomeando todos.
 

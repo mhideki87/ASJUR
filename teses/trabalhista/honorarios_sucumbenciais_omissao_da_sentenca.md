@@ -3,11 +3,11 @@ area: trabalhista
 tema: Honorários sucumbenciais — omissão da sentença e contraminuta aos embargos do Reclamante
 slug: honorarios_sucumbenciais_omissao_da_sentenca
 status: rascunho
-gatilhos: [honorários advocatícios, art. 791-A, sucumbência, ação de cobrança, art. 85 do CPC, Súmula 219 do TST, omissão quanto aos honorários, embargos de declaração do reclamante, contraminuta, base de cálculo dos honorários, arbitramento equitativo, assistência sindical, Lei 5.584/70]
+gatilhos: [honorários advocatícios, complementação das razões do recurso, aditamento do recurso ordinário, art. 1.024, § 4º, art. 791-A, sucumbência, ação de cobrança, art. 85 do CPC, Súmula 219 do TST, omissão quanto aos honorários, embargos de declaração do reclamante, contraminuta, base de cálculo dos honorários, arbitramento equitativo, assistência sindical, Lei 5.584/70]
 pecas: [contraminuta a embargos de declaração, manifestação, contestação, recurso ordinário]
-modelos: [modelos/trabalhista/contraminuta_ed__honorarios_sucumbenciais.md]
+modelos: [modelos/trabalhista/contraminuta_ed__honorarios_sucumbenciais.md, modelos/trabalhista/complementacao_ro__efeito_infringente.md]
 ver_tambem: [teses/trabalhista/temas_acessorios.md, teses/transversal/prerrogativas_processuais_ect.md, teses/transversal/devolucao_valores_recebidos_boa_fe.md]
-atualizado: 2026-09-14
+atualizado: 2026-09-24
 ---
 
 # Tese — Honorários sucumbenciais quando a sentença é omissa
@@ -64,9 +64,12 @@ tiver esse tópico** — conferir antes.
 **5. Pinça sobre a Súmula 219 do TST** — o Reclamante invoca o verbete (Fazenda Pública → percentuais do CPC)
 para elevar o percentual. Responder que (a) o verbete nasceu em contexto de honorários assistenciais,
 anterior à sistematização da Lei 13.467/2017, e não prevalece sobre regra legal expressa e superveniente; e
-(b) **se o CPC vier, vem inteiro** — inclusive o art. 85, § 8º, que impõe arbitramento por apreciação
-equitativa quando o proveito econômico for inestimável ou irrisório. Não se invoca o Código só na parte que
-amplia percentual.
+(b) ~~se o CPC vier, vem inteiro — inclusive o art. 85, § 8º (apreciação equitativa)~~ — **argumento
+retirado em 24/09/2026: é contraproducente.** O § 8º-A do art. 85 do CPC (conferido no Planalto em
+24/09/2026) manda, na fixação equitativa, observar a tabela da OAB "ou o limite mínimo de 10% (dez por
+cento)"; e o § 3º, para a Fazenda Pública, também parte de 10%. Todo caminho pelo CPC leva a piso de 10%,
+acima do mínimo de 5% do art. 791-A da CLT. **Nunca invocar o CPC, nem subsidiariamente:** a linha é só a
+especialidade do art. 791-A, cujo § 1º já cobre expressamente as ações contra a Fazenda Pública.
 `[REVISAR: conferir teor e vigência atual dos itens da Súmula 219 do TST antes de transcrever.]`
 `[REVISAR: a Súmula 219 do TST consta da lista de verbetes cancelados pela Resolução nº 225/2025 do Pleno do TST (ver LACUNAS.md). Conferir o texto da Resolução e reescrever esta passagem — o cancelamento aqui tende a FAVORECER a ECT, porque o verbete é invocado pela parte adversa.]`
 
@@ -83,6 +86,9 @@ proveito algum.
 **7. Contradição do próprio pedido** — quando o Reclamante pede percentual sobre o valor da causa "em razão
 de o direito pleiteado não ter efeito pecuniário", ele afirma e nega o proveito na mesma frase. Usar a
 afirmação dele para ancorar o arbitramento equitativo.
+`[REVISAR: tese enfraquecida em 24/09/2026 — "arbitramento equitativo" só existe no CPC (art. 85, § 8º), e o
+§ 8º-A impõe piso de 10% (ver tese 5). No processo do trabalho, "sem efeito pecuniário" leva o art. 791-A
+ao valor da causa. Na complementação de RO de 09/2026 a tese não foi usada.]`
 
 **8. Percentual mínimo de 5%, pelos critérios do art. 791-A, § 2º** (zelo, lugar, natureza e importância,
 trabalho realizado e tempo exigido). Percorrer um a um: rito sumaríssimo; matéria exclusivamente de direito;
@@ -105,6 +111,14 @@ regime próprio dessa assistência. Confirmar a credencial nos autos antes de su
 manutenção do capítulo principal (provido o recurso, inverte-se a sucumbência) e requerer o prazo para
 complementar as razões do recurso já interposto, nos limites da modificação (art. 1.024, § 4º, do CPC c/c
 art. 769 da CLT).
+
+**Depois dos embargos acolhidos, com recurso já interposto** — a peça é a complementação das razões
+(modelo `complementacao_ro__efeito_infringente.md`), e a ordem que se usou em 09/2026 foi: (1) honorários
+como acessório — provido o RO, exclusão e inversão; provido em parte, readequação pelo § 3º; (2) norma de
+regência só o art. 791-A (teses 3, 4 e 5, sem invocar o CPC); (3) base no valor arbitrado à condenação
+(tese 6); (4) percentual mínimo, critério a critério (tese 8), incluindo a premissa do próprio julgado
+contra ele: sentença que decide o mérito por "consolidação do entendimento jurisprudencial" (precedente
+vinculante) não sustenta "complexidade" para elevar o percentual.
 
 ## Jurisprudência (só o que já está confirmado)
 

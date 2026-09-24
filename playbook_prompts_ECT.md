@@ -469,7 +469,7 @@ segurança (criada em 14/09/2026) ·
 `Quesitos` = quesitos de perícia · `AIRR` = agravo de instrumento em recurso de revista (criada em
 09/09/2026) · **`Agravo de Instrumento`** e **`Suspensao de Liminar`**, por extenso, nas peças cíveis ao
 TRF3 (criadas em 15/09/2026): `AI` colidiria com `AIRR` na pasta do caso, e `SL` não se lê. Abreviações de tema: `Inc Fun` = incorporação de função ·
-`Resp Subs` = responsabilidade subsidiária · `Doença Ocup` = doença ocupacional ·
+`Resp Subs` = responsabilidade subsidiária · `Honor Sucumb` = honorários advocatícios sucumbenciais (criada em 24/09/2026) · `Doença Ocup` = doença ocupacional ·
 `Inc AAT reab` = incorporação do adicional de atividade de tratamento após reabilitação ·
 `Inc AADC reab` = idem, adicional de distribuição e coleta · `Presc total` = prescrição total (bloco livre,
 quando a prejudicial for o eixo da peça) · `PDV Aposent` = adesão a plano de desligamento voluntário por
