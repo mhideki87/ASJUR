@@ -7,7 +7,7 @@ gatilhos: [negativa de prestação jurisdicional, nulidade por negativa de prest
 pecas: [embargos de declaração, recurso de revista, agravo de instrumento, recurso ordinário]
 modelos: [modelos/trabalhista/embargos_declaracao__generico.md, modelos/trabalhista/agravo_instrumento_rr__incorporacao_funcao.md]
 ver_tambem: [teses/transversal/devolutividade_ro_e_contrarrazoes.md, teses/trabalhista/incorporacao_gratificacao_funcao.md, teses/transversal/prerrogativas_processuais_ect.md]
-atualizado: 2026-09-17
+atualizado: 2026-09-24
 ---
 
 # Tese — Nulidade por negativa de prestação jurisdicional e prequestionamento
@@ -92,6 +92,13 @@ a um pedaço e a parte não tem como apontar qual ficou de fora.
 - **Data ou premissa sem lastro nos autos.** Acórdão que apoia a conclusão em data que não figura na
   sentença, na contestação nem no recurso, e não indica o documento de onde a extraiu, dá margem à mesma
   alegação. Conferir a ausência nos autos antes de afirmá-la — e, até confirmar, manter `[REVISAR: ...]`.
+- **O reverso, confirmado em 09/2026: embargos respondidos ponto a ponto matam a preliminar.** Em acórdão
+  de embargos do TRT24, os sete tópicos embargados receberam tese explícita, e a decisão invocou
+  expressamente a **OJ 118 da SBDI-1** e o art. 1.025 do CPC. Deduzir negativa de prestação jurisdicional
+  nesse cenário entrega ao juízo de admissibilidade um motivo fácil de trancamento e contamina os capítulos
+  de mérito. A pergunta a fazer antes de escrever a preliminar é sempre a mesma, e é binária: **existe
+  capítulo embargado sem resposta?** Não existindo, suprimir — a ficha registra quando a preliminar ganha,
+  não quando ela enche a peça.
 - **No sumaríssimo a preliminar tem um só vetor.** Indicar o art. 93, IX, da CF. Art. 832 da CLT e art.
   489 do CPC são infraconstitucionais e não passam pelo art. 896, § 9º — servem na fundamentação, não
   como via de conhecimento.
